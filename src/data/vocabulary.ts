@@ -3380,6 +3380,286 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je vais au café avec mon ami."
       }
     ]
+  },
+  {
+    "id": "kitte",
+    "japanese": "切手",
+    "hiragana": "きって",
+    "romaji": "kitte",
+    "english": "postage stamp",
+    "french": "timbre",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "切手を買います。",
+        "hiragana": "きってをかいます。",
+        "romaji": "Kitte o kaimasu.",
+        "english": "I buy stamps.",
+        "french": "J'achète des timbres."
+      }
+    ]
+  },
+  {
+    "id": "kippu",
+    "japanese": "切符",
+    "hiragana": "きっぷ",
+    "romaji": "kippu",
+    "english": "ticket",
+    "french": "billet",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "電車の切符を買いました。",
+        "hiragana": "でんしゃのきっぷをかいました。",
+        "romaji": "Densha no kippu o kaimashita.",
+        "english": "I bought a train ticket.",
+        "french": "J'ai acheté un billet de train."
+      }
+    ]
+  },
+  {
+    "id": "kinou",
+    "japanese": "昨日",
+    "hiragana": "きのう",
+    "romaji": "kinou",
+    "english": "yesterday",
+    "french": "hier",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "昨日は雨でした。",
+        "hiragana": "きのうはあめでした。",
+        "romaji": "Kinou wa ame deshita.",
+        "english": "It rained yesterday.",
+        "french": "Il a plu hier."
+      }
+    ]
+  },
+  {
+    "id": "kyuu",
+    "japanese": "九",
+    "hiragana": "きゅう/く",
+    "romaji": "kyuu/ku",
+    "english": "nine",
+    "french": "neuf",
+    "level": "N5",
+    "category": "number",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "九人の学生がいます。",
+        "hiragana": "きゅうにんのがくせいがいます。",
+        "romaji": "Kyuu nin no gakusei ga imasu.",
+        "english": "There are nine students.",
+        "french": "Il y a neuf étudiants."
+      }
+    ]
+  },
+  {
+    "id": "gyuuniku",
+    "japanese": "牛肉",
+    "hiragana": "ぎゅうにく",
+    "romaji": "gyuuniku",
+    "english": "beef",
+    "french": "bœuf",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "牛肉を食べます。",
+        "hiragana": "ぎゅうにくをたべます。",
+        "romaji": "Gyuuniku o tabemasu.",
+        "english": "I eat beef.",
+        "french": "Je mange du bœuf."
+      }
+    ]
+  },
+  {
+    "id": "gyuunyuu",
+    "japanese": "牛乳",
+    "hiragana": "ぎゅうにゅう",
+    "romaji": "gyuunyuu",
+    "english": "milk",
+    "french": "lait",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毎朝牛乳を飲みます。",
+        "hiragana": "まいあさぎゅうにゅうをのみます。",
+        "romaji": "Maiasa gyuunyuu o nomimasu.",
+        "english": "I drink milk every morning.",
+        "french": "Je bois du lait chaque matin."
+      }
+    ]
+  },
+  {
+    "id": "kyou",
+    "japanese": "今日",
+    "hiragana": "きょう",
+    "romaji": "kyou",
+    "english": "today",
+    "french": "aujourd'hui",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今日は暑いです。",
+        "hiragana": "きょうはあついです。",
+        "romaji": "Kyou wa atsui desu.",
+        "english": "It is hot today.",
+        "french": "Il fait chaud aujourd'hui."
+      }
+    ]
+  },
+  {
+    "id": "kyoushitsu",
+    "japanese": "教室",
+    "hiragana": "きょうしつ",
+    "romaji": "kyoushitsu",
+    "english": "classroom",
+    "french": "salle de classe",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "教室に学生がいます。",
+        "hiragana": "きょうしつにがくせいがいます。",
+        "romaji": "Kyoushitsu ni gakusei ga imasu.",
+        "english": "There are students in the classroom.",
+        "french": "Il y a des étudiants dans la salle de classe."
+      }
+    ]
+  },
+  {
+    "id": "kyoudai",
+    "japanese": "兄弟",
+    "hiragana": "きょうだい",
+    "romaji": "kyoudai",
+    "english": "siblings",
+    "french": "frères et sœurs",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "兄弟が三人います。",
+        "hiragana": "きょうだいがさんにんいます。",
+        "romaji": "Kyoudai ga sannin imasu.",
+        "english": "I have three siblings.",
+        "french": "J'ai trois frères et sœurs."
+      }
+    ]
+  },
+  {
+    "id": "kyonen",
+    "japanese": "去年",
+    "hiragana": "きょねん",
+    "romaji": "kyonen",
+    "english": "last year",
+    "french": "l'année dernière",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "去年日本に行きました。",
+        "hiragana": "きょねんにほんにいきました。",
+        "romaji": "Kyonen Nihon ni ikimashita.",
+        "english": "I went to Japan last year.",
+        "french": "Je suis allé au Japon l'année dernière."
+      }
+    ]
+  },
+  {
+    "id": "kirai",
+    "japanese": "嫌い",
+    "hiragana": "きらい",
+    "romaji": "kirai",
+    "english": "dislike, hate",
+    "french": "détester",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "私は納豆が嫌いです。",
+        "hiragana": "わたしはなっとうがきらいです。",
+        "romaji": "Watashi wa nattou ga kirai desu.",
+        "english": "I dislike natto.",
+        "french": "Je déteste le natto."
+      }
+    ]
+  },
+  {
+    "id": "kiru",
+    "japanese": "切る",
+    "hiragana": "きる",
+    "romaji": "kiru",
+    "english": "to cut",
+    "french": "couper",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "紙を切ります。",
+        "hiragana": "かみをきります。",
+        "romaji": "Kami o kirimasu.",
+        "english": "I cut paper.",
+        "french": "Je coupe du papier."
+      }
+    ]
+  },
+  {
+    "id": "kiru_wear",
+    "japanese": "着る",
+    "hiragana": "きる",
+    "romaji": "kiru",
+    "english": "to wear (from shoulders down)",
+    "french": "porter (vêtements)",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "シャツを着ます。",
+        "hiragana": "しゃつをきます。",
+        "romaji": "Shatsu o kimasu.",
+        "english": "I wear a shirt.",
+        "french": "Je porte une chemise."
+      }
+    ]
+  },
+  {
+    "id": "kirei",
+    "japanese": "きれい",
+    "hiragana": "きれい",
+    "romaji": "kirei",
+    "english": "pretty, clean",
+    "french": "joli, propre",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "部屋はきれいです。",
+        "hiragana": "へやはきれいです。",
+        "romaji": "Heya wa kirei desu.",
+        "english": "The room is clean.",
+        "french": "La chambre est propre."
+      }
+    ]
   }
 ];
 
