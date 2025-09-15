@@ -49,11 +49,13 @@ export const useTextToSpeech = () => {
           text: text,
           model_id: ELEVENLABS_CONFIG.defaultModel,
           voice_settings: {
-            stability: 0.5,
-            similarity_boost: 0.75,
+            stability: language === 'japanese' ? 0.7 : 0.5,
+            similarity_boost: language === 'japanese' ? 0.8 : 0.75,
             style: 0.0,
             use_speaker_boost: true
-          }
+          },
+          // Add language hint to help with proper pronunciation
+          language_code: language === 'japanese' ? 'ja' : language === 'french' ? 'fr' : 'en'
         })
       });
 

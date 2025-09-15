@@ -13,7 +13,7 @@ export const ELEVENLABS_CONFIG = {
   apiUrl: 'https://api.elevenlabs.io/v1',
   defaultModel: 'eleven_multilingual_v2',
   voices: {
-    japanese: '9BWtsMINqrJLrRacOk9x', // Aria - multilingual
+    japanese: 'TX3LPaxmHKxFdv7VOQHJ', // Liam - better for Japanese
     english: 'EXAVITQu4vr4xnSDxMaL',   // Sarah
     french: 'FGY2WhTYpPnrIDTdsKH5'     // Laura
   }
