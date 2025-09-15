@@ -500,6 +500,406 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Il fait chaud aujourd'hui."
       }
     ]
+  },
+  {
+    id: "atama",
+    japanese: "頭",
+    hiragana: "あたま",
+    romaji: "atama",
+    english: "head",
+    french: "tête",
+    level: "N5",
+    category: "body parts",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "頭が痛いです。",
+        hiragana: "あたまがいたいです。",
+        romaji: "Atama ga itai desu.",
+        english: "I have a headache.",
+        french: "J'ai mal à la tête."
+      }
+    ]
+  },
+  {
+    id: "atarashii",
+    japanese: "新しい",
+    hiragana: "あたらしい",
+    romaji: "atarashii",
+    english: "new",
+    french: "nouveau",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "新しい本を買いました。",
+        hiragana: "あたらしいほんをかいました。",
+        romaji: "Atarashii hon o kaimashita.",
+        english: "I bought a new book.",
+        french: "J'ai acheté un nouveau livre."
+      }
+    ]
+  },
+  {
+    id: "achira",
+    japanese: "あちら",
+    hiragana: "あちら",
+    romaji: "achira",
+    english: "there",
+    french: "là-bas",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "先生はあちらです。",
+        hiragana: "せんせいはあちらです。",
+        romaji: "Sensei wa achira desu.",
+        english: "The teacher is over there.",
+        french: "Le professeur est là-bas."
+      }
+    ]
+  },
+  {
+    id: "atsui",
+    japanese: "暑い",
+    hiragana: "あつい",
+    romaji: "atsui",
+    english: "hot (weather)",
+    french: "chaud (temps)",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "今日は暑いです。",
+        hiragana: "きょうはあついです。",
+        romaji: "Kyou wa atsui desu.",
+        english: "It is hot today.",
+        french: "Il fait chaud aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "atsui_touch",
+    japanese: "熱い",
+    hiragana: "あつい",
+    romaji: "atsui",
+    english: "hot (to the touch)",
+    french: "chaud (au toucher)",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "このスープは熱いです。",
+        hiragana: "このすーぷはあついです。",
+        romaji: "Kono suupu wa atsui desu.",
+        english: "This soup is hot.",
+        french: "Cette soupe est chaude."
+      }
+    ]
+  },
+  {
+    id: "atsui_thick",
+    japanese: "厚い",
+    hiragana: "あつい",
+    romaji: "atsui",
+    english: "thick, kind",
+    french: "épais, gentil",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "厚い本を読みます。",
+        hiragana: "あついほんをよみます。",
+        romaji: "Atsui hon o yomimasu.",
+        english: "I read a thick book.",
+        french: "Je lis un livre épais."
+      }
+    ]
+  },
+  {
+    id: "acchi",
+    japanese: "あっち",
+    hiragana: "あっち",
+    romaji: "acchi",
+    english: "over there",
+    french: "là-bas",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "学校はあっちです。",
+        hiragana: "がっこうはあっちです。",
+        romaji: "Gakkou wa acchi desu.",
+        english: "The school is over there.",
+        french: "L'école est là-bas."
+      }
+    ]
+  },
+  {
+    id: "ato",
+    japanese: "後",
+    hiragana: "あと",
+    romaji: "ato",
+    english: "afterwards",
+    french: "après",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "授業の後で会いましょう。",
+        hiragana: "じゅぎょうのあとであいましょう。",
+        romaji: "Jugyou no ato de aimashou.",
+        english: "Let's meet after class.",
+        french: "Retrouvons-nous après le cours."
+      }
+    ]
+  },
+  {
+    id: "anata",
+    japanese: "あなた",
+    hiragana: "あなた",
+    romaji: "anata",
+    english: "you",
+    french: "toi, vous",
+    level: "N5",
+    category: "pronoun",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "あなたは学生ですか？",
+        hiragana: "あなたはがくせいですか？",
+        romaji: "Anata wa gakusei desu ka?",
+        english: "Are you a student?",
+        french: "Es-tu étudiant ?"
+      }
+    ]
+  },
+  {
+    id: "ani",
+    japanese: "兄",
+    hiragana: "あに",
+    romaji: "ani",
+    english: "older brother (humble)",
+    french: "frère aîné (humble)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "兄は東京に住んでいます。",
+        hiragana: "あにはとうきょうにすんでいます。",
+        romaji: "Ani wa Toukyou ni sunde imasu.",
+        english: "My older brother lives in Tokyo.",
+        french: "Mon frère aîné habite à Tokyo."
+      }
+    ]
+  },
+  {
+    id: "ane",
+    japanese: "姉",
+    hiragana: "あね",
+    romaji: "ane",
+    english: "older sister (humble)",
+    french: "sœur aînée (humble)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "姉は医者です。",
+        hiragana: "あねはいしゃです。",
+        romaji: "Ane wa isha desu.",
+        english: "My older sister is a doctor.",
+        french: "Ma sœur aînée est médecin."
+      }
+    ]
+  },
+  {
+    id: "ano",
+    japanese: "あの",
+    hiragana: "あの",
+    romaji: "ano",
+    english: "that (over there)",
+    french: "ce/cette (là-bas)",
+    level: "N5",
+    category: "demonstrative",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "あの山は高いです。",
+        hiragana: "あのやまはたかいです。",
+        romaji: "Ano yama wa takai desu.",
+        english: "That mountain is tall.",
+        french: "Cette montagne est haute."
+      }
+    ]
+  },
+  {
+    id: "ano_um",
+    japanese: "あの",
+    hiragana: "あの",
+    romaji: "ano",
+    english: "um...",
+    french: "euh...",
+    level: "N5",
+    category: "expression",
+    wordType: "interjection",
+    examples: [
+      {
+        japanese: "あの、ちょっといいですか？",
+        hiragana: "あの、ちょっといいですか？",
+        romaji: "Ano, chotto ii desu ka?",
+        english: "Um, may I ask you something?",
+        french: "Euh, puis-je vous demander quelque chose ?"
+      }
+    ]
+  },
+  {
+    id: "apaato",
+    japanese: "アパート",
+    hiragana: "アパート",
+    romaji: "apaato",
+    english: "apartment",
+    french: "appartement",
+    level: "N5",
+    category: "housing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "私はアパートに住んでいます。",
+        hiragana: "わたしはあぱーとにすんでいます。",
+        romaji: "Watashi wa apaato ni sunde imasu.",
+        english: "I live in an apartment.",
+        french: "J'habite dans un appartement."
+      }
+    ]
+  },
+  {
+    id: "abiru",
+    japanese: "あびる",
+    hiragana: "あびる",
+    romaji: "abiru",
+    english: "to bathe, to shower",
+    french: "se doucher, se baigner",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "毎朝シャワーをあびます。",
+        hiragana: "まいあさしゃわーをあびます。",
+        romaji: "Maiasa shawaa o abimasu.",
+        english: "I take a shower every morning.",
+        french: "Je prends une douche chaque matin."
+      }
+    ]
+  },
+  {
+    id: "abunai",
+    japanese: "危ない",
+    hiragana: "あぶない",
+    romaji: "abunai",
+    english: "dangerous",
+    french: "dangereux",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "ここは危ないです。",
+        hiragana: "ここはあぶないです。",
+        romaji: "Koko wa abunai desu.",
+        english: "It is dangerous here.",
+        french: "C'est dangereux ici."
+      }
+    ]
+  },
+  {
+    id: "amai",
+    japanese: "甘い",
+    hiragana: "あまい",
+    romaji: "amai",
+    english: "sweet",
+    french: "sucré",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "このケーキは甘いです。",
+        hiragana: "このけーきはあまいです。",
+        romaji: "Kono keeki wa amai desu.",
+        english: "This cake is sweet.",
+        french: "Ce gâteau est sucré."
+      }
+    ]
+  },
+  {
+    id: "amari",
+    japanese: "あまり",
+    hiragana: "あまり",
+    romaji: "amari",
+    english: "not very",
+    french: "pas très",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "日本語はあまり難しくないです。",
+        hiragana: "にほんごはあまりむずかしくないです。",
+        romaji: "Nihongo wa amari muzukashikunai desu.",
+        english: "Japanese is not very difficult.",
+        french: "Le japonais n'est pas très difficile."
+      }
+    ]
+  },
+  {
+    id: "ame",
+    japanese: "雨",
+    hiragana: "あめ",
+    romaji: "ame",
+    english: "rain",
+    french: "pluie",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今日は雨です。",
+        hiragana: "きょうはあめです。",
+        romaji: "Kyou wa ame desu.",
+        english: "It is raining today.",
+        french: "Il pleut aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "ame_candy",
+    japanese: "飴",
+    hiragana: "あめ",
+    romaji: "ame",
+    english: "candy",
+    french: "bonbon",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "飴を食べます。",
+        hiragana: "あめをたべます。",
+        romaji: "Ame o tabemasu.",
+        english: "I eat candy.",
+        french: "Je mange un bonbon."
+      }
+    ]
   }
 ];
 
