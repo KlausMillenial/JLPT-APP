@@ -13,6 +13,100 @@ interface VocabularyCardProps {
   language: 'english' | 'french';
 }
 
+// Create context-aware image prompts for better visual representation
+const createImagePrompt = (word: VocabularyWord, translation: string): string => {
+  const category = word.category.toLowerCase();
+  const wordType = word.wordType.toLowerCase();
+  
+  // Special handling for different categories and word types
+  if (category === 'family') {
+    if (translation.includes('father') || translation.includes('père')) {
+      return 'Cartoon illustration of a friendly middle-aged man with a warm smile, father figure, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('mother') || translation.includes('mère')) {
+      return 'Cartoon illustration of a friendly middle-aged woman with a warm smile, mother figure, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('brother') || translation.includes('frère')) {
+      return 'Cartoon illustration of a young man, brother figure, friendly appearance, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('sister') || translation.includes('sœur')) {
+      return 'Cartoon illustration of a young woman, sister figure, friendly appearance, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('grandmother') || translation.includes('grand-mère')) {
+      return 'Cartoon illustration of a kind elderly woman with gray hair, grandmother figure, warm smile, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('aunt') || translation.includes('tante')) {
+      return 'Cartoon illustration of a friendly middle-aged woman, aunt figure, welcoming appearance, simple clean style, bright colors, isolated on white background';
+    }
+    // For other family terms
+    return `Cartoon illustration of ${translation}, family member, friendly appearance, simple clean style, bright colors, isolated on white background`;
+  }
+  
+  if (category === 'food') {
+    if (translation.includes('tea') || translation.includes('thé')) {
+      return 'Cartoon illustration of a traditional Japanese tea cup with green tea, steam rising, simple clean style, bright colors, isolated on white background';
+    }
+    if (translation.includes('lunch') || translation.includes('bento')) {
+      return 'Cartoon illustration of a Japanese bento box with rice and colorful side dishes, simple clean style, bright colors, isolated on white background';
+    }
+    return `Cartoon illustration of ${translation}, Japanese cuisine style, appetizing and colorful, simple clean style, isolated on white background`;
+  }
+  
+  if (category === 'body parts' || category === 'body') {
+    if (translation.includes('stomach') || translation.includes('ventre')) {
+      return 'Simple cartoon illustration of human stomach/belly area, anatomical diagram style for children, educational, bright colors, isolated on white background';
+    }
+    return `Simple cartoon illustration of ${translation}, anatomical diagram style for children, educational, bright colors, isolated on white background`;
+  }
+  
+  if (category === 'place') {
+    if (translation.includes('bathroom') || translation.includes('toilettes')) {
+      return 'Cartoon illustration of a clean modern bathroom with toilet and sink, simple icon style, bright colors, isolated on white background';
+    }
+    return `Cartoon illustration of ${translation}, architectural view, simple clean style, bright colors, isolated on white background`;
+  }
+  
+  if (category === 'people') {
+    if (translation.includes('man') || translation.includes('homme')) {
+      return 'Cartoon illustration of a friendly adult man, simple character design, bright colors, isolated on white background';
+    }
+    if (translation.includes('boy') || translation.includes('garçon')) {
+      return 'Cartoon illustration of a happy young boy, child character, simple design, bright colors, isolated on white background';
+    }
+    if (translation.includes('adult') || translation.includes('adulte')) {
+      return 'Cartoon illustration of a professional adult person, mature appearance, simple clean style, bright colors, isolated on white background';
+    }
+    return `Cartoon illustration of ${translation}, person character, friendly appearance, simple clean style, bright colors, isolated on white background`;
+  }
+  
+  if (category === 'time') {
+    if (translation.includes('yesterday') || translation.includes('hier')) {
+      return 'Cartoon illustration of a calendar with yesterday marked, clock showing past time, simple icon style, bright colors, isolated on white background';
+    }
+    if (translation.includes('year') || translation.includes('année')) {
+      return 'Cartoon illustration of a calendar showing past years, time concept, simple icon style, bright colors, isolated on white background';
+    }
+    return `Cartoon illustration representing ${translation}, time concept, clock or calendar elements, simple icon style, bright colors, isolated on white background`;
+  }
+  
+  if (category === 'daily life') {
+    if (translation.includes('bath') || translation.includes('bain')) {
+      return 'Cartoon illustration of a traditional Japanese bathtub with steam, relaxing scene, simple clean style, bright colors, isolated on white background';
+    }
+    return `Cartoon illustration of ${translation}, daily activity scene, simple clean style, bright colors, isolated on white background`;
+  }
+  
+  if (wordType === 'adjective' || category === 'adjective') {
+    if (translation.includes('same') || translation.includes('même')) {
+      return 'Cartoon illustration of two identical objects side by side, showing similarity concept, simple clean style, bright colors, isolated on white background';
+    }
+    return `Visual representation of ${translation}, concept illustration, simple and clear, bright colors, isolated on white background`;
+  }
+  
+  // Default prompt for other words
+  return `Clear, simple cartoon illustration of ${translation}, educational style for language learning, bright colors, easy to recognize, isolated on white background, detailed but not cluttered`;
+};
+
 export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(word.imageUrl || '');
@@ -41,9 +135,9 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     try {
       const runwareService = new RunwareService(apiKey);
       
-      // Create a prompt that describes the word visually
+      // Create a context-aware prompt that describes the word visually
       const translation = language === 'english' ? word.english : word.french;
-      const prompt = `Clear, simple cartoon illustration of ${translation}, bright colors, easy to recognize, educational style for children, isolated on white background, detailed but not cluttered`;
+      const prompt = createImagePrompt(word, translation);
       
       console.log('Generated prompt:', prompt);
       
