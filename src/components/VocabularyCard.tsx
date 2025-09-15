@@ -4,6 +4,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
+import { FuriganaText } from './FuriganaText';
 import { RunwareService } from '@/services/runwareService';
 import { Image, Loader2, Wand2 } from 'lucide-react';
 import { toast } from 'sonner';
@@ -290,9 +291,11 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 <div className="space-y-2 pt-4 border-t border-white/20 w-full">
                   <p className="text-sm font-medium">Example:</p>
                   <div className="flex items-center justify-center gap-2">
-                    <p className="text-sm opacity-90">
-                      {word.examples[0].japanese}
-                    </p>
+                    <FuriganaText 
+                      japanese={word.examples[0].japanese}
+                      hiragana={word.examples[0].hiragana}
+                      className="text-sm opacity-90"
+                    />
                     <VoiceButton 
                       text={word.examples[0].japanese}
                       language="japanese"
