@@ -3180,6 +3180,206 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Ce chat est mignon."
       }
     ]
+  },
+  {
+    "id": "kanji",
+    "japanese": "漢字",
+    "hiragana": "かんじ",
+    "romaji": "kanji",
+    "english": "Chinese character",
+    "french": "kanji, caractère chinois",
+    "level": "N5",
+    "category": "language",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "漢字を勉強します。",
+        "hiragana": "かんじをべんきょうします。",
+        "romaji": "Kanji o benkyou shimasu.",
+        "english": "I study kanji.",
+        "french": "J'étudie les kanjis."
+      }
+    ]
+  },
+  {
+    "id": "ki",
+    "japanese": "木",
+    "hiragana": "き",
+    "romaji": "ki",
+    "english": "tree, wood",
+    "french": "arbre, bois",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "庭に木があります。",
+        "hiragana": "にわにきがあります。",
+        "romaji": "Niwa ni ki ga arimasu.",
+        "english": "There is a tree in the garden.",
+        "french": "Il y a un arbre dans le jardin."
+      }
+    ]
+  },
+  {
+    "id": "kiiro",
+    "japanese": "黄色",
+    "hiragana": "きいろ",
+    "romaji": "kiiro",
+    "english": "yellow",
+    "french": "jaune",
+    "level": "N5",
+    "category": "color",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "黄色が好きです。",
+        "hiragana": "きいろがすきです。",
+        "romaji": "Kiiro ga suki desu.",
+        "english": "I like yellow.",
+        "french": "J'aime le jaune."
+      }
+    ]
+  },
+  {
+    "id": "kiiroi",
+    "japanese": "黄色い",
+    "hiragana": "きいろい",
+    "romaji": "kiiroi",
+    "english": "yellow (adjective)",
+    "french": "jaune (adjectif)",
+    "level": "N5",
+    "category": "color",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "黄色い花があります。",
+        "hiragana": "きいろいはながあります。",
+        "romaji": "Kiiroi hana ga arimasu.",
+        "english": "There are yellow flowers.",
+        "french": "Il y a des fleurs jaunes."
+      }
+    ]
+  },
+  {
+    "id": "kieru",
+    "japanese": "消える",
+    "hiragana": "きえる",
+    "romaji": "kieru",
+    "english": "to disappear",
+    "french": "disparaître",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "電気が消えました。",
+        "hiragana": "でんきがきえました。",
+        "romaji": "Denki ga kiemashita.",
+        "english": "The light went out.",
+        "french": "La lumière s'est éteinte."
+      }
+    ]
+  },
+  {
+    "id": "kiku",
+    "japanese": "聞く",
+    "hiragana": "きく",
+    "romaji": "kiku",
+    "english": "to hear, to listen, to ask",
+    "french": "écouter, demander",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "音楽を聞きます。",
+        "hiragana": "おんがくをききます。",
+        "romaji": "Ongaku o kikimasu.",
+        "english": "I listen to music.",
+        "french": "J'écoute de la musique."
+      }
+    ]
+  },
+  {
+    "id": "kita",
+    "japanese": "北",
+    "hiragana": "きた",
+    "romaji": "kita",
+    "english": "north",
+    "french": "nord",
+    "level": "N5",
+    "category": "geography",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "北海道は日本の北にあります。",
+        "hiragana": "ほっかいどうはにほんのきたにあります。",
+        "romaji": "Hokkaidou wa Nihon no kita ni arimasu.",
+        "english": "Hokkaido is in the north of Japan.",
+        "french": "Hokkaido est au nord du Japon."
+      }
+    ]
+  },
+  {
+    "id": "gitaa",
+    "japanese": "ギター",
+    "hiragana": "ギター",
+    "romaji": "gitaa",
+    "english": "guitar",
+    "french": "guitare",
+    "level": "N5",
+    "category": "music",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "ギターを弾きます。",
+        "hiragana": "ぎたーをひきます。",
+        "romaji": "Gitaa o hikimasu.",
+        "english": "I play the guitar.",
+        "french": "Je joue de la guitare."
+      }
+    ]
+  },
+  {
+    "id": "kitanai",
+    "japanese": "汚い",
+    "hiragana": "きたない",
+    "romaji": "kitanai",
+    "english": "dirty",
+    "french": "sale",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "部屋が汚いです。",
+        "hiragana": "へやがきたないです。",
+        "romaji": "Heya ga kitanai desu.",
+        "english": "The room is dirty.",
+        "french": "La chambre est sale."
+      }
+    ]
+  },
+  {
+    "id": "kissaten",
+    "japanese": "喫茶店",
+    "hiragana": "きっさてん",
+    "romaji": "kissaten",
+    "english": "coffee shop",
+    "french": "salon de thé, café",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達と喫茶店に行きます。",
+        "hiragana": "ともだちできっさてんにいきます。",
+        "romaji": "Tomodachi to kissaten ni ikimasu.",
+        "english": "I go to a coffee shop with my friend.",
+        "french": "Je vais au café avec mon ami."
+      }
+    ]
   }
 ];
 
