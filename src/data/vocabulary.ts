@@ -3920,6 +3920,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Le ciel est couvert."
       }
     ]
+  },
+  {
+    "id": "keikan",
+    "japanese": "警官",
+    "hiragana": "けいかん",
+    "romaji": "keikan",
+    "english": "policeman",
+    "french": "policier",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "警官が道を渡っています。",
+        "hiragana": "けいかんがみちをわたっています。",
+        "romaji": "Keikan ga michi o watatte imasu.",
+        "english": "The policeman is crossing the street.",
+        "french": "Le policier traverse la rue."
+      }
+    ]
+  },
+  {
+    "id": "kesa",
+    "japanese": "今朝",
+    "hiragana": "けさ",
+    "romaji": "kesa",
+    "english": "this morning",
+    "french": "ce matin",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今朝は寒かったです。",
+        "hiragana": "けさはさむかったです。",
+        "romaji": "Kesa wa samukatta desu.",
+        "english": "It was cold this morning.",
+        "french": "Il faisait froid ce matin."
+      }
+    ]
+  },
+  {
+    "id": "kesu",
+    "japanese": "消す",
+    "hiragana": "けす",
+    "romaji": "kesu",
+    "english": "to erase, to turn off",
+    "french": "effacer, éteindre",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "電気を消してください。",
+        "hiragana": "でんきをけしてください。",
+        "romaji": "Denki o keshite kudasai.",
+        "english": "Please turn off the light.",
+        "french": "Éteignez la lumière, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "kekkou",
+    "japanese": "結構",
+    "hiragana": "けっこう",
+    "romaji": "kekkou",
+    "english": "splendid, enough",
+    "french": "magnifique, suffisant",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "この料理は結構おいしいです。",
+        "hiragana": "このりょうりはけっこうおいしいです。",
+        "romaji": "Kono ryouri wa kekkou oishii desu.",
+        "english": "This dish is quite delicious.",
+        "french": "Ce plat est assez délicieux."
+      }
+    ]
+  },
+  {
+    "id": "kekkon",
+    "japanese": "結婚",
+    "hiragana": "けっこん",
+    "romaji": "kekkon",
+    "english": "marriage",
+    "french": "mariage",
+    "level": "N5",
+    "category": "life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼らは去年結婚しました。",
+        "hiragana": "かれらはきょねんけっこんしました。",
+        "romaji": "Karera wa kyonen kekkon shimashita.",
+        "english": "They got married last year.",
+        "french": "Ils se sont mariés l'année dernière."
+      }
+    ]
+  },
+  {
+    "id": "getsuyoubi",
+    "japanese": "月曜日",
+    "hiragana": "げつようび",
+    "romaji": "getsuyoubi",
+    "english": "Monday",
+    "french": "lundi",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "月曜日に会議があります。",
+        "hiragana": "げつようびにかいぎがあります。",
+        "romaji": "Getsuyoubi ni kaigi ga arimasu.",
+        "english": "There is a meeting on Monday.",
+        "french": "Il y a une réunion lundi."
+      }
+    ]
+  },
+  {
+    "id": "genkan",
+    "japanese": "玄関",
+    "hiragana": "げんかん",
+    "romaji": "genkan",
+    "english": "entry hall",
+    "french": "entrée (maison)",
+    "level": "N5",
+    "category": "house",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "靴は玄関で脱いでください。",
+        "hiragana": "くつはげんかんでぬいでください。",
+        "romaji": "Kutsu wa genkan de nuide kudasai.",
+        "english": "Please take off your shoes at the entrance.",
+        "french": "Enlevez vos chaussures à l'entrée, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "genki",
+    "japanese": "元気",
+    "hiragana": "げんき",
+    "romaji": "genki",
+    "english": "health, energy",
+    "french": "santé, énergie",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "お元気ですか？",
+        "hiragana": "おげんきですか？",
+        "romaji": "Ogenki desu ka?",
+        "english": "How are you?",
+        "french": "Comment allez-vous ?"
+      }
+    ]
+  },
+  {
+    "id": "go",
+    "japanese": "五",
+    "hiragana": "ご",
+    "romaji": "go",
+    "english": "five",
+    "french": "cinq",
+    "level": "N5",
+    "category": "number",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "りんごを五つください。",
+        "hiragana": "りんごをいつつください。",
+        "romaji": "Ringo o itsutsu kudasai.",
+        "english": "Please give me five apples.",
+        "french": "Donnez-moi cinq pommes, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "kouen",
+    "japanese": "公園",
+    "hiragana": "こうえん",
+    "romaji": "kouen",
+    "english": "park",
+    "french": "parc",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "公園で遊びます。",
+        "hiragana": "こうえんであそびます。",
+        "romaji": "Kouen de asobimasu.",
+        "english": "I play in the park.",
+        "french": "Je joue dans le parc."
+      }
+    ]
+  },
+  {
+    "id": "kousaten",
+    "japanese": "交差点",
+    "hiragana": "こうさてん",
+    "romaji": "kousaten",
+    "english": "intersection",
+    "french": "carrefour",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "交差点で信号を待ちます。",
+        "hiragana": "こうさてんでしんごうをまちます。",
+        "romaji": "Kousaten de shingou o machimasu.",
+        "english": "I wait at the traffic light at the intersection.",
+        "french": "J'attends au feu rouge au carrefour."
+      }
+    ]
+  },
+  {
+    "id": "koucha",
+    "japanese": "紅茶",
+    "hiragana": "こうちゃ",
+    "romaji": "koucha",
+    "english": "black tea",
+    "french": "thé noir",
+    "level": "N5",
+    "category": "drink",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "紅茶に砂糖を入れます。",
+        "hiragana": "こうちゃにさとうをいれます。",
+        "romaji": "Koucha ni satou o iremasu.",
+        "english": "I put sugar in my tea.",
+        "french": "Je mets du sucre dans mon thé."
+      }
+    ]
+  },
+  {
+    "id": "kouban",
+    "japanese": "交番",
+    "hiragana": "こうばん",
+    "romaji": "kouban",
+    "english": "police box",
+    "french": "poste de police",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "交番で道を聞きました。",
+        "hiragana": "こうばんでみちをききました。",
+        "romaji": "Kouban de michi o kikimashita.",
+        "english": "I asked for directions at the police box.",
+        "french": "J'ai demandé mon chemin au poste de police."
+      }
+    ]
+  },
+  {
+    "id": "koe",
+    "japanese": "声",
+    "hiragana": "こえ",
+    "romaji": "koe",
+    "english": "voice",
+    "french": "voix",
+    "level": "N5",
+    "category": "body",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "大きな声で話してください。",
+        "hiragana": "おおきなこえではなしてください。",
+        "romaji": "Ookina koe de hanashite kudasai.",
+        "english": "Please speak in a loud voice.",
+        "french": "Parlez à voix haute, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "kooto",
+    "japanese": "コート",
+    "hiragana": "こーと",
+    "romaji": "kooto",
+    "english": "coat",
+    "french": "manteau",
+    "level": "N5",
+    "category": "clothing",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "冬にコートを着ます。",
+        "hiragana": "ふゆにこーとをきます。",
+        "romaji": "Fuyu ni kooto o kimasu.",
+        "english": "I wear a coat in winter.",
+        "french": "Je porte un manteau en hiver."
+      }
+    ]
+  },
+  {
+    "id": "koohii",
+    "japanese": "コーヒー",
+    "hiragana": "こーひー",
+    "romaji": "koohii",
+    "english": "coffee",
+    "french": "café",
+    "level": "N5",
+    "category": "drink",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毎朝コーヒーを飲みます。",
+        "hiragana": "まいあさこーひーをのみます。",
+        "romaji": "Maiasa koohii o nomimasu.",
+        "english": "I drink coffee every morning.",
+        "french": "Je bois du café tous les matins."
+      }
+    ]
+  },
+  {
+    "id": "koko",
+    "japanese": "ここ",
+    "hiragana": "ここ",
+    "romaji": "koko",
+    "english": "here",
+    "french": "ici",
+    "level": "N5",
+    "category": "location",
+    "wordType": "pronoun",
+    "examples": [
+      {
+        "japanese": "ここに座ってください。",
+        "hiragana": "ここにすわってください。",
+        "romaji": "Koko ni suwatte kudasai.",
+        "english": "Please sit here.",
+        "french": "Asseyez-vous ici, s'il vous plaît."
+      }
+    ]
   }
 ];
 
