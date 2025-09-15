@@ -27,12 +27,15 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   };
 
   const generateImage = async () => {
+    console.log('Generate image button clicked for word:', word.japanese);
     const apiKey = localStorage.getItem('runware-api-key');
     if (!apiKey) {
+      console.log('No Runware API key found');
       toast.error('Please set up your Runware API key first');
       return;
     }
 
+    console.log('Starting image generation with API key:', apiKey.substring(0, 10) + '...');
     setIsGeneratingImage(true);
     
     try {
@@ -42,6 +45,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       const translation = language === 'english' ? word.english : word.french;
       const prompt = `A simple, clean illustration of ${translation}, suitable for language learning, minimalist style, on white background, high quality`;
       
+      console.log('Generated prompt:', prompt);
+      
       const result = await runwareService.generateImage({
         positivePrompt: prompt,
         width: 512,
@@ -49,6 +54,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         numberResults: 1,
         outputFormat: "WEBP"
       });
+      
+      console.log('Image generation result:', result);
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
