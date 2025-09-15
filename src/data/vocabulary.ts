@@ -2880,6 +2880,306 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je voyage à l'étranger."
       }
     ]
+  },
+  {
+    "id": "katei",
+    "japanese": "家庭",
+    "hiragana": "かてい",
+    "romaji": "katei",
+    "english": "household",
+    "french": "foyer, ménage",
+    "level": "N5",
+    "category": "life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "家庭を大切にします。",
+        "hiragana": "かていをたいせつにします。",
+        "romaji": "Katei o taisetsu ni shimasu.",
+        "english": "I value my household.",
+        "french": "Je prends soin de mon foyer."
+      }
+    ]
+  },
+  {
+    "id": "kado",
+    "japanese": "角",
+    "hiragana": "かど",
+    "romaji": "kado",
+    "english": "corner",
+    "french": "coin",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "角で待ちます。",
+        "hiragana": "かどでまちます。",
+        "romaji": "Kado de machimasu.",
+        "english": "I wait at the corner.",
+        "french": "J'attends au coin."
+      }
+    ]
+  },
+  {
+    "id": "kaban",
+    "japanese": "かばん",
+    "hiragana": "かばん",
+    "romaji": "kaban",
+    "english": "bag",
+    "french": "sac",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しいかばんを買いました。",
+        "hiragana": "あたらしいかばんをかいました。",
+        "romaji": "Atarashii kaban o kaimashita.",
+        "english": "I bought a new bag.",
+        "french": "J'ai acheté un nouveau sac."
+      }
+    ]
+  },
+  {
+    "id": "kabin",
+    "japanese": "花瓶",
+    "hiragana": "かびん",
+    "romaji": "kabin",
+    "english": "vase",
+    "french": "vase",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "花瓶に花を入れました。",
+        "hiragana": "かびんにはなをいれました。",
+        "romaji": "Kabin ni hana o iremashita.",
+        "english": "I put flowers in the vase.",
+        "french": "J'ai mis des fleurs dans le vase."
+      }
+    ]
+  },
+  {
+    "id": "kami",
+    "japanese": "紙",
+    "hiragana": "かみ",
+    "romaji": "kami",
+    "english": "paper",
+    "french": "papier",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "紙に名前を書きます。",
+        "hiragana": "かみになまえをかきます。",
+        "romaji": "Kami ni namae o kakimasu.",
+        "english": "I write my name on the paper.",
+        "french": "J'écris mon nom sur le papier."
+      }
+    ]
+  },
+  {
+    "id": "kamera",
+    "japanese": "カメラ",
+    "hiragana": "カメラ",
+    "romaji": "kamera",
+    "english": "camera",
+    "french": "appareil photo",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "カメラで写真を撮ります。",
+        "hiragana": "かめらでしゃしんをとります。",
+        "romaji": "Kamera de shashin o torimasu.",
+        "english": "I take pictures with a camera.",
+        "french": "Je prends des photos avec un appareil photo."
+      }
+    ]
+  },
+  {
+    "id": "kayoubi",
+    "japanese": "火曜日",
+    "hiragana": "かようび",
+    "romaji": "kayoubi",
+    "english": "Tuesday",
+    "french": "mardi",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "火曜日に会いましょう。",
+        "hiragana": "かようびにあいましょう。",
+        "romaji": "Kayoubi ni aimashou.",
+        "english": "Let's meet on Tuesday.",
+        "french": "Rencontrons-nous mardi."
+      }
+    ]
+  },
+  {
+    "id": "karai",
+    "japanese": "辛い",
+    "hiragana": "からい",
+    "romaji": "karai",
+    "english": "spicy",
+    "french": "épicé",
+    "level": "N5",
+    "category": "taste",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "カレーは辛いです。",
+        "hiragana": "かれーはからいです。",
+        "romaji": "Karee wa karai desu.",
+        "english": "The curry is spicy.",
+        "french": "Le curry est épicé."
+      }
+    ]
+  },
+  {
+    "id": "karada",
+    "japanese": "体",
+    "hiragana": "からだ",
+    "romaji": "karada",
+    "english": "body",
+    "french": "corps",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "体が疲れています。",
+        "hiragana": "からだがつかれています。",
+        "romaji": "Karada ga tsukarete imasu.",
+        "english": "My body is tired.",
+        "french": "Mon corps est fatigué."
+      }
+    ]
+  },
+  {
+    "id": "kariru",
+    "japanese": "借りる",
+    "hiragana": "かりる",
+    "romaji": "kariru",
+    "english": "to borrow",
+    "french": "emprunter",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "友達に本を借りました。",
+        "hiragana": "ともだちにほんをかりました。",
+        "romaji": "Tomodachi ni hon o karimashita.",
+        "english": "I borrowed a book from my friend.",
+        "french": "J'ai emprunté un livre à mon ami."
+      }
+    ]
+  },
+  {
+    "id": "karui",
+    "japanese": "軽い",
+    "hiragana": "かるい",
+    "romaji": "karui",
+    "english": "light (not heavy)",
+    "french": "léger",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "この箱は軽いです。",
+        "hiragana": "このはこはかるいです。",
+        "romaji": "Kono hako wa karui desu.",
+        "english": "This box is light.",
+        "french": "Cette boîte est légère."
+      }
+    ]
+  },
+  {
+    "id": "karee",
+    "japanese": "カレー",
+    "hiragana": "カレー",
+    "romaji": "karee",
+    "english": "curry",
+    "french": "curry",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "カレーを食べます。",
+        "hiragana": "かれーをたべます。",
+        "romaji": "Karee o tabemasu.",
+        "english": "I eat curry.",
+        "french": "Je mange du curry."
+      }
+    ]
+  },
+  {
+    "id": "karendaa",
+    "japanese": "カレンダー",
+    "hiragana": "カレンダー",
+    "romaji": "karendaa",
+    "english": "calendar",
+    "french": "calendrier",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "カレンダーを見ます。",
+        "hiragana": "かれんだーをみます。",
+        "romaji": "Karendaa o mimasu.",
+        "english": "I look at the calendar.",
+        "french": "Je regarde le calendrier."
+      }
+    ]
+  },
+  {
+    "id": "kawa",
+    "japanese": "川/河",
+    "hiragana": "かわ",
+    "romaji": "kawa",
+    "english": "river",
+    "french": "rivière, fleuve",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "川で泳ぎます。",
+        "hiragana": "かわでおよぎます。",
+        "romaji": "Kawa de oyogimasu.",
+        "english": "I swim in the river.",
+        "french": "Je nage dans la rivière."
+      }
+    ]
+  },
+  {
+    "id": "kawaii",
+    "japanese": "かわいい",
+    "hiragana": "かわいい",
+    "romaji": "kawaii",
+    "english": "cute",
+    "french": "mignon",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "その猫はかわいいです。",
+        "hiragana": "そのねこはかわいいです。",
+        "romaji": "Sono neko wa kawaii desu.",
+        "english": "That cat is cute.",
+        "french": "Ce chat est mignon."
+      }
+    ]
   }
 ];
 
