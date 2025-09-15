@@ -2660,6 +2660,226 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "J'ai préparé un bento."
       }
     ]
+  },
+  {
+    "id": "oboeru",
+    "japanese": "覚える",
+    "hiragana": "おぼえる",
+    "romaji": "oboeru",
+    "english": "to remember",
+    "french": "se souvenir, mémoriser",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "新しい単語を覚えます。",
+        "hiragana": "あたらしいたんごをおぼえます。",
+        "romaji": "Atarashii tango o oboemasu.",
+        "english": "I remember new words.",
+        "french": "Je mémorise de nouveaux mots."
+      }
+    ]
+  },
+  {
+    "id": "omawarisan",
+    "japanese": "おまわりさん",
+    "hiragana": "おまわりさん",
+    "romaji": "omawarisan",
+    "english": "friendly term for policeman",
+    "french": "agent de police (familier)",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おまわりさんに道を聞きました。",
+        "hiragana": "おまわりさんにみちをききました。",
+        "romaji": "Omawarisan ni michi o kikimashita.",
+        "english": "I asked the policeman for directions.",
+        "french": "J'ai demandé le chemin à un policier."
+      }
+    ]
+  },
+  {
+    "id": "omoi",
+    "japanese": "重い",
+    "hiragana": "おもい",
+    "romaji": "omoi",
+    "english": "heavy",
+    "french": "lourd",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "このかばんは重いです。",
+        "hiragana": "このかばんはおもいです。",
+        "romaji": "Kono kaban wa omoi desu.",
+        "english": "This bag is heavy.",
+        "french": "Ce sac est lourd."
+      }
+    ]
+  },
+  {
+    "id": "omoshiroi",
+    "japanese": "おもしろい",
+    "hiragana": "おもしろい",
+    "romaji": "omoshiroi",
+    "english": "interesting",
+    "french": "intéressant",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "この映画はおもしろいです。",
+        "hiragana": "このえいがはおもしろいです。",
+        "romaji": "Kono eiga wa omoshiroi desu.",
+        "english": "This movie is interesting.",
+        "french": "Ce film est intéressant."
+      }
+    ]
+  },
+  {
+    "id": "oyogu",
+    "japanese": "泳ぐ",
+    "hiragana": "およぐ",
+    "romaji": "oyogu",
+    "english": "to swim",
+    "french": "nager",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "プールで泳ぎます。",
+        "hiragana": "ぷーるでおよぎます。",
+        "romaji": "Pūru de oyogimasu.",
+        "english": "I swim in the pool.",
+        "french": "Je nage dans la piscine."
+      }
+    ]
+  },
+  {
+    "id": "oriru",
+    "japanese": "降りる",
+    "hiragana": "おりる",
+    "romaji": "oriru",
+    "english": "to get off, to descend",
+    "french": "descendre",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "電車を降ります。",
+        "hiragana": "でんしゃをおります。",
+        "romaji": "Densha o orimasu.",
+        "english": "I get off the train.",
+        "french": "Je descends du train."
+      }
+    ]
+  },
+  {
+    "id": "owaru",
+    "japanese": "終る",
+    "hiragana": "おわる",
+    "romaji": "owaru",
+    "english": "to finish",
+    "french": "finir, terminer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "授業は3時に終わります。",
+        "hiragana": "じゅぎょうはさんじにおわります。",
+        "romaji": "Jugyou wa sanji ni owarimasu.",
+        "english": "The class ends at 3.",
+        "french": "Le cours se termine à 3 heures."
+      }
+    ]
+  },
+  {
+    "id": "ongaku",
+    "japanese": "音楽",
+    "hiragana": "おんがく",
+    "romaji": "ongaku",
+    "english": "music",
+    "french": "musique",
+    "level": "N5",
+    "category": "art",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "音楽を聞きます。",
+        "hiragana": "おんがくをききます。",
+        "romaji": "Ongaku o kikimasu.",
+        "english": "I listen to music.",
+        "french": "J'écoute de la musique."
+      }
+    ]
+  },
+  {
+    "id": "onna",
+    "japanese": "女",
+    "hiragana": "おんな",
+    "romaji": "onna",
+    "english": "woman",
+    "french": "femme",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "その女は医者です。",
+        "hiragana": "そのおんなはいしゃです。",
+        "romaji": "Sono onna wa isha desu.",
+        "english": "That woman is a doctor.",
+        "french": "Cette femme est médecin."
+      }
+    ]
+  },
+  {
+    "id": "onnanoko",
+    "japanese": "女の子",
+    "hiragana": "おんなのこ",
+    "romaji": "onnanoko",
+    "english": "girl",
+    "french": "fille",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "女の子が笑っています。",
+        "hiragana": "おんなのこがわらっています。",
+        "romaji": "Onnanoko ga waratte imasu.",
+        "english": "The girl is smiling.",
+        "french": "La fille sourit."
+      }
+    ]
+  },
+  {
+    "id": "gaikoku",
+    "japanese": "外国",
+    "hiragana": "がいこく",
+    "romaji": "gaikoku",
+    "english": "foreign country",
+    "french": "pays étranger",
+    "level": "N5",
+    "category": "geography",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "外国へ旅行します。",
+        "hiragana": "がいこくへりょこうします。",
+        "romaji": "Gaikoku e ryokou shimasu.",
+        "english": "I travel to a foreign country.",
+        "french": "Je voyage à l'étranger."
+      }
+    ]
   }
 ];
 
