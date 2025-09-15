@@ -1779,6 +1779,306 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Les voix des enfants sont bruyantes."
       }
     ]
+  },
+  {
+    id: "uwagi",
+    japanese: "上着",
+    hiragana: "うわぎ",
+    romaji: "uwagi",
+    english: "jacket",
+    french: "veste, manteau",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "上着を着てください。",
+        hiragana: "うわぎをきてください。",
+        romaji: "Uwagi o kite kudasai.",
+        english: "Please wear a jacket.",
+        french: "Mettez une veste, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "e",
+    japanese: "絵",
+    hiragana: "え",
+    romaji: "e",
+    english: "picture",
+    french: "image, tableau",
+    level: "N5",
+    category: "art",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "きれいな絵を見ました。",
+        hiragana: "きれいなえをみました。",
+        romaji: "Kirei na e o mimashita.",
+        english: "I saw a beautiful picture.",
+        french: "J'ai vu une belle image."
+      }
+    ]
+  },
+  {
+    id: "eiga",
+    japanese: "映画",
+    hiragana: "えいが",
+    romaji: "eiga",
+    english: "movie",
+    french: "film",
+    level: "N5",
+    category: "entertainment",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "映画を見に行きます。",
+        hiragana: "えいがをみにいきます。",
+        romaji: "Eiga o mi ni ikimasu.",
+        english: "I go to watch a movie.",
+        french: "Je vais voir un film."
+      }
+    ]
+  },
+  {
+    id: "eigakan",
+    japanese: "映画館",
+    hiragana: "えいがかん",
+    romaji: "eigakan",
+    english: "cinema",
+    french: "cinéma",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "映画館は駅の近くです。",
+        hiragana: "えいがかんはえきのちかくです。",
+        romaji: "Eigakan wa eki no chikaku desu.",
+        english: "The cinema is near the station.",
+        french: "Le cinéma est près de la gare."
+      }
+    ]
+  },
+  {
+    id: "eigo",
+    japanese: "英語",
+    hiragana: "えいご",
+    romaji: "eigo",
+    english: "English language",
+    french: "anglais (langue)",
+    level: "N5",
+    category: "language",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "英語を勉強しています。",
+        hiragana: "えいごをべんきょうしています。",
+        romaji: "Eigo o benkyou shite imasu.",
+        english: "I am studying English.",
+        french: "J'étudie l'anglais."
+      }
+    ]
+  },
+  {
+    id: "ee",
+    japanese: "ええ",
+    hiragana: "ええ",
+    romaji: "ee",
+    english: "yes",
+    french: "oui",
+    level: "N5",
+    category: "expression",
+    wordType: "interjection",
+    examples: [
+      {
+        japanese: "ええ、そうです。",
+        hiragana: "ええ、そうです。",
+        romaji: "Ee, sou desu.",
+        english: "Yes, that's right.",
+        french: "Oui, c'est ça."
+      }
+    ]
+  },
+  {
+    id: "eki",
+    japanese: "駅",
+    hiragana: "えき",
+    romaji: "eki",
+    english: "station",
+    french: "gare",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅で友達に会います。",
+        hiragana: "えきでともだちにあいます。",
+        romaji: "Eki de tomodachi ni aimasu.",
+        english: "I meet my friend at the station.",
+        french: "Je rencontre mon ami à la gare."
+      }
+    ]
+  },
+  {
+    id: "erebeetaa",
+    japanese: "エレベーター",
+    hiragana: "エレベーター",
+    romaji: "erebeetaa",
+    english: "elevator",
+    french: "ascenseur",
+    level: "N5",
+    category: "building",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "エレベーターで5階へ行きます。",
+        hiragana: "えれべーたーでごかいへいきます。",
+        romaji: "Erebeetaa de gokai e ikimasu.",
+        english: "I go to the 5th floor by elevator.",
+        french: "Je monte au 5e étage en ascenseur."
+      }
+    ]
+  },
+  {
+    id: "enpitsu",
+    japanese: "鉛筆",
+    hiragana: "えんぴつ",
+    romaji: "enpitsu",
+    english: "pencil",
+    french: "crayon",
+    level: "N5",
+    category: "stationery",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "鉛筆で書きます。",
+        hiragana: "えんぴつでかきます。",
+        romaji: "Enpitsu de kakimasu.",
+        english: "I write with a pencil.",
+        french: "J'écris avec un crayon."
+      }
+    ]
+  },
+  {
+    id: "oishii",
+    japanese: "おいしい",
+    hiragana: "おいしい",
+    romaji: "oishii",
+    english: "delicious",
+    french: "délicieux",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "このケーキはおいしいです。",
+        hiragana: "このけーきはおいしいです。",
+        romaji: "Kono keeki wa oishii desu.",
+        english: "This cake is delicious.",
+        french: "Ce gâteau est délicieux."
+      }
+    ]
+  },
+  {
+    id: "ooi",
+    japanese: "多い",
+    hiragana: "おおい",
+    romaji: "ooi",
+    english: "many",
+    french: "beaucoup",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "公園に人が多いです。",
+        hiragana: "こうえんにひとがおおいです。",
+        romaji: "Kouen ni hito ga ooi desu.",
+        english: "There are many people in the park.",
+        french: "Il y a beaucoup de monde dans le parc."
+      }
+    ]
+  },
+  {
+    id: "ookii",
+    japanese: "大きい",
+    hiragana: "おおきい",
+    romaji: "ookii",
+    english: "big",
+    french: "grand",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "大きい犬がいます。",
+        hiragana: "おおきいいぬがいます。",
+        romaji: "Ookii inu ga imasu.",
+        english: "There is a big dog.",
+        french: "Il y a un grand chien."
+      }
+    ]
+  },
+  {
+    id: "ookina",
+    japanese: "大きな",
+    hiragana: "おおきな",
+    romaji: "ookina",
+    english: "big (prefix)",
+    french: "grand (préfixe)",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "大きな家を建てました。",
+        hiragana: "おおきないえをたてました。",
+        romaji: "Ookina ie o tatemashita.",
+        english: "I built a big house.",
+        french: "J'ai construit une grande maison."
+      }
+    ]
+  },
+  {
+    id: "oozei",
+    japanese: "大勢",
+    hiragana: "おおぜい",
+    romaji: "oozei",
+    english: "a great number of people",
+    french: "beaucoup de gens",
+    level: "N5",
+    category: "noun",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅に大勢の人がいました。",
+        hiragana: "えきにおおぜいのひとがいました。",
+        romaji: "Eki ni oozei no hito ga imashita.",
+        english: "There were many people at the station.",
+        french: "Il y avait beaucoup de gens à la gare."
+      }
+    ]
+  },
+  {
+    id: "okaasan",
+    japanese: "お母さん",
+    hiragana: "おかあさん",
+    romaji: "okaasan",
+    english: "mother (honorific)",
+    french: "mère (honorifique)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お母さんは元気ですか？",
+        hiragana: "おかあさんはげんきですか？",
+        romaji: "Okaasan wa genki desu ka?",
+        english: "How is your mother?",
+        french: "Comment va ta mère ?"
+      }
+    ]
   }
 ];
 
