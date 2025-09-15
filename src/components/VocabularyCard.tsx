@@ -43,7 +43,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       
       // Create a prompt that describes the word visually
       const translation = language === 'english' ? word.english : word.french;
-      const prompt = `A simple, clean illustration of ${translation}, suitable for language learning, minimalist style, on white background, high quality`;
+      const prompt = `Clear, simple cartoon illustration of ${translation}, bright colors, easy to recognize, educational style for children, isolated on white background, detailed but not cluttered`;
       
       console.log('Generated prompt:', prompt);
       
@@ -73,7 +73,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const exampleTranslation = language === 'english' ? word.examples[0]?.english : word.examples[0]?.french;
 
   return (
-    <div className="perspective-1000 w-full h-96">
+    <div className="perspective-1000 w-full h-[500px]">
       <div 
         className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
@@ -93,28 +93,31 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             
             {/* Image section */}
             {generatedImageUrl ? (
-              <div className="mb-4 flex justify-center">
+              <div className="mb-6 flex justify-center">
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-20 h-20 object-cover rounded-lg border-2 border-border/50"
+                  className="w-40 h-40 object-cover rounded-xl border-2 border-border/50 shadow-md"
                 />
               </div>
             ) : (
-              <div className="mb-4 flex justify-center">
+              <div className="mb-6 flex justify-center">
                 <Button
                   variant="outline"
-                  size="sm"
+                  size="lg"
                   onClick={generateImage}
                   disabled={isGeneratingImage}
-                  className="w-20 h-20 flex flex-col items-center justify-center gap-1 text-xs"
+                  className="w-40 h-40 flex flex-col items-center justify-center gap-3 text-sm border-2 border-dashed border-border/50 hover:border-primary/50 transition-colors"
                 >
                   {isGeneratingImage ? (
-                    <Loader2 className="w-4 h-4 animate-spin" />
+                    <>
+                      <Loader2 className="w-8 h-8 animate-spin" />
+                      <span>Generating...</span>
+                    </>
                   ) : (
                     <>
-                      <Wand2 className="w-4 h-4" />
-                      <span>Image</span>
+                      <Wand2 className="w-8 h-8" />
+                      <span>Generate Image</span>
                     </>
                   )}
                 </Button>
@@ -166,11 +169,11 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             
             {/* Image section on back too */}
             {generatedImageUrl && (
-              <div className="mb-4 flex justify-center">
+              <div className="mb-6 flex justify-center">
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-20 h-20 object-cover rounded-lg border-2 border-white/30"
+                  className="w-40 h-40 object-cover rounded-xl border-2 border-white/30 shadow-md"
                 />
               </div>
             )}
