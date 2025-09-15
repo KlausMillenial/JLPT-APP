@@ -2340,6 +2340,326 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je bois du thé vert."
       }
     ]
+  },
+  {
+    "id": "otearai",
+    "japanese": "お手洗い",
+    "hiragana": "おてあらい",
+    "romaji": "otearai",
+    "english": "bathroom",
+    "french": "toilettes",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お手洗いはどこですか？",
+        "hiragana": "おてあらいはどこですか？",
+        "romaji": "Otearai wa doko desu ka?",
+        "english": "Where is the bathroom?",
+        "french": "Où sont les toilettes ?"
+      }
+    ]
+  },
+  {
+    "id": "otousan",
+    "japanese": "お父さん",
+    "hiragana": "おとうさん",
+    "romaji": "otousan",
+    "english": "father (honorific)",
+    "french": "père (honorifique)",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お父さんは仕事に行きました。",
+        "hiragana": "おとうさんはしごとにいきました。",
+        "romaji": "Otousan wa shigoto ni ikimashita.",
+        "english": "My father went to work.",
+        "french": "Mon père est allé au travail."
+      }
+    ]
+  },
+  {
+    "id": "otouto",
+    "japanese": "弟",
+    "hiragana": "おとうと",
+    "romaji": "otouto",
+    "english": "younger brother",
+    "french": "petit frère",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "弟はサッカーが好きです。",
+        "hiragana": "おとうとはさっかーがすきです。",
+        "romaji": "Otouto wa sakkaa ga suki desu.",
+        "english": "My younger brother likes soccer.",
+        "french": "Mon petit frère aime le football."
+      }
+    ]
+  },
+  {
+    "id": "otoko",
+    "japanese": "男",
+    "hiragana": "おとこ",
+    "romaji": "otoko",
+    "english": "man",
+    "french": "homme",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "あの男は先生です。",
+        "hiragana": "あのおとこはせんせいです。",
+        "romaji": "Ano otoko wa sensei desu.",
+        "english": "That man is a teacher.",
+        "french": "Cet homme est professeur."
+      }
+    ]
+  },
+  {
+    "id": "otokonoko",
+    "japanese": "男の子",
+    "hiragana": "おとこのこ",
+    "romaji": "otokonoko",
+    "english": "boy",
+    "french": "garçon",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "男の子が走っています。",
+        "hiragana": "おとこのこがはしっています。",
+        "romaji": "Otokonoko ga hashitte imasu.",
+        "english": "The boy is running.",
+        "french": "Le garçon court."
+      }
+    ]
+  },
+  {
+    "id": "ototoi",
+    "japanese": "一昨日",
+    "hiragana": "おととい",
+    "romaji": "ototoi",
+    "english": "day before yesterday",
+    "french": "avant-hier",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "一昨日映画を見ました。",
+        "hiragana": "おとといえいがをみました。",
+        "romaji": "Ototoi eiga o mimashita.",
+        "english": "I watched a movie the day before yesterday.",
+        "french": "J'ai vu un film avant-hier."
+      }
+    ]
+  },
+  {
+    "id": "ototoshi",
+    "japanese": "一昨年",
+    "hiragana": "おととし",
+    "romaji": "ototoshi",
+    "english": "year before last",
+    "french": "l'année avant la dernière",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "一昨年日本に行きました。",
+        "hiragana": "おととしにほんにいきました。",
+        "romaji": "Ototoshi Nihon ni ikimashita.",
+        "english": "I went to Japan the year before last.",
+        "french": "Je suis allé au Japon l'avant-dernière année."
+      }
+    ]
+  },
+  {
+    "id": "otona",
+    "japanese": "大人",
+    "hiragana": "おとな",
+    "romaji": "otona",
+    "english": "adult",
+    "french": "adulte",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼は大人です。",
+        "hiragana": "かれはおとなです。",
+        "romaji": "Kare wa otona desu.",
+        "english": "He is an adult.",
+        "french": "C'est un adulte."
+      }
+    ]
+  },
+  {
+    "id": "onaka",
+    "japanese": "おなか",
+    "hiragana": "おなか",
+    "romaji": "onaka",
+    "english": "stomach",
+    "french": "ventre",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おなかが痛いです。",
+        "hiragana": "おなかがいたいです。",
+        "romaji": "Onaka ga itai desu.",
+        "english": "My stomach hurts.",
+        "french": "J'ai mal au ventre."
+      }
+    ]
+  },
+  {
+    "id": "onaji",
+    "japanese": "同じ",
+    "hiragana": "おなじ",
+    "romaji": "onaji",
+    "english": "same",
+    "french": "même, identique",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "私たちは同じ学校に通っています。",
+        "hiragana": "わたしたちはおなじがっこうにかよっています。",
+        "romaji": "Watashitachi wa onaji gakkou ni kayotte imasu.",
+        "english": "We go to the same school.",
+        "french": "Nous allons à la même école."
+      }
+    ]
+  },
+  {
+    "id": "oniisan",
+    "japanese": "お兄さん",
+    "hiragana": "おにいさん",
+    "romaji": "oniisan",
+    "english": "older brother (honorific)",
+    "french": "frère aîné (honorifique)",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お兄さんは大学生です。",
+        "hiragana": "おにいさんはだいがくせいです。",
+        "romaji": "Oniisan wa daigakusei desu.",
+        "english": "My older brother is a university student.",
+        "french": "Mon grand frère est étudiant à l'université."
+      }
+    ]
+  },
+  {
+    "id": "oneesan",
+    "japanese": "お姉さん",
+    "hiragana": "おねえさん",
+    "romaji": "oneesan",
+    "english": "older sister (honorific)",
+    "french": "sœur aînée (honorifique)",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お姉さんは先生です。",
+        "hiragana": "おねえさんはせんせいです。",
+        "romaji": "Oneesan wa sensei desu.",
+        "english": "My older sister is a teacher.",
+        "french": "Ma grande sœur est professeur."
+      }
+    ]
+  },
+  {
+    "id": "obaasan",
+    "japanese": "おばあさん",
+    "hiragana": "おばあさん",
+    "romaji": "obaasan",
+    "english": "grandmother, elderly woman",
+    "french": "grand-mère, vieille femme",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おばあさんは元気です。",
+        "hiragana": "おばあさんはげんきです。",
+        "romaji": "Obaasan wa genki desu.",
+        "english": "Grandmother is healthy.",
+        "french": "Ma grand-mère est en bonne santé."
+      }
+    ]
+  },
+  {
+    "id": "obasan",
+    "japanese": "伯母さん/叔母さん",
+    "hiragana": "おばさん",
+    "romaji": "obasan",
+    "english": "aunt",
+    "french": "tante",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おばさんが遊びに来ました。",
+        "hiragana": "おばさんがあそびにきました。",
+        "romaji": "Obasan ga asobi ni kimashita.",
+        "english": "My aunt came to visit.",
+        "french": "Ma tante est venue rendre visite."
+      }
+    ]
+  },
+  {
+    "id": "ofuro",
+    "japanese": "お風呂",
+    "hiragana": "おふろ",
+    "romaji": "ofuro",
+    "english": "bath",
+    "french": "bain",
+    "level": "N5",
+    "category": "daily life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毎日お風呂に入ります。",
+        "hiragana": "まいにちおふろにはいります。",
+        "romaji": "Mainichi ofuro ni hairimasu.",
+        "english": "I take a bath every day.",
+        "french": "Je prends un bain tous les jours."
+      }
+    ]
+  },
+  {
+    "id": "obentou",
+    "japanese": "お弁当",
+    "hiragana": "おべんとう",
+    "romaji": "obentou",
+    "english": "boxed lunch",
+    "french": "boîte repas, bento",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お弁当を作りました。",
+        "hiragana": "おべんとうをつくりました。",
+        "romaji": "Obentou o tsukurimashita.",
+        "english": "I made a boxed lunch.",
+        "french": "J'ai préparé un bento."
+      }
+    ]
   }
 ];
 
