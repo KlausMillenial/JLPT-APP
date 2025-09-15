@@ -5,7 +5,11 @@
 export const ELEVENLABS_CONFIG = {
   // For now, users should input their API key in the app
   // This will be improved with proper Supabase edge function integration
-  apiKey: localStorage.getItem('elevenlabs_api_key') || '',
+  get apiKey() {
+    const key = localStorage.getItem('elevenlabs_api_key') || '';
+    console.log('Config Debug - Getting API key:', key ? 'found' : 'not found');
+    return key;
+  },
   apiUrl: 'https://api.elevenlabs.io/v1',
   defaultModel: 'eleven_multilingual_v2',
   voices: {
@@ -20,6 +24,11 @@ export const setElevenLabsApiKey = (apiKey: string) => {
     throw new Error('Invalid ElevenLabs API key format. ElevenLabs keys start with "sk_"');
   }
   localStorage.setItem('elevenlabs_api_key', apiKey);
+  
+  // Dispatch custom event to notify components
+  window.dispatchEvent(new CustomEvent('elevenlabs-key-updated', { 
+    detail: { apiKey } 
+  }));
 };
 
 export const getElevenLabsApiKey = () => {

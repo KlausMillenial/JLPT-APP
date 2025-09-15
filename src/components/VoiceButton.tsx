@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { useTextToSpeech } from '@/hooks/useTextToSpeech';
 import { getElevenLabsApiKey } from '@/lib/config';
 import { useToast } from '@/hooks/use-toast';
+import { useState, useEffect } from 'react';
 
 interface VoiceButtonProps {
   text: string;
@@ -21,11 +22,34 @@ export const VoiceButton = ({
 }: VoiceButtonProps) => {
   const { speak, isLoading, error } = useTextToSpeech();
   const { toast } = useToast();
+  const [hasApiKey, setHasApiKey] = useState(false);
+
+  // Check for API key on mount and update when localStorage changes
+  useEffect(() => {
+    const checkApiKey = () => {
+      const key = getElevenLabsApiKey();
+      console.log('VoiceButton Debug - Checking API key:', key ? 'found' : 'not found');
+      setHasApiKey(!!key && key.startsWith('sk_'));
+    };
+    
+    checkApiKey();
+    
+    // Listen for custom event when API key is updated
+    const handleApiKeyUpdate = () => {
+      console.log('VoiceButton Debug - API key updated, refreshing...');
+      checkApiKey();
+    };
+    
+    window.addEventListener('elevenlabs-key-updated', handleApiKeyUpdate);
+    return () => window.removeEventListener('elevenlabs-key-updated', handleApiKeyUpdate);
+  }, []);
   
   const handleSpeak = async (e: React.MouseEvent) => {
     e.stopPropagation(); // Prevent card flip when clicking voice button
     
     const apiKey = getElevenLabsApiKey();
+    console.log('VoiceButton Debug - Click handler, API key exists:', !!apiKey);
+    
     if (!apiKey) {
       toast({
         title: "Voice Not Configured",
@@ -35,14 +59,24 @@ export const VoiceButton = ({
       return;
     }
 
+    if (!apiKey.startsWith('sk_')) {
+      toast({
+        title: "Invalid API Key",
+        description: "Please enter a valid ElevenLabs API key (starts with 'sk_') in settings.",
+        variant: "destructive"
+      });
+      return;
+    }
+
     await speak({ text, language });
     
     if (error) {
+      console.log('VoiceButton Debug - TTS error:', error);
       toast({
         title: "Voice Error", 
         description: error.includes('401') ? 
           "Invalid ElevenLabs API key. Please check your API key in settings." : 
-          "Failed to play audio. Please try again.",
+          error,
         variant: "destructive"
       });
     }
@@ -50,7 +84,6 @@ export const VoiceButton = ({
 
   const speechId = `${text}_${Date.now()}`;
   const isCurrentlyLoading = isLoading === speechId;
-  const hasApiKey = getElevenLabsApiKey();
 
   return (
     <Button

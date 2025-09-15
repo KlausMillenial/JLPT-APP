@@ -14,8 +14,19 @@ export const useTextToSpeech = () => {
     if (!text.trim()) return;
 
     const apiKey = ELEVENLABS_CONFIG.apiKey;
+    console.log('TTS Debug - API Key exists:', !!apiKey);
+    console.log('TTS Debug - API Key format:', apiKey ? `${apiKey.substring(0, 8)}...` : 'none');
+    console.log('TTS Debug - localStorage value:', localStorage.getItem('elevenlabs_api_key') ? 'exists' : 'missing');
+    
     if (!apiKey) {
+      console.log('TTS Debug - No API key found');
       setError('ElevenLabs API key not configured. Please add your API key in settings.');
+      return;
+    }
+
+    if (!apiKey.startsWith('sk_')) {
+      console.log('TTS Debug - Invalid API key format detected');
+      setError('Invalid ElevenLabs API key format. Please use a key that starts with "sk_"');
       return;
     }
 
@@ -25,6 +36,7 @@ export const useTextToSpeech = () => {
 
     try {
       const voiceId = ELEVENLABS_CONFIG.voices[language];
+      console.log('TTS Debug - Using voice:', voiceId, 'for language:', language);
 
       const response = await fetch(`${ELEVENLABS_CONFIG.apiUrl}/text-to-speech/${voiceId}`, {
         method: 'POST',
@@ -45,8 +57,24 @@ export const useTextToSpeech = () => {
         })
       });
 
+      console.log('TTS Debug - Response status:', response.status);
+      console.log('TTS Debug - Response ok:', response.ok);
+
       if (!response.ok) {
-        throw new Error(`ElevenLabs API error: ${response.status}`);
+        const errorText = await response.text();
+        console.log('TTS Debug - Error response:', errorText);
+        let errorMessage = `ElevenLabs API error: ${response.status}`;
+        
+        try {
+          const errorData = JSON.parse(errorText);
+          if (errorData.detail?.message) {
+            errorMessage += ` - ${errorData.detail.message}`;
+          }
+        } catch (e) {
+          // If we can't parse the error, just use the status
+        }
+        
+        throw new Error(errorMessage);
       }
 
       const audioBlob = await response.blob();
