@@ -5,6 +5,7 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { VoiceButton } from './VoiceButton';
 import { CheckCircle, XCircle, ArrowRight } from 'lucide-react';
+import { vocabularyData } from '@/data/vocabulary';
 
 interface QuizQuestionProps {
   question: {
@@ -33,17 +34,16 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
     
     // For multiple choice, generate 3 wrong answers + 1 correct answer
     const correctAnswer = question.correctAnswer;
-    const allWords = require('@/data/vocabulary').vocabularyData;
     
     let wrongAnswers: string[] = [];
     if (question.type === 'japanese-to-english') {
-      wrongAnswers = allWords
+      wrongAnswers = vocabularyData
         .filter((w: any) => w.english !== correctAnswer && w.id !== question.word.id)
         .map((w: any) => w.english)
         .sort(() => Math.random() - 0.5)
         .slice(0, 3);
     } else {
-      wrongAnswers = allWords
+      wrongAnswers = vocabularyData
         .filter((w: any) => w.japanese !== correctAnswer && w.id !== question.word.id)
         .map((w: any) => w.japanese)
         .sort(() => Math.random() - 0.5)
