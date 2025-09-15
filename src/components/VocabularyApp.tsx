@@ -2,6 +2,7 @@ import { useState, useMemo } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
+import { RunwareApiKeyDialog } from './RunwareApiKeyDialog';
 import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
 import { BookOpen, Users, Star, Brain } from 'lucide-react';
@@ -48,7 +49,8 @@ export const VocabularyApp = () => {
       <header className="gradient-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4">
           {/* API Key Setup in top right */}
-          <div className="flex justify-end mb-4">
+          <div className="flex justify-end gap-2 mb-4">
+            <RunwareApiKeyDialog />
             <ApiKeyDialog />
           </div>
           
@@ -173,8 +175,8 @@ export const VocabularyApp = () => {
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>
             {language === 'english' 
-              ? 'Click cards to reveal translations • Click 🔊 buttons for pronunciation • Setup your ElevenLabs API key in settings'
-              : 'Cliquez sur les cartes pour les traductions • Cliquez sur 🔊 pour la prononciation • Configurez votre clé API ElevenLabs'
+              ? 'Click cards to reveal translations • Click 🔊 buttons for pronunciation • Generate images for visual learning • Setup API keys in settings'
+              : 'Cliquez sur les cartes pour les traductions • Cliquez sur 🔊 pour la prononciation • Générez des images pour l\'apprentissage visuel • Configurez vos clés API'
             }
           </p>
         </div>

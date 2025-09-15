@@ -9,6 +9,7 @@ export interface VocabularyWord {
   category: string;
   wordType: string;
   examples: VocabularyExample[];
+  imageUrl?: string;
 }
 
 export interface VocabularyExample {
