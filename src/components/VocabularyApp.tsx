@@ -2,11 +2,15 @@ import { useState, useMemo } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
+import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
-import { BookOpen, Users, Star } from 'lucide-react';
+import { BookOpen, Users, Star, Brain } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { Button } from '@/components/ui/button';
+import { cn } from '@/lib/utils';
 
 export const VocabularyApp = () => {
+  const [currentView, setCurrentView] = useState('vocabulary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -34,6 +38,10 @@ export const VocabularyApp = () => {
     categories: new Set(vocabularyData.map(w => w.category)).size
   };
 
+  if (currentView === 'quiz') {
+    return <QuizApp />;
+  }
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -50,6 +58,32 @@ export const VocabularyApp = () => {
               <h1 className="text-4xl md:text-5xl font-bold">
                 JLPT Vocabulary
               </h1>
+            </div>
+            
+            {/* Navigation Tabs */}
+            <div className="flex justify-center gap-4 mb-6">
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('vocabulary')}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  currentView === 'vocabulary' ? "bg-white/20" : ""
+                )}
+              >
+                <BookOpen className="w-4 h-4 mr-2" />
+                Study Cards
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('quiz')}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  currentView === 'quiz' ? "bg-white/20" : ""
+                )}
+              >
+                <Brain className="w-4 h-4 mr-2" />
+                Take Quiz
+              </Button>
             </div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               {language === 'english' 
