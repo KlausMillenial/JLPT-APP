@@ -4620,6 +4620,366 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Les cerisiers fleurissent au printemps."
       }
     ]
+  },
+  {
+    "id": "sai",
+    "japanese": "歳",
+    "hiragana": "さい",
+    "romaji": "sai",
+    "english": "years old (age)",
+    "french": "ans (âge)",
+    "level": "N5",
+    "category": "measurement",
+    "wordType": "counter",
+    "examples": [
+      {
+        "japanese": "私は二十歳です。",
+        "hiragana": "わたしははたちです。",
+        "romaji": "Watashi wa hatachi desu.",
+        "english": "I am twenty years old.",
+        "french": "J'ai vingt ans."
+      }
+    ]
+  },
+  {
+    "id": "sakanaya",
+    "japanese": "魚屋",
+    "hiragana": "さかなや",
+    "romaji": "sakanaya",
+    "english": "fish shop",
+    "french": "poissonnerie",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "魚屋で魚を買います。",
+        "hiragana": "さかなやでさかなをかいます。",
+        "romaji": "Sakanaya de sakana o kaimasu.",
+        "english": "I buy fish at the fish shop.",
+        "french": "J'achète du poisson à la poissonnerie."
+      }
+    ]
+  },
+  {
+    "id": "sakana",
+    "japanese": "魚",
+    "hiragana": "さかな",
+    "romaji": "sakana",
+    "english": "fish",
+    "french": "poisson",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "魚を食べます。",
+        "hiragana": "さかなをたべます。",
+        "romaji": "Sakana o tabemasu.",
+        "english": "I eat fish.",
+        "french": "Je mange du poisson."
+      }
+    ]
+  },
+  {
+    "id": "sashimi",
+    "japanese": "刺身",
+    "hiragana": "さしみ",
+    "romaji": "sashimi",
+    "english": "sliced raw fish",
+    "french": "poisson cru (sashimi)",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "寿司と刺身が好きです。",
+        "hiragana": "すしとさしみがすきです。",
+        "romaji": "Sushi to sashimi ga suki desu.",
+        "english": "I like sushi and sashimi.",
+        "french": "J'aime les sushis et les sashimis."
+      }
+    ]
+  },
+  {
+    "id": "sasu",
+    "japanese": "指す",
+    "hiragana": "さす",
+    "romaji": "sasu",
+    "english": "to point",
+    "french": "indiquer, pointer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "時計を指しました。",
+        "hiragana": "とけいをさしました。",
+        "romaji": "Tokei o sashimashita.",
+        "english": "He pointed at the clock.",
+        "french": "Il a montré l'horloge du doigt."
+      }
+    ]
+  },
+  {
+    "id": "zatshi",
+    "japanese": "雑誌",
+    "hiragana": "ざっし",
+    "romaji": "zasshi",
+    "english": "magazine",
+    "french": "magazine, revue",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "雑誌を読みます。",
+        "hiragana": "ざっしをよみます。",
+        "romaji": "Zasshi o yomimasu.",
+        "english": "I read a magazine.",
+        "french": "Je lis un magazine."
+      }
+    ]
+  },
+  {
+    "id": "samuai",
+    "japanese": "寒い",
+    "hiragana": "さむい",
+    "romaji": "samui",
+    "english": "cold (weather)",
+    "french": "froid (temps)",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "今日は寒いです。",
+        "hiragana": "きょうはさむいです。",
+        "romaji": "Kyou wa samui desu.",
+        "english": "It is cold today.",
+        "french": "Il fait froid aujourd'hui."
+      }
+    ]
+  },
+  {
+    "id": "sarada",
+    "japanese": "サラダ",
+    "hiragana": "さらだ",
+    "romaji": "sarada",
+    "english": "salad",
+    "french": "salade",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "サラダを食べます。",
+        "hiragana": "さらだをたべます。",
+        "romaji": "Sarada o tabemasu.",
+        "english": "I eat salad.",
+        "french": "Je mange de la salade."
+      }
+    ]
+  },
+  {
+    "id": "san",
+    "japanese": "三",
+    "hiragana": "さん",
+    "romaji": "san",
+    "english": "three",
+    "french": "trois",
+    "level": "N5",
+    "category": "number",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "三人の友達がいます。",
+        "hiragana": "さんにんのともだちがいます。",
+        "romaji": "San nin no tomodachi ga imasu.",
+        "english": "I have three friends.",
+        "french": "J'ai trois amis."
+      }
+    ]
+  },
+  {
+    "id": "sanpo",
+    "japanese": "散歩",
+    "hiragana": "さんぽ",
+    "romaji": "sanpo",
+    "english": "walk, stroll",
+    "french": "promenade",
+    "level": "N5",
+    "category": "activity",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "犬と散歩します。",
+        "hiragana": "いぬとさんぽします。",
+        "romaji": "Inu to sanpo shimasu.",
+        "english": "I take a walk with my dog.",
+        "french": "Je me promène avec mon chien."
+      }
+    ]
+  },
+  {
+    "id": "shawa",
+    "japanese": "シャワー",
+    "hiragana": "しゃわー",
+    "romaji": "shawaa",
+    "english": "shower",
+    "french": "douche",
+    "level": "N5",
+    "category": "daily life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "シャワーを浴びます。",
+        "hiragana": "しゃわーをあびます。",
+        "romaji": "Shawaa o abimasu.",
+        "english": "I take a shower.",
+        "french": "Je prends une douche."
+      }
+    ]
+  },
+  {
+    "id": "shashin",
+    "japanese": "写真",
+    "hiragana": "しゃしん",
+    "romaji": "shashin",
+    "english": "photograph",
+    "french": "photo",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "写真を撮ります。",
+        "hiragana": "しゃしんをとります。",
+        "romaji": "Shashin o torimasu.",
+        "english": "I take a photo.",
+        "french": "Je prends une photo."
+      }
+    ]
+  },
+  {
+    "id": "jikan",
+    "japanese": "時間",
+    "hiragana": "じかん",
+    "romaji": "jikan",
+    "english": "time, hour",
+    "french": "temps, heure",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "時間がありますか？",
+        "hiragana": "じかんがありますか？",
+        "romaji": "Jikan ga arimasu ka?",
+        "english": "Do you have time?",
+        "french": "As-tu du temps ?"
+      }
+    ]
+  },
+  {
+    "id": "jisho",
+    "japanese": "辞書",
+    "hiragana": "じしょ",
+    "romaji": "jisho",
+    "english": "dictionary",
+    "french": "dictionnaire",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "辞書で単語を調べます。",
+        "hiragana": "じしょでたんごをしらべます。",
+        "romaji": "Jisho de tango o shirabemasu.",
+        "english": "I look up words in a dictionary.",
+        "french": "Je cherche des mots dans un dictionnaire."
+      }
+    ]
+  },
+  {
+    "id": "shizuka",
+    "japanese": "静か",
+    "hiragana": "しずか",
+    "romaji": "shizuka",
+    "english": "quiet",
+    "french": "calme",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "図書館は静かです。",
+        "hiragana": "としょかんはしずかです。",
+        "romaji": "Toshokan wa shizuka desu.",
+        "english": "The library is quiet.",
+        "french": "La bibliothèque est calme."
+      }
+    ]
+  },
+  {
+    "id": "shimeru",
+    "japanese": "閉める",
+    "hiragana": "しめる",
+    "romaji": "shimeru",
+    "english": "to close",
+    "french": "fermer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "ドアを閉めてください。",
+        "hiragana": "どあをしめてください。",
+        "romaji": "Doa o shimete kudasai.",
+        "english": "Please close the door.",
+        "french": "Fermez la porte, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "shinu",
+    "japanese": "死ぬ",
+    "hiragana": "しぬ",
+    "romaji": "shinu",
+    "english": "to die",
+    "french": "mourir",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "魚が死にました。",
+        "hiragana": "さかながしにました。",
+        "romaji": "Sakana ga shinimashita.",
+        "english": "The fish died.",
+        "french": "Le poisson est mort."
+      }
+    ]
+  },
+  {
+    "id": "shiraberu",
+    "japanese": "調べる",
+    "hiragana": "しらべる",
+    "romaji": "shiraberu",
+    "english": "to investigate, to check",
+    "french": "vérifier, examiner",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "インターネットで調べます。",
+        "hiragana": "いんたーねっとでしらべます。",
+        "romaji": "Intaanetto de shirabemasu.",
+        "english": "I check on the internet.",
+        "french": "Je vérifie sur internet."
+      }
+    ]
   }
 ];
 
