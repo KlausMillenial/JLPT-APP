@@ -900,6 +900,546 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Je mange un bonbon."
       }
     ]
+  },
+  {
+    id: "arau",
+    japanese: "洗う",
+    hiragana: "あらう",
+    romaji: "arau",
+    english: "to wash",
+    french: "laver",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "手を洗います。",
+        hiragana: "てをあらいます。",
+        romaji: "Te o araimasu.",
+        english: "I wash my hands.",
+        french: "Je me lave les mains."
+      }
+    ]
+  },
+  {
+    id: "aru_inanimate",
+    japanese: "ある",
+    hiragana: "ある",
+    romaji: "aru",
+    english: "to be, to have (inanimate)",
+    french: "être, avoir (inanimé)",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "机の上に本がある。",
+        hiragana: "つくえのうえにほんがある。",
+        romaji: "Tsukue no ue ni hon ga aru.",
+        english: "There is a book on the desk.",
+        french: "Il y a un livre sur le bureau."
+      }
+    ]
+  },
+  {
+    id: "aruku",
+    japanese: "歩く",
+    hiragana: "あるく",
+    romaji: "aruku",
+    english: "to walk",
+    french: "marcher",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "公園を歩きます。",
+        hiragana: "こうえんをあるきます。",
+        romaji: "Kouen o arukimasu.",
+        english: "I walk in the park.",
+        french: "Je marche dans le parc."
+      }
+    ]
+  },
+  {
+    id: "are",
+    japanese: "あれ",
+    hiragana: "あれ",
+    romaji: "are",
+    english: "that",
+    french: "cela",
+    level: "N5",
+    category: "pronoun",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "あれは何ですか？",
+        hiragana: "あれはなんですか？",
+        romaji: "Are wa nan desu ka?",
+        english: "What is that?",
+        french: "Qu'est-ce que c'est ?"
+      }
+    ]
+  },
+  {
+    id: "ii",
+    japanese: "いい/よい",
+    hiragana: "いい/よい",
+    romaji: "ii/yo-i",
+    english: "good",
+    french: "bon",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "この本はいいです。",
+        hiragana: "このほんはいいです。",
+        romaji: "Kono hon wa ii desu.",
+        english: "This book is good.",
+        french: "Ce livre est bon."
+      }
+    ]
+  },
+  {
+    id: "iie",
+    japanese: "いいえ",
+    hiragana: "いいえ",
+    romaji: "iie",
+    english: "no",
+    french: "non",
+    level: "N5",
+    category: "expression",
+    wordType: "interjection",
+    examples: [
+      {
+        japanese: "いいえ、違います。",
+        hiragana: "いいえ、ちがいます。",
+        romaji: "Iie, chigaimasu.",
+        english: "No, that's not right.",
+        french: "Non, ce n'est pas correct."
+      }
+    ]
+  },
+  {
+    id: "iu",
+    japanese: "言う",
+    hiragana: "いう",
+    romaji: "iu",
+    english: "to say",
+    french: "dire",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "先生が言いました。",
+        hiragana: "せんせいがいいました。",
+        romaji: "Sensei ga iimashita.",
+        english: "The teacher said it.",
+        french: "Le professeur l'a dit."
+      }
+    ]
+  },
+  {
+    id: "ie",
+    japanese: "家",
+    hiragana: "いえ",
+    romaji: "ie",
+    english: "house",
+    french: "maison",
+    level: "N5",
+    category: "housing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "私の家は大きいです。",
+        hiragana: "わたしのいえはおおきいです。",
+        romaji: "Watashi no ie wa ookii desu.",
+        english: "My house is big.",
+        french: "Ma maison est grande."
+      }
+    ]
+  },
+  {
+    id: "ikaga",
+    japanese: "いかが",
+    hiragana: "いかが",
+    romaji: "ikaga",
+    english: "how",
+    french: "comment",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "コーヒーはいかがですか？",
+        hiragana: "こーひーはいかがですか？",
+        romaji: "Koohii wa ikaga desu ka?",
+        english: "How about some coffee?",
+        french: "Un café, comment ?"
+      }
+    ]
+  },
+  {
+    id: "iku",
+    japanese: "行く",
+    hiragana: "いく",
+    romaji: "iku",
+    english: "to go",
+    french: "aller",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "学校に行きます。",
+        hiragana: "がっこうにいきます。",
+        romaji: "Gakkou ni ikimasu.",
+        english: "I go to school.",
+        french: "Je vais à l'école."
+      }
+    ]
+  },
+  {
+    id: "ikutsu",
+    japanese: "いくつ",
+    hiragana: "いくつ",
+    romaji: "ikutsu",
+    english: "how many?, how old?",
+    french: "combien ?, quel âge ?",
+    level: "N5",
+    category: "question",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "りんごはいくつありますか？",
+        hiragana: "りんごはいくつありますか？",
+        romaji: "Ringo wa ikutsu arimasu ka?",
+        english: "How many apples are there?",
+        french: "Combien de pommes y a-t-il ?"
+      }
+    ]
+  },
+  {
+    id: "ikura",
+    japanese: "いくら",
+    hiragana: "いくら",
+    romaji: "ikura",
+    english: "how much?",
+    french: "combien ?",
+    level: "N5",
+    category: "question",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "この本はいくらですか？",
+        hiragana: "このほんはいくらですか？",
+        romaji: "Kono hon wa ikura desu ka?",
+        english: "How much is this book?",
+        french: "Combien coûte ce livre ?"
+      }
+    ]
+  },
+  {
+    id: "ike",
+    japanese: "池",
+    hiragana: "いけ",
+    romaji: "ike",
+    english: "pond",
+    french: "étang",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "池に魚がいます。",
+        hiragana: "いけにさかながいます。",
+        romaji: "Ike ni sakana ga imasu.",
+        english: "There are fish in the pond.",
+        french: "Il y a des poissons dans l'étang."
+      }
+    ]
+  },
+  {
+    id: "isha",
+    japanese: "医者",
+    hiragana: "いしゃ",
+    romaji: "isha",
+    english: "medical doctor",
+    french: "médecin",
+    level: "N5",
+    category: "profession",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "父は医者です。",
+        hiragana: "ちちはいしゃです。",
+        romaji: "Chichi wa isha desu.",
+        english: "My father is a doctor.",
+        french: "Mon père est médecin."
+      }
+    ]
+  },
+  {
+    id: "isu",
+    japanese: "いす",
+    hiragana: "いす",
+    romaji: "isu",
+    english: "chair",
+    french: "chaise",
+    level: "N5",
+    category: "furniture",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "椅子に座ります。",
+        hiragana: "いすにすわります。",
+        romaji: "Isu ni suwarimasu.",
+        english: "I sit on a chair.",
+        french: "Je m'assois sur une chaise."
+      }
+    ]
+  },
+  {
+    id: "isogashii",
+    japanese: "忙しい",
+    hiragana: "いそがしい",
+    romaji: "isogashii",
+    english: "busy, irritated",
+    french: "occupé, agacé",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "今日は忙しいです。",
+        hiragana: "きょうはいそがしいです。",
+        romaji: "Kyou wa isogashii desu.",
+        english: "I am busy today.",
+        french: "Je suis occupé aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "itai",
+    japanese: "痛い",
+    hiragana: "いたい",
+    romaji: "itai",
+    english: "painful",
+    french: "douloureux",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "歯が痛いです。",
+        hiragana: "はがいたいです。",
+        romaji: "Ha ga itai desu.",
+        english: "My tooth hurts.",
+        french: "J'ai mal aux dents."
+      }
+    ]
+  },
+  {
+    id: "ichi",
+    japanese: "一",
+    hiragana: "いち",
+    romaji: "ichi",
+    english: "one",
+    french: "un",
+    level: "N5",
+    category: "number",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "一つください。",
+        hiragana: "ひとつください。",
+        romaji: "Hitotsu kudasai.",
+        english: "Please give me one.",
+        french: "Donnez-m'en un, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "ichinichi",
+    japanese: "一日",
+    hiragana: "いちにち",
+    romaji: "ichinichi",
+    english: "first of the month / one day",
+    french: "le premier du mois / un jour",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "一日中勉強しました。",
+        hiragana: "いちにちじゅうべんきょうしました。",
+        romaji: "Ichinichi juu benkyou shimashita.",
+        english: "I studied all day.",
+        french: "J'ai étudié toute la journée."
+      }
+    ]
+  },
+  {
+    id: "ichiban",
+    japanese: "いちばん",
+    hiragana: "いちばん",
+    romaji: "ichiban",
+    english: "best, first",
+    french: "meilleur, premier",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "寿司が一番好きです。",
+        hiragana: "すしがいちばんすきです。",
+        romaji: "Sushi ga ichiban suki desu.",
+        english: "I like sushi the best.",
+        french: "J'aime le sushi le plus."
+      }
+    ]
+  },
+  {
+    id: "itsu",
+    japanese: "いつ",
+    hiragana: "いつ",
+    romaji: "itsu",
+    english: "when",
+    french: "quand",
+    level: "N5",
+    category: "question",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "いつ来ますか？",
+        hiragana: "いつきますか？",
+        romaji: "Itsu kimasu ka?",
+        english: "When will you come?",
+        french: "Quand viendras-tu ?"
+      }
+    ]
+  },
+  {
+    id: "itsuka",
+    japanese: "五日",
+    hiragana: "いつか",
+    romaji: "itsuka",
+    english: "five days, fifth day",
+    french: "cinq jours, le 5e jour",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "五日は休みです。",
+        hiragana: "いつかはやすみです。",
+        romaji: "Itsuka wa yasumi desu.",
+        english: "The fifth is a holiday.",
+        french: "Le cinq est un jour férié."
+      }
+    ]
+  },
+  {
+    id: "issho",
+    japanese: "一緒",
+    hiragana: "いっしょ",
+    romaji: "issho",
+    english: "together",
+    french: "ensemble",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "友達と一緒に行きます。",
+        hiragana: "ともだちといっしょにいきます。",
+        romaji: "Tomodachi to issho ni ikimasu.",
+        english: "I go with my friend.",
+        french: "Je vais avec mon ami."
+      }
+    ]
+  },
+  {
+    id: "itsutsu",
+    japanese: "五つ",
+    hiragana: "いつつ",
+    romaji: "itsutsu",
+    english: "five",
+    french: "cinq",
+    level: "N5",
+    category: "number",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "リンゴを五つ食べました。",
+        hiragana: "りんごをいつつたべました。",
+        romaji: "Ringo o itsutsu tabemashita.",
+        english: "I ate five apples.",
+        french: "J'ai mangé cinq pommes."
+      }
+    ]
+  },
+  {
+    id: "itsumo",
+    japanese: "いつも",
+    hiragana: "いつも",
+    romaji: "itsumo",
+    english: "always",
+    french: "toujours",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "彼はいつも元気です。",
+        hiragana: "かれはいつもげんきです。",
+        romaji: "Kare wa itsumo genki desu.",
+        english: "He is always energetic.",
+        french: "Il est toujours en forme."
+      }
+    ]
+  },
+  {
+    id: "inu",
+    japanese: "犬",
+    hiragana: "いぬ",
+    romaji: "inu",
+    english: "dog",
+    french: "chien",
+    level: "N5",
+    category: "animal",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "犬が走っています。",
+        hiragana: "いぬがはしっています。",
+        romaji: "Inu ga hashitte imasu.",
+        english: "The dog is running.",
+        french: "Le chien court."
+      }
+    ]
+  },
+  {
+    id: "ima",
+    japanese: "今",
+    hiragana: "いま",
+    romaji: "ima",
+    english: "now",
+    french: "maintenant",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今行きます。",
+        hiragana: "いまいきます。",
+        romaji: "Ima ikimasu.",
+        english: "I am going now.",
+        french: "J'y vais maintenant."
+      }
+    ]
   }
 ];
 
