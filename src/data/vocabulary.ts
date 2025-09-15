@@ -3660,6 +3660,266 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "La chambre est propre."
       }
     ]
+  },
+  {
+    "id": "kiro",
+    "japanese": "キロ/キログラム",
+    "hiragana": "きろ/きろぐらむ",
+    "romaji": "kiro / kiroguramu",
+    "english": "kilogram",
+    "french": "kilogramme",
+    "level": "N5",
+    "category": "measurement",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "りんごを1キロ買いました。",
+        "hiragana": "りんごをいちきろかいました。",
+        "romaji": "Ringo o ichi kiro kaimashita.",
+        "english": "I bought one kilogram of apples.",
+        "french": "J'ai acheté un kilo de pommes."
+      }
+    ]
+  },
+  {
+    "id": "kiromeetoru",
+    "japanese": "キロ/キロメートル",
+    "hiragana": "きろ/きろめーとる",
+    "romaji": "kiro / kiromeetoru",
+    "english": "kilometer",
+    "french": "kilomètre",
+    "level": "N5",
+    "category": "measurement",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "駅まで2キロです。",
+        "hiragana": "えきまでにきろです。",
+        "romaji": "Eki made ni kiro desu.",
+        "english": "It is 2 kilometers to the station.",
+        "french": "Il y a 2 kilomètres jusqu'à la gare."
+      }
+    ]
+  },
+  {
+    "id": "ginkou",
+    "japanese": "銀行",
+    "hiragana": "ぎんこう",
+    "romaji": "ginkou",
+    "english": "bank",
+    "french": "banque",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お金を銀行に預けます。",
+        "hiragana": "おかねをぎんこうにあずけます。",
+        "romaji": "Okane o ginkou ni azukemasu.",
+        "english": "I deposit money in the bank.",
+        "french": "Je dépose de l'argent à la banque."
+      }
+    ]
+  },
+  {
+    "id": "kinyoubi",
+    "japanese": "金曜日",
+    "hiragana": "きんようび",
+    "romaji": "kinyoubi",
+    "english": "Friday",
+    "french": "vendredi",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "金曜日に友達と出かけます。",
+        "hiragana": "きんようびにともだちとでかけます。",
+        "romaji": "Kinyoubi ni tomodachi to dekakemasu.",
+        "english": "I go out with friends on Friday.",
+        "french": "Je sors avec des amis vendredi."
+      }
+    ]
+  },
+  {
+    "id": "kusuri",
+    "japanese": "薬",
+    "hiragana": "くすり",
+    "romaji": "kusuri",
+    "english": "medicine",
+    "french": "médicament",
+    "level": "N5",
+    "category": "health",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "薬を飲みます。",
+        "hiragana": "くすりをのみます。",
+        "romaji": "Kusuri o nomimasu.",
+        "english": "I take medicine.",
+        "french": "Je prends un médicament."
+      }
+    ]
+  },
+  {
+    "id": "kudasai",
+    "japanese": "ください",
+    "hiragana": "ください",
+    "romaji": "kudasai",
+    "english": "please (give me)",
+    "french": "s'il vous plaît (donnez-moi)",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb (imperative)",
+    "examples": [
+      {
+        "japanese": "水をください。",
+        "hiragana": "みずをください。",
+        "romaji": "Mizu o kudasai.",
+        "english": "Please give me water.",
+        "french": "Donnez-moi de l'eau, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "kudamono",
+    "japanese": "果物",
+    "hiragana": "くだもの",
+    "romaji": "kudamono",
+    "english": "fruit",
+    "french": "fruit",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "果物をよく食べます。",
+        "hiragana": "くだものをよくたべます。",
+        "romaji": "Kudamono o yoku tabemasu.",
+        "english": "I often eat fruit.",
+        "french": "Je mange souvent des fruits."
+      }
+    ]
+  },
+  {
+    "id": "kuchi",
+    "japanese": "口",
+    "hiragana": "くち",
+    "romaji": "kuchi",
+    "english": "mouth, opening",
+    "french": "bouche, ouverture",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "口を開けてください。",
+        "hiragana": "くちをあけてください。",
+        "romaji": "Kuchi o akete kudasai.",
+        "english": "Please open your mouth.",
+        "french": "Ouvrez la bouche, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "kutsu",
+    "japanese": "靴",
+    "hiragana": "くつ",
+    "romaji": "kutsu",
+    "english": "shoes",
+    "french": "chaussures",
+    "level": "N5",
+    "category": "clothing",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい靴を買いました。",
+        "hiragana": "あたらしいくつをかいました。",
+        "romaji": "Atarashii kutsu o kaimashita.",
+        "english": "I bought new shoes.",
+        "french": "J'ai acheté de nouvelles chaussures."
+      }
+    ]
+  },
+  {
+    "id": "kutsushita",
+    "japanese": "靴下",
+    "hiragana": "くつした",
+    "romaji": "kutsushita",
+    "english": "socks",
+    "french": "chaussettes",
+    "level": "N5",
+    "category": "clothing",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "靴下を履きます。",
+        "hiragana": "くつしたをはきます。",
+        "romaji": "Kutsushita o hakimasu.",
+        "english": "I put on socks.",
+        "french": "Je mets des chaussettes."
+      }
+    ]
+  },
+  {
+    "id": "kuni",
+    "japanese": "国",
+    "hiragana": "くに",
+    "romaji": "kuni",
+    "english": "country",
+    "french": "pays",
+    "level": "N5",
+    "category": "geography",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "日本は美しい国です。",
+        "hiragana": "にほんはうつくしいくにです。",
+        "romaji": "Nihon wa utsukushii kuni desu.",
+        "english": "Japan is a beautiful country.",
+        "french": "Le Japon est un beau pays."
+      }
+    ]
+  },
+  {
+    "id": "kumori",
+    "japanese": "曇り",
+    "hiragana": "くもり",
+    "romaji": "kumori",
+    "english": "cloudy weather",
+    "french": "temps nuageux",
+    "level": "N5",
+    "category": "weather",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今日は曇りです。",
+        "hiragana": "きょうはくもりです。",
+        "romaji": "Kyou wa kumori desu.",
+        "english": "It is cloudy today.",
+        "french": "Il fait nuageux aujourd'hui."
+      }
+    ]
+  },
+  {
+    "id": "kumoru",
+    "japanese": "曇る",
+    "hiragana": "くもる",
+    "romaji": "kumoru",
+    "english": "to become cloudy",
+    "french": "se couvrir (ciel)",
+    "level": "N5",
+    "category": "weather",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "空が曇っています。",
+        "hiragana": "そらがくもっています。",
+        "romaji": "Sora ga kumotte imasu.",
+        "english": "The sky is cloudy.",
+        "french": "Le ciel est couvert."
+      }
+    ]
   }
 ];
 
