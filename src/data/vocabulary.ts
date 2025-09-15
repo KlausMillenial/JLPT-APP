@@ -2079,6 +2079,266 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Comment va ta mère ?"
       }
     ]
+  },
+  {
+    "id": "okashi",
+    "japanese": "お菓子",
+    "hiragana": "おかし",
+    "romaji": "okashi",
+    "english": "sweets, candy",
+    "french": "friandises, bonbons",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "子どもはお菓子が好きです。",
+        "hiragana": "こどもはおかしがすきです。",
+        "romaji": "Kodomo wa okashi ga suki desu.",
+        "english": "Children like sweets.",
+        "french": "Les enfants aiment les bonbons."
+      }
+    ]
+  },
+  {
+    "id": "okane",
+    "japanese": "お金",
+    "hiragana": "おかね",
+    "romaji": "okane",
+    "english": "money",
+    "french": "argent",
+    "level": "N5",
+    "category": "economy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お金を持っていますか？",
+        "hiragana": "おかねをもっていますか？",
+        "romaji": "Okane o motte imasu ka?",
+        "english": "Do you have money?",
+        "french": "As-tu de l'argent ?"
+      }
+    ]
+  },
+  {
+    "id": "okiru",
+    "japanese": "起きる",
+    "hiragana": "おきる",
+    "romaji": "okiru",
+    "english": "to get up",
+    "french": "se lever",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "毎朝6時に起きます。",
+        "hiragana": "まいあさろくじにおきます。",
+        "romaji": "Maiasa rokuji ni okimasu.",
+        "english": "I get up at 6 every morning.",
+        "french": "Je me lève à 6 heures chaque matin."
+      }
+    ]
+  },
+  {
+    "id": "oku",
+    "japanese": "置く",
+    "hiragana": "おく",
+    "romaji": "oku",
+    "english": "to put, to place",
+    "french": "poser, placer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "本を机の上に置きます。",
+        "hiragana": "ほんをつくえのうえにおきます。",
+        "romaji": "Hon o tsukue no ue ni okimasu.",
+        "english": "I put the book on the desk.",
+        "french": "Je pose le livre sur le bureau."
+      }
+    ]
+  },
+  {
+    "id": "okusan",
+    "japanese": "奥さん",
+    "hiragana": "おくさん",
+    "romaji": "okusan",
+    "english": "(honorific) wife",
+    "french": "épouse (honorifique)",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田中さんの奥さんは先生です。",
+        "hiragana": "たなかさんのおくさんはせんせいです。",
+        "romaji": "Tanaka-san no okusan wa sensei desu.",
+        "english": "Mr. Tanaka's wife is a teacher.",
+        "french": "La femme de M. Tanaka est professeur."
+      }
+    ]
+  },
+  {
+    "id": "osake",
+    "japanese": "お酒",
+    "hiragana": "おさけ",
+    "romaji": "osake",
+    "english": "alcohol, rice wine",
+    "french": "alcool, saké",
+    "level": "N5",
+    "category": "drink",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "父はお酒を飲みます。",
+        "hiragana": "ちはおさけをのみます。",
+        "romaji": "Chichi wa osake o nomimasu.",
+        "english": "My father drinks alcohol.",
+        "french": "Mon père boit de l'alcool."
+      }
+    ]
+  },
+  {
+    "id": "osara",
+    "japanese": "お皿",
+    "hiragana": "おさら",
+    "romaji": "osara",
+    "english": "plate, dish",
+    "french": "assiette, plat",
+    "level": "N5",
+    "category": "kitchen",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お皿を洗います。",
+        "hiragana": "おさらをあらいます。",
+        "romaji": "Osara o araimasu.",
+        "english": "I wash the dishes.",
+        "french": "Je lave les assiettes."
+      }
+    ]
+  },
+  {
+    "id": "ojiisan",
+    "japanese": "伯父/叔父",
+    "hiragana": "おじいさん",
+    "romaji": "ojiisan",
+    "english": "grandfather, elderly man",
+    "french": "grand-père, vieil homme",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おじいさんは畑にいます。",
+        "hiragana": "おじいさんははたけにいます。",
+        "romaji": "Ojiisan wa hatake ni imasu.",
+        "english": "Grandfather is in the field.",
+        "french": "Mon grand-père est dans le champ."
+      }
+    ]
+  },
+  {
+    "id": "oshieru",
+    "japanese": "教える",
+    "hiragana": "おしえる",
+    "romaji": "oshieru",
+    "english": "to teach, to tell",
+    "french": "enseigner, dire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "日本語を教えます。",
+        "hiragana": "にほんごをおしえます。",
+        "romaji": "Nihongo o oshiemasu.",
+        "english": "I teach Japanese.",
+        "french": "J'enseigne le japonais."
+      }
+    ]
+  },
+  {
+    "id": "ojisan",
+    "japanese": "伯父/叔父",
+    "hiragana": "おじさん",
+    "romaji": "ojisan",
+    "english": "uncle, middle-aged man",
+    "french": "oncle, homme d'âge moyen",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "おじさんが来ました。",
+        "hiragana": "おじさんがきました。",
+        "romaji": "Ojisan ga kimashita.",
+        "english": "My uncle came.",
+        "french": "Mon oncle est venu."
+      }
+    ]
+  },
+  {
+    "id": "osu",
+    "japanese": "押す",
+    "hiragana": "おす",
+    "romaji": "osu",
+    "english": "to push, to press",
+    "french": "pousser, appuyer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "ボタンを押してください。",
+        "hiragana": "ぼたんをおしてください。",
+        "romaji": "Botan o oshite kudasai.",
+        "english": "Please press the button.",
+        "french": "Appuie sur le bouton, s'il te plaît."
+      }
+    ]
+  },
+  {
+    "id": "osoi",
+    "japanese": "遅い",
+    "hiragana": "おそい",
+    "romaji": "osoi",
+    "english": "late, slow",
+    "french": "tard, lent",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "今日は学校に遅れました。",
+        "hiragana": "きょうはがっこうにおくれました。",
+        "romaji": "Kyou wa gakkou ni okuremashita.",
+        "english": "I was late for school today.",
+        "french": "Aujourd'hui je suis arrivé en retard à l'école."
+      }
+    ]
+  },
+  {
+    "id": "ocha",
+    "japanese": "お茶",
+    "hiragana": "おちゃ",
+    "romaji": "ocha",
+    "english": "green tea",
+    "french": "thé vert",
+    "level": "N5",
+    "category": "drink",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "お茶を飲みます。",
+        "hiragana": "おちゃをのみます。",
+        "romaji": "Ocha o nomimasu.",
+        "english": "I drink green tea.",
+        "french": "Je bois du thé vert."
+      }
+    ]
   }
 ];
 
