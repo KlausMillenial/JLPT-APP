@@ -16,9 +16,16 @@ export const ELEVENLABS_CONFIG = {
 };
 
 export const setElevenLabsApiKey = (apiKey: string) => {
+  if (apiKey && !apiKey.startsWith('sk_')) {
+    throw new Error('Invalid ElevenLabs API key format. ElevenLabs keys start with "sk_"');
+  }
   localStorage.setItem('elevenlabs_api_key', apiKey);
 };
 
 export const getElevenLabsApiKey = () => {
   return localStorage.getItem('elevenlabs_api_key') || '';
+};
+
+export const isValidElevenLabsKey = (key: string): boolean => {
+  return key.length > 0 && key.startsWith('sk_');
 };

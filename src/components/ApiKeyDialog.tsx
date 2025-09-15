@@ -13,12 +13,38 @@ export const ApiKeyDialog = () => {
   const { toast } = useToast();
 
   const handleSave = () => {
-    setElevenLabsApiKey(apiKey);
-    setIsOpen(false);
-    toast({
-      title: "API Key Saved",
-      description: "ElevenLabs API key has been saved successfully. You can now use voice pronunciation.",
-    });
+    try {
+      if (!apiKey.trim()) {
+        toast({
+          title: "Error",
+          description: "Please enter an API key.",
+          variant: "destructive"
+        });
+        return;
+      }
+
+      if (!apiKey.startsWith('sk_')) {
+        toast({
+          title: "Invalid API Key Format",
+          description: "ElevenLabs API keys start with 'sk_'. OpenAI keys (sk-proj-) won't work here.",
+          variant: "destructive"
+        });
+        return;
+      }
+
+      setElevenLabsApiKey(apiKey);
+      setIsOpen(false);
+      toast({
+        title: "API Key Saved",
+        description: "ElevenLabs API key has been saved successfully. You can now use voice pronunciation.",
+      });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: error instanceof Error ? error.message : "Failed to save API key",
+        variant: "destructive"
+      });
+    }
   };
 
   const currentKey = getElevenLabsApiKey();
@@ -37,10 +63,13 @@ export const ApiKeyDialog = () => {
             <Key className="w-5 h-5" />
             ElevenLabs API Configuration
           </DialogTitle>
-          <DialogDescription>
-            Enter your ElevenLabs API key to enable voice pronunciation for Japanese words and examples.
-            You can get your API key from your ElevenLabs dashboard.
-          </DialogDescription>
+        <DialogDescription>
+          Enter your ElevenLabs API key to enable voice pronunciation for Japanese words and examples.
+          <br /><br />
+          <strong>Important:</strong> You need an ElevenLabs API key (starts with "sk_"), not an OpenAI key.
+          <br />
+          Get your API key from: <a href="https://elevenlabs.io/app/settings/api-keys" target="_blank" className="text-primary hover:underline">ElevenLabs Dashboard</a>
+        </DialogDescription>
         </DialogHeader>
         <div className="space-y-4 py-4">
           <div className="space-y-2">
@@ -48,10 +77,13 @@ export const ApiKeyDialog = () => {
             <Input
               id="apiKey"
               type="password"
-              placeholder="Enter your ElevenLabs API key"
+              placeholder="sk_..."
               value={apiKey}
               onChange={(e) => setApiKey(e.target.value)}
             />
+            <div className="text-xs text-muted-foreground">
+              ElevenLabs API keys start with "sk_" (not "sk-proj-" which is OpenAI)
+            </div>
           </div>
           {currentKey && (
             <div className="text-sm text-muted-foreground">
