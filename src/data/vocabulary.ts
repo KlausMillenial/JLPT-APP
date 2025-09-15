@@ -68,7 +68,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "book",
     french: "livre",
     level: "N5",
-    category: "objects",
+    category: "object",
     wordType: "noun",
     examples: [
       {
@@ -88,7 +88,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "to eat",
     french: "manger",
     level: "N5",
-    category: "verbs",
+    category: "verb",
     wordType: "verb",
     examples: [
       {
@@ -108,7 +108,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "red",
     french: "rouge",
     level: "N5",
-    category: "colors",
+    category: "color",
     wordType: "adjective",
     examples: [
       {
@@ -128,7 +128,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "school",
     french: "école",
     level: "N5",
-    category: "places",
+    category: "place",
     wordType: "noun",
     examples: [
       {
@@ -160,7 +160,6 @@ export const vocabularyData: VocabularyWord[] = [
       }
     ]
   },
-  // New vocabulary words added from JSON
   {
     id: "au",
     japanese: "会う",
@@ -238,26 +237,6 @@ export const vocabularyData: VocabularyWord[] = [
         romaji: "Aka ga suki desu.",
         english: "I like red.",
         french: "J'aime le rouge."
-      }
-    ]
-  },
-  {
-    id: "akai_new",
-    japanese: "赤い",
-    hiragana: "あかい",
-    romaji: "akai",
-    english: "red",
-    french: "rouge (adjectif)",
-    level: "N5",
-    category: "color",
-    wordType: "adjective",
-    examples: [
-      {
-        japanese: "赤い車があります。",
-        hiragana: "あかいくるまがあります。",
-        romaji: "Akai kuruma ga arimasu.",
-        english: "There is a red car.",
-        french: "Il y a une voiture rouge."
       }
     ]
   },
@@ -409,7 +388,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "foot, leg",
     french: "pied, jambe",
     level: "N5",
-    category: "body parts",
+    category: "body part",
     wordType: "noun",
     examples: [
       {
@@ -509,7 +488,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "head",
     french: "tête",
     level: "N5",
-    category: "body parts",
+    category: "body part",
     wordType: "noun",
     examples: [
       {
