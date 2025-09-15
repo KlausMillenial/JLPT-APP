@@ -4260,6 +4260,366 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Asseyez-vous ici, s'il vous plaît."
       }
     ]
+  },
+  {
+    "id": "koko",
+    "japanese": "此処",
+    "hiragana": "ここ",
+    "romaji": "koko",
+    "english": "here",
+    "french": "ici",
+    "level": "N5",
+    "category": "location",
+    "wordType": "pronoun",
+    "examples": [
+      {
+        "japanese": "ここに置いてください。",
+        "hiragana": "ここにおいてください。",
+        "romaji": "Koko ni oite kudasai.",
+        "english": "Please put it here.",
+        "french": "Mettez-le ici, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "gochisousama",
+    "japanese": "ご馳走様",
+    "hiragana": "ごちそうさま",
+    "romaji": "gochisousama",
+    "english": "thank you for the meal",
+    "french": "merci pour le repas",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "ご馳走様でした。",
+        "hiragana": "ごちそうさまでした。",
+        "romaji": "Gochisousama deshita.",
+        "english": "Thank you for the meal.",
+        "french": "Merci pour le repas."
+      }
+    ]
+  },
+  {
+    "id": "kokoasa",
+    "japanese": "今朝",
+    "hiragana": "けさ",
+    "romaji": "kesa",
+    "english": "this morning",
+    "french": "ce matin",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今朝は早く起きました。",
+        "hiragana": "けさははやくおきました。",
+        "romaji": "Kesa wa hayaku okimashita.",
+        "english": "I woke up early this morning.",
+        "french": "Je me suis levé tôt ce matin."
+      }
+    ]
+  },
+  {
+    "id": "kokoasaasa",
+    "japanese": "午後",
+    "hiragana": "ごご",
+    "romaji": "gogo",
+    "english": "afternoon, p.m.",
+    "french": "après-midi",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "午後3時に会いましょう。",
+        "hiragana": "ごごさんじにあいましょう。",
+        "romaji": "Gogo sanji ni aimashou.",
+        "english": "Let's meet at 3 p.m.",
+        "french": "Rendez-vous à 15h."
+      }
+    ]
+  },
+  {
+    "id": "gozen",
+    "japanese": "午前",
+    "hiragana": "ごぜん",
+    "romaji": "gozen",
+    "english": "morning, a.m.",
+    "french": "matin (a.m.)",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "午前9時に授業が始まります。",
+        "hiragana": "ごぜんくじにじゅぎょうがはじまります。",
+        "romaji": "Gozen kuji ni jugyou ga hajimarimasu.",
+        "english": "Class starts at 9 a.m.",
+        "french": "Le cours commence à 9h du matin."
+      }
+    ]
+  },
+  {
+    "id": "kotoba",
+    "japanese": "言葉",
+    "hiragana": "ことば",
+    "romaji": "kotoba",
+    "english": "word, language",
+    "french": "mot, langue",
+    "level": "N5",
+    "category": "language",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい言葉を覚えました。",
+        "hiragana": "あたらしいことばをおぼえました。",
+        "romaji": "Atarashii kotoba o oboemashita.",
+        "english": "I learned a new word.",
+        "french": "J'ai appris un nouveau mot."
+      }
+    ]
+  },
+  {
+    "id": "kotoshi",
+    "japanese": "今年",
+    "hiragana": "ことし",
+    "romaji": "kotoshi",
+    "english": "this year",
+    "french": "cette année",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今年日本へ行きます。",
+        "hiragana": "ことしにほんへいきます。",
+        "romaji": "Kotoshi Nihon e ikimasu.",
+        "english": "I will go to Japan this year.",
+        "french": "Je vais au Japon cette année."
+      }
+    ]
+  },
+  {
+    "id": "kodomo",
+    "japanese": "子供",
+    "hiragana": "こども",
+    "romaji": "kodomo",
+    "english": "child",
+    "french": "enfant",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "子供が遊んでいます。",
+        "hiragana": "こどもがあそんでいます。",
+        "romaji": "Kodomo ga asonde imasu.",
+        "english": "The child is playing.",
+        "french": "L'enfant joue."
+      }
+    ]
+  },
+  {
+    "id": "gochisou",
+    "japanese": "ご馳走",
+    "hiragana": "ごちそう",
+    "romaji": "gochisou",
+    "english": "feast, treat",
+    "french": "festin, régal",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達にご馳走しました。",
+        "hiragana": "ともだちにごちそうしました。",
+        "romaji": "Tomodachi ni gochisou shimashita.",
+        "english": "I treated my friend to a meal.",
+        "french": "J'ai offert un repas à mon ami."
+      }
+    ]
+  },
+  {
+    "id": "kondo",
+    "japanese": "今度",
+    "hiragana": "こんど",
+    "romaji": "kondo",
+    "english": "next time",
+    "french": "la prochaine fois",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今度一緒に行きましょう。",
+        "hiragana": "こんどいっしょにいきましょう。",
+        "romaji": "Kondo issho ni ikimashou.",
+        "english": "Let's go together next time.",
+        "french": "Allons-y ensemble la prochaine fois."
+      }
+    ]
+  },
+  {
+    "id": "konban",
+    "japanese": "今晩",
+    "hiragana": "こんばん",
+    "romaji": "konban",
+    "english": "this evening, tonight",
+    "french": "ce soir",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今晩は星が見えます。",
+        "hiragana": "こんばんほしがみえます。",
+        "romaji": "Konban hoshi ga miemasu.",
+        "english": "We can see stars tonight.",
+        "french": "On peut voir les étoiles ce soir."
+      }
+    ]
+  },
+  {
+    "id": "kongetsu",
+    "japanese": "今月",
+    "hiragana": "こんげつ",
+    "romaji": "kongetsu",
+    "english": "this month",
+    "french": "ce mois-ci",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今月から新しい仕事を始めました。",
+        "hiragana": "こんげつからあたらしいしごとをはじめました。",
+        "romaji": "Kongetsu kara atarashii shigoto o hajimemashita.",
+        "english": "I started a new job this month.",
+        "french": "J'ai commencé un nouveau travail ce mois-ci."
+      }
+    ]
+  },
+  {
+    "id": "konshuu",
+    "japanese": "今週",
+    "hiragana": "こんしゅう",
+    "romaji": "konshuu",
+    "english": "this week",
+    "french": "cette semaine",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今週は忙しいです。",
+        "hiragana": "こんしゅうはいそがしいです。",
+        "romaji": "Konshuu wa isogashii desu.",
+        "english": "I am busy this week.",
+        "french": "Je suis occupé cette semaine."
+      }
+    ]
+  },
+  {
+    "id": "konna",
+    "japanese": "こんな",
+    "hiragana": "こんな",
+    "romaji": "konna",
+    "english": "such, like this",
+    "french": "tel, comme ça",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "こんなに大きいケーキは初めてです。",
+        "hiragana": "こんなにおおきいけーきははじめてです。",
+        "romaji": "Konna ni ookii keeki wa hajimete desu.",
+        "english": "It's the first time I see such a big cake.",
+        "french": "C'est la première fois que je vois un gâteau aussi grand."
+      }
+    ]
+  },
+  {
+    "id": "konya",
+    "japanese": "今夜",
+    "hiragana": "こんや",
+    "romaji": "konya",
+    "english": "tonight",
+    "french": "ce soir",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今夜は月がきれいです。",
+        "hiragana": "こんやはつきがきれいです。",
+        "romaji": "Konya wa tsuki ga kirei desu.",
+        "english": "The moon is beautiful tonight.",
+        "french": "La lune est belle ce soir."
+      }
+    ]
+  },
+  {
+    "id": "konpyuutaa",
+    "japanese": "コンピュータ",
+    "hiragana": "こんぴゅーた",
+    "romaji": "konpyuutaa",
+    "english": "computer",
+    "french": "ordinateur",
+    "level": "N5",
+    "category": "technology",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "コンピュータを使います。",
+        "hiragana": "こんぴゅーたをつかいます。",
+        "romaji": "Konpyuutaa o tsukaimasu.",
+        "english": "I use a computer.",
+        "french": "J'utilise un ordinateur."
+      }
+    ]
+  },
+  {
+    "id": "saifu",
+    "japanese": "財布",
+    "hiragana": "さいふ",
+    "romaji": "saifu",
+    "english": "wallet",
+    "french": "portefeuille",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "財布を忘れました。",
+        "hiragana": "さいふをわすれました。",
+        "romaji": "Saifu o wasuremashita.",
+        "english": "I forgot my wallet.",
+        "french": "J'ai oublié mon portefeuille."
+      }
+    ]
+  },
+  {
+    "id": "sakura",
+    "japanese": "桜",
+    "hiragana": "さくら",
+    "romaji": "sakura",
+    "english": "cherry blossom",
+    "french": "fleur de cerisier",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "春に桜が咲きます。",
+        "hiragana": "はるにさくらがさきます。",
+        "romaji": "Haru ni sakura ga sakimasu.",
+        "english": "Cherry blossoms bloom in spring.",
+        "french": "Les cerisiers fleurissent au printemps."
+      }
+    ]
   }
 ];
 
