@@ -1419,6 +1419,366 @@ export const vocabularyData: VocabularyWord[] = [
         french: "J'y vais maintenant."
       }
     ]
+  },
+  {
+    id: "imi",
+    japanese: "意味",
+    hiragana: "いみ",
+    romaji: "imi",
+    english: "meaning",
+    french: "sens, signification",
+    level: "N5",
+    category: "noun",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "この言葉の意味は何ですか？",
+        hiragana: "このことばのいみはなんですか？",
+        romaji: "Kono kotoba no imi wa nan desu ka?",
+        english: "What does this word mean?",
+        french: "Quel est le sens de ce mot ?"
+      }
+    ]
+  },
+  {
+    id: "imouto",
+    japanese: "妹",
+    hiragana: "いもうと",
+    romaji: "imouto",
+    english: "younger sister (humble)",
+    french: "petite sœur (humble)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "妹は学生です。",
+        hiragana: "いもうとはがくせいです。",
+        romaji: "Imouto wa gakusei desu.",
+        english: "My younger sister is a student.",
+        french: "Ma petite sœur est étudiante."
+      }
+    ]
+  },
+  {
+    id: "iya",
+    japanese: "嫌",
+    hiragana: "いや",
+    romaji: "iya",
+    english: "unpleasant",
+    french: "désagréable",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "それは嫌です。",
+        hiragana: "それはいやです。",
+        romaji: "Sore wa iya desu.",
+        english: "I don't like that.",
+        french: "Je n'aime pas ça."
+      }
+    ]
+  },
+  {
+    id: "iriguchi",
+    japanese: "入口",
+    hiragana: "いりぐち",
+    romaji: "iriguchi",
+    english: "entrance",
+    french: "entrée",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "入口はこちらです。",
+        hiragana: "いりぐちはこちらです。",
+        romaji: "Iriguchi wa kochira desu.",
+        english: "The entrance is this way.",
+        french: "L'entrée est par ici."
+      }
+    ]
+  },
+  {
+    id: "iru_people",
+    japanese: "居る",
+    hiragana: "いる",
+    romaji: "iru",
+    english: "to be, to have (for people/animals)",
+    french: "être, avoir (personnes/animaux)",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "猫が居ます。",
+        hiragana: "ねこがいます。",
+        romaji: "Neko ga imasu.",
+        english: "There is a cat.",
+        french: "Il y a un chat."
+      }
+    ]
+  },
+  {
+    id: "iru_need",
+    japanese: "要る",
+    hiragana: "いる",
+    romaji: "iru",
+    english: "to need",
+    french: "avoir besoin de",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "お金が要ります。",
+        hiragana: "おかねがいります。",
+        romaji: "Okane ga irimasu.",
+        english: "I need money.",
+        french: "J'ai besoin d'argent."
+      }
+    ]
+  },
+  {
+    id: "ireru",
+    japanese: "入れる",
+    hiragana: "いれる",
+    romaji: "ireru",
+    english: "to put in",
+    french: "mettre, insérer",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "コーヒーに砂糖を入れる。",
+        hiragana: "こーひーにさとうをいれる。",
+        romaji: "Koohii ni satou o ireru.",
+        english: "I put sugar in the coffee.",
+        french: "Je mets du sucre dans le café."
+      }
+    ]
+  },
+  {
+    id: "iro",
+    japanese: "色",
+    hiragana: "いろ",
+    romaji: "iro",
+    english: "color",
+    french: "couleur",
+    level: "N5",
+    category: "noun",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "好きな色は青です。",
+        hiragana: "すきないろはあおです。",
+        romaji: "Sukina iro wa ao desu.",
+        english: "My favorite color is blue.",
+        french: "Ma couleur préférée est le bleu."
+      }
+    ]
+  },
+  {
+    id: "iroiro",
+    japanese: "いろいろ",
+    hiragana: "いろいろ",
+    romaji: "iroiro",
+    english: "various",
+    french: "divers, varié",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "いろいろな本があります。",
+        hiragana: "いろいろなほんがあります。",
+        romaji: "Iroiro na hon ga arimasu.",
+        english: "There are various books.",
+        french: "Il y a divers livres."
+      }
+    ]
+  },
+  {
+    id: "ue",
+    japanese: "上",
+    hiragana: "うえ",
+    romaji: "ue",
+    english: "on top of",
+    french: "au-dessus",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "机の上に猫がいる。",
+        hiragana: "つくえのうえにねこがいる。",
+        romaji: "Tsukue no ue ni neko ga iru.",
+        english: "There is a cat on the desk.",
+        french: "Il y a un chat sur le bureau."
+      }
+    ]
+  },
+  {
+    id: "ushiro",
+    japanese: "後ろ",
+    hiragana: "うしろ",
+    romaji: "ushiro",
+    english: "behind",
+    french: "derrière",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "学校の後ろに公園があります。",
+        hiragana: "がっこうのうしろにこうえんがあります。",
+        romaji: "Gakkou no ushiro ni kouen ga arimasu.",
+        english: "There is a park behind the school.",
+        french: "Il y a un parc derrière l'école."
+      }
+    ]
+  },
+  {
+    id: "usui",
+    japanese: "薄い",
+    hiragana: "うすい",
+    romaji: "usui",
+    english: "thin, weak",
+    french: "fin, faible",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "この本は薄いです。",
+        hiragana: "このほんはうすいです。",
+        romaji: "Kono hon wa usui desu.",
+        english: "This book is thin.",
+        french: "Ce livre est fin."
+      }
+    ]
+  },
+  {
+    id: "uta",
+    japanese: "歌",
+    hiragana: "うた",
+    romaji: "uta",
+    english: "song",
+    french: "chanson",
+    level: "N5",
+    category: "music",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本の歌を聞きます。",
+        hiragana: "にほんのうたをききます。",
+        romaji: "Nihon no uta o kikimasu.",
+        english: "I listen to Japanese songs.",
+        french: "J'écoute des chansons japonaises."
+      }
+    ]
+  },
+  {
+    id: "utau",
+    japanese: "歌う",
+    hiragana: "うたう",
+    romaji: "utau",
+    english: "to sing",
+    french: "chanter",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "カラオケで歌います。",
+        hiragana: "からおけでうたいます。",
+        romaji: "Karaoke de utaimasu.",
+        english: "I sing at karaoke.",
+        french: "Je chante au karaoké."
+      }
+    ]
+  },
+  {
+    id: "umareru",
+    japanese: "生まれる",
+    hiragana: "うまれる",
+    romaji: "umareru",
+    english: "to be born",
+    french: "naître",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "子どもが生まれました。",
+        hiragana: "こどもがうまれました。",
+        romaji: "Kodomo ga umaremashita.",
+        english: "A child was born.",
+        french: "Un enfant est né."
+      }
+    ]
+  },
+  {
+    id: "umi",
+    japanese: "海",
+    hiragana: "うみ",
+    romaji: "umi",
+    english: "sea",
+    french: "mer",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "夏に海へ行きます。",
+        hiragana: "なつにうみへいきます。",
+        romaji: "Natsu ni umi e ikimasu.",
+        english: "I go to the sea in summer.",
+        french: "Je vais à la mer en été."
+      }
+    ]
+  },
+  {
+    id: "uru",
+    japanese: "売る",
+    hiragana: "うる",
+    romaji: "uru",
+    english: "to sell",
+    french: "vendre",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "本を売ります。",
+        hiragana: "ほんをうります。",
+        romaji: "Hon o urimasu.",
+        english: "I sell books.",
+        french: "Je vends des livres."
+      }
+    ]
+  },
+  {
+    id: "urusai",
+    japanese: "煩い",
+    hiragana: "うるさい",
+    romaji: "urusai",
+    english: "noisy, annoying",
+    french: "bruyant, agaçant",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "子どもの声がうるさい。",
+        hiragana: "こどものこえがうるさい。",
+        romaji: "Kodomo no koe ga urusai.",
+        english: "The children's voices are noisy.",
+        french: "Les voix des enfants sont bruyantes."
+      }
+    ]
   }
 ];
 
