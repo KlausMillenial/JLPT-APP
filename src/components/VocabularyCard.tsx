@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { VocabularyWord } from '@/data/vocabulary';
+import { VoiceButton } from './VoiceButton';
 
 interface VocabularyCardProps {
   word: VocabularyWord;
@@ -37,12 +38,29 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             </div>
             
             <div className="space-y-3">
-              <h2 className="text-4xl font-bold text-primary mb-2">
-                {word.japanese}
-              </h2>
-              <p className="text-xl text-muted-foreground">
-                {word.hiragana}
-              </p>
+              <div className="flex items-center justify-center gap-3">
+                <h2 className="text-4xl font-bold text-primary mb-2">
+                  {word.japanese}
+                </h2>
+                <VoiceButton 
+                  text={word.japanese}
+                  language="japanese"
+                  variant="outline"
+                  size="icon"
+                  className="mb-2"
+                />
+              </div>
+              <div className="flex items-center justify-center gap-2">
+                <p className="text-xl text-muted-foreground">
+                  {word.hiragana}
+                </p>
+                <VoiceButton 
+                  text={word.hiragana}
+                  language="japanese"
+                  size="icon"
+                  className="opacity-70 hover:opacity-100"
+                />
+              </div>
               <p className="text-lg text-muted-foreground italic">
                 {word.romaji}
               </p>
@@ -62,22 +80,49 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             </Badge>
             
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold">
-                {translation}
-              </h2>
+              <div className="flex items-center justify-center gap-3">
+                <h2 className="text-3xl font-bold">
+                  {translation}
+                </h2>
+                <VoiceButton 
+                  text={translation}
+                  language={language}
+                  variant="ghost"
+                  size="icon"
+                  className="text-white hover:bg-white/20"
+                />
+              </div>
               
               {word.examples[0] && (
                 <div className="space-y-2 pt-4 border-t border-white/20">
                   <p className="text-lg font-medium">Example:</p>
-                  <p className="text-base opacity-90">
-                    {word.examples[0].japanese}
-                  </p>
+                  <div className="flex items-center justify-center gap-2">
+                    <p className="text-base opacity-90">
+                      {word.examples[0].japanese}
+                    </p>
+                    <VoiceButton 
+                      text={word.examples[0].japanese}
+                      language="japanese"
+                      variant="ghost"
+                      size="icon"
+                      className="text-white hover:bg-white/20 opacity-70"
+                    />
+                  </div>
                   <p className="text-sm opacity-75 italic">
                     {word.examples[0].romaji}
                   </p>
-                  <p className="text-base font-medium">
-                    {exampleTranslation}
-                  </p>
+                  <div className="flex items-center justify-center gap-2">
+                    <p className="text-base font-medium">
+                      {exampleTranslation}
+                    </p>
+                    <VoiceButton 
+                      text={exampleTranslation}
+                      language={language}
+                      variant="ghost"
+                      size="icon"
+                      className="text-white hover:bg-white/20 opacity-70"
+                    />
+                  </div>
                 </div>
               )}
             </div>

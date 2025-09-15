@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
+import { ApiKeyDialog } from './ApiKeyDialog';
 import { vocabularyData } from '@/data/vocabulary';
 import { BookOpen, Users, Star } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
@@ -38,6 +39,11 @@ export const VocabularyApp = () => {
       {/* Header */}
       <header className="gradient-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4">
+          {/* API Key Setup in top right */}
+          <div className="flex justify-end mb-4">
+            <ApiKeyDialog />
+          </div>
+          
           <div className="text-center space-y-4">
             <div className="flex justify-center items-center gap-3 mb-4">
               <BookOpen className="w-10 h-10" />
@@ -47,8 +53,8 @@ export const VocabularyApp = () => {
             </div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
               {language === 'english' 
-                ? 'Master Japanese vocabulary for JLPT exams with interactive flashcards'
-                : 'Maîtrisez le vocabulaire japonais pour les examens JLPT avec des cartes interactives'
+                ? 'Master Japanese vocabulary for JLPT exams with interactive flashcards and voice pronunciation'
+                : 'Maîtrisez le vocabulaire japonais pour les examens JLPT avec des cartes interactives et prononciation vocale'
               }
             </p>
             
@@ -129,13 +135,12 @@ export const VocabularyApp = () => {
         )}
       </main>
 
-      {/* Footer */}
       <footer className="bg-secondary/50 py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>
             {language === 'english' 
-              ? 'Click on any card to reveal translations and examples'
-              : 'Cliquez sur n\'importe quelle carte pour révéler les traductions et exemples'
+              ? 'Click cards to reveal translations • Click 🔊 buttons for pronunciation • Setup your ElevenLabs API key in settings'
+              : 'Cliquez sur les cartes pour les traductions • Cliquez sur 🔊 pour la prononciation • Configurez votre clé API ElevenLabs'
             }
           </p>
         </div>
