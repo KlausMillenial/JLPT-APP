@@ -5443,122 +5443,354 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     "id": "kiro",
+
     "japanese": "キロ/キログラム",
+
     "hiragana": "きろ/きろぐらむ",
+
     "romaji": "kiro / kiroguramu",
+
     "english": "kilogram",
+
     "french": "kilogramme",
+
+    "german": "Kilogramm",
+
+    "vietnamese": "kilôgam",
+
+    "chinese": "千克",
+
+    "korean": "킬로그램",
+
+    "spanish": "kilogramo",
+
     "level": "N5",
+
     "category": "measurement",
+
     "wordType": "noun",
+
     "examples": [
+
       {
+
         "japanese": "りんごを1キロ買いました。",
+
         "hiragana": "りんごをいちきろかいました。",
+
         "romaji": "Ringo o ichi kiro kaimashita.",
+
         "english": "I bought one kilogram of apples.",
-        "french": "J'ai acheté un kilo de pommes."
+
+        "french": "J'ai acheté un kilo de pommes.",
+
+        "german": "Ich habe ein Kilo Äpfel gekauft.",
+
+        "vietnamese": "Tôi đã mua 1 ký táo.",
+
+        "chinese": "我买了一公斤苹果。",
+
+        "korean": "사과를 1킬로 샀습니다.",
+
+        "spanish": "Compré un kilo de manzanas."
+
       }
+
     ]
+
   },
+
   {
+
     "id": "kiromeetoru",
+
     "japanese": "キロ/キロメートル",
+
     "hiragana": "きろ/きろめーとる",
+
     "romaji": "kiro / kiromeetoru",
+
     "english": "kilometer",
+
     "french": "kilomètre",
+
+    "german": "Kilometer",
+
+    "vietnamese": "kilômét",
+
+    "chinese": "公里",
+
+    "korean": "킬로미터",
+
+    "spanish": "kilómetro",
+
     "level": "N5",
+
     "category": "measurement",
+
     "wordType": "noun",
+
     "examples": [
+
       {
+
         "japanese": "駅まで2キロです。",
+
         "hiragana": "えきまでにきろです。",
+
         "romaji": "Eki made ni kiro desu.",
+
         "english": "It is 2 kilometers to the station.",
-        "french": "Il y a 2 kilomètres jusqu'à la gare."
+
+        "french": "Il y a 2 kilomètres jusqu'à la gare.",
+
+        "german": "Es sind 2 Kilometer bis zum Bahnhof.",
+
+        "vietnamese": "Đến ga là 2 km.",
+
+        "chinese": "到车站有2公里。",
+
+        "korean": "역까지 2킬로입니다.",
+
+        "spanish": "Hay 2 kilómetros hasta la estación."
+
       }
+
     ]
+
   },
+
   {
+
     "id": "ginkou",
+
     "japanese": "銀行",
+
     "hiragana": "ぎんこう",
+
     "romaji": "ginkou",
+
     "english": "bank",
+
     "french": "banque",
+
+    "german": "Bank",
+
+    "vietnamese": "ngân hàng",
+
+    "chinese": "银行",
+
+    "korean": "은행",
+
+    "spanish": "banco",
+
     "level": "N5",
+
     "category": "place",
+
     "wordType": "noun",
+
     "examples": [
+
       {
+
         "japanese": "お金を銀行に預けます。",
+
         "hiragana": "おかねをぎんこうにあずけます。",
+
         "romaji": "Okane o ginkou ni azukemasu.",
+
         "english": "I deposit money in the bank.",
-        "french": "Je dépose de l'argent à la banque."
+
+        "french": "Je dépose de l'argent à la banque.",
+
+        "german": "Ich lege Geld bei der Bank an.",
+
+        "vietnamese": "Tôi gửi tiền vào ngân hàng.",
+
+        "chinese": "我把钱存入银行。",
+
+        "korean": "나는 은행에 돈을 맡깁니다.",
+
+        "spanish": "Deposito dinero en el banco."
+
       }
+
     ]
+
   },
+
   {
+
     "id": "kinyoubi",
+
     "japanese": "金曜日",
+
     "hiragana": "きんようび",
+
     "romaji": "kinyoubi",
+
     "english": "Friday",
+
     "french": "vendredi",
+
+    "german": "Freitag",
+
+    "vietnamese": "thứ sáu",
+
+    "chinese": "星期五",
+
+    "korean": "금요일",
+
+    "spanish": "viernes",
+
     "level": "N5",
+
     "category": "time",
+
     "wordType": "noun",
+
     "examples": [
+
       {
+
         "japanese": "金曜日に友達と出かけます。",
+
         "hiragana": "きんようびにともだちとでかけます。",
+
         "romaji": "Kinyoubi ni tomodachi to dekakemasu.",
+
         "english": "I go out with friends on Friday.",
-        "french": "Je sors avec des amis vendredi."
+
+        "french": "Je sors avec des amis vendredi.",
+
+        "german": "Am Freitag gehe ich mit Freunden aus.",
+
+        "vietnamese": "Tôi đi chơi với bạn vào thứ sáu.",
+
+        "chinese": "星期五我和朋友出去。",
+
+        "korean": "금요일에 친구들과 나갑니다.",
+
+        "spanish": "Salgo con amigos el viernes."
+
       }
+
     ]
+
   },
+
   {
+
     "id": "kusuri",
+
     "japanese": "薬",
+
     "hiragana": "くすり",
+
     "romaji": "kusuri",
+
     "english": "medicine",
+
     "french": "médicament",
+
+    "german": "Medizin",
+
+    "vietnamese": "thuốc",
+
+    "chinese": "药",
+
+    "korean": "약",
+
+    "spanish": "medicina",
+
     "level": "N5",
+
     "category": "health",
+
     "wordType": "noun",
+
     "examples": [
+
       {
+
         "japanese": "薬を飲みます。",
+
         "hiragana": "くすりをのみます。",
+
         "romaji": "Kusuri o nomimasu.",
+
         "english": "I take medicine.",
-        "french": "Je prends un médicament."
+
+        "french": "Je prends un médicament.",
+
+        "german": "Ich nehme Medizin.",
+
+        "vietnamese": "Tôi uống thuốc.",
+
+        "chinese": "我吃药。",
+
+        "korean": "나는 약을 먹습니다.",
+
+        "spanish": "Tomo medicina."
+
       }
+
     ]
+
   },
+
   {
+
     "id": "kudasai",
+
     "japanese": "ください",
+
     "hiragana": "ください",
+
     "romaji": "kudasai",
+
     "english": "please (give me)",
+
     "french": "s'il vous plaît (donnez-moi)",
+
+    "german": "bitte (geben Sie mir)",
+
+    "vietnamese": "làm ơn (đưa cho tôi)",
+
+    "chinese": "请 (给我)",
+
+    "korean": "주세요",
+    "spanish": "por favor (deme)",
     "level": "N5",
+
     "category": "expression",
+
     "wordType": "verb (imperative)",
+
     "examples": [
+
       {
+
         "japanese": "水をください。",
+
         "hiragana": "みずをください。",
+
         "romaji": "Mizu o kudasai.",
+
         "english": "Please give me water.",
-        "french": "Donnez-moi de l'eau, s'il vous plaît."
-      }
+
+        "french": "Donnez-moi de l'eau, s'il vous plaît.",
+
+        "german": "Bitte geben Sie mir Wasser.",
+
+        "vietnamese": "Xin cho tôi nước.",
+
+        "chinese": "请给我水。",
+
+        "korean": "물 좀 주세요.",
+
+        "spanish": "Por favor, deme agua."      }
     ]
   },
   {
