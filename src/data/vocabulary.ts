@@ -5022,12 +5022,17 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "kitte",
+     "id": "kitte",
     "japanese": "切手",
     "hiragana": "きって",
     "romaji": "kitte",
     "english": "postage stamp",
     "french": "timbre",
+    "german": "Briefmarke",
+    "vietnamese": "tem thư",
+    "chinese": "邮票",
+    "korean": "우표",
+    "spanish": "sello",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -5037,7 +5042,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きってをかいます。",
         "romaji": "Kitte o kaimasu.",
         "english": "I buy stamps.",
-        "french": "J'achète des timbres."
+        "french": "J'achète des timbres.",
+        "german": "Ich kaufe Briefmarken.",
+        "vietnamese": "Tôi mua tem.",
+        "chinese": "我买邮票。",
+        "korean": "나는 우표를 삽니다.",
+        "spanish": "Compro sellos."
       }
     ]
   },
@@ -5048,6 +5058,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kippu",
     "english": "ticket",
     "french": "billet",
+    "german": "Fahrkarte, Ticket",
+    "vietnamese": "vé",
+    "chinese": "票",
+    "korean": "표",
+    "spanish": "billete",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -5057,7 +5072,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "でんしゃのきっぷをかいました。",
         "romaji": "Densha no kippu o kaimashita.",
         "english": "I bought a train ticket.",
-        "french": "J'ai acheté un billet de train."
+        "french": "J'ai acheté un billet de train.",
+        "german": "Ich habe eine Fahrkarte gekauft.",
+        "vietnamese": "Tôi đã mua vé tàu.",
+        "chinese": "我买了火车票。",
+        "korean": "기차표를 샀습니다.",
+        "spanish": "Compré un billete de tren."
       }
     ]
   },
@@ -5068,6 +5088,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kinou",
     "english": "yesterday",
     "french": "hier",
+    "german": "gestern",
+    "vietnamese": "hôm qua",
+    "chinese": "昨天",
+    "korean": "어제",
+    "spanish": "ayer",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -5077,7 +5102,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きのうはあめでした。",
         "romaji": "Kinou wa ame deshita.",
         "english": "It rained yesterday.",
-        "french": "Il a plu hier."
+        "french": "Il a plu hier.",
+        "german": "Gestern hat es geregnet.",
+        "vietnamese": "Hôm qua trời mưa.",
+        "chinese": "昨天下雨了。",
+        "korean": "어제 비가 왔습니다.",
+        "spanish": "Ayer llovió."
       }
     ]
   },
@@ -5088,6 +5118,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kyuu/ku",
     "english": "nine",
     "french": "neuf",
+    "german": "neun",
+    "vietnamese": "chín",
+    "chinese": "九",
+    "korean": "아홉",
+    "spanish": "nueve",
     "level": "N5",
     "category": "number",
     "wordType": "noun",
@@ -5097,7 +5132,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きゅうにんのがくせいがいます。",
         "romaji": "Kyuu nin no gakusei ga imasu.",
         "english": "There are nine students.",
-        "french": "Il y a neuf étudiants."
+        "french": "Il y a neuf étudiants.",
+        "german": "Es gibt neun Schüler.",
+        "vietnamese": "Có chín học sinh.",
+        "chinese": "有九个学生。",
+        "korean": "학생이 아홉 명 있습니다.",
+        "spanish": "Hay nueve estudiantes."
       }
     ]
   },
@@ -5108,6 +5148,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "gyuuniku",
     "english": "beef",
     "french": "bœuf",
+    "german": "Rindfleisch",
+    "vietnamese": "thịt bò",
+    "chinese": "牛肉",
+    "korean": "소고기",
+    "spanish": "carne de res",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -5117,7 +5162,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ぎゅうにくをたべます。",
         "romaji": "Gyuuniku o tabemasu.",
         "english": "I eat beef.",
-        "french": "Je mange du bœuf."
+        "french": "Je mange du bœuf.",
+        "german": "Ich esse Rindfleisch.",
+        "vietnamese": "Tôi ăn thịt bò.",
+        "chinese": "我吃牛肉。",
+        "korean": "나는 소고기를 먹습니다.",
+        "spanish": "Como carne de res."
       }
     ]
   },
@@ -5128,6 +5178,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "gyuunyuu",
     "english": "milk",
     "french": "lait",
+    "german": "Milch",
+    "vietnamese": "sữa",
+    "chinese": "牛奶",
+    "korean": "우유",
+    "spanish": "leche",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -5137,7 +5192,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "まいあさぎゅうにゅうをのみます。",
         "romaji": "Maiasa gyuunyuu o nomimasu.",
         "english": "I drink milk every morning.",
-        "french": "Je bois du lait chaque matin."
+        "french": "Je bois du lait chaque matin.",
+        "german": "Ich trinke jeden Morgen Milch.",
+        "vietnamese": "Tôi uống sữa mỗi sáng.",
+        "chinese": "我每天早上喝牛奶。",
+        "korean": "나는 매일 아침 우유를 마십니다.",
+        "spanish": "Bebo leche todas las mañanas."
       }
     ]
   },
@@ -5148,6 +5208,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kyou",
     "english": "today",
     "french": "aujourd'hui",
+    "german": "heute",
+    "vietnamese": "hôm nay",
+    "chinese": "今天",
+    "korean": "오늘",
+    "spanish": "hoy",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -5157,7 +5222,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょうはあついです。",
         "romaji": "Kyou wa atsui desu.",
         "english": "It is hot today.",
-        "french": "Il fait chaud aujourd'hui."
+        "french": "Il fait chaud aujourd'hui.",
+        "german": "Heute ist es heiß.",
+        "vietnamese": "Hôm nay trời nóng.",
+        "chinese": "今天很热。",
+        "korean": "오늘은 덥습니다.",
+        "spanish": "Hoy hace calor."
       }
     ]
   },
@@ -5168,6 +5238,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kyoushitsu",
     "english": "classroom",
     "french": "salle de classe",
+    "german": "Klassenzimmer",
+    "vietnamese": "lớp học",
+    "chinese": "教室",
+    "korean": "교실",
+    "spanish": "aula",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -5177,7 +5252,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょうしつにがくせいがいます。",
         "romaji": "Kyoushitsu ni gakusei ga imasu.",
         "english": "There are students in the classroom.",
-        "french": "Il y a des étudiants dans la salle de classe."
+        "french": "Il y a des étudiants dans la salle de classe.",
+        "german": "Es gibt Schüler im Klassenzimmer.",
+        "vietnamese": "Có học sinh trong lớp học.",
+        "chinese": "教室里有学生。",
+        "korean": "교실에 학생들이 있습니다.",
+        "spanish": "Hay estudiantes en el aula."
       }
     ]
   },
@@ -5188,6 +5268,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kyoudai",
     "english": "siblings",
     "french": "frères et sœurs",
+    "german": "Geschwister",
+    "vietnamese": "anh chị em",
+    "chinese": "兄弟姐妹",
+    "korean": "형제자매",
+    "spanish": "hermanos",
     "level": "N5",
     "category": "family",
     "wordType": "noun",
@@ -5197,7 +5282,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょうだいがさんにんいます。",
         "romaji": "Kyoudai ga sannin imasu.",
         "english": "I have three siblings.",
-        "french": "J'ai trois frères et sœurs."
+        "french": "J'ai trois frères et sœurs.",
+        "german": "Ich habe drei Geschwister.",
+        "vietnamese": "Tôi có ba anh chị em.",
+        "chinese": "我有三个兄弟姐妹。",
+        "korean": "저는 형제가 세 명 있습니다.",
+        "spanish": "Tengo tres hermanos."
       }
     ]
   },
@@ -5208,6 +5298,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kyonen",
     "english": "last year",
     "french": "l'année dernière",
+    "german": "letztes Jahr",
+    "vietnamese": "năm ngoái",
+    "chinese": "去年",
+    "korean": "작년",
+    "spanish": "el año pasado",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -5217,7 +5312,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょねんにほんにいきました。",
         "romaji": "Kyonen Nihon ni ikimashita.",
         "english": "I went to Japan last year.",
-        "french": "Je suis allé au Japon l'année dernière."
+        "french": "Je suis allé au Japon l'année dernière.",
+        "german": "Ich bin letztes Jahr nach Japan gefahren.",
+        "vietnamese": "Năm ngoái tôi đã đi Nhật.",
+        "chinese": "去年我去了日本。",
+        "korean": "작년에 일본에 갔습니다.",
+        "spanish": "Fui a Japón el año pasado."
       }
     ]
   },
@@ -5228,6 +5328,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kirai",
     "english": "dislike, hate",
     "french": "détester",
+    "german": "nicht mögen, hassen",
+    "vietnamese": "ghét",
+    "chinese": "讨厌",
+    "korean": "싫어하다",
+    "spanish": "odiar",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -5237,7 +5342,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "わたしはなっとうがきらいです。",
         "romaji": "Watashi wa nattou ga kirai desu.",
         "english": "I dislike natto.",
-        "french": "Je déteste le natto."
+        "french": "Je déteste le natto.",
+        "german": "Ich mag Natto nicht.",
+        "vietnamese": "Tôi ghét natto.",
+        "chinese": "我讨厌纳豆。",
+        "korean": "나는 낫토를 싫어합니다.",
+        "spanish": "Odio el natto."
       }
     ]
   },
@@ -5248,6 +5358,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kiru",
     "english": "to cut",
     "french": "couper",
+    "german": "schneiden",
+    "vietnamese": "cắt",
+    "chinese": "切",
+    "korean": "자르다",
+    "spanish": "cortar",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -5257,7 +5372,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かみをきります。",
         "romaji": "Kami o kirimasu.",
         "english": "I cut paper.",
-        "french": "Je coupe du papier."
+        "french": "Je coupe du papier.",
+        "german": "Ich schneide Papier.",
+        "vietnamese": "Tôi cắt giấy.",
+        "chinese": "我切纸。",
+        "korean": "나는 종이를 자릅니다.",
+        "spanish": "Corto papel."
       }
     ]
   },
@@ -5268,6 +5388,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kiru",
     "english": "to wear (from shoulders down)",
     "french": "porter (vêtements)",
+    "german": "tragen (Kleidung)",
+    "vietnamese": "mặc (quần áo)",
+    "chinese": "穿 (衣服)",
+    "korean": "입다",
+    "spanish": "llevar puesto (ropa)",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -5277,7 +5402,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しゃつをきます。",
         "romaji": "Shatsu o kimasu.",
         "english": "I wear a shirt.",
-        "french": "Je porte une chemise."
+        "french": "Je porte une chemise.",
+        "german": "Ich trage ein Hemd.",
+        "vietnamese": "Tôi mặc áo sơ mi.",
+        "chinese": "我穿衬衫。",
+        "korean": "나는 셔츠를 입습니다.",
+        "spanish": "Llevo una camisa."
       }
     ]
   },
@@ -5288,6 +5418,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kirei",
     "english": "pretty, clean",
     "french": "joli, propre",
+    "german": "schön, sauber",
+    "vietnamese": "đẹp, sạch",
+    "chinese": "漂亮, 干净",
+    "korean": "예쁘다, 깨끗하다",
+    "spanish": "bonito, limpio",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -5297,7 +5432,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "へやはきれいです。",
         "romaji": "Heya wa kirei desu.",
         "english": "The room is clean.",
-        "french": "La chambre est propre."
+        "french": "La chambre est propre.",
+        "german": "Das Zimmer ist sauber.",
+        "vietnamese": "Căn phòng sạch sẽ.",
+        "chinese": "房间很干净。",
+        "korean": "방이 깨끗합니다.",
+        "spanish": "La habitación está limpia."
       }
     ]
   },
