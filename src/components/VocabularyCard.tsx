@@ -284,7 +284,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                       className="text-sm opacity-90"
                     />
                     <VoiceButton 
-                      text={word.examples[0].japanese}
+                      text={word.examples[0].hiragana}
                       language="japanese"
                       variant="ghost"
                       size="icon"
