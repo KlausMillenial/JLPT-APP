@@ -7,16 +7,22 @@ import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
 import { Brain, RotateCcw, Settings } from 'lucide-react';
 
-export type QuizType = 'japanese-to-english' | 'english-to-japanese' | 'examples' | 'mixed';
+type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+export type QuizType = 'japanese-to-target' | 'target-to-japanese' | 'examples' | 'mixed';
 
 interface QuizSettings {
   type: QuizType;
   questionCount: number;
   categories: string[];
   levels: string[];
+  language: LanguageOption;
 }
 
-export const QuizApp = () => {
+interface QuizAppProps {
+  selectedLanguage?: LanguageOption;
+}
+
+export const QuizApp = ({ selectedLanguage = 'english' }: QuizAppProps) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Array<{ correct: boolean; question: any; userAnswer: string; correctAnswer: string }>>([]);
@@ -25,7 +31,8 @@ export const QuizApp = () => {
     type: 'mixed',
     questionCount: 10,
     categories: ['all'],
-    levels: ['all']
+    levels: ['all'],
+    language: selectedLanguage
   });
 
   const filteredVocabulary = useMemo(() => {

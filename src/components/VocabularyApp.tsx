@@ -3,6 +3,7 @@ import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
 import { RunwareApiKeyDialog } from './RunwareApiKeyDialog';
+import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
 import { BookOpen, Users, Star, Brain } from 'lucide-react';
@@ -45,7 +46,7 @@ export const VocabularyApp = () => {
   };
 
   if (currentView === 'quiz') {
-    return <QuizApp />;
+    return <QuizApp selectedLanguage={language} />;
   }
 
   return (
@@ -55,6 +56,7 @@ export const VocabularyApp = () => {
         <div className="container mx-auto px-4">
           {/* API Key Setup in top right */}
           <div className="flex justify-end gap-2 mb-4">
+            <TranslationButton />
             <RunwareApiKeyDialog />
             <ApiKeyDialog />
           </div>
