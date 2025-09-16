@@ -5,9 +5,10 @@ import { ApiKeyDialog } from './ApiKeyDialog';
 import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
 import { SwipeQuiz } from './SwipeQuiz';
+import { ImageProviderSelector } from './ImageProviderSelector';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2, List, Move } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -28,6 +29,7 @@ export const VocabularyApp = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
   const [isLoading, setIsLoading] = useState(true);
+  const [imageProvider, setImageProvider] = useState<'runware' | 'huggingface' | 'placeholder'>('placeholder');
   
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
@@ -196,6 +198,36 @@ export const VocabularyApp = () => {
     return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
+  if (currentView === 'image-setup') {
+    return (
+      <div className="min-h-screen bg-background">
+        <header className="gradient-primary text-primary-foreground py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('vocabulary')}
+                className="mb-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
+              >
+                ← Back to Vocabulary
+              </Button>
+              <h1 className="text-3xl font-bold">AI Image Setup</h1>
+              <p className="text-lg opacity-90 mt-2">
+                Configure your preferred AI image generator
+              </p>
+            </div>
+          </div>
+        </header>
+        <main className="container mx-auto px-4 py-12">
+          <ImageProviderSelector 
+            currentProvider={imageProvider}
+            onProviderChange={setImageProvider}
+          />
+        </main>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -249,6 +281,17 @@ export const VocabularyApp = () => {
               >
                 <Move className="w-4 h-4 mr-2" />
                 Swipe Quiz
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('image-setup')}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  currentView === 'image-setup' ? "bg-white/20" : ""
+                )}
+              >
+                <ImageIcon className="w-4 h-4 mr-2" />
+                AI Images
               </Button>
               <Button
                 variant="outline"
@@ -335,6 +378,7 @@ export const VocabularyApp = () => {
                   key={word.id} 
                   word={word} 
                   language={language}
+                  imageProvider={imageProvider}
                 />
               ))}
             </div>

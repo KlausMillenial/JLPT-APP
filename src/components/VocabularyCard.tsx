@@ -7,6 +7,8 @@ import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
 import { KanjiPracticeModal } from './KanjiPracticeModal';
 import BrowserImageService from '@/services/browserImageService';
+import { RunwareImageService } from '@/services/runwareImageService';
+import { HuggingFaceService } from '@/services/huggingFaceService';
 import { PlaceholderImageService } from '@/services/placeholderImageService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
@@ -16,6 +18,7 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface VocabularyCardProps {
   word: VocabularyWord;
   language: LanguageOption;
+  imageProvider?: 'runware' | 'huggingface' | 'placeholder';
 }
 
 // Create specific visual representations for each vocabulary word
@@ -101,7 +104,7 @@ const createImagePrompt = (word: VocabularyWord, translation: string): string =>
   return `Professional photograph of ${translation}, high quality, detailed, educational purpose, clean white background, well-lit, realistic`;
 };
 
-export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
+export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }: VocabularyCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(word.imageUrl || '');
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
@@ -125,32 +128,56 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       const prompt = createImagePrompt(word, translation);
       
       console.log('Generated prompt:', prompt);
+      console.log('Using image provider:', imageProvider);
       
-      // Try AI image generation first
-      const browserImageService = BrowserImageService.getInstance();
-      const result = await browserImageService.generateImage({
-        positivePrompt: prompt,
-        width: 512,
-        height: 512,
-      });
+      let result;
       
-      console.log('AI image generation result:', result);
+      // Try the selected provider first
+      if (imageProvider === 'runware' && RunwareImageService.getApiKey()) {
+        console.log('Using Runware AI...');
+        result = await RunwareImageService.generateImage({
+          positivePrompt: prompt,
+          width: 512,
+          height: 512,
+        });
+        toast.success('Runware AI image generated!');
+      } else if (imageProvider === 'huggingface' && HuggingFaceService.getStoredApiKey()) {
+        console.log('Using Hugging Face...');
+        const hfService = new HuggingFaceService();
+        result = await hfService.generateImage({
+          positivePrompt: prompt,
+          width: 512,
+          height: 512,
+        });
+        toast.success('Hugging Face image generated!');
+      } else {
+        // Fallback to placeholder service
+        console.log('Using visual learning aid...');
+        result = await PlaceholderImageService.generateImage({
+          positivePrompt: prompt,
+          width: 512,
+          height: 512,
+        });
+        toast.success('Visual learning aid generated!');
+      }
+      
+      console.log('Image generation result:', result);
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
-        toast.success('AI image generated successfully!');
       } else {
-        throw new Error('No image URL returned from AI service');
+        throw new Error('No image URL returned');
       }
     } catch (error) {
-      console.error('AI image generation failed:', error);
+      console.error('Image generation failed:', error);
       
-      // Fall back to visual aid if AI generation fails
+      // Fall back to visual aid if everything else fails
       try {
+        console.log('Fallback to visual learning aid...');
         const translation = word[language] || word.english;
         const fallbackResult = await createFallbackImage(word, translation);
         setGeneratedImageUrl(fallbackResult.imageURL);
-        toast.info('Generated visual learning aid');
+        toast.info('Generated simple visual aid');
       } catch (fallbackError) {
         console.error('Fallback image generation failed:', fallbackError);
         toast.error('Unable to generate any visual aid');
@@ -225,7 +252,11 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               {isGeneratingImage ? (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
-                  <span className="text-sm text-muted-foreground">Generating AI image...</span>
+                  <span className="text-sm text-muted-foreground">
+                    {imageProvider === 'runware' ? 'Generating with Runware AI...' :
+                     imageProvider === 'huggingface' ? 'Generating with Hugging Face...' :
+                     'Generating visual aid...'}
+                  </span>
                   <span className="text-xs text-muted-foreground mt-1">This may take a moment</span>
                 </div>
               ) : generatedImageUrl ? (
@@ -237,7 +268,11 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
-                  <span className="text-sm text-primary/60 text-center">AI image will generate<br />when you flip this card</span>
+                  <span className="text-sm text-primary/60 text-center">
+                    {imageProvider === 'runware' ? 'Runware AI image' :
+                     imageProvider === 'huggingface' ? 'HuggingFace AI image' :
+                     'Visual aid'} will generate<br />when you flip this card
+                  </span>
                 </div>
               )}
             </div>
