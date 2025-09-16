@@ -86,21 +86,42 @@ export class PlaceholderImageService {
   }
   
   private static extractMainConcept(prompt: string): string {
-    // Extract the main concept from the prompt
-    if (prompt.includes('father') || prompt.includes('père')) return '👨‍👦';
-    if (prompt.includes('mother') || prompt.includes('mère')) return '👩‍👧';
-    if (prompt.includes('tea') || prompt.includes('thé')) return '🍵';
-    if (prompt.includes('food') || prompt.includes('lunch')) return '🍱';
-    if (prompt.includes('bathroom') || prompt.includes('toilettes')) return '🚿';
-    if (prompt.includes('family')) return '👨‍👩‍👧‍👦';
-    if (prompt.includes('time') || prompt.includes('year')) return '⏰';
-    if (prompt.includes('same')) return '=';
+    // Create realistic visual representations based on the prompt content
+    if (prompt.includes('father') || prompt.includes('business attire')) return '👔';
+    if (prompt.includes('mother') || prompt.includes('caring')) return '🤱';
+    if (prompt.includes('green tea') || prompt.includes('ceramic cup')) return '🍵';
+    if (prompt.includes('rice') || prompt.includes('bowl')) return '🍚';
+    if (prompt.includes('bento') || prompt.includes('lunch')) return '🍱';
+    if (prompt.includes('bathroom') || prompt.includes('toilet')) return '🚿';
+    if (prompt.includes('house') || prompt.includes('home')) return '🏠';
+    if (prompt.includes('school') || prompt.includes('building')) return '🏫';
+    if (prompt.includes('train') || prompt.includes('station')) return '🚂';
+    if (prompt.includes('calendar') || prompt.includes('time')) return '📅';
+    if (prompt.includes('book') || prompt.includes('reading')) return '📖';
+    if (prompt.includes('car') || prompt.includes('vehicle')) return '🚗';
+    if (prompt.includes('clock') || prompt.includes('time display')) return '🕐';
+    if (prompt.includes('writing') || prompt.includes('calligraphy')) return '✍️';
+    if (prompt.includes('eating') || prompt.includes('chopsticks')) return '🥢';
+    if (prompt.includes('drinking') || prompt.includes('tea cup')) return '☕';
+    if (prompt.includes('eye') || prompt.includes('seeing')) return '👁️';
+    if (prompt.includes('ear') || prompt.includes('listening')) return '👂';
+    if (prompt.includes('speaking') || prompt.includes('mouth')) return '💬';
+    if (prompt.includes('stomach') || prompt.includes('abdomen')) return '🫃';
+    if (prompt.includes('hand') || prompt.includes('hands')) return '✋';
+    if (prompt.includes('foot') || prompt.includes('feet')) return '🦶';
+    if (prompt.includes('head') || prompt.includes('profile')) return '👤';
     
-    // Get first meaningful word
+    // Default based on first meaningful word
     const words = prompt.split(' ').filter(word => 
-      !['cartoon', 'illustration', 'of', 'a', 'the', 'simple', 'clean', 'style'].includes(word.toLowerCase())
+      !['professional', 'photograph', 'of', 'a', 'the', 'high', 'quality', 'detailed'].includes(word.toLowerCase())
     );
-    return words[0] || '📚';
+    
+    const firstWord = words[0]?.toLowerCase() || '';
+    if (firstWord.includes('portrait')) return '👤';
+    if (firstWord.includes('traditional')) return '🏮';
+    if (firstWord.includes('modern')) return '🌟';
+    
+    return '📷'; // Photography/visual concept
   }
 
   private static addVisualElements(ctx: CanvasRenderingContext2D, width: number, height: number, hue: number, prompt: string) {

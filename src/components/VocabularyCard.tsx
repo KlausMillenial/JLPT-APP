@@ -17,98 +17,87 @@ interface VocabularyCardProps {
   language: LanguageOption;
 }
 
-// Create context-aware image prompts for better visual representation
+// Create specific visual representations for each vocabulary word
 const createImagePrompt = (word: VocabularyWord, translation: string): string => {
+  const japanese = word.japanese;
   const category = word.category.toLowerCase();
-  const wordType = word.wordType.toLowerCase();
   
-  // Special handling for different categories and word types
-  if (category === 'family') {
-    if (translation.includes('father') || translation.includes('père')) {
-      return 'Cartoon illustration of a friendly middle-aged man with a warm smile, father figure, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('mother') || translation.includes('mère')) {
-      return 'Cartoon illustration of a friendly middle-aged woman with a warm smile, mother figure, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('brother') || translation.includes('frère')) {
-      return 'Cartoon illustration of a young man, brother figure, friendly appearance, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('sister') || translation.includes('sœur')) {
-      return 'Cartoon illustration of a young woman, sister figure, friendly appearance, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('grandmother') || translation.includes('grand-mère')) {
-      return 'Cartoon illustration of a kind elderly woman with gray hair, grandmother figure, warm smile, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('aunt') || translation.includes('tante')) {
-      return 'Cartoon illustration of a friendly middle-aged woman, aunt figure, welcoming appearance, simple clean style, bright colors, isolated on white background';
-    }
-    // For other family terms
-    return `Cartoon illustration of ${translation}, family member, friendly appearance, simple clean style, bright colors, isolated on white background`;
+  // Create specific prompts based on the actual Japanese word
+  const wordSpecificPrompts: Record<string, string> = {
+    // Family
+    '父': 'Portrait of a kind Japanese father in business attire, warm smile, professional photo style',
+    'お父さん': 'Portrait of a kind Japanese father in business attire, warm smile, professional photo style',
+    '母': 'Portrait of a caring Japanese mother, gentle expression, warm lighting, professional photo style',
+    'お母さん': 'Portrait of a caring Japanese mother, gentle expression, warm lighting, professional photo style',
+    '兄': 'Portrait of a young Japanese man, older brother, friendly smile, casual attire',
+    '弟': 'Portrait of a younger Japanese man, friendly expression, casual clothing',
+    '姉': 'Portrait of a young Japanese woman, older sister, kind smile, modern attire',
+    '妹': 'Portrait of a younger Japanese woman, bright smile, casual modern clothing',
+    
+    // Food & Drink
+    'お茶': 'Traditional Japanese green tea in ceramic cup, steam rising, tatami mat background',
+    '茶': 'Traditional Japanese green tea in ceramic cup, steam rising, tatami mat background',
+    '水': 'Clear glass of pure water with water droplets, clean white background',
+    'ご飯': 'Bowl of perfectly cooked white Japanese rice, wooden table, traditional setting',
+    '米': 'Bowl of perfectly cooked white Japanese rice, wooden table, traditional setting',
+    '昼ご飯': 'Traditional Japanese bento box lunch, colorful vegetables, rice, protein',
+    '朝ご飯': 'Traditional Japanese breakfast setup, rice, miso soup, grilled fish',
+    '夜ご飯': 'Traditional Japanese dinner spread, multiple dishes, family style',
+    
+    // Body Parts
+    'お腹': 'Medical illustration of human stomach and abdomen, educational diagram style',
+    '腹': 'Medical illustration of human stomach and abdomen, educational diagram style',
+    '手': 'Close-up photo of human hands, clean and well-lit, medical reference style',
+    '足': 'Medical reference photo of human feet, clean white background',
+    '頭': 'Profile silhouette of human head, medical illustration style',
+    
+    // Places
+    'お手洗い': 'Clean modern Japanese bathroom interior, minimal design, well-lit',
+    'トイレ': 'Clean modern Japanese bathroom interior, minimal design, well-lit',
+    '家': 'Traditional Japanese house exterior, wooden architecture, garden view',
+    '学校': 'Japanese school building exterior, modern architecture, blue sky',
+    '駅': 'Japanese train station platform, clean and modern, commuters in background',
+    
+    // Time
+    '昨日': 'Calendar page showing yesterday, torn page effect, time concept',
+    '今日': 'Calendar showing today with circle marking, bright lighting',
+    '明日': 'Calendar showing tomorrow with forward arrow, future concept',
+    '年': 'Annual calendar display, showing 12 months, time passage concept',
+    '月': 'Monthly calendar grid, clean design, organizational concept',
+    '日': 'Single calendar day highlighted, daily planner concept',
+    
+    // People
+    '人': 'Silhouette of a person walking, human figure, minimalist style',
+    '男の人': 'Professional portrait of Japanese businessman, confident pose',
+    '女の人': 'Professional portrait of Japanese businesswoman, confident pose',
+    '子ども': 'Happy Japanese child playing, bright colorful clothing, joyful expression',
+    '大人': 'Portrait of mature Japanese adult, professional attire, confident expression',
+    
+    // Actions/Verbs
+    '食べる': 'Person eating traditional Japanese meal with chopsticks, dining scene',
+    '飲む': 'Person drinking from traditional Japanese tea cup, peaceful moment',
+    '見る': 'Close-up of human eye, detailed iris, looking/seeing concept',
+    '聞く': 'Human ear in profile, listening concept, sound waves visualization',
+    '話す': 'Person speaking, mouth in profile, communication concept',
+    '書く': 'Hand holding brush writing Japanese calligraphy, traditional style',
+    '読む': 'Person reading traditional Japanese book, focused expression',
+    
+    // Objects
+    '本': 'Stack of Japanese books, traditional binding, scholarly atmosphere',
+    '車': 'Modern Japanese car, clean design, city background',
+    '電車': 'Japanese bullet train (shinkansen), speed and modern technology',
+    '時計': 'Traditional Japanese wall clock, precise time display',
+    '机': 'Traditional Japanese wooden desk, minimalist design',
+    '椅子': 'Traditional Japanese chair, wooden construction, simple design',
+  };
+  
+  // Check if we have a specific prompt for this Japanese word
+  if (wordSpecificPrompts[japanese]) {
+    return `${wordSpecificPrompts[japanese]}, high quality, professional photography, detailed, isolated on white background`;
   }
   
-  if (category === 'food') {
-    if (translation.includes('tea') || translation.includes('thé')) {
-      return 'Cartoon illustration of a traditional Japanese tea cup with green tea, steam rising, simple clean style, bright colors, isolated on white background';
-    }
-    if (translation.includes('lunch') || translation.includes('bento')) {
-      return 'Cartoon illustration of a Japanese bento box with rice and colorful side dishes, simple clean style, bright colors, isolated on white background';
-    }
-    return `Cartoon illustration of ${translation}, Japanese cuisine style, appetizing and colorful, simple clean style, isolated on white background`;
-  }
-  
-  if (category === 'body parts' || category === 'body') {
-    if (translation.includes('stomach') || translation.includes('ventre')) {
-      return 'Simple cartoon illustration of human stomach/belly area, anatomical diagram style for children, educational, bright colors, isolated on white background';
-    }
-    return `Simple cartoon illustration of ${translation}, anatomical diagram style for children, educational, bright colors, isolated on white background`;
-  }
-  
-  if (category === 'place') {
-    if (translation.includes('bathroom') || translation.includes('toilettes')) {
-      return 'Cartoon illustration of a clean modern bathroom with toilet and sink, simple icon style, bright colors, isolated on white background';
-    }
-    return `Cartoon illustration of ${translation}, architectural view, simple clean style, bright colors, isolated on white background`;
-  }
-  
-  if (category === 'people') {
-    if (translation.includes('man') || translation.includes('homme')) {
-      return 'Cartoon illustration of a friendly adult man, simple character design, bright colors, isolated on white background';
-    }
-    if (translation.includes('boy') || translation.includes('garçon')) {
-      return 'Cartoon illustration of a happy young boy, child character, simple design, bright colors, isolated on white background';
-    }
-    if (translation.includes('adult') || translation.includes('adulte')) {
-      return 'Cartoon illustration of a professional adult person, mature appearance, simple clean style, bright colors, isolated on white background';
-    }
-    return `Cartoon illustration of ${translation}, person character, friendly appearance, simple clean style, bright colors, isolated on white background`;
-  }
-  
-  if (category === 'time') {
-    if (translation.includes('yesterday') || translation.includes('hier')) {
-      return 'Cartoon illustration of a calendar with yesterday marked, clock showing past time, simple icon style, bright colors, isolated on white background';
-    }
-    if (translation.includes('year') || translation.includes('année')) {
-      return 'Cartoon illustration of a calendar showing past years, time concept, simple icon style, bright colors, isolated on white background';
-    }
-    return `Cartoon illustration representing ${translation}, time concept, clock or calendar elements, simple icon style, bright colors, isolated on white background`;
-  }
-  
-  if (category === 'daily life') {
-    if (translation.includes('bath') || translation.includes('bain')) {
-      return 'Cartoon illustration of a traditional Japanese bathtub with steam, relaxing scene, simple clean style, bright colors, isolated on white background';
-    }
-    return `Cartoon illustration of ${translation}, daily activity scene, simple clean style, bright colors, isolated on white background`;
-  }
-  
-  if (wordType === 'adjective' || category === 'adjective') {
-    if (translation.includes('same') || translation.includes('même')) {
-      return 'Cartoon illustration of two identical objects side by side, showing similarity concept, simple clean style, bright colors, isolated on white background';
-    }
-    return `Visual representation of ${translation}, concept illustration, simple and clear, bright colors, isolated on white background`;
-  }
-  
-  // Default prompt for other words
-  return `Clear, simple cartoon illustration of ${translation}, educational style for language learning, bright colors, easy to recognize, isolated on white background, detailed but not cluttered`;
+  // Fallback to translation-based prompts for words not in our specific list
+  return `Professional photograph of ${translation}, high quality, detailed, educational purpose, clean white background, well-lit, realistic`;
 };
 
 export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
