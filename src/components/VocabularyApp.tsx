@@ -12,6 +12,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
+import { removeDuplicatesFromVocabulary, logVocabularyStats } from '@/utils/removeDuplicates';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
@@ -22,7 +23,13 @@ export const VocabularyApp = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [language, setLanguage] = useState<LanguageOption>('english');
   const [isTranslating, setIsTranslating] = useState(false);
-  const [translatedVocabulary, setTranslatedVocabulary] = useState(vocabularyData);
+  const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
+    // Use deduplicated vocabulary data
+    const uniqueData = removeDuplicatesFromVocabulary();
+    console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
+    logVocabularyStats();
+    return uniqueData;
+  });
 
   const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
     if (targetLanguage === 'english' || targetLanguage === 'french') return;
