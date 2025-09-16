@@ -4248,6 +4248,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "gaikoku",
     "english": "foreign country",
     "french": "pays étranger",
+    "german": "Ausland",
+    "vietnamese": "nước ngoài",
+    "chinese": "外国",
+    "korean": "외국",
+    "spanish": "país extranjero",
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
@@ -4257,7 +4262,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "がいこくへりょこうします。",
         "romaji": "Gaikoku e ryokou shimasu.",
         "english": "I travel to a foreign country.",
-        "french": "Je voyage à l'étranger."
+        "french": "Je voyage à l'étranger.",
+        "german": "Ich reise ins Ausland.",
+        "vietnamese": "Tôi đi du lịch nước ngoài.",
+        "chinese": "我去国外旅行。",
+        "korean": "나는 외국으로 여행합니다.",
+        "spanish": "Viajo a un país extranjero."
       }
     ]
   },
@@ -4268,6 +4278,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "katei",
     "english": "household",
     "french": "foyer, ménage",
+    "german": "Haushalt",
+    "vietnamese": "gia đình",
+    "chinese": "家庭",
+    "korean": "가정",
+    "spanish": "hogar",
     "level": "N5",
     "category": "life",
     "wordType": "noun",
@@ -4277,7 +4292,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かていをたいせつにします。",
         "romaji": "Katei o taisetsu ni shimasu.",
         "english": "I value my household.",
-        "french": "Je prends soin de mon foyer."
+        "french": "Je prends soin de mon foyer.",
+        "german": "Ich schätze meinen Haushalt.",
+        "vietnamese": "Tôi coi trọng gia đình.",
+        "chinese": "我重视家庭。",
+        "korean": "나는 가정을 소중히 여깁니다.",
+        "spanish": "Valoro mi hogar."
       }
     ]
   },
@@ -4288,6 +4308,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kado",
     "english": "corner",
     "french": "coin",
+    "german": "Ecke",
+    "vietnamese": "góc",
+    "chinese": "角落",
+    "korean": "모퉁이",
+    "spanish": "esquina",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -4297,7 +4322,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かどでまちます。",
         "romaji": "Kado de machimasu.",
         "english": "I wait at the corner.",
-        "french": "J'attends au coin."
+        "french": "J'attends au coin.",
+        "german": "Ich warte an der Ecke.",
+        "vietnamese": "Tôi đợi ở góc.",
+        "chinese": "我在角落等。",
+        "korean": "나는 모퉁이에서 기다립니다.",
+        "spanish": "Espero en la esquina."
       }
     ]
   },
@@ -4308,6 +4338,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kaban",
     "english": "bag",
     "french": "sac",
+    "german": "Tasche",
+    "vietnamese": "cái túi",
+    "chinese": "包",
+    "korean": "가방",
+    "spanish": "bolsa",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -4317,7 +4352,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "あたらしいかばんをかいました。",
         "romaji": "Atarashii kaban o kaimashita.",
         "english": "I bought a new bag.",
-        "french": "J'ai acheté un nouveau sac."
+        "french": "J'ai acheté un nouveau sac.",
+        "german": "Ich habe eine neue Tasche gekauft.",
+        "vietnamese": "Tôi đã mua một cái túi mới.",
+        "chinese": "我买了一个新包。",
+        "korean": "나는 새 가방을 샀습니다.",
+        "spanish": "Compré un bolso nuevo."
       }
     ]
   },
@@ -4328,6 +4368,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kabin",
     "english": "vase",
     "french": "vase",
+    "german": "Vase",
+    "vietnamese": "bình hoa",
+    "chinese": "花瓶",
+    "korean": "꽃병",
+    "spanish": "jarrón",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -4337,7 +4382,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かびんにはなをいれました。",
         "romaji": "Kabin ni hana o iremashita.",
         "english": "I put flowers in the vase.",
-        "french": "J'ai mis des fleurs dans le vase."
+        "french": "J'ai mis des fleurs dans le vase.",
+        "german": "Ich habe Blumen in die Vase gestellt.",
+        "vietnamese": "Tôi đã cắm hoa vào bình.",
+        "chinese": "我把花放进花瓶里。",
+        "korean": "꽃을 꽃병에 넣었습니다.",
+        "spanish": "Puse flores en el jarrón."
       }
     ]
   },
@@ -4348,6 +4398,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kami",
     "english": "paper",
     "french": "papier",
+    "german": "Papier",
+    "vietnamese": "giấy",
+    "chinese": "纸",
+    "korean": "종이",
+    "spanish": "papel",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -4357,7 +4412,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かみになまえをかきます。",
         "romaji": "Kami ni namae o kakimasu.",
         "english": "I write my name on the paper.",
-        "french": "J'écris mon nom sur le papier."
+        "french": "J'écris mon nom sur le papier.",
+        "german": "Ich schreibe meinen Namen auf das Papier.",
+        "vietnamese": "Tôi viết tên mình trên giấy.",
+        "chinese": "我在纸上写名字。",
+        "korean": "나는 종이에 이름을 씁니다.",
+        "spanish": "Escribo mi nombre en el papel."
       }
     ]
   },
@@ -4368,6 +4428,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kamera",
     "english": "camera",
     "french": "appareil photo",
+    "german": "Kamera",
+    "vietnamese": "máy ảnh",
+    "chinese": "照相机",
+    "korean": "카메라",
+    "spanish": "cámara",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -4377,7 +4442,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かめらでしゃしんをとります。",
         "romaji": "Kamera de shashin o torimasu.",
         "english": "I take pictures with a camera.",
-        "french": "Je prends des photos avec un appareil photo."
+        "french": "Je prends des photos avec un appareil photo.",
+        "german": "Ich mache Fotos mit der Kamera.",
+        "vietnamese": "Tôi chụp ảnh bằng máy ảnh.",
+        "chinese": "我用相机拍照。",
+        "korean": "나는 카메라로 사진을 찍습니다.",
+        "spanish": "Tomo fotos con una cámara."
       }
     ]
   },
@@ -4388,6 +4458,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kayoubi",
     "english": "Tuesday",
     "french": "mardi",
+    "german": "Dienstag",
+    "vietnamese": "thứ ba",
+    "chinese": "星期二",
+    "korean": "화요일",
+    "spanish": "martes",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -4397,7 +4472,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かようびにあいましょう。",
         "romaji": "Kayoubi ni aimashou.",
         "english": "Let's meet on Tuesday.",
-        "french": "Rencontrons-nous mardi."
+        "french": "Rencontrons-nous mardi.",
+        "german": "Lass uns am Dienstag treffen.",
+        "vietnamese": "Hẹn gặp vào thứ ba.",
+        "chinese": "我们星期二见。",
+        "korean": "화요일에 만납시다.",
+        "spanish": "Nos vemos el martes."
       }
     ]
   },
@@ -4408,6 +4488,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "karai",
     "english": "spicy",
     "french": "épicé",
+    "german": "scharf",
+    "vietnamese": "cay",
+    "chinese": "辣",
+    "korean": "매운",
+    "spanish": "picante",
     "level": "N5",
     "category": "taste",
     "wordType": "adjective",
@@ -4417,7 +4502,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれーはからいです。",
         "romaji": "Karee wa karai desu.",
         "english": "The curry is spicy.",
-        "french": "Le curry est épicé."
+        "french": "Le curry est épicé.",
+        "german": "Das Curry ist scharf.",
+        "vietnamese": "Cà ri cay.",
+        "chinese": "咖喱很辣。",
+        "korean": "카레가 매워요.",
+        "spanish": "El curry está picante."
       }
     ]
   },
