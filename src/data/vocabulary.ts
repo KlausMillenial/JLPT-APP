@@ -14040,6 +14040,186 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Je nettoie la chambre."
       }
     ]
+  },
+  {
+    id: "soko",
+    japanese: "そこ",
+    hiragana: "そこ",
+    romaji: "soko",
+    english: "there (near listener)",
+    french: "là (près de l'interlocuteur)",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "そこに置いてください。",
+        hiragana: "そこにおいてください。",
+        romaji: "Soko ni oite kudasai.",
+        english: "Please put it there.",
+        french: "Pose-le là, s'il te plaît."
+      }
+    ]
+  },
+  {
+    id: "soshite",
+    japanese: "そして",
+    hiragana: "そして",
+    romaji: "soshite",
+    english: "and then",
+    french: "et puis",
+    level: "N5",
+    category: "connector",
+    wordType: "conjunction",
+    examples: [
+      {
+        japanese: "朝ごはんを食べて、そして学校へ行きます。",
+        hiragana: "あさごはんをたべて、そしてがっこうへいきます。",
+        romaji: "Asagohan o tabete, soshite gakkou e ikimasu.",
+        english: "I eat breakfast, and then go to school.",
+        french: "Je prends le petit-déjeuner, puis je vais à l'école."
+      }
+    ]
+  },
+  {
+    id: "sochira",
+    japanese: "そちら",
+    hiragana: "そちら",
+    romaji: "sochira",
+    english: "that way; there (polite)",
+    french: "par là; là-bas (poli)",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "出口はそちらです。",
+        hiragana: "でぐちはそちらです。",
+        romaji: "Deguchi wa sochira desu.",
+        english: "The exit is that way.",
+        french: "La sortie est par là."
+      }
+    ]
+  },
+  {
+    id: "socchi",
+    japanese: "そっち",
+    hiragana: "そっち",
+    romaji: "socchi",
+    english: "that way; there (casual)",
+    french: "par là; là-bas (familier)",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "そっちに行ってもいい？",
+        hiragana: "そっちにいってもいい？",
+        romaji: "Socchi ni itte mo ii?",
+        english: "Can I go over there?",
+        french: "Je peux aller par là ?"
+      }
+    ]
+  },
+  {
+    id: "soba_near",
+    japanese: "そば",
+    hiragana: "そば",
+    romaji: "soba",
+    english: "near; nearby",
+    french: "près; à proximité",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅のそばに住んでいます。",
+        hiragana: "えきのそばにすんでいます。",
+        romaji: "Eki no soba ni sunde imasu.",
+        english: "I live near the station.",
+        french: "J'habite près de la gare."
+      }
+    ]
+  },
+  {
+    id: "sora",
+    japanese: "空",
+    hiragana: "そら",
+    romaji: "sora",
+    english: "sky",
+    french: "ciel",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "空が青いです。",
+        hiragana: "そらがあおいです。",
+        romaji: "Sora ga aoi desu.",
+        english: "The sky is blue.",
+        french: "Le ciel est bleu."
+      }
+    ]
+  },
+  {
+    id: "sore",
+    japanese: "それ",
+    hiragana: "それ",
+    romaji: "sore",
+    english: "that (near listener)",
+    french: "ça; cela (près de l'interlocuteur)",
+    level: "N5",
+    category: "demonstrative",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "それは何ですか。",
+        hiragana: "それはなんですか。",
+        romaji: "Sore wa nan desu ka?",
+        english: "What is that?",
+        french: "Qu'est-ce que c'est ?"
+      }
+    ]
+  },
+  {
+    id: "sorekara",
+    japanese: "それから",
+    hiragana: "それから",
+    romaji: "sorekara",
+    english: "after that; and then",
+    french: "ensuite; après cela",
+    level: "N5",
+    category: "connector",
+    wordType: "conjunction",
+    examples: [
+      {
+        japanese: "勉強して、それから寝ます。",
+        hiragana: "べんきょうして、それからねます。",
+        romaji: "Benkyou shite, sorekara nemasu.",
+        english: "I study and then go to sleep.",
+        french: "J'étudie puis je vais dormir."
+      }
+    ]
+  },
+  {
+    id: "soredewa",
+    japanese: "それでは",
+    hiragana: "それでは",
+    romaji: "soredewa",
+    english: "well then; if so",
+    french: "eh bien; dans ce cas",
+    level: "N5",
+    category: "connector",
+    wordType: "conjunction",
+    examples: [
+      {
+        japanese: "それでは、また明日。",
+        hiragana: "それでは、またあした。",
+        romaji: "Soredewa, mata ashita.",
+        english: "Well then, see you tomorrow.",
+        french: "Eh bien, à demain."
+      }
+    ]
   }
 ];
 
