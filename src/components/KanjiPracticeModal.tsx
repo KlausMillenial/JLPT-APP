@@ -18,10 +18,6 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
   const [isOpen, setIsOpen] = useState(false);
   const translation = language === 'english' ? word.english : word.french;
 
-  // Only show for words with kanji (not just hiragana)
-  if (word.japanese === word.hiragana) {
-    return null;
-  }
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -57,22 +53,34 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
             {/* Kanji Display */}
             <div className="text-center bg-gradient-to-br from-primary/10 to-primary/5 p-6 rounded-xl border">
               <h3 className="text-sm font-medium text-muted-foreground mb-3">
-                Kanji à tracer :
+                Caractère à tracer :
               </h3>
               <div className="text-8xl font-bold text-primary mb-4">
                 {word.japanese}
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <span className="text-2xl text-muted-foreground">
-                  {word.hiragana}
-                </span>
-                <VoiceButton
-                  text={word.hiragana}
-                  language="japanese"
-                  variant="outline"
-                  size="sm"
-                />
-              </div>
+              {word.japanese !== word.hiragana && (
+                <div className="flex items-center justify-center gap-3">
+                  <span className="text-2xl text-muted-foreground">
+                    {word.hiragana}
+                  </span>
+                  <VoiceButton
+                    text={word.hiragana}
+                    language="japanese"
+                    variant="outline"
+                    size="sm"
+                  />
+                </div>
+              )}
+              {word.japanese === word.hiragana && (
+                <div className="flex items-center justify-center">
+                  <VoiceButton
+                    text={word.hiragana}
+                    language="japanese"
+                    variant="outline"
+                    size="sm"
+                  />
+                </div>
+              )}
             </div>
           </div>
 
