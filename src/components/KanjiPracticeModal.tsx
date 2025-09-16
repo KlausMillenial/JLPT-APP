@@ -6,9 +6,11 @@ import { VoiceButton } from './VoiceButton';
 import { PenTool, X } from 'lucide-react';
 import { VocabularyWord } from '../data/vocabulary';
 
+type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
 interface KanjiPracticeModalProps {
   word: VocabularyWord;
-  language: 'english' | 'french';
+  language: LanguageOption;
 }
 
 export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({ 
@@ -16,7 +18,7 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
   language 
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const translation = language === 'english' ? word.english : word.french;
+  const translation = word[language] || word.english; // Fallback to English if translation not available
 
 
   return (

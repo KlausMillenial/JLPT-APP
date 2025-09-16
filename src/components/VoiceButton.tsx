@@ -5,9 +5,11 @@ import { getElevenLabsApiKey } from '@/lib/config';
 import { useToast } from '@/hooks/use-toast';
 import { useState, useEffect } from 'react';
 
+type LanguageOption = 'japanese' | 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
 interface VoiceButtonProps {
   text: string;
-  language: 'japanese' | 'english' | 'french';
+  language: LanguageOption;
   variant?: 'default' | 'ghost' | 'outline';
   size?: 'default' | 'sm' | 'lg' | 'icon';
   className?: string;

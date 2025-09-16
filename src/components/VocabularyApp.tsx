@@ -10,28 +10,33 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 
+type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
 export const VocabularyApp = () => {
   const [currentView, setCurrentView] = useState('vocabulary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
-  const [language, setLanguage] = useState<'english' | 'french'>('english');
+  const [language, setLanguage] = useState<LanguageOption>('english');
 
   const filteredWords = useMemo(() => {
     return vocabularyData.filter(word => {
+      const translation = word[language] || word.english; // Fallback to English if translation not available
+      
       const matchesSearch = 
         word.japanese.toLowerCase().includes(searchTerm.toLowerCase()) ||
         word.hiragana.toLowerCase().includes(searchTerm.toLowerCase()) ||
         word.romaji.toLowerCase().includes(searchTerm.toLowerCase()) ||
         word.english.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.french.toLowerCase().includes(searchTerm.toLowerCase());
+        word.french.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        (translation && translation.toLowerCase().includes(searchTerm.toLowerCase()));
       
       const matchesLevel = selectedLevel === 'all' || word.level === selectedLevel;
       const matchesCategory = selectedCategory === 'all' || word.category === selectedCategory;
       
       return matchesSearch && matchesLevel && matchesCategory;
     });
-  }, [searchTerm, selectedLevel, selectedCategory]);
+  }, [searchTerm, selectedLevel, selectedCategory, language]);
 
   const stats = {
     total: vocabularyData.length,

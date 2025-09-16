@@ -5,6 +5,11 @@ export interface VocabularyWord {
   romaji: string;
   english: string;
   french: string;
+  german?: string;
+  vietnamese?: string;
+  chinese?: string;
+  korean?: string;
+  spanish?: string;
   level: 'N5' | 'N4' | 'N3' | 'N2' | 'N1';
   category: string;
   wordType: string;
@@ -18,6 +23,11 @@ export interface VocabularyExample {
   romaji: string;
   english: string;
   french: string;
+  german?: string;
+  vietnamese?: string;
+  chinese?: string;
+  korean?: string;
+  spanish?: string;
 }
 
 export const vocabularyData: VocabularyWord[] = [
@@ -28,6 +38,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "asa",
     english: "morning",
     french: "matin",
+    german: "Morgen",
+    vietnamese: "buổi sáng",
+    chinese: "早晨",
+    korean: "아침",
+    spanish: "mañana",
     level: "N5",
     category: "time",
     wordType: "noun",
@@ -37,7 +52,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あさ、こーひーをのみます。",
         romaji: "Asa, kōhī o nomimasu.",
         english: "I drink coffee in the morning.",
-        french: "Je bois du café le matin."
+        french: "Je bois du café le matin.",
+        german: "Ich trinke morgens Kaffee.",
+        vietnamese: "Tôi uống cà phê vào buổi sáng.",
+        chinese: "我早上喝咖啡。",
+        korean: "아침에 커피를 마십니다.",
+        spanish: "Bebo café por la mañana."
       }
     ]
   },

@@ -10,9 +10,11 @@ import { RunwareService } from '@/services/runwareService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
 
+type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
 interface VocabularyCardProps {
   word: VocabularyWord;
-  language: 'english' | 'french';
+  language: LanguageOption;
 }
 
 // Create context-aware image prompts for better visual representation
@@ -138,7 +140,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       const runwareService = new RunwareService(apiKey);
       
       // Create a context-aware prompt that describes the word visually
-      const translation = language === 'english' ? word.english : word.french;
+      const translation = word[language] || word.english; // Fallback to English if translation not available
       const prompt = createImagePrompt(word, translation);
       
       console.log('Generated prompt:', prompt);
@@ -172,8 +174,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     }
   }, [isFlipped]);
 
-  const translation = language === 'english' ? word.english : word.french;
-  const exampleTranslation = language === 'english' ? word.examples[0]?.english : word.examples[0]?.french;
+  const translation = word[language] || word.english; // Fallback to English if translation not available
+  const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
 
   return (
     <div className="perspective-1000 w-full h-[500px]">

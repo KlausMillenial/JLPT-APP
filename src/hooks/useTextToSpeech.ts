@@ -1,9 +1,11 @@
 import { useState, useCallback } from 'react';
 import { ELEVENLABS_CONFIG } from '@/lib/config';
 
+type LanguageOption = 'japanese' | 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
 interface TextToSpeechOptions {
   text: string;
-  language?: 'japanese' | 'english' | 'french';
+  language?: LanguageOption;
 }
 
 export const useTextToSpeech = () => {
