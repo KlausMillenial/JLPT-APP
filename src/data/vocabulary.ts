@@ -13140,6 +13140,406 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Il pleut. Cependant, je sors."
       }
     ]
+  },
+  {
+    id: "shigoto",
+    japanese: "仕事",
+    hiragana: "しごと",
+    romaji: "shigoto",
+    english: "work; job",
+    french: "travail; emploi",
+    level: "N5",
+    category: "work",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "仕事が忙しいです。",
+        hiragana: "しごとがいそがしいです。",
+        romaji: "Shigoto ga isogashii desu.",
+        english: "Work is busy.",
+        french: "Le travail est prenant."
+      }
+    ]
+  },
+  {
+    id: "shitamachi",
+    japanese: "下町",
+    hiragana: "したまち",
+    romaji: "shitamachi",
+    english: "downtown; old town",
+    french: "centre-ville; vieux quartier",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "下町を散歩しました。",
+        hiragana: "したまちをさんぽしました。",
+        romaji: "Shitamachi o sanpo shimashita.",
+        english: "I took a walk in the downtown area.",
+        french: "J'ai fait une promenade dans le vieux quartier."
+      }
+    ]
+  },
+  {
+    id: "shichi_nana",
+    japanese: "七",
+    hiragana: "しち／なな",
+    romaji: "shichi / nana",
+    english: "seven",
+    french: "sept",
+    level: "N5",
+    category: "number",
+    wordType: "number",
+    examples: [
+      {
+        japanese: "七時に起きます。",
+        hiragana: "しちじにおきます。",
+        romaji: "Shichi-ji ni okimasu.",
+        english: "I wake up at seven o'clock.",
+        french: "Je me lève à sept heures."
+      }
+    ]
+  },
+  {
+    id: "shitsumon",
+    japanese: "質問",
+    hiragana: "しつもん",
+    romaji: "shitsumon",
+    english: "question",
+    french: "question",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "質問があります。",
+        hiragana: "しつもんがあります。",
+        romaji: "Shitsumon ga arimasu.",
+        english: "I have a question.",
+        french: "J'ai une question."
+      }
+    ]
+  },
+  {
+    id: "shinu",
+    japanese: "死ぬ",
+    hiragana: "しぬ",
+    romaji: "shinu",
+    english: "to die",
+    french: "mourir",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "その犬は死にました。",
+        hiragana: "そのいぬはしにました。",
+        romaji: "Sono inu wa shinimashita.",
+        english: "That dog died.",
+        french: "Ce chien est mort."
+      }
+    ]
+  },
+  {
+    id: "shibaraku",
+    japanese: "しばらく",
+    hiragana: "しばらく",
+    romaji: "shibaraku",
+    english: "for a while",
+    french: "pendant un moment",
+    level: "N5",
+    category: "time",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "しばらくここに住んでいました。",
+        hiragana: "しばらくここにすんでいました。",
+        romaji: "Shibaraku koko ni sunde imashita.",
+        english: "I lived here for a while.",
+        french: "J'ai vécu ici pendant un moment."
+      }
+    ]
+  },
+  {
+    id: "shimaru",
+    japanese: "閉まる",
+    hiragana: "しまる",
+    romaji: "shimaru",
+    english: "to close (intransitive)",
+    french: "se fermer",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "ドアが閉まります。",
+        hiragana: "どあがしまります。",
+        romaji: "Doa ga shimarimasu.",
+        english: "The door closes.",
+        french: "La porte se ferme."
+      }
+    ]
+  },
+  {
+    id: "shimeru",
+    japanese: "閉める",
+    hiragana: "しめる",
+    romaji: "shimeru",
+    english: "to close (transitive)",
+    french: "fermer",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "窓を閉めてください。",
+        hiragana: "まどをしめてください。",
+        romaji: "Mado o shimete kudasai.",
+        english: "Please close the window.",
+        french: "Fermez la fenêtre, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "shakai",
+    japanese: "社会",
+    hiragana: "しゃかい",
+    romaji: "shakai",
+    english: "society",
+    french: "société",
+    level: "N5",
+    category: "concept",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本の社会を勉強します。",
+        hiragana: "にほんのしゃかいをべんきょうします。",
+        romaji: "Nihon no shakai o benkyou shimasu.",
+        english: "I study Japanese society.",
+        french: "J'étudie la société japonaise."
+      }
+    ]
+  },
+  {
+    id: "shashin",
+    japanese: "写真",
+    hiragana: "しゃしん",
+    romaji: "shashin",
+    english: "photograph",
+    french: "photo",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "写真を撮ります。",
+        hiragana: "しゃしんをとります。",
+        romaji: "Shashin o torimasu.",
+        english: "I take a photo.",
+        french: "Je prends une photo."
+      }
+    ]
+  },
+  {
+    id: "shatsu",
+    japanese: "シャツ",
+    hiragana: "しゃつ",
+    romaji: "shatsu",
+    english: "shirt",
+    french: "chemise",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "白いシャツを着ます。",
+        hiragana: "しろいしゃつをきます。",
+        romaji: "Shiroi shatsu o kimasu.",
+        english: "I wear a white shirt.",
+        french: "Je porte une chemise blanche."
+      }
+    ]
+  },
+  {
+    id: "shaberu",
+    japanese: "しゃべる",
+    hiragana: "しゃべる",
+    romaji: "shaberu",
+    english: "to chat; to talk",
+    french: "bavarder; discuter",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "友達としゃべります。",
+        hiragana: "ともだちとしゃべります。",
+        romaji: "Tomodachi to shaberimasu.",
+        english: "I chat with my friends.",
+        french: "Je bavarde avec mes amis."
+      }
+    ]
+  },
+  {
+    id: "shukudai",
+    japanese: "宿題",
+    hiragana: "しゅくだい",
+    romaji: "shukudai",
+    english: "homework",
+    french: "devoirs",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "宿題をします。",
+        hiragana: "しゅくだいをします。",
+        romaji: "Shukudai o shimasu.",
+        english: "I do my homework.",
+        french: "Je fais mes devoirs."
+      }
+    ]
+  },
+  {
+    id: "shusshin",
+    japanese: "出身",
+    hiragana: "しゅっしん",
+    romaji: "shusshin",
+    english: "hometown; place of origin",
+    french: "lieu d'origine",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "私は東京出身です。",
+        hiragana: "わたしはとうきょうしゅっしんです。",
+        romaji: "Watashi wa Toukyou shusshin desu.",
+        english: "I am from Tokyo.",
+        french: "Je suis originaire de Tokyo."
+      }
+    ]
+  },
+  {
+    id: "shougatsu",
+    japanese: "正月",
+    hiragana: "しょうがつ",
+    romaji: "shougatsu",
+    english: "New Year",
+    french: "Nouvel An",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "正月に家族と過ごします。",
+        hiragana: "しょうがつにかぞくとすごします。",
+        romaji: "Shougatsu ni kazoku to sugoshimasu.",
+        english: "I spend New Year with my family.",
+        french: "Je passe le Nouvel An avec ma famille."
+      }
+    ]
+  },
+  {
+    id: "shouyu",
+    japanese: "醤油",
+    hiragana: "しょうゆ",
+    romaji: "shouyu",
+    english: "soy sauce",
+    french: "sauce soja",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "醤油を料理に使います。",
+        hiragana: "しょうゆをりょうりにつかいます。",
+        romaji: "Shouyu o ryouri ni tsukaimasu.",
+        english: "I use soy sauce in cooking.",
+        french: "J'utilise de la sauce soja en cuisine."
+      }
+    ]
+  },
+  {
+    id: "shiro",
+    japanese: "白",
+    hiragana: "しろ",
+    romaji: "shiro",
+    english: "white (noun)",
+    french: "blanc",
+    level: "N5",
+    category: "color",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "白は清潔な色です。",
+        hiragana: "しろはせいけつないろです。",
+        romaji: "Shiro wa seiketsu na iro desu.",
+        english: "White is a clean color.",
+        french: "Le blanc est une couleur pure."
+      }
+    ]
+  },
+  {
+    id: "shiroi",
+    japanese: "白い",
+    hiragana: "しろい",
+    romaji: "shiroi",
+    english: "white (adjective)",
+    french: "blanc (adjectif)",
+    level: "N5",
+    category: "color",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "白い花が咲いています。",
+        hiragana: "しろいはながさいています。",
+        romaji: "Shiroi hana ga saite imasu.",
+        english: "White flowers are blooming.",
+        french: "Des fleurs blanches sont en fleur."
+      }
+    ]
+  },
+  {
+    id: "shingou",
+    japanese: "信号",
+    hiragana: "しんごう",
+    romaji: "shingou",
+    english: "traffic light",
+    french: "feu de circulation",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "信号を待ちます。",
+        hiragana: "しんごうをまちます。",
+        romaji: "Shingou o machimasu.",
+        english: "I wait at the traffic light.",
+        french: "J'attends au feu de circulation."
+      }
+    ]
+  },
+  {
+    id: "shinbun",
+    japanese: "新聞",
+    hiragana: "しんぶん",
+    romaji: "shinbun",
+    english: "newspaper",
+    french: "journal",
+    level: "N5",
+    category: "media",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "新聞を読みます。",
+        hiragana: "しんぶんをよみます。",
+        romaji: "Shinbun o yomimasu.",
+        english: "I read a newspaper.",
+        french: "Je lis un journal."
+      }
+    ]
   }
 ];
 
