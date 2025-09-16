@@ -813,6 +813,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atsui",
     english: "hot (weather)",
     french: "chaud (temps)",
+    german: "heiß (Wetter)",
+    vietnamese: "nóng (thời tiết)",
+    chinese: "热 (天气)",
+    korean: "덥다 (날씨)",
+    spanish: "caluroso (clima)",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -822,7 +827,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "きょうはあついです。",
         romaji: "Kyou wa atsui desu.",
         english: "It is hot today.",
-        french: "Il fait chaud aujourd'hui."
+        french: "Il fait chaud aujourd'hui.",
+        german: "Heute ist es heiß.",
+        vietnamese: "Hôm nay trời nóng.",
+        chinese: "今天很热。",
+        korean: "오늘은 덥습니다.",
+        spanish: "Hoy hace calor."
       }
     ]
   },
@@ -873,6 +883,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "acchi",
     english: "over there",
     french: "là-bas",
+    german: "dort drüben",
+    vietnamese: "đằng kia",
+    chinese: "那边",
+    korean: "저쪽",
+    spanish: "allí",
     level: "N5",
     category: "location",
     wordType: "pronoun",
@@ -882,7 +897,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "がっこうはあっちです。",
         romaji: "Gakkou wa acchi desu.",
         english: "The school is over there.",
-        french: "L'école est là-bas."
+        french: "L'école est là-bas.",
+        german: "Die Schule ist dort drüben.",
+        vietnamese: "Trường học ở đằng kia.",
+        chinese: "学校在那边。",
+        korean: "학교는 저쪽입니다.",
+        spanish: "La escuela está allí."
       }
     ]
   },
@@ -893,6 +913,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ato",
     english: "afterwards",
     french: "après",
+    german: "danach",
+    vietnamese: "sau đó",
+    chinese: "以后",
+    korean: "나중에",
+    spanish: "después",
     level: "N5",
     category: "time",
     wordType: "noun",
@@ -902,7 +927,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "じゅぎょうのあとであいましょう。",
         romaji: "Jugyou no ato de aimashou.",
         english: "Let's meet after class.",
-        french: "Retrouvons-nous après le cours."
+        french: "Retrouvons-nous après le cours.",
+        german: "Treffen wir uns nach dem Unterricht.",
+        vietnamese: "Hẹn gặp sau giờ học.",
+        chinese: "下课后见面吧。",
+        korean: "수업 후에 만납시다.",
+        spanish: "Nos vemos después de clase."
       }
     ]
   },
@@ -913,6 +943,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "anata",
     english: "you",
     french: "toi, vous",
+    german: "du; Sie",
+    vietnamese: "bạn",
+    chinese: "你",
+    korean: "당신",
+    spanish: "tú; usted",
     level: "N5",
     category: "pronoun",
     wordType: "pronoun",
@@ -922,7 +957,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あなたはがくせいですか？",
         romaji: "Anata wa gakusei desu ka?",
         english: "Are you a student?",
-        french: "Es-tu étudiant ?"
+        french: "Es-tu étudiant ?",
+        german: "Bist du ein Student?",
+        vietnamese: "Bạn có phải là học sinh không?",
+        chinese: "你是学生吗？",
+        korean: "당신은 학생입니까?",
+        spanish: "¿Eres estudiante?"
       }
     ]
   },
@@ -933,6 +973,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ani",
     english: "older brother (humble)",
     french: "frère aîné (humble)",
+    german: "älterer Bruder",
+    vietnamese: "anh trai",
+    chinese: "哥哥",
+    korean: "형/오빠",
+    spanish: "hermano mayor",
     level: "N5",
     category: "family",
     wordType: "noun",
@@ -942,7 +987,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あにはとうきょうにすんでいます。",
         romaji: "Ani wa Toukyou ni sunde imasu.",
         english: "My older brother lives in Tokyo.",
-        french: "Mon frère aîné habite à Tokyo."
+        french: "Mon frère aîné habite à Tokyo.",
+        german: "Mein älterer Bruder lebt in Tokio.",
+        vietnamese: "Anh trai tôi sống ở Tokyo.",
+        chinese: "我哥哥住在东京。",
+        korean: "형은 도쿄에 살고 있습니다.",
+        spanish: "Mi hermano mayor vive en Tokio."
       }
     ]
   },
@@ -953,6 +1003,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ane",
     english: "older sister (humble)",
     french: "sœur aînée (humble)",
+    german: "ältere Schwester",
+    vietnamese: "chị gái",
+    chinese: "姐姐",
+    korean: "누나/언니",
+    spanish: "hermana mayor",
     level: "N5",
     category: "family",
     wordType: "noun",
@@ -962,7 +1017,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あねはいしゃです。",
         romaji: "Ane wa isha desu.",
         english: "My older sister is a doctor.",
-        french: "Ma sœur aînée est médecin."
+        french: "Ma sœur aînée est médecin.",
+        german: "Meine ältere Schwester ist Ärztin.",
+        vietnamese: "Chị gái tôi là bác sĩ.",
+        chinese: "我姐姐是医生。",
+        korean: "누나는 의사입니다.",
+        spanish: "Mi hermana mayor es doctora."
       }
     ]
   },
@@ -1013,6 +1073,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "apaato",
     english: "apartment",
     french: "appartement",
+    german: "Wohnung",
+    vietnamese: "căn hộ",
+    chinese: "公寓",
+    korean: "아파트",
+    spanish: "apartamento",
     level: "N5",
     category: "housing",
     wordType: "noun",
@@ -1022,7 +1087,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "わたしはあぱーとにすんでいます。",
         romaji: "Watashi wa apaato ni sunde imasu.",
         english: "I live in an apartment.",
-        french: "J'habite dans un appartement."
+        french: "J'habite dans un appartement.",
+        german: "Ich wohne in einer Wohnung.",
+        vietnamese: "Tôi sống trong căn hộ.",
+        chinese: "我住在公寓里。",
+        korean: "저는 아파트에 삽니다.",
+        spanish: "Vivo en un apartamento."
       }
     ]
   },
@@ -1033,6 +1103,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "abiru",
     english: "to bathe, to shower",
     french: "se doucher, se baigner",
+    german: "baden, duschen",
+    vietnamese: "tắm",
+    chinese: "洗澡",
+    korean: "샤워하다",
+    spanish: "ducharse, bañarse",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -1042,7 +1117,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "まいあさしゃわーをあびます。",
         romaji: "Maiasa shawaa o abimasu.",
         english: "I take a shower every morning.",
-        french: "Je prends une douche chaque matin."
+        french: "Je prends une douche chaque matin.",
+        german: "Ich dusche jeden Morgen.",
+        vietnamese: "Tôi tắm mỗi sáng.",
+        chinese: "我每天早上洗澡。",
+        korean: "매일 아침 샤워합니다.",
+        spanish: "Me ducho cada mañana."
       }
     ]
   },
@@ -1053,6 +1133,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "abunai",
     english: "dangerous",
     french: "dangereux",
+    german: "gefährlich",
+    vietnamese: "nguy hiểm",
+    chinese: "危险",
+    korean: "위험하다",
+    spanish: "peligroso",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -1062,7 +1147,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ここはあぶないです。",
         romaji: "Koko wa abunai desu.",
         english: "It is dangerous here.",
-        french: "C'est dangereux ici."
+        french: "C'est dangereux ici.",
+        german: "Es ist hier gefährlich.",
+        vietnamese: "Ở đây nguy hiểm.",
+        chinese: "这里很危险。",
+        korean: "여기는 위험합니다.",
+        spanish: "Aquí es peligroso."
       }
     ]
   },
@@ -1073,6 +1163,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "amai",
     english: "sweet",
     french: "sucré",
+    german: "süß",
+    vietnamese: "ngọt",
+    chinese: "甜",
+    korean: "달다",
+    spanish: "dulce",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -1082,7 +1177,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "このけーきはあまいです。",
         romaji: "Kono keeki wa amai desu.",
         english: "This cake is sweet.",
-        french: "Ce gâteau est sucré."
+        french: "Ce gâteau est sucré.",
+        german: "Dieser Kuchen ist süß.",
+        vietnamese: "Cái bánh này ngọt.",
+        chinese: "这个蛋糕很甜。",
+        korean: "이 케이크는 답니다.",
+        spanish: "Este pastel es dulce."
       }
     ]
   },
@@ -1093,6 +1193,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "amari",
     english: "not very",
     french: "pas très",
+    german: "nicht sehr",
+    vietnamese: "không… lắm",
+    chinese: "不太",
+    korean: "별로",
+    spanish: "no muy",
     level: "N5",
     category: "adverb",
     wordType: "adverb",
@@ -1102,7 +1207,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "にほんごはあまりむずかしくないです。",
         romaji: "Nihongo wa amari muzukashikunai desu.",
         english: "Japanese is not very difficult.",
-        french: "Le japonais n'est pas très difficile."
+        french: "Le japonais n'est pas très difficile.",
+        german: "Japanisch ist nicht sehr schwierig.",
+        vietnamese: "Tiếng Nhật không khó lắm.",
+        chinese: "日语不太难。",
+        korean: "일본어는 별로 어렵지 않습니다.",
+        spanish: "El japonés no es muy difícil."
       }
     ]
   },
@@ -1653,6 +1763,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "inu",
     english: "dog",
     french: "chien",
+    german: "Hund",
+    vietnamese: "chó",
+    chinese: "狗",
+    korean: "개",
+    spanish: "perro",
     level: "N5",
     category: "animal",
     wordType: "noun",
@@ -1662,7 +1777,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "いぬがはしっています。",
         romaji: "Inu ga hashitte imasu.",
         english: "The dog is running.",
-        french: "Le chien court."
+        french: "Le chien court.",
+        german: "Der Hund rennt.",
+        vietnamese: "Con chó đang chạy.",
+        chinese: "狗在跑。",
+        korean: "개가 달리고 있습니다.",
+        spanish: "El perro corre."
       }
     ]
   },
