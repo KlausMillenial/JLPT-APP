@@ -87,11 +87,24 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
 
   // Function to add kanji guide
   const addKanjiGuide = (canvas: FabricCanvas, kanji: string) => {
+    // Calculate font size based on text length to fit in canvas
+    const maxFontSize = 200;
+    const minFontSize = 80;
+    const textLength = kanji.length;
+    
+    // Adjust font size based on character count
+    let fontSize = maxFontSize;
+    if (textLength > 3) {
+      fontSize = Math.max(minFontSize, maxFontSize / (textLength * 0.6));
+    } else if (textLength > 1) {
+      fontSize = Math.max(minFontSize, maxFontSize / (textLength * 0.8));
+    }
+    
     // Create a text object as background guide
     const guide = new fabric.Text(kanji, {
       left: canvas.width! / 2,
       top: canvas.height! / 2,
-      fontSize: 200,
+      fontSize: fontSize,
       fill: 'rgba(0, 0, 0, 0.1)',
       fontFamily: 'serif',
       originX: 'center',
