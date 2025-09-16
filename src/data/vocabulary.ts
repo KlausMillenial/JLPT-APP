@@ -2148,6 +2148,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iya",
     english: "unpleasant",
     french: "désagréable",
+    german: "unangenehm",
+    vietnamese: "khó chịu",
+    chinese: "讨厌",
+    korean: "싫다",
+    spanish: "desagradable",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -2157,7 +2162,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "それはいやです。",
         romaji: "Sore wa iya desu.",
         english: "I don't like that.",
-        french: "Je n'aime pas ça."
+        french: "Je n'aime pas ça.",
+        german: "Das ist unangenehm.",
+        vietnamese: "Tôi không thích điều đó.",
+        chinese: "我不喜欢那个。",
+        korean: "그건 싫습니다.",
+        spanish: "No me gusta eso."
       }
     ]
   },
@@ -2168,6 +2178,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iriguchi",
     english: "entrance",
     french: "entrée",
+    german: "Eingang",
+    vietnamese: "lối vào",
+    chinese: "入口",
+    korean: "입구",
+    spanish: "entrada",
     level: "N5",
     category: "place",
     wordType: "noun",
@@ -2177,7 +2192,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "いりぐちはこちらです。",
         romaji: "Iriguchi wa kochira desu.",
         english: "The entrance is this way.",
-        french: "L'entrée est par ici."
+        french: "L'entrée est par ici.",
+        german: "Der Eingang ist hier.",
+        vietnamese: "Lối vào ở đây.",
+        chinese: "入口在这边。",
+        korean: "입구는 이쪽입니다.",
+        spanish: "La entrada es por aquí."
       }
     ]
   },
@@ -2188,6 +2208,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iru",
     english: "to be, to have (for people/animals)",
     french: "être, avoir (personnes/animaux)",
+    german: "es gibt (Menschen/Tiere)",
+    vietnamese: "có (người/động vật)",
+    chinese: "有 (人/动物)",
+    korean: "있다 (사람/동물)",
+    spanish: "haber, tener (personas/animales)",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2197,7 +2222,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ねこがいます。",
         romaji: "Neko ga imasu.",
         english: "There is a cat.",
-        french: "Il y a un chat."
+        french: "Il y a un chat.",
+        german: "Es gibt eine Katze.",
+        vietnamese: "Có một con mèo.",
+        chinese: "有一只猫。",
+        korean: "고양이가 있습니다.",
+        spanish: "Hay un gato."
       }
     ]
   },
@@ -2208,6 +2238,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iru",
     english: "to need",
     french: "avoir besoin de",
+    german: "brauchen",
+    vietnamese: "cần",
+    chinese: "需要",
+    korean: "필요하다",
+    spanish: "necesitar",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2217,7 +2252,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "おかねがいります。",
         romaji: "Okane ga irimasu.",
         english: "I need money.",
-        french: "J'ai besoin d'argent."
+        french: "J'ai besoin d'argent.",
+        german: "Ich brauche Geld.",
+        vietnamese: "Tôi cần tiền.",
+        chinese: "我需要钱。",
+        korean: "돈이 필요합니다.",
+        spanish: "Necesito dinero."
       }
     ]
   },
@@ -2228,6 +2268,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ireru",
     english: "to put in",
     french: "mettre, insérer",
+    german: "hineintun, einfügen",
+    vietnamese: "cho vào",
+    chinese: "放入",
+    korean: "넣다",
+    spanish: "meter, poner",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2237,7 +2282,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "こーひーにさとうをいれる。",
         romaji: "Koohii ni satou o ireru.",
         english: "I put sugar in the coffee.",
-        french: "Je mets du sucre dans le café."
+        french: "Je mets du sucre dans le café.",
+        german: "Ich tue Zucker in den Kaffee.",
+        vietnamese: "Tôi cho đường vào cà phê.",
+        chinese: "我在咖啡里放糖。",
+        korean: "커피에 설탕을 넣습니다.",
+        spanish: "Pongo azúcar en el café."
       }
     ]
   },
@@ -2248,6 +2298,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iro",
     english: "color",
     french: "couleur",
+    german: "Farbe",
+    vietnamese: "màu",
+    chinese: "颜色",
+    korean: "색",
+    spanish: "color",
     level: "N5",
     category: "noun",
     wordType: "noun",
@@ -2257,7 +2312,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "すきないろはあおです。",
         romaji: "Sukina iro wa ao desu.",
         english: "My favorite color is blue.",
-        french: "Ma couleur préférée est le bleu."
+        french: "Ma couleur préférée est le bleu.",
+        german: "Meine Lieblingsfarbe ist Blau.",
+        vietnamese: "Màu yêu thích của tôi là màu xanh.",
+        chinese: "我最喜欢的颜色是蓝色。",
+        korean: "제가 좋아하는 색은 파란색입니다.",
+        spanish: "Mi color favorito es el azul."
       }
     ]
   },
@@ -2268,6 +2328,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "iroiro",
     english: "various",
     french: "divers, varié",
+    german: "verschieden",
+    vietnamese: "nhiều loại, đa dạng",
+    chinese: "各种各样",
+    korean: "여러 가지",
+    spanish: "varios",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -2277,7 +2342,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "いろいろなほんがあります。",
         romaji: "Iroiro na hon ga arimasu.",
         english: "There are various books.",
-        french: "Il y a divers livres."
+        french: "Il y a divers livres.",
+        german: "Es gibt verschiedene Bücher.",
+        vietnamese: "Có nhiều loại sách.",
+        chinese: "有各种各样的书。",
+        korean: "여러 가지 책이 있습니다.",
+        spanish: "Hay varios libros."
       }
     ]
   },
