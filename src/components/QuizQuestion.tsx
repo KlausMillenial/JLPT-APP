@@ -211,6 +211,9 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                     <div className="text-lg text-muted-foreground">
                       {question.word.examples[0].hiragana}
                     </div>
+                    <div className="text-lg text-muted-foreground italic">
+                      {question.word.examples[0].romaji}
+                    </div>
                     <div className="text-lg italic text-foreground">
                       "{question.word.examples[0].english}"
                     </div>
