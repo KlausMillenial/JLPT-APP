@@ -30,9 +30,13 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
       isDrawingMode: true,
     });
 
-    // Configure the drawing brush
-    canvas.freeDrawingBrush.color = brushColor;
-    canvas.freeDrawingBrush.width = brushSize;
+    // Wait for canvas to be ready before configuring brush
+    setTimeout(() => {
+      if (canvas.freeDrawingBrush) {
+        canvas.freeDrawingBrush.color = brushColor;
+        canvas.freeDrawingBrush.width = brushSize;
+      }
+    }, 0);
 
     // Add event listener for drawing completion
     canvas.on('path:created', () => {
@@ -54,7 +58,7 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
   }, []);
 
   useEffect(() => {
-    if (!fabricCanvas) return;
+    if (!fabricCanvas?.freeDrawingBrush) return;
 
     fabricCanvas.freeDrawingBrush.color = brushColor;
     fabricCanvas.freeDrawingBrush.width = brushSize;
