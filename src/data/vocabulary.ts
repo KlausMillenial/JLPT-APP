@@ -12760,6 +12760,746 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Une fille lit un livre."
       }
     ]
+  },
+  {
+    id: "gaikoku",
+    japanese: "外国",
+    hiragana: "がいこく",
+    romaji: "gaikoku",
+    english: "foreign country",
+    french: "pays étranger",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "外国へ旅行します。",
+        hiragana: "がいこくへりょこうします。",
+        romaji: "Gaikoku e ryokou shimasu.",
+        english: "I travel abroad.",
+        french: "Je voyage à l'étranger."
+      }
+    ]
+  },
+  {
+    id: "gaikokujin",
+    japanese: "外国人",
+    hiragana: "がいこくじん",
+    romaji: "gaikokujin",
+    english: "foreigner",
+    french: "étranger",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "彼は外国人です。",
+        hiragana: "かれはがいこくじんです。",
+        romaji: "Kare wa gaikokujin desu.",
+        english: "He is a foreigner.",
+        french: "Il est étranger."
+      }
+    ]
+  },
+  {
+    id: "kaisha",
+    japanese: "会社",
+    hiragana: "かいしゃ",
+    romaji: "kaisha",
+    english: "company",
+    french: "entreprise",
+    level: "N5",
+    category: "work",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "会社で働いています。",
+        hiragana: "かいしゃではたらいています。",
+        romaji: "Kaisha de hataraite imasu.",
+        english: "I work at a company.",
+        french: "Je travaille dans une entreprise."
+      }
+    ]
+  },
+  {
+    id: "kaidan",
+    japanese: "階段",
+    hiragana: "かいだん",
+    romaji: "kaidan",
+    english: "stairs",
+    french: "escaliers",
+    level: "N5",
+    category: "building",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "階段を上ります。",
+        hiragana: "かいだんをのぼります。",
+        romaji: "Kaidan o noborimasu.",
+        english: "I go up the stairs.",
+        french: "Je monte les escaliers."
+      }
+    ]
+  },
+  {
+    id: "kaimono",
+    japanese: "買い物",
+    hiragana: "かいもの",
+    romaji: "kaimono",
+    english: "shopping",
+    french: "courses, achats",
+    level: "N5",
+    category: "activity",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "母と買い物に行きます。",
+        hiragana: "ははとかいものにいきます。",
+        romaji: "Haha to kaimono ni ikimasu.",
+        english: "I go shopping with my mother.",
+        french: "Je vais faire des courses avec ma mère."
+      }
+    ]
+  },
+  {
+    id: "kau",
+    japanese: "買う",
+    hiragana: "かう",
+    romaji: "kau",
+    english: "to buy",
+    french: "acheter",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "新しい靴を買いました。",
+        hiragana: "あたらしいくつをかいました。",
+        romaji: "Atarashii kutsu o kaimashita.",
+        english: "I bought new shoes.",
+        french: "J'ai acheté de nouvelles chaussures."
+      }
+    ]
+  },
+  {
+    id: "kaesu",
+    japanese: "返す",
+    hiragana: "かえす",
+    romaji: "kaesu",
+    english: "to return (something)",
+    french: "rendre (quelque chose)",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "本を友達に返しました。",
+        hiragana: "ほんをともだちにかえしました。",
+        romaji: "Hon o tomodachi ni kaeshimashita.",
+        english: "I returned the book to my friend.",
+        french: "J'ai rendu le livre à mon ami."
+      }
+    ]
+  },
+  {
+    id: "kaeru",
+    japanese: "帰る",
+    hiragana: "かえる",
+    romaji: "kaeru",
+    english: "to go back; to return (home)",
+    french: "rentrer; retourner",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "学校から家に帰ります。",
+        hiragana: "がっこうからいえにかえります。",
+        romaji: "Gakkou kara ie ni kaerimasu.",
+        english: "I return home from school.",
+        french: "Je rentre à la maison depuis l'école."
+      }
+    ]
+  },
+  {
+    id: "kakaru",
+    japanese: "かかる",
+    hiragana: "かかる",
+    romaji: "kakaru",
+    english: "to take (time, money)",
+    french: "prendre (temps, argent)",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "駅まで30分かかります。",
+        hiragana: "えきまでさんじゅっぷんかかります。",
+        romaji: "Eki made sanjuppun kakarimasu.",
+        english: "It takes 30 minutes to the station.",
+        french: "Il faut 30 minutes pour aller à la gare."
+      }
+    ]
+  },
+  {
+    id: "kagi",
+    japanese: "鍵",
+    hiragana: "かぎ",
+    romaji: "kagi",
+    english: "key",
+    french: "clé",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "鍵をなくしました。",
+        hiragana: "かぎをなくしました。",
+        romaji: "Kagi o nakushimashita.",
+        english: "I lost my key.",
+        french: "J'ai perdu ma clé."
+      }
+    ]
+  },
+  {
+    id: "kaku",
+    japanese: "書く",
+    hiragana: "かく",
+    romaji: "kaku",
+    english: "to write",
+    french: "écrire",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "手紙を書きます。",
+        hiragana: "てがみをかきます。",
+        romaji: "Tegami o kakimasu.",
+        english: "I write a letter.",
+        french: "J'écris une lettre."
+      }
+    ]
+  },
+  {
+    id: "gakusei",
+    japanese: "学生",
+    hiragana: "がくせい",
+    romaji: "gakusei",
+    english: "student",
+    french: "étudiant",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "私は学生です。",
+        hiragana: "わたしはがくせいです。",
+        romaji: "Watashi wa gakusei desu.",
+        english: "I am a student.",
+        french: "Je suis étudiant."
+      }
+    ]
+  },
+  {
+    id: "kakeru",
+    japanese: "かける",
+    hiragana: "かける",
+    romaji: "kakeru",
+    english: "to call (phone); to hang",
+    french: "téléphoner; accrocher",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "友達に電話をかけます。",
+        hiragana: "ともだちにでんわをかけます。",
+        romaji: "Tomodachi ni denwa o kakemasu.",
+        english: "I call my friend.",
+        french: "Je téléphone à mon ami."
+      }
+    ]
+  },
+  {
+    id: "kasa",
+    japanese: "傘",
+    hiragana: "かさ",
+    romaji: "kasa",
+    english: "umbrella",
+    french: "parapluie",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "傘を持って行きます。",
+        hiragana: "かさをもっていきます。",
+        romaji: "Kasa o motte ikimasu.",
+        english: "I take an umbrella.",
+        french: "J'emporte un parapluie."
+      }
+    ]
+  },
+  {
+    id: "kasu",
+    japanese: "貸す",
+    hiragana: "かす",
+    romaji: "kasu",
+    english: "to lend",
+    french: "prêter",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "友達にお金を貸しました。",
+        hiragana: "ともだちにおかねをかしました。",
+        romaji: "Tomodachi ni okane o kashimashita.",
+        english: "I lent money to a friend.",
+        french: "J'ai prêté de l'argent à un ami."
+      }
+    ]
+  },
+  {
+    id: "kaze_wind",
+    japanese: "風",
+    hiragana: "かぜ",
+    romaji: "kaze",
+    english: "wind",
+    french: "vent",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今日は風が強いです。",
+        hiragana: "きょうはかぜがつよいです。",
+        romaji: "Kyou wa kaze ga tsuyoi desu.",
+        english: "The wind is strong today.",
+        french: "Le vent est fort aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "kaze_cold",
+    japanese: "風邪",
+    hiragana: "かぜ",
+    romaji: "kaze",
+    english: "cold (illness)",
+    french: "rhume",
+    level: "N5",
+    category: "health",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "風邪をひきました。",
+        hiragana: "かぜをひきました。",
+        romaji: "Kaze o hikimashita.",
+        english: "I caught a cold.",
+        french: "J'ai attrapé un rhume."
+      }
+    ]
+  },
+  {
+    id: "kazoku",
+    japanese: "家族",
+    hiragana: "かぞく",
+    romaji: "kazoku",
+    english: "family",
+    french: "famille",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "家族と一緒に住んでいます。",
+        hiragana: "かぞくといっしょにすんでいます。",
+        romaji: "Kazoku to issho ni sunde imasu.",
+        english: "I live with my family.",
+        french: "Je vis avec ma famille."
+      }
+    ]
+  },
+  {
+    id: "kata",
+    japanese: "方",
+    hiragana: "かた",
+    romaji: "kata",
+    english: "person (polite); way of doing",
+    french: "personne (poli); manière de faire",
+    level: "N5",
+    category: "expression",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本語の勉強の仕方を教えてください。",
+        hiragana: "にほんごのべんきょうのしかたをおしえてください。",
+        romaji: "Nihongo no benkyou no shikata o oshiete kudasai.",
+        english: "Please teach me how to study Japanese.",
+        french: "Apprenez-moi comment étudier le japonais."
+      }
+    ]
+  },
+  {
+    id: "gakkou",
+    japanese: "学校",
+    hiragana: "がっこう",
+    romaji: "gakkou",
+    english: "school",
+    french: "école",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "学校へ行きます。",
+        hiragana: "がっこうへいきます。",
+        romaji: "Gakkou e ikimasu.",
+        english: "I go to school.",
+        french: "Je vais à l'école."
+      }
+    ]
+  },
+  {
+    id: "kappu",
+    japanese: "カップ",
+    hiragana: "かっぷ",
+    romaji: "kappu",
+    english: "cup",
+    french: "tasse; gobelet",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "カップでコーヒーを飲みます。",
+        hiragana: "かっぷでこーひーをのみます。",
+        romaji: "Kappu de koohii o nomimasu.",
+        english: "I drink coffee in a cup.",
+        french: "Je bois du café dans une tasse."
+      }
+    ]
+  },
+  {
+    id: "katei",
+    japanese: "家庭",
+    hiragana: "かてい",
+    romaji: "katei",
+    english: "home; household",
+    french: "foyer; ménage",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "家庭を大切にします。",
+        hiragana: "かていをたいせつにします。",
+        romaji: "Katei o taisetsu ni shimasu.",
+        english: "I cherish my home life.",
+        french: "Je tiens à ma vie de famille."
+      }
+    ]
+  },
+  {
+    id: "kado",
+    japanese: "角",
+    hiragana: "かど",
+    romaji: "kado",
+    english: "corner",
+    french: "coin, angle",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "角を右に曲がってください。",
+        hiragana: "かどをみぎにまがってください。",
+        romaji: "Kado o migi ni magatte kudasai.",
+        english: "Turn right at the corner.",
+        french: "Tournez à droite au coin."
+      }
+    ]
+  },
+  {
+    id: "kaban",
+    japanese: "鞄",
+    hiragana: "かばん",
+    romaji: "kaban",
+    english: "bag",
+    french: "sac",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "新しい鞄を買いました。",
+        hiragana: "あたらしいかばんをかいました。",
+        romaji: "Atarashii kaban o kaimashita.",
+        english: "I bought a new bag.",
+        french: "J'ai acheté un nouveau sac."
+      }
+    ]
+  },
+  {
+    id: "kabin",
+    japanese: "花瓶",
+    hiragana: "かびん",
+    romaji: "kabin",
+    english: "vase",
+    french: "vase",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "花瓶に花を入れました。",
+        hiragana: "かびんにはなをいれました。",
+        romaji: "Kabin ni hana o iremashita.",
+        english: "I put flowers in the vase.",
+        french: "J'ai mis des fleurs dans le vase."
+      }
+    ]
+  },
+  {
+    id: "kami",
+    japanese: "紙",
+    hiragana: "かみ",
+    romaji: "kami",
+    english: "paper",
+    french: "papier",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "紙に名前を書いてください。",
+        hiragana: "かみになまえをかいてください。",
+        romaji: "Kami ni namae o kaite kudasai.",
+        english: "Please write your name on the paper.",
+        french: "Écrivez votre nom sur le papier."
+      }
+    ]
+  },
+  {
+    id: "kamera",
+    japanese: "カメラ",
+    hiragana: "かめら",
+    romaji: "kamera",
+    english: "camera",
+    french: "appareil photo",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "カメラで写真を撮ります。",
+        hiragana: "かめらでしゃしんをとります。",
+        romaji: "Kamera de shashin o torimasu.",
+        english: "I take pictures with a camera.",
+        french: "Je prends des photos avec un appareil photo."
+      }
+    ]
+  },
+  {
+    id: "kayoubi",
+    japanese: "火曜日",
+    hiragana: "かようび",
+    romaji: "kayoubi",
+    english: "Tuesday",
+    french: "mardi",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "火曜日に会いましょう。",
+        hiragana: "かようびにあいましょう。",
+        romaji: "Kayoubi ni aimashou.",
+        english: "Let's meet on Tuesday.",
+        french: "Rencontrons-nous mardi."
+      }
+    ]
+  },
+  {
+    id: "karai",
+    japanese: "辛い",
+    hiragana: "からい",
+    romaji: "karai",
+    english: "spicy",
+    french: "épicé",
+    level: "N5",
+    category: "food",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "カレーは辛いです。",
+        hiragana: "かれーはからいです。",
+        romaji: "Karee wa karai desu.",
+        english: "Curry is spicy.",
+        french: "Le curry est épicé."
+      }
+    ]
+  },
+  {
+    id: "karada",
+    japanese: "体",
+    hiragana: "からだ",
+    romaji: "karada",
+    english: "body",
+    french: "corps",
+    level: "N5",
+    category: "body",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "体に気をつけてください。",
+        hiragana: "からだにきをつけてください。",
+        romaji: "Karada ni ki o tsukete kudasai.",
+        english: "Please take care of your body.",
+        french: "Prenez soin de votre corps."
+      }
+    ]
+  },
+  {
+    id: "kariru",
+    japanese: "借りる",
+    hiragana: "かりる",
+    romaji: "kariru",
+    english: "to borrow",
+    french: "emprunter",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "友達から本を借りました。",
+        hiragana: "ともだちからほんをかりました。",
+        romaji: "Tomodachi kara hon o karimashita.",
+        english: "I borrowed a book from a friend.",
+        french: "J'ai emprunté un livre à un ami."
+      }
+    ]
+  },
+  {
+    id: "karui",
+    japanese: "軽い",
+    hiragana: "かるい",
+    romaji: "karui",
+    english: "light (not heavy)",
+    french: "léger",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "このかばんは軽いです。",
+        hiragana: "このかばんはかるいです。",
+        romaji: "Kono kaban wa karui desu.",
+        english: "This bag is light.",
+        french: "Ce sac est léger."
+      }
+    ]
+  },
+  {
+    id: "karee",
+    japanese: "カレー",
+    hiragana: "かれー",
+    romaji: "karee",
+    english: "curry",
+    french: "curry",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "カレーを作ります。",
+        hiragana: "かれーをつくります。",
+        romaji: "Karee o tsukurimasu.",
+        english: "I make curry.",
+        french: "Je prépare du curry."
+      }
+    ]
+  },
+  {
+    id: "karendaa",
+    japanese: "カレンダー",
+    hiragana: "かれんだー",
+    romaji: "karendaa",
+    english: "calendar",
+    french: "calendrier",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "カレンダーを壁に掛けます。",
+        hiragana: "かれんだーをかべにかけます。",
+        romaji: "Karendaa o kabe ni kakemasu.",
+        english: "I hang a calendar on the wall.",
+        french: "J'accroche un calendrier au mur."
+      }
+    ]
+  },
+  {
+    id: "kawa",
+    japanese: "川",
+    hiragana: "かわ",
+    romaji: "kawa",
+    english: "river",
+    french: "rivière, fleuve",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "川で魚を釣ります。",
+        hiragana: "かわでさかなをつります。",
+        romaji: "Kawa de sakana o tsurimasu.",
+        english: "I fish in the river.",
+        french: "Je pêche dans la rivière."
+      }
+    ]
+  },
+  {
+    id: "kawaii",
+    japanese: "可愛い",
+    hiragana: "かわいい",
+    romaji: "kawaii",
+    english: "cute",
+    french: "mignon",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "その猫はとても可愛いです。",
+        hiragana: "そのねこはとてもかわいいです。",
+        romaji: "Sono neko wa totemo kawaii desu.",
+        english: "That cat is very cute.",
+        french: "Ce chat est très mignon."
+      }
+    ]
+  },
+  {
+    id: "kanji",
+    japanese: "漢字",
+    hiragana: "かんじ",
+    romaji: "kanji",
+    english: "kanji (Chinese character)",
+    french: "kanji (caractère chinois)",
+    level: "N5",
+    category: "language",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "漢字を勉強しています。",
+        hiragana: "かんじをべんきょうしています。",
+        romaji: "Kanji o benkyou shite imasu.",
+        english: "I am studying kanji.",
+        french: "J'étudie les kanjis."
+      }
+    ]
   }
 ];
 
