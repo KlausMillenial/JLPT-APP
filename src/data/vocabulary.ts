@@ -4518,6 +4518,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "karada",
     "english": "body",
     "french": "corps",
+    "german": "Körper",
+    "vietnamese": "cơ thể",
+    "chinese": "身体",
+    "korean": "몸",
+    "spanish": "cuerpo",
     "level": "N5",
     "category": "body parts",
     "wordType": "noun",
@@ -4527,7 +4532,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "からだがつかれています。",
         "romaji": "Karada ga tsukarete imasu.",
         "english": "My body is tired.",
-        "french": "Mon corps est fatigué."
+        "french": "Mon corps est fatigué.",
+        "german": "Mein Körper ist müde.",
+        "vietnamese": "Cơ thể tôi mệt mỏi.",
+        "chinese": "我身体很累。",
+        "korean": "몸이 피곤합니다.",
+        "spanish": "Mi cuerpo está cansado."
       }
     ]
   },
@@ -4538,6 +4548,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kariru",
     "english": "to borrow",
     "french": "emprunter",
+    "german": "ausleihen",
+    "vietnamese": "mượn",
+    "chinese": "借",
+    "korean": "빌리다",
+    "spanish": "prestar",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -4547,7 +4562,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ともだちにほんをかりました。",
         "romaji": "Tomodachi ni hon o karimashita.",
         "english": "I borrowed a book from my friend.",
-        "french": "J'ai emprunté un livre à mon ami."
+        "french": "J'ai emprunté un livre à mon ami.",
+        "german": "Ich habe mir ein Buch von meinem Freund ausgeliehen.",
+        "vietnamese": "Tôi đã mượn sách từ bạn.",
+        "chinese": "我向朋友借了一本书。",
+        "korean": "친구에게 책을 빌렸습니다.",
+        "spanish": "Le pedí prestado un libro a mi amigo."
       }
     ]
   },
@@ -4558,6 +4578,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "karui",
     "english": "light (not heavy)",
     "french": "léger",
+    "german": "leicht",
+    "vietnamese": "nhẹ",
+    "chinese": "轻",
+    "korean": "가볍다",
+    "spanish": "ligero",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -4567,7 +4592,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "このはこはかるいです。",
         "romaji": "Kono hako wa karui desu.",
         "english": "This box is light.",
-        "french": "Cette boîte est légère."
+        "french": "Cette boîte est légère.",
+        "german": "Diese Schachtel ist leicht.",
+        "vietnamese": "Cái hộp này nhẹ.",
+        "chinese": "这个箱子很轻。",
+        "korean": "이 상자는 가볍습니다.",
+        "spanish": "Esta caja es ligera."
       }
     ]
   },
@@ -4578,6 +4608,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "karee",
     "english": "curry",
     "french": "curry",
+    "german": "Curry",
+    "vietnamese": "cà ri",
+    "chinese": "咖喱",
+    "korean": "카레",
+    "spanish": "curry",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -4587,7 +4622,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれーをたべます。",
         "romaji": "Karee o tabemasu.",
         "english": "I eat curry.",
-        "french": "Je mange du curry."
+        "french": "Je mange du curry.",
+        "german": "Ich esse Curry.",
+        "vietnamese": "Tôi ăn cà ri.",
+        "chinese": "我吃咖喱。",
+        "korean": "나는 카레를 먹습니다.",
+        "spanish": "Como curry."
       }
     ]
   },
@@ -4598,6 +4638,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "karendaa",
     "english": "calendar",
     "french": "calendrier",
+    "german": "Kalender",
+    "vietnamese": "lịch",
+    "chinese": "日历",
+    "korean": "달력",
+    "spanish": "calendario",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -4607,7 +4652,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれんだーをみます。",
         "romaji": "Karendaa o mimasu.",
         "english": "I look at the calendar.",
-        "french": "Je regarde le calendrier."
+        "french": "Je regarde le calendrier.",
+        "german": "Ich schaue den Kalender an.",
+        "vietnamese": "Tôi xem lịch.",
+        "chinese": "我看日历。",
+        "korean": "나는 달력을 봅니다.",
+        "spanish": "Miro el calendario."
       }
     ]
   },
@@ -4618,6 +4668,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kawa",
     "english": "river",
     "french": "rivière, fleuve",
+    "german": "Fluss",
+    "vietnamese": "sông",
+    "chinese": "河流",
+    "korean": "강",
+    "spanish": "río",
     "level": "N5",
     "category": "nature",
     "wordType": "noun",
@@ -4627,7 +4682,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かわでおよぎます。",
         "romaji": "Kawa de oyogimasu.",
         "english": "I swim in the river.",
-        "french": "Je nage dans la rivière."
+        "french": "Je nage dans la rivière.",
+        "german": "Ich schwimme im Fluss.",
+        "vietnamese": "Tôi bơi ở sông.",
+        "chinese": "我在河里游泳。",
+        "korean": "나는 강에서 수영합니다.",
+        "spanish": "Nado en el río."
       }
     ]
   },
@@ -4638,6 +4698,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kawaii",
     "english": "cute",
     "french": "mignon",
+    "german": "niedlich",
+    "vietnamese": "dễ thương",
+    "chinese": "可爱",
+    "korean": "귀엽다",
+    "spanish": "lindo",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -4647,7 +4712,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "そのねこはかわいいです。",
         "romaji": "Sono neko wa kawaii desu.",
         "english": "That cat is cute.",
-        "french": "Ce chat est mignon."
+        "french": "Ce chat est mignon.",
+        "german": "Diese Katze ist niedlich.",
+        "vietnamese": "Con mèo đó dễ thương.",
+        "chinese": "那只猫很可爱。",
+        "korean": "그 고양이는 귀엽습니다.",
+        "spanish": "Ese gato es lindo."
       }
     ]
   },
@@ -4658,6 +4728,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kanji",
     "english": "Chinese character",
     "french": "kanji, caractère chinois",
+    "german": "Kanji, chinesisches Schriftzeichen",
+    "vietnamese": "chữ Hán",
+    "chinese": "汉字",
+    "korean": "한자",
+    "spanish": "kanji, carácter chino",
     "level": "N5",
     "category": "language",
     "wordType": "noun",
@@ -4667,7 +4742,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かんじをべんきょうします。",
         "romaji": "Kanji o benkyou shimasu.",
         "english": "I study kanji.",
-        "french": "J'étudie les kanjis."
+        "french": "J'étudie les kanjis.",
+        "german": "Ich lerne Kanji.",
+        "vietnamese": "Tôi học chữ Hán.",
+        "chinese": "我学习汉字。",
+        "korean": "나는 한자를 공부합니다.",
+        "spanish": "Estudio kanji."
       }
     ]
   },
@@ -4678,6 +4758,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "ki",
     "english": "tree, wood",
     "french": "arbre, bois",
+    "german": "Baum, Holz",
+    "vietnamese": "cây, gỗ",
+    "chinese": "树, 木头",
+    "korean": "나무, 목재",
+    "spanish": "árbol, madera",
     "level": "N5",
     "category": "nature",
     "wordType": "noun",
@@ -4687,7 +4772,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "にわにきがあります。",
         "romaji": "Niwa ni ki ga arimasu.",
         "english": "There is a tree in the garden.",
-        "french": "Il y a un arbre dans le jardin."
+        "french": "Il y a un arbre dans le jardin.",
+        "german": "Im Garten gibt es einen Baum.",
+        "vietnamese": "Có một cái cây trong vườn.",
+        "chinese": "院子里有一棵树。",
+        "korean": "정원에 나무가 있습니다.",
+        "spanish": "Hay un árbol en el jardín."
       }
     ]
   },
@@ -4698,6 +4788,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kiiro",
     "english": "yellow",
     "french": "jaune",
+    "german": "Gelb",
+    "vietnamese": "màu vàng",
+    "chinese": "黄色",
+    "korean": "노랑",
+    "spanish": "amarillo",
     "level": "N5",
     "category": "color",
     "wordType": "noun",
@@ -4707,7 +4802,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きいろがすきです。",
         "romaji": "Kiiro ga suki desu.",
         "english": "I like yellow.",
-        "french": "J'aime le jaune."
+        "french": "J'aime le jaune.",
+        "german": "Ich mag Gelb.",
+        "vietnamese": "Tôi thích màu vàng.",
+        "chinese": "我喜欢黄色。",
+        "korean": "나는 노랑을 좋아합니다.",
+        "spanish": "Me gusta el amarillo."
       }
     ]
   },
@@ -4718,6 +4818,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kiiroi",
     "english": "yellow (adjective)",
     "french": "jaune (adjectif)",
+    "german": "gelb",
+    "vietnamese": "màu vàng",
+    "chinese": "黄色的",
+    "korean": "노란",
+    "spanish": "amarillo",
     "level": "N5",
     "category": "color",
     "wordType": "adjective",
@@ -4727,7 +4832,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きいろいはながあります。",
         "romaji": "Kiiroi hana ga arimasu.",
         "english": "There are yellow flowers.",
-        "french": "Il y a des fleurs jaunes."
+        "french": "Il y a des fleurs jaunes.",
+        "german": "Es gibt gelbe Blumen.",
+        "vietnamese": "Có những bông hoa màu vàng.",
+        "chinese": "有黄色的花。",
+        "korean": "노란 꽃이 있습니다.",
+        "spanish": "Hay flores amarillas."
       }
     ]
   },
@@ -4738,6 +4848,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kieru",
     "english": "to disappear",
     "french": "disparaître",
+    "german": "verschwinden",
+    "vietnamese": "biến mất",
+    "chinese": "消失",
+    "korean": "사라지다",
+    "spanish": "desaparecer",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -4747,7 +4862,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "でんきがきえました。",
         "romaji": "Denki ga kiemashita.",
         "english": "The light went out.",
-        "french": "La lumière s'est éteinte."
+        "french": "La lumière s'est éteinte.",
+        "german": "Das Licht ist ausgegangen.",
+        "vietnamese": "Đèn đã tắt.",
+        "chinese": "灯灭了。",
+        "korean": "불이 꺼졌습니다.",
+        "spanish": "La luz se apagó."
       }
     ]
   },
@@ -4758,6 +4878,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kiku",
     "english": "to hear, to listen, to ask",
     "french": "écouter, demander",
+    "german": "hören, fragen",
+    "vietnamese": "nghe, hỏi",
+    "chinese": "听, 问",
+    "korean": "듣다, 묻다",
+    "spanish": "escuchar, preguntar",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -4767,7 +4892,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "おんがくをききます。",
         "romaji": "Ongaku o kikimasu.",
         "english": "I listen to music.",
-        "french": "J'écoute de la musique."
+        "french": "J'écoute de la musique.",
+        "german": "Ich höre Musik.",
+        "vietnamese": "Tôi nghe nhạc.",
+        "chinese": "我听音乐。",
+        "korean": "나는 음악을 듣습니다.",
+        "spanish": "Escucho música."
       }
     ]
   },
@@ -4778,6 +4908,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kita",
     "english": "north",
     "french": "nord",
+    "german": "Norden",
+    "vietnamese": "phía bắc",
+    "chinese": "北",
+    "korean": "북쪽",
+    "spanish": "norte",
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
@@ -4787,7 +4922,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ほっかいどうはにほんのきたにあります。",
         "romaji": "Hokkaidou wa Nihon no kita ni arimasu.",
         "english": "Hokkaido is in the north of Japan.",
-        "french": "Hokkaido est au nord du Japon."
+        "french": "Hokkaido est au nord du Japon.",
+        "german": "Hokkaido liegt im Norden Japans.",
+        "vietnamese": "Hokkaido nằm ở phía bắc Nhật Bản.",
+        "chinese": "北海道在日本的北部。",
+        "korean": "홋카이도는 일본 북쪽에 있습니다.",
+        "spanish": "Hokkaido está en el norte de Japón."
       }
     ]
   },
@@ -4798,6 +4938,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "gitaa",
     "english": "guitar",
     "french": "guitare",
+    "german": "Gitarre",
+    "vietnamese": "đàn ghi-ta",
+    "chinese": "吉他",
+    "korean": "기타",
+    "spanish": "guitarra",
     "level": "N5",
     "category": "music",
     "wordType": "noun",
@@ -4807,7 +4952,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ぎたーをひきます。",
         "romaji": "Gitaa o hikimasu.",
         "english": "I play the guitar.",
-        "french": "Je joue de la guitare."
+        "french": "Je joue de la guitare.",
+        "german": "Ich spiele Gitarre.",
+        "vietnamese": "Tôi chơi đàn ghi-ta.",
+        "chinese": "我弹吉他。",
+        "korean": "나는 기타를 칩니다.",
+        "spanish": "Toco la guitarra."
       }
     ]
   },
@@ -4818,6 +4968,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kitanai",
     "english": "dirty",
     "french": "sale",
+    "german": "schmutzig",
+    "vietnamese": "bẩn",
+    "chinese": "脏",
+    "korean": "더럽다",
+    "spanish": "sucio",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -4827,7 +4982,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "へやがきたないです。",
         "romaji": "Heya ga kitanai desu.",
         "english": "The room is dirty.",
-        "french": "La chambre est sale."
+        "french": "La chambre est sale.",
+        "german": "Das Zimmer ist schmutzig.",
+        "vietnamese": "Căn phòng bẩn.",
+        "chinese": "房间很脏。",
+        "korean": "방이 더럽습니다.",
+        "spanish": "La habitación está sucia."
       }
     ]
   },
@@ -4838,6 +4998,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kissaten",
     "english": "coffee shop",
     "french": "salon de thé, café",
+    "german": "Café",
+    "vietnamese": "quán cà phê",
+    "chinese": "咖啡馆",
+    "korean": "다방, 카페",
+    "spanish": "cafetería",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -4847,7 +5012,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ともだちできっさてんにいきます。",
         "romaji": "Tomodachi to kissaten ni ikimasu.",
         "english": "I go to a coffee shop with my friend.",
-        "french": "Je vais au café avec mon ami."
+        "french": "Je vais au café avec mon ami.",
+        "german": "Ich gehe mit einem Freund ins Café.",
+        "vietnamese": "Tôi đi đến quán cà phê với bạn.",
+        "chinese": "我和朋友去咖啡馆。",
+        "korean": "나는 친구와 다방에 갑니다.",
+        "spanish": "Voy a una cafetería con un amigo."
       }
     ]
   },
