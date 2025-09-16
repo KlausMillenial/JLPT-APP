@@ -10,23 +10,26 @@ import { vocabularyData } from '@/data/vocabulary';
 interface QuizQuestionProps {
   question: {
     id: string;
-    type: 'japanese-to-english' | 'english-to-japanese' | 'examples';
+    type: 'japanese-to-target' | 'target-to-japanese' | 'examples';
     question: string;
     questionText?: string;
     correctAnswer: string;
     word: any;
     example?: any;
+    language?: string;
   };
   onAnswer: (userAnswer: string, isCorrect: boolean) => void;
   questionNumber: number;
   totalQuestions: number;
+  targetLanguage?: string;
 }
 
-export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestions }: QuizQuestionProps) => {
+export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestions, targetLanguage = 'english' }: QuizQuestionProps) => {
   const [userAnswer, setUserAnswer] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
+  const [showContinueButton, setShowContinueButton] = useState(false);
 
   // Generate multiple choice options for some question types
   const choices = useMemo(() => {
@@ -36,10 +39,18 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
     const correctAnswer = question.correctAnswer;
     
     let wrongAnswers: string[] = [];
-    if (question.type === 'japanese-to-english') {
+    if (question.type === 'japanese-to-target') {
+      const targetField = targetLanguage === 'english' ? 'english' :
+                         targetLanguage === 'french' ? 'french' :
+                         targetLanguage === 'german' ? 'german' :
+                         targetLanguage === 'vietnamese' ? 'vietnamese' :
+                         targetLanguage === 'chinese' ? 'chinese' :
+                         targetLanguage === 'korean' ? 'korean' :
+                         targetLanguage === 'spanish' ? 'spanish' : 'english';
+      
       wrongAnswers = vocabularyData
-        .filter((w: any) => w.english !== correctAnswer && w.id !== question.word.id)
-        .map((w: any) => w.english)
+        .filter((w: any) => w[targetField] !== correctAnswer && w.id !== question.word.id)
+        .map((w: any) => w[targetField])
         .sort(() => Math.random() - 0.5)
         .slice(0, 3);
     } else {
@@ -52,19 +63,25 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
     
     const allChoices = [correctAnswer, ...wrongAnswers];
     return allChoices.sort(() => Math.random() - 0.5);
-  }, [question]);
+  }, [question, targetLanguage]);
 
   const checkAnswer = (answer: string) => {
     const correct = answer.toLowerCase().trim() === question.correctAnswer.toLowerCase().trim();
     setIsCorrect(correct);
     setShowResult(true);
     
+    // Show continue button after 3 seconds, or immediately if user wants to continue
     setTimeout(() => {
-      onAnswer(answer, correct);
-      setUserAnswer('');
-      setShowResult(false);
-      setSelectedChoice(null);
-    }, 2000);
+      setShowContinueButton(true);
+    }, 3000);
+  };
+
+  const handleContinue = () => {
+    onAnswer(selectedChoice || userAnswer, isCorrect);
+    setUserAnswer('');
+    setShowResult(false);
+    setSelectedChoice(null);
+    setShowContinueButton(false);
   };
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -81,9 +98,9 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
 
   const getQuestionTypeLabel = () => {
     switch (question.type) {
-      case 'japanese-to-english':
-        return 'Translate to English';
-      case 'english-to-japanese':
+      case 'japanese-to-target':
+        return `Translate to ${targetLanguage.charAt(0).toUpperCase() + targetLanguage.slice(1)}`;
+      case 'target-to-japanese':
         return 'Translate to Japanese';
       case 'examples':
         return 'Translate Example';
@@ -92,9 +109,14 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
     }
   };
 
-  const getQuestionLanguage = (): 'japanese' | 'english' => {
-    if (question.type === 'english-to-japanese') return 'english';
+  const getQuestionLanguage = (): 'japanese' | 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish' => {
+    if (question.type === 'target-to-japanese') return targetLanguage as any;
     return 'japanese';
+  };
+
+  const getAnswerLanguage = (): 'japanese' | 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish' => {
+    if (question.type === 'target-to-japanese') return 'japanese';
+    return targetLanguage as any;
   };
 
   return (
@@ -153,8 +175,16 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                 </span>
               </div>
               {!isCorrect && (
-                <div className="text-sm">
+                <div className="text-sm space-y-2">
                   <p>Correct answer: <span className="font-semibold">{question.correctAnswer}</span></p>
+                  <div className="flex justify-center">
+                    <VoiceButton 
+                      text={question.correctAnswer}
+                      language={getAnswerLanguage()}
+                      variant="outline"
+                      size="sm"
+                    />
+                  </div>
                 </div>
               )}
             </div>
@@ -170,6 +200,16 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                 </div>
               )}
             </div>
+
+            {showContinueButton && (
+              <Button 
+                onClick={handleContinue}
+                className="w-full py-6 text-lg btn-playful"
+              >
+                Continue
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </Button>
+            )}
           </div>
         ) : (
           <div className="space-y-4">

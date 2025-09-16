@@ -54,38 +54,62 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
     
     return selected.map((word, index) => {
       const questionTypes = settings.type === 'mixed' 
-        ? ['japanese-to-english', 'english-to-japanese', 'examples']
+        ? ['japanese-to-target', 'target-to-japanese', 'examples']
         : [settings.type];
       
       const type = questionTypes[Math.floor(Math.random() * questionTypes.length)];
       
       if (type === 'examples' && word.examples.length > 0) {
         const example = word.examples[Math.floor(Math.random() * word.examples.length)];
+        const targetLangExample = settings.language === 'english' ? example.english :
+                                  settings.language === 'french' ? example.french :
+                                  settings.language === 'german' ? example.german :
+                                  settings.language === 'vietnamese' ? example.vietnamese :
+                                  settings.language === 'chinese' ? example.chinese :
+                                  settings.language === 'korean' ? example.korean :
+                                  settings.language === 'spanish' ? example.spanish : example.english;
         return {
           id: `${word.id}-example-${index}`,
           type: 'examples' as const,
           question: example.japanese,
           questionText: example.hiragana,
-          correctAnswer: example.english,
+          correctAnswer: targetLangExample,
           word: word,
-          example: example
+          example: example,
+          language: settings.language
         };
-      } else if (type === 'english-to-japanese') {
+      } else if (type === 'target-to-japanese') {
+        const targetLangWord = settings.language === 'english' ? word.english :
+                              settings.language === 'french' ? word.french :
+                              settings.language === 'german' ? word.german :
+                              settings.language === 'vietnamese' ? word.vietnamese :
+                              settings.language === 'chinese' ? word.chinese :
+                              settings.language === 'korean' ? word.korean :
+                              settings.language === 'spanish' ? word.spanish : word.english;
         return {
           id: `${word.id}-etj-${index}`,
-          type: 'english-to-japanese' as const,
-          question: word.english,
+          type: 'target-to-japanese' as const,
+          question: targetLangWord,
           correctAnswer: word.japanese,
-          word: word
+          word: word,
+          language: settings.language
         };
       } else {
+        const targetLangWord = settings.language === 'english' ? word.english :
+                              settings.language === 'french' ? word.french :
+                              settings.language === 'german' ? word.german :
+                              settings.language === 'vietnamese' ? word.vietnamese :
+                              settings.language === 'chinese' ? word.chinese :
+                              settings.language === 'korean' ? word.korean :
+                              settings.language === 'spanish' ? word.spanish : word.english;
         return {
           id: `${word.id}-jte-${index}`,
-          type: 'japanese-to-english' as const,
+          type: 'japanese-to-target' as const,
           question: word.japanese,
           questionText: word.hiragana,
-          correctAnswer: word.english,
-          word: word
+          correctAnswer: targetLangWord,
+          word: word,
+          language: settings.language
         };
       }
     });
@@ -159,9 +183,26 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
                     className="w-full p-3 rounded-lg border border-border bg-background"
                   >
                     <option value="mixed">Mixed Questions</option>
-                    <option value="japanese-to-english">Japanese to English</option>
-                    <option value="english-to-japanese">English to Japanese</option>
+                    <option value="japanese-to-target">Japanese to Target Language</option>
+                    <option value="target-to-japanese">Target Language to Japanese</option>
                     <option value="examples">Example Sentences</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label className="text-sm font-medium mb-2 block">Target Language</label>
+                  <select 
+                    value={settings.language}
+                    onChange={(e) => setSettings(prev => ({ ...prev, language: e.target.value as LanguageOption }))}
+                    className="w-full p-3 rounded-lg border border-border bg-background"
+                  >
+                    <option value="english">English</option>
+                    <option value="french">Français</option>
+                    <option value="german">Deutsch</option>
+                    <option value="vietnamese">Tiếng Việt</option>
+                    <option value="chinese">中文</option>
+                    <option value="korean">한국어</option>
+                    <option value="spanish">Español</option>
                   </select>
                 </div>
 
@@ -251,6 +292,7 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
           onAnswer={handleAnswer}
           questionNumber={currentQuestionIndex + 1}
           totalQuestions={quizQuestions.length}
+          targetLanguage={settings.language}
         />
       </main>
     </div>
