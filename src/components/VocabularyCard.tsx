@@ -146,14 +146,66 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
-        toast.success('Visual placeholder generated!');
+        toast.success('Visual learning aid generated!');
+      } else {
+        throw new Error('No image URL returned');
       }
     } catch (error) {
       console.error('Error generating image:', error);
-      toast.error('Failed to generate image. Please try again.');
+      
+      // Create a simple fallback image
+      try {
+        const fallbackResult = await createFallbackImage(word, translation);
+        setGeneratedImageUrl(fallbackResult.imageURL);
+        toast.info('Generated simple visual aid');
+      } catch (fallbackError) {
+        console.error('Fallback image generation failed:', fallbackError);
+        toast.error('Unable to generate visual aid');
+      }
     } finally {
       setIsGeneratingImage(false);
     }
+  };
+
+  // Simple fallback image generator
+  const createFallbackImage = (word: VocabularyWord, translation: string): Promise<{ imageURL: string }> => {
+    return new Promise((resolve) => {
+      const canvas = document.createElement('canvas');
+      const ctx = canvas.getContext('2d')!;
+      
+      canvas.width = 512;
+      canvas.height = 512;
+      
+      // Simple gradient background
+      const gradient = ctx.createLinearGradient(0, 0, 512, 512);
+      gradient.addColorStop(0, '#f0f9ff');
+      gradient.addColorStop(1, '#e0e7ff');
+      
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, 512, 512);
+      
+      // Add border
+      ctx.strokeStyle = '#cbd5e1';
+      ctx.lineWidth = 2;
+      ctx.strokeRect(1, 1, 510, 510);
+      
+      // Add text
+      ctx.fillStyle = '#1e293b';
+      ctx.font = 'bold 48px system-ui, -apple-system, sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText('📚', 256, 200);
+      
+      ctx.font = 'bold 24px system-ui, -apple-system, sans-serif';
+      ctx.fillText(translation, 256, 280);
+      
+      ctx.font = '16px system-ui, -apple-system, sans-serif';
+      ctx.fillStyle = '#64748b';
+      ctx.fillText('Visual Learning Aid', 256, 320);
+      
+      const imageURL = canvas.toDataURL('image/png');
+      resolve({ imageURL });
+    });
   };
 
   // Auto-generate image only when card is flipped (not immediately)
