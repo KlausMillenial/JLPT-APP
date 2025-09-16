@@ -185,14 +185,16 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                   <p>Correct answer: <span className="font-semibold text-xl">{question.correctAnswer}</span></p>
                 )}
                 
-                <div className="flex justify-center">
-                  <VoiceButton 
-                    text={question.correctAnswer}
-                    language={getAnswerLanguage()}
-                    variant="outline"
-                    size="sm"
-                  />
-                </div>
+                {question.type === 'target-to-japanese' && (
+                  <div className="flex justify-center">
+                    <VoiceButton 
+                      text={question.correctAnswer}
+                      language={getAnswerLanguage()}
+                      variant="outline"
+                      size="sm"
+                    />
+                  </div>
+                )}
               </div>
             </div>
 
