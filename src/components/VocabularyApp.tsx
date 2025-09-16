@@ -14,6 +14,7 @@ import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
 import { removeDuplicatesFromVocabulary, logVocabularyStats } from '@/utils/removeDuplicates';
 import { logAllWords, getWordsByCategory, getWordsByLevel } from '@/utils/listAllWords';
+import { useDebounce } from '@/hooks/useDebounce';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
@@ -25,7 +26,11 @@ export const VocabularyApp = () => {
   const [language, setLanguage] = useState<LanguageOption>('english');
   const [isTranslating, setIsTranslating] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(20); // Limit to 20 cards per page for better performance
+  const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
+  const [isLoading, setIsLoading] = useState(true);
+  
+  // Debounce search input for better performance
+  const debouncedSearchTerm = useDebounce(searchTerm, 300);
   const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
     // Use deduplicated vocabulary data - memoized to run only once
     return removeDuplicatesFromVocabulary();
@@ -38,6 +43,8 @@ export const VocabularyApp = () => {
     if (process.env.NODE_ENV === 'development') {
       logVocabularyStats();
     }
+    // Set loading to false after data is ready
+    setTimeout(() => setIsLoading(false), 100);
   }, []); // Empty dependency array - runs only once
 
   // Function to log all words to console
@@ -131,28 +138,40 @@ export const VocabularyApp = () => {
   }, [autoTranslateForLanguage]);
 
   const filteredWords = useMemo(() => {
+    if (!debouncedSearchTerm && selectedLevel === 'all' && selectedCategory === 'all') {
+      // No filters applied, return first batch for performance
+      setCurrentPage(1);
+      return translatedVocabulary.slice(0, 100); // Show only first 100 words when no filters
+    }
+
+    const searchLower = debouncedSearchTerm.toLowerCase();
     const allFiltered = translatedVocabulary.filter(word => {
-      const translation = word[language] || word.english; // Fallback to English if translation not available
+      // Early exit for level and category filters (fastest checks first)
+      if (selectedLevel !== 'all' && word.level !== selectedLevel) return false;
+      if (selectedCategory !== 'all' && word.category !== selectedCategory) return false;
       
-      const matchesSearch = 
-        word.japanese.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.hiragana.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.romaji.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.english.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        word.french.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        (translation && translation.toLowerCase().includes(searchTerm.toLowerCase()));
+      // Skip expensive search if no search term
+      if (!searchLower) return true;
       
-      const matchesLevel = selectedLevel === 'all' || word.level === selectedLevel;
-      const matchesCategory = selectedCategory === 'all' || word.category === selectedCategory;
+      // Optimized search - check most likely matches first
+      if (word.japanese.includes(searchLower) || 
+          word.english.toLowerCase().includes(searchLower) ||
+          word.romaji.toLowerCase().includes(searchLower)) {
+        return true;
+      }
       
-      return matchesSearch && matchesLevel && matchesCategory;
+      // Check other fields only if needed
+      const translation = word[language] || word.english;
+      return word.hiragana.includes(searchLower) ||
+             word.french.toLowerCase().includes(searchLower) ||
+             (translation && translation.toLowerCase().includes(searchLower));
     });
     
     // Reset to first page when filters change
     setCurrentPage(1);
     
     return allFiltered;
-  }, [searchTerm, selectedLevel, selectedCategory, language, translatedVocabulary]);
+  }, [debouncedSearchTerm, selectedLevel, selectedCategory, language, translatedVocabulary]);
 
   // Paginated words for display
   const paginatedWords = useMemo(() => {
@@ -289,7 +308,12 @@ export const VocabularyApp = () => {
         </div>
 
         {/* Vocabulary Cards Grid */}
-        {paginatedWords.length > 0 ? (
+        {isLoading ? (
+          <div className="flex justify-center items-center py-12">
+            <Loader2 className="w-8 h-8 animate-spin text-primary mr-3" />
+            <span className="text-lg">Loading vocabulary...</span>
+          </div>
+        ) : paginatedWords.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {paginatedWords.map((word) => (
