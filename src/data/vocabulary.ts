@@ -14940,6 +14940,546 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Attendez un instant, s'il vous plaît."
       }
     ]
+  },
+  {
+    id: "to",
+    japanese: "と",
+    hiragana: "と",
+    romaji: "to",
+    english: "and",
+    french: "et",
+    german: "und",
+    vietnamese: "và",
+    chinese: "和",
+    korean: "그리고",
+    spanish: "y",
+    level: "N5",
+    category: "grammar",
+    wordType: "particle",
+    examples: [
+      {
+        japanese: "パンと水をください。",
+        hiragana: "ぱんとみずをください。",
+        romaji: "Pan to mizu o kudasai.",
+        english: "Bread and water, please.",
+        french: "Du pain et de l'eau, s'il vous plaît.",
+        german: "Brot und Wasser, bitte.",
+        vietnamese: "Xin cho bánh mì và nước.",
+        chinese: "请给我面包和水。",
+        korean: "빵과 물을 주세요.",
+        spanish: "Pan y agua, por favor."
+      }
+    ]
+  },
+  {
+    id: "doa",
+    japanese: "ドア",
+    hiragana: "どあ",
+    romaji: "doa",
+    english: "door",
+    french: "porte",
+    german: "Tür",
+    vietnamese: "cửa",
+    chinese: "门",
+    korean: "문",
+    spanish: "puerta",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ドアを開けてください。",
+        hiragana: "どあをあけてください。",
+        romaji: "Doa o akete kudasai.",
+        english: "Please open the door.",
+        french: "Ouvrez la porte, s'il vous plaît.",
+        german: "Bitte öffne die Tür.",
+        vietnamese: "Xin hãy mở cửa.",
+        chinese: "请开门。",
+        korean: "문을 열어주세요.",
+        spanish: "Por favor, abre la puerta."
+      }
+    ]
+  },
+  {
+    id: "toire",
+    japanese: "トイレ",
+    hiragana: "といれ",
+    romaji: "toire",
+    english: "toilet",
+    french: "toilettes",
+    german: "Toilette",
+    vietnamese: "nhà vệ sinh",
+    chinese: "厕所",
+    korean: "화장실",
+    spanish: "baño",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "トイレはどこですか。",
+        hiragana: "といれはどこですか。",
+        romaji: "Toire wa doko desu ka?",
+        english: "Where is the toilet?",
+        french: "Où sont les toilettes ?",
+        german: "Wo ist die Toilette?",
+        vietnamese: "Nhà vệ sinh ở đâu?",
+        chinese: "厕所在哪里？",
+        korean: "화장실이 어디에 있습니까?",
+        spanish: "¿Dónde está el baño?"
+      }
+    ]
+  },
+  {
+    id: "dou",
+    japanese: "どう",
+    hiragana: "どう",
+    romaji: "dou",
+    english: "how",
+    french: "comment",
+    german: "wie",
+    vietnamese: "như thế nào",
+    chinese: "怎么",
+    korean: "어떻게",
+    spanish: "cómo",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "お元気ですか。— どう？",
+        hiragana: "おげんきですか。— どう？",
+        romaji: "Ogenki desu ka? — Dou?",
+        english: "How are you?",
+        french: "Comment ça va ?",
+        german: "Wie geht es dir?",
+        vietnamese: "Bạn khỏe không?",
+        chinese: "你好吗？",
+        korean: "잘 지냈어요?",
+        spanish: "¿Cómo estás?"
+      }
+    ]
+  },
+  {
+    id: "doushite",
+    japanese: "どうして",
+    hiragana: "どうして",
+    romaji: "doushite",
+    english: "why",
+    french: "pourquoi",
+    german: "warum",
+    vietnamese: "tại sao",
+    chinese: "为什么",
+    korean: "왜",
+    spanish: "por qué",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "どうして遅れましたか。",
+        hiragana: "どうしておくれましたか。",
+        romaji: "Doushite okuremashita ka?",
+        english: "Why were you late?",
+        french: "Pourquoi es-tu en retard ?",
+        german: "Warum bist du zu spät?",
+        vietnamese: "Tại sao bạn đến muộn?",
+        chinese: "你为什么迟到了？",
+        korean: "왜 늦었어요?",
+        spanish: "¿Por qué llegaste tarde?"
+      }
+    ]
+  },
+  {
+    id: "nai",
+    japanese: "ない",
+    hiragana: "ない",
+    romaji: "nai",
+    english: "there isn't; not",
+    french: "il n'y a pas; ne pas",
+    german: "es gibt nicht; kein",
+    vietnamese: "không có",
+    chinese: "没有",
+    korean: "없다",
+    spanish: "no hay; no",
+    level: "N5",
+    category: "grammar",
+    wordType: "auxiliary/adjective",
+    examples: [
+      {
+        japanese: "お金がないです。",
+        hiragana: "おかねがないです。",
+        romaji: "Okane ga nai desu.",
+        english: "I don't have money.",
+        french: "Je n'ai pas d'argent.",
+        german: "Ich habe kein Geld.",
+        vietnamese: "Tôi không có tiền.",
+        chinese: "我没有钱。",
+        korean: "돈이 없습니다.",
+        spanish: "No tengo dinero."
+      }
+    ]
+  },
+  {
+    id: "naka",
+    japanese: "中",
+    hiragana: "なか",
+    romaji: "naka",
+    english: "inside",
+    french: "à l'intérieur",
+    german: "innen",
+    vietnamese: "bên trong",
+    chinese: "里面",
+    korean: "안",
+    spanish: "dentro",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "箱の中に本があります。",
+        hiragana: "はこのなかにほんがあります。",
+        romaji: "Hako no naka ni hon ga arimasu.",
+        english: "There is a book inside the box.",
+        french: "Il y a un livre dans la boîte.",
+        german: "In der Kiste ist ein Buch.",
+        vietnamese: "Có một cuốn sách trong hộp.",
+        chinese: "箱子里有一本书。",
+        korean: "상자 안에 책이 있습니다.",
+        spanish: "Hay un libro dentro de la caja."
+      }
+    ]
+  },
+  {
+    id: "nagai",
+    japanese: "長い",
+    hiragana: "ながい",
+    romaji: "nagai",
+    english: "long",
+    french: "long",
+    german: "lang",
+    vietnamese: "dài",
+    chinese: "长的",
+    korean: "긴",
+    spanish: "largo",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "彼女の髪は長いです。",
+        hiragana: "かのじょのかみはながいです。",
+        romaji: "Kanojo no kami wa nagai desu.",
+        english: "Her hair is long.",
+        french: "Ses cheveux sont longs.",
+        german: "Ihr Haar ist lang.",
+        vietnamese: "Tóc của cô ấy dài.",
+        chinese: "她的头发很长。",
+        korean: "그녀의 머리카락은 깁니다.",
+        spanish: "Su cabello es largo."
+      }
+    ]
+  },
+  {
+    id: "naku",
+    japanese: "泣く",
+    hiragana: "なく",
+    romaji: "naku",
+    english: "to cry",
+    french: "pleurer",
+    german: "weinen",
+    vietnamese: "khóc",
+    chinese: "哭",
+    korean: "울다",
+    spanish: "llorar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "赤ちゃんが泣いています。",
+        hiragana: "あかちゃんがないています。",
+        romaji: "Akachan ga naite imasu.",
+        english: "The baby is crying.",
+        french: "Le bébé pleure.",
+        german: "Das Baby weint.",
+        vietnamese: "Em bé đang khóc.",
+        chinese: "宝宝在哭。",
+        korean: "아기가 울고 있습니다.",
+        spanish: "El bebé está llorando."
+      }
+    ]
+  },
+  {
+    id: "nakusu",
+    japanese: "なくす",
+    hiragana: "なくす",
+    romaji: "nakusu",
+    english: "to lose",
+    french: "perdre",
+    german: "verlieren",
+    vietnamese: "mất",
+    chinese: "丢失",
+    korean: "잃다",
+    spanish: "perder",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "財布をなくしました。",
+        hiragana: "さいふをなくしました。",
+        romaji: "Saifu o nakushimashita.",
+        english: "I lost my wallet.",
+        french: "J'ai perdu mon portefeuille.",
+        german: "Ich habe mein Portemonnaie verloren.",
+        vietnamese: "Tôi đã làm mất ví.",
+        chinese: "我丢了钱包。",
+        korean: "지갑을 잃어버렸습니다.",
+        spanish: "Perdí mi cartera."
+      }
+    ]
+  },
+  {
+    id: "naze",
+    japanese: "なぜ",
+    hiragana: "なぜ",
+    romaji: "naze",
+    english: "why",
+    french: "pourquoi",
+    german: "weshalb",
+    vietnamese: "tại sao",
+    chinese: "为什么",
+    korean: "왜",
+    spanish: "por qué",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "なぜ遅れたのですか。",
+        hiragana: "なぜひどくれたのですか。",
+        romaji: "Naze okureta no desu ka?",
+        english: "Why were you late?",
+        french: "Pourquoi es-tu en retard ?",
+        german: "Weshalb bist du zu spät?",
+        vietnamese: "Tại sao bạn đến muộn?",
+        chinese: "你为什么迟到了？",
+        korean: "왜 늦었습니까?",
+        spanish: "¿Por qué llegaste tarde?"
+      }
+    ]
+  },
+  {
+    id: "natsu",
+    japanese: "夏",
+    hiragana: "なつ",
+    romaji: "natsu",
+    english: "summer",
+    french: "été",
+    german: "Sommer",
+    vietnamese: "mùa hè",
+    chinese: "夏天",
+    korean: "여름",
+    spanish: "verano",
+    level: "N5",
+    category: "season",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "夏は暑いです。",
+        hiragana: "なつはあついです。",
+        romaji: "Natsu wa atsui desu.",
+        english: "Summer is hot.",
+        french: "L'été est chaud.",
+        german: "Der Sommer ist heiß.",
+        vietnamese: "Mùa hè thì nóng.",
+        chinese: "夏天很热。",
+        korean: "여름은 덥습니다.",
+        spanish: "El verano es caluroso."
+      }
+    ]
+  },
+  {
+    id: "natsuyasumi",
+    japanese: "夏休み",
+    hiragana: "なつやすみ",
+    romaji: "natsuyasumi",
+    english: "summer vacation",
+    french: "vacances d'été",
+    german: "Sommerferien",
+    vietnamese: "kỳ nghỉ hè",
+    chinese: "暑假",
+    korean: "여름방학",
+    spanish: "vacaciones de verano",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "夏休みに旅行しました。",
+        hiragana: "なつやすみにりょこうしました。",
+        romaji: "Natsuyasumi ni ryokou shimashita.",
+        english: "I traveled during summer vacation.",
+        french: "J'ai voyagé pendant les vacances d'été.",
+        german: "Ich bin den Sommerferien verreist.",
+        vietnamese: "Tôi đã đi du lịch trong kỳ nghỉ hè.",
+        chinese: "我在暑假去旅行了。",
+        korean: "여름방학에 여행을 갔습니다.",
+        spanish: "Viajé en las vacaciones de verano."
+      }
+    ]
+  },
+  {
+    id: "nado",
+    japanese: "など",
+    hiragana: "など",
+    romaji: "nado",
+    english: "and so on; etc.",
+    french: "etc.; et ainsi de suite",
+    german: "und so weiter",
+    vietnamese: "vân vân",
+    chinese: "等等",
+    korean: "등등",
+    spanish: "etcétera",
+    level: "N5",
+    category: "grammar",
+    wordType: "particle",
+    examples: [
+      {
+        japanese: "本や雑誌などを読みます。",
+        hiragana: "ほんやざっしなどをよみます。",
+        romaji: "Hon ya zasshi nado o yomimasu.",
+        english: "I read books, magazines, and so on.",
+        french: "Je lis des livres, des magazines, etc.",
+        german: "Ich lese Bücher, Zeitschriften usw.",
+        vietnamese: "Tôi đọc sách, tạp chí, vân vân.",
+        chinese: "我读书、杂志等等。",
+        korean: "책, 잡지 등을 읽습니다.",
+        spanish: "Leo libros, revistas, etcétera."
+      }
+    ]
+  },
+  {
+    id: "nanatsu",
+    japanese: "七つ",
+    hiragana: "ななつ",
+    romaji: "nanatsu",
+    english: "seven (things)",
+    french: "sept (objets)",
+    german: "sieben (Dinge)",
+    vietnamese: "bảy (đồ vật)",
+    chinese: "七个",
+    korean: "일곱 (개)",
+    spanish: "siete (cosas)",
+    level: "N5",
+    category: "number",
+    wordType: "counter",
+    examples: [
+      {
+        japanese: "りんごを七つ買いました。",
+        hiragana: "りんごをななつかいました。",
+        romaji: "Ringo o nanatsu kaimashita.",
+        english: "I bought seven apples.",
+        french: "J'ai acheté sept pommes.",
+        german: "Ich habe sieben Äpfel gekauft.",
+        vietnamese: "Tôi đã mua bảy quả táo.",
+        chinese: "我买了七个苹果。",
+        korean: "사과를 일곱 개 샀습니다.",
+        spanish: "Compré siete manzanas."
+      }
+    ]
+  },
+  {
+    id: "nani",
+    japanese: "何",
+    hiragana: "なに／なん",
+    romaji: "nani / nan",
+    english: "what",
+    french: "quoi",
+    german: "was",
+    vietnamese: "cái gì",
+    chinese: "什么",
+    korean: "무엇",
+    spanish: "qué",
+    level: "N5",
+    category: "question",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "これは何ですか。",
+        hiragana: "これはなんですか。",
+        romaji: "Kore wa nan desu ka?",
+        english: "What is this?",
+        french: "Qu'est-ce que c'est ?",
+        german: "Was ist das?",
+        vietnamese: "Đây là cái gì?",
+        chinese: "这是什么？",
+        korean: "이것은 무엇입니까?",
+        spanish: "¿Qué es esto?"
+      }
+    ]
+  },
+  {
+    id: "namae",
+    japanese: "名前",
+    hiragana: "なまえ",
+    romaji: "namae",
+    english: "name",
+    french: "nom",
+    german: "Name",
+    vietnamese: "tên",
+    chinese: "名字",
+    korean: "이름",
+    spanish: "nombre",
+    level: "N5",
+    category: "personal",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "あなたの名前は何ですか。",
+        hiragana: "あなたのなまえはなんですか。",
+        romaji: "Anata no namae wa nan desu ka?",
+        english: "What is your name?",
+        french: "Quel est ton nom ?",
+        german: "Wie heißt du?",
+        vietnamese: "Tên bạn là gì?",
+        chinese: "你叫什么名字？",
+        korean: "당신의 이름은 무엇입니까?",
+        spanish: "¿Cuál es tu nombre?"
+      }
+    ]
+  },
+  {
+    id: "naru",
+    japanese: "なる",
+    hiragana: "なる",
+    romaji: "naru",
+    english: "to become",
+    french: "devenir",
+    german: "werden",
+    vietnamese: "trở thành",
+    chinese: "成为",
+    korean: "되다",
+    spanish: "convertirse en",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "先生になりたいです。",
+        hiragana: "せんせいになりたいです。",
+        romaji: "Sensei ni naritai desu.",
+        english: "I want to become a teacher.",
+        french: "Je veux devenir professeur.",
+        german: "Ich möchte Lehrer werden.",
+        vietnamese: "Tôi muốn trở thành giáo viên.",
+        chinese: "我想成为老师。",
+        korean: "선생님이 되고 싶습니다.",
+        spanish: "Quiero convertirme en profesor."
+      }
+    ]
   }
 ];
 
