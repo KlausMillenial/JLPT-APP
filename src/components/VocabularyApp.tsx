@@ -29,7 +29,7 @@ export const VocabularyApp = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
   const [isLoading, setIsLoading] = useState(true);
-  const [imageProvider, setImageProvider] = useState<'runware' | 'huggingface' | 'placeholder'>('placeholder');
+  const [imageProvider, setImageProvider] = useState<'leonardo' | 'placeholder'>('placeholder');
   
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);

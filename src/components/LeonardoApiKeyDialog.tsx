@@ -3,12 +3,12 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
-import { RunwareImageService } from '@/services/runwareImageService';
+import { LeonardoImageService } from '@/services/leonardoImageService';
 import { Settings, Key, ExternalLink } from 'lucide-react';
 import { toast } from 'sonner';
 
-export const RunwareApiKeyDialog = () => {
-  const [apiKey, setApiKey] = useState(RunwareImageService.getApiKey() || '');
+export const LeonardoApiKeyDialog = () => {
+  const [apiKey, setApiKey] = useState(LeonardoImageService.getApiKey() || '');
   const [isOpen, setIsOpen] = useState(false);
 
   const handleSave = () => {
@@ -17,18 +17,18 @@ export const RunwareApiKeyDialog = () => {
       return;
     }
     
-    RunwareImageService.setApiKey(apiKey.trim());
-    toast.success('Runware API key saved successfully!');
+    LeonardoImageService.setApiKey(apiKey.trim());
+    toast.success('Leonardo AI API key saved successfully!');
     setIsOpen(false);
   };
 
   const handleClear = () => {
-    RunwareImageService.clearApiKey();
+    LeonardoImageService.clearApiKey();
     setApiKey('');
     toast.success('API key cleared');
   };
 
-  const hasApiKey = RunwareImageService.getApiKey();
+  const hasApiKey = LeonardoImageService.getApiKey();
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
@@ -39,20 +39,20 @@ export const RunwareApiKeyDialog = () => {
           className={hasApiKey ? "bg-green-50 border-green-200 text-green-700 hover:bg-green-100" : ""}
         >
           <Key className="w-4 h-4 mr-2" />
-          {hasApiKey ? 'Runware API ✓' : 'Setup Runware API'}
+          {hasApiKey ? 'Leonardo AI ✓' : 'Setup Leonardo AI'}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Settings className="w-5 h-5" />
-            Runware API Configuration
+            Leonardo AI Configuration
           </DialogTitle>
         </DialogHeader>
         <div className="space-y-4">
           <div className="space-y-2">
             <p className="text-sm text-muted-foreground">
-              Runware provides fast, high-quality AI image generation. Get your free API key to generate stunning images for vocabulary learning.
+              Leonardo AI provides high-quality AI image generation. Get your API key to generate beautiful images for vocabulary learning.
             </p>
             <div className="flex items-center gap-2 text-sm">
               <span>Get your API key at:</span>
@@ -60,19 +60,19 @@ export const RunwareApiKeyDialog = () => {
                 variant="link" 
                 size="sm" 
                 className="h-auto p-0 text-blue-600 hover:text-blue-800"
-                onClick={() => window.open('https://runware.ai/', '_blank')}
+                onClick={() => window.open('https://app.leonardo.ai/', '_blank')}
               >
-                runware.ai <ExternalLink className="w-3 h-3 ml-1" />
+                app.leonardo.ai <ExternalLink className="w-3 h-3 ml-1" />
               </Button>
             </div>
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="runware-api-key">API Key</Label>
+            <Label htmlFor="leonardo-api-key">API Key</Label>
             <Input
-              id="runware-api-key"
+              id="leonardo-api-key"
               type="password"
-              placeholder="Enter your Runware API key..."
+              placeholder="Enter your Leonardo AI API key..."
               value={apiKey}
               onChange={(e) => setApiKey(e.target.value)}
               className="font-mono text-sm"

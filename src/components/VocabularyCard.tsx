@@ -6,9 +6,7 @@ import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
 import { KanjiPracticeModal } from './KanjiPracticeModal';
-import BrowserImageService from '@/services/browserImageService';
-import { RunwareImageService } from '@/services/runwareImageService';
-import { HuggingFaceService } from '@/services/huggingFaceService';
+import { LeonardoImageService } from '@/services/leonardoImageService';
 import { PlaceholderImageService } from '@/services/placeholderImageService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
@@ -18,7 +16,7 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface VocabularyCardProps {
   word: VocabularyWord;
   language: LanguageOption;
-  imageProvider?: 'runware' | 'huggingface' | 'placeholder';
+  imageProvider?: 'leonardo' | 'placeholder';
 }
 
 // Create specific visual representations for each vocabulary word
@@ -133,23 +131,14 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
       let result;
       
       // Try the selected provider first
-      if (imageProvider === 'runware' && RunwareImageService.getApiKey()) {
-        console.log('Using Runware AI...');
-        result = await RunwareImageService.generateImage({
+      if (imageProvider === 'leonardo' && LeonardoImageService.getApiKey()) {
+        console.log('Using Leonardo AI...');
+        result = await LeonardoImageService.generateImage({
           positivePrompt: prompt,
           width: 512,
           height: 512,
         });
-        toast.success('Runware AI image generated!');
-      } else if (imageProvider === 'huggingface' && HuggingFaceService.getStoredApiKey()) {
-        console.log('Using Hugging Face...');
-        const hfService = new HuggingFaceService();
-        result = await hfService.generateImage({
-          positivePrompt: prompt,
-          width: 512,
-          height: 512,
-        });
-        toast.success('Hugging Face image generated!');
+        toast.success('Leonardo AI image generated!');
       } else {
         // Fallback to placeholder service
         console.log('Using visual learning aid...');
@@ -253,8 +242,7 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
                   <span className="text-sm text-muted-foreground">
-                    {imageProvider === 'runware' ? 'Generating with Runware AI...' :
-                     imageProvider === 'huggingface' ? 'Generating with Hugging Face...' :
+                    {imageProvider === 'leonardo' ? 'Generating with Leonardo AI...' :
                      'Generating visual aid...'}
                   </span>
                   <span className="text-xs text-muted-foreground mt-1">This may take a moment</span>
@@ -269,8 +257,7 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
                   <span className="text-sm text-primary/60 text-center">
-                    {imageProvider === 'runware' ? 'Runware AI image' :
-                     imageProvider === 'huggingface' ? 'HuggingFace AI image' :
+                    {imageProvider === 'leonardo' ? 'Leonardo AI image' :
                      'Visual aid'} will generate<br />when you flip this card
                   </span>
                 </div>

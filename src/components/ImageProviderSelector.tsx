@@ -2,39 +2,27 @@ import { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
-import { RunwareApiKeyDialog } from './RunwareApiKeyDialog';
-import { HuggingFaceApiKeyDialog } from './HuggingFaceApiKeyDialog';
-import { RunwareImageService } from '@/services/runwareImageService';
-import { HuggingFaceService } from '@/services/huggingFaceService';
-import { Zap, Brain, Palette, CheckCircle, Settings } from 'lucide-react';
+import { LeonardoApiKeyDialog } from './LeonardoApiKeyDialog';
+import { LeonardoImageService } from '@/services/leonardoImageService';
+import { Palette, CheckCircle, Settings, Sparkles } from 'lucide-react';
 
 interface ImageProviderSelectorProps {
-  onProviderChange: (provider: 'runware' | 'huggingface' | 'placeholder') => void;
+  onProviderChange: (provider: 'leonardo' | 'placeholder') => void;
   currentProvider: string;
 }
 
 export const ImageProviderSelector = ({ onProviderChange, currentProvider }: ImageProviderSelectorProps) => {
-  const runwareHasKey = !!RunwareImageService.getApiKey();
-  const huggingfaceHasKey = !!HuggingFaceService.getStoredApiKey();
+  const leonardoHasKey = !!LeonardoImageService.getApiKey();
 
   const providers = [
     {
-      id: 'runware' as const,
-      name: 'Runware AI',
-      description: 'Ultra-fast, high-quality AI images',
-      features: ['⚡ Fastest generation', '🎨 Professional quality', '💰 Pay-per-use'],
-      hasKey: runwareHasKey,
-      setupComponent: <RunwareApiKeyDialog />,
+      id: 'leonardo' as const,
+      name: 'Leonardo AI',
+      description: 'Premium AI image generation',
+      features: ['✨ High-quality images', '🎨 Creative models', '🔥 Advanced alchemy'],
+      hasKey: leonardoHasKey,
+      setupComponent: <LeonardoApiKeyDialog />,
       recommended: true,
-    },
-    {
-      id: 'huggingface' as const,
-      name: 'Hugging Face',
-      description: 'Open-source AI image generation',
-      features: ['🤗 Open source', '🔄 Multiple models', '🆓 Free tier available'],
-      hasKey: huggingfaceHasKey,
-      setupComponent: <HuggingFaceApiKeyDialog />,
-      recommended: false,
     },
     {
       id: 'placeholder' as const,
@@ -59,7 +47,7 @@ export const ImageProviderSelector = ({ onProviderChange, currentProvider }: Ima
         </p>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-3">
+      <div className="grid gap-4 md:grid-cols-2">
         {providers.map((provider) => (
           <Card 
             key={provider.id}
