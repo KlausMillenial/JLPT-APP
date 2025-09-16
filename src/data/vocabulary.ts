@@ -12120,6 +12120,706 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Je porte des chaussures noires."
       }
     ]
+  },
+  {
+    id: "keikan",
+    japanese: "警官",
+    hiragana: "けいかん",
+    romaji: "keikan",
+    english: "policeman",
+    french: "policier",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "警官に道を聞きました。",
+        hiragana: "けいかんにみちをききました。",
+        romaji: "Keikan ni michi o kikimashita.",
+        english: "I asked the policeman for directions.",
+        french: "J'ai demandé mon chemin au policier."
+      }
+    ]
+  },
+  {
+    id: "kesa",
+    japanese: "今朝",
+    hiragana: "けさ",
+    romaji: "kesa",
+    english: "this morning",
+    french: "ce matin",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今朝ごはんを食べましたか。",
+        hiragana: "けさごはんをたべましたか。",
+        romaji: "Kesa gohan o tabemashita ka?",
+        english: "Did you eat breakfast this morning?",
+        french: "As-tu pris ton petit-déjeuner ce matin ?"
+      }
+    ]
+  },
+  {
+    id: "kesu",
+    japanese: "消す",
+    hiragana: "けす",
+    romaji: "kesu",
+    english: "to erase; to turn off",
+    french: "effacer; éteindre",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "黒板を消してください。",
+        hiragana: "こくばんをけしてください。",
+        romaji: "Kokuban o keshite kudasai.",
+        english: "Please erase the blackboard.",
+        french: "Effacez le tableau, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kekkou",
+    japanese: "結構",
+    hiragana: "けっこう",
+    romaji: "kekkou",
+    english: "fine; sufficient",
+    french: "bien; suffisant",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb/na-adjective",
+    examples: [
+      {
+        japanese: "それで結構です。",
+        hiragana: "それでけっこうです。",
+        romaji: "Sore de kekkou desu.",
+        english: "That's fine.",
+        french: "C'est bien ainsi."
+      }
+    ]
+  },
+  {
+    id: "kekkon",
+    japanese: "結婚",
+    hiragana: "けっこん",
+    romaji: "kekkon",
+    english: "marriage",
+    french: "mariage",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "二人は結婚しました。",
+        hiragana: "ふたりはけっこんしました。",
+        romaji: "Futari wa kekkon shimashita.",
+        english: "The two got married.",
+        french: "Les deux se sont mariés."
+      }
+    ]
+  },
+  {
+    id: "getsuyoubi",
+    japanese: "月曜日",
+    hiragana: "げつようび",
+    romaji: "getsuyoubi",
+    english: "Monday",
+    french: "lundi",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "月曜日から仕事が始まります。",
+        hiragana: "げつようびからしごとがはじまります。",
+        romaji: "Getsuyoubi kara shigoto ga hajimarimasu.",
+        english: "Work starts on Monday.",
+        french: "Le travail commence lundi."
+      }
+    ]
+  },
+  {
+    id: "genkan",
+    japanese: "玄関",
+    hiragana: "げんかん",
+    romaji: "genkan",
+    english: "entrance (of a house)",
+    french: "entrée (d'une maison)",
+    level: "N5",
+    category: "house",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "靴を玄関で脱ぎます。",
+        hiragana: "くつをげんかんでぬぎます。",
+        romaji: "Kutsu o genkan de nugimasu.",
+        english: "I take off my shoes at the entrance.",
+        french: "J'enlève mes chaussures à l'entrée."
+      }
+    ]
+  },
+  {
+    id: "genki",
+    japanese: "元気",
+    hiragana: "げんき",
+    romaji: "genki",
+    english: "healthy; energetic",
+    french: "en bonne santé; énergique",
+    level: "N5",
+    category: "adjective",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "お元気ですか？",
+        hiragana: "おげんきですか？",
+        romaji: "Ogenki desu ka?",
+        english: "How are you?",
+        french: "Comment allez-vous ?"
+      }
+    ]
+  },
+  {
+    id: "go_number",
+    japanese: "五",
+    hiragana: "ご",
+    romaji: "go",
+    english: "five",
+    french: "cinq",
+    level: "N5",
+    category: "number",
+    wordType: "number",
+    examples: [
+      {
+        japanese: "五人の友達がいます。",
+        hiragana: "ごにんのともだちがいます。",
+        romaji: "Go-nin no tomodachi ga imasu.",
+        english: "I have five friends.",
+        french: "J'ai cinq amis."
+      }
+    ]
+  },
+  {
+    id: "kouen",
+    japanese: "公園",
+    hiragana: "こうえん",
+    romaji: "kouen",
+    english: "park",
+    french: "parc",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "公園で散歩します。",
+        hiragana: "こうえんでさんぽします。",
+        romaji: "Kouen de sanpo shimasu.",
+        english: "I take a walk in the park.",
+        french: "Je me promène dans le parc."
+      }
+    ]
+  },
+  {
+    id: "koukou",
+    japanese: "高校",
+    hiragana: "こうこう",
+    romaji: "koukou",
+    english: "high school",
+    french: "lycée",
+    level: "N5",
+    category: "education",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "高校に通っています。",
+        hiragana: "こうこうにかよっています。",
+        romaji: "Koukou ni kayotte imasu.",
+        english: "I go to high school.",
+        french: "Je vais au lycée."
+      }
+    ]
+  },
+  {
+    id: "koucha",
+    japanese: "紅茶",
+    hiragana: "こうちゃ",
+    romaji: "koucha",
+    english: "black tea",
+    french: "thé noir",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "毎朝紅茶を飲みます。",
+        hiragana: "まいあさこうちゃをのみます。",
+        romaji: "Maiasa koucha o nomimasu.",
+        english: "I drink black tea every morning.",
+        french: "Je bois du thé noir tous les matins."
+      }
+    ]
+  },
+  {
+    id: "koe",
+    japanese: "声",
+    hiragana: "こえ",
+    romaji: "koe",
+    english: "voice",
+    french: "voix",
+    level: "N5",
+    category: "body",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "彼女の声はきれいです。",
+        hiragana: "かのじょのこえはきれいです。",
+        romaji: "Kanojo no koe wa kirei desu.",
+        english: "Her voice is beautiful.",
+        french: "Sa voix est belle."
+      }
+    ]
+  },
+  {
+    id: "koohii",
+    japanese: "コーヒー",
+    hiragana: "こーひー",
+    romaji: "kōhī",
+    english: "coffee",
+    french: "café",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "コーヒーを一杯ください。",
+        hiragana: "こーひーをいっぱいください。",
+        romaji: "Koohii o ippai kudasai.",
+        english: "One cup of coffee, please.",
+        french: "Une tasse de café, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kokoro",
+    japanese: "心",
+    hiragana: "こころ",
+    romaji: "kokoro",
+    english: "heart; mind",
+    french: "cœur; esprit",
+    level: "N5",
+    category: "body/mind",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "心が温かい人です。",
+        hiragana: "こころがあたたかいひとです。",
+        romaji: "Kokoro ga atatakai hito desu.",
+        english: "He is a warm-hearted person.",
+        french: "C'est une personne au grand cœur."
+      }
+    ]
+  },
+  {
+    id: "koko",
+    japanese: "ここ",
+    hiragana: "ここ",
+    romaji: "koko",
+    english: "here",
+    french: "ici",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "ここに座ってください。",
+        hiragana: "ここにすわってください。",
+        romaji: "Koko ni suwatte kudasai.",
+        english: "Please sit here.",
+        french: "Asseyez-vous ici."
+      }
+    ]
+  },
+  {
+    id: "kokonoka",
+    japanese: "九日",
+    hiragana: "ここのか",
+    romaji: "kokonoka",
+    english: "the ninth day; nine days",
+    french: "le neuvième jour; neuf jours",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "九日は母の誕生日です。",
+        hiragana: "ここのかはははのたんじょうびです。",
+        romaji: "Kokonoka wa haha no tanjoubi desu.",
+        english: "The ninth is my mother's birthday.",
+        french: "Le neuf est l'anniversaire de ma mère."
+      }
+    ]
+  },
+  {
+    id: "kokonotsu",
+    japanese: "九つ",
+    hiragana: "ここのつ",
+    romaji: "kokonotsu",
+    english: "nine (things)",
+    french: "neuf (objets)",
+    level: "N5",
+    category: "counter",
+    wordType: "counter",
+    examples: [
+      {
+        japanese: "りんごを九つ買いました。",
+        hiragana: "りんごをここのつかいました。",
+        romaji: "Ringo o kokonotsu kaimashita.",
+        english: "I bought nine apples.",
+        french: "J'ai acheté neuf pommes."
+      }
+    ]
+  },
+  {
+    id: "gogo",
+    japanese: "午後",
+    hiragana: "ごご",
+    romaji: "gogo",
+    english: "afternoon; p.m.",
+    french: "après-midi",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "午後3時に会いましょう。",
+        hiragana: "ごごさんじにあいましょう。",
+        romaji: "Gogo san-ji ni aimashou.",
+        english: "Let's meet at 3 p.m.",
+        french: "Rendez-vous à 15 heures."
+      }
+    ]
+  },
+  {
+    id: "kotae",
+    japanese: "答え",
+    hiragana: "こたえ",
+    romaji: "kotae",
+    english: "answer",
+    french: "réponse",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "質問の答えは簡単です。",
+        hiragana: "しつもんのこたえはかんたんです。",
+        romaji: "Shitsumon no kotae wa kantan desu.",
+        english: "The answer to the question is simple.",
+        french: "La réponse à la question est simple."
+      }
+    ]
+  },
+  {
+    id: "kotaeru",
+    japanese: "答える",
+    hiragana: "こたえる",
+    romaji: "kotaeru",
+    english: "to answer",
+    french: "répondre",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "先生の質問に答えます。",
+        hiragana: "せんせいのしつもんにこたえます。",
+        romaji: "Sensei no shitsumon ni kotaemasu.",
+        english: "I answer the teacher's question.",
+        french: "Je réponds à la question du professeur."
+      }
+    ]
+  },
+  {
+    id: "kochira",
+    japanese: "こちら",
+    hiragana: "こちら",
+    romaji: "kochira",
+    english: "this way; here (polite)",
+    french: "par ici; ici (poli)",
+    level: "N5",
+    category: "expression",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "入口はこちらです。",
+        hiragana: "いりぐちはこちらです。",
+        romaji: "Iriguchi wa kochira desu.",
+        english: "The entrance is this way.",
+        french: "L'entrée est par ici."
+      }
+    ]
+  },
+  {
+    id: "kocchi",
+    japanese: "こっち",
+    hiragana: "こっち",
+    romaji: "kocchi",
+    english: "this way; here (casual)",
+    french: "par ici; ici (familier)",
+    level: "N5",
+    category: "expression",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "こっちに来てください。",
+        hiragana: "こっちにきてください。",
+        romaji: "Kocchi ni kite kudasai.",
+        english: "Please come this way.",
+        french: "Viens par ici, s'il te plaît."
+      }
+    ]
+  },
+  {
+    id: "kotoshi",
+    japanese: "今年",
+    hiragana: "ことし",
+    romaji: "kotoshi",
+    english: "this year",
+    french: "cette année",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今年日本へ行きます。",
+        hiragana: "ことしにほんへいきます。",
+        romaji: "Kotoshi Nihon e ikimasu.",
+        english: "I will go to Japan this year.",
+        french: "J'irai au Japon cette année."
+      }
+    ]
+  },
+  {
+    id: "kotoba",
+    japanese: "言葉",
+    hiragana: "ことば",
+    romaji: "kotoba",
+    english: "word; language",
+    french: "mot; langue",
+    level: "N5",
+    category: "language",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "新しい言葉を覚えます。",
+        hiragana: "あたらしいことばをおぼえます。",
+        romaji: "Atarashii kotoba o oboemasu.",
+        english: "I memorize new words.",
+        french: "J'apprends de nouveaux mots."
+      }
+    ]
+  },
+  {
+    id: "kodomo",
+    japanese: "子供",
+    hiragana: "こども",
+    romaji: "kodomo",
+    english: "child",
+    french: "enfant",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "子供が公園で遊んでいます。",
+        hiragana: "こどもがこうえんであそんでいます。",
+        romaji: "Kodomo ga kouen de asonde imasu.",
+        english: "Children are playing in the park.",
+        french: "Les enfants jouent dans le parc."
+      }
+    ]
+  },
+  {
+    id: "kono",
+    japanese: "この",
+    hiragana: "この",
+    romaji: "kono",
+    english: "this (near speaker)",
+    french: "ce/cette (près du locuteur)",
+    level: "N5",
+    category: "expression",
+    wordType: "pre-noun adjectival",
+    examples: [
+      {
+        japanese: "この本は面白いです。",
+        hiragana: "このほんはおもしろいです。",
+        romaji: "Kono hon wa omoshiroi desu.",
+        english: "This book is interesting.",
+        french: "Ce livre est intéressant."
+      }
+    ]
+  },
+  {
+    id: "gohan",
+    japanese: "ご飯",
+    hiragana: "ごはん",
+    romaji: "gohan",
+    english: "rice; meal",
+    french: "riz; repas",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ご飯を食べました。",
+        hiragana: "ごはんをたべました。",
+        romaji: "Gohan o tabemashita.",
+        english: "I ate a meal (rice).",
+        french: "J'ai mangé du riz (un repas)."
+      }
+    ]
+  },
+  {
+    id: "kopii",
+    japanese: "コピー",
+    hiragana: "こぴー",
+    romaji: "kopii",
+    english: "copy",
+    french: "copie",
+    level: "N5",
+    category: "object",
+    wordType: "noun/verb",
+    examples: [
+      {
+        japanese: "この書類をコピーしてください。",
+        hiragana: "このしょるいをこぴーしてください。",
+        romaji: "Kono shorui o kopii shite kudasai.",
+        english: "Please make a copy of this document.",
+        french: "Faites une copie de ce document, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "komaru",
+    japanese: "困る",
+    hiragana: "こまる",
+    romaji: "komaru",
+    english: "to be troubled; to have difficulty",
+    french: "être en difficulté; être embarrassé",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "お金がなくて困っています。",
+        hiragana: "おかねがなくてこまっています。",
+        romaji: "Okane ga nakute komatte imasu.",
+        english: "I am troubled because I have no money.",
+        french: "Je suis embêté car je n'ai pas d'argent."
+      }
+    ]
+  },
+  {
+    id: "gomi",
+    japanese: "ごみ",
+    hiragana: "ごみ",
+    romaji: "gomi",
+    english: "rubbish; trash",
+    french: "ordures; déchets",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ごみを捨ててください。",
+        hiragana: "ごみをすててください。",
+        romaji: "Gomi o sutete kudasai.",
+        english: "Please throw away the trash.",
+        french: "Jetez les ordures, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kondo",
+    japanese: "今度",
+    hiragana: "こんど",
+    romaji: "kondo",
+    english: "next time; this time",
+    french: "la prochaine fois; cette fois",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今度一緒に行きましょう。",
+        hiragana: "こんどいっしょにいきましょう。",
+        romaji: "Kondo issho ni ikimashou.",
+        english: "Let's go together next time.",
+        french: "Allons ensemble la prochaine fois."
+      }
+    ]
+  },
+  {
+    id: "konna",
+    japanese: "こんな",
+    hiragana: "こんな",
+    romaji: "konna",
+    english: "such; this kind of",
+    french: "tel; ce genre de",
+    level: "N5",
+    category: "expression",
+    wordType: "pre-noun adjectival",
+    examples: [
+      {
+        japanese: "こんな本は読みたくない。",
+        hiragana: "こんなほんはよみたくない。",
+        romaji: "Konna hon wa yomitakunai.",
+        english: "I don't want to read such a book.",
+        french: "Je ne veux pas lire ce genre de livre."
+      }
+    ]
+  },
+  {
+    id: "konnichiwa",
+    japanese: "こんにちは",
+    hiragana: "こんにちは",
+    romaji: "konnichiwa",
+    english: "hello; good afternoon",
+    french: "bonjour; bon après-midi",
+    level: "N5",
+    category: "greeting",
+    wordType: "expression",
+    examples: [
+      {
+        japanese: "こんにちは、お元気ですか。",
+        hiragana: "こんにちは、おげんきですか。",
+        romaji: "Konnichiwa, ogenki desu ka.",
+        english: "Hello, how are you?",
+        french: "Bonjour, comment allez-vous ?"
+      }
+    ]
+  },
+  {
+    id: "konbanwa",
+    japanese: "こんばんは",
+    hiragana: "こんばんは",
+    romaji: "konbanwa",
+    english: "good evening",
+    french: "bonsoir",
+    level: "N5",
+    category: "greeting",
+    wordType: "expression",
+    examples: [
+      {
+        japanese: "こんばんは、いい天気ですね。",
+        hiragana: "こんばんは、いいてんきですね。",
+        romaji: "Konbanwa, ii tenki desu ne.",
+        english: "Good evening, it's nice weather, isn't it?",
+        french: "Bonsoir, il fait beau, n'est-ce pas ?"
+      }
+    ]
   }
 ];
 
