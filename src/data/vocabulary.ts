@@ -11760,6 +11760,366 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Il y a un kilomètre jusqu'à la gare."
       }
     ]
+  },
+  {
+    id: "ginkou",
+    japanese: "銀行",
+    hiragana: "ぎんこう",
+    romaji: "ginkou",
+    english: "bank",
+    french: "banque",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "銀行でお金を下ろします。",
+        hiragana: "ぎんこうでおかねをおろします。",
+        romaji: "Ginkou de okane o oroshimasu.",
+        english: "I withdraw money at the bank.",
+        french: "Je retire de l'argent à la banque."
+      }
+    ]
+  },
+  {
+    id: "kinyoubi",
+    japanese: "金曜日",
+    hiragana: "きんようび",
+    romaji: "kinyoubi",
+    english: "Friday",
+    french: "vendredi",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "金曜日に映画を見に行きます。",
+        hiragana: "きんようびにえいがをみにいきます。",
+        romaji: "Kinyoubi ni eiga o mi ni ikimasu.",
+        english: "I will go watch a movie on Friday.",
+        french: "J'irai voir un film vendredi."
+      }
+    ]
+  },
+  {
+    id: "kusuri",
+    japanese: "薬",
+    hiragana: "くすり",
+    romaji: "kusuri",
+    english: "medicine",
+    french: "médicament",
+    level: "N5",
+    category: "health",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "薬を飲みます。",
+        hiragana: "くすりをのみます。",
+        romaji: "Kusuri o nomimasu.",
+        english: "I take medicine.",
+        french: "Je prends un médicament."
+      }
+    ]
+  },
+  {
+    id: "kudasai",
+    japanese: "ください",
+    hiragana: "ください",
+    romaji: "kudasai",
+    english: "please (give me)",
+    french: "s'il vous plaît (donnez-moi)",
+    level: "N5",
+    category: "expression",
+    wordType: "auxiliary",
+    examples: [
+      {
+        japanese: "水をください。",
+        hiragana: "みずをください。",
+        romaji: "Mizu o kudasai.",
+        english: "Water, please.",
+        french: "De l'eau, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kudamono",
+    japanese: "果物",
+    hiragana: "くだもの",
+    romaji: "kudamono",
+    english: "fruit",
+    french: "fruit",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "果物を毎日食べます。",
+        hiragana: "くだものをまいにちたべます。",
+        romaji: "Kudamono o mainichi tabemasu.",
+        english: "I eat fruit every day.",
+        french: "Je mange des fruits tous les jours."
+      }
+    ]
+  },
+  {
+    id: "kuchi",
+    japanese: "口",
+    hiragana: "くち",
+    romaji: "kuchi",
+    english: "mouth",
+    french: "bouche",
+    level: "N5",
+    category: "body",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "口を開けてください。",
+        hiragana: "くちをあけてください。",
+        romaji: "Kuchi o akete kudasai.",
+        english: "Please open your mouth.",
+        french: "Ouvrez la bouche, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kutsu",
+    japanese: "靴",
+    hiragana: "くつ",
+    romaji: "kutsu",
+    english: "shoes",
+    french: "chaussures",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "新しい靴を買いました。",
+        hiragana: "あたらしいくつをかいました。",
+        romaji: "Atarashii kutsu o kaimashita.",
+        english: "I bought new shoes.",
+        french: "J'ai acheté de nouvelles chaussures."
+      }
+    ]
+  },
+  {
+    id: "kutsushita",
+    japanese: "靴下",
+    hiragana: "くつした",
+    romaji: "kutsushita",
+    english: "socks",
+    french: "chaussettes",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "靴下を履きます。",
+        hiragana: "くつしたをはきます。",
+        romaji: "Kutsushita o hakimasu.",
+        english: "I put on socks.",
+        french: "Je mets des chaussettes."
+      }
+    ]
+  },
+  {
+    id: "kuni",
+    japanese: "国",
+    hiragana: "くに",
+    romaji: "kuni",
+    english: "country",
+    french: "pays",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本はとても美しい国です。",
+        hiragana: "にほんはとてもうつくしいくにです。",
+        romaji: "Nihon wa totemo utsukushii kuni desu.",
+        english: "Japan is a very beautiful country.",
+        french: "Le Japon est un très beau pays."
+      }
+    ]
+  },
+  {
+    id: "kumori",
+    japanese: "曇り",
+    hiragana: "くもり",
+    romaji: "kumori",
+    english: "cloudy (weather)",
+    french: "nuageux",
+    level: "N5",
+    category: "weather",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今日は曇りです。",
+        hiragana: "きょうはくもりです。",
+        romaji: "Kyou wa kumori desu.",
+        english: "It is cloudy today.",
+        french: "Il fait nuageux aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "kumoru",
+    japanese: "曇る",
+    hiragana: "くもる",
+    romaji: "kumoru",
+    english: "to become cloudy",
+    french: "se couvrir (ciel)",
+    level: "N5",
+    category: "weather",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "空が曇ってきました。",
+        hiragana: "そらがくもってきました。",
+        romaji: "Sora ga kumotte kimashita.",
+        english: "The sky has become cloudy.",
+        french: "Le ciel s'est couvert."
+      }
+    ]
+  },
+  {
+    id: "kurai",
+    japanese: "暗い",
+    hiragana: "くらい",
+    romaji: "kurai",
+    english: "dark",
+    french: "sombre",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "外は暗いです。",
+        hiragana: "そとはくらいです。",
+        romaji: "Soto wa kurai desu.",
+        english: "It is dark outside.",
+        french: "Il fait sombre dehors."
+      }
+    ]
+  },
+  {
+    id: "kurasu",
+    japanese: "クラス",
+    hiragana: "くらす",
+    romaji: "kurasu",
+    english: "class",
+    french: "classe",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "クラスの友達と勉強します。",
+        hiragana: "くらすのともだちとべんきょうします。",
+        romaji: "Kurasu no tomodachi to benkyou shimasu.",
+        english: "I study with my classmates.",
+        french: "J'étudie avec mes camarades de classe."
+      }
+    ]
+  },
+  {
+    id: "guramu",
+    japanese: "グラム",
+    hiragana: "ぐらむ",
+    romaji: "guramu",
+    english: "gram",
+    french: "gramme",
+    level: "N5",
+    category: "measurement",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "100グラムのチーズをください。",
+        hiragana: "ひゃくぐらむのちーずをください。",
+        romaji: "Hyaku guramu no chiizu o kudasai.",
+        english: "100 grams of cheese, please.",
+        french: "100 grammes de fromage, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kuru",
+    japanese: "来る",
+    hiragana: "くる",
+    romaji: "kuru",
+    english: "to come",
+    french: "venir",
+    level: "N5",
+    category: "verb",
+    wordType: "irregular verb",
+    examples: [
+      {
+        japanese: "友達が家に来ます。",
+        hiragana: "ともだちがいえにきます。",
+        romaji: "Tomodachi ga ie ni kimasu.",
+        english: "A friend comes to my house.",
+        french: "Un ami vient chez moi."
+      }
+    ]
+  },
+  {
+    id: "kuruma",
+    japanese: "車",
+    hiragana: "くるま",
+    romaji: "kuruma",
+    english: "car",
+    french: "voiture",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "車を運転します。",
+        hiragana: "くるまをうんてんします。",
+        romaji: "Kuruma o unten shimasu.",
+        english: "I drive a car.",
+        french: "Je conduis une voiture."
+      }
+    ]
+  },
+  {
+    id: "kuro",
+    japanese: "黒",
+    hiragana: "くろ",
+    romaji: "kuro",
+    english: "black (noun)",
+    french: "noir",
+    level: "N5",
+    category: "color",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "黒は好きな色です。",
+        hiragana: "くろはすきないろです。",
+        romaji: "Kuro wa sukina iro desu.",
+        english: "Black is my favorite color.",
+        french: "Le noir est ma couleur préférée."
+      }
+    ]
+  },
+  {
+    id: "kuroi",
+    japanese: "黒い",
+    hiragana: "くろい",
+    romaji: "kuroi",
+    english: "black (adjective)",
+    french: "noir (adjectif)",
+    level: "N5",
+    category: "color",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "黒い靴を履いています。",
+        hiragana: "くろいくつをはいています。",
+        romaji: "Kuroi kutsu o haite imasu.",
+        english: "I am wearing black shoes.",
+        french: "Je porte des chaussures noires."
+      }
+    ]
   }
 ];
 
