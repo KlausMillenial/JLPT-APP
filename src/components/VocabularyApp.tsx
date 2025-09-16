@@ -7,12 +7,13 @@ import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2 } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
 import { removeDuplicatesFromVocabulary, logVocabularyStats } from '@/utils/removeDuplicates';
+import { logAllWords, getWordsByCategory, getWordsByLevel } from '@/utils/listAllWords';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
@@ -30,6 +31,31 @@ export const VocabularyApp = () => {
     logVocabularyStats();
     return uniqueData;
   });
+
+  // Function to log all words to console
+  const handleShowAllWords = () => {
+    const words = logAllWords();
+    const categories = getWordsByCategory();
+    const levels = getWordsByLevel();
+    
+    console.log('\n=== WORDS BY CATEGORY ===');
+    Object.entries(categories).forEach(([category, words]) => {
+      console.log(`\n${category.toUpperCase()} (${words.length} words):`);
+      words.forEach(word => {
+        console.log(`  - ${word.japanese} (${word.english})`);
+      });
+    });
+
+    console.log('\n=== WORDS BY LEVEL ===');
+    Object.entries(levels).forEach(([level, words]) => {
+      console.log(`\n${level} (${words.length} words):`);
+      words.forEach(word => {
+        console.log(`  - ${word.japanese} (${word.english})`);
+      });
+    });
+
+    toast.success(`Complete vocabulary list (${words.length} words) logged to console!`);
+  };
 
   const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
     if (targetLanguage === 'english' || targetLanguage === 'french') return;
@@ -153,6 +179,15 @@ export const VocabularyApp = () => {
               >
                 <Brain className="w-4 h-4 mr-2" />
                 Take Quiz
+              </Button>
+              <Button
+                variant="outline"
+                onClick={handleShowAllWords}
+                className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+                title="View complete word list in console"
+              >
+                <List className="w-4 h-4 mr-2" />
+                View All Words
               </Button>
             </div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
