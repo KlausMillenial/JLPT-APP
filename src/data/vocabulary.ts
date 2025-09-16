@@ -8741,6 +8741,507 @@ export const vocabularyData: VocabularyWord[] = [
       }
     ]
   },
+  [
+  {
+    "id": "tamani",
+    "japanese": "たまに",
+    "hiragana": "たまに",
+    "romaji": "tamani",
+    "english": "occasionally",
+    "french": "de temps en temps",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "たまに映画を見ます。",
+        "hiragana": "たまにえいがをみます。",
+        "romaji": "Tamani eiga o mimasu.",
+        "english": "I sometimes watch movies.",
+        "french": "Je regarde parfois des films."
+      }
+    ]
+  },
+  {
+    "id": "tamashii",
+    "japanese": "魂",
+    "hiragana": "たましい",
+    "romaji": "tamashii",
+    "english": "soul, spirit",
+    "french": "âme, esprit",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "魂を込めて歌います。",
+        "hiragana": "たましいをこめてうたいます。",
+        "romaji": "Tamashii o komete utaimasu.",
+        "english": "I sing with all my soul.",
+        "french": "Je chante avec toute mon âme."
+      }
+    ]
+  },
+  {
+    "id": "tameru",
+    "japanese": "貯める",
+    "hiragana": "ためる",
+    "romaji": "tameru",
+    "english": "to save, accumulate",
+    "french": "épargner, accumuler",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "お金を貯めています。",
+        "hiragana": "おかねをためています。",
+        "romaji": "Okane o tamete imasu.",
+        "english": "I am saving money.",
+        "french": "J’épargne de l’argent."
+      }
+    ]
+  },
+  {
+    "id": "tanbo",
+    "japanese": "田んぼ",
+    "hiragana": "たんぼ",
+    "romaji": "tanbo",
+    "english": "rice field",
+    "french": "rizière",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼで米を作ります。",
+        "hiragana": "たんぼでこめをつくります。",
+        "romaji": "Tanbo de kome o tsukurimasu.",
+        "english": "They grow rice in the fields.",
+        "french": "On cultive du riz dans les rizières."
+      }
+    ]
+  },
+  {
+    "id": "tanin",
+    "japanese": "他人",
+    "hiragana": "たにん",
+    "romaji": "tanin",
+    "english": "stranger, other people",
+    "french": "autrui, étranger",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "他人に頼らないでください。",
+        "hiragana": "たにんにたよらないでください。",
+        "romaji": "Tanin ni tayoranaide kudasai.",
+        "english": "Please don’t rely on others.",
+        "french": "Ne dépendez pas des autres."
+      }
+    ]
+  },
+  {
+    "id": "tanoshii",
+    "japanese": "楽しい",
+    "hiragana": "たのしい",
+    "romaji": "tanoshii",
+    "english": "fun, enjoyable",
+    "french": "amusant, agréable",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "今日はとても楽しいです。",
+        "hiragana": "きょうはとてもたのしいです。",
+        "romaji": "Kyou wa totemo tanoshii desu.",
+        "english": "Today is very fun.",
+        "french": "Aujourd’hui est très amusant."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimu",
+    "japanese": "楽しむ",
+    "hiragana": "たのしむ",
+    "romaji": "tanoshimu",
+    "english": "to enjoy",
+    "french": "profiter, s’amuser",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "音楽を楽しみます。",
+        "hiragana": "おんがくをたのしみます。",
+        "romaji": "Ongaku o tanoshimimasu.",
+        "english": "I enjoy music.",
+        "french": "Je profite de la musique."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimi",
+    "japanese": "楽しみ",
+    "hiragana": "たのしみ",
+    "romaji": "tanoshimi",
+    "english": "pleasure, expectation",
+    "french": "plaisir, attente",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "旅行が楽しみです。",
+        "hiragana": "りょこうがたのしみです。",
+        "romaji": "Ryokou ga tanoshimi desu.",
+        "english": "I look forward to the trip.",
+        "french": "J’ai hâte pour le voyage."
+      }
+    ]
+  },
+  {
+    "id": "tanjoubi",
+    "japanese": "誕生日",
+    "hiragana": "たんじょうび",
+    "romaji": "tanjoubi",
+    "english": "birthday",
+    "french": "anniversaire",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "明日は彼の誕生日です。",
+        "hiragana": "あしたはかれのたんじょうびです。",
+        "romaji": "Ashita wa kare no tanjoubi desu.",
+        "english": "Tomorrow is his birthday.",
+        "french": "Demain c’est son anniversaire."
+      }
+    ]
+  },
+  {
+    "id": "tansu",
+    "japanese": "タンス",
+    "hiragana": "たんす",
+    "romaji": "tansu",
+    "english": "chest of drawers",
+    "french": "commode",
+    "level": "N5",
+    "category": "furniture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "タンスに服をしまいました。",
+        "hiragana": "たんすにふくをしまいました。",
+        "romaji": "Tansu ni fuku o shimaimashita.",
+        "english": "I put clothes in the dresser.",
+        "french": "J’ai rangé les vêtements dans la commode."
+      }
+    ]
+  },
+  {
+    "id": "tatakau",
+    "japanese": "戦う",
+    "hiragana": "たたかう",
+    "romaji": "tatakau",
+    "english": "to fight",
+    "french": "se battre",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼らは戦いました。",
+        "hiragana": "かれらはたたかいました。",
+        "romaji": "Karera wa tatakaimashita.",
+        "english": "They fought.",
+        "french": "Ils se sont battus."
+      }
+    ]
+  },
+  {
+    "id": "tatemono",
+    "japanese": "建物",
+    "hiragana": "たてもの",
+    "romaji": "tatemono",
+    "english": "building",
+    "french": "bâtiment",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "古い建物があります。",
+        "hiragana": "ふるいたてものがあります。",
+        "romaji": "Furui tatemono ga arimasu.",
+        "english": "There is an old building.",
+        "french": "Il y a un vieux bâtiment."
+      }
+    ]
+  },
+  {
+    "id": "tateru",
+    "japanese": "建てる",
+    "hiragana": "たてる",
+    "romaji": "tateru",
+    "english": "to build",
+    "french": "construire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "家を建てます。",
+        "hiragana": "いえをたてます。",
+        "romaji": "Ie o tatemasu.",
+        "english": "I build a house.",
+        "french": "Je construis une maison."
+      }
+    ]
+  },
+  {
+    "id": "tatsu",
+    "japanese": "立つ",
+    "hiragana": "たつ",
+    "romaji": "tatsu",
+    "english": "to stand",
+    "french": "se lever",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼は急に立ちました。",
+        "hiragana": "かれはきゅうにたちました。",
+        "romaji": "Kare wa kyuu ni tachimashita.",
+        "english": "He suddenly stood up.",
+        "french": "Il s’est levé soudainement."
+      }
+    ]
+  },
+  {
+    "id": "tatemono_takai",
+    "japanese": "高い建物",
+    "hiragana": "たかいたてもの",
+    "romaji": "takai tatemono",
+    "english": "tall building",
+    "french": "bâtiment haut",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "高い建物が並んでいます。",
+        "hiragana": "たかいたてものがならんでいます。",
+        "romaji": "Takai tatemono ga narande imasu.",
+        "english": "Tall buildings are lined up.",
+        "french": "Des bâtiments hauts sont alignés."
+      }
+    ]
+  },
+  {
+    "id": "tawaa",
+    "japanese": "タワー",
+    "hiragana": "たわー",
+    "romaji": "tawaa",
+    "english": "tower",
+    "french": "tour",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "東京タワーに行きました。",
+        "hiragana": "とうきょうたわーにいきました。",
+        "romaji": "Toukyou Tawaa ni ikimashita.",
+        "english": "I went to Tokyo Tower.",
+        "french": "Je suis allé à la Tour de Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "tayori",
+    "japanese": "便り",
+    "hiragana": "たより",
+    "romaji": "tayori",
+    "english": "news, letter",
+    "french": "nouvelles, lettre",
+    "level": "N5",
+    "category": "communication",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達から便りが来ました。",
+        "hiragana": "ともだちからたよりがきました。",
+        "romaji": "Tomodachi kara tayori ga kimashita.",
+        "english": "I received a letter from a friend.",
+        "french": "J’ai reçu une lettre d’un ami."
+      }
+    ]
+  },
+  {
+    "id": "te",
+    "japanese": "手",
+    "hiragana": "て",
+    "romaji": "te",
+    "english": "hand",
+    "french": "main",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "手を洗ってください。",
+        "hiragana": "てをあらってください。",
+        "romaji": "Te o aratte kudasai.",
+        "english": "Please wash your hands.",
+        "french": "Lavez-vous les mains, s’il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "tegami",
+    "japanese": "手紙",
+    "hiragana": "てがみ",
+    "romaji": "tegami",
+    "english": "letter",
+    "french": "lettre",
+    "level": "N5",
+    "category": "communication",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達に手紙を書きました。",
+        "hiragana": "ともだちにてがみをかきました。",
+        "romaji": "Tomodachi ni tegami o kakimashita.",
+        "english": "I wrote a letter to my friend.",
+        "french": "J’ai écrit une lettre à mon ami."
+      }
+    ]
+  },
+  {
+    "id": "tegami_hakobu",
+    "japanese": "運ぶ",
+    "hiragana": "はこぶ",
+    "romaji": "hakobu",
+    "english": "to carry",
+    "french": "porter, transporter",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "荷物を運びました。",
+        "hiragana": "にもつをはこびました。",
+        "romaji": "Nimotsu o hakobimashita.",
+        "english": "I carried the luggage.",
+        "french": "J’ai transporté les bagages."
+      }
+    ]
+  },
+  {
+    "id": "tegami_tsukau",
+    "japanese": "使う",
+    "hiragana": "つかう",
+    "romaji": "tsukau",
+    "english": "to use",
+    "french": "utiliser",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "この辞書を使ってください。",
+        "hiragana": "このじしょをつかってください。",
+        "romaji": "Kono jisho o tsukatte kudasai.",
+        "english": "Please use this dictionary.",
+        "french": "Utilisez ce dictionnaire, s’il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "teburu",
+    "japanese": "テーブル",
+    "hiragana": "てーぶる",
+    "romaji": "teeburu",
+    "english": "table",
+    "french": "table",
+    "level": "N5",
+    "category": "furniture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "テーブルの上に花があります。",
+        "hiragana": "てーぶるのうえにはながあります。",
+        "romaji": "Teeburu no ue ni hana ga arimasu.",
+        "english": "There is a flower on the table.",
+        "french": "Il y a une fleur sur la table."
+      }
+    ]
+  },
+  {
+    "id": "tegami_yasashii",
+    "japanese": "優しい",
+    "hiragana": "やさしい",
+    "romaji": "yasashii",
+    "english": "kind, gentle",
+    "french": "gentil, doux",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼はとても優しいです。",
+        "hiragana": "かれはとてもやさしいです。",
+        "romaji": "Kare wa totemo yasashii desu.",
+        "english": "He is very kind.",
+        "french": "Il est très gentil."
+      }
+    ]
+  },
+  {
+    "id": "tehon",
+    "japanese": "手本",
+    "hiragana": "てほん",
+    "romaji": "tehon",
+    "english": "model, example",
+    "french": "modèle, exemple",
+    "level": "N5",
+    "category": "school",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "先生が手本を見せました。",
+        "hiragana": "せんせいがてほんをみせました。",
+        "romaji": "Sensei ga tehon o misemashita.",
+        "english": "The teacher showed an example.",
+        "french": "Le professeur a montré un exemple."
+      }
+    ]
+  },
+  {
+    "id": "tegami_denwa",
+    "japanese": "電話",
+    "hiragana": "でんわ",
+    "romaji": "denwa",
+    "english": "telephone",
+    "french": "téléphone",
+    "level": "N5",
+    "category": "communication",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達に電話しました。",
+        "hiragana": "ともだちにでんわしました。",
+        "romaji": "Tomodachi ni denwa shimashita.",
+        "english": "I called my friend.",
+        "french": "J’ai téléphoné à mon ami."
+      }
+    ]
+  },
   {
     "id": "tamashii",
     "japanese": "魂",
