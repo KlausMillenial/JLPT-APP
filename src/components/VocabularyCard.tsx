@@ -200,22 +200,22 @@ useEffect(() => {
             </div>
             
             {/* Image section with auto-generation */}
-            <div className="mb-6 flex justify-center">
+            <div className="mb-4 flex justify-center flex-1">
               {isGeneratingImage ? (
-                <div className="w-40 h-40 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
-                  <Loader2 className="w-8 h-8 animate-spin text-primary mb-2" />
-                  <span className="text-xs text-muted-foreground">Generating image...</span>
+                <div className="w-full h-48 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
+                  <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
+                  <span className="text-sm text-muted-foreground">Generating image...</span>
                 </div>
               ) : generatedImageUrl ? (
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-40 h-40 object-cover rounded-xl border-2 border-primary/30 shadow-md animate-fade-in"
+                  className="w-full h-48 object-cover rounded-xl border-2 border-primary/30 shadow-md animate-fade-in"
                 />
               ) : (
-                <div className="w-40 h-40 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
-                  <Wand2 className="w-6 h-6 text-primary/60 mb-2" />
-                  <span className="text-xs text-primary/60 text-center">Image will appear<br />automatically</span>
+                <div className="w-full h-48 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
+                  <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
+                  <span className="text-sm text-primary/60 text-center">Image will appear<br />automatically</span>
                 </div>
               )}
             </div>
