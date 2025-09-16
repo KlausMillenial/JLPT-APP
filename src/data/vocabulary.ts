@@ -8763,26 +8763,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tamashii",
-    "japanese": "魂",
-    "hiragana": "たましい",
-    "romaji": "tamashii",
-    "english": "soul, spirit",
-    "french": "âme, esprit",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "魂を込めて歌います。",
-        "hiragana": "たましいをこめてうたいます。",
-        "romaji": "Tamashii o komete utaimasu.",
-        "english": "I sing with all my soul.",
-        "french": "Je chante avec toute mon âme."
-      }
-    ]
-  },
-  {
     "id": "tameru",
     "japanese": "貯める",
     "hiragana": "ためる",
