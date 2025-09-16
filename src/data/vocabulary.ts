@@ -8260,6 +8260,506 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "L'eau de la rizière est froide."
       }
     ]
+  },
+  {
+    "id": "taraa",
+    "japanese": "タラ",
+    "hiragana": "たら",
+    "romaji": "tara",
+    "english": "cod (fish)",
+    "french": "morue",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "タラの料理を食べました。",
+        "hiragana": "たらのりょうりをたべました。",
+        "romaji": "Tara no ryouri o tabemashita.",
+        "english": "I ate a cod dish.",
+        "french": "J'ai mangé un plat de morue."
+      }
+    ]
+  },
+  {
+    "id": "tariru",
+    "japanese": "足りる",
+    "hiragana": "たりる",
+    "romaji": "tariru",
+    "english": "to be enough",
+    "french": "suffire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "お金が足りますか？",
+        "hiragana": "おかねがたりますか？",
+        "romaji": "Okane ga tarimasu ka?",
+        "english": "Is the money enough?",
+        "french": "L'argent suffit-il ?"
+      }
+    ]
+  },
+  {
+    "id": "taore_ru",
+    "japanese": "倒れる",
+    "hiragana": "たおれる",
+    "romaji": "taoreru",
+    "english": "to fall down",
+    "french": "tomber",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼は道で倒れました。",
+        "hiragana": "かれはみちでたおれました。",
+        "romaji": "Kare wa michi de taoremashita.",
+        "english": "He collapsed on the street.",
+        "french": "Il est tombé dans la rue."
+      }
+    ]
+  },
+  {
+    "id": "tanbo_keiken",
+    "japanese": "田んぼ経験",
+    "hiragana": "たんぼけいけん",
+    "romaji": "tanbo keiken",
+    "english": "rice field experience",
+    "french": "expérience dans les rizières",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼ経験をしました。",
+        "hiragana": "たんぼけいけんをしました。",
+        "romaji": "Tanbo keiken o shimashita.",
+        "english": "I had experience in a rice field.",
+        "french": "J'ai eu une expérience dans une rizière."
+      }
+    ]
+  },
+  {
+    "id": "tate_mono",
+    "japanese": "建物",
+    "hiragana": "たてもの",
+    "romaji": "tatemono",
+    "english": "building",
+    "french": "bâtiment",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい建物が建ちました。",
+        "hiragana": "あたらしいたてものがたちました。",
+        "romaji": "Atarashii tatemono ga tachimashita.",
+        "english": "A new building was built.",
+        "french": "Un nouveau bâtiment a été construit."
+      }
+    ]
+  },
+  {
+    "id": "tateru_kensetsu",
+    "japanese": "建設",
+    "hiragana": "けんせつ",
+    "romaji": "kensetsu",
+    "english": "construction",
+    "french": "construction",
+    "level": "N5",
+    "category": "work",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "橋の建設が始まりました。",
+        "hiragana": "はしのけんせつがはじまりました。",
+        "romaji": "Hashi no kensetsu ga hajimarimashita.",
+        "english": "The construction of the bridge has started.",
+        "french": "La construction du pont a commencé."
+      }
+    ]
+  },
+  {
+    "id": "tatsu_kouen",
+    "japanese": "立つ",
+    "hiragana": "たつ",
+    "romaji": "tatsu",
+    "english": "to stand",
+    "french": "se lever",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "私は椅子から立ちました。",
+        "hiragana": "わたしはいすからたちました。",
+        "romaji": "Watashi wa isu kara tachimashita.",
+        "english": "I stood up from the chair.",
+        "french": "Je me suis levé de la chaise."
+      }
+    ]
+  },
+  {
+    "id": "tabako",
+    "japanese": "煙草",
+    "hiragana": "たばこ",
+    "romaji": "tabako",
+    "english": "cigarette, tobacco",
+    "french": "cigarette, tabac",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "煙草を吸いますか？",
+        "hiragana": "たばこをすいますか？",
+        "romaji": "Tabako o suimasu ka?",
+        "english": "Do you smoke?",
+        "french": "Fumez-vous ?"
+      }
+    ]
+  },
+  {
+    "id": "tanaka",
+    "japanese": "田中",
+    "hiragana": "たなか",
+    "romaji": "Tanaka",
+    "english": "Tanaka (surname)",
+    "french": "Tanaka (nom de famille)",
+    "level": "N5",
+    "category": "name",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田中さんは先生です。",
+        "hiragana": "たなかさんはせんせいです。",
+        "romaji": "Tanaka-san wa sensei desu.",
+        "english": "Mr. Tanaka is a teacher.",
+        "french": "M. Tanaka est professeur."
+      }
+    ]
+  },
+  {
+    "id": "tanoshi_koto",
+    "japanese": "楽しいこと",
+    "hiragana": "たのしいこと",
+    "romaji": "tanoshii koto",
+    "english": "fun thing",
+    "french": "chose amusante",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "楽しいことが好きです。",
+        "hiragana": "たのしいことがすきです。",
+        "romaji": "Tanoshii koto ga suki desu.",
+        "english": "I like fun things.",
+        "french": "J'aime les choses amusantes."
+      }
+    ]
+  },
+  {
+    "id": "tanomu_onegai",
+    "japanese": "頼む",
+    "hiragana": "たのむ",
+    "romaji": "tanomu",
+    "english": "to request",
+    "french": "demander",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "友達に頼みました。",
+        "hiragana": "ともだちにたのみました。",
+        "romaji": "Tomodachi ni tanomimashita.",
+        "english": "I asked a friend.",
+        "french": "J'ai demandé à un ami."
+      }
+    ]
+  },
+  {
+    "id": "tanjou",
+    "japanese": "誕生",
+    "hiragana": "たんじょう",
+    "romaji": "tanjou",
+    "english": "birth",
+    "french": "naissance",
+    "level": "N5",
+    "category": "life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "子供の誕生を祝いました。",
+        "hiragana": "こどものたんじょうをいわいました。",
+        "romaji": "Kodomo no tanjou o iwaimashita.",
+        "english": "We celebrated the child's birth.",
+        "french": "Nous avons célébré la naissance de l'enfant."
+      }
+    ]
+  },
+  {
+    "id": "tanoshii_omoide",
+    "japanese": "楽しい思い出",
+    "hiragana": "たのしいおもいで",
+    "romaji": "tanoshii omoide",
+    "english": "happy memory",
+    "french": "souvenir heureux",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "旅行は楽しい思い出になりました。",
+        "hiragana": "りょこうはたのしいおもいでになりました。",
+        "romaji": "Ryokou wa tanoshii omoide ni narimashita.",
+        "english": "The trip became a happy memory.",
+        "french": "Le voyage est devenu un bon souvenir."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimi",
+    "japanese": "楽しみ",
+    "hiragana": "たのしみ",
+    "romaji": "tanoshimi",
+    "english": "pleasure, expectation",
+    "french": "plaisir, attente",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい仕事が楽しみです。",
+        "hiragana": "あたらしいしごとがたのしみです。",
+        "romaji": "Atarashii shigoto ga tanoshimi desu.",
+        "english": "I am looking forward to the new job.",
+        "french": "J'ai hâte pour le nouveau travail."
+      }
+    ]
+  },
+  {
+    "id": "tansu",
+    "japanese": "タンス",
+    "hiragana": "たんす",
+    "romaji": "tansu",
+    "english": "chest of drawers",
+    "french": "commode",
+    "level": "N5",
+    "category": "furniture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "服をタンスにしまいました。",
+        "hiragana": "ふくをたんすにしまいました。",
+        "romaji": "Fuku o tansu ni shimaimashita.",
+        "english": "I put the clothes in the drawer.",
+        "french": "J'ai rangé les vêtements dans la commode."
+      }
+    ]
+  },
+  {
+    "id": "tateru",
+    "japanese": "建てる",
+    "hiragana": "たてる",
+    "romaji": "tateru",
+    "english": "to build",
+    "french": "construire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "家を建てます。",
+        "hiragana": "いえをたてます。",
+        "romaji": "Ie o tatemasu.",
+        "english": "I build a house.",
+        "french": "Je construis une maison."
+      }
+    ]
+  },
+  {
+    "id": "tabi",
+    "japanese": "旅",
+    "hiragana": "たび",
+    "romaji": "tabi",
+    "english": "trip, travel",
+    "french": "voyage",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "旅に出ます。",
+        "hiragana": "たびにでます。",
+        "romaji": "Tabi ni demasu.",
+        "english": "I go on a trip.",
+        "french": "Je pars en voyage."
+      }
+    ]
+  },
+  {
+    "id": "tabidachi",
+    "japanese": "旅立ち",
+    "hiragana": "たびだち",
+    "romaji": "tabidachi",
+    "english": "departure",
+    "french": "départ",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼の旅立ちを見送りました。",
+        "hiragana": "かれのたびだちをみおくりました。",
+        "romaji": "Kare no tabidachi o miokurimashita.",
+        "english": "I saw him off on his departure.",
+        "french": "J'ai assisté à son départ."
+      }
+    ]
+  },
+  {
+    "id": "tadashii",
+    "japanese": "正しい",
+    "hiragana": "ただしい",
+    "romaji": "tadashii",
+    "english": "correct",
+    "french": "correct",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "答えは正しいです。",
+        "hiragana": "こたえはただしいです。",
+        "romaji": "Kotae wa tadashii desu.",
+        "english": "The answer is correct.",
+        "french": "La réponse est correcte."
+      }
+    ]
+  },
+  {
+    "id": "tashika",
+    "japanese": "確か",
+    "hiragana": "たしか",
+    "romaji": "tashika",
+    "english": "certain, sure",
+    "french": "sûr, certain",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "それは確かです。",
+        "hiragana": "それはたしかです。",
+        "romaji": "Sore wa tashika desu.",
+        "english": "That is certain.",
+        "french": "C'est certain."
+      }
+    ]
+  },
+  {
+    "id": "tashou",
+    "japanese": "多少",
+    "hiragana": "たしょう",
+    "romaji": "tashou",
+    "english": "a little, somewhat",
+    "french": "un peu, quelque peu",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "多少疲れました。",
+        "hiragana": "たしょうつかれました。",
+        "romaji": "Tashou tsukaremashita.",
+        "english": "I am somewhat tired.",
+        "french": "Je suis un peu fatigué."
+      }
+    ]
+  },
+  {
+    "id": "tashika_ni",
+    "japanese": "確かに",
+    "hiragana": "たしかに",
+    "romaji": "tashika ni",
+    "english": "surely, indeed",
+    "french": "sûrement, en effet",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "彼は確かに来ます。",
+        "hiragana": "かれはたしかにきます。",
+        "romaji": "Kare wa tashika ni kimasu.",
+        "english": "He will surely come.",
+        "french": "Il viendra sûrement."
+      }
+    ]
+  },
+  {
+    "id": "tameru_chokin",
+    "japanese": "貯金",
+    "hiragana": "ちょきん",
+    "romaji": "chokin",
+    "english": "savings",
+    "french": "économies",
+    "level": "N5",
+    "category": "economy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毎月貯金をします。",
+        "hiragana": "まいつきちょきんをします。",
+        "romaji": "Maitsuki chokin o shimasu.",
+        "english": "I save money every month.",
+        "french": "J'économise de l'argent chaque mois."
+      }
+    ]
+  },
+  {
+    "id": "tama",
+    "japanese": "玉",
+    "hiragana": "たま",
+    "romaji": "tama",
+    "english": "ball, jewel",
+    "french": "balle, bijou",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "ガラスの玉を見つけました。",
+        "hiragana": "がらすのたまをみつけました。",
+        "romaji": "Garasu no tama o mitsukemashita.",
+        "english": "I found a glass ball.",
+        "french": "J'ai trouvé une boule de verre."
+      }
+    ]
+  },
+  {
+    "id": "tamashii",
+    "japanese": "魂",
+    "hiragana": "たましい",
+    "romaji": "tamashii",
+    "english": "soul",
+    "french": "âme",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "魂を込めて歌います。",
+        "hiragana": "たましいをこめてうたいます。",
+        "romaji": "Tamashii o komete utaimasu.",
+        "english": "I sing with all my soul.",
+        "french": "Je chante avec toute mon âme."
+      }
+    ]
   }
 ];
 
