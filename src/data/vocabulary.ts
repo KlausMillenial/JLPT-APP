@@ -10240,6 +10240,286 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Le match a été annulé."
       }
     ]
+  },
+  {
+    "id": "toroku",
+    "japanese": "登録",
+    "hiragana": "とうろく",
+    "romaji": "touroku",
+    "english": "registration",
+    "french": "inscription, enregistrement",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "学校に登録しました。",
+        "hiragana": "がっこうにとうろくしました。",
+        "romaji": "Gakkou ni touroku shimashita.",
+        "english": "I registered at the school.",
+        "french": "Je me suis inscrit à l'école."
+      }
+    ]
+  },
+  {
+    "id": "toru_shashin",
+    "japanese": "写真を撮る",
+    "hiragana": "しゃしんをとる",
+    "romaji": "shashin o toru",
+    "english": "to take a photo",
+    "french": "prendre une photo",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "旅行で写真を撮りました。",
+        "hiragana": "りょこうでしゃしんをとりました。",
+        "romaji": "Ryokou de shashin o torimashita.",
+        "english": "I took pictures during the trip.",
+        "french": "J'ai pris des photos pendant le voyage."
+      }
+    ]
+  },
+  {
+    "id": "toru_mondai",
+    "japanese": "問題を取る",
+    "hiragana": "もんだいをとる",
+    "romaji": "mondai o toru",
+    "english": "to take a problem/question",
+    "french": "prendre une question/problème",
+    "level": "N5",
+    "category": "school",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "テストで難しい問題を取りました。",
+        "hiragana": "てすとでむずかしいもんだいをとりました。",
+        "romaji": "Tesuto de muzukashii mondai o torimashita.",
+        "english": "I took the difficult problem in the test.",
+        "french": "J'ai pris la question difficile à l'examen."
+      }
+    ]
+  },
+  {
+    "id": "toru_tokui",
+    "japanese": "得意を取る",
+    "hiragana": "とくいをとる",
+    "romaji": "tokui o toru",
+    "english": "to take advantage",
+    "french": "profiter, tirer avantage",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼は機会を得意に取りました。",
+        "hiragana": "かれはきかいをとくいにとりました。",
+        "romaji": "Kare wa kikai o tokui ni torimashita.",
+        "english": "He took advantage of the opportunity.",
+        "french": "Il a profité de l'occasion."
+      }
+    ]
+  },
+  {
+    "id": "totte",
+    "japanese": "取って",
+    "hiragana": "とって",
+    "romaji": "totte",
+    "english": "take (imperative)",
+    "french": "prends, prenez",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "それを取ってください。",
+        "hiragana": "それをとってください。",
+        "romaji": "Sore o totte kudasai.",
+        "english": "Please take that.",
+        "french": "Prenez ça, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "totteoku",
+    "japanese": "取っておく",
+    "hiragana": "とっておく",
+    "romaji": "totteoku",
+    "english": "to set aside, save",
+    "french": "mettre de côté, garder",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "お金を取っておきます。",
+        "hiragana": "おかねをとっておきます。",
+        "romaji": "Okane o totte okimasu.",
+        "english": "I will set aside money.",
+        "french": "Je vais mettre de l'argent de côté."
+      }
+    ]
+  },
+  {
+    "id": "totsuzen",
+    "japanese": "突然",
+    "hiragana": "とつぜん",
+    "romaji": "totsuzen",
+    "english": "suddenly",
+    "french": "soudainement",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "突然雨が降りました。",
+        "hiragana": "とつぜんあめがふりました。",
+        "romaji": "Totsuzen ame ga furimashita.",
+        "english": "It suddenly rained.",
+        "french": "Il a soudainement plu."
+      }
+    ]
+  },
+  {
+    "id": "tottemo",
+    "japanese": "とっても",
+    "hiragana": "とっても",
+    "romaji": "tottemo",
+    "english": "very, extremely",
+    "french": "très, extrêmement",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "彼はとっても元気です。",
+        "hiragana": "かれはとってもげんきです。",
+        "romaji": "Kare wa tottemo genki desu.",
+        "english": "He is very energetic.",
+        "french": "Il est très en forme."
+      }
+    ]
+  },
+  {
+    "id": "totteoku_koto",
+    "japanese": "取っておくこと",
+    "hiragana": "とっておくこと",
+    "romaji": "totteoku koto",
+    "english": "something kept aside",
+    "french": "chose mise de côté",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "それは取っておくことにします。",
+        "hiragana": "それはとっておくことにします。",
+        "romaji": "Sore wa totteoku koto ni shimasu.",
+        "english": "I will keep that aside.",
+        "french": "Je vais garder ça de côté."
+      }
+    ]
+  },
+  {
+    "id": "tou",
+    "japanese": "十",
+    "hiragana": "とう",
+    "romaji": "tou",
+    "english": "ten (counter)",
+    "french": "dix",
+    "level": "N5",
+    "category": "number",
+    "wordType": "counter",
+    "examples": [
+      {
+        "japanese": "りんごを十個買いました。",
+        "hiragana": "りんごをとうこかいました。",
+        "romaji": "Ringo o tou ko kaimashita.",
+        "english": "I bought ten apples.",
+        "french": "J'ai acheté dix pommes."
+      }
+    ]
+  },
+  {
+    "id": "tounai",
+    "japanese": "島内",
+    "hiragana": "とうない",
+    "romaji": "tounai",
+    "english": "inside the island",
+    "french": "dans l'île",
+    "level": "N5",
+    "category": "location",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "島内を歩きました。",
+        "hiragana": "とうないをあるきました。",
+        "romaji": "Tounai o arukimashita.",
+        "english": "I walked inside the island.",
+        "french": "J'ai marché dans l'île."
+      }
+    ]
+  },
+  {
+    "id": "tounyuu",
+    "japanese": "豆乳",
+    "hiragana": "とうにゅう",
+    "romaji": "tounyuu",
+    "english": "soy milk",
+    "french": "lait de soja",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "朝ごはんに豆乳を飲みます。",
+        "hiragana": "あさごはんにとうにゅうをのみます。",
+        "romaji": "Asagohan ni tounyuu o nomimasu.",
+        "english": "I drink soy milk for breakfast.",
+        "french": "Je bois du lait de soja au petit déjeuner."
+      }
+    ]
+  },
+  {
+    "id": "touzoku",
+    "japanese": "盗賊",
+    "hiragana": "とうぞく",
+    "romaji": "touzoku",
+    "english": "thief, bandit",
+    "french": "voleur, bandit",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "盗賊が捕まりました。",
+        "hiragana": "とうぞくがつかまりました。",
+        "romaji": "Touzoku ga tsukamarimashita.",
+        "english": "The thief was caught.",
+        "french": "Le voleur a été attrapé."
+      }
+    ]
+  },
+  {
+    "id": "tousan",
+    "japanese": "父さん",
+    "hiragana": "とうさん",
+    "romaji": "tousan",
+    "english": "father (casual)",
+    "french": "papa",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "父さんは元気です。",
+        "hiragana": "とうさんはげんきです。",
+        "romaji": "Tousan wa genki desu.",
+        "english": "Dad is fine.",
+        "french": "Papa va bien."
+      }
+    ]
   }
 ];
 
