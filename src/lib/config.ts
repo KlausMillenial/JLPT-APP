@@ -15,7 +15,12 @@ export const ELEVENLABS_CONFIG = {
   voices: {
     japanese: 'TX3LPaxmHKxFdv7VOQHJ', // Liam - better for Japanese
     english: 'EXAVITQu4vr4xnSDxMaL',   // Sarah
-    french: 'FGY2WhTYpPnrIDTdsKH5'     // Laura
+    french: 'FGY2WhTYpPnrIDTdsKH5',    // Laura
+    german: 'EXAVITQu4vr4xnSDxMaL',    // Sarah (fallback)
+    vietnamese: 'TX3LPaxmHKxFdv7VOQHJ', // Liam (multilingual)
+    chinese: 'TX3LPaxmHKxFdv7VOQHJ',   // Liam (multilingual)
+    korean: 'TX3LPaxmHKxFdv7VOQHJ',    // Liam (multilingual)
+    spanish: 'FGY2WhTYpPnrIDTdsKH5'    // Laura (multilingual)
   }
 };
 

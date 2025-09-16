@@ -64,7 +64,17 @@ Return format:
       });
 
       if (!response.ok) {
-        throw new Error(`Translation API error: ${response.status} ${response.statusText}`);
+        const errorData = await response.json().catch(() => ({}));
+        
+        if (response.status === 429) {
+          throw new Error('OpenAI API quota exceeded. Please check your billing and usage limits at https://platform.openai.com/account/usage');
+        } else if (response.status === 401) {
+          throw new Error('Invalid OpenAI API key. Please check your API key is correct.');
+        } else if (errorData.error?.message) {
+          throw new Error(`OpenAI API error: ${errorData.error.message}`);
+        } else {
+          throw new Error(`Translation API error: ${response.status} ${response.statusText}`);
+        }
       }
 
       const data = await response.json();

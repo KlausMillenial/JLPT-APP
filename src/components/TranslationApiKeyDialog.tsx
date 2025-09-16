@@ -60,7 +60,18 @@ export const TranslationApiKeyDialog = ({ isOpen, onClose, onTranslationStart }:
       }
     } catch (error) {
       console.error('API key validation failed:', error);
-      setError('Invalid API key or API error. Please check your key and try again.');
+      
+      const errorMessage = error instanceof Error ? error.message : 'Unknown error occurred';
+      
+      if (errorMessage.includes('quota exceeded')) {
+        setError('Your OpenAI API quota has been exceeded. Please check your billing and usage limits.');
+      } else if (errorMessage.includes('Invalid OpenAI API key')) {
+        setError('Invalid API key. Please check your OpenAI API key is correct.');
+      } else if (errorMessage.includes('401')) {
+        setError('Invalid API key. Please check your OpenAI API key is correct.');
+      } else {
+        setError(`API Error: ${errorMessage}`);
+      }
     } finally {
       setIsValidating(false);
     }

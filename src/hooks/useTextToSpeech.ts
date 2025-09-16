@@ -37,8 +37,12 @@ export const useTextToSpeech = () => {
     setError(null);
 
     try {
-      const voiceId = ELEVENLABS_CONFIG.voices[language];
+      const voiceId = ELEVENLABS_CONFIG.voices[language] || ELEVENLABS_CONFIG.voices.english;
       console.log('TTS Debug - Using voice:', voiceId, 'for language:', language);
+
+      if (!voiceId) {
+        throw new Error('No voice available for the selected language');
+      }
 
       const response = await fetch(`${ELEVENLABS_CONFIG.apiUrl}/text-to-speech/${voiceId}`, {
         method: 'POST',
