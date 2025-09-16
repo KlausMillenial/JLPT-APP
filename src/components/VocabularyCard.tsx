@@ -6,6 +6,7 @@ import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
 import { KanjiPracticeModal } from './KanjiPracticeModal';
+import BrowserImageService from '@/services/browserImageService';
 import { PlaceholderImageService } from '@/services/placeholderImageService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
@@ -120,36 +121,39 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     
     try {
       // Create a context-aware prompt that describes the word visually
-      const translation = word[language] || word.english; // Fallback to English if translation not available
+      const translation = word[language] || word.english;
       const prompt = createImagePrompt(word, translation);
       
       console.log('Generated prompt:', prompt);
       
-      const result = await PlaceholderImageService.generateImage({
+      // Try AI image generation first
+      const browserImageService = BrowserImageService.getInstance();
+      const result = await browserImageService.generateImage({
         positivePrompt: prompt,
         width: 512,
         height: 512,
       });
       
-      console.log('Image generation result:', result);
+      console.log('AI image generation result:', result);
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
-        toast.success('Visual learning aid generated!');
+        toast.success('AI image generated successfully!');
       } else {
-        throw new Error('No image URL returned');
+        throw new Error('No image URL returned from AI service');
       }
     } catch (error) {
-      console.error('Error generating image:', error);
+      console.error('AI image generation failed:', error);
       
-      // Create a simple fallback image
+      // Fall back to visual aid if AI generation fails
       try {
+        const translation = word[language] || word.english;
         const fallbackResult = await createFallbackImage(word, translation);
         setGeneratedImageUrl(fallbackResult.imageURL);
-        toast.info('Generated simple visual aid');
+        toast.info('Generated visual learning aid');
       } catch (fallbackError) {
         console.error('Fallback image generation failed:', fallbackError);
-        toast.error('Unable to generate visual aid');
+        toast.error('Unable to generate any visual aid');
       }
     } finally {
       setIsGeneratingImage(false);
@@ -221,7 +225,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               {isGeneratingImage ? (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
-                  <span className="text-sm text-muted-foreground">Generating image...</span>
+                  <span className="text-sm text-muted-foreground">Generating AI image...</span>
+                  <span className="text-xs text-muted-foreground mt-1">This may take a moment</span>
                 </div>
               ) : generatedImageUrl ? (
                 <img 
@@ -232,7 +237,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
-                  <span className="text-sm text-primary/60 text-center">Image will appear<br />automatically</span>
+                  <span className="text-sm text-primary/60 text-center">AI image will generate<br />when you flip this card</span>
                 </div>
               )}
             </div>
