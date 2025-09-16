@@ -179,19 +179,21 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                   {isCorrect ? 'Correct!' : 'Incorrect'}
                 </span>
               </div>
-              {!isCorrect && (
-                <div className="text-lg space-y-2">
+              
+              <div className="text-lg space-y-3">
+                {!isCorrect && (
                   <p>Correct answer: <span className="font-semibold text-xl">{question.correctAnswer}</span></p>
-                  <div className="flex justify-center">
-                    <VoiceButton 
-                      text={question.correctAnswer}
-                      language={getAnswerLanguage()}
-                      variant="outline"
-                      size="sm"
-                    />
-                  </div>
+                )}
+                
+                <div className="flex justify-center">
+                  <VoiceButton 
+                    text={question.correctAnswer}
+                    language={getAnswerLanguage()}
+                    variant="outline"
+                    size="sm"
+                  />
                 </div>
-              )}
+              </div>
             </div>
 
             {/* Show additional info about the word */}
