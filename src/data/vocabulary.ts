@@ -6560,6 +6560,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "J'ai faim."
       }
     ]
+  },
+  {
+    "id": "senaka_te",
+    "japanese": "手",
+    "hiragana": "て",
+    "romaji": "te",
+    "english": "hand",
+    "french": "main",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "手を洗ってください。",
+        "hiragana": "てをあらってください。",
+        "romaji": "Te o aratte kudasai.",
+        "english": "Please wash your hands.",
+        "french": "Lavez-vous les mains, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "senaka_ashi",
+    "japanese": "足",
+    "hiragana": "あし",
+    "romaji": "ashi",
+    "english": "leg, foot",
+    "french": "jambe, pied",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "足が痛いです。",
+        "hiragana": "あしがいたいです。",
+        "romaji": "Ashi ga itai desu.",
+        "english": "My leg hurts.",
+        "french": "J'ai mal à la jambe."
+      }
+    ]
+  },
+  {
+    "id": "senaka_me",
+    "japanese": "目",
+    "hiragana": "め",
+    "romaji": "me",
+    "english": "eye",
+    "french": "œil",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "目を閉じてください。",
+        "hiragana": "めをとじてください。",
+        "romaji": "Me o tojite kudasai.",
+        "english": "Please close your eyes.",
+        "french": "Fermez les yeux, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "senaka_mimi",
+    "japanese": "耳",
+    "hiragana": "みみ",
+    "romaji": "mimi",
+    "english": "ear",
+    "french": "oreille",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "音楽を耳で聞きます。",
+        "hiragana": "おんがくをみみでききます。",
+        "romaji": "Ongaku o mimi de kikimasu.",
+        "english": "I listen to music with my ears.",
+        "french": "J'écoute de la musique avec mes oreilles."
+      }
+    ]
+  },
+  {
+    "id": "senaka_kuchi",
+    "japanese": "口",
+    "hiragana": "くち",
+    "romaji": "kuchi",
+    "english": "mouth",
+    "french": "bouche",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "口を大きく開けてください。",
+        "hiragana": "くちをおおきくあけてください。",
+        "romaji": "Kuchi o ookiku akete kudasai.",
+        "english": "Please open your mouth wide.",
+        "french": "Ouvrez grand la bouche, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "senaka_hana",
+    "japanese": "鼻",
+    "hiragana": "はな",
+    "romaji": "hana",
+    "english": "nose",
+    "french": "nez",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "鼻が詰まっています。",
+        "hiragana": "はながつまっています。",
+        "romaji": "Hana ga tsumatte imasu.",
+        "english": "My nose is blocked.",
+        "french": "Mon nez est bouché."
+      }
+    ]
+  },
+  {
+    "id": "senaka_hair",
+    "japanese": "髪",
+    "hiragana": "かみ",
+    "romaji": "kami",
+    "english": "hair",
+    "french": "cheveux",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "髪を切りました。",
+        "hiragana": "かみをきりました。",
+        "romaji": "Kami o kirimashita.",
+        "english": "I cut my hair.",
+        "french": "J'ai coupé mes cheveux."
+      }
+    ]
+  },
+  {
+    "id": "senaka_hara2",
+    "japanese": "腹",
+    "hiragana": "はら",
+    "romaji": "hara",
+    "english": "belly",
+    "french": "ventre",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "腹が立ちました。",
+        "hiragana": "はらがたちました。",
+        "romaji": "Hara ga tachimashita.",
+        "english": "I got angry.",
+        "french": "Je me suis fâché."
+      }
+    ]
+  },
+  {
+    "id": "senaka_kao",
+    "japanese": "顔",
+    "hiragana": "かお",
+    "romaji": "kao",
+    "english": "face",
+    "french": "visage",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "顔を洗います。",
+        "hiragana": "かおをあらいます。",
+        "romaji": "Kao o araimasu.",
+        "english": "I wash my face.",
+        "french": "Je me lave le visage."
+      }
+    ]
+  },
+  {
+    "id": "senaka_hoppe",
+    "japanese": "ほっぺ",
+    "hiragana": "ほっぺ",
+    "romaji": "hoppe",
+    "english": "cheek",
+    "french": "joue",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "ほっぺが赤いです。",
+        "hiragana": "ほっぺがあかいです。",
+        "romaji": "Hoppe ga akai desu.",
+        "english": "His cheeks are red.",
+        "french": "Ses joues sont rouges."
+      }
+    ]
+  },
+  {
+    "id": "seki_seki",
+    "japanese": "咳",
+    "hiragana": "せき",
+    "romaji": "seki",
+    "english": "cough",
+    "french": "toux",
+    "level": "N5",
+    "category": "health",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "咳が出ます。",
+        "hiragana": "せきがでます。",
+        "romaji": "Seki ga demasu.",
+        "english": "I am coughing.",
+        "french": "Je tousse."
+      }
+    ]
+  },
+  {
+    "id": "seikou_shippai",
+    "japanese": "失敗",
+    "hiragana": "しっぱい",
+    "romaji": "shippai",
+    "english": "failure",
+    "french": "échec",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "試験に失敗しました。",
+        "hiragana": "しけんにしっぱいしました。",
+        "romaji": "Shiken ni shippai shimashita.",
+        "english": "I failed the exam.",
+        "french": "J'ai échoué à l'examen."
+      }
+    ]
+  },
+  {
+    "id": "seikou_juubun",
+    "japanese": "十分",
+    "hiragana": "じゅうぶん",
+    "romaji": "juubun",
+    "english": "enough",
+    "french": "suffisant",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "十分に休んでください。",
+        "hiragana": "じゅうぶんにやすんでください。",
+        "romaji": "Juubun ni yasunde kudasai.",
+        "english": "Please rest enough.",
+        "french": "Reposez-vous suffisamment."
+      }
+    ]
+  },
+  {
+    "id": "sekinin",
+    "japanese": "責任",
+    "hiragana": "せきにん",
+    "romaji": "sekinin",
+    "english": "responsibility",
+    "french": "responsabilité",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "責任を持ちます。",
+        "hiragana": "せきにんをもちます。",
+        "romaji": "Sekinin o mochimasu.",
+        "english": "I take responsibility.",
+        "french": "J'assume la responsabilité."
+      }
+    ]
+  },
+  {
+    "id": "sekken_omocha",
+    "japanese": "おもちゃ",
+    "hiragana": "おもちゃ",
+    "romaji": "omocha",
+    "english": "toy",
+    "french": "jouet",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "子供がおもちゃで遊んでいます。",
+        "hiragana": "こどもがおもちゃであそんでいます。",
+        "romaji": "Kodomo ga omocha de asonde imasu.",
+        "english": "The child is playing with a toy.",
+        "french": "L'enfant joue avec un jouet."
+      }
+    ]
+  },
+  {
+    "id": "sekou_mondai",
+    "japanese": "問題",
+    "hiragana": "もんだい",
+    "romaji": "mondai",
+    "english": "problem, question",
+    "french": "problème, question",
+    "level": "N5",
+    "category": "school",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "この問題は難しいです。",
+        "hiragana": "このもんだいはむずかしいです。",
+        "romaji": "Kono mondai wa muzukashii desu.",
+        "english": "This problem is difficult.",
+        "french": "Ce problème est difficile."
+      }
+    ]
+  },
+  {
+    "id": "senaka_yubi",
+    "japanese": "指",
+    "hiragana": "ゆび",
+    "romaji": "yubi",
+    "english": "finger",
+    "french": "doigt",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "指にけがをしました。",
+        "hiragana": "ゆびにけがをしました。",
+        "romaji": "Yubi ni kega o shimashita.",
+        "english": "I hurt my finger.",
+        "french": "Je me suis blessé au doigt."
+      }
+    ]
   }
 ];
 
