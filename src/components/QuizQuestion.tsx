@@ -70,10 +70,15 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
     setIsCorrect(correct);
     setShowResult(true);
     
-    // Show continue button after 3 seconds, or immediately if user wants to continue
+    console.log('Quiz Debug - Answer result:', correct ? 'correct' : 'incorrect');
+    
+    // Show continue button immediately for incorrect answers (so users can see explanation)
+    // For correct answers, show after 2 seconds
+    const delay = correct ? 2000 : 500;
     setTimeout(() => {
+      console.log('Quiz Debug - Showing continue button');
       setShowContinueButton(true);
-    }, 3000);
+    }, delay);
   };
 
   const handleContinue = () => {
