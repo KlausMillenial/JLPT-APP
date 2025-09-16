@@ -6000,6 +6000,306 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "J'ai déjà vu du sumo."
       }
     ]
+  },
+  {
+    "id": "suru",
+    "japanese": "する",
+    "hiragana": "する",
+    "romaji": "suru",
+    "english": "to do",
+    "french": "faire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "宿題をします。",
+        "hiragana": "しゅくだいをします。",
+        "romaji": "Shukudai o shimasu.",
+        "english": "I do homework.",
+        "french": "Je fais mes devoirs."
+      }
+    ]
+  },
+  {
+    "id": "seito",
+    "japanese": "生徒",
+    "hiragana": "せいと",
+    "romaji": "seito",
+    "english": "student",
+    "french": "élève",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "教室に生徒がいます。",
+        "hiragana": "きょうしつにせいとがいます。",
+        "romaji": "Kyoushitsu ni seito ga imasu.",
+        "english": "There are students in the classroom.",
+        "french": "Il y a des élèves dans la salle de classe."
+      }
+    ]
+  },
+  {
+    "id": "sekai",
+    "japanese": "世界",
+    "hiragana": "せかい",
+    "romaji": "sekai",
+    "english": "world",
+    "french": "monde",
+    "level": "N5",
+    "category": "geography",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "世界は広いです。",
+        "hiragana": "せかいはひろいです。",
+        "romaji": "Sekai wa hiroi desu.",
+        "english": "The world is big.",
+        "french": "Le monde est vaste."
+      }
+    ]
+  },
+  {
+    "id": "sekken",
+    "japanese": "石鹸",
+    "hiragana": "せっけん",
+    "romaji": "sekken",
+    "english": "soap",
+    "french": "savon",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "石鹸で手を洗います。",
+        "hiragana": "せっけんでてをあらいます。",
+        "romaji": "Sekken de te o araimasu.",
+        "english": "I wash my hands with soap.",
+        "french": "Je me lave les mains avec du savon."
+      }
+    ]
+  },
+  {
+    "id": "sekken_kaiwa",
+    "japanese": "石鹸会話",
+    "hiragana": "せっけんかいわ",
+    "romaji": "sekken kaiwa",
+    "english": "casual talk",
+    "french": "conversation banale",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "石鹸会話をしました。",
+        "hiragana": "せっけんかいわをしました。",
+        "romaji": "Sekken kaiwa o shimashita.",
+        "english": "We had a small talk.",
+        "french": "Nous avons eu une petite conversation."
+      }
+    ]
+  },
+  {
+    "id": "sekou",
+    "japanese": "成功",
+    "hiragana": "せいこう",
+    "romaji": "seikou",
+    "english": "success",
+    "french": "succès",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "試験に成功しました。",
+        "hiragana": "しけんにせいこうしました。",
+        "romaji": "Shiken ni seikou shimashita.",
+        "english": "I succeeded in the exam.",
+        "french": "J'ai réussi l'examen."
+      }
+    ]
+  },
+  {
+    "id": "seibutsu",
+    "japanese": "生物",
+    "hiragana": "せいぶつ",
+    "romaji": "seibutsu",
+    "english": "living thing",
+    "french": "être vivant",
+    "level": "N5",
+    "category": "science",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "森には多くの生物がいます。",
+        "hiragana": "もりにはおおくのせいぶつがいます。",
+        "romaji": "Mori ni wa ooku no seibutsu ga imasu.",
+        "english": "There are many living things in the forest.",
+        "french": "Il y a beaucoup d'êtres vivants dans la forêt."
+      }
+    ]
+  },
+  {
+    "id": "seito_tachi",
+    "japanese": "生徒たち",
+    "hiragana": "せいとたち",
+    "romaji": "seito-tachi",
+    "english": "students",
+    "french": "élèves",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "生徒たちが外で遊んでいます。",
+        "hiragana": "せいとたちがそとであそんでいます。",
+        "romaji": "Seito-tachi ga soto de asonde imasu.",
+        "english": "The students are playing outside.",
+        "french": "Les élèves jouent dehors."
+      }
+    ]
+  },
+  {
+    "id": "seibun",
+    "japanese": "成分",
+    "hiragana": "せいぶん",
+    "romaji": "seibun",
+    "english": "ingredient, component",
+    "french": "ingrédient, composant",
+    "level": "N5",
+    "category": "science",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "この薬の成分を確認しました。",
+        "hiragana": "このくすりのせいぶんをかくにんしました。",
+        "romaji": "Kono kusuri no seibun o kakunin shimashita.",
+        "english": "I checked the ingredients of this medicine.",
+        "french": "J'ai vérifié les ingrédients de ce médicament."
+      }
+    ]
+  },
+  {
+    "id": "seinen",
+    "japanese": "青年",
+    "hiragana": "せいねん",
+    "romaji": "seinen",
+    "english": "young man",
+    "french": "jeune homme",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "その青年は学生です。",
+        "hiragana": "そのせいねんはがくせいです。",
+        "romaji": "Sono seinen wa gakusei desu.",
+        "english": "That young man is a student.",
+        "french": "Ce jeune homme est étudiant."
+      }
+    ]
+  },
+  {
+    "id": "seikatsu",
+    "japanese": "生活",
+    "hiragana": "せいかつ",
+    "romaji": "seikatsu",
+    "english": "life, livelihood",
+    "french": "vie quotidienne",
+    "level": "N5",
+    "category": "daily life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "日本での生活は楽しいです。",
+        "hiragana": "にほんでのせいかつはたのしいです。",
+        "romaji": "Nihon de no seikatsu wa tanoshii desu.",
+        "english": "Life in Japan is enjoyable.",
+        "french": "La vie au Japon est agréable."
+      }
+    ]
+  },
+  {
+    "id": "seiyou",
+    "japanese": "西洋",
+    "hiragana": "せいよう",
+    "romaji": "seiyou",
+    "english": "the West",
+    "french": "Occident",
+    "level": "N5",
+    "category": "geography",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "西洋の文化を勉強します。",
+        "hiragana": "せいようのぶんかをべんきょうします。",
+        "romaji": "Seiyou no bunka o benkyou shimasu.",
+        "english": "I study Western culture.",
+        "french": "J'étudie la culture occidentale."
+      }
+    ]
+  },
+  {
+    "id": "seki",
+    "japanese": "席",
+    "hiragana": "せき",
+    "romaji": "seki",
+    "english": "seat",
+    "french": "siège, place",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "席に座ってください。",
+        "hiragana": "せきにすわってください。",
+        "romaji": "Seki ni suwatte kudasai.",
+        "english": "Please sit on the seat.",
+        "french": "Asseyez-vous à la place."
+      }
+    ]
+  },
+  {
+    "id": "sekai_meisaku",
+    "japanese": "世界名作",
+    "hiragana": "せかいめいさく",
+    "romaji": "sekai meisaku",
+    "english": "world masterpiece",
+    "french": "chef-d'œuvre mondial",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "世界名作を読みました。",
+        "hiragana": "せかいめいさくをよみました。",
+        "romaji": "Sekai meisaku o yomimashita.",
+        "english": "I read a world masterpiece.",
+        "french": "J'ai lu un chef-d'œuvre mondial."
+      }
+    ]
+  },
+  {
+    "id": "sekou_jikken",
+    "japanese": "成功実験",
+    "hiragana": "せいこうじっけん",
+    "romaji": "seikou jikken",
+    "english": "successful experiment",
+    "french": "expérience réussie",
+    "level": "N5",
+    "category": "science",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "成功実験が行われました。",
+        "hiragana": "せいこうじっけんがおこなわれました。",
+        "romaji": "Seikou jikken ga okonaware mashita.",
+        "english": "A successful experiment was conducted.",
+        "french": "Une expérience réussie a été réalisée."
+      }
+    ]
   }
 ];
 
