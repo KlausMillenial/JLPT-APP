@@ -98,6 +98,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "hon",
     english: "book",
     french: "livre",
+    german: "Buch",
+    vietnamese: "sách",
+    chinese: "书",
+    korean: "책",
+    spanish: "libro",
     level: "N5",
     category: "object",
     wordType: "noun",
@@ -107,7 +112,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "おもしろいほんをよんでいます。",
         romaji: "Omoshiroi hon o yonde imasu.",
         english: "I am reading an interesting book.",
-        french: "Je lis un livre intéressant."
+        french: "Je lis un livre intéressant.",
+        german: "Ich lese ein interessantes Buch.",
+        vietnamese: "Tôi đang đọc một cuốn sách thú vị.",
+        chinese: "我在读一本有趣的书。",
+        korean: "나는 재미있는 책을 읽고 있습니다.",
+        spanish: "Estoy leyendo un libro interesante."
       }
     ]
   },
@@ -118,6 +128,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "taberu",
     english: "to eat",
     french: "manger",
+    german: "essen",
+    vietnamese: "ăn",
+    chinese: "吃",
+    korean: "먹다",
+    spanish: "comer",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -127,7 +142,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "すしをたべたいです。",
         romaji: "Sushi o tabetai desu.",
         english: "I want to eat sushi.",
-        french: "Je veux manger des sushis."
+        french: "Je veux manger des sushis.",
+        german: "Ich möchte Sushi essen.",
+        vietnamese: "Tôi muốn ăn sushi.",
+        chinese: "我想吃寿司。",
+        korean: "초밥을 먹고 싶습니다.",
+        spanish: "Quiero comer sushi."
       }
     ]
   },
@@ -138,6 +158,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "akai",
     english: "red",
     french: "rouge",
+    german: "rot",
+    vietnamese: "đỏ",
+    chinese: "红色的",
+    korean: "빨간",
+    spanish: "rojo",
     level: "N5",
     category: "color",
     wordType: "adjective",
@@ -147,7 +172,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あかいはながうつくしいです。",
         romaji: "Akai hana ga utsukushii desu.",
         english: "The red flowers are beautiful.",
-        french: "Les fleurs rouges sont belles."
+        french: "Les fleurs rouges sont belles.",
+        german: "Die roten Blumen sind schön.",
+        vietnamese: "Những bông hoa đỏ rất đẹp.",
+        chinese: "红花很美。",
+        korean: "빨간 꽃이 아름답습니다.",
+        spanish: "Las flores rojas son hermosas."
       }
     ]
   },
@@ -158,6 +188,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "gakkou",
     english: "school",
     french: "école",
+    german: "Schule",
+    vietnamese: "trường học",
+    chinese: "学校",
+    korean: "학교",
+    spanish: "escuela",
     level: "N5",
     category: "place",
     wordType: "noun",
@@ -167,7 +202,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "がっこうでにほんごをべんきょうします。",
         romaji: "Gakkou de nihongo o benkyou shimasu.",
         english: "I study Japanese at school.",
-        french: "J'étudie le japonais à l'école."
+        french: "J'étudie le japonais à l'école.",
+        german: "Ich lerne Japanisch in der Schule.",
+        vietnamese: "Tôi học tiếng Nhật ở trường.",
+        chinese: "我在学校学习日语。",
+        korean: "학교에서 일본어를 공부합니다.",
+        spanish: "Estudio japonés en la escuela."
       }
     ]
   },
@@ -178,6 +218,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "mizu",
     english: "water",
     french: "eau",
+    german: "Wasser",
+    vietnamese: "nước",
+    chinese: "水",
+    korean: "물",
+    spanish: "agua",
     level: "N5",
     category: "nature",
     wordType: "noun",
@@ -187,7 +232,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "つめたいみずをのみました。",
         romaji: "Tsumetai mizu o nomimashita.",
         english: "I drank cold water.",
-        french: "J'ai bu de l'eau froide."
+        french: "J'ai bu de l'eau froide.",
+        german: "Ich habe kaltes Wasser getrunken.",
+        vietnamese: "Tôi đã uống nước lạnh.",
+        chinese: "我喝了冷水。",
+        korean: "찬물을 마셨습니다.",
+        spanish: "Bebí agua fría."
       }
     ]
   },
@@ -198,6 +248,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "au",
     english: "to meet",
     french: "rencontrer",
+    german: "treffen",
+    vietnamese: "gặp",
+    chinese: "见面",
+    korean: "만나다",
+    spanish: "encontrar / reunirse",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -207,7 +262,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ともだちにあう。",
         romaji: "Tomodachi ni au.",
         english: "I meet a friend.",
-        french: "Je rencontre un ami."
+        french: "Je rencontre un ami.",
+        german: "Ich treffe einen Freund.",
+        vietnamese: "Tôi gặp một người bạn.",
+        chinese: "我见朋友。",
+        korean: "친구를 만난다.",
+        spanish: "Me encuentro con un amigo."
       }
     ]
   },
@@ -218,6 +278,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ao",
     english: "blue",
     french: "bleu",
+    german: "Blau",
+    vietnamese: "xanh dương",
+    chinese: "蓝色",
+    korean: "파랑",
+    spanish: "azul",
     level: "N5",
     category: "color",
     wordType: "noun",
@@ -227,7 +292,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "そらはあおです。",
         romaji: "Sora wa ao desu.",
         english: "The sky is blue.",
-        french: "Le ciel est bleu."
+        french: "Le ciel est bleu.",
+        german: "Der Himmel ist blau.",
+        vietnamese: "Bầu trời màu xanh.",
+        chinese: "天空是蓝色的。",
+        korean: "하늘은 파랗습니다.",
+        spanish: "El cielo es azul."
       }
     ]
   },
@@ -238,6 +308,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "aoi",
     english: "blue",
     french: "bleu (adjectif)",
+    german: "blau",
+    vietnamese: "xanh",
+    chinese: "蓝色的",
+    korean: "파란",
+    spanish: "azul",
     level: "N5",
     category: "color",
     wordType: "adjective",
@@ -247,7 +322,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あおいしゃつをきています。",
         romaji: "Aoi shatsu o kite imasu.",
         english: "I am wearing a blue shirt.",
-        french: "Je porte une chemise bleue."
+        french: "Je porte une chemise bleue.",
+        german: "Ich trage ein blaues Hemd.",
+        vietnamese: "Tôi đang mặc áo sơ mi màu xanh.",
+        chinese: "我穿着蓝色的衬衫。",
+        korean: "나는 파란 셔츠를 입고 있습니다.",
+        spanish: "Llevo una camisa azul."
       }
     ]
   },
@@ -258,6 +338,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "aka",
     english: "red",
     french: "rouge",
+    german: "Rot",
+    vietnamese: "màu đỏ",
+    chinese: "红色",
+    korean: "빨강",
+    spanish: "rojo",
     level: "N5",
     category: "color",
     wordType: "noun",
@@ -267,7 +352,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あかがすきです。",
         romaji: "Aka ga suki desu.",
         english: "I like red.",
-        french: "J'aime le rouge."
+        french: "J'aime le rouge.",
+        german: "Ich mag Rot.",
+        vietnamese: "Tôi thích màu đỏ.",
+        chinese: "我喜欢红色。",
+        korean: "나는 빨강을 좋아합니다.",
+        spanish: "Me gusta el rojo."
       }
     ]
   },
@@ -278,6 +368,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "akarui",
     english: "bright",
     french: "lumineux",
+    german: "hell",
+    vietnamese: "sáng",
+    chinese: "明亮",
+    korean: "밝은",
+    spanish: "brillante",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -287,7 +382,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "へやはあかるいです。",
         romaji: "Heya wa akarui desu.",
         english: "The room is bright.",
-        french: "La chambre est lumineuse."
+        french: "La chambre est lumineuse.",
+        german: "Das Zimmer ist hell.",
+        vietnamese: "Căn phòng sáng sủa.",
+        chinese: "房间很明亮。",
+        korean: "방이 밝습니다.",
+        spanish: "La habitación es luminosa."
       }
     ]
   },
