@@ -5,9 +5,10 @@ import { ApiKeyDialog } from './ApiKeyDialog';
 import { HuggingFaceApiKeyDialog } from './HuggingFaceApiKeyDialog';
 import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
+import { SwipeQuiz } from './SwipeQuiz';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2, List } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List, Move } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -192,6 +193,10 @@ export const VocabularyApp = () => {
     return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
+  if (currentView === 'swipe-quiz') {
+    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
+  }
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
@@ -235,6 +240,17 @@ export const VocabularyApp = () => {
               >
                 <Brain className="w-4 h-4 mr-2" />
                 Take Quiz
+              </Button>
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('swipe-quiz')}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  currentView === 'swipe-quiz' ? "bg-white/20" : ""
+                )}
+              >
+                <Move className="w-4 h-4 mr-2" />
+                Swipe Quiz
               </Button>
               <Button
                 variant="outline"
