@@ -24,13 +24,21 @@ export const VocabularyApp = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [language, setLanguage] = useState<LanguageOption>('english');
   const [isTranslating, setIsTranslating] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(20); // Limit to 20 cards per page for better performance
   const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
-    // Use deduplicated vocabulary data
-    const uniqueData = removeDuplicatesFromVocabulary();
-    console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
-    logVocabularyStats();
-    return uniqueData;
+    // Use deduplicated vocabulary data - memoized to run only once
+    return removeDuplicatesFromVocabulary();
   });
+
+  // Log stats only once on component mount
+  useEffect(() => {
+    const uniqueData = translatedVocabulary;
+    console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
+    if (process.env.NODE_ENV === 'development') {
+      logVocabularyStats();
+    }
+  }, []); // Empty dependency array - runs only once
 
   // Function to log all words to console
   const handleShowAllWords = () => {
@@ -123,7 +131,7 @@ export const VocabularyApp = () => {
   }, [autoTranslateForLanguage]);
 
   const filteredWords = useMemo(() => {
-    return translatedVocabulary.filter(word => {
+    const allFiltered = translatedVocabulary.filter(word => {
       const translation = word[language] || word.english; // Fallback to English if translation not available
       
       const matchesSearch = 
@@ -139,7 +147,21 @@ export const VocabularyApp = () => {
       
       return matchesSearch && matchesLevel && matchesCategory;
     });
+    
+    // Reset to first page when filters change
+    setCurrentPage(1);
+    
+    return allFiltered;
   }, [searchTerm, selectedLevel, selectedCategory, language, translatedVocabulary]);
+
+  // Paginated words for display
+  const paginatedWords = useMemo(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    return filteredWords.slice(startIndex, endIndex);
+  }, [filteredWords, currentPage, itemsPerPage]);
+
+  const totalPages = Math.ceil(filteredWords.length / itemsPerPage);
 
   const stats = {
     total: translatedVocabulary.length,
@@ -267,16 +289,45 @@ export const VocabularyApp = () => {
         </div>
 
         {/* Vocabulary Cards Grid */}
-        {filteredWords.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredWords.map((word) => (
-              <VocabularyCard 
-                key={word.id} 
-                word={word} 
-                language={language}
-              />
-            ))}
-          </div>
+        {paginatedWords.length > 0 ? (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {paginatedWords.map((word) => (
+                <VocabularyCard 
+                  key={word.id} 
+                  word={word} 
+                  language={language}
+                />
+              ))}
+            </div>
+            
+            {/* Pagination Controls */}
+            {totalPages > 1 && (
+              <div className="flex justify-center items-center gap-4 mt-12">
+                <Button
+                  variant="outline"
+                  onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                  disabled={currentPage === 1}
+                >
+                  Previous
+                </Button>
+                
+                <div className="flex items-center gap-2">
+                  <span className="text-sm text-muted-foreground">
+                    Page {currentPage} of {totalPages}
+                  </span>
+                </div>
+                
+                <Button
+                  variant="outline"
+                  onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                  disabled={currentPage === totalPages}
+                >
+                  Next
+                </Button>
+              </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-12">
             <div className="space-y-4">

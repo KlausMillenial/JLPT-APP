@@ -167,12 +167,12 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     }
   };
 
-  // Auto-generate image when card is displayed
-useEffect(() => {
-    if (!isFlipped && !generatedImageUrl && !isGeneratingImage) {
+  // Auto-generate image only when card is flipped (not immediately)
+  useEffect(() => {
+    if (isFlipped && !generatedImageUrl && !isGeneratingImage) {
       generateImage();
     }
-  }, []);
+  }, [isFlipped]);
 
   const translation = word[language] || word.english; // Fallback to English if translation not available
   const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
