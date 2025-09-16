@@ -200,8 +200,27 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                 <strong>{question.word.japanese}</strong> ({question.word.hiragana}) - {question.word.english}
               </div>
               {question.word.examples && question.word.examples[0] && (
-                <div className="italic">
-                  "{question.word.examples[0].japanese}" - "{question.word.examples[0].english}"
+                <div className="space-y-3 p-4 bg-muted/50 rounded-lg">
+                  <div className="font-medium text-foreground">Example:</div>
+                  <div className="space-y-2">
+                    <div className="text-lg font-medium text-foreground">
+                      {question.word.examples[0].japanese}
+                    </div>
+                    <div className="text-sm text-muted-foreground">
+                      {question.word.examples[0].hiragana}
+                    </div>
+                    <div className="text-sm italic text-foreground">
+                      "{question.word.examples[0].english}"
+                    </div>
+                    <div className="flex justify-center">
+                      <VoiceButton 
+                        text={question.word.examples[0].japanese}
+                        language="japanese"
+                        variant="outline"
+                        size="sm"
+                      />
+                    </div>
+                  </div>
                 </div>
               )}
             </div>
