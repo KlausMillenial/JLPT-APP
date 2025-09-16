@@ -14220,6 +14220,586 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Eh bien, à demain."
       }
     ]
+  },
+  {
+    id: "daigaku",
+    japanese: "大学",
+    hiragana: "だいがく",
+    romaji: "daigaku",
+    english: "university",
+    french: "université",
+    level: "N5",
+    category: "education",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "大学で日本語を勉強しています。",
+        hiragana: "だいがくでにほんごをべんきょうしています。",
+        romaji: "Daigaku de nihongo o benkyou shite imasu.",
+        english: "I study Japanese at university.",
+        french: "J'étudie le japonais à l'université."
+      }
+    ]
+  },
+  {
+    id: "daijoubu",
+    japanese: "大丈夫",
+    hiragana: "だいじょうぶ",
+    romaji: "daijoubu",
+    english: "all right; okay",
+    french: "ça va; d'accord",
+    level: "N5",
+    category: "expression",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "心配しないで、大丈夫です。",
+        hiragana: "しんぱいしないで、だいじょうぶです。",
+        romaji: "Shinpai shinaide, daijoubu desu.",
+        english: "Don't worry, it's all right.",
+        french: "Ne t'inquiète pas, ça va."
+      }
+    ]
+  },
+  {
+    id: "daisuki",
+    japanese: "大好き",
+    hiragana: "だいすき",
+    romaji: "daisuki",
+    english: "love; really like",
+    french: "adorer; aimer beaucoup",
+    level: "N5",
+    category: "emotion",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "犬が大好きです。",
+        hiragana: "いぬがだいすきです。",
+        romaji: "Inu ga daisuki desu.",
+        english: "I love dogs.",
+        french: "J'adore les chiens."
+      }
+    ]
+  },
+  {
+    id: "taitei",
+    japanese: "たいてい",
+    hiragana: "たいてい",
+    romaji: "taitei",
+    english: "usually",
+    french: "d'habitude",
+    level: "N5",
+    category: "frequency",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "たいてい朝コーヒーを飲みます。",
+        hiragana: "たいていあさこーひーをのみます。",
+        romaji: "Taitei asa koohii o nomimasu.",
+        english: "I usually drink coffee in the morning.",
+        french: "Je bois généralement du café le matin."
+      }
+    ]
+  },
+  {
+    id: "taihen",
+    japanese: "大変",
+    hiragana: "たいへん",
+    romaji: "taihen",
+    english: "terrible; very",
+    french: "terrible; très",
+    level: "N5",
+    category: "adjective",
+    wordType: "na-adjective/adverb",
+    examples: [
+      {
+        japanese: "宿題が大変です。",
+        hiragana: "しゅくだいがたいへんです。",
+        romaji: "Shukudai ga taihen desu.",
+        english: "Homework is tough.",
+        french: "Les devoirs sont durs."
+      }
+    ]
+  },
+  {
+    id: "takai",
+    japanese: "高い",
+    hiragana: "たかい",
+    romaji: "takai",
+    english: "tall; expensive",
+    french: "grand; cher",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この本は高いです。",
+        hiragana: "このほんはたかいです。",
+        romaji: "Kono hon wa takai desu.",
+        english: "This book is expensive.",
+        french: "Ce livre est cher."
+      }
+    ]
+  },
+  {
+    id: "takusan",
+    japanese: "たくさん",
+    hiragana: "たくさん",
+    romaji: "takusan",
+    english: "many; much",
+    french: "beaucoup",
+    level: "N5",
+    category: "quantity",
+    wordType: "adverb/noun",
+    examples: [
+      {
+        japanese: "たくさんの人が来ました。",
+        hiragana: "たくさんのひとがきました。",
+        romaji: "Takusan no hito ga kimashita.",
+        english: "Many people came.",
+        french: "Beaucoup de gens sont venus."
+      }
+    ]
+  },
+  {
+    id: "takushii",
+    japanese: "タクシー",
+    hiragana: "たくしー",
+    romaji: "takushii",
+    english: "taxi",
+    french: "taxi",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "タクシーで帰りました。",
+        hiragana: "たくしーでかえりました。",
+        romaji: "Takushii de kaerimashita.",
+        english: "I went home by taxi.",
+        french: "Je suis rentré en taxi."
+      }
+    ]
+  },
+  {
+    id: "tatami",
+    japanese: "畳",
+    hiragana: "たたみ",
+    romaji: "tatami",
+    english: "tatami (straw mat)",
+    french: "tatami (tapis de paille)",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "畳の部屋に住んでいます。",
+        hiragana: "たたみのへやにすんでいます。",
+        romaji: "Tatami no heya ni sunde imasu.",
+        english: "I live in a room with tatami.",
+        french: "Je vis dans une chambre avec des tatamis."
+      }
+    ]
+  },
+  {
+    id: "tatsu",
+    japanese: "立つ",
+    hiragana: "たつ",
+    romaji: "tatsu",
+    english: "to stand",
+    french: "se lever; se tenir debout",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "椅子から立ちます。",
+        hiragana: "いすからたちます。",
+        romaji: "Isu kara tachimasu.",
+        english: "I stand up from the chair.",
+        french: "Je me lève de la chaise."
+      }
+    ]
+  },
+  {
+    id: "tatemono",
+    japanese: "建物",
+    hiragana: "たてもの",
+    romaji: "tatemono",
+    english: "building",
+    french: "bâtiment",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "この建物は古いです。",
+        hiragana: "このたてものはふるいです。",
+        romaji: "Kono tatemono wa furui desu.",
+        english: "This building is old.",
+        french: "Ce bâtiment est ancien."
+      }
+    ]
+  },
+  {
+    id: "tanoshii",
+    japanese: "楽しい",
+    hiragana: "たのしい",
+    romaji: "tanoshii",
+    english: "enjoyable; fun",
+    french: "amusant; agréable",
+    level: "N5",
+    category: "emotion",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "パーティーは楽しかったです。",
+        hiragana: "ぱーてぃーはたのしかったです。",
+        romaji: "Paatii wa tanoshikatta desu.",
+        english: "The party was fun.",
+        french: "La fête était amusante."
+      }
+    ]
+  },
+  {
+    id: "tabako",
+    japanese: "たばこ",
+    hiragana: "たばこ",
+    romaji: "tabako",
+    english: "cigarette; tobacco",
+    french: "cigarette; tabac",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "たばこをやめたいです。",
+        hiragana: "たばこをやめたいです。",
+        romaji: "Tabako o yametai desu.",
+        english: "I want to quit smoking.",
+        french: "Je veux arrêter de fumer."
+      }
+    ]
+  },
+  {
+    id: "tabemono",
+    japanese: "食べ物",
+    hiragana: "たべもの",
+    romaji: "tabemono",
+    english: "food",
+    french: "nourriture",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本の食べ物は美味しいです。",
+        hiragana: "にほんのたべものはおいしいです。",
+        romaji: "Nihon no tabemono wa oishii desu.",
+        english: "Japanese food is delicious.",
+        french: "La nourriture japonaise est délicieuse."
+      }
+    ]
+  },
+  {
+    id: "tamago",
+    japanese: "卵",
+    hiragana: "たまご",
+    romaji: "tamago",
+    english: "egg",
+    french: "œuf",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "卵を二つください。",
+        hiragana: "たまごをふたつください。",
+        romaji: "Tamago o futatsu kudasai.",
+        english: "Two eggs, please.",
+        french: "Deux œufs, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "dame",
+    japanese: "だめ",
+    hiragana: "だめ",
+    romaji: "dame",
+    english: "no good; not allowed",
+    french: "pas bon; interdit",
+    level: "N5",
+    category: "expression",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "ここでたばこはだめです。",
+        hiragana: "ここでたばこはだめです。",
+        romaji: "Koko de tabako wa dame desu.",
+        english: "Smoking is not allowed here.",
+        french: "Il est interdit de fumer ici."
+      }
+    ]
+  },
+  {
+    id: "dare",
+    japanese: "誰",
+    hiragana: "だれ",
+    romaji: "dare",
+    english: "who",
+    french: "qui",
+    level: "N5",
+    category: "pronoun",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "あの人は誰ですか。",
+        hiragana: "あのひとはだれですか。",
+        romaji: "Ano hito wa dare desu ka?",
+        english: "Who is that person?",
+        french: "Qui est cette personne ?"
+      }
+    ]
+  },
+  {
+    id: "tanjoubi",
+    japanese: "誕生日",
+    hiragana: "たんじょうび",
+    romaji: "tanjoubi",
+    english: "birthday",
+    french: "anniversaire",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "誕生日おめでとう！",
+        hiragana: "たんじょうびおめでとう！",
+        romaji: "Tanjoubi omedetou!",
+        english: "Happy birthday!",
+        french: "Joyeux anniversaire !"
+      }
+    ]
+  },
+  {
+    id: "chiisai",
+    japanese: "小さい",
+    hiragana: "ちいさい",
+    romaji: "chiisai",
+    english: "small",
+    french: "petit",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "小さい犬がいます。",
+        hiragana: "ちいさいいぬがいます。",
+        romaji: "Chiisai inu ga imasu.",
+        english: "There is a small dog.",
+        french: "Il y a un petit chien."
+      }
+    ]
+  },
+  {
+    id: "chikai",
+    japanese: "近い",
+    hiragana: "ちかい",
+    romaji: "chikai",
+    english: "near; close",
+    french: "près; proche",
+    level: "N5",
+    category: "location",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "駅はここから近いです。",
+        hiragana: "えきはここからちかいです。",
+        romaji: "Eki wa koko kara chikai desu.",
+        english: "The station is near here.",
+        french: "La gare est proche d'ici."
+      }
+    ]
+  },
+  {
+    id: "chikaku",
+    japanese: "近く",
+    hiragana: "ちかく",
+    romaji: "chikaku",
+    english: "nearby; vicinity",
+    french: "à proximité",
+    level: "N5",
+    category: "location",
+    wordType: "adverb/noun",
+    examples: [
+      {
+        japanese: "近くの店でパンを買いました。",
+        hiragana: "ちかくのみせでぱんをかいました。",
+        romaji: "Chikaku no mise de pan o kaimashita.",
+        english: "I bought bread at a nearby store.",
+        french: "J'ai acheté du pain dans un magasin à proximité."
+      }
+    ]
+  },
+  {
+    id: "chigau",
+    japanese: "違う",
+    hiragana: "ちがう",
+    romaji: "chigau",
+    english: "to differ; to be wrong",
+    french: "différer; se tromper",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "それは違います。",
+        hiragana: "それはちがいます。",
+        romaji: "Sore wa chigaimasu.",
+        english: "That is wrong.",
+        french: "Ce n'est pas correct."
+      }
+    ]
+  },
+  {
+    id: "chichi",
+    japanese: "父",
+    hiragana: "ちち",
+    romaji: "chichi",
+    english: "father (humble)",
+    french: "père (modeste)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "父は会社員です。",
+        hiragana: "ちちはかいしゃいんです。",
+        romaji: "Chichi wa kaishain desu.",
+        english: "My father is a company employee.",
+        french: "Mon père est employé de bureau."
+      }
+    ]
+  },
+  {
+    id: "chairo",
+    japanese: "茶色",
+    hiragana: "ちゃいろ",
+    romaji: "chairo",
+    english: "brown (noun)",
+    french: "marron (nom)",
+    level: "N5",
+    category: "color",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "茶色が好きです。",
+        hiragana: "ちゃいろがすきです。",
+        romaji: "Chairo ga suki desu.",
+        english: "I like brown.",
+        french: "J'aime le marron."
+      }
+    ]
+  },
+  {
+    id: "chairoi",
+    japanese: "茶色い",
+    hiragana: "ちゃいろい",
+    romaji: "chairoi",
+    english: "brown (adjective)",
+    french: "marron (adjectif)",
+    level: "N5",
+    category: "color",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "茶色い靴を履いています。",
+        hiragana: "ちゃいろいくつをはいています。",
+        romaji: "Chairoi kutsu o haite imasu.",
+        english: "I am wearing brown shoes.",
+        french: "Je porte des chaussures marron."
+      }
+    ]
+  },
+  {
+    id: "chawan",
+    japanese: "茶碗",
+    hiragana: "ちゃわん",
+    romaji: "chawan",
+    english: "rice bowl",
+    french: "bol à riz",
+    level: "N5",
+    category: "kitchen",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "茶碗にご飯を入れます。",
+        hiragana: "ちゃわんにごはんをいれます。",
+        romaji: "Chawan ni gohan o iremasu.",
+        english: "I put rice in the bowl.",
+        french: "Je mets du riz dans le bol."
+      }
+    ]
+  },
+  {
+    id: "chuugakkou",
+    japanese: "中学校",
+    hiragana: "ちゅうがっこう",
+    romaji: "chuugakkou",
+    english: "middle school",
+    french: "collège",
+    level: "N5",
+    category: "education",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "弟は中学校に通っています。",
+        hiragana: "おとうとはちゅうがっこうにかよっています。",
+        romaji: "Otouto wa chuugakkou ni kayotte imasu.",
+        english: "My younger brother goes to middle school.",
+        french: "Mon petit frère va au collège."
+      }
+    ]
+  },
+  {
+    id: "choudo",
+    japanese: "ちょうど",
+    hiragana: "ちょうど",
+    romaji: "choudo",
+    english: "exactly; just",
+    french: "exactement; juste",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "ちょうど三時に会いましょう。",
+        hiragana: "ちょうどさんじにあいましょう。",
+        romaji: "Choudo san-ji ni aimashou.",
+        english: "Let's meet exactly at three o'clock.",
+        french: "Retrouvons-nous exactement à trois heures."
+      }
+    ]
+  },
+  {
+    id: "chotto",
+    japanese: "ちょっと",
+    hiragana: "ちょっと",
+    romaji: "chotto",
+    english: "a little; just a moment",
+    french: "un peu; un instant",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "ちょっと待ってください。",
+        hiragana: "ちょっとまってください。",
+        romaji: "Chotto matte kudasai.",
+        english: "Please wait a moment.",
+        french: "Attendez un instant, s'il vous plaît."
+      }
+    ]
   }
 ];
 
