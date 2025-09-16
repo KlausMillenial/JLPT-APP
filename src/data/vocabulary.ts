@@ -3582,22 +3582,32 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "otokonoko",
-    "japanese": "男の子",
-    "hiragana": "おとこのこ",
-    "romaji": "otokonoko",
-    "english": "boy",
-    "french": "garçon",
+    id: "otokonoko",
+    japanese: "男の子",
+    hiragana: "おとこのこ",
+    romaji: "otokonoko",
+    english: "boy",
+    french: "garçon",
+    german: "Junge",
+    vietnamese: "cậu bé",
+    chinese: "男孩",
+    korean: "남자아이",
+    spanish: "niño",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "男の子が走っています。",
-        "hiragana": "おとこのこがはしっています。",
-        "romaji": "Otokonoko ga hashitte imasu.",
-        "english": "The boy is running.",
-        "french": "Le garçon court."
+        japanese: "男の子が走っています。",
+        hiragana: "おとこのこがはしっています。",
+        romaji: "Otokonoko ga hashitte imasu.",
+        english: "The boy is running.",
+        french: "Le garçon court.",
+        german: "Der Junge rennt.",
+        vietnamese: "Cậu bé đang chạy.",
+        chinese: "男孩在跑。",
+        korean: "남자아이가 달리고 있습니다.",
+        spanish: "El niño está corriendo."
       }
     ]
   },
