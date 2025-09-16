@@ -10608,6 +10608,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tounyuu",
     "english": "soy milk",
     "french": "lait de soja",
+    "german": "Sojamilch",
+    "vietnamese": "sữa đậu nành",
+    "chinese": "豆浆",
+    "korean": "두유",
+    "spanish": "leche de soja",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -10617,7 +10622,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "あさごはんにとうにゅうをのみます。",
         "romaji": "Asagohan ni tounyuu o nomimasu.",
         "english": "I drink soy milk for breakfast.",
-        "french": "Je bois du lait de soja au petit déjeuner."
+        "french": "Je bois du lait de soja au petit déjeuner.",
+        "german": "Ich trinke Sojamilch zum Frühstück.",
+        "vietnamese": "Tôi uống sữa đậu nành cho bữa sáng.",
+        "chinese": "我早餐喝豆浆。",
+        "korean": "아침에 두유를 마십니다.",
+        "spanish": "Bebo leche de soja en el desayuno."
       }
     ]
   },
@@ -10628,6 +10638,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "touzoku",
     "english": "thief, bandit",
     "french": "voleur, bandit",
+    "german": "Dieb, Bandit",
+    "vietnamese": "tên trộm, tên cướp",
+    "chinese": "小偷，强盗",
+    "korean": "도둑, 강도",
+    "spanish": "ladrón, bandido",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
@@ -10637,7 +10652,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "とうぞくがつかまりました。",
         "romaji": "Touzoku ga tsukamarimashita.",
         "english": "The thief was caught.",
-        "french": "Le voleur a été attrapé."
+        "french": "Le voleur a été attrapé.",
+        "german": "Der Dieb wurde gefangen.",
+        "vietnamese": "Tên trộm đã bị bắt.",
+        "chinese": "小偷被抓住了。",
+        "korean": "도둑이 잡혔습니다.",
+        "spanish": "El ladrón fue atrapado."
       }
     ]
   },
@@ -10648,6 +10668,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tousan",
     "english": "father (casual)",
     "french": "papa",
+    "german": "Papa, Vater",
+    "vietnamese": "bố",
+    "chinese": "爸爸",
+    "korean": "아버지, 아빠",
+    "spanish": "papá",
     "level": "N5",
     "category": "family",
     "wordType": "noun",
@@ -10657,7 +10682,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "とうさんはげんきです。",
         "romaji": "Tousan wa genki desu.",
         "english": "Dad is fine.",
-        "french": "Papa va bien."
+        "french": "Papa va bien.",
+        "german": "Papa geht es gut.",
+        "vietnamese": "Bố khỏe mạnh.",
+        "chinese": "爸爸很好。",
+        "korean": "아버지는 괜찮습니다.",
+        "spanish": "Papá está bien."
       }
     ]
   },
@@ -10668,6 +10698,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "gaikoku",
     english: "foreign country",
     french: "pays étranger",
+    german: "fremdes Land",
+    vietnamese: "nước ngoài",
+    chinese: "外国",
+    korean: "외국",
+    spanish: "país extranjero",
     level: "N5",
     category: "place",
     wordType: "noun",
@@ -10677,7 +10712,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "がいこくへりょこうします。",
         romaji: "Gaikoku e ryokou shimasu.",
         english: "I travel abroad.",
-        french: "Je voyage à l'étranger."
+        french: "Je voyage à l'étranger.",
+        german: "Ich reise ins Ausland.",
+        vietnamese: "Tôi đi du lịch nước ngoài.",
+        chinese: "我到国外旅行。",
+        korean: "저는 해외로 여행을 갑니다.",
+        spanish: "Viajo al extranjero."
       }
     ]
   },
@@ -10688,6 +10728,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "gaikokujin",
     english: "foreigner",
     french: "étranger",
+    german: "Ausländer",
+    vietnamese: "người nước ngoài",
+    chinese: "外国人",
+    korean: "외국인",
+    spanish: "extranjero",
     level: "N5",
     category: "people",
     wordType: "noun",
@@ -10697,7 +10742,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "かれはがいこくじんです。",
         romaji: "Kare wa gaikokujin desu.",
         english: "He is a foreigner.",
-        french: "Il est étranger."
+        french: "Il est étranger.",
+        german: "Er ist Ausländer.",
+        vietnamese: "Anh ấy là người nước ngoài.",
+        chinese: "他是外国人。",
+        korean: "그는 외국인입니다.",
+        spanish: "Él es extranjero."
       }
     ]
   },
@@ -10708,6 +10758,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "kaisha",
     english: "company",
     french: "entreprise",
+    german: "Unternehmen",
+    vietnamese: "công ty",
+    chinese: "公司",
+    korean: "회사",
+    spanish: "empresa",
     level: "N5",
     category: "work",
     wordType: "noun",
@@ -10717,7 +10772,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "かいしゃではたらいています。",
         romaji: "Kaisha de hataraite imasu.",
         english: "I work at a company.",
-        french: "Je travaille dans une entreprise."
+        french: "Je travaille dans une entreprise.",
+        german: "Ich arbeite in einem Unternehmen.",
+        vietnamese: "Tôi làm việc tại một công ty.",
+        chinese: "我在公司工作。",
+        korean: "저는 회사에서 일합니다.",
+        spanish: "Trabajo en una empresa."
       }
     ]
   },
@@ -10728,6 +10788,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "kaidan",
     english: "stairs",
     french: "escaliers",
+    german: "Treppe",
+    vietnamese: "cầu thang",
+    chinese: "楼梯",
+    korean: "계단",
+    spanish: "escaleras",
     level: "N5",
     category: "building",
     wordType: "noun",
@@ -10737,7 +10802,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "かいだんをのぼります。",
         romaji: "Kaidan o noborimasu.",
         english: "I go up the stairs.",
-        french: "Je monte les escaliers."
+        french: "Je monte les escaliers.",
+        german: "Ich gehe die Treppe hinauf.",
+        vietnamese: "Tôi đi lên cầu thang.",
+        chinese: "我上楼梯。",
+        korean: "저는 계단을 올라갑니다.",
+        spanish: "Subo las escaleras."
       }
     ]
   },
@@ -10748,6 +10818,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "kaimono",
     english: "shopping",
     french: "courses, achats",
+    german: "Einkaufen",
+    vietnamese: "mua sắm",
+    chinese: "购物",
+    korean: "쇼핑",
+    spanish: "compras",
     level: "N5",
     category: "activity",
     wordType: "noun",
@@ -10757,7 +10832,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ははとかいものにいきます。",
         romaji: "Haha to kaimono ni ikimasu.",
         english: "I go shopping with my mother.",
-        french: "Je vais faire des courses avec ma mère."
+        french: "Je vais faire des courses avec ma mère.",
+        german: "Ich gehe mit meiner Mutter einkaufen.",
+        vietnamese: "Tôi đi mua sắm với mẹ.",
+        chinese: "我和妈妈一起去购物。",
+        korean: "어머니와 함께 쇼핑을 갑니다.",
+        spanish: "Voy de compras con mi madre."
       }
     ]
   },
@@ -10768,6 +10848,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "kau",
     english: "to buy",
     french: "acheter",
+    german: "kaufen",
+    vietnamese: "mua",
+    chinese: "买",
+    korean: "사다",
+    spanish: "comprar",
     level: "N5",
     category: "verb",
     wordType: "godan verb",
@@ -10777,7 +10862,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あたらしいくつをかいました。",
         romaji: "Atarashii kutsu o kaimashita.",
         english: "I bought new shoes.",
-        french: "J'ai acheté de nouvelles chaussures."
+        french: "J'ai acheté de nouvelles chaussures.",
+        german: "Ich habe neue Schuhe gekauft.",
+        vietnamese: "Tôi đã mua giày mới.",
+        chinese: "我买了新鞋。",
+        korean: "새 신발을 샀습니다.",
+        spanish: "Compré zapatos nuevos."
       }
     ]
   },
