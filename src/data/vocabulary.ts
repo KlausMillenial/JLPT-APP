@@ -7600,6 +7600,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "J'étudie beaucoup de phrases."
       }
     ]
+  },
+  {
+    "id": "tabun_kamoshirenai",
+    "japanese": "かもしれない",
+    "hiragana": "かもしれない",
+    "romaji": "kamoshirenai",
+    "english": "might, maybe",
+    "french": "peut-être",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "明日は雨かもしれない。",
+        "hiragana": "あしたはあめかもしれない。",
+        "romaji": "Ashita wa ame kamoshirenai.",
+        "english": "It might rain tomorrow.",
+        "french": "Il pourrait pleuvoir demain."
+      }
+    ]
+  },
+  {
+    "id": "takkyuubin",
+    "japanese": "宅急便",
+    "hiragana": "たっきゅうびん",
+    "romaji": "takkyuubin",
+    "english": "courier service",
+    "french": "service de messagerie",
+    "level": "N5",
+    "category": "service",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "宅急便で荷物を送りました。",
+        "hiragana": "たっきゅうびんでにもつをおくりました。",
+        "romaji": "Takkyuubin de nimotsu o okurimashita.",
+        "english": "I sent the package by courier.",
+        "french": "J'ai envoyé le colis par messagerie."
+      }
+    ]
+  },
+  {
+    "id": "tadashiku",
+    "japanese": "正しく",
+    "hiragana": "ただしく",
+    "romaji": "tadashiku",
+    "english": "correctly",
+    "french": "correctement",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "名前を正しく書いてください。",
+        "hiragana": "なまえをただしくかいてください。",
+        "romaji": "Namae o tadashiku kaite kudasai.",
+        "english": "Please write your name correctly.",
+        "french": "Écrivez correctement votre nom."
+      }
+    ]
+  },
+  {
+    "id": "taiiku_kan",
+    "japanese": "体育館",
+    "hiragana": "たいいくかん",
+    "romaji": "taiikukan",
+    "english": "gymnasium",
+    "french": "gymnase",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "体育館でバスケットをしました。",
+        "hiragana": "たいいくかんでばすけっとをしました。",
+        "romaji": "Taiikukan de basuketto o shimashita.",
+        "english": "I played basketball in the gymnasium.",
+        "french": "J'ai joué au basket dans le gymnase."
+      }
+    ]
+  },
+  {
+    "id": "taimu",
+    "japanese": "タイム",
+    "hiragana": "たいむ",
+    "romaji": "taimu",
+    "english": "time (loanword)",
+    "french": "temps",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "タイムを計ります。",
+        "hiragana": "たいむをはかります。",
+        "romaji": "Taimu o hakarimasu.",
+        "english": "I measure the time.",
+        "french": "Je mesure le temps."
+      }
+    ]
+  },
+  {
+    "id": "taiko",
+    "japanese": "太鼓",
+    "hiragana": "たいこ",
+    "romaji": "taiko",
+    "english": "drum",
+    "french": "tambour",
+    "level": "N5",
+    "category": "music",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "太鼓を叩きます。",
+        "hiragana": "たいこをたたきます。",
+        "romaji": "Taiko o tatakimasu.",
+        "english": "I play the drum.",
+        "french": "Je joue du tambour."
+      }
+    ]
+  },
+  {
+    "id": "taishikan",
+    "japanese": "大使館",
+    "hiragana": "たいしかん",
+    "romaji": "taishikan",
+    "english": "embassy",
+    "french": "ambassade",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "大使館でビザを申請しました。",
+        "hiragana": "たいしかんでびざをしんせいしました。",
+        "romaji": "Taishikan de biza o shinsei shimashita.",
+        "english": "I applied for a visa at the embassy.",
+        "french": "J'ai demandé un visa à l'ambassade."
+      }
+    ]
+  },
+  {
+    "id": "taishou",
+    "japanese": "対象",
+    "hiragana": "たいしょう",
+    "romaji": "taishou",
+    "english": "target, object",
+    "french": "cible, objet",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "子供が対象です。",
+        "hiragana": "こどもがたいしょうです。",
+        "romaji": "Kodomo ga taishou desu.",
+        "english": "Children are the target.",
+        "french": "Les enfants sont la cible."
+      }
+    ]
+  },
+  {
+    "id": "taitei",
+    "japanese": "大抵",
+    "hiragana": "たいてい",
+    "romaji": "taitei",
+    "english": "usually",
+    "french": "d'habitude",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "私は大抵家にいます。",
+        "hiragana": "わたしはたいていいえにいます。",
+        "romaji": "Watashi wa taitei ie ni imasu.",
+        "english": "I am usually at home.",
+        "french": "Je suis d'habitude à la maison."
+      }
+    ]
+  },
+  {
+    "id": "taikutsu",
+    "japanese": "退屈",
+    "hiragana": "たいくつ",
+    "romaji": "taikutsu",
+    "english": "boredom",
+    "french": "ennui",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今日は退屈です。",
+        "hiragana": "きょうはたいくつです。",
+        "romaji": "Kyou wa taikutsu desu.",
+        "english": "I am bored today.",
+        "french": "Je m'ennuie aujourd'hui."
+      }
+    ]
+  },
+  {
+    "id": "taiyou",
+    "japanese": "太陽",
+    "hiragana": "たいよう",
+    "romaji": "taiyou",
+    "english": "sun",
+    "french": "soleil",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "太陽が昇ります。",
+        "hiragana": "たいようがのぼります。",
+        "romaji": "Taiyou ga noborimasu.",
+        "english": "The sun rises.",
+        "french": "Le soleil se lève."
+      }
+    ]
+  },
+  {
+    "id": "taoreru2",
+    "japanese": "崩れる",
+    "hiragana": "くずれる",
+    "romaji": "kuzureru",
+    "english": "to collapse",
+    "french": "s'effondrer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "山が崩れました。",
+        "hiragana": "やまがくずれました。",
+        "romaji": "Yama ga kuzuremashita.",
+        "english": "The mountain collapsed.",
+        "french": "La montagne s'est effondrée."
+      }
+    ]
+  },
+  {
+    "id": "taosu",
+    "japanese": "倒す",
+    "hiragana": "たおす",
+    "romaji": "taosu",
+    "english": "to knock down, defeat",
+    "french": "abattre, vaincre",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "敵を倒しました。",
+        "hiragana": "てきをたおしました。",
+        "romaji": "Teki o taoshimashita.",
+        "english": "I defeated the enemy.",
+        "french": "J'ai vaincu l'ennemi."
+      }
+    ]
+  },
+  {
+    "id": "takara",
+    "japanese": "宝",
+    "hiragana": "たから",
+    "romaji": "takara",
+    "english": "treasure",
+    "french": "trésor",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達は私の宝です。",
+        "hiragana": "ともだちはわたしのたからです。",
+        "romaji": "Tomodachi wa watashi no takara desu.",
+        "english": "Friends are my treasure.",
+        "french": "Les amis sont mon trésor."
+      }
+    ]
+  },
+  {
+    "id": "takarakuji",
+    "japanese": "宝くじ",
+    "hiragana": "たからくじ",
+    "romaji": "takarakuji",
+    "english": "lottery",
+    "french": "loterie",
+    "level": "N5",
+    "category": "economy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "宝くじに当たりました。",
+        "hiragana": "たからくじにあたりました。",
+        "romaji": "Takarakuji ni atarimashita.",
+        "english": "I won the lottery.",
+        "french": "J'ai gagné à la loterie."
+      }
+    ]
+  },
+  {
+    "id": "takkyuu",
+    "japanese": "卓球",
+    "hiragana": "たっきゅう",
+    "romaji": "takkyuu",
+    "english": "table tennis",
+    "french": "tennis de table",
+    "level": "N5",
+    "category": "sport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "卓球をします。",
+        "hiragana": "たっきゅうをします。",
+        "romaji": "Takkyuu o shimasu.",
+        "english": "I play table tennis.",
+        "french": "Je joue au tennis de table."
+      }
+    ]
+  },
+  {
+    "id": "takusan_hito",
+    "japanese": "大勢",
+    "hiragana": "おおぜい",
+    "romaji": "oozei",
+    "english": "many people, crowd",
+    "french": "foule, beaucoup de gens",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "大勢の人が集まりました。",
+        "hiragana": "おおぜいのひとがあつまりました。",
+        "romaji": "Oozei no hito ga atsumarimashita.",
+        "english": "A crowd of people gathered.",
+        "french": "Une foule de gens s'est rassemblée."
+      }
+    ]
   }
 ];
 
