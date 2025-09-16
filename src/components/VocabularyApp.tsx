@@ -38,6 +38,13 @@ export const VocabularyApp = () => {
     const categories = getWordsByCategory();
     const levels = getWordsByLevel();
     
+    // Also show the complete list of just Japanese words
+    const justJapaneseWords = translatedVocabulary.map(word => word.japanese);
+    console.log('\n=== COMPLETE LIST OF ALL JAPANESE WORDS ===');
+    console.log(`Total: ${justJapaneseWords.length} words`);
+    console.log('\nAll words:');
+    console.log(justJapaneseWords.join('、'));
+    
     console.log('\n=== WORDS BY CATEGORY ===');
     Object.entries(categories).forEach(([category, words]) => {
       console.log(`\n${category.toUpperCase()} (${words.length} words):`);
@@ -54,7 +61,15 @@ export const VocabularyApp = () => {
       });
     });
 
-    toast.success(`Complete vocabulary list (${words.length} words) logged to console!`);
+    // Show count discrepancy
+    if (justJapaneseWords.length !== 598) {
+      console.log(`\n⚠️  COUNT DISCREPANCY:`);
+      console.log(`   Expected: 598 words`);
+      console.log(`   Actual: ${justJapaneseWords.length} words`);
+      console.log(`   Difference: ${598 - justJapaneseWords.length} words`);
+    }
+
+    toast.success(`Complete vocabulary list (${justJapaneseWords.length} words) logged to console!`);
   };
 
   const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
