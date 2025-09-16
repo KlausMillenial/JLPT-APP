@@ -180,8 +180,8 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                 </span>
               </div>
               {!isCorrect && (
-                <div className="text-sm space-y-2">
-                  <p>Correct answer: <span className="font-semibold">{question.correctAnswer}</span></p>
+                <div className="text-lg space-y-2">
+                  <p>Correct answer: <span className="font-semibold text-xl">{question.correctAnswer}</span></p>
                   <div className="flex justify-center">
                     <VoiceButton 
                       text={question.correctAnswer}
@@ -195,21 +195,21 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
             </div>
 
             {/* Show additional info about the word */}
-            <div className="text-center text-sm text-muted-foreground space-y-2">
-              <div>
+            <div className="text-center space-y-2">
+              <div className="text-lg">
                 <strong>{question.word.japanese}</strong> ({question.word.hiragana}) - {question.word.english}
               </div>
               {question.word.examples && question.word.examples[0] && (
                 <div className="space-y-3 p-4 bg-muted/50 rounded-lg">
-                  <div className="font-medium text-foreground">Example:</div>
+                  <div className="font-medium text-lg text-foreground">Example:</div>
                   <div className="space-y-2">
-                    <div className="text-lg font-medium text-foreground">
+                    <div className="text-xl font-medium text-foreground">
                       {question.word.examples[0].japanese}
                     </div>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-lg text-muted-foreground">
                       {question.word.examples[0].hiragana}
                     </div>
-                    <div className="text-sm italic text-foreground">
+                    <div className="text-lg italic text-foreground">
                       "{question.word.examples[0].english}"
                     </div>
                     <div className="flex justify-center">
