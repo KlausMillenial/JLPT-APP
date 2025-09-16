@@ -15480,6 +15480,816 @@ export const vocabularyData: VocabularyWord[] = [
         spanish: "Quiero convertirme en profesor."
       }
     ]
+  },
+  {
+    id: "ni",
+    japanese: "に",
+    hiragana: "に",
+    romaji: "ni",
+    english: "to; at",
+    french: "à; vers",
+    german: "zu; nach",
+    vietnamese: "đến; tại",
+    chinese: "到; 在",
+    korean: "에",
+    spanish: "a; en",
+    level: "N5",
+    category: "grammar",
+    wordType: "particle",
+    examples: [
+      {
+        japanese: "学校に行きます。",
+        hiragana: "がっこうにいきます。",
+        romaji: "Gakkou ni ikimasu.",
+        english: "I go to school.",
+        french: "Je vais à l'école.",
+        german: "Ich gehe zur Schule.",
+        vietnamese: "Tôi đi đến trường.",
+        chinese: "我去学校。",
+        korean: "학교에 갑니다.",
+        spanish: "Voy a la escuela."
+      }
+    ]
+  },
+  {
+    id: "nigatsu",
+    japanese: "二月",
+    hiragana: "にがつ",
+    romaji: "nigatsu",
+    english: "February",
+    french: "février",
+    german: "Februar",
+    vietnamese: "tháng hai",
+    chinese: "二月",
+    korean: "이월",
+    spanish: "febrero",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "二月は寒いです。",
+        hiragana: "にがつはさむいです。",
+        romaji: "Nigatsu wa samui desu.",
+        english: "February is cold.",
+        french: "Février est froid.",
+        german: "Der Februar ist kalt.",
+        vietnamese: "Tháng hai thì lạnh.",
+        chinese: "二月很冷。",
+        korean: "이월은 춥습니다.",
+        spanish: "Febrero es frío."
+      }
+    ]
+  },
+  {
+    id: "niku",
+    japanese: "肉",
+    hiragana: "にく",
+    romaji: "niku",
+    english: "meat",
+    french: "viande",
+    german: "Fleisch",
+    vietnamese: "thịt",
+    chinese: "肉",
+    korean: "고기",
+    spanish: "carne",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "肉を食べます。",
+        hiragana: "にくをたべます。",
+        romaji: "Niku o tabemasu.",
+        english: "I eat meat.",
+        french: "Je mange de la viande.",
+        german: "Ich esse Fleisch.",
+        vietnamese: "Tôi ăn thịt.",
+        chinese: "我吃肉。",
+        korean: "고기를 먹습니다.",
+        spanish: "Como carne."
+      }
+    ]
+  },
+  {
+    id: "nishi",
+    japanese: "西",
+    hiragana: "にし",
+    romaji: "nishi",
+    english: "west",
+    french: "ouest",
+    german: "Westen",
+    vietnamese: "phía tây",
+    chinese: "西",
+    korean: "서쪽",
+    spanish: "oeste",
+    level: "N5",
+    category: "direction",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "太陽は西に沈みます。",
+        hiragana: "たいようはにしにしずみます。",
+        romaji: "Taiyou wa nishi ni shizumimasu.",
+        english: "The sun sets in the west.",
+        french: "Le soleil se couche à l'ouest.",
+        german: "Die Sonne geht im Westen unter.",
+        vietnamese: "Mặt trời lặn ở phía tây.",
+        chinese: "太阳在西边落下。",
+        korean: "태양은 서쪽으로 집니다.",
+        spanish: "El sol se pone en el oeste."
+      }
+    ]
+  },
+  {
+    id: "nichi",
+    japanese: "日",
+    hiragana: "にち",
+    romaji: "nichi",
+    english: "day",
+    french: "jour",
+    german: "Tag",
+    vietnamese: "ngày",
+    chinese: "日; 天",
+    korean: "날; 일",
+    spanish: "día",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今日はいい日です。",
+        hiragana: "きょうはいいひです。",
+        romaji: "Kyou wa ii hi desu.",
+        english: "Today is a good day.",
+        french: "Aujourd'hui est un bon jour.",
+        german: "Heute ist ein guter Tag.",
+        vietnamese: "Hôm nay là một ngày tốt.",
+        chinese: "今天是个好日子。",
+        korean: "오늘은 좋은 날입니다.",
+        spanish: "Hoy es un buen día."
+      }
+    ]
+  },
+  {
+    id: "neko",
+    japanese: "猫",
+    hiragana: "ねこ",
+    romaji: "neko",
+    english: "cat",
+    french: "chat",
+    german: "Katze",
+    vietnamese: "mèo",
+    chinese: "猫",
+    korean: "고양이",
+    spanish: "gato",
+    level: "N5",
+    category: "animal",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "猫が好きです。",
+        hiragana: "ねこがすきです。",
+        romaji: "Neko ga suki desu.",
+        english: "I like cats.",
+        french: "J'aime les chats.",
+        german: "Ich mag Katzen.",
+        vietnamese: "Tôi thích mèo.",
+        chinese: "我喜欢猫。",
+        korean: "저는 고양이를 좋아합니다.",
+        spanish: "Me gustan los gatos."
+      }
+    ]
+  },
+  {
+    id: "neru",
+    japanese: "寝る",
+    hiragana: "ねる",
+    romaji: "neru",
+    english: "to sleep",
+    french: "dormir",
+    german: "schlafen",
+    vietnamese: "ngủ",
+    chinese: "睡觉",
+    korean: "자다",
+    spanish: "dormir",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "早く寝ます。",
+        hiragana: "はやくねます。",
+        romaji: "Hayaku nemasu.",
+        english: "I go to bed early.",
+        french: "Je me couche tôt.",
+        german: "Ich gehe früh schlafen.",
+        vietnamese: "Tôi đi ngủ sớm.",
+        chinese: "我早睡。",
+        korean: "일찍 잡니다.",
+        spanish: "Me acuesto temprano."
+      }
+    ]
+  },
+  {
+    id: "ha",
+    japanese: "歯",
+    hiragana: "は",
+    romaji: "ha",
+    english: "tooth",
+    french: "dent",
+    german: "Zahn",
+    vietnamese: "răng",
+    chinese: "牙齿",
+    korean: "이",
+    spanish: "diente",
+    level: "N5",
+    category: "body",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "歯を磨きます。",
+        hiragana: "はをみがきます。",
+        romaji: "Ha o migakimasu.",
+        english: "I brush my teeth.",
+        french: "Je me brosse les dents.",
+        german: "Ich putze mir die Zähne.",
+        vietnamese: "Tôi đánh răng.",
+        chinese: "我刷牙。",
+        korean: "이를 닦습니다.",
+        spanish: "Me cepillo los dientes."
+      }
+    ]
+  },
+  {
+    id: "hai",
+    japanese: "はい",
+    hiragana: "はい",
+    romaji: "hai",
+    english: "yes",
+    french: "oui",
+    german: "ja",
+    vietnamese: "vâng",
+    chinese: "是的",
+    korean: "네",
+    spanish: "sí",
+    level: "N5",
+    category: "expression",
+    wordType: "interjection",
+    examples: [
+      {
+        japanese: "はい、わかりました。",
+        hiragana: "はい、わかりました。",
+        romaji: "Hai, wakarimashita.",
+        english: "Yes, I understand.",
+        french: "Oui, j'ai compris.",
+        german: "Ja, ich habe verstanden.",
+        vietnamese: "Vâng, tôi hiểu rồi.",
+        chinese: "是的，我明白了。",
+        korean: "네, 알겠습니다.",
+        spanish: "Sí, entiendo."
+      }
+    ]
+  },
+  {
+    id: "hairu",
+    japanese: "入る",
+    hiragana: "はいる",
+    romaji: "hairu",
+    english: "to enter",
+    french: "entrer",
+    german: "eintreten",
+    vietnamese: "vào",
+    chinese: "进入",
+    korean: "들어가다",
+    spanish: "entrar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "部屋に入ります。",
+        hiragana: "へやにはいります。",
+        romaji: "Heya ni hairimasu.",
+        english: "I enter the room.",
+        french: "J'entre dans la chambre.",
+        german: "Ich betrete das Zimmer.",
+        vietnamese: "Tôi vào phòng.",
+        chinese: "我进入房间。",
+        korean: "방에 들어갑니다.",
+        spanish: "Entro en la habitación."
+      }
+    ]
+  },
+  {
+    id: "hagaki",
+    japanese: "葉書",
+    hiragana: "はがき",
+    romaji: "hagaki",
+    english: "postcard",
+    french: "carte postale",
+    german: "Postkarte",
+    vietnamese: "bưu thiếp",
+    chinese: "明信片",
+    korean: "엽서",
+    spanish: "postal",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "友達に葉書を送りました。",
+        hiragana: "ともだちにはがきをおくりました。",
+        romaji: "Tomodachi ni hagaki o okurimashita.",
+        english: "I sent a postcard to a friend.",
+        french: "J'ai envoyé une carte postale à un ami.",
+        german: "Ich habe einem Freund eine Postkarte geschickt.",
+        vietnamese: "Tôi đã gửi bưu thiếp cho bạn.",
+        chinese: "我给朋友寄了一张明信片。",
+        korean: "친구에게 엽서를 보냈습니다.",
+        spanish: "Le envié una postal a un amigo."
+      }
+    ]
+  },
+  {
+    id: "haku",
+    japanese: "履く",
+    hiragana: "はく",
+    romaji: "haku",
+    english: "to wear (shoes/pants)",
+    french: "porter (chaussures/pantalon)",
+    german: "anziehen (Schuhe/Hose)",
+    vietnamese: "mặc (quần/giày)",
+    chinese: "穿（鞋子/裤子）",
+    korean: "신다/입다",
+    spanish: "ponerse (zapatos/pantalón)",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "靴を履きます。",
+        hiragana: "くつをはきます。",
+        romaji: "Kutsu o hakimasu.",
+        english: "I put on shoes.",
+        french: "Je mets des chaussures.",
+        german: "Ich ziehe Schuhe an.",
+        vietnamese: "Tôi mang giày.",
+        chinese: "我穿鞋子。",
+        korean: "신발을 신습니다.",
+        spanish: "Me pongo los zapatos."
+      }
+    ]
+  },
+  {
+    id: "hako",
+    japanese: "箱",
+    hiragana: "はこ",
+    romaji: "hako",
+    english: "box",
+    french: "boîte",
+    german: "Kiste",
+    vietnamese: "hộp",
+    chinese: "盒子",
+    korean: "상자",
+    spanish: "caja",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "箱に入れます。",
+        hiragana: "はこにいれます。",
+        romaji: "Hako ni iremasu.",
+        english: "I put it in the box.",
+        french: "Je le mets dans la boîte.",
+        german: "Ich lege es in die Kiste.",
+        vietnamese: "Tôi cho vào hộp.",
+        chinese: "我把它放进盒子里。",
+        korean: "상자에 넣습니다.",
+        spanish: "Lo pongo en la caja."
+      }
+    ]
+  },
+  {
+    id: "hajimaru",
+    japanese: "始まる",
+    hiragana: "はじまる",
+    romaji: "hajimaru",
+    english: "to begin",
+    french: "commencer",
+    german: "beginnen",
+    vietnamese: "bắt đầu",
+    chinese: "开始",
+    korean: "시작되다",
+    spanish: "empezar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "授業が始まります。",
+        hiragana: "じゅぎょうがはじまります。",
+        romaji: "Jugyou ga hajimarimasu.",
+        english: "The class begins.",
+        french: "Le cours commence.",
+        german: "Der Unterricht beginnt.",
+        vietnamese: "Lớp học bắt đầu.",
+        chinese: "课程开始了。",
+        korean: "수업이 시작됩니다.",
+        spanish: "La clase empieza."
+      }
+    ]
+  },
+  {
+    id: "hajimete",
+    japanese: "初めて",
+    hiragana: "はじめて",
+    romaji: "hajimete",
+    english: "for the first time",
+    french: "pour la première fois",
+    german: "zum ersten Mal",
+    vietnamese: "lần đầu tiên",
+    chinese: "第一次",
+    korean: "처음으로",
+    spanish: "por primera vez",
+    level: "N5",
+    category: "expression",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "日本に初めて来ました。",
+        hiragana: "にほんにはじめてきました。",
+        romaji: "Nihon ni hajimete kimashita.",
+        english: "I came to Japan for the first time.",
+        french: "Je suis venu au Japon pour la première fois.",
+        german: "Ich bin zum ersten Mal nach Japan gekommen.",
+        vietnamese: "Tôi đến Nhật lần đầu tiên.",
+        chinese: "我第一次来到日本。",
+        korean: "처음으로 일본에 왔습니다.",
+        spanish: "Vine a Japón por primera vez."
+      }
+    ]
+  },
+  {
+    id: "hashiru",
+    japanese: "走る",
+    hiragana: "はしる",
+    romaji: "hashiru",
+    english: "to run",
+    french: "courir",
+    german: "laufen",
+    vietnamese: "chạy",
+    chinese: "跑",
+    korean: "달리다",
+    spanish: "correr",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "公園で走ります。",
+        hiragana: "こうえんではしります。",
+        romaji: "Kouen de hashirimasu.",
+        english: "I run in the park.",
+        french: "Je cours dans le parc.",
+        german: "Ich laufe im Park.",
+        vietnamese: "Tôi chạy trong công viên.",
+        chinese: "我在公园跑步。",
+        korean: "공원에서 달립니다.",
+        spanish: "Corro en el parque."
+      }
+    ]
+  },
+  {
+    id: "hatachi",
+    japanese: "二十歳",
+    hiragana: "はたち",
+    romaji: "hatachi",
+    english: "twenty years old",
+    french: "vingt ans",
+    german: "zwanzig Jahre alt",
+    vietnamese: "20 tuổi",
+    chinese: "二十岁",
+    korean: "스무 살",
+    spanish: "veinte años",
+    level: "N5",
+    category: "age",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "彼は二十歳です。",
+        hiragana: "かれははたちです。",
+        romaji: "Kare wa hatachi desu.",
+        english: "He is twenty years old.",
+        french: "Il a vingt ans.",
+        german: "Er ist zwanzig Jahre alt.",
+        vietnamese: "Anh ấy 20 tuổi.",
+        chinese: "他二十岁。",
+        korean: "그는 스무 살입니다.",
+        spanish: "Él tiene veinte años."
+      }
+    ]
+  },
+  {
+    id: "hataraku",
+    japanese: "働く",
+    hiragana: "はたらく",
+    romaji: "hataraku",
+    english: "to work",
+    french: "travailler",
+    german: "arbeiten",
+    vietnamese: "làm việc",
+    chinese: "工作",
+    korean: "일하다",
+    spanish: "trabajar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "会社で働きます。",
+        hiragana: "かいしゃではたらきます。",
+        romaji: "Kaisha de hatarakimasu.",
+        english: "I work at a company.",
+        french: "Je travaille dans une entreprise.",
+        german: "Ich arbeite in einer Firma.",
+        vietnamese: "Tôi làm việc tại công ty.",
+        chinese: "我在公司工作。",
+        korean: "회사에서 일합니다.",
+        spanish: "Trabajo en una empresa."
+      }
+    ]
+  },
+  {
+    id: "hachi",
+    japanese: "八",
+    hiragana: "はち",
+    romaji: "hachi",
+    english: "eight",
+    french: "huit",
+    german: "acht",
+    vietnamese: "tám",
+    chinese: "八",
+    korean: "여덟",
+    spanish: "ocho",
+    level: "N5",
+    category: "number",
+    wordType: "number",
+    examples: [
+      {
+        japanese: "りんごを八つ食べました。",
+        hiragana: "りんごをやっつたべました。",
+        romaji: "Ringo o yattsu tabemashita.",
+        english: "I ate eight apples.",
+        french: "J'ai mangé huit pommes.",
+        german: "Ich habe acht Äpfel gegessen.",
+        vietnamese: "Tôi đã ăn tám quả táo.",
+        chinese: "我吃了八个苹果。",
+        korean: "사과 여덟 개를 먹었습니다.",
+        spanish: "Comí ocho manzanas."
+      }
+    ]
+  },
+  {
+    id: "hatsuka",
+    japanese: "二十日",
+    hiragana: "はつか",
+    romaji: "hatsuka",
+    english: "twentieth day; twenty days",
+    french: "vingtième jour; vingt jours",
+    german: "zwanzigster Tag; zwanzig Tage",
+    vietnamese: "ngày hai mươi; hai mươi ngày",
+    chinese: "二十号; 二十天",
+    korean: "스무 날; 이십일",
+    spanish: "día veinte; veinte días",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "二十日は私の誕生日です。",
+        hiragana: "はつかはわたしのたんじょうびです。",
+        romaji: "Hatsuka wa watashi no tanjoubi desu.",
+        english: "The 20th is my birthday.",
+        french: "Le 20 est mon anniversaire.",
+        german: "Der 20. ist mein Geburtstag.",
+        vietnamese: "Ngày 20 là sinh nhật của tôi.",
+        chinese: "二十号是我的生日。",
+        korean: "스무 날은 제 생일입니다.",
+        spanish: "El día 20 es mi cumpleaños."
+      }
+    ]
+  },
+  {
+    id: "hanashi",
+    japanese: "話",
+    hiragana: "はなし",
+    romaji: "hanashi",
+    english: "story; talk",
+    french: "histoire; conversation",
+    german: "Geschichte; Gespräch",
+    vietnamese: "câu chuyện; cuộc trò chuyện",
+    chinese: "故事; 谈话",
+    korean: "이야기",
+    spanish: "historia; conversación",
+    level: "N5",
+    category: "communication",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "面白い話を聞きました。",
+        hiragana: "おもしろいはなしをききました。",
+        romaji: "Omoshiroi hanashi o kikimashita.",
+        english: "I heard an interesting story.",
+        french: "J'ai entendu une histoire intéressante.",
+        german: "Ich habe eine interessante Geschichte gehört.",
+        vietnamese: "Tôi đã nghe một câu chuyện thú vị.",
+        chinese: "我听到了一个有趣的故事。",
+        korean: "재미있는 이야기를 들었습니다.",
+        spanish: "Escuché una historia interesante."
+      }
+    ]
+  },
+  {
+    id: "hanasu",
+    japanese: "話す",
+    hiragana: "はなす",
+    romaji: "hanasu",
+    english: "to speak",
+    french: "parler",
+    german: "sprechen",
+    vietnamese: "nói",
+    chinese: "说话",
+    korean: "말하다",
+    spanish: "hablar",
+    level: "N5",
+    category: "communication",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "日本語を話します。",
+        hiragana: "にほんごをはなします。",
+        romaji: "Nihongo o hanashimasu.",
+        english: "I speak Japanese.",
+        french: "Je parle japonais.",
+        german: "Ich spreche Japanisch.",
+        vietnamese: "Tôi nói tiếng Nhật.",
+        chinese: "我说日语。",
+        korean: "일본어를 말합니다.",
+        spanish: "Hablo japonés."
+      }
+    ]
+  },
+  {
+    id: "hareru",
+    japanese: "晴れる",
+    hiragana: "はれる",
+    romaji: "hareru",
+    english: "to clear up",
+    french: "se dégager",
+    german: "aufklaren",
+    vietnamese: "trời quang đãng",
+    chinese: "放晴",
+    korean: "날씨가 개다",
+    spanish: "despejarse",
+    level: "N5",
+    category: "weather",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "明日は晴れるでしょう。",
+        hiragana: "あしたははれるでしょう。",
+        romaji: "Ashita wa hareru deshou.",
+        english: "It will be clear tomorrow.",
+        french: "Demain, le ciel sera dégagé.",
+        german: "Morgen wird es klar.",
+        vietnamese: "Ngày mai trời sẽ quang đãng.",
+        chinese: "明天会放晴。",
+        korean: "내일은 날씨가 갤 것입니다.",
+        spanish: "Mañana estará despejado."
+      }
+    ]
+  },
+  {
+    id: "han",
+    japanese: "半",
+    hiragana: "はん",
+    romaji: "han",
+    english: "half",
+    french: "demi",
+    german: "halb",
+    vietnamese: "một nửa",
+    chinese: "一半",
+    korean: "반",
+    spanish: "mitad",
+    level: "N5",
+    category: "number",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "三時半に会いましょう。",
+        hiragana: "さんじはんにあいましょう。",
+        romaji: "San-ji han ni aimashou.",
+        english: "Let's meet at half past three.",
+        french: "Rendez-vous à trois heures et demie.",
+        german: "Treffen wir uns um halb vier.",
+        vietnamese: "Hẹn gặp lúc ba rưỡi.",
+        chinese: "我们三点半见。",
+        korean: "세 시 반에 만납시다.",
+        spanish: "Nos vemos a las tres y media."
+      }
+    ]
+  },
+  {
+    id: "ban",
+    japanese: "晩",
+    hiragana: "ばん",
+    romaji: "ban",
+    english: "evening",
+    french: "soir",
+    german: "Abend",
+    vietnamese: "buổi tối",
+    chinese: "晚上",
+    korean: "저녁",
+    spanish: "tarde; noche",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "晩ご飯を食べました。",
+        hiragana: "ばんごはんをたべました。",
+        romaji: "Bangohan o tabemashita.",
+        english: "I ate dinner.",
+        french: "J'ai dîné.",
+        german: "Ich habe zu Abend gegessen.",
+        vietnamese: "Tôi đã ăn tối.",
+        chinese: "我吃了晚饭。",
+        korean: "저녁을 먹었습니다.",
+        spanish: "Cené."
+      }
+    ]
+  },
+  {
+    id: "hanbun",
+    japanese: "半分",
+    hiragana: "はんぶん",
+    romaji: "hanbun",
+    english: "half",
+    french: "moitié",
+    german: "Hälfte",
+    vietnamese: "một nửa",
+    chinese: "一半",
+    korean: "반",
+    spanish: "mitad",
+    level: "N5",
+    category: "number",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ケーキを半分食べました。",
+        hiragana: "けーきをはんぶんたべました。",
+        romaji: "Keeki o hanbun tabemashita.",
+        english: "I ate half of the cake.",
+        french: "J'ai mangé la moitié du gâteau.",
+        german: "Ich habe die Hälfte des Kuchens gegessen.",
+        vietnamese: "Tôi đã ăn nửa cái bánh.",
+        chinese: "我吃了一半蛋糕。",
+        korean: "케이크를 반 먹었습니다.",
+        spanish: "Me comí la mitad del pastel."
+      }
+    ]
+  },
+  {
+    id: "pan",
+    japanese: "パン",
+    hiragana: "ぱん",
+    romaji: "pan",
+    english: "bread",
+    french: "pain",
+    german: "Brot",
+    vietnamese: "bánh mì",
+    chinese: "面包",
+    korean: "빵",
+    spanish: "pan",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "パンを食べます。",
+        hiragana: "ぱんをたべます。",
+        romaji: "Pan o tabemasu.",
+        english: "I eat bread.",
+        french: "Je mange du pain.",
+        german: "Ich esse Brot.",
+        vietnamese: "Tôi ăn bánh mì.",
+        chinese: "我吃面包。",
+        korean: "빵을 먹습니다.",
+        spanish: "Como pan."
+      }
+    ]
   }
 ];
 
