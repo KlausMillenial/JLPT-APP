@@ -428,6 +428,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "aku",
     english: "to open, to become open",
     french: "s'ouvrir",
+    german: "sich öffnen",
+    vietnamese: "mở ra",
+    chinese: "打开; 开着",
+    korean: "열리다",
+    spanish: "abrirse",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -437,7 +442,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ドアがあく。",
         romaji: "Doa ga aku.",
         english: "The door opens.",
-        french: "La porte s'ouvre."
+        french: "La porte s'ouvre.",
+        german: "Die Tür öffnet sich.",
+        vietnamese: "Cánh cửa mở ra.",
+        chinese: "门开了。",
+        korean: "문이 열립니다.",
+        spanish: "La puerta se abre."
       }
     ]
   },
@@ -448,6 +458,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "akeru",
     english: "to open",
     french: "ouvrir",
+    german: "öffnen",
+    vietnamese: "mở",
+    chinese: "打开",
+    korean: "열다",
+    spanish: "abrir",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -457,7 +472,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "まどをあける。",
         romaji: "Mado o akeru.",
         english: "I open the window.",
-        french: "J'ouvre la fenêtre."
+        french: "J'ouvre la fenêtre.",
+        german: "Ich öffne das Fenster.",
+        vietnamese: "Tôi mở cửa sổ.",
+        chinese: "我打开窗户。",
+        korean: "창문을 엽니다.",
+        spanish: "Abro la ventana."
       }
     ]
   },
@@ -468,6 +488,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ageru",
     english: "to give",
     french: "donner",
+    german: "geben",
+    vietnamese: "đưa; tặng",
+    chinese: "给",
+    korean: "주다",
+    spanish: "dar",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -477,7 +502,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ほんをあげる。",
         romaji: "Hon o ageru.",
         english: "I give a book.",
-        french: "Je donne un livre."
+        french: "Je donne un livre.",
+        german: "Ich gebe ein Buch.",
+        vietnamese: "Tôi tặng một quyển sách.",
+        chinese: "我给一本书。",
+        korean: "책을 줍니다.",
+        spanish: "Doy un libro."
       }
     ]
   },
@@ -488,6 +518,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "asagohan",
     english: "breakfast",
     french: "petit-déjeuner",
+    german: "Frühstück",
+    vietnamese: "bữa sáng",
+    chinese: "早餐",
+    korean: "아침밥",
+    spanish: "desayuno",
     level: "N5",
     category: "food",
     wordType: "noun",
@@ -497,7 +532,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あさごはんをつくる。",
         romaji: "Asagohan o tsukuru.",
         english: "I make breakfast.",
-        french: "Je prépare le petit-déjeuner."
+        french: "Je prépare le petit-déjeuner.",
+        german: "Ich mache Frühstück.",
+        vietnamese: "Tôi làm bữa sáng.",
+        chinese: "我做早餐。",
+        korean: "아침밥을 만듭니다.",
+        spanish: "Preparo el desayuno."
       }
     ]
   },
@@ -508,6 +548,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "asatte",
     english: "day after tomorrow",
     french: "après-demain",
+    german: "übermorgen",
+    vietnamese: "ngày kia",
+    chinese: "后天",
+    korean: "모레",
+    spanish: "pasado mañana",
     level: "N5",
     category: "time",
     wordType: "noun",
@@ -517,7 +562,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あさってえいがにいく。",
         romaji: "Asatte eiga ni iku.",
         english: "I will go to the movies the day after tomorrow.",
-        french: "J'irai au cinéma après-demain."
+        french: "J'irai au cinéma après-demain.",
+        german: "Ich gehe übermorgen ins Kino.",
+        vietnamese: "Tôi sẽ đi xem phim vào ngày kia.",
+        chinese: "我后天去看电影。",
+        korean: "모레 영화에 갈 거예요.",
+        spanish: "Iré al cine pasado mañana."
       }
     ]
   },
@@ -528,6 +578,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ashi",
     english: "foot, leg",
     french: "pied, jambe",
+    german: "Fuß, Bein",
+    vietnamese: "chân",
+    chinese: "脚",
+    korean: "발, 다리",
+    spanish: "pie, pierna",
     level: "N5",
     category: "body part",
     wordType: "noun",
@@ -537,7 +592,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あしがいたい。",
         romaji: "Ashi ga itai.",
         english: "My leg hurts.",
-        french: "J'ai mal à la jambe."
+        french: "J'ai mal à la jambe.",
+        german: "Mein Bein tut weh.",
+        vietnamese: "Chân tôi đau.",
+        chinese: "我的腿疼。",
+        korean: "다리가 아픕니다.",
+        spanish: "Me duele la pierna."
       }
     ]
   },
@@ -548,6 +608,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ashita",
     english: "tomorrow",
     french: "demain",
+    german: "morgen",
+    vietnamese: "ngày mai",
+    chinese: "明天",
+    korean: "내일",
+    spanish: "mañana",
     level: "N5",
     category: "time",
     wordType: "noun",
@@ -557,7 +622,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あしたがっこうにいく。",
         romaji: "Ashita gakkou ni iku.",
         english: "I will go to school tomorrow.",
-        french: "J'irai à l'école demain."
+        french: "J'irai à l'école demain.",
+        german: "Morgen gehe ich zur Schule.",
+        vietnamese: "Ngày mai tôi đi học.",
+        chinese: "明天我去学校。",
+        korean: "내일 학교에 갑니다.",
+        spanish: "Mañana iré a la escuela."
       }
     ]
   },
@@ -568,6 +638,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "asoko",
     english: "over there",
     french: "là-bas",
+    german: "dort drüben",
+    vietnamese: "đằng kia",
+    chinese: "那边",
+    korean: "저기",
+    spanish: "allí",
     level: "N5",
     category: "location",
     wordType: "noun",
