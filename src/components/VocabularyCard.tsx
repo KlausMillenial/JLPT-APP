@@ -5,8 +5,9 @@ import { Button } from '@/components/ui/button';
 import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
+import { KanjiDrawingCanvas } from './KanjiDrawingCanvas';
 import { RunwareService } from '@/services/runwareService';
-import { Image, Loader2, Wand2 } from 'lucide-react';
+import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
 
 interface VocabularyCardProps {
@@ -112,6 +113,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(word.imageUrl || '');
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
+  const [showDrawingCanvas, setShowDrawingCanvas] = useState(false);
 
   const handleCardClick = (e: React.MouseEvent) => {
     // Don't flip if clicking on buttons
@@ -248,6 +250,36 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 {word.romaji}
               </p>
             </div>
+
+            {/* Drawing Canvas Toggle */}
+            {word.japanese !== word.hiragana && (
+              <div className="mt-4 flex justify-center">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setShowDrawingCanvas(!showDrawingCanvas);
+                  }}
+                  className="flex items-center gap-2"
+                >
+                  <PenTool className="h-4 w-4" />
+                  {showDrawingCanvas ? 'Masquer' : 'Tracer le kanji'}
+                </Button>
+              </div>
+            )}
+
+            {/* Drawing Canvas */}
+            {showDrawingCanvas && word.japanese !== word.hiragana && (
+              <div className="mt-4 pt-4 border-t border-border">
+                <KanjiDrawingCanvas
+                  targetKanji={word.japanese}
+                  onDrawingComplete={(imageData) => {
+                    toast.success('Kanji tracé !');
+                  }}
+                />
+              </div>
+            )}
 
             <div className="mt-4 text-xs text-muted-foreground text-center">
               Click to reveal translation
