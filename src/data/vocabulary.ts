@@ -16830,6 +16830,396 @@ export const vocabularyData: VocabularyWord[] = [
         spanish: "La Tierra es redonda."
       }
     ]
+  },
+  {
+    id: "aku",
+    japanese: "開く",
+    hiragana: "あく",
+    romaji: "aku",
+    english: "to open, to become open",
+    french: "s'ouvrir",
+    german: "sich öffnen",
+    vietnamese: "mở ra",
+    chinese: "打开; 开着",
+    korean: "열리다",
+    spanish: "abrirse",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "ドアが開く。",
+        hiragana: "ドアがあく。",
+        romaji: "Doa ga aku.",
+        english: "The door opens.",
+        french: "La porte s'ouvre.",
+        german: "Die Tür öffnet sich.",
+        vietnamese: "Cánh cửa mở ra.",
+        chinese: "门开了。",
+        korean: "문이 열립니다.",
+        spanish: "La puerta se abre."
+      }
+    ]
+  },
+  {
+    id: "akeru",
+    japanese: "開ける",
+    hiragana: "あける",
+    romaji: "akeru",
+    english: "to open",
+    french: "ouvrir",
+    german: "öffnen",
+    vietnamese: "mở",
+    chinese: "打开",
+    korean: "열다",
+    spanish: "abrir",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "窓を開ける。",
+        hiragana: "まどをあける。",
+        romaji: "Mado o akeru.",
+        english: "I open the window.",
+        french: "J'ouvre la fenêtre.",
+        german: "Ich öffne das Fenster.",
+        vietnamese: "Tôi mở cửa sổ.",
+        chinese: "我打开窗户。",
+        korean: "창문을 엽니다.",
+        spanish: "Abro la ventana."
+      }
+    ]
+  },
+  {
+    id: "ageru",
+    japanese: "上げる",
+    hiragana: "あげる",
+    romaji: "ageru",
+    english: "to give",
+    french: "donner",
+    german: "geben",
+    vietnamese: "đưa; tặng",
+    chinese: "给",
+    korean: "주다",
+    spanish: "dar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "本を上げる。",
+        hiragana: "ほんをあげる。",
+        romaji: "Hon o ageru.",
+        english: "I give a book.",
+        french: "Je donne un livre.",
+        german: "Ich gebe ein Buch.",
+        vietnamese: "Tôi tặng một quyển sách.",
+        chinese: "我给一本书。",
+        korean: "책을 줍니다.",
+        spanish: "Doy un libro."
+      }
+    ]
+  },
+  {
+    id: "asagohan",
+    japanese: "朝御飯",
+    hiragana: "あさごはん",
+    romaji: "asagohan",
+    english: "breakfast",
+    french: "petit-déjeuner",
+    german: "Frühstück",
+    vietnamese: "bữa sáng",
+    chinese: "早餐",
+    korean: "아침밥",
+    spanish: "desayuno",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "朝御飯を作る。",
+        hiragana: "あさごはんをつくる。",
+        romaji: "Asagohan o tsukuru.",
+        english: "I make breakfast.",
+        french: "Je prépare le petit-déjeuner.",
+        german: "Ich mache Frühstück.",
+        vietnamese: "Tôi làm bữa sáng.",
+        chinese: "我做早餐。",
+        korean: "아침밥을 만듭니다.",
+        spanish: "Preparo el desayuno."
+      }
+    ]
+  },
+  {
+    id: "asatte",
+    japanese: "あさって",
+    hiragana: "あさって",
+    romaji: "asatte",
+    english: "day after tomorrow",
+    french: "après-demain",
+    german: "übermorgen",
+    vietnamese: "ngày kia",
+    chinese: "后天",
+    korean: "모레",
+    spanish: "pasado mañana",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "あさって映画に行く。",
+        hiragana: "あさってえいがにいく。",
+        romaji: "Asatte eiga ni iku.",
+        english: "I will go to the movies the day after tomorrow.",
+        french: "J'irai au cinéma après-demain.",
+        german: "Ich gehe übermorgen ins Kino.",
+        vietnamese: "Tôi sẽ đi xem phim vào ngày kia.",
+        chinese: "我后天去看电影。",
+        korean: "모레 영화에 갈 거예요.",
+        spanish: "Iré al cine pasado mañana."
+      }
+    ]
+  },
+  {
+    id: "ashi",
+    japanese: "足",
+    hiragana: "あし",
+    romaji: "ashi",
+    english: "foot, leg",
+    french: "pied, jambe",
+    german: "Fuß, Bein",
+    vietnamese: "chân",
+    chinese: "脚",
+    korean: "발, 다리",
+    spanish: "pie, pierna",
+    level: "N5",
+    category: "body part",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "足が痛い。",
+        hiragana: "あしがいたい。",
+        romaji: "Ashi ga itai.",
+        english: "My leg hurts.",
+        french: "J'ai mal à la jambe.",
+        german: "Mein Bein tut weh.",
+        vietnamese: "Chân tôi đau.",
+        chinese: "我的腿疼。",
+        korean: "다리가 아픕니다.",
+        spanish: "Me duele la pierna."
+      }
+    ]
+  },
+  {
+    id: "ashita",
+    japanese: "明日",
+    hiragana: "あした",
+    romaji: "ashita",
+    english: "tomorrow",
+    french: "demain",
+    german: "morgen",
+    vietnamese: "ngày mai",
+    chinese: "明天",
+    korean: "내일",
+    spanish: "mañana",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "明日学校に行く。",
+        hiragana: "あしたがっこうにいく。",
+        romaji: "Ashita gakkou ni iku.",
+        english: "I will go to school tomorrow.",
+        french: "J'irai à l'école demain.",
+        german: "Morgen gehe ich zur Schule.",
+        vietnamese: "Ngày mai tôi đi học.",
+        chinese: "明天我去学校。",
+        korean: "내일 학교에 갑니다.",
+        spanish: "Mañana iré a la escuela."
+      }
+    ]
+  },
+  {
+    id: "asoko",
+    japanese: "あそこ",
+    hiragana: "あそこ",
+    romaji: "asoko",
+    english: "over there",
+    french: "là-bas",
+    german: "dort drüben",
+    vietnamese: "đằng kia",
+    chinese: "那边",
+    korean: "저기",
+    spanish: "allí",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "店はあそこです。",
+        hiragana: "みせはあそこです。",
+        romaji: "Mise wa asoko desu.",
+        english: "The shop is over there.",
+        french: "Le magasin est là-bas.",
+        german: "Der Laden ist dort drüben.",
+        vietnamese: "Cửa hàng ở đằng kia.",
+        chinese: "商店在那边。",
+        korean: "가게는 저기 있습니다.",
+        spanish: "La tienda está allí."
+      }
+    ]
+  },
+  {
+    id: "asobu",
+    japanese: "遊ぶ",
+    hiragana: "あそぶ",
+    romaji: "asobu",
+    english: "to play, to make a visit",
+    french: "jouer, rendre visite",
+    german: "spielen, besuchen",
+    vietnamese: "chơi, thăm",
+    chinese: "玩, 拜访",
+    korean: "놀다, 방문하다",
+    spanish: "jugar, visitar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "子どもたちが遊ぶ。",
+        hiragana: "こどもたちがあそぶ。",
+        romaji: "Kodomo-tachi ga asobu.",
+        english: "The children play.",
+        french: "Les enfants jouent.",
+        german: "Die Kinder spielen.",
+        vietnamese: "Trẻ con chơi.",
+        chinese: "孩子们在玩。",
+        korean: "아이들이 놉니다.",
+        spanish: "Los niños juegan."
+      }
+    ]
+  },
+  {
+    id: "atatakai",
+    japanese: "暖かい",
+    hiragana: "あたたかい",
+    romaji: "atatakai",
+    english: "warm",
+    french: "chaud, tiède",
+    german: "warm",
+    vietnamese: "ấm áp",
+    chinese: "温暖",
+    korean: "따뜻하다",
+    spanish: "cálido",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "今日は暖かいです。",
+        hiragana: "きょうはあたたかいです。",
+        romaji: "Kyou wa atatakai desu.",
+        english: "It is warm today.",
+        french: "Il fait chaud aujourd'hui.",
+        german: "Heute ist es warm.",
+        vietnamese: "Hôm nay trời ấm.",
+        chinese: "今天很暖和。",
+        korean: "오늘은 따뜻합니다.",
+        spanish: "Hoy hace calor."
+      }
+    ]
+  },
+  {
+    id: "atama",
+    japanese: "頭",
+    hiragana: "あたま",
+    romaji: "atama",
+    english: "head",
+    french: "tête",
+    german: "Kopf",
+    vietnamese: "đầu",
+    chinese: "头",
+    korean: "머리",
+    spanish: "cabeza",
+    level: "N5",
+    category: "body part",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "頭が痛いです。",
+        hiragana: "あたまがいたいです。",
+        romaji: "Atama ga itai desu.",
+        english: "I have a headache.",
+        french: "J'ai mal à la tête.",
+        german: "Ich habe Kopfschmerzen.",
+        vietnamese: "Tôi đau đầu.",
+        chinese: "我头疼。",
+        korean: "머리가 아픕니다.",
+        spanish: "Me duele la cabeza."
+      }
+    ]
+  },
+  {
+    id: "atarashii",
+    japanese: "新しい",
+    hiragana: "あたらしい",
+    romaji: "atarashii",
+    english: "new",
+    french: "nouveau",
+    german: "neu",
+    vietnamese: "mới",
+    chinese: "新的",
+    korean: "새로운",
+    spanish: "nuevo",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "新しい本を買いました。",
+        hiragana: "あたらしいほんをかいました。",
+        romaji: "Atarashii hon o kaimashita.",
+        english: "I bought a new book.",
+        french: "J'ai acheté un nouveau livre.",
+        german: "Ich habe ein neues Buch gekauft.",
+        vietnamese: "Tôi đã mua một cuốn sách mới.",
+        chinese: "我买了一本新书。",
+        korean: "새 책을 샀습니다.",
+        spanish: "Compré un libro nuevo."
+      }
+    ]
+  },
+  {
+    id: "achira",
+    japanese: "あちら",
+    hiragana: "あちら",
+    romaji: "achira",
+    english: "there",
+    french: "là-bas",
+    german: "dort drüben",
+    vietnamese: "đằng kia",
+    chinese: "那边",
+    korean: "저쪽",
+    spanish: "allí",
+    level: "N5",
+    category: "location",
+    wordType: "pronoun",
+    examples: [
+      {
+        japanese: "先生はあちらです。",
+        hiragana: "せんせいはあちらです。",
+        romaji: "Sensei wa achira desu.",
+        english: "The teacher is over there.",
+        french: "Le professeur est là-bas.",
+        german: "Der Lehrer ist dort drüben.",
+        vietnamese: "Thầy giáo ở đằng kia.",
+        chinese: "老师在那边。",
+        korean: "선생님은 저쪽에 계십니다.",
+        spanish: "El profesor está allí."
+      }
+    ]
   }
 ];
 
