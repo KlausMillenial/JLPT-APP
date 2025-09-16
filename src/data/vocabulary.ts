@@ -663,6 +663,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "asobu",
     english: "to play, to make a visit",
     french: "jouer, rendre visite",
+    german: "spielen, besuchen",
+    vietnamese: "chơi, thăm",
+    chinese: "玩, 拜访",
+    korean: "놀다, 방문하다",
+    spanish: "jugar, visitar",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -672,7 +677,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "こどもたちがあそぶ。",
         romaji: "Kodomo-tachi ga asobu.",
         english: "The children play.",
-        french: "Les enfants jouent."
+        french: "Les enfants jouent.",
+        german: "Die Kinder spielen.",
+        vietnamese: "Trẻ con chơi.",
+        chinese: "孩子们在玩。",
+        korean: "아이들이 놉니다.",
+        spanish: "Los niños juegan."
       }
     ]
   },
@@ -683,6 +693,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atatakai",
     english: "warm",
     french: "chaud, tiède",
+    german: "warm",
+    vietnamese: "ấm áp",
+    chinese: "温暖",
+    korean: "따뜻하다",
+    spanish: "cálido",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -692,7 +707,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "きょうはあたたかいです。",
         romaji: "Kyou wa atatakai desu.",
         english: "It is warm today.",
-        french: "Il fait chaud aujourd'hui."
+        french: "Il fait chaud aujourd'hui.",
+        german: "Heute ist es warm.",
+        vietnamese: "Hôm nay trời ấm.",
+        chinese: "今天很暖和。",
+        korean: "오늘은 따뜻합니다.",
+        spanish: "Hoy hace calor."
       }
     ]
   },
@@ -703,6 +723,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atama",
     english: "head",
     french: "tête",
+    german: "Kopf",
+    vietnamese: "đầu",
+    chinese: "头",
+    korean: "머리",
+    spanish: "cabeza",
     level: "N5",
     category: "body part",
     wordType: "noun",
@@ -712,7 +737,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あたまがいたいです。",
         romaji: "Atama ga itai desu.",
         english: "I have a headache.",
-        french: "J'ai mal à la tête."
+        french: "J'ai mal à la tête.",
+        german: "Ich habe Kopfschmerzen.",
+        vietnamese: "Tôi đau đầu.",
+        chinese: "我头疼。",
+        korean: "머리가 아픕니다.",
+        spanish: "Me duele la cabeza."
       }
     ]
   },
@@ -723,6 +753,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atarashii",
     english: "new",
     french: "nouveau",
+    german: "neu",
+    vietnamese: "mới",
+    chinese: "新的",
+    korean: "새로운",
+    spanish: "nuevo",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -732,7 +767,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あたらしいほんをかいました。",
         romaji: "Atarashii hon o kaimashita.",
         english: "I bought a new book.",
-        french: "J'ai acheté un nouveau livre."
+        french: "J'ai acheté un nouveau livre.",
+        german: "Ich habe ein neues Buch gekauft.",
+        vietnamese: "Tôi đã mua một cuốn sách mới.",
+        chinese: "我买了一本新书。",
+        korean: "새 책을 샀습니다.",
+        spanish: "Compré un libro nuevo."
       }
     ]
   },
@@ -743,6 +783,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "achira",
     english: "there",
     french: "là-bas",
+    german: "dort drüben",
+    vietnamese: "đằng kia",
+    chinese: "那边",
+    korean: "저쪽",
+    spanish: "allí",
     level: "N5",
     category: "location",
     wordType: "pronoun",
@@ -752,7 +797,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "せんせいはあちらです。",
         romaji: "Sensei wa achira desu.",
         english: "The teacher is over there.",
-        french: "Le professeur est là-bas."
+        french: "Le professeur est là-bas.",
+        german: "Der Lehrer ist dort drüben.",
+        vietnamese: "Thầy giáo ở đằng kia.",
+        chinese: "老师在那边。",
+        korean: "선생님은 저쪽에 계십니다.",
+        spanish: "El profesor está allí."
       }
     ]
   },
