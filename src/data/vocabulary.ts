@@ -5794,12 +5794,17 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "kudamono",
+     "id": "kudamono",
     "japanese": "果物",
     "hiragana": "くだもの",
     "romaji": "kudamono",
     "english": "fruit",
     "french": "fruit",
+    "german": "Obst",
+    "vietnamese": "trái cây",
+    "chinese": "水果",
+    "korean": "과일",
+    "spanish": "fruta",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -5809,7 +5814,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "くだものをよくたべます。",
         "romaji": "Kudamono o yoku tabemasu.",
         "english": "I often eat fruit.",
-        "french": "Je mange souvent des fruits."
+        "french": "Je mange souvent des fruits.",
+        "german": "Ich esse oft Obst.",
+        "vietnamese": "Tôi thường ăn trái cây.",
+        "chinese": "我经常吃水果。",
+        "korean": "저는 과일을 자주 먹습니다.",
+        "spanish": "A menudo como fruta."
       }
     ]
   },
@@ -5820,6 +5830,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kuchi",
     "english": "mouth, opening",
     "french": "bouche, ouverture",
+    "german": "Mund, Öffnung",
+    "vietnamese": "miệng, lối vào",
+    "chinese": "嘴巴，入口",
+    "korean": "입, 입구",
+    "spanish": "boca, abertura",
     "level": "N5",
     "category": "body parts",
     "wordType": "noun",
@@ -5829,7 +5844,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "くちをあけてください。",
         "romaji": "Kuchi o akete kudasai.",
         "english": "Please open your mouth.",
-        "french": "Ouvrez la bouche, s'il vous plaît."
+        "french": "Ouvrez la bouche, s'il vous plaît.",
+        "german": "Bitte öffnen Sie den Mund.",
+        "vietnamese": "Xin hãy mở miệng ra.",
+        "chinese": "请张开嘴。",
+        "korean": "입을 벌려 주세요.",
+        "spanish": "Abra la boca, por favor."
       }
     ]
   },
@@ -5840,6 +5860,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kutsu",
     "english": "shoes",
     "french": "chaussures",
+    "german": "Schuhe",
+    "vietnamese": "giày",
+    "chinese": "鞋子",
+    "korean": "신발",
+    "spanish": "zapatos",
     "level": "N5",
     "category": "clothing",
     "wordType": "noun",
@@ -5849,7 +5874,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "あたらしいくつをかいました。",
         "romaji": "Atarashii kutsu o kaimashita.",
         "english": "I bought new shoes.",
-        "french": "J'ai acheté de nouvelles chaussures."
+        "french": "J'ai acheté de nouvelles chaussures.",
+        "german": "Ich habe neue Schuhe gekauft.",
+        "vietnamese": "Tôi đã mua giày mới.",
+        "chinese": "我买了新鞋。",
+        "korean": "새 신발을 샀습니다.",
+        "spanish": "Compré zapatos nuevos."
       }
     ]
   },
@@ -5860,6 +5890,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kutsushita",
     "english": "socks",
     "french": "chaussettes",
+    "german": "Socken",
+    "vietnamese": "tất, vớ",
+    "chinese": "袜子",
+    "korean": "양말",
+    "spanish": "calcetines",
     "level": "N5",
     "category": "clothing",
     "wordType": "noun",
@@ -5869,7 +5904,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "くつしたをはきます。",
         "romaji": "Kutsushita o hakimasu.",
         "english": "I put on socks.",
-        "french": "Je mets des chaussettes."
+        "french": "Je mets des chaussettes.",
+        "german": "Ich ziehe Socken an.",
+        "vietnamese": "Tôi mang tất.",
+        "chinese": "我穿袜子。",
+        "korean": "양말을 신습니다.",
+        "spanish": "Me pongo calcetines."
       }
     ]
   },
@@ -5880,6 +5920,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kuni",
     "english": "country",
     "french": "pays",
+    "german": "Land",
+    "vietnamese": "đất nước",
+    "chinese": "国家",
+    "korean": "나라",
+    "spanish": "país",
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
@@ -5889,7 +5934,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "にほんはうつくしいくにです。",
         "romaji": "Nihon wa utsukushii kuni desu.",
         "english": "Japan is a beautiful country.",
-        "french": "Le Japon est un beau pays."
+        "french": "Le Japon est un beau pays.",
+        "german": "Japan ist ein schönes Land.",
+        "vietnamese": "Nhật Bản là một đất nước đẹp.",
+        "chinese": "日本是一个美丽的国家。",
+        "korean": "일본은 아름다운 나라입니다.",
+        "spanish": "Japón es un país hermoso."
       }
     ]
   },
@@ -5900,6 +5950,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kumori",
     "english": "cloudy weather",
     "french": "temps nuageux",
+    "german": "bewölkt",
+    "vietnamese": "trời nhiều mây",
+    "chinese": "多云",
+    "korean": "흐림",
+    "spanish": "nublado",
     "level": "N5",
     "category": "weather",
     "wordType": "noun",
@@ -5909,7 +5964,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょうはくもりです。",
         "romaji": "Kyou wa kumori desu.",
         "english": "It is cloudy today.",
-        "french": "Il fait nuageux aujourd'hui."
+        "french": "Il fait nuageux aujourd'hui.",
+        "german": "Heute ist es bewölkt.",
+        "vietnamese": "Hôm nay trời nhiều mây.",
+        "chinese": "今天是多云。",
+        "korean": "오늘은 흐립니다.",
+        "spanish": "Hoy está nublado."
       }
     ]
   },
@@ -5920,6 +5980,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kumoru",
     "english": "to become cloudy",
     "french": "se couvrir (ciel)",
+    "german": "sich bewölken",
+    "vietnamese": "trở nên nhiều mây",
+    "chinese": "变阴",
+    "korean": "흐려지다",
+    "spanish": "nublarse",
     "level": "N5",
     "category": "weather",
     "wordType": "verb",
@@ -5929,7 +5994,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "そらがくもっています。",
         "romaji": "Sora ga kumotte imasu.",
         "english": "The sky is cloudy.",
-        "french": "Le ciel est couvert."
+        "french": "Le ciel est couvert.",
+        "german": "Der Himmel ist bewölkt.",
+        "vietnamese": "Bầu trời đang nhiều mây.",
+        "chinese": "天空多云。",
+        "korean": "하늘이 흐려졌습니다.",
+        "spanish": "El cielo está nublado."
       }
     ]
   },
@@ -5940,6 +6010,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "keikan",
     "english": "policeman",
     "french": "policier",
+    "german": "Polizist",
+    "vietnamese": "cảnh sát",
+    "chinese": "警察",
+    "korean": "경관",
+    "spanish": "policía",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
@@ -5949,7 +6024,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "けいかんがみちをわたっています。",
         "romaji": "Keikan ga michi o watatte imasu.",
         "english": "The policeman is crossing the street.",
-        "french": "Le policier traverse la rue."
+        "french": "Le policier traverse la rue.",
+        "german": "Der Polizist überquert die Straße.",
+        "vietnamese": "Cảnh sát đang băng qua đường.",
+        "chinese": "警察正在过马路。",
+        "korean": "경관이 길을 건너고 있습니다.",
+        "spanish": "El policía está cruzando la calle."
       }
     ]
   },
@@ -5960,6 +6040,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kesa",
     "english": "this morning",
     "french": "ce matin",
+    "german": "heute Morgen",
+    "vietnamese": "sáng nay",
+    "chinese": "今天早上",
+    "korean": "오늘 아침",
+    "spanish": "esta mañana",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -5969,7 +6054,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "けさはさむかったです。",
         "romaji": "Kesa wa samukatta desu.",
         "english": "It was cold this morning.",
-        "french": "Il faisait froid ce matin."
+        "french": "Il faisait froid ce matin.",
+        "german": "Heute Morgen war es kalt.",
+        "vietnamese": "Sáng nay trời lạnh.",
+        "chinese": "今天早上很冷。",
+        "korean": "오늘 아침은 추웠습니다.",
+        "spanish": "Esta mañana hacía frío."
       }
     ]
   },
@@ -5980,6 +6070,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kesu",
     "english": "to erase, to turn off",
     "french": "effacer, éteindre",
+    "german": "löschen, ausschalten",
+    "vietnamese": "xóa, tắt",
+    "chinese": "关掉，消除",
+    "korean": "끄다, 지우다",
+    "spanish": "borrar, apagar",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -5989,7 +6084,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "でんきをけしてください。",
         "romaji": "Denki o keshite kudasai.",
         "english": "Please turn off the light.",
-        "french": "Éteignez la lumière, s'il vous plaît."
+        "french": "Éteignez la lumière, s'il vous plaît.",
+        "german": "Bitte machen Sie das Licht aus.",
+        "vietnamese": "Xin hãy tắt đèn.",
+        "chinese": "请关灯。",
+        "korean": "불을 꺼 주세요.",
+        "spanish": "Por favor, apaga la luz."
       }
     ]
   },
@@ -6000,6 +6100,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kekkou",
     "english": "splendid, enough",
     "french": "magnifique, suffisant",
+    "german": "prächtig, genug",
+    "vietnamese": "tuyệt vời, đủ",
+    "chinese": "挺好的，够了",
+    "korean": "훌륭한, 충분한",
+    "spanish": "estupendo, suficiente",
     "level": "N5",
     "category": "expression",
     "wordType": "adjective",
@@ -6009,7 +6114,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "このりょうりはけっこうおいしいです。",
         "romaji": "Kono ryouri wa kekkou oishii desu.",
         "english": "This dish is quite delicious.",
-        "french": "Ce plat est assez délicieux."
+        "french": "Ce plat est assez délicieux.",
+        "german": "Dieses Gericht ist ziemlich lecker.",
+        "vietnamese": "Món ăn này khá ngon.",
+        "chinese": "这道菜相当好吃。",
+        "korean": "이 요리는 꽤 맛있습니다.",
+        "spanish": "Este plato está bastante delicioso."
       }
     ]
   },
@@ -6020,6 +6130,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "kekkon",
     "english": "marriage",
     "french": "mariage",
+    "german": "Ehe",
+    "vietnamese": "hôn nhân",
+    "chinese": "结婚",
+    "korean": "결혼",
+    "spanish": "matrimonio",
     "level": "N5",
     "category": "life",
     "wordType": "noun",
@@ -6029,7 +6144,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれらはきょねんけっこんしました。",
         "romaji": "Karera wa kyonen kekkon shimashita.",
         "english": "They got married last year.",
-        "french": "Ils se sont mariés l'année dernière."
+        "french": "Ils se sont mariés l'année dernière.",
+        "german": "Sie haben letztes Jahr geheiratet.",
+        "vietnamese": "Họ đã kết hôn năm ngoái.",
+        "chinese": "他们去年结婚了。",
+        "korean": "그들은 작년에 결혼했습니다.",
+        "spanish": "Se casaron el año pasado."
       }
     ]
   },
@@ -6040,6 +6160,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "getsuyoubi",
     "english": "Monday",
     "french": "lundi",
+    "german": "Montag",
+    "vietnamese": "thứ Hai",
+    "chinese": "星期一",
+    "korean": "월요일",
+    "spanish": "lunes",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -6049,7 +6174,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "げつようびにかいぎがあります。",
         "romaji": "Getsuyoubi ni kaigi ga arimasu.",
         "english": "There is a meeting on Monday.",
-        "french": "Il y a une réunion lundi."
+        "french": "Il y a une réunion lundi.",
+        "german": "Am Montag gibt es eine Besprechung.",
+        "vietnamese": "Có cuộc họp vào thứ Hai.",
+        "chinese": "星期一有会议。",
+        "korean": "월요일에 회의가 있습니다.",
+        "spanish": "El lunes hay una reunión."
       }
     ]
   },
@@ -6060,6 +6190,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "genkan",
     "english": "entry hall",
     "french": "entrée (maison)",
+    "german": "Eingang",
+    "vietnamese": "cửa ra vào",
+    "chinese": "玄关",
+    "korean": "현관",
+    "spanish": "entrada",
     "level": "N5",
     "category": "house",
     "wordType": "noun",
@@ -6069,7 +6204,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "くつはげんかんでぬいでください。",
         "romaji": "Kutsu wa genkan de nuide kudasai.",
         "english": "Please take off your shoes at the entrance.",
-        "french": "Enlevez vos chaussures à l'entrée, s'il vous plaît."
+        "french": "Enlevez vos chaussures à l'entrée, s'il vous plaît.",
+        "german": "Bitte ziehen Sie die Schuhe im Eingang aus.",
+        "vietnamese": "Vui lòng cởi giày ở cửa.",
+        "chinese": "请在玄关脱鞋。",
+        "korean": "현관에서 신발을 벗어 주세요.",
+        "spanish": "Por favor, quítese los zapatos en la entrada."
       }
     ]
   },
