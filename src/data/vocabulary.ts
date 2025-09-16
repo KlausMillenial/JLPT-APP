@@ -11860,6 +11860,906 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Écrivez au crayon s'il vous plaît."
       }
     ]
+  },
+  {
+    id: "oishii",
+    japanese: "おいしい",
+    hiragana: "おいしい",
+    romaji: "oishii",
+    english: "delicious",
+    french: "délicieux",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "このケーキはおいしいです。",
+        hiragana: "このけーきはおいしいです。",
+        romaji: "Kono keeki wa oishii desu.",
+        english: "This cake is delicious.",
+        french: "Ce gâteau est délicieux."
+      }
+    ]
+  },
+  {
+    id: "ooi",
+    japanese: "多い",
+    hiragana: "おおい",
+    romaji: "ooi",
+    english: "many, numerous",
+    french: "beaucoup, nombreux",
+    level: "N5",
+    category: "quantity",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "今日は人が多いです。",
+        hiragana: "きょうはひとがおおいです。",
+        romaji: "Kyou wa hito ga ooi desu.",
+        english: "There are many people today.",
+        french: "Il y a beaucoup de monde aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "ookii",
+    japanese: "大きい",
+    hiragana: "おおきい",
+    romaji: "ookii",
+    english: "big",
+    french: "grand",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "大きい家に住みたいです。",
+        hiragana: "おおきいいえにすみたいです。",
+        romaji: "Ookii ie ni sumitai desu.",
+        english: "I want to live in a big house.",
+        french: "Je veux vivre dans une grande maison."
+      }
+    ]
+  },
+  {
+    id: "ookina",
+    japanese: "大きな",
+    hiragana: "おおきな",
+    romaji: "ookina",
+    english: "big (attributive)",
+    french: "grand (devant le nom)",
+    level: "N5",
+    category: "adjective",
+    wordType: "pre-noun adjectival",
+    examples: [
+      {
+        japanese: "大きな問題があります。",
+        hiragana: "おおきなもんだいがあります。",
+        romaji: "Ookina mondai ga arimasu.",
+        english: "There is a big problem.",
+        french: "Il y a un gros problème."
+      }
+    ]
+  },
+  {
+    id: "oozei",
+    japanese: "大勢",
+    hiragana: "おおぜい",
+    romaji: "oozei",
+    english: "many people",
+    french: "foule, beaucoup de gens",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅に大勢の人が集まりました。",
+        hiragana: "えきにおおぜいのひとがあつまりました。",
+        romaji: "Eki ni oozei no hito ga atsumarimashita.",
+        english: "A crowd gathered at the station.",
+        french: "Une foule s'est rassemblée à la gare."
+      }
+    ]
+  },
+  {
+    id: "okaasan",
+    japanese: "お母さん",
+    hiragana: "おかあさん",
+    romaji: "okaasan",
+    english: "mother",
+    french: "mère, maman",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お母さんに電話します。",
+        hiragana: "おかあさんにでんわします。",
+        romaji: "Okaasan ni denwa shimasu.",
+        english: "I call my mother.",
+        french: "J'appelle ma mère."
+      }
+    ]
+  },
+  {
+    id: "okashi",
+    japanese: "お菓子",
+    hiragana: "おかし",
+    romaji: "okashi",
+    english: "sweets, snacks",
+    french: "friandises, gâteaux",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "子供はお菓子が好きです。",
+        hiragana: "こどもはおかしがすきです。",
+        romaji: "Kodomo wa okashi ga suki desu.",
+        english: "Children like sweets.",
+        french: "Les enfants aiment les friandises."
+      }
+    ]
+  },
+  {
+    id: "okane",
+    japanese: "お金",
+    hiragana: "おかね",
+    romaji: "okane",
+    english: "money",
+    french: "argent",
+    level: "N5",
+    category: "economy",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お金を節約します。",
+        hiragana: "おかねをせつやくします。",
+        romaji: "Okane o setsuyaku shimasu.",
+        english: "I save money.",
+        french: "J'économise de l'argent."
+      }
+    ]
+  },
+  {
+    id: "okiru",
+    japanese: "起きる",
+    hiragana: "おきる",
+    romaji: "okiru",
+    english: "to get up; to wake up",
+    french: "se lever; se réveiller",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "毎朝６時に起きます。",
+        hiragana: "まいあさろくじにおきます。",
+        romaji: "Maiasa roku-ji ni okimasu.",
+        english: "I get up at six every morning.",
+        french: "Je me lève tous les matins à six heures."
+      }
+    ]
+  },
+  {
+    id: "oku",
+    japanese: "置く",
+    hiragana: "おく",
+    romaji: "oku",
+    english: "to put; to place",
+    french: "mettre; poser",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "本を机の上に置きました。",
+        hiragana: "ほんをつくえのうえにおきました。",
+        romaji: "Hon o tsukue no ue ni okimashita.",
+        english: "I put the book on the desk.",
+        french: "J'ai posé le livre sur le bureau."
+      }
+    ]
+  },
+  {
+    id: "okusan",
+    japanese: "奥さん",
+    hiragana: "おくさん",
+    romaji: "okusan",
+    english: "wife (polite)",
+    french: "épouse (poli)",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "田中さんの奥さんは優しいです。",
+        hiragana: "たなかさんのおくさんはやさしいです。",
+        romaji: "Tanaka-san no okusan wa yasashii desu.",
+        english: "Mr. Tanaka's wife is kind.",
+        french: "L'épouse de M. Tanaka est gentille."
+      }
+    ]
+  },
+  {
+    id: "osake",
+    japanese: "お酒",
+    hiragana: "おさけ",
+    romaji: "osake",
+    english: "alcohol; sake",
+    french: "alcool; saké",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お酒はあまり飲みません。",
+        hiragana: "おさけはあまりのみません。",
+        romaji: "Osake wa amari nomimasen.",
+        english: "I don't drink much alcohol.",
+        french: "Je ne bois pas beaucoup d'alcool."
+      }
+    ]
+  },
+  {
+    id: "osara",
+    japanese: "お皿",
+    hiragana: "おさら",
+    romaji: "osara",
+    english: "plate; dish",
+    french: "assiette; plat",
+    level: "N5",
+    category: "kitchen",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お皿を二枚ください。",
+        hiragana: "おさらをにまいください。",
+        romaji: "Osara o nimai kudasai.",
+        english: "Two plates, please.",
+        french: "Deux assiettes, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "ojiisan",
+    japanese: "おじいさん",
+    hiragana: "おじいさん",
+    romaji: "ojiisan",
+    english: "grandfather; old man",
+    french: "grand-père; vieil homme",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おじいさんは元気です。",
+        hiragana: "おじいさんはげんきです。",
+        romaji: "Ojiisan wa genki desu.",
+        english: "Grandpa is well.",
+        french: "Grand-père va bien."
+      }
+    ]
+  },
+  {
+    id: "oshieru",
+    japanese: "教える",
+    hiragana: "おしえる",
+    romaji: "oshieru",
+    english: "to teach; to tell",
+    french: "enseigner; apprendre à; dire",
+    level: "N5",
+    category: "education",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "先生が日本語を教えます。",
+        hiragana: "せんせいがにほんごをおしえます。",
+        romaji: "Sensei ga Nihongo o oshiemasu.",
+        english: "The teacher teaches Japanese.",
+        french: "Le professeur enseigne le japonais."
+      }
+    ]
+  },
+  {
+    id: "ojisan",
+    japanese: "おじさん",
+    hiragana: "おじさん",
+    romaji: "ojisan",
+    english: "uncle; middle-aged man",
+    french: "oncle; homme d'âge mûr",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おじさんは大阪に住んでいます。",
+        hiragana: "おじさんはおおさかにすんでいます。",
+        romaji: "Ojisan wa Oosaka ni sunde imasu.",
+        english: "My uncle lives in Osaka.",
+        french: "Mon oncle habite à Osaka."
+      }
+    ]
+  },
+  {
+    id: "osu",
+    japanese: "押す",
+    hiragana: "おす",
+    romaji: "osu",
+    english: "to push; press",
+    french: "pousser; appuyer",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "このボタンを押してください。",
+        hiragana: "このぼたんをおしてください。",
+        romaji: "Kono botan o oshite kudasai.",
+        english: "Please press this button.",
+        french: "Appuyez sur ce bouton, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "osoi",
+    japanese: "遅い",
+    hiragana: "おそい",
+    romaji: "osoi",
+    english: "late; slow",
+    french: "en retard; lent",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "今日は帰りが遅いです。",
+        hiragana: "きょうはかえりがおそいです。",
+        romaji: "Kyou wa kaeri ga osoi desu.",
+        english: "I'll come home late today.",
+        french: "Je rentrerai tard aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "ocha",
+    japanese: "お茶",
+    hiragana: "おちゃ",
+    romaji: "ocha",
+    english: "tea (green tea)",
+    french: "thé (vert)",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お茶を飲みませんか。",
+        hiragana: "おちゃをのみませんか。",
+        romaji: "Ocha o nomimasen ka?",
+        english: "Would you like some tea?",
+        french: "Vous voulez du thé ?"
+      }
+    ]
+  },
+  {
+    id: "otearai",
+    japanese: "お手洗い",
+    hiragana: "おてあらい",
+    romaji: "otearai",
+    english: "restroom; bathroom (toilet)",
+    french: "toilettes; salle d'eau",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お手洗いはどこですか。",
+        hiragana: "おてあらいはどこですか。",
+        romaji: "Otearai wa doko desu ka?",
+        english: "Where is the restroom?",
+        french: "Où sont les toilettes ?"
+      }
+    ]
+  },
+  {
+    id: "otousan",
+    japanese: "お父さん",
+    hiragana: "おとうさん",
+    romaji: "otousan",
+    english: "father",
+    french: "père, papa",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お父さんは会社に勤めています。",
+        hiragana: "おとうさんはかいしゃにつとめています。",
+        romaji: "Otousan wa kaisha ni tsutome te imasu.",
+        english: "My father works at a company.",
+        french: "Mon père travaille dans une entreprise."
+      }
+    ]
+  },
+  {
+    id: "otouto",
+    japanese: "弟",
+    hiragana: "おとうと",
+    romaji: "otouto",
+    english: "younger brother",
+    french: "petit frère",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "弟はサッカーが上手です。",
+        hiragana: "おとうとはさっかーがじょうずです。",
+        romaji: "Otouto wa sakkaa ga jouzu desu.",
+        english: "My younger brother is good at soccer.",
+        french: "Mon petit frère est bon au football."
+      }
+    ]
+  },
+  {
+    id: "otoko",
+    japanese: "男",
+    hiragana: "おとこ",
+    romaji: "otoko",
+    english: "man; male",
+    french: "homme; mâle",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "その男は先生です。",
+        hiragana: "そのおとこはせんせいです。",
+        romaji: "Sono otoko wa sensei desu.",
+        english: "That man is a teacher.",
+        french: "Cet homme est professeur."
+      }
+    ]
+  },
+  {
+    id: "otokonoko",
+    japanese: "男の子",
+    hiragana: "おとこのこ",
+    romaji: "otoko no ko",
+    english: "boy",
+    french: "garçon",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "公園で男の子が遊んでいます。",
+        hiragana: "こうえんでおとこのこがあそんでいます。",
+        romaji: "Kouen de otoko no ko ga asonde imasu.",
+        english: "A boy is playing in the park.",
+        french: "Un garçon joue dans le parc."
+      }
+    ]
+  },
+  {
+    id: "ototoi",
+    japanese: "一昨日",
+    hiragana: "おととい",
+    romaji: "ototoi",
+    english: "the day before yesterday",
+    french: "avant-hier",
+    level: "N5",
+    category: "time",
+    wordType: "adverb/noun",
+    examples: [
+      {
+        japanese: "一昨日、映画を見ました。",
+        hiragana: "おととい、えいがをみました。",
+        romaji: "Ototoi, eiga o mimashita.",
+        english: "I watched a movie the day before yesterday.",
+        french: "J'ai vu un film avant-hier."
+      }
+    ]
+  },
+  {
+    id: "ototoshi",
+    japanese: "一昨年",
+    hiragana: "おととし",
+    romaji: "ototoshi",
+    english: "the year before last",
+    french: "l'année d'avant (il y a deux ans)",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "一昨年、日本へ行きました。",
+        hiragana: "おととし、にほんへいきました。",
+        romaji: "Ototoshi, Nihon e ikimashita.",
+        english: "I went to Japan the year before last.",
+        french: "Je suis allé au Japon il y a deux ans."
+      }
+    ]
+  },
+  {
+    id: "otona",
+    japanese: "大人",
+    hiragana: "おとな",
+    romaji: "otona",
+    english: "adult",
+    french: "adulte",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "大人のチケットは1000円です。",
+        hiragana: "おとなのちけっとはせんえんです。",
+        romaji: "Otona no chiketto wa sen-en desu.",
+        english: "An adult ticket is 1000 yen.",
+        french: "Le billet adulte coûte 1000 yens."
+      }
+    ]
+  },
+  {
+    id: "onaka",
+    japanese: "お腹",
+    hiragana: "おなか",
+    romaji: "onaka",
+    english: "stomach; belly",
+    french: "ventre",
+    level: "N5",
+    category: "body",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お腹がすきました。",
+        hiragana: "おなかがすきました。",
+        romaji: "Onaka ga sukimashita.",
+        english: "I'm hungry.",
+        french: "J'ai faim."
+      }
+    ]
+  },
+  {
+    id: "onaji",
+    japanese: "同じ",
+    hiragana: "おなじ",
+    romaji: "onaji",
+    english: "same",
+    french: "même",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjectival noun",
+    examples: [
+      {
+        japanese: "私たちは同じクラスです。",
+        hiragana: "わたしたちはおなじくらすです。",
+        romaji: "Watashitachi wa onaji kurasu desu.",
+        english: "We are in the same class.",
+        french: "Nous sommes dans la même classe."
+      }
+    ]
+  },
+  {
+    id: "oniisan",
+    japanese: "お兄さん",
+    hiragana: "おにいさん",
+    romaji: "oniisan",
+    english: "older brother",
+    french: "grand frère",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お兄さんは背が高いです。",
+        hiragana: "おにいさんはせがたかいです。",
+        romaji: "Oniisan wa se ga takai desu.",
+        english: "My older brother is tall.",
+        french: "Mon grand frère est grand."
+      }
+    ]
+  },
+  {
+    id: "oneesan",
+    japanese: "お姉さん",
+    hiragana: "おねえさん",
+    romaji: "oneesan",
+    english: "older sister",
+    french: "grande sœur",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お姉さんは優しいです。",
+        hiragana: "おねえさんはやさしいです。",
+        romaji: "Oneesan wa yasashii desu.",
+        english: "My older sister is kind.",
+        french: "Ma grande sœur est gentille."
+      }
+    ]
+  },
+  {
+    id: "obaasan",
+    japanese: "おばあさん",
+    hiragana: "おばあさん",
+    romaji: "obaasan",
+    english: "grandmother; old woman",
+    french: "grand-mère; vieille dame",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おばあさんは元気です。",
+        hiragana: "おばあさんはげんきです。",
+        romaji: "Obaasan wa genki desu.",
+        english: "Grandma is well.",
+        french: "Grand-mère va bien."
+      }
+    ]
+  },
+  {
+    id: "obasan",
+    japanese: "おばさん",
+    hiragana: "おばさん",
+    romaji: "obasan",
+    english: "aunt; middle-aged woman",
+    french: "tante; femme d'âge mûr",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おばさんは料理が上手です。",
+        hiragana: "おばさんはりょうりがじょうずです。",
+        romaji: "Obasan wa ryouri ga jouzu desu.",
+        english: "My aunt is good at cooking.",
+        french: "Ma tante cuisine bien."
+      }
+    ]
+  },
+  {
+    id: "ofuro",
+    japanese: "お風呂",
+    hiragana: "おふろ",
+    romaji: "ofuro",
+    english: "bath",
+    french: "bain",
+    level: "N5",
+    category: "home",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お風呂に入ります。",
+        hiragana: "おふろにはいります。",
+        romaji: "Ofuro ni hairimasu.",
+        english: "I take a bath.",
+        french: "Je prends un bain."
+      }
+    ]
+  },
+  {
+    id: "obentou",
+    japanese: "お弁当",
+    hiragana: "おべんとう",
+    romaji: "obentou",
+    english: "boxed lunch",
+    french: "bento, panier-repas",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "昼ごはんはお弁当にしました。",
+        hiragana: "ひるごはんはおべんとうにしました。",
+        romaji: "Hirugohan wa obentou ni shimashita.",
+        english: "I had a bento for lunch.",
+        french: "J'ai pris un bento pour le déjeuner."
+      }
+    ]
+  },
+  {
+    id: "oboeru",
+    japanese: "覚える",
+    hiragana: "おぼえる",
+    romaji: "oboeru",
+    english: "to remember; to memorize",
+    french: "se souvenir; mémoriser",
+    level: "N5",
+    category: "study",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "単語を覚えましたか。",
+        hiragana: "たんごをおぼえましたか。",
+        romaji: "Tango o oboemashita ka?",
+        english: "Did you memorize the words?",
+        french: "As-tu mémorisé les mots ?"
+      }
+    ]
+  },
+  {
+    id: "omawarisan",
+    japanese: "お巡りさん",
+    hiragana: "おまわりさん",
+    romaji: "omawarisan",
+    english: "police officer (friendly)",
+    french: "agent de police (familier)",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お巡りさんに道を聞きました。",
+        hiragana: "おまわりさんにみちをききました。",
+        romaji: "Omawarisan ni michi o kikimashita.",
+        english: "I asked a police officer for directions.",
+        french: "J'ai demandé mon chemin à un policier."
+      }
+    ]
+  },
+  {
+    id: "omoi",
+    japanese: "重い",
+    hiragana: "おもい",
+    romaji: "omoi",
+    english: "heavy",
+    french: "lourd",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "このかばんは重いです。",
+        hiragana: "このかばんはおもいです。",
+        romaji: "Kono kaban wa omoi desu.",
+        english: "This bag is heavy.",
+        french: "Ce sac est lourd."
+      }
+    ]
+  },
+  {
+    id: "omoshiroi",
+    japanese: "面白い",
+    hiragana: "おもしろい",
+    romaji: "omoshiroi",
+    english: "interesting; funny",
+    french: "intéressant; amusant",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この本はとても面白いです。",
+        hiragana: "このほんはとてもおもしろいです。",
+        romaji: "Kono hon wa totemo omoshiroi desu.",
+        english: "This book is very interesting.",
+        french: "Ce livre est très intéressant."
+      }
+    ]
+  },
+  {
+    id: "oyogu",
+    japanese: "泳ぐ",
+    hiragana: "およぐ",
+    romaji: "oyogu",
+    english: "to swim",
+    french: "nager",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "夏は海で泳ぎます。",
+        hiragana: "なつはうみでおよぎます。",
+        romaji: "Natsu wa umi de oyogimasu.",
+        english: "I swim in the sea in summer.",
+        french: "En été, je nage à la mer."
+      }
+    ]
+  },
+  {
+    id: "oriru",
+    japanese: "降りる",
+    hiragana: "おりる",
+    romaji: "oriru",
+    english: "to get off; to descend",
+    french: "descendre; descendre de",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "次の駅で降ります。",
+        hiragana: "つぎのえきでおります。",
+        romaji: "Tsugi no eki de orimasu.",
+        english: "I get off at the next station.",
+        french: "Je descends à la prochaine gare."
+      }
+    ]
+  },
+  {
+    id: "owaru",
+    japanese: "終わる",
+    hiragana: "おわる",
+    romaji: "owaru",
+    english: "to finish; to end",
+    french: "finir; se terminer",
+    level: "N5",
+    category: "verb",
+    wordType: "intransitive godan verb",
+    examples: [
+      {
+        japanese: "授業は三時に終わります。",
+        hiragana: "じゅぎょうはさんじにおわります。",
+        romaji: "Jugyou wa san-ji ni owarimasu.",
+        english: "Class ends at three o'clock.",
+        french: "Le cours se termine à trois heures."
+      }
+    ]
+  },
+  {
+    id: "ongaku",
+    japanese: "音楽",
+    hiragana: "おんがく",
+    romaji: "ongaku",
+    english: "music",
+    french: "musique",
+    level: "N5",
+    category: "art",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "音楽を聞くのが好きです。",
+        hiragana: "おんがくをきくのがすきです。",
+        romaji: "Ongaku o kiku no ga suki desu.",
+        english: "I like listening to music.",
+        french: "J'aime écouter de la musique."
+      }
+    ]
+  },
+  {
+    id: "onna",
+    japanese: "女",
+    hiragana: "おんな",
+    romaji: "onna",
+    english: "woman; female",
+    french: "femme; femelle",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "その女は医者です。",
+        hiragana: "そのおんなはいしゃです。",
+        romaji: "Sono onna wa isha desu.",
+        english: "That woman is a doctor.",
+        french: "Cette femme est médecin."
+      }
+    ]
+  },
+  {
+    id: "onnanoko",
+    japanese: "女の子",
+    hiragana: "おんなのこ",
+    romaji: "onna no ko",
+    english: "girl",
+    french: "fille (enfant)",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "女の子が本を読んでいます。",
+        hiragana: "おんなのこがほんをよんでいます。",
+        romaji: "Onna no ko ga hon o yonde imasu.",
+        english: "A girl is reading a book.",
+        french: "Une fille lit un livre."
+      }
+    ]
   }
 ];
 
