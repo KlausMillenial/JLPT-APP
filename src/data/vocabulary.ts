@@ -7260,6 +7260,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Fais-tu confiance aux autres ?"
       }
     ]
+  },
+  {
+    "id": "tane",
+    "japanese": "種",
+    "hiragana": "たね",
+    "romaji": "tane",
+    "english": "seed",
+    "french": "graine",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "花の種を植えました。",
+        "hiragana": "はなのたねをうえました。",
+        "romaji": "Hana no tane o uemashita.",
+        "english": "I planted flower seeds.",
+        "french": "J'ai planté des graines de fleurs."
+      }
+    ]
+  },
+  {
+    "id": "tabun",
+    "japanese": "多分",
+    "hiragana": "たぶん",
+    "romaji": "tabun",
+    "english": "probably",
+    "french": "probablement",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "明日は多分雨です。",
+        "hiragana": "あしたはたぶんあめです。",
+        "romaji": "Ashita wa tabun ame desu.",
+        "english": "It will probably rain tomorrow.",
+        "french": "Il pleuvra probablement demain."
+      }
+    ]
+  },
+  {
+    "id": "tamaru",
+    "japanese": "溜まる",
+    "hiragana": "たまる",
+    "romaji": "tamaru",
+    "english": "to accumulate",
+    "french": "s'accumuler",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "仕事が溜まっています。",
+        "hiragana": "しごとがたまっています。",
+        "romaji": "Shigoto ga tamatte imasu.",
+        "english": "Work is piling up.",
+        "french": "Le travail s'accumule."
+      }
+    ]
+  },
+  {
+    "id": "tamago",
+    "japanese": "卵",
+    "hiragana": "たまご",
+    "romaji": "tamago",
+    "english": "egg",
+    "french": "œuf",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "卵を食べます。",
+        "hiragana": "たまごをたべます。",
+        "romaji": "Tamago o tabemasu.",
+        "english": "I eat eggs.",
+        "french": "Je mange des œufs."
+      }
+    ]
+  },
+  {
+    "id": "tameru",
+    "japanese": "貯める",
+    "hiragana": "ためる",
+    "romaji": "tameru",
+    "english": "to save (money)",
+    "french": "épargner",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "お金を貯めています。",
+        "hiragana": "おかねをためています。",
+        "romaji": "Okane o tamete imasu.",
+        "english": "I am saving money.",
+        "french": "J'épargne de l'argent."
+      }
+    ]
+  },
+  {
+    "id": "tanbo",
+    "japanese": "田んぼ",
+    "hiragana": "たんぼ",
+    "romaji": "tanbo",
+    "english": "rice field",
+    "french": "rizière",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼで米を作ります。",
+        "hiragana": "たんぼでこめをつくります。",
+        "romaji": "Tanbo de kome o tsukurimasu.",
+        "english": "They grow rice in the fields.",
+        "french": "On cultive du riz dans les rizières."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimi",
+    "japanese": "楽しみ",
+    "hiragana": "たのしみ",
+    "romaji": "tanoshimi",
+    "english": "pleasure, enjoyment",
+    "french": "plaisir",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "旅行が楽しみです。",
+        "hiragana": "りょこうがたのしみです。",
+        "romaji": "Ryokou ga tanoshimi desu.",
+        "english": "I am looking forward to the trip.",
+        "french": "J'ai hâte du voyage."
+      }
+    ]
+  },
+  {
+    "id": "tanoshi_geki",
+    "japanese": "楽劇",
+    "hiragana": "がくげき",
+    "romaji": "gakugeki",
+    "english": "musical drama",
+    "french": "drame musical",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "楽劇を見ました。",
+        "hiragana": "がくげきをみました。",
+        "romaji": "Gakugeki o mimashita.",
+        "english": "I watched a musical drama.",
+        "french": "J'ai vu un drame musical."
+      }
+    ]
+  },
+  {
+    "id": "tanjun",
+    "japanese": "単純",
+    "hiragana": "たんじゅん",
+    "romaji": "tanjun",
+    "english": "simple",
+    "french": "simple",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "答えは単純です。",
+        "hiragana": "こたえはたんじゅんです。",
+        "romaji": "Kotae wa tanjun desu.",
+        "english": "The answer is simple.",
+        "french": "La réponse est simple."
+      }
+    ]
+  },
+  {
+    "id": "tanken",
+    "japanese": "探検",
+    "hiragana": "たんけん",
+    "romaji": "tanken",
+    "english": "exploration",
+    "french": "exploration",
+    "level": "N5",
+    "category": "activity",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "森を探検しました。",
+        "hiragana": "もりをたんけんしました。",
+        "romaji": "Mori o tanken shimashita.",
+        "english": "I explored the forest.",
+        "french": "J'ai exploré la forêt."
+      }
+    ]
+  },
+  {
+    "id": "tanrei",
+    "japanese": "端麗",
+    "hiragana": "たんれい",
+    "romaji": "tanrei",
+    "english": "graceful, beautiful",
+    "french": "élégant, beau",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼女は端麗な女性です。",
+        "hiragana": "かのじょはたんれいなじょせいです。",
+        "romaji": "Kanojo wa tanrei na josei desu.",
+        "english": "She is a graceful woman.",
+        "french": "C'est une femme élégante."
+      }
+    ]
+  },
+  {
+    "id": "tate",
+    "japanese": "縦",
+    "hiragana": "たて",
+    "romaji": "tate",
+    "english": "vertical",
+    "french": "vertical",
+    "level": "N5",
+    "category": "direction",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "縦に並んでください。",
+        "hiragana": "たてにならんでください。",
+        "romaji": "Tate ni narande kudasai.",
+        "english": "Please line up vertically.",
+        "french": "Alignez-vous verticalement."
+      }
+    ]
+  },
+  {
+    "id": "tateru",
+    "japanese": "建てる",
+    "hiragana": "たてる",
+    "romaji": "tateru",
+    "english": "to build",
+    "french": "construire",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "家を建てます。",
+        "hiragana": "いえをたてます。",
+        "romaji": "Ie o tatemasu.",
+        "english": "I build a house.",
+        "french": "Je construis une maison."
+      }
+    ]
+  },
+  {
+    "id": "tatsu",
+    "japanese": "立つ",
+    "hiragana": "たつ",
+    "romaji": "tatsu",
+    "english": "to stand",
+    "french": "se lever, être debout",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "椅子から立ちます。",
+        "hiragana": "いすからたちます。",
+        "romaji": "Isu kara tachimasu.",
+        "english": "I stand up from the chair.",
+        "french": "Je me lève de la chaise."
+      }
+    ]
+  },
+  {
+    "id": "tabidatsu",
+    "japanese": "旅立つ",
+    "hiragana": "たびだつ",
+    "romaji": "tabidatsu",
+    "english": "to depart on a journey",
+    "french": "partir en voyage",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼は一人で旅立ちました。",
+        "hiragana": "かれはひとりでたびだちました。",
+        "romaji": "Kare wa hitori de tabidachimashita.",
+        "english": "He departed alone on a journey.",
+        "french": "Il est parti seul en voyage."
+      }
+    ]
+  },
+  {
+    "id": "tabiji",
+    "japanese": "旅路",
+    "hiragana": "たびじ",
+    "romaji": "tabiji",
+    "english": "journey, trip",
+    "french": "trajet, voyage",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "旅路は長かったです。",
+        "hiragana": "たびじはながかったです。",
+        "romaji": "Tabiji wa nagakatta desu.",
+        "english": "The journey was long.",
+        "french": "Le voyage était long."
+      }
+    ]
+  },
+  {
+    "id": "tabun2",
+    "japanese": "多文",
+    "hiragana": "たぶん",
+    "romaji": "tabun",
+    "english": "many sentences",
+    "french": "beaucoup de phrases",
+    "level": "N5",
+    "category": "language",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "多文を勉強します。",
+        "hiragana": "たぶんをべんきょうします。",
+        "romaji": "Tabun o benkyou shimasu.",
+        "english": "I study many sentences.",
+        "french": "J'étudie beaucoup de phrases."
+      }
+    ]
   }
 ];
 
