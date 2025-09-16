@@ -5660,6 +5660,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Ne vous inquiétez pas."
       }
     ]
+  },
+  {
+    "id": "suiei",
+    "japanese": "水泳",
+    "hiragana": "すいえい",
+    "romaji": "suiei",
+    "english": "swimming",
+    "french": "natation",
+    "level": "N5",
+    "category": "sport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "私は水泳が得意です。",
+        "hiragana": "わたしはすいえいがとくいです。",
+        "romaji": "Watashi wa suiei ga tokui desu.",
+        "english": "I am good at swimming.",
+        "french": "Je suis bon en natation."
+      }
+    ]
+  },
+  {
+    "id": "suizokukan",
+    "japanese": "水族館",
+    "hiragana": "すいぞくかん",
+    "romaji": "suizokukan",
+    "english": "aquarium",
+    "french": "aquarium",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "水族館で魚を見ました。",
+        "hiragana": "すいぞくかんでさかなをみました。",
+        "romaji": "Suizokukan de sakana o mimashita.",
+        "english": "I saw fish at the aquarium.",
+        "french": "J'ai vu des poissons à l'aquarium."
+      }
+    ]
+  },
+  {
+    "id": "suupaa",
+    "japanese": "スーパー",
+    "hiragana": "すーぱー",
+    "romaji": "suupaa",
+    "english": "supermarket",
+    "french": "supermarché",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "スーパーで野菜を買います。",
+        "hiragana": "すーぱーでやさいをかいます。",
+        "romaji": "Suupaa de yasai o kaimasu.",
+        "english": "I buy vegetables at the supermarket.",
+        "french": "J'achète des légumes au supermarché."
+      }
+    ]
+  },
+  {
+    "id": "suiyoubi",
+    "japanese": "水曜日",
+    "hiragana": "すいようび",
+    "romaji": "suiyoubi",
+    "english": "Wednesday",
+    "french": "mercredi",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "水曜日に会いましょう。",
+        "hiragana": "すいようびにあいましょう。",
+        "romaji": "Suiyoubi ni aimashou.",
+        "english": "Let's meet on Wednesday.",
+        "french": "Rencontrons-nous mercredi."
+      }
+    ]
+  },
+  {
+    "id": "suutsu",
+    "japanese": "スーツ",
+    "hiragana": "すーつ",
+    "romaji": "suutsu",
+    "english": "suit",
+    "french": "costume",
+    "level": "N5",
+    "category": "clothing",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼はスーツを着ています。",
+        "hiragana": "かれはすーつをきています。",
+        "romaji": "Kare wa suutsu o kite imasu.",
+        "english": "He is wearing a suit.",
+        "french": "Il porte un costume."
+      }
+    ]
+  },
+  {
+    "id": "sugoi",
+    "japanese": "すごい",
+    "hiragana": "すごい",
+    "romaji": "sugoi",
+    "english": "amazing, great",
+    "french": "formidable, génial",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼の歌はすごいです。",
+        "hiragana": "かれのうたはすごいです。",
+        "romaji": "Kare no uta wa sugoi desu.",
+        "english": "His singing is amazing.",
+        "french": "Son chant est génial."
+      }
+    ]
+  },
+  {
+    "id": "sugu",
+    "japanese": "直ぐ",
+    "hiragana": "すぐ",
+    "romaji": "sugu",
+    "english": "immediately, right away",
+    "french": "tout de suite, immédiatement",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "すぐに行きます。",
+        "hiragana": "すぐにいきます。",
+        "romaji": "Sugu ni ikimasu.",
+        "english": "I'll go right away.",
+        "french": "J'y vais tout de suite."
+      }
+    ]
+  },
+  {
+    "id": "sukii",
+    "japanese": "スキー",
+    "hiragana": "すきー",
+    "romaji": "sukii",
+    "english": "skiing",
+    "french": "ski",
+    "level": "N5",
+    "category": "sport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "冬にスキーをします。",
+        "hiragana": "ふゆにすきーをします。",
+        "romaji": "Fuyu ni sukii o shimasu.",
+        "english": "I ski in winter.",
+        "french": "Je fais du ski en hiver."
+      }
+    ]
+  },
+  {
+    "id": "sukoshi",
+    "japanese": "少し",
+    "hiragana": "すこし",
+    "romaji": "sukoshi",
+    "english": "a little",
+    "french": "un peu",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "少し疲れました。",
+        "hiragana": "すこしつかれました。",
+        "romaji": "Sukoshi tsukaremashita.",
+        "english": "I'm a little tired.",
+        "french": "Je suis un peu fatigué."
+      }
+    ]
+  },
+  {
+    "id": "sugite",
+    "japanese": "過ぎて",
+    "hiragana": "すぎて",
+    "romaji": "sugite",
+    "english": "too much, after",
+    "french": "trop, après",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "時間が過ぎています。",
+        "hiragana": "じかんがすぎています。",
+        "romaji": "Jikan ga sugite imasu.",
+        "english": "Time is passing.",
+        "french": "Le temps passe."
+      }
+    ]
+  },
+  {
+    "id": "sugoi_na",
+    "japanese": "凄い",
+    "hiragana": "すごい",
+    "romaji": "sugoi",
+    "english": "terrific",
+    "french": "extraordinaire",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "凄い景色ですね。",
+        "hiragana": "すごいけしきですね。",
+        "romaji": "Sugoi keshiki desu ne.",
+        "english": "That's an amazing view.",
+        "french": "C'est une vue extraordinaire."
+      }
+    ]
+  },
+  {
+    "id": "sukina",
+    "japanese": "好きな",
+    "hiragana": "すきな",
+    "romaji": "sukina",
+    "english": "favorite, liked",
+    "french": "préféré, aimé",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "好きな食べ物は何ですか？",
+        "hiragana": "すきなたべものはなんですか？",
+        "romaji": "Sukina tabemono wa nan desu ka?",
+        "english": "What is your favorite food?",
+        "french": "Quel est ton plat préféré ?"
+      }
+    ]
+  },
+  {
+    "id": "sumairu",
+    "japanese": "スマイル",
+    "hiragana": "すまいる",
+    "romaji": "sumairu",
+    "english": "smile",
+    "french": "sourire",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼女のスマイルが好きです。",
+        "hiragana": "かのじょのすまいるがすきです。",
+        "romaji": "Kanojo no sumairu ga suki desu.",
+        "english": "I like her smile.",
+        "french": "J'aime son sourire."
+      }
+    ]
+  },
+  {
+    "id": "sumairu_suru",
+    "japanese": "スマイルする",
+    "hiragana": "すまいるする",
+    "romaji": "sumairu suru",
+    "english": "to smile",
+    "french": "sourire (verbe)",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼はいつもスマイルしています。",
+        "hiragana": "かれはいつもすまいるしています。",
+        "romaji": "Kare wa itsumo sumairu shite imasu.",
+        "english": "He is always smiling.",
+        "french": "Il sourit toujours."
+      }
+    ]
+  },
+  {
+    "id": "sumu",
+    "japanese": "住む",
+    "hiragana": "すむ",
+    "romaji": "sumu",
+    "english": "to live (reside)",
+    "french": "habiter, résider",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "東京に住んでいます。",
+        "hiragana": "とうきょうにすんでいます。",
+        "romaji": "Toukyou ni sunde imasu.",
+        "english": "I live in Tokyo.",
+        "french": "J'habite à Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "sumimasen",
+    "japanese": "すみません",
+    "hiragana": "すみません",
+    "romaji": "sumimasen",
+    "english": "excuse me, sorry",
+    "french": "excusez-moi, désolé",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "すみません、道を教えてください。",
+        "hiragana": "すみません、みちをおしえてください。",
+        "romaji": "Sumimasen, michi o oshiete kudasai.",
+        "english": "Excuse me, please tell me the way.",
+        "french": "Excusez-moi, indiquez-moi le chemin s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "sumou",
+    "japanese": "相撲",
+    "hiragana": "すもう",
+    "romaji": "sumou",
+    "english": "sumo wrestling",
+    "french": "sumo",
+    "level": "N5",
+    "category": "sport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "相撲を見たことがあります。",
+        "hiragana": "すもうをみたことがあります。",
+        "romaji": "Sumou o mita koto ga arimasu.",
+        "english": "I have watched sumo.",
+        "french": "J'ai déjà vu du sumo."
+      }
+    ]
   }
 ];
 
