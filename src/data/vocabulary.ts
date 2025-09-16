@@ -16500,6 +16500,336 @@ export const vocabularyData: VocabularyWord[] = [
         spanish: "Viajo solo."
       }
     ]
+  },
+  {
+    id: "mae",
+    japanese: "前",
+    hiragana: "まえ",
+    romaji: "mae",
+    english: "before; in front",
+    french: "avant; devant",
+    german: "vor; davor",
+    vietnamese: "trước",
+    chinese: "前; 以前",
+    korean: "앞; 전에",
+    spanish: "antes; delante",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅の前で会いましょう。",
+        hiragana: "えきのまえであいましょう。",
+        romaji: "Eki no mae de aimashou.",
+        english: "Let's meet in front of the station.",
+        french: "Retrouvons-nous devant la gare.",
+        german: "Treffen wir uns vor dem Bahnhof.",
+        vietnamese: "Hẹn gặp trước nhà ga.",
+        chinese: "我们在车站前见面吧。",
+        korean: "역 앞에서 만납시다.",
+        spanish: "Nos vemos delante de la estación."
+      }
+    ]
+  },
+  {
+    id: "magaru",
+    japanese: "曲がる",
+    hiragana: "まがる",
+    romaji: "magaru",
+    english: "to turn",
+    french: "tourner",
+    german: "abbiegen",
+    vietnamese: "rẽ",
+    chinese: "转弯",
+    korean: "돌다",
+    spanish: "girar",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "右に曲がってください。",
+        hiragana: "みぎにまがってください。",
+        romaji: "Migi ni magatte kudasai.",
+        english: "Please turn right.",
+        french: "Tournez à droite, s'il vous plaît.",
+        german: "Bitte biegen Sie rechts ab.",
+        vietnamese: "Xin hãy rẽ phải.",
+        chinese: "请向右转。",
+        korean: "오른쪽으로 도세요.",
+        spanish: "Por favor, gira a la derecha."
+      }
+    ]
+  },
+  {
+    id: "mazui",
+    japanese: "まずい",
+    hiragana: "まずい",
+    romaji: "mazui",
+    english: "unappetizing; bad (taste)",
+    french: "mauvais (goût)",
+    german: "schmeckt schlecht",
+    vietnamese: "dở; không ngon",
+    chinese: "不好吃",
+    korean: "맛없다",
+    spanish: "desagradable; mal sabor",
+    level: "N5",
+    category: "food",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この料理はまずいです。",
+        hiragana: "このりょうりはまずいです。",
+        romaji: "Kono ryouri wa mazui desu.",
+        english: "This dish tastes bad.",
+        french: "Ce plat a mauvais goût.",
+        german: "Dieses Gericht schmeckt schlecht.",
+        vietnamese: "Món ăn này dở.",
+        chinese: "这道菜不好吃。",
+        korean: "이 요리는 맛없습니다.",
+        spanish: "Este plato sabe mal."
+      }
+    ]
+  },
+  {
+    id: "mata",
+    japanese: "また",
+    hiragana: "また",
+    romaji: "mata",
+    english: "again",
+    french: "encore",
+    german: "wieder",
+    vietnamese: "lại; nữa",
+    chinese: "又; 再",
+    korean: "다시",
+    spanish: "otra vez",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "また会いましょう。",
+        hiragana: "またあいましょう。",
+        romaji: "Mata aimashou.",
+        english: "Let's meet again.",
+        french: "Rencontrons-nous encore.",
+        german: "Lass uns wieder treffen.",
+        vietnamese: "Chúng ta hãy gặp lại nhau.",
+        chinese: "我们再见吧。",
+        korean: "다시 만납시다.",
+        spanish: "Vamos a vernos otra vez."
+      }
+    ]
+  },
+  {
+    id: "mada",
+    japanese: "まだ",
+    hiragana: "まだ",
+    romaji: "mada",
+    english: "still; not yet",
+    french: "encore; pas encore",
+    german: "noch; noch nicht",
+    vietnamese: "vẫn; chưa",
+    chinese: "还; 还没",
+    korean: "아직",
+    spanish: "todavía; aún no",
+    level: "N5",
+    category: "adverb",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "宿題はまだ終わっていません。",
+        hiragana: "しゅくだいはまだおわっていません。",
+        romaji: "Shukudai wa mada owatte imasen.",
+        english: "I haven't finished my homework yet.",
+        french: "Je n'ai pas encore fini mes devoirs.",
+        german: "Ich habe meine Hausaufgaben noch nicht fertig.",
+        vietnamese: "Tôi vẫn chưa làm xong bài tập.",
+        chinese: "我的作业还没完成。",
+        korean: "숙제를 아직 안 끝냈습니다.",
+        spanish: "Todavía no he terminado la tarea."
+      }
+    ]
+  },
+  {
+    id: "machi",
+    japanese: "町",
+    hiragana: "まち",
+    romaji: "machi",
+    english: "town",
+    french: "ville",
+    german: "Stadt",
+    vietnamese: "thị trấn",
+    chinese: "城镇",
+    korean: "마을; 도시",
+    spanish: "pueblo; ciudad",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "この町は静かです。",
+        hiragana: "このまちはしずかです。",
+        romaji: "Kono machi wa shizuka desu.",
+        english: "This town is quiet.",
+        french: "Cette ville est calme.",
+        german: "Diese Stadt ist ruhig.",
+        vietnamese: "Thị trấn này yên tĩnh.",
+        chinese: "这个城镇很安静。",
+        korean: "이 마을은 조용합니다.",
+        spanish: "Este pueblo es tranquilo."
+      }
+    ]
+  },
+  {
+    id: "matsu",
+    japanese: "待つ",
+    hiragana: "まつ",
+    romaji: "matsu",
+    english: "to wait",
+    french: "attendre",
+    german: "warten",
+    vietnamese: "chờ đợi",
+    chinese: "等",
+    korean: "기다리다",
+    spanish: "esperar",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "友達を待っています。",
+        hiragana: "ともだちをまっています。",
+        romaji: "Tomodachi o matte imasu.",
+        english: "I am waiting for my friend.",
+        french: "J'attends mon ami.",
+        german: "Ich warte auf meinen Freund.",
+        vietnamese: "Tôi đang đợi bạn.",
+        chinese: "我在等朋友。",
+        korean: "친구를 기다리고 있습니다.",
+        spanish: "Estoy esperando a mi amigo."
+      }
+    ]
+  },
+  {
+    id: "massugu",
+    japanese: "まっすぐ",
+    hiragana: "まっすぐ",
+    romaji: "massugu",
+    english: "straight",
+    french: "tout droit",
+    german: "geradeaus",
+    vietnamese: "thẳng",
+    chinese: "直的; 一直",
+    korean: "곧장",
+    spanish: "recto",
+    level: "N5",
+    category: "direction",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "まっすぐ行ってください。",
+        hiragana: "まっすぐいってください。",
+        romaji: "Massugu itte kudasai.",
+        english: "Please go straight.",
+        french: "Allez tout droit, s'il vous plaît.",
+        german: "Bitte gehen Sie geradeaus.",
+        vietnamese: "Xin đi thẳng.",
+        chinese: "请直走。",
+        korean: "곧장 가세요.",
+        spanish: "Por favor, sigue recto."
+      }
+    ]
+  },
+  {
+    id: "mado",
+    japanese: "窓",
+    hiragana: "まど",
+    romaji: "mado",
+    english: "window",
+    french: "fenêtre",
+    german: "Fenster",
+    vietnamese: "cửa sổ",
+    chinese: "窗户",
+    korean: "창문",
+    spanish: "ventana",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "窓を開けましょう。",
+        hiragana: "まどをあけましょう。",
+        romaji: "Mado o akemashou.",
+        english: "Let's open the window.",
+        french: "Ouvrons la fenêtre.",
+        german: "Lass uns das Fenster öffnen.",
+        vietnamese: "Hãy mở cửa sổ.",
+        chinese: "我们把窗户打开吧。",
+        korean: "창문을 열어요.",
+        spanish: "Abramos la ventana."
+      }
+    ]
+  },
+  {
+    id: "maru",
+    japanese: "丸",
+    hiragana: "まる",
+    romaji: "maru",
+    english: "circle",
+    french: "cercle",
+    german: "Kreis",
+    vietnamese: "hình tròn",
+    chinese: "圆",
+    korean: "원",
+    spanish: "círculo",
+    level: "N5",
+    category: "shape",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "紙に丸を描きました。",
+        hiragana: "かみにまるをかきました。",
+        romaji: "Kami ni maru o kakimashita.",
+        english: "I drew a circle on the paper.",
+        french: "J'ai dessiné un cercle sur le papier.",
+        german: "Ich habe einen Kreis auf das Papier gezeichnet.",
+        vietnamese: "Tôi vẽ một hình tròn trên giấy.",
+        chinese: "我在纸上画了一个圆。",
+        korean: "종이에 원을 그렸습니다.",
+        spanish: "Dibujé un círculo en el papel."
+      }
+    ]
+  },
+  {
+    id: "marui",
+    japanese: "丸い",
+    hiragana: "まるい",
+    romaji: "marui",
+    english: "round",
+    french: "rond",
+    german: "rund",
+    vietnamese: "tròn",
+    chinese: "圆的",
+    korean: "둥글다",
+    spanish: "redondo",
+    level: "N5",
+    category: "shape",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "地球は丸いです。",
+        hiragana: "ちきゅうはまるいです。",
+        romaji: "Chikyuu wa marui desu.",
+        english: "The Earth is round.",
+        french: "La Terre est ronde.",
+        german: "Die Erde ist rund.",
+        vietnamese: "Trái đất thì tròn.",
+        chinese: "地球是圆的。",
+        korean: "지구는 둥급니다.",
+        spanish: "La Tierra es redonda."
+      }
+    ]
   }
 ];
 
