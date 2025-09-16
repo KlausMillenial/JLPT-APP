@@ -13500,6 +13500,506 @@ export const vocabularyData: VocabularyWord[] = [
         french: "J'étudie les kanjis."
       }
     ]
+  },
+  {
+    id: "ki_tree",
+    japanese: "木",
+    hiragana: "き",
+    romaji: "ki",
+    english: "tree",
+    french: "arbre",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "庭に大きな木があります。",
+        hiragana: "にわにおおきなきがあります。",
+        romaji: "Niwa ni ōkina ki ga arimasu.",
+        english: "There is a big tree in the garden.",
+        french: "Il y a un grand arbre dans le jardin."
+      }
+    ]
+  },
+  {
+    id: "kiiro",
+    japanese: "黄色",
+    hiragana: "きいろ",
+    romaji: "kiiro",
+    english: "yellow",
+    french: "jaune",
+    level: "N5",
+    category: "color",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "黄色が好きです。",
+        hiragana: "きいろがすきです。",
+        romaji: "Kiiro ga suki desu.",
+        english: "I like yellow.",
+        french: "J'aime le jaune."
+      }
+    ]
+  },
+  {
+    id: "kiiroi",
+    japanese: "黄色い",
+    hiragana: "きいろい",
+    romaji: "kiiroi",
+    english: "yellow (adjective)",
+    french: "jaune (adjectif)",
+    level: "N5",
+    category: "color",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "黄色い花が咲いています。",
+        hiragana: "きいろいはながさいています。",
+        romaji: "Kiiroi hana ga saite imasu.",
+        english: "Yellow flowers are blooming.",
+        french: "Des fleurs jaunes sont en fleur."
+      }
+    ]
+  },
+  {
+    id: "kieru",
+    japanese: "消える",
+    hiragana: "きえる",
+    romaji: "kieru",
+    english: "to disappear; to go out",
+    french: "disparaître; s'éteindre",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "電気が消えました。",
+        hiragana: "でんきがきえました。",
+        romaji: "Denki ga kiemashita.",
+        english: "The light went out.",
+        french: "La lumière s'est éteinte."
+      }
+    ]
+  },
+  {
+    id: "kiku",
+    japanese: "聞く",
+    hiragana: "きく",
+    romaji: "kiku",
+    english: "to hear; to listen; to ask",
+    french: "entendre; écouter; demander",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "先生に質問を聞きます。",
+        hiragana: "せんせいにしつもんをききます。",
+        romaji: "Sensei ni shitsumon o kikimasu.",
+        english: "I ask the teacher a question.",
+        french: "Je pose une question au professeur."
+      }
+    ]
+  },
+  {
+    id: "kita",
+    japanese: "北",
+    hiragana: "きた",
+    romaji: "kita",
+    english: "north",
+    french: "nord",
+    level: "N5",
+    category: "direction",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本の北に北海道があります。",
+        hiragana: "にほんのきたにほっかいどうがあります。",
+        romaji: "Nihon no kita ni Hokkaidō ga arimasu.",
+        english: "Hokkaido is in the north of Japan.",
+        french: "Hokkaidō est au nord du Japon."
+      }
+    ]
+  },
+  {
+    id: "gitaa",
+    japanese: "ギター",
+    hiragana: "ぎたー",
+    romaji: "gitā",
+    english: "guitar",
+    french: "guitare",
+    level: "N5",
+    category: "music",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ギターを弾きます。",
+        hiragana: "ぎたーをひきます。",
+        romaji: "Gitā o hikimasu.",
+        english: "I play the guitar.",
+        french: "Je joue de la guitare."
+      }
+    ]
+  },
+  {
+    id: "kitanai",
+    japanese: "汚い",
+    hiragana: "きたない",
+    romaji: "kitanai",
+    english: "dirty",
+    french: "sale",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "部屋が汚いです。",
+        hiragana: "へやがきたないです。",
+        romaji: "Heya ga kitanai desu.",
+        english: "The room is dirty.",
+        french: "La chambre est sale."
+      }
+    ]
+  },
+  {
+    id: "kissaten",
+    japanese: "喫茶店",
+    hiragana: "きっさてん",
+    romaji: "kissaten",
+    english: "coffee shop",
+    french: "café (salon de thé)",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "喫茶店で友達と話しました。",
+        hiragana: "きっさてんでともだちとはなしました。",
+        romaji: "Kissaten de tomodachi to hanashimashita.",
+        english: "I talked with a friend at the coffee shop.",
+        french: "J'ai parlé avec un ami au café."
+      }
+    ]
+  },
+  {
+    id: "kitte",
+    japanese: "切手",
+    hiragana: "きって",
+    romaji: "kitte",
+    english: "stamp",
+    french: "timbre",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "切手を十枚ください。",
+        hiragana: "きってをじゅうまいください。",
+        romaji: "Kitte o jūmai kudasai.",
+        english: "Ten stamps, please.",
+        french: "Dix timbres, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "kippu",
+    japanese: "切符",
+    hiragana: "きっぷ",
+    romaji: "kippu",
+    english: "ticket",
+    french: "billet",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "電車の切符を買います。",
+        hiragana: "でんしゃのきっぷをかいます。",
+        romaji: "Densha no kippu o kaimasu.",
+        english: "I buy a train ticket.",
+        french: "J'achète un billet de train."
+      }
+    ]
+  },
+  {
+    id: "kinou",
+    japanese: "昨日",
+    hiragana: "きのう",
+    romaji: "kinō",
+    english: "yesterday",
+    french: "hier",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "昨日映画を見ました。",
+        hiragana: "きのうえいがをみました。",
+        romaji: "Kinō eiga o mimashita.",
+        english: "I watched a movie yesterday.",
+        french: "J'ai vu un film hier."
+      }
+    ]
+  },
+  {
+    id: "kyuu_ku",
+    japanese: "九",
+    hiragana: "きゅう／く",
+    romaji: "kyū / ku",
+    english: "nine",
+    french: "neuf",
+    level: "N5",
+    category: "number",
+    wordType: "number",
+    examples: [
+      {
+        japanese: "九時に起きます。",
+        hiragana: "くじにおきます。",
+        romaji: "Ku-ji ni okimasu.",
+        english: "I wake up at nine o'clock.",
+        french: "Je me lève à neuf heures."
+      }
+    ]
+  },
+  {
+    id: "gyuuniku",
+    japanese: "牛肉",
+    hiragana: "ぎゅうにく",
+    romaji: "gyūniku",
+    english: "beef",
+    french: "bœuf",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "牛肉をよく食べます。",
+        hiragana: "ぎゅうにくをよくたべます。",
+        romaji: "Gyūniku o yoku tabemasu.",
+        english: "I often eat beef.",
+        french: "Je mange souvent du bœuf."
+      }
+    ]
+  },
+  {
+    id: "gyuunyuu",
+    japanese: "牛乳",
+    hiragana: "ぎゅうにゅう",
+    romaji: "gyūnyū",
+    english: "milk",
+    french: "lait",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "毎朝牛乳を飲みます。",
+        hiragana: "まいあさぎゅうにゅうをのみます。",
+        romaji: "Maiasa gyūnyū o nomimasu.",
+        english: "I drink milk every morning.",
+        french: "Je bois du lait tous les matins."
+      }
+    ]
+  },
+  {
+    id: "kyou_today",
+    japanese: "今日",
+    hiragana: "きょう",
+    romaji: "kyō",
+    english: "today",
+    french: "aujourd'hui",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "今日は忙しいです。",
+        hiragana: "きょうはいそがしいです。",
+        romaji: "Kyō wa isogashii desu.",
+        english: "I am busy today.",
+        french: "Je suis occupé aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "kyoushitsu",
+    japanese: "教室",
+    hiragana: "きょうしつ",
+    romaji: "kyōshitsu",
+    english: "classroom",
+    french: "salle de classe",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "教室で勉強します。",
+        hiragana: "きょうしつでべんきょうします。",
+        romaji: "Kyōshitsu de benkyō shimasu.",
+        english: "I study in the classroom.",
+        french: "J'étudie dans la salle de classe."
+      }
+    ]
+  },
+  {
+    id: "kyoudai",
+    japanese: "兄弟",
+    hiragana: "きょうだい",
+    romaji: "kyōdai",
+    english: "siblings",
+    french: "frères et sœurs",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "兄弟が三人います。",
+        hiragana: "きょうだいがさんにんいます。",
+        romaji: "Kyōdai ga sannin imasu.",
+        english: "I have three siblings.",
+        french: "J'ai trois frères et sœurs."
+      }
+    ]
+  },
+  {
+    id: "kyonen",
+    japanese: "去年",
+    hiragana: "きょねん",
+    romaji: "kyonen",
+    english: "last year",
+    french: "l'année dernière",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "去年日本へ行きました。",
+        hiragana: "きょねんにほんへいきました。",
+        romaji: "Kyonen Nihon e ikimashita.",
+        english: "I went to Japan last year.",
+        french: "Je suis allé au Japon l'année dernière."
+      }
+    ]
+  },
+  {
+    id: "kirai",
+    japanese: "嫌い",
+    hiragana: "きらい",
+    romaji: "kirai",
+    english: "dislike; hate",
+    french: "ne pas aimer; détester",
+    level: "N5",
+    category: "emotion",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "野菜が嫌いです。",
+        hiragana: "やさいがきらいです。",
+        romaji: "Yasai ga kirai desu.",
+        english: "I dislike vegetables.",
+        french: "Je n'aime pas les légumes."
+      }
+    ]
+  },
+  {
+    id: "kiru_cut",
+    japanese: "切る",
+    hiragana: "きる",
+    romaji: "kiru",
+    english: "to cut",
+    french: "couper",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "紙を切ります。",
+        hiragana: "かみをきります。",
+        romaji: "Kami o kirimasu.",
+        english: "I cut paper.",
+        french: "Je coupe du papier."
+      }
+    ]
+  },
+  {
+    id: "kiru_wear",
+    japanese: "着る",
+    hiragana: "きる",
+    romaji: "kiru",
+    english: "to wear (clothes on torso)",
+    french: "porter (vêtements, haut du corps)",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "ジャケットを着ます。",
+        hiragana: "じゃけっとをきます。",
+        romaji: "Jaketto o kimasu.",
+        english: "I wear a jacket.",
+        french: "Je porte une veste."
+      }
+    ]
+  },
+  {
+    id: "kirei",
+    japanese: "きれい",
+    hiragana: "きれい",
+    romaji: "kirei",
+    english: "pretty; clean",
+    french: "joli; propre",
+    level: "N5",
+    category: "adjective",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "この部屋はきれいです。",
+        hiragana: "このへやはきれいです。",
+        romaji: "Kono heya wa kirei desu.",
+        english: "This room is clean.",
+        french: "Cette pièce est propre."
+      }
+    ]
+  },
+  {
+    id: "kiro",
+    japanese: "キロ",
+    hiragana: "きろ",
+    romaji: "kiro",
+    english: "kilo (kilogram)",
+    french: "kilo (kilogramme)",
+    level: "N5",
+    category: "measurement",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "りんごを２キロ買いました。",
+        hiragana: "りんごをにきろかいました。",
+        romaji: "Ringo o ni kiro kaimashita.",
+        english: "I bought two kilos of apples.",
+        french: "J'ai acheté deux kilos de pommes."
+      }
+    ]
+  },
+  {
+    id: "kiromeetoru",
+    japanese: "キロメートル",
+    hiragana: "きろめーとる",
+    romaji: "kiromētōru",
+    english: "kilometer",
+    french: "kilomètre",
+    level: "N5",
+    category: "measurement",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅まで１キロメートルです。",
+        hiragana: "えきまでいちきろめーとるです。",
+        romaji: "Eki made ichi kiromētōru desu.",
+        english: "It is one kilometer to the station.",
+        french: "Il y a un kilomètre jusqu'à la gare."
+      }
+    ]
   }
 ];
 
