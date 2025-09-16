@@ -652,7 +652,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "みせはあそこです。",
         romaji: "Mise wa asoko desu.",
         english: "The shop is over there.",
-        french: "Le magasin est là-bas."
+        french: "Le magasin est là-bas.",
+        german: "Das Geschäft ist dort drüben.",
+        vietnamese: "Cửa hàng ở đằng kia.",
+        chinese: "商店在那边。",
+        korean: "가게는 저기입니다.",
+        spanish: "La tienda está allí."
       }
     ]
   },
