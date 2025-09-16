@@ -316,7 +316,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
             <div className="h-80">
               {/* Image Section */}
-              <div className="h-48 relative overflow-hidden">
+              <div className="h-48 relative overflow-hidden bg-gray-50 flex items-center justify-center">
                 {currentCard.isGeneratingImage ? (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                     <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
@@ -326,7 +326,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
                   <img 
                     src={currentCard.imageUrl} 
                     alt={currentCard.translation}
-                    className="w-full h-full object-cover"
+                    className="max-w-full max-h-full object-contain"
                   />
                 ) : (
                   <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
