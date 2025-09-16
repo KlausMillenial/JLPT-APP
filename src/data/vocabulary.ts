@@ -9260,6 +9260,526 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "J'ai téléphoné à mon ami."
       }
     ]
+  },
+  {
+    "id": "denki",
+    "japanese": "電気",
+    "hiragana": "でんき",
+    "romaji": "denki",
+    "english": "electricity, light",
+    "french": "électricité, lumière",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "電気を消してください。",
+        "hiragana": "でんきをけしてください。",
+        "romaji": "Denki o keshite kudasai.",
+        "english": "Please turn off the light.",
+        "french": "Éteignez la lumière, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "densha",
+    "japanese": "電車",
+    "hiragana": "でんしゃ",
+    "romaji": "densha",
+    "english": "train",
+    "french": "train",
+    "level": "N5",
+    "category": "transport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毎日電車で通勤します。",
+        "hiragana": "まいにちでんしゃでつうきんします。",
+        "romaji": "Mainichi densha de tsuukin shimasu.",
+        "english": "I commute by train every day.",
+        "french": "Je vais au travail en train tous les jours."
+      }
+    ]
+  },
+  {
+    "id": "denwa",
+    "japanese": "電話",
+    "hiragana": "でんわ",
+    "romaji": "denwa",
+    "english": "telephone",
+    "french": "téléphone",
+    "level": "N5",
+    "category": "communication",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達に電話しました。",
+        "hiragana": "ともだちにでんわしました。",
+        "romaji": "Tomodachi ni denwa shimashita.",
+        "english": "I called my friend.",
+        "french": "J'ai téléphoné à mon ami."
+      }
+    ]
+  },
+  {
+    "id": "denwa_bangou",
+    "japanese": "電話番号",
+    "hiragana": "でんわばんごう",
+    "romaji": "denwa bangou",
+    "english": "phone number",
+    "french": "numéro de téléphone",
+    "level": "N5",
+    "category": "communication",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "電話番号を教えてください。",
+        "hiragana": "でんわばんごうをおしえてください。",
+        "romaji": "Denwa bangou o oshiete kudasai.",
+        "english": "Please tell me your phone number.",
+        "french": "Donnez-moi votre numéro de téléphone."
+      }
+    ]
+  },
+  {
+    "id": "deru",
+    "japanese": "出る",
+    "hiragana": "でる",
+    "romaji": "deru",
+    "english": "to go out, to leave",
+    "french": "sortir, quitter",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "8時に家を出ます。",
+        "hiragana": "はちじにいえをでます。",
+        "romaji": "Hachiji ni ie o demasu.",
+        "english": "I leave the house at 8 o'clock.",
+        "french": "Je quitte la maison à 8 heures."
+      }
+    ]
+  },
+  {
+    "id": "dezain",
+    "japanese": "デザイン",
+    "hiragana": "でざいん",
+    "romaji": "dezain",
+    "english": "design",
+    "french": "design",
+    "level": "N5",
+    "category": "art",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "この椅子のデザインはモダンです。",
+        "hiragana": "このいすのでざいんはもだんです。",
+        "romaji": "Kono isu no dezain wa modan desu.",
+        "english": "The design of this chair is modern.",
+        "french": "Le design de cette chaise est moderne."
+      }
+    ]
+  },
+  {
+    "id": "dezaato",
+    "japanese": "デザート",
+    "hiragana": "でざーと",
+    "romaji": "dezaato",
+    "english": "dessert",
+    "french": "dessert",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "デザートに果物を食べました。",
+        "hiragana": "でざーとにくだものをたべました。",
+        "romaji": "Dezaato ni kudamono o tabemashita.",
+        "english": "I ate fruit for dessert.",
+        "french": "J'ai mangé des fruits en dessert."
+      }
+    ]
+  },
+  {
+    "id": "dezunii",
+    "japanese": "ディズニー",
+    "hiragana": "でぃずにー",
+    "romaji": "dizunii",
+    "english": "Disney",
+    "french": "Disney",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼女はディズニーが大好きです。",
+        "hiragana": "かのじょはでぃずにーがだいすきです。",
+        "romaji": "Kanojo wa dizunii ga daisuki desu.",
+        "english": "She loves Disney.",
+        "french": "Elle adore Disney."
+      }
+    ]
+  },
+  {
+    "id": "doa",
+    "japanese": "ドア",
+    "hiragana": "どあ",
+    "romaji": "doa",
+    "english": "door",
+    "french": "porte",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "ドアを閉めてください。",
+        "hiragana": "どあをしめてください。",
+        "romaji": "Doa o shimete kudasai.",
+        "english": "Please close the door.",
+        "french": "Fermez la porte, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "doitsugo",
+    "japanese": "ドイツ語",
+    "hiragana": "どいつご",
+    "romaji": "doitsugo",
+    "english": "German (language)",
+    "french": "allemand (langue)",
+    "level": "N5",
+    "category": "language",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "ドイツ語を習っています。",
+        "hiragana": "どいつごをならっています。",
+        "romaji": "Doitsugo o naratte imasu.",
+        "english": "I am learning German.",
+        "french": "J'apprends l'allemand."
+      }
+    ]
+  },
+  {
+    "id": "dokoro",
+    "japanese": "所",
+    "hiragana": "ところ",
+    "romaji": "tokoro",
+    "english": "place",
+    "french": "endroit, lieu",
+    "level": "N5",
+    "category": "location",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "良い所に住んでいます。",
+        "hiragana": "いいところにすんでいます。",
+        "romaji": "Ii tokoro ni sunde imasu.",
+        "english": "I live in a good place.",
+        "french": "J'habite dans un bon endroit."
+      }
+    ]
+  },
+  {
+    "id": "doko",
+    "japanese": "どこ",
+    "hiragana": "どこ",
+    "romaji": "doko",
+    "english": "where",
+    "french": "où",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "interrogative",
+    "examples": [
+      {
+        "japanese": "駅はどこですか？",
+        "hiragana": "えきはどこですか？",
+        "romaji": "Eki wa doko desu ka?",
+        "english": "Where is the station?",
+        "french": "Où est la gare ?"
+      }
+    ]
+  },
+  {
+    "id": "dokoka",
+    "japanese": "どこか",
+    "hiragana": "どこか",
+    "romaji": "dokoka",
+    "english": "somewhere",
+    "french": "quelque part",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "どこかに財布を忘れました。",
+        "hiragana": "どこかにさいふをわすれました。",
+        "romaji": "Dokoka ni saifu o wasuremashita.",
+        "english": "I forgot my wallet somewhere.",
+        "french": "J'ai oublié mon portefeuille quelque part."
+      }
+    ]
+  },
+  {
+    "id": "dokodemo",
+    "japanese": "どこでも",
+    "hiragana": "どこでも",
+    "romaji": "dokodemo",
+    "english": "anywhere",
+    "french": "n'importe où",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "どこでも座ってください。",
+        "hiragana": "どこでもすわってください。",
+        "romaji": "Dokodemo suwatte kudasai.",
+        "english": "Please sit anywhere.",
+        "french": "Asseyez-vous n'importe où."
+      }
+    ]
+  },
+  {
+    "id": "dokoka_tabemono",
+    "japanese": "どこか食べ物",
+    "hiragana": "どこかたべもの",
+    "romaji": "dokoka tabemono",
+    "english": "some food somewhere",
+    "french": "quelque nourriture quelque part",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "どこか食べ物を買いましょう。",
+        "hiragana": "どこかたべものをかいましょう。",
+        "romaji": "Dokoka tabemono o kaimashou.",
+        "english": "Let's buy some food somewhere.",
+        "french": "Achetons de la nourriture quelque part."
+      }
+    ]
+  },
+  {
+    "id": "dokubutsu",
+    "japanese": "毒物",
+    "hiragana": "どくぶつ",
+    "romaji": "dokubutsu",
+    "english": "poison",
+    "french": "poison",
+    "level": "N5",
+    "category": "science",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "毒物を飲んではいけません。",
+        "hiragana": "どくぶつをのんではいけません。",
+        "romaji": "Dokubutsu o nonde wa ikemasen.",
+        "english": "You must not drink poison.",
+        "french": "Il ne faut pas boire du poison."
+      }
+    ]
+  },
+  {
+    "id": "dokuritsu",
+    "japanese": "独立",
+    "hiragana": "どくりつ",
+    "romaji": "dokuritsu",
+    "english": "independence",
+    "french": "indépendance",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "国の独立を祝います。",
+        "hiragana": "くにのどくりつをいわいます。",
+        "romaji": "Kuni no dokuritsu o iwaimasu.",
+        "english": "We celebrate the country's independence.",
+        "french": "Nous célébrons l'indépendance du pays."
+      }
+    ]
+  },
+  {
+    "id": "dokusho",
+    "japanese": "読書",
+    "hiragana": "どくしょ",
+    "romaji": "dokusho",
+    "english": "reading (books)",
+    "french": "lecture (de livres)",
+    "level": "N5",
+    "category": "hobby",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "私の趣味は読書です。",
+        "hiragana": "わたしのしゅみはどくしょです。",
+        "romaji": "Watashi no shumi wa dokusho desu.",
+        "english": "My hobby is reading.",
+        "french": "Mon passe-temps est la lecture."
+      }
+    ]
+  },
+  {
+    "id": "dokushin",
+    "japanese": "独身",
+    "hiragana": "どくしん",
+    "romaji": "dokushin",
+    "english": "single, unmarried",
+    "french": "célibataire",
+    "level": "N5",
+    "category": "status",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼はまだ独身です。",
+        "hiragana": "かれはまだどくしんです。",
+        "romaji": "Kare wa mada dokushin desu.",
+        "english": "He is still single.",
+        "french": "Il est encore célibataire."
+      }
+    ]
+  },
+  {
+    "id": "dokutoku",
+    "japanese": "独特",
+    "hiragana": "どくとく",
+    "romaji": "dokutoku",
+    "english": "unique, peculiar",
+    "french": "unique, particulier",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼の絵は独特です。",
+        "hiragana": "かれのえはどくとくです。",
+        "romaji": "Kare no e wa dokutoku desu.",
+        "english": "His paintings are unique.",
+        "french": "Ses peintures sont uniques."
+      }
+    ]
+  },
+  {
+    "id": "dokutoku_na",
+    "japanese": "独特な",
+    "hiragana": "どくとくな",
+    "romaji": "dokutoku na",
+    "english": "unique (na-adjective)",
+    "french": "particulier, original",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "日本料理は独特な味があります。",
+        "hiragana": "にほんりょうりはどくとくなあじがあります。",
+        "romaji": "Nihon ryouri wa dokutoku na aji ga arimasu.",
+        "english": "Japanese food has a unique taste.",
+        "french": "La cuisine japonaise a un goût particulier."
+      }
+    ]
+  },
+  {
+    "id": "dore",
+    "japanese": "どれ",
+    "hiragana": "どれ",
+    "romaji": "dore",
+    "english": "which (one)",
+    "french": "lequel",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "interrogative",
+    "examples": [
+      {
+        "japanese": "どれが好きですか？",
+        "hiragana": "どれがすきですか？",
+        "romaji": "Dore ga suki desu ka?",
+        "english": "Which one do you like?",
+        "french": "Lequel aimes-tu ?"
+      }
+    ]
+  },
+  {
+    "id": "doremo",
+    "japanese": "どれも",
+    "hiragana": "どれも",
+    "romaji": "doremo",
+    "english": "all (of them)",
+    "french": "tous",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "どれも好きです。",
+        "hiragana": "どれもすきです。",
+        "romaji": "Dore mo suki desu.",
+        "english": "I like all of them.",
+        "french": "Je les aime tous."
+      }
+    ]
+  },
+  {
+    "id": "doryoku",
+    "japanese": "努力",
+    "hiragana": "どりょく",
+    "romaji": "doryoku",
+    "english": "effort",
+    "french": "effort",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "努力すれば成功します。",
+        "hiragana": "どりょくすればせいこうします。",
+        "romaji": "Doryoku sureba seikou shimasu.",
+        "english": "If you make an effort, you will succeed.",
+        "french": "Si tu fais des efforts, tu réussiras."
+      }
+    ]
+  },
+  {
+    "id": "doushite",
+    "japanese": "どうして",
+    "hiragana": "どうして",
+    "romaji": "doushite",
+    "english": "why",
+    "french": "pourquoi",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "interrogative",
+    "examples": [
+      {
+        "japanese": "どうして遅れたのですか？",
+        "hiragana": "どうしておくれたのですか？",
+        "romaji": "Doushite okureta no desu ka?",
+        "english": "Why were you late?",
+        "french": "Pourquoi es-tu en retard ?"
+      }
+    ]
+  },
+  {
+    "id": "douzo",
+    "japanese": "どうぞ",
+    "hiragana": "どうぞ",
+    "romaji": "douzo",
+    "english": "please, here you go",
+    "french": "s'il vous plaît, je vous en prie",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "どうぞお入りください。",
+        "hiragana": "どうぞおはいりください。",
+        "romaji": "Douzo ohairi kudasai.",
+        "english": "Please come in.",
+        "french": "Je vous en prie, entrez."
+      }
+    ]
   }
 ];
 
