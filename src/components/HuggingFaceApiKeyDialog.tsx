@@ -3,18 +3,18 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
-import { Eye, EyeOff, Palette } from "lucide-react";
+import { Eye, EyeOff, Image } from "lucide-react";
 import { toast } from "sonner";
-import { LeonardoService } from "@/services/leonardoService";
+import { HuggingFaceService } from "@/services/huggingFaceService";
 
-export const LeonardoApiKeyDialog = () => {
+export const HuggingFaceApiKeyDialog = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [apiKey, setApiKey] = useState("");
   const [showKey, setShowKey] = useState(false);
   const [hasApiKey, setHasApiKey] = useState(false);
 
   useEffect(() => {
-    const storedKey = LeonardoService.getStoredApiKey();
+    const storedKey = HuggingFaceService.getStoredApiKey();
     if (storedKey) {
       setApiKey(storedKey);
       setHasApiKey(true);
@@ -27,41 +27,41 @@ export const LeonardoApiKeyDialog = () => {
       return;
     }
 
-    LeonardoService.saveApiKey(apiKey.trim());
+    HuggingFaceService.saveApiKey(apiKey.trim());
     setHasApiKey(true);
     setIsOpen(false);
-    toast.success("Leonardo API key saved successfully!");
+    toast.success("Hugging Face API key saved successfully!");
   };
 
   const handleClear = () => {
-    LeonardoService.clearApiKey();
+    HuggingFaceService.clearApiKey();
     setApiKey("");
     setHasApiKey(false);
-    toast.success("Leonardo API key cleared");
+    toast.success("Hugging Face API key cleared");
   };
 
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
         <Button variant="outline" className="gap-2">
-          <Palette className="h-4 w-4" />
-          {hasApiKey ? "Image AI ✓" : "Setup Image AI"}
+          <Image className="h-4 w-4" />
+          {hasApiKey ? "Free Image AI ✓" : "Setup Free Images"}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle>Leonardo AI Configuration</DialogTitle>
+          <DialogTitle>Hugging Face AI (Free Images)</DialogTitle>
         </DialogHeader>
         <div className="space-y-4">
           <div className="space-y-2">
-            <Label htmlFor="apiKey">Leonardo API Key</Label>
+            <Label htmlFor="apiKey">Hugging Face API Key</Label>
             <div className="relative">
               <Input
                 id="apiKey"
                 type={showKey ? "text" : "password"}
                 value={apiKey}
                 onChange={(e) => setApiKey(e.target.value)}
-                placeholder="Enter your Leonardo API key"
+                placeholder="Enter your Hugging Face API key"
                 className="pr-10"
               />
               <Button
@@ -81,16 +81,18 @@ export const LeonardoApiKeyDialog = () => {
           </div>
           
           <div className="text-sm text-muted-foreground space-y-2">
+            <p className="font-medium text-green-600">✓ FREE image generation</p>
             <p>
-              To get your Leonardo API key:
+              To get your free Hugging Face API key:
             </p>
             <ol className="list-decimal list-inside space-y-1 ml-2">
-              <li>Go to <a href="https://app.leonardo.ai" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Leonardo.ai</a></li>
-              <li>Sign up or log in to your account</li>
-              <li>Navigate to API Access in your account settings</li>
-              <li>Subscribe to an API plan</li>
-              <li>Copy your API key</li>
+              <li>Go to <a href="https://huggingface.co" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Hugging Face</a></li>
+              <li>Sign up for a free account</li>
+              <li>Go to Settings → Access Tokens</li>
+              <li>Create a new token with "Read" permissions</li>
+              <li>Copy your token</li>
             </ol>
+            <p className="text-xs text-yellow-600">Note: First generation may take 20-30 seconds as the model loads.</p>
           </div>
 
           <div className="flex gap-2">

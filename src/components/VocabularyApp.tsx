@@ -2,7 +2,7 @@ import { useState, useMemo, useCallback, useEffect } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
-import { LeonardoApiKeyDialog } from './LeonardoApiKeyDialog';
+import { HuggingFaceApiKeyDialog } from './HuggingFaceApiKeyDialog';
 import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
@@ -200,7 +200,7 @@ export const VocabularyApp = () => {
           {/* API Key Setup in top right */}
           <div className="flex justify-end gap-2 mb-4">
             <TranslationButton />
-            <LeonardoApiKeyDialog />
+            <HuggingFaceApiKeyDialog />
             <ApiKeyDialog />
           </div>
           

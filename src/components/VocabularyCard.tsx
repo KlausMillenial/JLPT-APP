@@ -6,7 +6,7 @@ import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
 import { KanjiPracticeModal } from './KanjiPracticeModal';
-import { LeonardoService } from '@/services/leonardoService';
+import { HuggingFaceService } from '@/services/huggingFaceService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -126,10 +126,10 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
 
   const generateImage = async () => {
     console.log('Generate image button clicked for word:', word.japanese);
-    const apiKey = LeonardoService.getStoredApiKey();
+    const apiKey = HuggingFaceService.getStoredApiKey();
     if (!apiKey) {
-      console.log('No Leonardo API key found');
-      toast.error('Please set up your Leonardo API key first');
+      console.log('No Hugging Face API key found');
+      toast.error('Please set up your Hugging Face API key first');
       return;
     }
 
@@ -137,7 +137,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     setIsGeneratingImage(true);
     
     try {
-      const leonardoService = new LeonardoService(apiKey);
+      const huggingFaceService = new HuggingFaceService(apiKey);
       
       // Create a context-aware prompt that describes the word visually
       const translation = word[language] || word.english; // Fallback to English if translation not available
@@ -145,11 +145,10 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       
       console.log('Generated prompt:', prompt);
       
-      const result = await leonardoService.generateImage({
+      const result = await huggingFaceService.generateImage({
         positivePrompt: prompt,
         width: 512,
         height: 512,
-        numberResults: 1,
       });
       
       console.log('Image generation result:', result);
