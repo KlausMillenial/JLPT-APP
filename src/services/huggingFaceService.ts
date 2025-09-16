@@ -1,7 +1,7 @@
 import { toast } from "sonner";
 
 const API_BASE_URL = "https://api-inference.huggingface.co/models";
-const MODEL = "runwayml/stable-diffusion-v1-5"; // Faster, more reliable model
+const MODEL = "stabilityai/stable-diffusion-2-1"; // Known working model
 const API_KEY_STORAGE_KEY = 'huggingface_api_key';
 
 export interface GenerateImageParams {
@@ -56,12 +56,6 @@ export class HuggingFaceService {
         },
         body: JSON.stringify({
           inputs: params.positivePrompt,
-          parameters: {
-            width: params.width || 512,
-            height: params.height || 512,
-            num_inference_steps: 20,
-            guidance_scale: 7.5,
-          }
         }),
       });
 
