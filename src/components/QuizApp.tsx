@@ -20,9 +20,10 @@ interface QuizSettings {
 
 interface QuizAppProps {
   selectedLanguage?: LanguageOption;
+  vocabularyData?: any[];
 }
 
-export const QuizApp = ({ selectedLanguage = 'english' }: QuizAppProps) => {
+export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: QuizAppProps) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Array<{ correct: boolean; question: any; userAnswer: string; correctAnswer: string }>>([]);
@@ -35,13 +36,15 @@ export const QuizApp = ({ selectedLanguage = 'english' }: QuizAppProps) => {
     language: selectedLanguage
   });
 
+  const currentVocabularyData = propVocabularyData || vocabularyData;
+  
   const filteredVocabulary = useMemo(() => {
-    return vocabularyData.filter(word => {
+    return currentVocabularyData.filter(word => {
       const matchesCategory = settings.categories.includes('all') || settings.categories.includes(word.category);
       const matchesLevel = settings.levels.includes('all') || settings.levels.includes(word.level);
       return matchesCategory && matchesLevel;
     });
-  }, [settings.categories, settings.levels]);
+  }, [settings.categories, settings.levels, currentVocabularyData]);
 
   const quizQuestions = useMemo(() => {
     if (!quizStarted) return [];

@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
@@ -6,10 +6,12 @@ import { RunwareApiKeyDialog } from './RunwareApiKeyDialog';
 import { TranslationButton } from './TranslationButton';
 import { QuizApp } from './QuizApp';
 import { vocabularyData } from '@/data/vocabulary';
-import { BookOpen, Users, Star, Brain } from 'lucide-react';
+import { TranslationService } from '@/services/translationService';
+import { BookOpen, Users, Star, Brain, Loader2 } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import { toast } from 'sonner';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
@@ -19,9 +21,61 @@ export const VocabularyApp = () => {
   const [selectedLevel, setSelectedLevel] = useState('all');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const [language, setLanguage] = useState<LanguageOption>('english');
+  const [isTranslating, setIsTranslating] = useState(false);
+  const [translatedVocabulary, setTranslatedVocabulary] = useState(vocabularyData);
+
+  const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
+    if (targetLanguage === 'english' || targetLanguage === 'french') return;
+    
+    const apiKey = TranslationService.getApiKey();
+    if (!apiKey) {
+      toast.info('Set up OpenAI API key to get automatic translations');
+      return;
+    }
+
+    const wordsNeedingTranslation = translatedVocabulary.filter(word => !word[targetLanguage]);
+    
+    if (wordsNeedingTranslation.length === 0) return;
+
+    setIsTranslating(true);
+    toast.info(`Auto-translating ${wordsNeedingTranslation.length} words to ${targetLanguage}...`);
+
+    const translationService = new TranslationService(apiKey);
+    const updatedWords = [...translatedVocabulary];
+
+    try {
+      for (const word of wordsNeedingTranslation.slice(0, 5)) { // Limit to 5 words for quick response
+        try {
+          const translatedWord = await translationService.translateVocabularyEntry(word);
+          const wordIndex = updatedWords.findIndex(w => w.id === word.id);
+          if (wordIndex !== -1) {
+            updatedWords[wordIndex] = translatedWord;
+          }
+        } catch (error) {
+          console.error(`Failed to translate ${word.id}:`, error);
+        }
+        
+        // Small delay to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+
+      setTranslatedVocabulary(updatedWords);
+      toast.success('Auto-translation complete!');
+    } catch (error) {
+      console.error('Translation error:', error);
+      toast.error('Translation failed');
+    } finally {
+      setIsTranslating(false);
+    }
+  }, [translatedVocabulary]);
+
+  const handleLanguageChange = useCallback((newLanguage: LanguageOption) => {
+    setLanguage(newLanguage);
+    autoTranslateForLanguage(newLanguage);
+  }, [autoTranslateForLanguage]);
 
   const filteredWords = useMemo(() => {
-    return vocabularyData.filter(word => {
+    return translatedVocabulary.filter(word => {
       const translation = word[language] || word.english; // Fallback to English if translation not available
       
       const matchesSearch = 
@@ -37,16 +91,16 @@ export const VocabularyApp = () => {
       
       return matchesSearch && matchesLevel && matchesCategory;
     });
-  }, [searchTerm, selectedLevel, selectedCategory, language]);
+  }, [searchTerm, selectedLevel, selectedCategory, language, translatedVocabulary]);
 
   const stats = {
-    total: vocabularyData.length,
+    total: translatedVocabulary.length,
     filtered: filteredWords.length,
-    categories: new Set(vocabularyData.map(w => w.category)).size
+    categories: new Set(translatedVocabulary.map(w => w.category)).size
   };
 
   if (currentView === 'quiz') {
-    return <QuizApp selectedLanguage={language} />;
+    return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
   return (
@@ -136,17 +190,23 @@ export const VocabularyApp = () => {
           selectedCategory={selectedCategory}
           onCategoryChange={setSelectedCategory}
           language={language}
-          onLanguageChange={setLanguage}
+          onLanguageChange={handleLanguageChange}
         />
 
         {/* Results Count */}
-        <div className="mb-8 text-center">
+        <div className="mb-8 text-center space-y-2">
           <Badge variant="secondary" className="text-lg px-4 py-2">
             {language === 'english' 
               ? `${stats.filtered} word${stats.filtered !== 1 ? 's' : ''} found`
               : `${stats.filtered} mot${stats.filtered !== 1 ? 's' : ''} trouvé${stats.filtered !== 1 ? 's' : ''}`
             }
           </Badge>
+          {isTranslating && (
+            <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+              <Loader2 className="w-4 h-4 animate-spin" />
+              Auto-translating vocabulary...
+            </div>
+          )}
         </div>
 
         {/* Vocabulary Cards Grid */}
