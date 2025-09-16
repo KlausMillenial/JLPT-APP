@@ -2418,6 +2418,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "usui",
     english: "thin, weak",
     french: "fin, faible",
+    german: "dünn, schwach",
+    vietnamese: "mỏng, yếu",
+    chinese: "薄, 弱",
+    korean: "얇다, 약하다",
+    spanish: "delgado, débil",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -2427,7 +2432,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "このほんはうすいです。",
         romaji: "Kono hon wa usui desu.",
         english: "This book is thin.",
-        french: "Ce livre est fin."
+        french: "Ce livre est fin.",
+        german: "Dieses Buch ist dünn.",
+        vietnamese: "Cuốn sách này mỏng.",
+        chinese: "这本书很薄。",
+        korean: "이 책은 얇습니다.",
+        spanish: "Este libro es delgado."
       }
     ]
   },
@@ -2438,6 +2448,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "uta",
     english: "song",
     french: "chanson",
+    german: "Lied",
+    vietnamese: "bài hát",
+    chinese: "歌",
+    korean: "노래",
+    spanish: "canción",
     level: "N5",
     category: "music",
     wordType: "noun",
@@ -2447,7 +2462,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "にほんのうたをききます。",
         romaji: "Nihon no uta o kikimasu.",
         english: "I listen to Japanese songs.",
-        french: "J'écoute des chansons japonaises."
+        french: "J'écoute des chansons japonaises.",
+        german: "Ich höre japanische Lieder.",
+        vietnamese: "Tôi nghe bài hát Nhật.",
+        chinese: "我听日本歌曲。",
+        korean: "일본 노래를 듣습니다.",
+        spanish: "Escucho canciones japonesas."
       }
     ]
   },
@@ -2458,6 +2478,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "utau",
     english: "to sing",
     french: "chanter",
+    german: "singen",
+    vietnamese: "hát",
+    chinese: "唱歌",
+    korean: "노래하다",
+    spanish: "cantar",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2467,7 +2492,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "からおけでうたいます。",
         romaji: "Karaoke de utaimasu.",
         english: "I sing at karaoke.",
-        french: "Je chante au karaoké."
+        french: "Je chante au karaoké.",
+        german: "Ich singe beim Karaoke.",
+        vietnamese: "Tôi hát karaoke.",
+        chinese: "我在卡拉OK唱歌。",
+        korean: "노래방에서 노래합니다.",
+        spanish: "Canto en el karaoke."
       }
     ]
   },
@@ -2478,6 +2508,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "umareru",
     english: "to be born",
     french: "naître",
+    german: "geboren werden",
+    vietnamese: "sinh ra",
+    chinese: "出生",
+    korean: "태어나다",
+    spanish: "nacer",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2487,7 +2522,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "こどもがうまれました。",
         romaji: "Kodomo ga umaremashita.",
         english: "A child was born.",
-        french: "Un enfant est né."
+        french: "Un enfant est né.",
+        german: "Ein Kind wurde geboren.",
+        vietnamese: "Một đứa trẻ đã được sinh ra.",
+        chinese: "孩子出生了。",
+        korean: "아이가 태어났습니다.",
+        spanish: "Un niño ha nacido."
       }
     ]
   },
@@ -2528,6 +2568,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "uru",
     english: "to sell",
     french: "vendre",
+    german: "verkaufen",
+    vietnamese: "bán",
+    chinese: "卖",
+    korean: "팔다",
+    spanish: "vender",
     level: "N5",
     category: "verb",
     wordType: "verb",
@@ -2537,7 +2582,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ほんをうります。",
         romaji: "Hon o urimasu.",
         english: "I sell books.",
-        french: "Je vends des livres."
+        french: "Je vends des livres.",
+        german: "Ich verkaufe Bücher.",
+        vietnamese: "Tôi bán sách.",
+        chinese: "我卖书。",
+        korean: "책을 팝니다.",
+        spanish: "Vendo libros."
       }
     ]
   },
@@ -2548,6 +2598,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "urusai",
     english: "noisy, annoying",
     french: "bruyant, agaçant",
+    german: "laut, lästig",
+    vietnamese: "ồn ào, phiền phức",
+    chinese: "吵闹, 烦人",
+    korean: "시끄럽다, 성가시다",
+    spanish: "ruidoso, molesto",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -2557,7 +2612,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "こどものこえがうるさい。",
         romaji: "Kodomo no koe ga urusai.",
         english: "The children's voices are noisy.",
-        french: "Les voix des enfants sont bruyantes."
+        french: "Les voix des enfants sont bruyantes.",
+        german: "Die Stimmen der Kinder sind laut.",
+        vietnamese: "Tiếng trẻ con ồn ào.",
+        chinese: "孩子们的声音很吵。",
+        korean: "아이들의 목소리가 시끄럽습니다.",
+        spanish: "Las voces de los niños son ruidosas."
       }
     ]
   },
@@ -2568,6 +2628,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "uwagi",
     english: "jacket",
     french: "veste, manteau",
+    german: "Jacke",
+    vietnamese: "áo khoác",
+    chinese: "外套",
+    korean: "겉옷",
+    spanish: "chaqueta",
     level: "N5",
     category: "clothing",
     wordType: "noun",
@@ -2577,7 +2642,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "うわぎをきてください。",
         romaji: "Uwagi o kite kudasai.",
         english: "Please wear a jacket.",
-        french: "Mettez une veste, s'il vous plaît."
+        french: "Mettez une veste, s'il vous plaît.",
+        german: "Bitte ziehen Sie eine Jacke an.",
+        vietnamese: "Xin hãy mặc áo khoác.",
+        chinese: "请穿上外套。",
+        korean: "겉옷을 입으세요.",
+        spanish: "Ponte una chaqueta, por favor."
       }
     ]
   },
@@ -2588,6 +2658,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "e",
     english: "picture",
     french: "image, tableau",
+    german: "Bild, Gemälde",
+    vietnamese: "tranh, bức vẽ",
+    chinese: "画, 图画",
+    korean: "그림",
+    spanish: "imagen, cuadro",
     level: "N5",
     category: "art",
     wordType: "noun",
@@ -2597,7 +2672,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "きれいなえをみました。",
         romaji: "Kirei na e o mimashita.",
         english: "I saw a beautiful picture.",
-        french: "J'ai vu une belle image."
+        french: "J'ai vu une belle image.",
+        german: "Ich habe ein schönes Bild gesehen.",
+        vietnamese: "Tôi đã nhìn thấy một bức tranh đẹp.",
+        chinese: "我看到了一幅漂亮的画。",
+        korean: "아름다운 그림을 보았습니다.",
+        spanish: "Vi una imagen hermosa."
       }
     ]
   },
@@ -2608,6 +2688,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "eiga",
     english: "movie",
     french: "film",
+    german: "Film",
+    vietnamese: "phim",
+    chinese: "电影",
+    korean: "영화",
+    spanish: "película",
     level: "N5",
     category: "entertainment",
     wordType: "noun",
@@ -2617,7 +2702,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "えいがをみにいきます。",
         romaji: "Eiga o mi ni ikimasu.",
         english: "I go to watch a movie.",
-        french: "Je vais voir un film."
+        french: "Je vais voir un film.",
+        german: "Ich gehe ins Kino, um einen Film zu sehen.",
+        vietnamese: "Tôi đi xem phim.",
+        chinese: "我去看电影。",
+        korean: "영화를 보러 갑니다.",
+        spanish: "Voy a ver una película."
       }
     ]
   },
@@ -2628,6 +2718,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "eigakan",
     english: "cinema",
     french: "cinéma",
+    german: "Kino",
+    vietnamese: "rạp chiếu phim",
+    chinese: "电影院",
+    korean: "영화관",
+    spanish: "cine",
     level: "N5",
     category: "place",
     wordType: "noun",
@@ -2637,7 +2732,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "えいがかんはえきのちかくです。",
         romaji: "Eigakan wa eki no chikaku desu.",
         english: "The cinema is near the station.",
-        french: "Le cinéma est près de la gare."
+        french: "Le cinéma est près de la gare.",
+        german: "Das Kino ist in der Nähe des Bahnhofs.",
+        vietnamese: "Rạp chiếu phim gần ga.",
+        chinese: "电影院在车站附近。",
+        korean: "영화관은 역 근처에 있습니다.",
+        spanish: "El cine está cerca de la estación."
       }
     ]
   },
@@ -2648,6 +2748,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "eigo",
     english: "English language",
     french: "anglais (langue)",
+    german: "Englisch",
+    vietnamese: "tiếng Anh",
+    chinese: "英语",
+    korean: "영어",
+    spanish: "inglés",
     level: "N5",
     category: "language",
     wordType: "noun",
@@ -2657,7 +2762,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "えいごをべんきょうしています。",
         romaji: "Eigo o benkyou shite imasu.",
         english: "I am studying English.",
-        french: "J'étudie l'anglais."
+        french: "J'étudie l'anglais.",
+        german: "Ich lerne Englisch.",
+        vietnamese: "Tôi đang học tiếng Anh.",
+        chinese: "我在学习英语。",
+        korean: "나는 영어를 공부하고 있습니다.",
+        spanish: "Estoy estudiando inglés."
       }
     ]
   },
@@ -2668,6 +2778,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "ee",
     english: "yes",
     french: "oui",
+    german: "ja",
+    vietnamese: "vâng, dạ",
+    chinese: "嗯，是的",
+    korean: "네, 응",
+    spanish: "sí",
     level: "N5",
     category: "expression",
     wordType: "interjection",
@@ -2677,7 +2792,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "ええ、そうです。",
         romaji: "Ee, sou desu.",
         english: "Yes, that's right.",
-        french: "Oui, c'est ça."
+        french: "Oui, c'est ça.",
+        german: "Ja, das stimmt.",
+        vietnamese: "Vâng, đúng vậy.",
+        chinese: "嗯，是的。",
+        korean: "네, 맞습니다.",
+        spanish: "Sí, así es."
       }
     ]
   },
@@ -2688,6 +2808,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "eki",
     english: "station",
     french: "gare",
+    german: "Bahnhof",
+    vietnamese: "ga tàu",
+    chinese: "车站",
+    korean: "역",
+    spanish: "estación",
     level: "N5",
     category: "place",
     wordType: "noun",
@@ -2697,7 +2822,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "えきでともだちにあいます。",
         romaji: "Eki de tomodachi ni aimasu.",
         english: "I meet my friend at the station.",
-        french: "Je rencontre mon ami à la gare."
+        french: "Je rencontre mon ami à la gare.",
+        german: "Ich treffe meinen Freund am Bahnhof.",
+        vietnamese: "Tôi gặp bạn ở ga.",
+        chinese: "我在车站见朋友。",
+        korean: "역에서 친구를 만납니다.",
+        spanish: "Me encuentro con mi amigo en la estación."
       }
     ]
   },
@@ -2708,6 +2838,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "erebeetaa",
     english: "elevator",
     french: "ascenseur",
+    german: "Aufzug",
+    vietnamese: "thang máy",
+    chinese: "电梯",
+    korean: "엘리베이터",
+    spanish: "ascensor",
     level: "N5",
     category: "building",
     wordType: "noun",
@@ -2717,7 +2852,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "えれべーたーでごかいへいきます。",
         romaji: "Erebeetaa de gokai e ikimasu.",
         english: "I go to the 5th floor by elevator.",
-        french: "Je monte au 5e étage en ascenseur."
+        french: "Je monte au 5e étage en ascenseur.",
+        german: "Ich fahre mit dem Aufzug in den 5. Stock.",
+        vietnamese: "Tôi đi thang máy lên tầng 5.",
+        chinese: "我乘电梯到五楼。",
+        korean: "엘리베이터로 5층에 갑니다.",
+        spanish: "Subo al quinto piso en ascensor."
       }
     ]
   },
