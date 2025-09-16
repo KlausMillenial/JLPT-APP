@@ -848,6 +848,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atsui",
     english: "hot (to the touch)",
     french: "chaud (au toucher)",
+    german: "heiß (zum Anfassen)",
+    vietnamese: "nóng (sờ vào)",
+    chinese: "烫",
+    korean: "뜨겁다",
+    spanish: "caliente (al tacto)",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -857,7 +862,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "このすーぷはあついです。",
         romaji: "Kono suupu wa atsui desu.",
         english: "This soup is hot.",
-        french: "Cette soupe est chaude."
+        french: "Cette soupe est chaude.",
+        german: "Diese Suppe ist heiß.",
+        vietnamese: "Súp này nóng.",
+        chinese: "这汤很烫。",
+        korean: "이 수프는 뜨겁습니다.",
+        spanish: "Esta sopa está caliente."
       }
     ]
   },
@@ -868,6 +878,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atsui",
     english: "thick, kind",
     french: "épais, gentil",
+    german: "dick, freundlich",
+    vietnamese: "dày, tử tế",
+    chinese: "厚, 善良",
+    korean: "두껍다, 친절하다",
+    spanish: "grueso, amable",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -877,7 +892,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あついほんをよみます。",
         romaji: "Atsui hon o yomimasu.",
         english: "I read a thick book.",
-        french: "Je lis un livre épais."
+        french: "Je lis un livre épais.",
+        german: "Ich lese ein dickes Buch.",
+        vietnamese: "Tôi đọc một quyển sách dày.",
+        chinese: "我读一本厚书。",
+        korean: "두꺼운 책을 읽습니다.",
+        spanish: "Leo un libro grueso."
       }
     ]
   },
