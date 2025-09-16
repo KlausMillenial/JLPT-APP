@@ -197,27 +197,21 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             
             {/* Japanese content */}
             <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-              <div className="flex items-center justify-center gap-3">
+              <div className="flex items-center justify-center">
                 <h2 className="text-3xl font-bold text-primary mb-2">
                   {word.japanese}
                 </h2>
-                <VoiceButton 
-                  text={word.japanese}
-                  language="japanese"
-                  variant="outline"
-                  size="icon"
-                  className="mb-2"
-                />
               </div>
-              <div className="flex items-center justify-center gap-2">
+              <div className="flex items-center justify-center gap-3">
                 <p className="text-lg text-muted-foreground">
                   {word.hiragana}
                 </p>
                 <VoiceButton 
                   text={word.hiragana}
                   language="japanese"
+                  variant="outline"
                   size="icon"
-                  className="opacity-70 hover:opacity-100"
+                  className="hover:bg-primary/10"
                 />
               </div>
               <p className="text-base text-muted-foreground italic">
