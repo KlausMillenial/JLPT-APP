@@ -139,9 +139,9 @@ export const VocabularyApp = () => {
 
   const filteredWords = useMemo(() => {
     if (!debouncedSearchTerm && selectedLevel === 'all' && selectedCategory === 'all') {
-      // No filters applied, return first batch for performance
+      // No filters applied, return all words
       setCurrentPage(1);
-      return translatedVocabulary.slice(0, 100); // Show only first 100 words when no filters
+      return translatedVocabulary;
     }
 
     const searchLower = debouncedSearchTerm.toLowerCase();
