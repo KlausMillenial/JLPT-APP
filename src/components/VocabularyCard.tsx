@@ -185,7 +185,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
           <div className="flex flex-col h-full">
             {/* Image section - Half of the card */}
-            <div className="flex-1 relative">
+            <div className="h-48 relative overflow-hidden">
               {isGeneratingImage ? (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
