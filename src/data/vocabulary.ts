@@ -848,11 +848,6 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atsui",
     english: "hot (to the touch)",
     french: "chaud (au toucher)",
-    german: "heiß (zum Anfassen)",
-    vietnamese: "nóng (sờ vào)",
-    chinese: "烫",
-    korean: "뜨겁다",
-    spanish: "caliente (al tacto)",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -862,12 +857,7 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "このすーぷはあついです。",
         romaji: "Kono suupu wa atsui desu.",
         english: "This soup is hot.",
-        french: "Cette soupe est chaude.",
-        german: "Diese Suppe ist heiß.",
-        vietnamese: "Súp này nóng.",
-        chinese: "这汤很烫。",
-        korean: "이 수프는 뜨겁습니다.",
-        spanish: "Esta sopa está caliente."
+        french: "Cette soupe est chaude."
       }
     ]
   },
@@ -878,11 +868,6 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "atsui",
     english: "thick, kind",
     french: "épais, gentil",
-    german: "dick, freundlich",
-    vietnamese: "dày, tử tế",
-    chinese: "厚, 善良",
-    korean: "두껍다, 친절하다",
-    spanish: "grueso, amable",
     level: "N5",
     category: "adjective",
     wordType: "adjective",
@@ -892,12 +877,7 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あついほんをよみます。",
         romaji: "Atsui hon o yomimasu.",
         english: "I read a thick book.",
-        french: "Je lis un livre épais.",
-        german: "Ich lese ein dickes Buch.",
-        vietnamese: "Tôi đọc một quyển sách dày.",
-        chinese: "我读一本厚书。",
-        korean: "두꺼운 책을 읽습니다.",
-        spanish: "Leo un libro grueso."
+        french: "Je lis un livre épais."
       }
     ]
   },
@@ -1272,24 +1252,34 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "ame_candy",
-    japanese: "飴",
-    hiragana: "あめ",
-    romaji: "ame",
-    english: "candy",
-    french: "bonbon",
-    level: "N5",
-    category: "food",
-    wordType: "noun",
-    examples: [
-      {
-        japanese: "飴を食べます。",
-        hiragana: "あめをたべます。",
-        romaji: "Ame o tabemasu.",
-        english: "I eat candy.",
-        french: "Je mange un bonbon."
-      }
-    ]
+  id: "ame_candy",
+  japanese: "飴",
+  hiragana: "あめ",
+  romaji: "ame",
+  english: "candy",
+  french: "bonbon",
+  german: "Bonbon",
+  vietnamese: "kẹo",
+  chinese: "糖果",
+  korean: "사탕",
+  spanish: "caramelo",
+  level: "N5",
+  category: "food",
+  wordType: "noun",
+  examples: [
+    {
+      japanese: "飴を食べます。",
+      hiragana: "あめをたべます。",
+      romaji: "Ame o tabemasu.",
+      english: "I eat candy.",
+      french: "Je mange un bonbon.",
+      german: "Ich esse ein Bonbon.",
+      vietnamese: "Tôi ăn kẹo.",
+      chinese: "我吃糖果。",
+      korean: "사탕을 먹습니다.",
+      spanish: "Como un caramelo."
+    }
+  ]
   },
   {
     id: "arau",
@@ -1323,21 +1313,31 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     id: "aru_inanimate",
-    japanese: "ある",
-    hiragana: "ある",
-    romaji: "aru",
-    english: "to be, to have (inanimate)",
-    french: "être, avoir (inanimé)",
-    level: "N5",
-    category: "verb",
-    wordType: "verb",
-    examples: [
-      {
-        japanese: "机の上に本がある。",
-        hiragana: "つくえのうえにほんがある。",
-        romaji: "Tsukue no ue ni hon ga aru.",
-        english: "There is a book on the desk.",
-        french: "Il y a un livre sur le bureau."
+  japanese: "ある",
+  hiragana: "ある",
+  romaji: "aru",
+  english: "to be, to have (inanimate)",
+  french: "être, avoir (inanimé)",
+  german: "es gibt, haben (Unbelebtes)",
+  vietnamese: "có (vật vô tri)",
+  chinese: "有 (无生命)",
+  korean: "있다 (무생물)",
+  spanish: "haber, tener (inanimado)",
+  level: "N5",
+  category: "verb",
+  wordType: "verb",
+  examples: [
+    {
+      japanese: "机の上に本がある。",
+      hiragana: "つくえのうえにほんがある。",
+      romaji: "Tsukue no ue ni hon ga aru.",
+      english: "There is a book on the desk.",
+      french: "Il y a un livre sur le bureau.",
+      german: "Auf dem Tisch liegt ein Buch.",
+      vietnamese: "Có một quyển sách trên bàn.",
+      chinese: "桌子上有一本书。",
+      korean: "책상이 위에 책이 있습니다.",
+      spanish: "Hay un libro en el escritorio."
       }
     ]
   },
