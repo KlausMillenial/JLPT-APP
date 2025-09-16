@@ -12820,6 +12820,326 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Bonsoir, il fait beau, n'est-ce pas ?"
       }
     ]
+  },
+  {
+    id: "sakana",
+    japanese: "魚",
+    hiragana: "さかな",
+    romaji: "sakana",
+    english: "fish",
+    french: "poisson",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "魚を食べます。",
+        hiragana: "さかなをたべます。",
+        romaji: "Sakana o tabemasu.",
+        english: "I eat fish.",
+        french: "Je mange du poisson."
+      }
+    ]
+  },
+  {
+    id: "saki",
+    japanese: "先",
+    hiragana: "さき",
+    romaji: "saki",
+    english: "before; ahead",
+    french: "avant; devant",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅の先にコンビニがあります。",
+        hiragana: "えきのさきにこんびにがあります。",
+        romaji: "Eki no saki ni konbini ga arimasu.",
+        english: "There is a convenience store ahead of the station.",
+        french: "Il y a un konbini devant la gare."
+      }
+    ]
+  },
+  {
+    id: "saku",
+    japanese: "咲く",
+    hiragana: "さく",
+    romaji: "saku",
+    english: "to bloom",
+    french: "fleurir",
+    level: "N5",
+    category: "nature",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "桜が咲きました。",
+        hiragana: "さくらがさきました。",
+        romaji: "Sakura ga sakimashita.",
+        english: "The cherry blossoms bloomed.",
+        french: "Les cerisiers ont fleuri."
+      }
+    ]
+  },
+  {
+    id: "sakuranbo",
+    japanese: "さくらんぼ",
+    hiragana: "さくらんぼ",
+    romaji: "sakuranbo",
+    english: "cherry",
+    french: "cerise",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "さくらんぼが好きです。",
+        hiragana: "さくらんぼがすきです。",
+        romaji: "Sakuranbo ga suki desu.",
+        english: "I like cherries.",
+        french: "J'aime les cerises."
+      }
+    ]
+  },
+  {
+    id: "sasaru",
+    japanese: "刺さる",
+    hiragana: "ささる",
+    romaji: "sasaru",
+    english: "to stick; to pierce",
+    french: "se planter; percer",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "指にとげが刺さった。",
+        hiragana: "ゆびにとげがささった。",
+        romaji: "Yubi ni toge ga sasatta.",
+        english: "A thorn stuck in my finger.",
+        french: "Une épine s'est plantée dans mon doigt."
+      }
+    ]
+  },
+  {
+    id: "sasu",
+    japanese: "指す",
+    hiragana: "さす",
+    romaji: "sasu",
+    english: "to point",
+    french: "pointer; indiquer",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "地図を指してください。",
+        hiragana: "ちずをさしてください。",
+        romaji: "Chizu o sashite kudasai.",
+        english: "Please point at the map.",
+        french: "Veuillez indiquer la carte."
+      }
+    ]
+  },
+  {
+    id: "sakki",
+    japanese: "さっき",
+    hiragana: "さっき",
+    romaji: "sakki",
+    english: "a short while ago",
+    french: "tout à l'heure",
+    level: "N5",
+    category: "time",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "さっき駅に着きました。",
+        hiragana: "さっきえきにつきました。",
+        romaji: "Sakki eki ni tsukimashita.",
+        english: "I arrived at the station a short while ago.",
+        french: "Je suis arrivé à la gare tout à l'heure."
+      }
+    ]
+  },
+  {
+    id: "zasshi",
+    japanese: "雑誌",
+    hiragana: "ざっし",
+    romaji: "zasshi",
+    english: "magazine",
+    french: "magazine",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "雑誌を読みます。",
+        hiragana: "ざっしをよみます。",
+        romaji: "Zasshi o yomimasu.",
+        english: "I read a magazine.",
+        french: "Je lis un magazine."
+      }
+    ]
+  },
+  {
+    id: "satou",
+    japanese: "砂糖",
+    hiragana: "さとう",
+    romaji: "satou",
+    english: "sugar",
+    french: "sucre",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "コーヒーに砂糖を入れます。",
+        hiragana: "こーひーにさとうをいれます。",
+        romaji: "Koohii ni satou o iremasu.",
+        english: "I put sugar in my coffee.",
+        french: "Je mets du sucre dans mon café."
+      }
+    ]
+  },
+  {
+    id: "samui",
+    japanese: "寒い",
+    hiragana: "さむい",
+    romaji: "samui",
+    english: "cold (weather)",
+    french: "froid (temps)",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "今日は寒いです。",
+        hiragana: "きょうはさむいです。",
+        romaji: "Kyou wa samui desu.",
+        english: "It is cold today.",
+        french: "Il fait froid aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "sara",
+    japanese: "皿",
+    hiragana: "さら",
+    romaji: "sara",
+    english: "plate; dish",
+    french: "assiette; plat",
+    level: "N5",
+    category: "kitchen",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "皿を洗います。",
+        hiragana: "さらをあらいます。",
+        romaji: "Sara o araimasu.",
+        english: "I wash the plates.",
+        french: "Je lave les assiettes."
+      }
+    ]
+  },
+  {
+    id: "saru",
+    japanese: "猿",
+    hiragana: "さる",
+    romaji: "saru",
+    english: "monkey",
+    french: "singe",
+    level: "N5",
+    category: "animal",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "猿は木に登ります。",
+        hiragana: "さるはきにのぼります。",
+        romaji: "Saru wa ki ni noborimasu.",
+        english: "Monkeys climb trees.",
+        french: "Les singes grimpent aux arbres."
+      }
+    ]
+  },
+  {
+    id: "san",
+    japanese: "三",
+    hiragana: "さん",
+    romaji: "san",
+    english: "three",
+    french: "trois",
+    level: "N5",
+    category: "number",
+    wordType: "number",
+    examples: [
+      {
+        japanese: "りんごを三つ食べました。",
+        hiragana: "りんごをみっつたべました。",
+        romaji: "Ringo o mittsu tabemashita.",
+        english: "I ate three apples.",
+        french: "J'ai mangé trois pommes."
+      }
+    ]
+  },
+  {
+    id: "sanpo",
+    japanese: "散歩",
+    hiragana: "さんぽ",
+    romaji: "sanpo",
+    english: "walk; stroll",
+    french: "promenade",
+    level: "N5",
+    category: "activity",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "公園を散歩します。",
+        hiragana: "こうえんをさんぽします。",
+        romaji: "Kouen o sanpo shimasu.",
+        english: "I take a walk in the park.",
+        french: "Je me promène dans le parc."
+      }
+    ]
+  },
+  {
+    id: "shio",
+    japanese: "塩",
+    hiragana: "しお",
+    romaji: "shio",
+    english: "salt",
+    french: "sel",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "塩を少し入れてください。",
+        hiragana: "しおをすこしいれてください。",
+        romaji: "Shio o sukoshi irete kudasai.",
+        english: "Please add a little salt.",
+        french: "Ajoutez un peu de sel, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    id: "shikashi",
+    japanese: "しかし",
+    hiragana: "しかし",
+    romaji: "shikashi",
+    english: "however; but",
+    french: "cependant; mais",
+    level: "N5",
+    category: "expression",
+    wordType: "conjunction",
+    examples: [
+      {
+        japanese: "雨が降っています。しかし出かけます。",
+        hiragana: "あめがふっています。しかしでかけます。",
+        romaji: "Ame ga futte imasu. Shikashi dekakemasu.",
+        english: "It is raining. However, I will go out.",
+        french: "Il pleut. Cependant, je sors."
+      }
+    ]
   }
 ];
 
