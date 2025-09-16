@@ -24,8 +24,8 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
     if (!canvasRef.current) return;
 
     const canvas = new FabricCanvas(canvasRef.current, {
-      width: 300,
-      height: 300,
+      width: 400,
+      height: 400,
       backgroundColor: '#ffffff',
       isDrawingMode: true,
     });
@@ -96,11 +96,11 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
   };
 
   return (
-    <div className={`flex flex-col gap-4 ${className}`}>
+    <div className={`flex flex-col gap-3 ${className}`}>
       {targetKanji && (
-        <div className="text-center">
-          <h3 className="text-lg font-semibold mb-2">Tracez ce kanji :</h3>
-          <div className="text-4xl font-bold text-primary mb-2">{targetKanji}</div>
+        <div className="text-center bg-muted/30 p-3 rounded-lg">
+          <h3 className="text-sm font-medium mb-1">Tracez ce kanji :</h3>
+          <div className="text-6xl font-bold text-primary">{targetKanji}</div>
         </div>
       )}
       
@@ -108,82 +108,71 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
       <div className="border-2 border-border rounded-lg overflow-hidden bg-background shadow-lg">
         <canvas 
           ref={canvasRef} 
-          className="block cursor-crosshair"
+          className="block cursor-crosshair w-full h-auto max-w-full"
           style={{ touchAction: 'none' }}
         />
       </div>
 
-      {/* Drawing Controls */}
-      <div className="grid grid-cols-2 gap-2">
-        <div className="flex flex-col gap-2">
-          <label className="text-sm font-medium">Taille du pinceau :</label>
+      {/* Compact Controls */}
+      <div className="grid grid-cols-3 gap-2 text-xs">
+        <div className="flex flex-col">
+          <label className="font-medium mb-1">Taille:</label>
           <input
             type="range"
-            min="1"
-            max="20"
+            min="2"
+            max="15"
             value={brushSize}
             onChange={(e) => setBrushSize(Number(e.target.value))}
-            className="w-full"
+            className="w-full h-2"
           />
-          <span className="text-xs text-muted-foreground">{brushSize}px</span>
+          <span className="text-center text-muted-foreground">{brushSize}px</span>
         </div>
         
-        <div className="flex flex-col gap-2">
-          <label className="text-sm font-medium">Couleur :</label>
-          <div className="flex gap-2 items-center">
+        <div className="flex flex-col">
+          <label className="font-medium mb-1">Couleur:</label>
+          <div className="flex gap-1">
             <input
               type="color"
               value={brushColor}
               onChange={(e) => setBrushColor(e.target.value)}
-              className="w-12 h-8 border border-border rounded cursor-pointer"
+              className="w-8 h-8 border border-border rounded cursor-pointer"
             />
             <Button
               variant="outline"
               size="sm"
               onClick={() => setBrushColor('#000000')}
-              className="text-xs"
+              className="text-xs px-2 py-1 h-8"
             >
               Noir
             </Button>
           </div>
         </div>
-      </div>
 
-      {/* Action Buttons */}
-      <div className="flex gap-2 justify-center">
-        <Button
-          variant="outline"
-          size="sm"
-          onClick={toggleDrawingMode}
-          className="flex items-center gap-2"
-        >
-          <Palette className="h-4 w-4" />
-          Mode
-        </Button>
-        
-        <Button
-          variant="outline"
-          size="sm"
-          onClick={handleClear}
-          className="flex items-center gap-2"
-        >
-          <RotateCcw className="h-4 w-4" />
-          Effacer
-        </Button>
-        
-        <Button
-          variant="default"
-          size="sm"
-          onClick={handleSave}
-          className="flex items-center gap-2"
-        >
-          Sauvegarder
-        </Button>
+        <div className="flex flex-col justify-end">
+          <div className="grid grid-cols-2 gap-1">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleClear}
+              className="text-xs px-2 py-1 h-8"
+            >
+              <RotateCcw className="h-3 w-3" />
+            </Button>
+            <Button
+              variant="default"
+              size="sm"
+              onClick={handleSave}
+              className="text-xs px-2 py-1 h-8"
+            >
+              Save
+            </Button>
+          </div>
+        </div>
       </div>
 
       {/* Instructions */}
-      <div className="text-xs text-muted-foreground text-center bg-muted p-2 rounded">
-        💡 Tracez avec votre souris ou doigt. Utilisez les contrôles pour ajuster la taille et couleur.
+      <div className="text-xs text-muted-foreground text-center bg-muted/50 p-2 rounded">
+        💡 Tracez avec votre souris ou doigt
       </div>
     </div>
   );

@@ -170,7 +170,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const exampleTranslation = language === 'english' ? word.examples[0]?.english : word.examples[0]?.french;
 
   return (
-    <div className="perspective-1000 w-full h-[500px]">
+    <div className="perspective-1000 w-full h-auto min-h-[500px]">
       <div 
         className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
