@@ -5320,6 +5320,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Éteignez la lumière, s'il vous plaît."
       }
     ]
+  },
+  {
+    "id": "shoujojo",
+    "japanese": "消防士",
+    "hiragana": "しょうぼうし",
+    "romaji": "shouboushi",
+    "english": "firefighter",
+    "french": "pompier",
+    "level": "N5",
+    "category": "profession",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "消防士が火を消しています。",
+        "hiragana": "しょうぼうしがひをけしています。",
+        "romaji": "Shouboushi ga hi o keshite imasu.",
+        "english": "The firefighter is putting out the fire.",
+        "french": "Le pompier éteint le feu."
+      }
+    ]
+  },
+  {
+    "id": "shinbun",
+    "japanese": "新聞",
+    "hiragana": "しんぶん",
+    "romaji": "shinbun",
+    "english": "newspaper",
+    "french": "journal",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新聞を読みます。",
+        "hiragana": "しんぶんをよみます。",
+        "romaji": "Shinbun o yomimasu.",
+        "english": "I read a newspaper.",
+        "french": "Je lis un journal."
+      }
+    ]
+  },
+  {
+    "id": "shinsetsu",
+    "japanese": "親切",
+    "hiragana": "しんせつ",
+    "romaji": "shinsetsu",
+    "english": "kind",
+    "french": "gentil",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼はとても親切です。",
+        "hiragana": "かれはとてもしんせつです。",
+        "romaji": "Kare wa totemo shinsetsu desu.",
+        "english": "He is very kind.",
+        "french": "Il est très gentil."
+      }
+    ]
+  },
+  {
+    "id": "shinshitsu",
+    "japanese": "寝室",
+    "hiragana": "しんしつ",
+    "romaji": "shinshitsu",
+    "english": "bedroom",
+    "french": "chambre à coucher",
+    "level": "N5",
+    "category": "house",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "寝室で寝ます。",
+        "hiragana": "しんしつでねます。",
+        "romaji": "Shinshitsu de nemasu.",
+        "english": "I sleep in the bedroom.",
+        "french": "Je dors dans la chambre."
+      }
+    ]
+  },
+  {
+    "id": "shinsha",
+    "japanese": "新車",
+    "hiragana": "しんしゃ",
+    "romaji": "shinsha",
+    "english": "new car",
+    "french": "voiture neuve",
+    "level": "N5",
+    "category": "transport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新車を買いました。",
+        "hiragana": "しんしゃをかいました。",
+        "romaji": "Shinsha o kaimashita.",
+        "english": "I bought a new car.",
+        "french": "J'ai acheté une voiture neuve."
+      }
+    ]
+  },
+  {
+    "id": "shinryou",
+    "japanese": "診療",
+    "hiragana": "しんりょう",
+    "romaji": "shinryou",
+    "english": "medical consultation",
+    "french": "consultation médicale",
+    "level": "N5",
+    "category": "health",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "病院で診療を受けました。",
+        "hiragana": "びょういんでしんりょうをうけました。",
+        "romaji": "Byouin de shinryou o ukemashita.",
+        "english": "I had a consultation at the hospital.",
+        "french": "J'ai eu une consultation à l'hôpital."
+      }
+    ]
+  },
+  {
+    "id": "shinsetsu_na",
+    "japanese": "新設",
+    "hiragana": "しんせつ",
+    "romaji": "shinsetsu",
+    "english": "newly established",
+    "french": "nouvellement établi",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新設の学校です。",
+        "hiragana": "しんせつのがっこうです。",
+        "romaji": "Shinsetsu no gakkou desu.",
+        "english": "It is a newly established school.",
+        "french": "C'est une école nouvellement créée."
+      }
+    ]
+  },
+  {
+    "id": "shinbunsha",
+    "japanese": "新聞社",
+    "hiragana": "しんぶんしゃ",
+    "romaji": "shinbunsha",
+    "english": "newspaper company",
+    "french": "compagnie de journaux",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新聞社で働いています。",
+        "hiragana": "しんぶんしゃではたらいています。",
+        "romaji": "Shinbunsha de hataraite imasu.",
+        "english": "I work at a newspaper company.",
+        "french": "Je travaille dans une société de journaux."
+      }
+    ]
+  },
+  {
+    "id": "shinnyuu",
+    "japanese": "進入",
+    "hiragana": "しんにゅう",
+    "romaji": "shinnyuu",
+    "english": "entry, admission",
+    "french": "entrée, admission",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "進入禁止の場所です。",
+        "hiragana": "しんにゅうきんしのばしょです。",
+        "romaji": "Shinnyuu kinshi no basho desu.",
+        "english": "Entry is prohibited here.",
+        "french": "Entrée interdite ici."
+      }
+    ]
+  },
+  {
+    "id": "shinrai",
+    "japanese": "信頼",
+    "hiragana": "しんらい",
+    "romaji": "shinrai",
+    "english": "trust, confidence",
+    "french": "confiance",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼に信頼しています。",
+        "hiragana": "かれにしんらいしています。",
+        "romaji": "Kare ni shinrai shite imasu.",
+        "english": "I trust him.",
+        "french": "J'ai confiance en lui."
+      }
+    ]
+  },
+  {
+    "id": "shinwa",
+    "japanese": "神話",
+    "hiragana": "しんわ",
+    "romaji": "shinwa",
+    "english": "myth",
+    "french": "mythe",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "日本の神話を読みました。",
+        "hiragana": "にほんのしんわをよみました。",
+        "romaji": "Nihon no shinwa o yomimashita.",
+        "english": "I read Japanese myths.",
+        "french": "J'ai lu des mythes japonais."
+      }
+    ]
+  },
+  {
+    "id": "shinrai_na",
+    "japanese": "信頼できる",
+    "hiragana": "しんらいできる",
+    "romaji": "shinrai dekiru",
+    "english": "reliable",
+    "french": "fiable",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼は信頼できる人です。",
+        "hiragana": "かれはしんらいできるひとです。",
+        "romaji": "Kare wa shinrai dekiru hito desu.",
+        "english": "He is a reliable person.",
+        "french": "C'est une personne fiable."
+      }
+    ]
+  },
+  {
+    "id": "shinryaku",
+    "japanese": "侵略",
+    "hiragana": "しんりゃく",
+    "romaji": "shinryaku",
+    "english": "invasion",
+    "french": "invasion",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "国の侵略を防ぎます。",
+        "hiragana": "くにのしんりゃくをふせぎます。",
+        "romaji": "Kuni no shinryaku o fusegimasu.",
+        "english": "We prevent the invasion of the country.",
+        "french": "Nous empêchons l'invasion du pays."
+      }
+    ]
+  },
+  {
+    "id": "shinwa_bunka",
+    "japanese": "神話文化",
+    "hiragana": "しんわぶんか",
+    "romaji": "shinwa bunka",
+    "english": "mythology culture",
+    "french": "culture mythologique",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "神話文化を研究しています。",
+        "hiragana": "しんわぶんかをけんきゅうしています。",
+        "romaji": "Shinwa bunka o kenkyuu shite imasu.",
+        "english": "I am studying mythology culture.",
+        "french": "J'étudie la culture mythologique."
+      }
+    ]
+  },
+  {
+    "id": "shinzo",
+    "japanese": "心臓",
+    "hiragana": "しんぞう",
+    "romaji": "shinzou",
+    "english": "heart (organ)",
+    "french": "cœur (organe)",
+    "level": "N5",
+    "category": "body",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "心臓が速く動いています。",
+        "hiragana": "しんぞうがはやくうごいています。",
+        "romaji": "Shinzou ga hayaku ugoite imasu.",
+        "english": "The heart is beating fast.",
+        "french": "Le cœur bat vite."
+      }
+    ]
+  },
+  {
+    "id": "shinpi",
+    "japanese": "神秘",
+    "hiragana": "しんぴ",
+    "romaji": "shinpi",
+    "english": "mystery",
+    "french": "mystère",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "海は神秘的です。",
+        "hiragana": "うみはしんぴてきです。",
+        "romaji": "Umi wa shinpiteki desu.",
+        "english": "The sea is mysterious.",
+        "french": "La mer est mystérieuse."
+      }
+    ]
+  },
+  {
+    "id": "shinpai",
+    "japanese": "心配",
+    "hiragana": "しんぱい",
+    "romaji": "shinpai",
+    "english": "worry",
+    "french": "inquiétude",
+    "level": "N5",
+    "category": "emotion",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "心配しないでください。",
+        "hiragana": "しんぱいしないでください。",
+        "romaji": "Shinpai shinaide kudasai.",
+        "english": "Please don't worry.",
+        "french": "Ne vous inquiétez pas."
+      }
+    ]
   }
 ];
 
