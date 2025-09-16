@@ -6900,6 +6900,366 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je me suis blessé au doigt."
       }
     ]
+  },
+  {
+    "id": "seki_tabako",
+    "japanese": "たばこ",
+    "hiragana": "たばこ",
+    "romaji": "tabako",
+    "english": "tobacco, cigarette",
+    "french": "tabac, cigarette",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "父はたばこを吸います。",
+        "hiragana": "ちちはたばこをすいます。",
+        "romaji": "Chichi wa tabako o suimasu.",
+        "english": "My father smokes cigarettes.",
+        "french": "Mon père fume des cigarettes."
+      }
+    ]
+  },
+  {
+    "id": "takai",
+    "japanese": "高い",
+    "hiragana": "たかい",
+    "romaji": "takai",
+    "english": "tall, expensive",
+    "french": "grand, cher",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "この本は高いです。",
+        "hiragana": "このほんはたかいです。",
+        "romaji": "Kono hon wa takai desu.",
+        "english": "This book is expensive.",
+        "french": "Ce livre est cher."
+      }
+    ]
+  },
+  {
+    "id": "takusan",
+    "japanese": "たくさん",
+    "hiragana": "たくさん",
+    "romaji": "takusan",
+    "english": "many, a lot",
+    "french": "beaucoup",
+    "level": "N5",
+    "category": "adverb",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "たくさんの人が来ました。",
+        "hiragana": "たくさんのひとがきました。",
+        "romaji": "Takusan no hito ga kimashita.",
+        "english": "Many people came.",
+        "french": "Beaucoup de gens sont venus."
+      }
+    ]
+  },
+  {
+    "id": "tabemono",
+    "japanese": "食べ物",
+    "hiragana": "たべもの",
+    "romaji": "tabemono",
+    "english": "food",
+    "french": "nourriture",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "日本の食べ物はおいしいです。",
+        "hiragana": "にほんのたべものはおいしいです。",
+        "romaji": "Nihon no tabemono wa oishii desu.",
+        "english": "Japanese food is delicious.",
+        "french": "La nourriture japonaise est délicieuse."
+      }
+    ]
+  },
+  {
+    "id": "taberu",
+    "japanese": "食べる",
+    "hiragana": "たべる",
+    "romaji": "taberu",
+    "english": "to eat",
+    "french": "manger",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "パンを食べます。",
+        "hiragana": "ぱんをたべます。",
+        "romaji": "Pan o tabemasu.",
+        "english": "I eat bread.",
+        "french": "Je mange du pain."
+      }
+    ]
+  },
+  {
+    "id": "taihen",
+    "japanese": "大変",
+    "hiragana": "たいへん",
+    "romaji": "taihen",
+    "english": "serious, very",
+    "french": "grave, très",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "今日は大変忙しいです。",
+        "hiragana": "きょうはたいへんいそがしいです。",
+        "romaji": "Kyou wa taihen isogashii desu.",
+        "english": "I am very busy today.",
+        "french": "Je suis très occupé aujourd'hui."
+      }
+    ]
+  },
+  {
+    "id": "taisetsu",
+    "japanese": "大切",
+    "hiragana": "たいせつ",
+    "romaji": "taisetsu",
+    "english": "important, precious",
+    "french": "important, précieux",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "家族はとても大切です。",
+        "hiragana": "かぞくはとてもたいせつです。",
+        "romaji": "Kazoku wa totemo taisetsu desu.",
+        "english": "Family is very important.",
+        "french": "La famille est très importante."
+      }
+    ]
+  },
+  {
+    "id": "taiiku",
+    "japanese": "体育",
+    "hiragana": "たいいく",
+    "romaji": "taiiku",
+    "english": "physical education",
+    "french": "éducation physique",
+    "level": "N5",
+    "category": "school",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "体育の授業があります。",
+        "hiragana": "たいいくのじゅぎょうがあります。",
+        "romaji": "Taiiku no jugyou ga arimasu.",
+        "english": "There is a physical education class.",
+        "french": "Il y a un cours d'éducation physique."
+      }
+    ]
+  },
+  {
+    "id": "taoreru",
+    "japanese": "倒れる",
+    "hiragana": "たおれる",
+    "romaji": "taoreru",
+    "english": "to fall down",
+    "french": "tomber",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "木が倒れました。",
+        "hiragana": "きがたおれました。",
+        "romaji": "Ki ga taoremashita.",
+        "english": "The tree fell down.",
+        "french": "L'arbre est tombé."
+      }
+    ]
+  },
+  {
+    "id": "taisou",
+    "japanese": "体操",
+    "hiragana": "たいそう",
+    "romaji": "taisou",
+    "english": "gymnastics, exercise",
+    "french": "gymnastique, exercice",
+    "level": "N5",
+    "category": "sport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "朝に体操をします。",
+        "hiragana": "あさにたいそうをします。",
+        "romaji": "Asa ni taisou o shimasu.",
+        "english": "I do exercises in the morning.",
+        "french": "Je fais de la gymnastique le matin."
+      }
+    ]
+  },
+  {
+    "id": "takusan_arigatou",
+    "japanese": "たくさんありがとう",
+    "hiragana": "たくさんありがとう",
+    "romaji": "takusan arigatou",
+    "english": "thanks a lot",
+    "french": "merci beaucoup",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "たくさんありがとう！",
+        "hiragana": "たくさんありがとう！",
+        "romaji": "Takusan arigatou!",
+        "english": "Thank you so much!",
+        "french": "Merci beaucoup !"
+      }
+    ]
+  },
+  {
+    "id": "tada",
+    "japanese": "ただ",
+    "hiragana": "ただ",
+    "romaji": "tada",
+    "english": "free of charge, just",
+    "french": "gratuit, seulement",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "adverb",
+    "examples": [
+      {
+        "japanese": "これはただです。",
+        "hiragana": "これはただです。",
+        "romaji": "Kore wa tada desu.",
+        "english": "This is free.",
+        "french": "C'est gratuit."
+      }
+    ]
+  },
+  {
+    "id": "tadashii",
+    "japanese": "正しい",
+    "hiragana": "ただしい",
+    "romaji": "tadashii",
+    "english": "correct, right",
+    "french": "correct, juste",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "答えは正しいです。",
+        "hiragana": "こたえはただしいです。",
+        "romaji": "Kotae wa tadashii desu.",
+        "english": "The answer is correct.",
+        "french": "La réponse est correcte."
+      }
+    ]
+  },
+  {
+    "id": "tanoshii",
+    "japanese": "楽しい",
+    "hiragana": "たのしい",
+    "romaji": "tanoshii",
+    "english": "fun, enjoyable",
+    "french": "amusant, agréable",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "パーティーは楽しかったです。",
+        "hiragana": "ぱーてぃーはたのしかったです。",
+        "romaji": "Paatii wa tanoshikatta desu.",
+        "english": "The party was fun.",
+        "french": "La fête était amusante."
+      }
+    ]
+  },
+  {
+    "id": "tanomu",
+    "japanese": "頼む",
+    "hiragana": "たのむ",
+    "romaji": "tanomu",
+    "english": "to request, to ask",
+    "french": "demander, prier",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "先生に頼みました。",
+        "hiragana": "せんせいにたのみました。",
+        "romaji": "Sensei ni tanomimashita.",
+        "english": "I asked the teacher.",
+        "french": "J'ai demandé au professeur."
+      }
+    ]
+  },
+  {
+    "id": "tanoshi_mu",
+    "japanese": "楽しむ",
+    "hiragana": "たのしむ",
+    "romaji": "tanoshimu",
+    "english": "to enjoy",
+    "french": "profiter, s'amuser",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "旅行を楽しみます。",
+        "hiragana": "りょこうをたのしみます。",
+        "romaji": "Ryokou o tanoshimimasu.",
+        "english": "I enjoy traveling.",
+        "french": "Je profite du voyage."
+      }
+    ]
+  },
+  {
+    "id": "tanjoubi",
+    "japanese": "誕生日",
+    "hiragana": "たんじょうび",
+    "romaji": "tanjoubi",
+    "english": "birthday",
+    "french": "anniversaire",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "今日は私の誕生日です。",
+        "hiragana": "きょうはわたしのたんじょうびです。",
+        "romaji": "Kyou wa watashi no tanjoubi desu.",
+        "english": "Today is my birthday.",
+        "french": "Aujourd'hui, c'est mon anniversaire."
+      }
+    ]
+  },
+  {
+    "id": "tanin",
+    "japanese": "他人",
+    "hiragana": "たにん",
+    "romaji": "tanin",
+    "english": "stranger, other people",
+    "french": "étranger, autrui",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "他人を信じますか？",
+        "hiragana": "たにんをしんじますか？",
+        "romaji": "Tanin o shinjimasu ka?",
+        "english": "Do you trust other people?",
+        "french": "Fais-tu confiance aux autres ?"
+      }
+    ]
   }
 ];
 
