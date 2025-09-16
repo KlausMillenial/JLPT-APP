@@ -30,28 +30,46 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
       width: 400,
       height: 400,
       backgroundColor: '#ffffff',
-      isDrawingMode: true,
+      isDrawingMode: false, // Start with false, enable after setup
     });
 
-    // Enable drawing immediately
-    canvas.isDrawingMode = true;
-    
-    // Wait for canvas to be ready before configuring brush
-    setTimeout(() => {
+    console.log('Canvas created:', canvas);
+
+    // Setup drawing immediately
+    const setupDrawing = () => {
+      console.log('Setting up drawing...');
+      
+      // Force drawing mode
+      canvas.isDrawingMode = true;
+      
+      // Create and configure brush manually
       if (canvas.freeDrawingBrush) {
+        console.log('Configuring brush...');
         canvas.freeDrawingBrush.color = brushColor;
         canvas.freeDrawingBrush.width = brushSize;
         canvas.freeDrawingBrush.limitedToCanvasSize = true;
+      } else {
+        console.log('No freeDrawingBrush available');
       }
       
       // Add kanji guide as background if provided
       if (targetKanji) {
         addKanjiGuide(canvas, targetKanji);
       }
-    }, 100);
+      
+      console.log('Drawing setup complete. isDrawingMode:', canvas.isDrawingMode);
+    };
 
-    // Add event listener for drawing completion
-    canvas.on('path:created', () => {
+    // Setup after a short delay to ensure canvas is ready
+    setTimeout(setupDrawing, 200);
+
+    // Add event listeners for debugging
+    canvas.on('mouse:down', (e) => {
+      console.log('Mouse down on canvas', e);
+    });
+
+    canvas.on('path:created', (e) => {
+      console.log('Path created:', e);
       if (onDrawingComplete) {
         const imageData = canvas.toDataURL({
           format: 'png',
@@ -67,7 +85,7 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
     return () => {
       canvas.dispose();
     };
-  }, [targetKanji]);
+  }, [targetKanji, brushColor, brushSize]);
 
   // Function to add kanji guide
   const addKanjiGuide = (canvas: FabricCanvas, kanji: string) => {
@@ -102,14 +120,21 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
   };
 
   useEffect(() => {
-    if (!fabricCanvas?.freeDrawingBrush) return;
+    console.log('Brush settings changed:', { brushColor, brushSize, fabricCanvas });
+    if (!fabricCanvas?.freeDrawingBrush) {
+      console.log('No brush available for update');
+      return;
+    }
 
     fabricCanvas.freeDrawingBrush.color = brushColor;
     fabricCanvas.freeDrawingBrush.width = brushSize;
+    console.log('Brush updated:', fabricCanvas.freeDrawingBrush);
   }, [brushColor, brushSize, fabricCanvas]);
 
   const handleClear = () => {
     if (!fabricCanvas) return;
+    
+    console.log('Clearing canvas...');
     
     // Remove all objects except the guide
     const objects = fabricCanvas.getObjects();
@@ -121,6 +146,21 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
     
     fabricCanvas.renderAll();
     toast.success('Canvas effacé !');
+  };
+
+  const forceDrawingMode = () => {
+    if (!fabricCanvas) return;
+    
+    console.log('Forcing drawing mode...');
+    fabricCanvas.isDrawingMode = true;
+    
+    if (fabricCanvas.freeDrawingBrush) {
+      fabricCanvas.freeDrawingBrush.color = brushColor;
+      fabricCanvas.freeDrawingBrush.width = brushSize;
+    }
+    
+    console.log('Drawing mode forced. isDrawingMode:', fabricCanvas.isDrawingMode);
+    toast.info('Mode dessin activé');
   };
 
   const toggleGuide = () => {
@@ -231,7 +271,16 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
         </div>
         
         <div className="flex flex-col justify-end">
-          <div className="grid grid-cols-2 gap-1">
+          <div className="grid grid-cols-3 gap-1">
+            <Button
+              variant="secondary"
+              size="sm"
+              onClick={forceDrawingMode}
+              className="text-xs px-1 py-1 h-8"
+              title="Activer le mode dessin"
+            >
+              ✏️
+            </Button>
             <Button
               variant="outline"
               size="sm"
@@ -254,7 +303,7 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
 
       {/* Instructions */}
       <div className="text-xs text-muted-foreground text-center bg-muted/50 p-2 rounded">
-        💡 Tracez par-dessus le guide gris. Utilisez "Guide" pour masquer/afficher le modèle.
+        💡 Cliquez et glissez pour tracer. Utilisez le bouton ✏️ si le dessin ne fonctionne pas.
       </div>
     </div>
   );
