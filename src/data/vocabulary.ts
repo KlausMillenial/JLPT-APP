@@ -4980,6 +4980,346 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je vérifie sur internet."
       }
     ]
+  },
+  {
+    "id": "shirimasu",
+    "japanese": "知る",
+    "hiragana": "しる",
+    "romaji": "shiru",
+    "english": "to know",
+    "french": "savoir, connaître",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "彼の名前を知っています。",
+        "hiragana": "かれのなまえをしっています。",
+        "romaji": "Kare no namae o shitte imasu.",
+        "english": "I know his name.",
+        "french": "Je connais son nom."
+      }
+    ]
+  },
+  {
+    "id": "shiro",
+    "japanese": "白",
+    "hiragana": "しろ",
+    "romaji": "shiro",
+    "english": "white",
+    "french": "blanc",
+    "level": "N5",
+    "category": "color",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "雪は白いです。",
+        "hiragana": "ゆきはしろいです。",
+        "romaji": "Yuki wa shiroi desu.",
+        "english": "Snow is white.",
+        "french": "La neige est blanche."
+      }
+    ]
+  },
+  {
+    "id": "shiroi",
+    "japanese": "白い",
+    "hiragana": "しろい",
+    "romaji": "shiroi",
+    "english": "white (adjective)",
+    "french": "blanc (adjectif)",
+    "level": "N5",
+    "category": "color",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "白いシャツを着ています。",
+        "hiragana": "しろいしゃつをきています。",
+        "romaji": "Shiroi shatsu o kite imasu.",
+        "english": "I am wearing a white shirt.",
+        "french": "Je porte une chemise blanche."
+      }
+    ]
+  },
+  {
+    "id": "shokudou",
+    "japanese": "食堂",
+    "hiragana": "しょくどう",
+    "romaji": "shokudou",
+    "english": "cafeteria, dining hall",
+    "french": "cantine, salle à manger",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "大学の食堂で昼ご飯を食べます。",
+        "hiragana": "だいがくのしょくどうでひるごはんをたべます。",
+        "romaji": "Daigaku no shokudou de hirugohan o tabemasu.",
+        "english": "I eat lunch at the university cafeteria.",
+        "french": "Je déjeune à la cantine de l'université."
+      }
+    ]
+  },
+  {
+    "id": "shouyu",
+    "japanese": "醤油",
+    "hiragana": "しょうゆ",
+    "romaji": "shouyu",
+    "english": "soy sauce",
+    "french": "sauce soja",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "寿司に醤油をつけます。",
+        "hiragana": "すしにしょうゆをつけます。",
+        "romaji": "Sushi ni shouyu o tsukemasu.",
+        "english": "I put soy sauce on sushi.",
+        "french": "Je mets de la sauce soja sur les sushis."
+      }
+    ]
+  },
+  {
+    "id": "shokuin",
+    "japanese": "職員",
+    "hiragana": "しょくいん",
+    "romaji": "shokuin",
+    "english": "staff member",
+    "french": "employé",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "学校の職員です。",
+        "hiragana": "がっこうのしょくいんです。",
+        "romaji": "Gakkou no shokuin desu.",
+        "english": "He is a school staff member.",
+        "french": "C'est un employé de l'école."
+      }
+    ]
+  },
+  {
+    "id": "shougakusei",
+    "japanese": "小学生",
+    "hiragana": "しょうがくせい",
+    "romaji": "shougakusei",
+    "english": "elementary school student",
+    "french": "élève d'école primaire",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "弟は小学生です。",
+        "hiragana": "おとうとはしょうがくせいです。",
+        "romaji": "Otouto wa shougakusei desu.",
+        "english": "My younger brother is an elementary school student.",
+        "french": "Mon petit frère est à l'école primaire."
+      }
+    ]
+  },
+  {
+    "id": "shounen",
+    "japanese": "少年",
+    "hiragana": "しょうねん",
+    "romaji": "shounen",
+    "english": "boy, youth",
+    "french": "garçon, jeune garçon",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "その少年は走っています。",
+        "hiragana": "そのしょうねんははしっています。",
+        "romaji": "Sono shounen wa hashitte imasu.",
+        "english": "That boy is running.",
+        "french": "Ce garçon court."
+      }
+    ]
+  },
+  {
+    "id": "shoujo",
+    "japanese": "少女",
+    "hiragana": "しょうじょ",
+    "romaji": "shoujo",
+    "english": "girl, young girl",
+    "french": "fille, jeune fille",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "少女が歌っています。",
+        "hiragana": "しょうじょがうたっています。",
+        "romaji": "Shoujo ga utatte imasu.",
+        "english": "A girl is singing.",
+        "french": "Une fille chante."
+      }
+    ]
+  },
+  {
+    "id": "shoujiki",
+    "japanese": "正直",
+    "hiragana": "しょうじき",
+    "romaji": "shoujiki",
+    "english": "honest",
+    "french": "honnête",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼は正直な人です。",
+        "hiragana": "かれはしょうじきなひとです。",
+        "romaji": "Kare wa shoujiki na hito desu.",
+        "english": "He is an honest person.",
+        "french": "C'est une personne honnête."
+      }
+    ]
+  },
+  {
+    "id": "shuppatsu",
+    "japanese": "出発",
+    "hiragana": "しゅっぱつ",
+    "romaji": "shuppatsu",
+    "english": "departure",
+    "french": "départ",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "明日の出発は8時です。",
+        "hiragana": "あしたのしゅっぱつははちじです。",
+        "romaji": "Ashita no shuppatsu wa hachiji desu.",
+        "english": "The departure is at 8 tomorrow.",
+        "french": "Le départ est à 8 heures demain."
+      }
+    ]
+  },
+  {
+    "id": "shusseki",
+    "japanese": "出席",
+    "hiragana": "しゅっせき",
+    "romaji": "shusseki",
+    "english": "attendance",
+    "french": "présence",
+    "level": "N5",
+    "category": "school",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "出席を取ります。",
+        "hiragana": "しゅっせきをとります。",
+        "romaji": "Shusseki o torimasu.",
+        "english": "I take attendance.",
+        "french": "Je fais l'appel."
+      }
+    ]
+  },
+  {
+    "id": "shuumatsu",
+    "japanese": "週末",
+    "hiragana": "しゅうまつ",
+    "romaji": "shuumatsu",
+    "english": "weekend",
+    "french": "week-end",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "週末に友達と遊びます。",
+        "hiragana": "しゅうまつにともだちとあそびます。",
+        "romaji": "Shuumatsu ni tomodachi to asobimasu.",
+        "english": "I hang out with friends on weekends.",
+        "french": "Je sors avec des amis le week-end."
+      }
+    ]
+  },
+  {
+    "id": "jiyuu",
+    "japanese": "自由",
+    "hiragana": "じゆう",
+    "romaji": "jiyuu",
+    "english": "freedom",
+    "french": "liberté",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "自由に話してください。",
+        "hiragana": "じゆうにはなしてください。",
+        "romaji": "Jiyuu ni hanashite kudasai.",
+        "english": "Please speak freely.",
+        "french": "Parlez librement, s'il vous plaît."
+      }
+    ]
+  },
+  {
+    "id": "shouhin",
+    "japanese": "商品",
+    "hiragana": "しょうひん",
+    "romaji": "shouhin",
+    "english": "goods, product",
+    "french": "marchandise, produit",
+    "level": "N5",
+    "category": "economy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい商品を紹介します。",
+        "hiragana": "あたらしいしょうひんをしょうかいします。",
+        "romaji": "Atarashii shouhin o shoukai shimasu.",
+        "english": "We introduce a new product.",
+        "french": "Nous présentons un nouveau produit."
+      }
+    ]
+  },
+  {
+    "id": "shokki",
+    "japanese": "食器",
+    "hiragana": "しょっき",
+    "romaji": "shokki",
+    "english": "tableware",
+    "french": "vaisselle",
+    "level": "N5",
+    "category": "kitchen",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "食器を洗いました。",
+        "hiragana": "しょっきをあらいました。",
+        "romaji": "Shokki o araimashita.",
+        "english": "I washed the dishes.",
+        "french": "J'ai lavé la vaisselle."
+      }
+    ]
+  },
+  {
+    "id": "shoumei",
+    "japanese": "照明",
+    "hiragana": "しょうめい",
+    "romaji": "shoumei",
+    "english": "lighting",
+    "french": "éclairage",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "照明を消してください。",
+        "hiragana": "しょうめいをけしてください。",
+        "romaji": "Shoumei o keshite kudasai.",
+        "english": "Please turn off the light.",
+        "french": "Éteignez la lumière, s'il vous plaît."
+      }
+    ]
   }
 ];
 
