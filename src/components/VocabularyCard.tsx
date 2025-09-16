@@ -6,7 +6,7 @@ import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
 import { FuriganaText } from './FuriganaText';
 import { KanjiPracticeModal } from './KanjiPracticeModal';
-import { RunwareService } from '@/services/runwareService';
+import { LeonardoService } from '@/services/leonardoService';
 import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -126,10 +126,10 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
 
   const generateImage = async () => {
     console.log('Generate image button clicked for word:', word.japanese);
-    const apiKey = localStorage.getItem('runware-api-key');
+    const apiKey = LeonardoService.getStoredApiKey();
     if (!apiKey) {
-      console.log('No Runware API key found');
-      toast.error('Please set up your Runware API key first');
+      console.log('No Leonardo API key found');
+      toast.error('Please set up your Leonardo API key first');
       return;
     }
 
@@ -137,7 +137,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     setIsGeneratingImage(true);
     
     try {
-      const runwareService = new RunwareService(apiKey);
+      const leonardoService = new LeonardoService(apiKey);
       
       // Create a context-aware prompt that describes the word visually
       const translation = word[language] || word.english; // Fallback to English if translation not available
@@ -145,12 +145,11 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       
       console.log('Generated prompt:', prompt);
       
-      const result = await runwareService.generateImage({
+      const result = await leonardoService.generateImage({
         positivePrompt: prompt,
         width: 512,
         height: 512,
         numberResults: 1,
-        outputFormat: "WEBP"
       });
       
       console.log('Image generation result:', result);
