@@ -16290,6 +16290,216 @@ export const vocabularyData: VocabularyWord[] = [
         spanish: "Como pan."
       }
     ]
+  },
+  {
+    id: "higashi",
+    japanese: "東",
+    hiragana: "ひがし",
+    romaji: "higashi",
+    english: "east",
+    french: "est",
+    german: "Osten",
+    vietnamese: "phía đông",
+    chinese: "东",
+    korean: "동쪽",
+    spanish: "este",
+    level: "N5",
+    category: "direction",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "太陽は東から昇ります。",
+        hiragana: "たいようはひがしからのぼります。",
+        romaji: "Taiyou wa higashi kara noborimasu.",
+        english: "The sun rises in the east.",
+        french: "Le soleil se lève à l'est.",
+        german: "Die Sonne geht im Osten auf.",
+        vietnamese: "Mặt trời mọc ở phía đông.",
+        chinese: "太阳从东边升起。",
+        korean: "태양은 동쪽에서 뜹니다.",
+        spanish: "El sol sale por el este."
+      }
+    ]
+  },
+  {
+    id: "hikui",
+    japanese: "低い",
+    hiragana: "ひくい",
+    romaji: "hikui",
+    english: "low",
+    french: "bas",
+    german: "niedrig",
+    vietnamese: "thấp",
+    chinese: "低",
+    korean: "낮다",
+    spanish: "bajo",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この椅子は低いです。",
+        hiragana: "このいすはひくいです。",
+        romaji: "Kono isu wa hikui desu.",
+        english: "This chair is low.",
+        french: "Cette chaise est basse.",
+        german: "Dieser Stuhl ist niedrig.",
+        vietnamese: "Cái ghế này thấp.",
+        chinese: "这把椅子很低。",
+        korean: "이 의자는 낮습니다.",
+        spanish: "Esta silla es baja."
+      }
+    ]
+  },
+  {
+    id: "hikouki",
+    japanese: "飛行機",
+    hiragana: "ひこうき",
+    romaji: "hikouki",
+    english: "airplane",
+    french: "avion",
+    german: "Flugzeug",
+    vietnamese: "máy bay",
+    chinese: "飞机",
+    korean: "비행기",
+    spanish: "avión",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "飛行機で旅行します。",
+        hiragana: "ひこうきでりょこうします。",
+        romaji: "Hikouki de ryokou shimasu.",
+        english: "I travel by airplane.",
+        french: "Je voyage en avion.",
+        german: "Ich reise mit dem Flugzeug.",
+        vietnamese: "Tôi đi du lịch bằng máy bay.",
+        chinese: "我坐飞机旅行。",
+        korean: "비행기로 여행합니다.",
+        spanish: "Viajo en avión."
+      }
+    ]
+  },
+  {
+    id: "hisashiburi",
+    japanese: "久しぶり",
+    hiragana: "ひさしぶり",
+    romaji: "hisashiburi",
+    english: "after a long time",
+    french: "ça fait longtemps",
+    german: "lange nicht gesehen",
+    vietnamese: "lâu rồi không gặp",
+    chinese: "好久不见",
+    korean: "오랜만이에요",
+    spanish: "¡cuánto tiempo!",
+    level: "N5",
+    category: "expression",
+    wordType: "phrase",
+    examples: [
+      {
+        japanese: "久しぶり！元気ですか？",
+        hiragana: "ひさしぶり！げんきですか？",
+        romaji: "Hisashiburi! Genki desu ka?",
+        english: "Long time no see! How are you?",
+        french: "Ça fait longtemps ! Comment ça va ?",
+        german: "Lange nicht gesehen! Wie geht's?",
+        vietnamese: "Lâu rồi không gặp! Bạn khỏe không?",
+        chinese: "好久不见！你好吗？",
+        korean: "오랜만이에요! 잘 지냈어요?",
+        spanish: "¡Cuánto tiempo! ¿Cómo estás?"
+      }
+    ]
+  },
+  {
+    id: "hito",
+    japanese: "人",
+    hiragana: "ひと",
+    romaji: "hito",
+    english: "person",
+    french: "personne",
+    german: "Person",
+    vietnamese: "người",
+    chinese: "人",
+    korean: "사람",
+    spanish: "persona",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "あの人は先生です。",
+        hiragana: "あのひとはせんせいです。",
+        romaji: "Ano hito wa sensei desu.",
+        english: "That person is a teacher.",
+        french: "Cette personne est professeur.",
+        german: "Diese Person ist Lehrer.",
+        vietnamese: "Người đó là giáo viên.",
+        chinese: "那个人是老师。",
+        korean: "저 사람은 선생님입니다.",
+        spanish: "Esa persona es profesor."
+      }
+    ]
+  },
+  {
+    id: "hitotsu",
+    japanese: "一つ",
+    hiragana: "ひとつ",
+    romaji: "hitotsu",
+    english: "one (thing)",
+    french: "un (objet)",
+    german: "eins (Ding)",
+    vietnamese: "một (vật)",
+    chinese: "一个",
+    korean: "하나",
+    spanish: "uno (cosa)",
+    level: "N5",
+    category: "number",
+    wordType: "counter",
+    examples: [
+      {
+        japanese: "リンゴを一つ食べました。",
+        hiragana: "りんごをひとつたべました。",
+        romaji: "Ringo o hitotsu tabemashita.",
+        english: "I ate one apple.",
+        french: "J'ai mangé une pomme.",
+        german: "Ich habe einen Apfel gegessen.",
+        vietnamese: "Tôi đã ăn một quả táo.",
+        chinese: "我吃了一个苹果。",
+        korean: "사과를 하나 먹었습니다.",
+        spanish: "Me comí una manzana."
+      }
+    ]
+  },
+  {
+    id: "hitori",
+    japanese: "一人",
+    hiragana: "ひとり",
+    romaji: "hitori",
+    english: "one person; alone",
+    french: "une personne; seul",
+    german: "eine Person; allein",
+    vietnamese: "một người; một mình",
+    chinese: "一个人",
+    korean: "혼자; 한 사람",
+    spanish: "una persona; solo",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "一人で旅行します。",
+        hiragana: "ひとりでりょこうします。",
+        romaji: "Hitori de ryokou shimasu.",
+        english: "I travel alone.",
+        french: "Je voyage seul.",
+        german: "Ich reise allein.",
+        vietnamese: "Tôi đi du lịch một mình.",
+        chinese: "我一个人旅行。",
+        korean: "혼자 여행합니다.",
+        spanish: "Viajo solo."
+      }
+    ]
   }
 ];
 
