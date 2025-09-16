@@ -184,25 +184,12 @@ useEffect(() => {
         onClick={handleCardClick}
       >
         {/* Front of card - Translation */}
-        <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-6 border-0">
+        <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
           <div className="flex flex-col h-full">
-            {/* Header with badges */}
-            <div className="flex gap-2 mb-4">
-              <Badge variant="secondary" className="text-xs">
-                {word.level}
-              </Badge>
-              <Badge variant="outline" className="text-xs">
-                {word.category}
-              </Badge>
-              <Badge variant="outline" className="text-xs">
-                {word.wordType}
-              </Badge>
-            </div>
-            
-            {/* Image section with auto-generation */}
-            <div className="mb-4 flex justify-center flex-1">
+            {/* Image section - Half of the card */}
+            <div className="flex-1 relative">
               {isGeneratingImage ? (
-                <div className="w-full h-48 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
+                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
                   <span className="text-sm text-muted-foreground">Generating image...</span>
                 </div>
@@ -210,52 +197,68 @@ useEffect(() => {
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-full h-48 object-cover rounded-xl border-2 border-primary/30 shadow-md animate-fade-in"
+                  className="w-full h-full object-cover animate-fade-in"
                 />
               ) : (
-                <div className="w-full h-48 flex flex-col items-center justify-center border-2 border-dashed border-primary/30 rounded-xl bg-primary/5">
+                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
                   <span className="text-sm text-primary/60 text-center">Image will appear<br />automatically</span>
                 </div>
               )}
             </div>
             
-            {/* Translation content */}
-            <div className="flex flex-col items-center justify-center text-center space-y-4 flex-1">
-              <div className="flex items-center justify-center gap-3">
-                <h2 className="text-3xl font-bold text-primary">
-                  {translation}
-                </h2>
-                <VoiceButton 
-                  text={translation}
-                  language={language}
-                  variant="outline"
-                  size="icon"
-                  className="hover:bg-primary/10"
-                />
+            {/* Content section - Other half of the card */}
+            <div className="flex-1 p-6 flex flex-col">
+              {/* Header with badges */}
+              <div className="flex gap-2 mb-4">
+                <Badge variant="secondary" className="text-xs">
+                  {word.level}
+                </Badge>
+                <Badge variant="outline" className="text-xs">
+                  {word.category}
+                </Badge>
+                <Badge variant="outline" className="text-xs">
+                  {word.wordType}
+                </Badge>
               </div>
               
-              {word.examples[0] && (
-                <div className="space-y-2 pt-4 border-t border-primary/20 w-full">
-                  <p className="text-sm font-medium text-muted-foreground">Example:</p>
-                  <div className="flex items-center justify-center gap-2">
-                    <p className="text-sm text-muted-foreground">
-                      {exampleTranslation}
-                    </p>
-                    <VoiceButton 
-                      text={exampleTranslation}
-                      language={language}
-                      variant="ghost"
-                      size="icon"
-                      className="hover:bg-primary/10 opacity-70"
-                    />
-                  </div>
+              {/* Translation content */}
+              <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
+                <div className="flex items-center justify-center gap-3">
+                  <h2 className="text-2xl font-bold text-primary">
+                    {translation}
+                  </h2>
+                  <VoiceButton 
+                    text={translation}
+                    language={language}
+                    variant="outline"
+                    size="icon"
+                    className="hover:bg-primary/10"
+                  />
                 </div>
-              )}
-            </div>
+                
+                {word.examples[0] && (
+                  <div className="space-y-2 pt-2 border-t border-primary/20 w-full">
+                    <p className="text-xs font-medium text-muted-foreground">Example:</p>
+                    <div className="flex items-center justify-center gap-2">
+                      <p className="text-sm text-muted-foreground">
+                        {exampleTranslation}
+                      </p>
+                      <VoiceButton 
+                        text={exampleTranslation}
+                        language={language}
+                        variant="ghost"
+                        size="icon"
+                        className="hover:bg-primary/10 opacity-70"
+                      />
+                    </div>
+                  </div>
+                )}
+              </div>
 
-            <div className="mt-4 text-xs text-muted-foreground text-center">
-              Click to reveal Japanese
+              <div className="mt-2 text-xs text-muted-foreground text-center">
+                Click to reveal Japanese
+              </div>
             </div>
           </div>
         </Card>
