@@ -7940,6 +7940,326 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Une foule de gens s'est rassemblée."
       }
     ]
+  },
+  {
+    "id": "tamashii",
+    "japanese": "魂",
+    "hiragana": "たましい",
+    "romaji": "tamashii",
+    "english": "soul, spirit",
+    "french": "âme, esprit",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "音楽は魂を動かします。",
+        "hiragana": "おんがくはたましいをうごかします。",
+        "romaji": "Ongaku wa tamashii o ugokashimasu.",
+        "english": "Music moves the soul.",
+        "french": "La musique touche l'âme."
+      }
+    ]
+  },
+  {
+    "id": "tanbo_saku",
+    "japanese": "作物",
+    "hiragana": "さくもつ",
+    "romaji": "sakumotsu",
+    "english": "crops",
+    "french": "récoltes",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼで作物を育てます。",
+        "hiragana": "たんぼでさくもつをそだてます。",
+        "romaji": "Tanbo de sakumotsu o sodate masu.",
+        "english": "They grow crops in the rice field.",
+        "french": "On cultive des récoltes dans la rizière."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimu2",
+    "japanese": "愉しむ",
+    "hiragana": "たのしむ",
+    "romaji": "tanoshimu",
+    "english": "to enjoy",
+    "french": "apprécier, savourer",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "人生を愉しみましょう。",
+        "hiragana": "じんせいをたのしみましょう。",
+        "romaji": "Jinsei o tanoshimimashou.",
+        "english": "Let's enjoy life.",
+        "french": "Profitons de la vie."
+      }
+    ]
+  },
+  {
+    "id": "tanjun_na",
+    "japanese": "単純な",
+    "hiragana": "たんじゅんな",
+    "romaji": "tanjun na",
+    "english": "simple, naive",
+    "french": "simple, naïf",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼は単純な性格です。",
+        "hiragana": "かれはたんじゅんなせいかくです。",
+        "romaji": "Kare wa tanjun na seikaku desu.",
+        "english": "He has a simple personality.",
+        "french": "Il a une personnalité simple."
+      }
+    ]
+  },
+  {
+    "id": "tanoshimi_ni",
+    "japanese": "楽しみに",
+    "hiragana": "たのしみに",
+    "romaji": "tanoshimi ni",
+    "english": "looking forward to",
+    "french": "avoir hâte de",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "phrase",
+    "examples": [
+      {
+        "japanese": "旅行を楽しみにしています。",
+        "hiragana": "りょこうをたのしみにしています。",
+        "romaji": "Ryokou o tanoshimi ni shite imasu.",
+        "english": "I am looking forward to the trip.",
+        "french": "J'ai hâte pour le voyage."
+      }
+    ]
+  },
+  {
+    "id": "tansan",
+    "japanese": "炭酸",
+    "hiragana": "たんさん",
+    "romaji": "tansan",
+    "english": "carbonated (drink)",
+    "french": "gazeux",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "炭酸水を飲みます。",
+        "hiragana": "たんさんすいをのみます。",
+        "romaji": "Tansan-sui o nomimasu.",
+        "english": "I drink carbonated water.",
+        "french": "Je bois de l'eau gazeuse."
+      }
+    ]
+  },
+  {
+    "id": "tanjou",
+    "japanese": "誕生",
+    "hiragana": "たんじょう",
+    "romaji": "tanjou",
+    "english": "birth",
+    "french": "naissance",
+    "level": "N5",
+    "category": "life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "赤ちゃんの誕生を祝います。",
+        "hiragana": "あかちゃんのたんじょうをいわいます。",
+        "romaji": "Akachan no tanjou o iwaimasu.",
+        "english": "We celebrate the baby's birth.",
+        "french": "Nous célébrons la naissance du bébé."
+      }
+    ]
+  },
+  {
+    "id": "tanshin",
+    "japanese": "単身",
+    "hiragana": "たんしん",
+    "romaji": "tanshin",
+    "english": "single, alone",
+    "french": "seul",
+    "level": "N5",
+    "category": "status",
+    "wordType": "adjective",
+    "examples": [
+      {
+        "japanese": "彼は単身で東京に住んでいます。",
+        "hiragana": "かれはたんしんでとうきょうにすんでいます。",
+        "romaji": "Kare wa tanshin de Toukyou ni sunde imasu.",
+        "english": "He lives alone in Tokyo.",
+        "french": "Il vit seul à Tokyo."
+      }
+    ]
+  },
+  {
+    "id": "tanuki",
+    "japanese": "たぬき",
+    "hiragana": "たぬき",
+    "romaji": "tanuki",
+    "english": "raccoon dog",
+    "french": "tanuki (chien viverrin)",
+    "level": "N5",
+    "category": "animal",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "たぬきは日本の動物です。",
+        "hiragana": "たぬきはにほんのどうぶつです。",
+        "romaji": "Tanuki wa Nihon no doubutsu desu.",
+        "english": "The tanuki is a Japanese animal.",
+        "french": "Le tanuki est un animal du Japon."
+      }
+    ]
+  },
+  {
+    "id": "tango",
+    "japanese": "単語",
+    "hiragana": "たんご",
+    "romaji": "tango",
+    "english": "word, vocabulary",
+    "french": "mot, vocabulaire",
+    "level": "N5",
+    "category": "language",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい単語を覚えました。",
+        "hiragana": "あたらしいたんごをおぼえました。",
+        "romaji": "Atarashii tango o oboemashita.",
+        "english": "I learned a new word.",
+        "french": "J'ai appris un nouveau mot."
+      }
+    ]
+  },
+  {
+    "id": "tanbo_sagyou",
+    "japanese": "田んぼ作業",
+    "hiragana": "たんぼさぎょう",
+    "romaji": "tanbo sagyou",
+    "english": "rice field work",
+    "french": "travail dans les rizières",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼ作業を手伝いました。",
+        "hiragana": "たんぼさぎょうをてつだいました。",
+        "romaji": "Tanbo sagyou o tetsudaimashita.",
+        "english": "I helped with rice field work.",
+        "french": "J'ai aidé aux travaux de la rizière."
+      }
+    ]
+  },
+  {
+    "id": "tanjo_kinenbi",
+    "japanese": "誕生記念日",
+    "hiragana": "たんじょうきねんび",
+    "romaji": "tanjou kinenbi",
+    "english": "birthday anniversary",
+    "french": "jour commémoratif de naissance",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "誕生記念日を祝います。",
+        "hiragana": "たんじょうきねんびをいわいます。",
+        "romaji": "Tanjou kinenbi o iwaimasu.",
+        "english": "We celebrate the birth anniversary.",
+        "french": "Nous célébrons l'anniversaire de naissance."
+      }
+    ]
+  },
+  {
+    "id": "tansaku",
+    "japanese": "探索",
+    "hiragana": "たんさく",
+    "romaji": "tansaku",
+    "english": "search, exploration",
+    "french": "recherche, exploration",
+    "level": "N5",
+    "category": "activity",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "インターネットで情報を探索します。",
+        "hiragana": "いんたーねっとでじょうほうをたんさくします。",
+        "romaji": "Intaanetto de jouhou o tansaku shimasu.",
+        "english": "I search for information on the internet.",
+        "french": "Je recherche des informations sur internet."
+      }
+    ]
+  },
+  {
+    "id": "tanjikan",
+    "japanese": "短時間",
+    "hiragana": "たんじかん",
+    "romaji": "tanjikan",
+    "english": "short time",
+    "french": "court laps de temps",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "短時間で終わりました。",
+        "hiragana": "たんじかんでおわりました。",
+        "romaji": "Tanjikan de owarimashita.",
+        "english": "It finished in a short time.",
+        "french": "C'est fini en peu de temps."
+      }
+    ]
+  },
+  {
+    "id": "tansu",
+    "japanese": "タンス",
+    "hiragana": "たんす",
+    "romaji": "tansu",
+    "english": "chest of drawers",
+    "french": "commode",
+    "level": "N5",
+    "category": "furniture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "服をタンスに入れます。",
+        "hiragana": "ふくをたんすにいれます。",
+        "romaji": "Fuku o tansu ni iremasu.",
+        "english": "I put clothes in the chest of drawers.",
+        "french": "Je mets les vêtements dans la commode."
+      }
+    ]
+  },
+  {
+    "id": "tanbo_mizu",
+    "japanese": "田んぼの水",
+    "hiragana": "たんぼのみず",
+    "romaji": "tanbo no mizu",
+    "english": "rice field water",
+    "french": "eau de la rizière",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "田んぼの水が冷たいです。",
+        "hiragana": "たんぼのみずがつめたいです。",
+        "romaji": "Tanbo no mizu ga tsumetai desu.",
+        "english": "The rice field water is cold.",
+        "french": "L'eau de la rizière est froide."
+      }
+    ]
   }
 ];
 
