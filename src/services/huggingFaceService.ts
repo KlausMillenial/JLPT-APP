@@ -1,7 +1,7 @@
 import { toast } from "sonner";
 
 const API_BASE_URL = "https://api-inference.huggingface.co/models";
-const MODEL = "stabilityai/stable-diffusion-2-1"; // Known working model
+const MODEL = "Melonie/text_to_image_finetuned"; // Simple working model
 const API_KEY_STORAGE_KEY = 'huggingface_api_key';
 
 export interface GenerateImageParams {

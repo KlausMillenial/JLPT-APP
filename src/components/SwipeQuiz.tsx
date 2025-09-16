@@ -5,7 +5,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { HuggingFaceService } from '@/services/huggingFaceService';
+import { PlaceholderImageService } from '@/services/placeholderImageService';
 import { VoiceButton } from './VoiceButton';
 import { Brain, RotateCcw, X, Check, Loader2, Wand2, ChevronLeft, ChevronRight } from 'lucide-react';
 import { toast } from 'sonner';
@@ -42,13 +42,9 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
   // Generate image for a word
   const generateImage = async (word: VocabularyWord, translation: string): Promise<string | null> => {
-    const apiKey = HuggingFaceService.getStoredApiKey();
-    if (!apiKey) return null;
-
     try {
-      const service = new HuggingFaceService(apiKey);
       const prompt = createImagePrompt(word, translation);
-      const result = await service.generateImage({
+      const result = await PlaceholderImageService.generateImage({
         positivePrompt: prompt,
         width: 512,
         height: 512,
