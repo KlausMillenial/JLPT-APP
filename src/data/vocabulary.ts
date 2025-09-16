@@ -9780,6 +9780,466 @@ export const vocabularyData: VocabularyWord[] = [
         "french": "Je vous en prie, entrez."
       }
     ]
+  },
+  {
+    "id": "doubutsu",
+    "japanese": "動物",
+    "hiragana": "どうぶつ",
+    "romaji": "doubutsu",
+    "english": "animal",
+    "french": "animal",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "動物が好きです。",
+        "hiragana": "どうぶつがすきです。",
+        "romaji": "Doubutsu ga suki desu.",
+        "english": "I like animals.",
+        "french": "J'aime les animaux."
+      }
+    ]
+  },
+  {
+    "id": "doubutsuen",
+    "japanese": "動物園",
+    "hiragana": "どうぶつえん",
+    "romaji": "doubutsuen",
+    "english": "zoo",
+    "french": "zoo",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "動物園に行きました。",
+        "hiragana": "どうぶつえんにいきました。",
+        "romaji": "Doubutsuen ni ikimashita.",
+        "english": "I went to the zoo.",
+        "french": "Je suis allé au zoo."
+      }
+    ]
+  },
+  {
+    "id": "dougu",
+    "japanese": "道具",
+    "hiragana": "どうぐ",
+    "romaji": "dougu",
+    "english": "tool",
+    "french": "outil",
+    "level": "N5",
+    "category": "object",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい道具を買いました。",
+        "hiragana": "あたらしいどうぐをかいました。",
+        "romaji": "Atarashii dougu o kaimashita.",
+        "english": "I bought new tools.",
+        "french": "J'ai acheté de nouveaux outils."
+      }
+    ]
+  },
+  {
+    "id": "douro",
+    "japanese": "道路",
+    "hiragana": "どうろ",
+    "romaji": "douro",
+    "english": "road",
+    "french": "route",
+    "level": "N5",
+    "category": "transport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "道路を渡ります。",
+        "hiragana": "どうろをわたります。",
+        "romaji": "Douro o watarimasu.",
+        "english": "I cross the road.",
+        "french": "Je traverse la route."
+      }
+    ]
+  },
+  {
+    "id": "fuku",
+    "japanese": "服",
+    "hiragana": "ふく",
+    "romaji": "fuku",
+    "english": "clothes",
+    "french": "vêtements",
+    "level": "N5",
+    "category": "clothing",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい服を着ました。",
+        "hiragana": "あたらしいふくをきました。",
+        "romaji": "Atarashii fuku o kimashita.",
+        "english": "I wore new clothes.",
+        "french": "J'ai mis des vêtements neufs."
+      }
+    ]
+  },
+  {
+    "id": "heya",
+    "japanese": "部屋",
+    "hiragana": "へや",
+    "romaji": "heya",
+    "english": "room",
+    "french": "chambre",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "部屋を掃除しました。",
+        "hiragana": "へやをそうじしました。",
+        "romaji": "Heya o souji shimashita.",
+        "english": "I cleaned the room.",
+        "french": "J'ai nettoyé la chambre."
+      }
+    ]
+  },
+  {
+    "id": "mizu_new",
+    "japanese": "水",
+    "hiragana": "みず",
+    "romaji": "mizu",
+    "english": "water",
+    "french": "eau",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "水を飲みます。",
+        "hiragana": "みずをのみます。",
+        "romaji": "Mizu o nomimasu.",
+        "english": "I drink water.",
+        "french": "Je bois de l'eau."
+      }
+    ]
+  },
+  {
+    "id": "hana",
+    "japanese": "花",
+    "hiragana": "はな",
+    "romaji": "hana",
+    "english": "flower",
+    "french": "fleur",
+    "level": "N5",
+    "category": "nature",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "花がきれいです。",
+        "hiragana": "はながきれいです。",
+        "romaji": "Hana ga kirei desu.",
+        "english": "The flowers are beautiful.",
+        "french": "Les fleurs sont belles."
+      }
+    ]
+  },
+  {
+    "id": "toki",
+    "japanese": "時",
+    "hiragana": "とき",
+    "romaji": "toki",
+    "english": "time, moment",
+    "french": "temps, moment",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "学生の時は忙しかったです。",
+        "hiragana": "がくせいのときはいそがしかったです。",
+        "romaji": "Gakusei no toki wa isogashikatta desu.",
+        "english": "I was busy when I was a student.",
+        "french": "J'étais occupé quand j'étais étudiant."
+      }
+    ]
+  },
+  {
+    "id": "tomodachi",
+    "japanese": "友達",
+    "hiragana": "ともだち",
+    "romaji": "tomodachi",
+    "english": "friend",
+    "french": "ami",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達と話しました。",
+        "hiragana": "ともだちとはなしました。",
+        "romaji": "Tomodachi to hanashimashita.",
+        "english": "I talked with a friend.",
+        "french": "J'ai parlé avec un ami."
+      }
+    ]
+  },
+  {
+    "id": "tomodachitachi",
+    "japanese": "友達たち",
+    "hiragana": "ともだちたち",
+    "romaji": "tomodachitachi",
+    "english": "friends",
+    "french": "amis",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "友達たちと旅行しました。",
+        "hiragana": "ともだちたちとりょこうしました。",
+        "romaji": "Tomodachitachi to ryokou shimashita.",
+        "english": "I traveled with friends.",
+        "french": "J'ai voyagé avec mes amis."
+      }
+    ]
+  },
+  {
+    "id": "tori",
+    "japanese": "鳥",
+    "hiragana": "とり",
+    "romaji": "tori",
+    "english": "bird",
+    "french": "oiseau",
+    "level": "N5",
+    "category": "animal",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "鳥が空を飛んでいます。",
+        "hiragana": "とりがそらをとんでいます。",
+        "romaji": "Tori ga sora o tonde imasu.",
+        "english": "The bird is flying in the sky.",
+        "french": "L'oiseau vole dans le ciel."
+      }
+    ]
+  },
+  {
+    "id": "toriniku",
+    "japanese": "鶏肉",
+    "hiragana": "とりにく",
+    "romaji": "toriniku",
+    "english": "chicken (meat)",
+    "french": "poulet (viande)",
+    "level": "N5",
+    "category": "food",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "鶏肉を食べます。",
+        "hiragana": "とりにくをたべます。",
+        "romaji": "Toriniku o tabemasu.",
+        "english": "I eat chicken.",
+        "french": "Je mange du poulet."
+      }
+    ]
+  },
+  {
+    "id": "toru",
+    "japanese": "取る",
+    "hiragana": "とる",
+    "romaji": "toru",
+    "english": "to take",
+    "french": "prendre",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "写真を取ります。",
+        "hiragana": "しゃしんをとります。",
+        "romaji": "Shashin o torimasu.",
+        "english": "I take a photo.",
+        "french": "Je prends une photo."
+      }
+    ]
+  },
+  {
+    "id": "torikesu",
+    "japanese": "取り消す",
+    "hiragana": "とりけす",
+    "romaji": "torikesu",
+    "english": "to cancel",
+    "french": "annuler",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "予約を取り消しました。",
+        "hiragana": "よやくをとりけしました。",
+        "romaji": "Yoyaku o torikeshimashita.",
+        "english": "I canceled the reservation.",
+        "french": "J'ai annulé la réservation."
+      }
+    ]
+  },
+  {
+    "id": "torinokosu",
+    "japanese": "取り残す",
+    "hiragana": "とりのこす",
+    "romaji": "torinokosu",
+    "english": "to leave behind",
+    "french": "laisser derrière",
+    "level": "N5",
+    "category": "verb",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "かばんを取り残しました。",
+        "hiragana": "かばんをとりのこしました。",
+        "romaji": "Kaban o torinokoshimashita.",
+        "english": "I left my bag behind.",
+        "french": "J'ai laissé mon sac derrière."
+      }
+    ]
+  },
+  {
+    "id": "toru_yasumi",
+    "japanese": "休みを取る",
+    "hiragana": "やすみをとる",
+    "romaji": "yasumi o toru",
+    "english": "to take a break",
+    "french": "prendre un congé",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "夏休みを取ります。",
+        "hiragana": "なつやすみをとります。",
+        "romaji": "Natsu yasumi o torimasu.",
+        "english": "I take summer vacation.",
+        "french": "Je prends des vacances d'été."
+      }
+    ]
+  },
+  {
+    "id": "toru_kopi",
+    "japanese": "コピーを取る",
+    "hiragana": "こぴーをとる",
+    "romaji": "kopii o toru",
+    "english": "to make a copy",
+    "french": "faire une copie",
+    "level": "N5",
+    "category": "expression",
+    "wordType": "verb",
+    "examples": [
+      {
+        "japanese": "資料のコピーを取ってください。",
+        "hiragana": "しりょうのこぴーをとってください。",
+        "romaji": "Shiryou no kopii o totte kudasai.",
+        "english": "Please make a copy of the documents.",
+        "french": "Faites une copie des documents."
+      }
+    ]
+  },
+  {
+    "id": "toshokan",
+    "japanese": "図書館",
+    "hiragana": "としょかん",
+    "romaji": "toshokan",
+    "english": "library",
+    "french": "bibliothèque",
+    "level": "N5",
+    "category": "place",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "図書館で勉強します。",
+        "hiragana": "としょかんでべんきょうします。",
+        "romaji": "Toshokan de benkyou shimasu.",
+        "english": "I study at the library.",
+        "french": "J'étudie à la bibliothèque."
+      }
+    ]
+  },
+  {
+    "id": "toshi",
+    "japanese": "年",
+    "hiragana": "とし",
+    "romaji": "toshi",
+    "english": "year, age",
+    "french": "année, âge",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "新しい年が始まりました。",
+        "hiragana": "あたらしいとしがはじまりました。",
+        "romaji": "Atarashii toshi ga hajimarimashita.",
+        "english": "The new year has started.",
+        "french": "La nouvelle année a commencé."
+      }
+    ]
+  },
+  {
+    "id": "toriatsukai",
+    "japanese": "取り扱い",
+    "hiragana": "とりあつかい",
+    "romaji": "toriatsukai",
+    "english": "handling",
+    "french": "manipulation",
+    "level": "N5",
+    "category": "work",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "火の取り扱いに注意してください。",
+        "hiragana": "ひのとりあつかいにちゅういしてください。",
+        "romaji": "Hi no toriatsukai ni chuui shite kudasai.",
+        "english": "Be careful when handling fire.",
+        "french": "Faites attention en manipulant le feu."
+      }
+    ]
+  },
+  {
+    "id": "torihiki",
+    "japanese": "取引",
+    "hiragana": "とりひき",
+    "romaji": "torihiki",
+    "english": "transaction, deal",
+    "french": "transaction, affaire",
+    "level": "N5",
+    "category": "economy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "会社と取引をしました。",
+        "hiragana": "かいしゃととりひきをしました。",
+        "romaji": "Kaisha to torihiki o shimashita.",
+        "english": "I made a deal with a company.",
+        "french": "J'ai conclu une affaire avec une entreprise."
+      }
+    ]
+  },
+  {
+    "id": "torikeshi",
+    "japanese": "取消し",
+    "hiragana": "とりけし",
+    "romaji": "torikeshi",
+    "english": "cancellation",
+    "french": "annulation",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "試合は取消しになりました。",
+        "hiragana": "しあいはとりけしになりました。",
+        "romaji": "Shiai wa torikeshi ni narimashita.",
+        "english": "The match was canceled.",
+        "french": "Le match a été annulé."
+      }
+    ]
   }
 ];
 
