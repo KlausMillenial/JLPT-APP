@@ -6,63 +6,63 @@
 
 @layer base {
   :root {
-    /* Japanese-inspired color palette */
-    --background: 220 15% 97%;
-    --foreground: 210 12% 16%;
+/* Kid-friendly playful color palette */
+    --background: 210 20% 98%;
+    --foreground: 220 20% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 210 12% 16%;
+    --card-foreground: 220 20% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 210 12% 16%;
+    --popover-foreground: 220 20% 20%;
 
-    /* Primary: Indigo blue inspired by Japanese aesthetics */
-    --primary: 217 91% 60%;
-    --primary-foreground: 0 0% 98%;
-    --primary-glow: 217 91% 70%;
+    /* Primary: Cheerful purple */
+    --primary: 270 85% 65%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 270 85% 75%;
 
-    /* Secondary: Soft gray */
-    --secondary: 210 40% 94%;
-    --secondary-foreground: 210 12% 16%;
+    /* Secondary: Soft lavender */
+    --secondary: 280 40% 92%;
+    --secondary-foreground: 270 30% 40%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 280 30% 95%;
+    --muted-foreground: 260 20% 55%;
 
-    /* Accent: Cherry blossom pink */
-    --accent: 330 81% 60%;
-    --accent-foreground: 0 0% 98%;
-    --accent-soft: 330 81% 95%;
+    /* Accent: Bright coral pink */
+    --accent: 350 90% 68%;
+    --accent-foreground: 0 0% 100%;
+    --accent-soft: 350 80% 95%;
 
-    /* Success: Bamboo green */
-    --success: 142 69% 58%;
-    --success-foreground: 0 0% 98%;
+    /* Success: Happy green */
+    --success: 120 75% 55%;
+    --success-foreground: 0 0% 100%;
 
-    /* Warning: Sunset orange */
-    --warning: 25 95% 53%;
-    --warning-foreground: 0 0% 98%;
+    /* Warning: Sunny yellow */
+    --warning: 45 95% 60%;
+    --warning-foreground: 45 30% 20%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 220 13% 91%;
-    --input: 220 13% 91%;
-    --ring: 217 91% 60%;
+    --border: 280 30% 88%;
+    --input: 280 30% 88%;
+    --ring: 270 85% 65%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(220 20% 98%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(330 81% 70%));
+    /* Playful gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)), hsl(350 80% 75%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(280 40% 98%) 50%, hsl(350 60% 98%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(45 90% 70%), hsl(120 60% 70%));
 
-    /* Shadows */
-    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
-    --shadow-card-hover: 0 8px 30px -4px hsl(var(--primary) / 0.15);
-    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    /* Soft, colorful shadows */
+    --shadow-card: 0 6px 25px -6px hsl(var(--primary) / 0.2), 0 2px 10px -2px hsl(var(--accent) / 0.1);
+    --shadow-card-hover: 0 10px 35px -8px hsl(var(--primary) / 0.25), 0 4px 15px -4px hsl(var(--accent) / 0.15);
+    --shadow-glow: 0 0 50px hsl(var(--primary-glow) / 0.4);
 
-    /* Animations */
+    /* Playful animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --radius: 0.75rem;
+    --radius: 1.2rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -82,49 +82,57 @@
   }
 
   .dark {
-    --background: 217 33% 17%;
-    --foreground: 210 40% 98%;
+    /* Dark mode with softer, friendlier colors */
+    --background: 250 30% 12%;
+    --foreground: 280 20% 92%;
 
-    --card: 217 33% 17%;
-    --card-foreground: 210 40% 98%;
+    --card: 250 25% 14%;
+    --card-foreground: 280 20% 92%;
 
-    --popover: 217 33% 17%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 250 25% 14%;
+    --popover-foreground: 280 20% 92%;
 
-    --primary: 217 91% 70%;
-    --primary-foreground: 217 33% 17%;
-    --primary-glow: 217 91% 80%;
+    /* Primary: Bright playful purple */
+    --primary: 270 80% 75%;
+    --primary-foreground: 250 30% 12%;
+    --primary-glow: 270 80% 85%;
 
-    --secondary: 217 32% 23%;
-    --secondary-foreground: 210 40% 98%;
+    /* Secondary: Soft dark lavender */
+    --secondary: 280 25% 20%;
+    --secondary-foreground: 280 30% 85%;
 
-    --muted: 217 32% 23%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 280 20% 18%;
+    --muted-foreground: 280 15% 70%;
 
-    --accent: 330 81% 70%;
-    --accent-foreground: 217 33% 17%;
-    --accent-soft: 330 81% 25%;
+    /* Accent: Warm coral */
+    --accent: 350 85% 75%;
+    --accent-foreground: 250 30% 12%;
+    --accent-soft: 350 60% 25%;
 
-    --success: 142 69% 68%;
-    --success-foreground: 217 33% 17%;
+    /* Success: Gentle green */
+    --success: 120 70% 65%;
+    --success-foreground: 250 30% 12%;
 
-    --warning: 25 95% 63%;
-    --warning-foreground: 217 33% 17%;
+    /* Warning: Soft yellow */
+    --warning: 45 90% 70%;
+    --warning-foreground: 45 40% 15%;
 
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 70% 65%;
+    --destructive-foreground: 250 30% 12%;
 
-    --border: 217 32% 23%;
-    --input: 217 32% 23%;
-    --ring: 217 91% 70%;
+    --border: 280 25% 22%;
+    --input: 280 25% 22%;
+    --ring: 270 80% 75%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(217 33% 19%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(330 81% 80%));
+    /* Dark mode playful gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)), hsl(350 70% 75%));
+    --gradient-card: linear-gradient(145deg, hsl(var(--card)) 0%, hsl(280 25% 16%) 50%, hsl(350 30% 16%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(45 80% 70%), hsl(120 60% 70%));
 
-    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
-    --shadow-card-hover: 0 8px 30px -4px hsl(0 0% 0% / 0.4);
-    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    /* Softer dark shadows with color */
+    --shadow-card: 0 6px 25px -6px hsl(0 0% 0% / 0.4), 0 2px 10px -2px hsl(var(--primary) / 0.2);
+    --shadow-card-hover: 0 10px 35px -8px hsl(0 0% 0% / 0.5), 0 4px 15px -4px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 50px hsl(var(--primary-glow) / 0.4);
   }
 }
 
@@ -200,5 +208,42 @@
     text-align: center;
     font-weight: 300;
     letter-spacing: 0.05em;
+  }
+
+  /* Kid-friendly interactive elements */
+  .bounce-hover {
+    transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .bounce-hover:hover {
+    transform: scale(1.05) translateY(-2px);
+  }
+
+  .wiggle {
+    animation: wiggle 0.8s ease-in-out infinite;
+  }
+
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(3deg); }
+    75% { transform: rotate(-3deg); }
+  }
+
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  /* Playful button variants */
+  .btn-playful {
+    @apply bg-gradient-to-r from-primary via-accent to-success text-white font-bold py-3 px-6 rounded-2xl shadow-lg transition-all duration-300 hover:shadow-xl hover:scale-105;
+  }
+
+  .btn-fun {
+    @apply bg-gradient-to-r from-accent to-warning text-white font-bold py-2 px-4 rounded-xl shadow-md transition-all duration-300 hover:shadow-lg hover:rotate-1;
   }
 }
