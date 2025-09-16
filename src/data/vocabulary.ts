@@ -13540,6 +13540,506 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Je lis un journal."
       }
     ]
+  },
+  {
+    id: "suiyoubi",
+    japanese: "水曜日",
+    hiragana: "すいようび",
+    romaji: "suiyoubi",
+    english: "Wednesday",
+    french: "mercredi",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "水曜日に会いましょう。",
+        hiragana: "すいようびにあいましょう。",
+        romaji: "Suiyoubi ni aimashou.",
+        english: "Let's meet on Wednesday.",
+        french: "Rencontrons-nous mercredi."
+      }
+    ]
+  },
+  {
+    id: "suu",
+    japanese: "吸う",
+    hiragana: "すう",
+    romaji: "suu",
+    english: "to inhale; to smoke",
+    french: "inspirer; fumer",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "タバコを吸います。",
+        hiragana: "たばこをすいます。",
+        romaji: "Tabako o suimasu.",
+        english: "I smoke a cigarette.",
+        french: "Je fume une cigarette."
+      }
+    ]
+  },
+  {
+    id: "sukaato",
+    japanese: "スカート",
+    hiragana: "すかーと",
+    romaji: "sukaato",
+    english: "skirt",
+    french: "jupe",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "赤いスカートを買いました。",
+        hiragana: "あかいすかーとをかいました。",
+        romaji: "Akai sukaato o kaimashita.",
+        english: "I bought a red skirt.",
+        french: "J'ai acheté une jupe rouge."
+      }
+    ]
+  },
+  {
+    id: "suki",
+    japanese: "好き",
+    hiragana: "すき",
+    romaji: "suki",
+    english: "like; fond of",
+    french: "aimer; préféré",
+    level: "N5",
+    category: "emotion",
+    wordType: "na-adjective",
+    examples: [
+      {
+        japanese: "私は音楽が好きです。",
+        hiragana: "わたしはおんがくがすきです。",
+        romaji: "Watashi wa ongaku ga suki desu.",
+        english: "I like music.",
+        french: "J'aime la musique."
+      }
+    ]
+  },
+  {
+    id: "sugu",
+    japanese: "すぐ",
+    hiragana: "すぐ",
+    romaji: "sugu",
+    english: "immediately; right away",
+    french: "tout de suite; immédiatement",
+    level: "N5",
+    category: "time",
+    wordType: "adverb",
+    examples: [
+      {
+        japanese: "すぐに戻ります。",
+        hiragana: "すぐにもどります。",
+        romaji: "Sugu ni modorimasu.",
+        english: "I will be back right away.",
+        french: "Je reviens tout de suite."
+      }
+    ]
+  },
+  {
+    id: "sukoshi",
+    japanese: "少し",
+    hiragana: "すこし",
+    romaji: "sukoshi",
+    english: "a little; few",
+    french: "un peu",
+    level: "N5",
+    category: "quantity",
+    wordType: "adverb/noun",
+    examples: [
+      {
+        japanese: "日本語が少しわかります。",
+        hiragana: "にほんごがすこしわかります。",
+        romaji: "Nihongo ga sukoshi wakarimasu.",
+        english: "I understand a little Japanese.",
+        french: "Je comprends un peu le japonais."
+      }
+    ]
+  },
+  {
+    id: "suzushii",
+    japanese: "涼しい",
+    hiragana: "すずしい",
+    romaji: "suzushii",
+    english: "cool (weather)",
+    french: "frais (temps)",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "今日は涼しいですね。",
+        hiragana: "きょうはすずしいですね。",
+        romaji: "Kyou wa suzushii desu ne.",
+        english: "It's cool today.",
+        french: "Il fait frais aujourd'hui."
+      }
+    ]
+  },
+  {
+    id: "suppai",
+    japanese: "酸っぱい",
+    hiragana: "すっぱい",
+    romaji: "suppai",
+    english: "sour",
+    french: "acide",
+    level: "N5",
+    category: "taste",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "このレモンは酸っぱいです。",
+        hiragana: "このれもんはすっぱいです。",
+        romaji: "Kono remon wa suppai desu.",
+        english: "This lemon is sour.",
+        french: "Ce citron est acide."
+      }
+    ]
+  },
+  {
+    id: "suteru",
+    japanese: "捨てる",
+    hiragana: "すてる",
+    romaji: "suteru",
+    english: "to throw away",
+    french: "jeter",
+    level: "N5",
+    category: "verb",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "古い服を捨てます。",
+        hiragana: "ふるいふくをすてます。",
+        romaji: "Furui fuku o sutemasu.",
+        english: "I throw away old clothes.",
+        french: "Je jette de vieux vêtements."
+      }
+    ]
+  },
+  {
+    id: "sutoobu",
+    japanese: "ストーブ",
+    hiragana: "すとーぶ",
+    romaji: "sutoobu",
+    english: "heater; stove",
+    french: "chauffage; poêle",
+    level: "N5",
+    category: "object",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "ストーブをつけます。",
+        hiragana: "すとーぶをつけます。",
+        romaji: "Sutoobu o tsukemasu.",
+        english: "I turn on the heater.",
+        french: "J'allume le chauffage."
+      }
+    ]
+  },
+  {
+    id: "subarashii",
+    japanese: "素晴らしい",
+    hiragana: "すばらしい",
+    romaji: "subarashii",
+    english: "wonderful",
+    french: "formidable",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "素晴らしい景色ですね。",
+        hiragana: "すばらしいけしきですね。",
+        romaji: "Subarashii keshiki desu ne.",
+        english: "It's a wonderful view.",
+        french: "C'est une vue magnifique."
+      }
+    ]
+  },
+  {
+    id: "supuun",
+    japanese: "スプーン",
+    hiragana: "すぷーん",
+    romaji: "supuun",
+    english: "spoon",
+    french: "cuillère",
+    level: "N5",
+    category: "kitchen",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "スプーンでスープを飲みます。",
+        hiragana: "すぷーんですーぷをのみます。",
+        romaji: "Supuun de suupu o nomimasu.",
+        english: "I eat soup with a spoon.",
+        french: "Je mange de la soupe avec une cuillère."
+      }
+    ]
+  },
+  {
+    id: "subete",
+    japanese: "すべて",
+    hiragana: "すべて",
+    romaji: "subete",
+    english: "all; everything",
+    french: "tout",
+    level: "N5",
+    category: "quantity",
+    wordType: "noun/adverb",
+    examples: [
+      {
+        japanese: "すべて終わりました。",
+        hiragana: "すべておわりました。",
+        romaji: "Subete owarimashita.",
+        english: "Everything is finished.",
+        french: "Tout est terminé."
+      }
+    ]
+  },
+  {
+    id: "sumu",
+    japanese: "住む",
+    hiragana: "すむ",
+    romaji: "sumu",
+    english: "to live",
+    french: "habiter; vivre",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "東京に住んでいます。",
+        hiragana: "とうきょうにすんでいます。",
+        romaji: "Toukyou ni sunde imasu.",
+        english: "I live in Tokyo.",
+        french: "J'habite à Tokyo."
+      }
+    ]
+  },
+  {
+    id: "surippa",
+    japanese: "スリッパ",
+    hiragana: "すりっぱ",
+    romaji: "surippa",
+    english: "slippers",
+    french: "pantoufles",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "家ではスリッパを履きます。",
+        hiragana: "いえではすりっぱをはきます。",
+        romaji: "Ie de wa surippa o hakimasu.",
+        english: "I wear slippers at home.",
+        french: "Je porte des pantoufles à la maison."
+      }
+    ]
+  },
+  {
+    id: "suru",
+    japanese: "する",
+    hiragana: "する",
+    romaji: "suru",
+    english: "to do",
+    french: "faire",
+    level: "N5",
+    category: "verb",
+    wordType: "irregular verb",
+    examples: [
+      {
+        japanese: "宿題をします。",
+        hiragana: "しゅくだいをします。",
+        romaji: "Shukudai o shimasu.",
+        english: "I do homework.",
+        french: "Je fais mes devoirs."
+      }
+    ]
+  },
+  {
+    id: "suwaru",
+    japanese: "座る",
+    hiragana: "すわる",
+    romaji: "suwaru",
+    english: "to sit",
+    french: "s'asseoir",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "椅子に座ってください。",
+        hiragana: "いすにすわってください。",
+        romaji: "Isu ni suwatte kudasai.",
+        english: "Please sit on the chair.",
+        french: "Asseyez-vous sur la chaise."
+      }
+    ]
+  },
+  {
+    id: "seikatsu",
+    japanese: "生活",
+    hiragana: "せいかつ",
+    romaji: "seikatsu",
+    english: "life; living",
+    french: "vie quotidienne",
+    level: "N5",
+    category: "life",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "日本で生活しています。",
+        hiragana: "にほんでせいかつしています。",
+        romaji: "Nihon de seikatsu shite imasu.",
+        english: "I live in Japan.",
+        french: "Je vis au Japon."
+      }
+    ]
+  },
+  {
+    id: "segatakai",
+    japanese: "背が高い",
+    hiragana: "せがたかい",
+    romaji: "se ga takai",
+    english: "tall (stature)",
+    french: "grand (taille)",
+    level: "N5",
+    category: "adjective",
+    wordType: "expression",
+    examples: [
+      {
+        japanese: "彼は背が高いです。",
+        hiragana: "かれはせがたかいです。",
+        romaji: "Kare wa se ga takai desu.",
+        english: "He is tall.",
+        french: "Il est grand."
+      }
+    ]
+  },
+  {
+    id: "semai",
+    japanese: "狭い",
+    hiragana: "せまい",
+    romaji: "semai",
+    english: "narrow; small (space)",
+    french: "étroit; petit",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この部屋は狭いです。",
+        hiragana: "このへやはせまいです。",
+        romaji: "Kono heya wa semai desu.",
+        english: "This room is narrow.",
+        french: "Cette chambre est étroite."
+      }
+    ]
+  },
+  {
+    id: "sengetsu",
+    japanese: "先月",
+    hiragana: "せんげつ",
+    romaji: "sengetsu",
+    english: "last month",
+    french: "le mois dernier",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "先月旅行しました。",
+        hiragana: "せんげつりょこうしました。",
+        romaji: "Sengetsu ryokou shimashita.",
+        english: "I traveled last month.",
+        french: "J'ai voyagé le mois dernier."
+      }
+    ]
+  },
+  {
+    id: "senshuu",
+    japanese: "先週",
+    hiragana: "せんしゅう",
+    romaji: "senshuu",
+    english: "last week",
+    french: "la semaine dernière",
+    level: "N5",
+    category: "time",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "先週友達に会いました。",
+        hiragana: "せんしゅうともだちにあいました。",
+        romaji: "Senshuu tomodachi ni aimashita.",
+        english: "I met my friend last week.",
+        french: "J'ai rencontré mon ami la semaine dernière."
+      }
+    ]
+  },
+  {
+    id: "sensei",
+    japanese: "先生",
+    hiragana: "せんせい",
+    romaji: "sensei",
+    english: "teacher",
+    french: "professeur; maître",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "先生は教室にいます。",
+        hiragana: "せんせいはきょうしつにいます。",
+        romaji: "Sensei wa kyoushitsu ni imasu.",
+        english: "The teacher is in the classroom.",
+        french: "Le professeur est dans la salle de classe."
+      }
+    ]
+  },
+  {
+    id: "sentaku",
+    japanese: "洗濯",
+    hiragana: "せんたく",
+    romaji: "sentaku",
+    english: "washing; laundry",
+    french: "lessive",
+    level: "N5",
+    category: "housework",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "洗濯をします。",
+        hiragana: "せんたくをします。",
+        romaji: "Sentaku o shimasu.",
+        english: "I do the laundry.",
+        french: "Je fais la lessive."
+      }
+    ]
+  },
+  {
+    id: "souji",
+    japanese: "掃除",
+    hiragana: "そうじ",
+    romaji: "souji",
+    english: "cleaning",
+    french: "ménage",
+    level: "N5",
+    category: "housework",
+    wordType: "noun/verb",
+    examples: [
+      {
+        japanese: "部屋を掃除します。",
+        hiragana: "へやをそうじします。",
+        romaji: "Heya o souji shimasu.",
+        english: "I clean the room.",
+        french: "Je nettoie la chambre."
+      }
+    ]
   }
 ];
 
