@@ -6242,62 +6242,322 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "seki",
-    "japanese": "席",
-    "hiragana": "せき",
-    "romaji": "seki",
-    "english": "seat",
-    "french": "siège, place",
+    "id": "sekken_soap",
+    "japanese": "石けん",
+    "hiragana": "せっけん",
+    "romaji": "sekken",
+    "english": "soap",
+    "french": "savon",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "席に座ってください。",
-        "hiragana": "せきにすわってください。",
-        "romaji": "Seki ni suwatte kudasai.",
-        "english": "Please sit on the seat.",
-        "french": "Asseyez-vous à la place."
+        "japanese": "石けんで手を洗います。",
+        "hiragana": "せっけんでてをあらいます。",
+        "romaji": "Sekken de te o araimasu.",
+        "english": "I wash my hands with soap.",
+        "french": "Je me lave les mains avec du savon."
       }
     ]
   },
   {
-    "id": "sekai_meisaku",
-    "japanese": "世界名作",
-    "hiragana": "せかいめいさく",
-    "romaji": "sekai meisaku",
-    "english": "world masterpiece",
-    "french": "chef-d'œuvre mondial",
+    "id": "setsumei",
+    "japanese": "説明",
+    "hiragana": "せつめい",
+    "romaji": "setsumei",
+    "english": "explanation",
+    "french": "explication",
     "level": "N5",
-    "category": "culture",
+    "category": "school",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "世界名作を読みました。",
-        "hiragana": "せかいめいさくをよみました。",
-        "romaji": "Sekai meisaku o yomimashita.",
-        "english": "I read a world masterpiece.",
-        "french": "J'ai lu un chef-d'œuvre mondial."
+        "japanese": "先生が説明をしました。",
+        "hiragana": "せんせいがせつめいをしました。",
+        "romaji": "Sensei ga setsumei o shimashita.",
+        "english": "The teacher gave an explanation.",
+        "french": "Le professeur a donné une explication."
       }
     ]
   },
   {
-    "id": "sekou_jikken",
-    "japanese": "成功実験",
-    "hiragana": "せいこうじっけん",
-    "romaji": "seikou jikken",
-    "english": "successful experiment",
-    "french": "expérience réussie",
+    "id": "senaka",
+    "japanese": "背中",
+    "hiragana": "せなか",
+    "romaji": "senaka",
+    "english": "back (body part)",
+    "french": "dos",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "背中が痛いです。",
+        "hiragana": "せなかがいたいです。",
+        "romaji": "Senaka ga itai desu.",
+        "english": "My back hurts.",
+        "french": "J'ai mal au dos."
+      }
+    ]
+  },
+  {
+    "id": "sensei",
+    "japanese": "先生",
+    "hiragana": "せんせい",
+    "romaji": "sensei",
+    "english": "teacher",
+    "french": "professeur",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "先生に質問します。",
+        "hiragana": "せんせいにしつもんします。",
+        "romaji": "Sensei ni shitsumon shimasu.",
+        "english": "I ask the teacher a question.",
+        "french": "Je pose une question au professeur."
+      }
+    ]
+  },
+  {
+    "id": "senaka_ushiro",
+    "japanese": "後ろ",
+    "hiragana": "うしろ",
+    "romaji": "ushiro",
+    "english": "behind, back",
+    "french": "derrière",
+    "level": "N5",
+    "category": "location",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "犬が家の後ろにいます。",
+        "hiragana": "いぬがいえのうしろにいます。",
+        "romaji": "Inu ga ie no ushiro ni imasu.",
+        "english": "The dog is behind the house.",
+        "french": "Le chien est derrière la maison."
+      }
+    ]
+  },
+  {
+    "id": "senmon",
+    "japanese": "専門",
+    "hiragana": "せんもん",
+    "romaji": "senmon",
+    "english": "specialty, major",
+    "french": "spécialité",
+    "level": "N5",
+    "category": "school",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "私の専門は経済です。",
+        "hiragana": "わたしのせんもんはけいざいです。",
+        "romaji": "Watashi no senmon wa keizai desu.",
+        "english": "My major is economics.",
+        "french": "Ma spécialité est l'économie."
+      }
+    ]
+  },
+  {
+    "id": "sentaku",
+    "japanese": "洗濯",
+    "hiragana": "せんたく",
+    "romaji": "sentaku",
+    "english": "laundry",
+    "french": "lessive",
+    "level": "N5",
+    "category": "daily life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "洗濯をします。",
+        "hiragana": "せんたくをします。",
+        "romaji": "Sentaku o shimasu.",
+        "english": "I do the laundry.",
+        "french": "Je fais la lessive."
+      }
+    ]
+  },
+  {
+    "id": "senro",
+    "japanese": "線路",
+    "hiragana": "せんろ",
+    "romaji": "senro",
+    "english": "railway track",
+    "french": "voie ferrée",
+    "level": "N5",
+    "category": "transport",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "線路を渡ってはいけません。",
+        "hiragana": "せんろをわたってはいけません。",
+        "romaji": "Senro o watatte wa ikemasen.",
+        "english": "Do not cross the railway tracks.",
+        "french": "Il ne faut pas traverser la voie ferrée."
+      }
+    ]
+  },
+  {
+    "id": "senaka_shisen",
+    "japanese": "視線",
+    "hiragana": "しせん",
+    "romaji": "shisen",
+    "english": "gaze, line of sight",
+    "french": "regard",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼の視線を感じました。",
+        "hiragana": "かれのしせんをかんじました。",
+        "romaji": "Kare no shisen o kanjimashita.",
+        "english": "I felt his gaze.",
+        "french": "J'ai senti son regard."
+      }
+    ]
+  },
+  {
+    "id": "seru",
+    "japanese": "セル",
+    "hiragana": "せる",
+    "romaji": "seru",
+    "english": "cell",
+    "french": "cellule",
     "level": "N5",
     "category": "science",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "成功実験が行われました。",
-        "hiragana": "せいこうじっけんがおこなわれました。",
-        "romaji": "Seikou jikken ga okonaware mashita.",
-        "english": "A successful experiment was conducted.",
-        "french": "Une expérience réussie a été réalisée."
+        "japanese": "体は多くのセルでできています。",
+        "hiragana": "からだはおおくのせるでできています。",
+        "romaji": "Karada wa ooku no seru de dekite imasu.",
+        "english": "The body is made up of many cells.",
+        "french": "Le corps est constitué de nombreuses cellules."
+      }
+    ]
+  },
+  {
+    "id": "serifu",
+    "japanese": "台詞",
+    "hiragana": "せりふ",
+    "romaji": "serifu",
+    "english": "line (dialogue)",
+    "french": "réplique",
+    "level": "N5",
+    "category": "culture",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼の台詞を覚えました。",
+        "hiragana": "かれのせりふをおぼえました。",
+        "romaji": "Kare no serifu o oboemashita.",
+        "english": "I memorized his lines.",
+        "french": "J'ai mémorisé ses répliques."
+      }
+    ]
+  },
+  {
+    "id": "sewa",
+    "japanese": "世話",
+    "hiragana": "せわ",
+    "romaji": "sewa",
+    "english": "care, help",
+    "french": "soin, aide",
+    "level": "N5",
+    "category": "daily life",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "犬の世話をします。",
+        "hiragana": "いぬのせわをします。",
+        "romaji": "Inu no sewa o shimasu.",
+        "english": "I take care of the dog.",
+        "french": "Je m'occupe du chien."
+      }
+    ]
+  },
+  {
+    "id": "seiza",
+    "japanese": "星座",
+    "hiragana": "せいざ",
+    "romaji": "seiza",
+    "english": "constellation",
+    "french": "constellation",
+    "level": "N5",
+    "category": "astronomy",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "オリオン座は有名な星座です。",
+        "hiragana": "おりおんざはゆうめいなせいざです。",
+        "romaji": "Orion-za wa yuumei na seiza desu.",
+        "english": "Orion is a famous constellation.",
+        "french": "Orion est une constellation célèbre."
+      }
+    ]
+  },
+  {
+    "id": "seikou",
+    "japanese": "成功",
+    "hiragana": "せいこう",
+    "romaji": "seikou",
+    "english": "success",
+    "french": "succès",
+    "level": "N5",
+    "category": "concept",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "彼は成功しました。",
+        "hiragana": "かれはせいこうしました。",
+        "romaji": "Kare wa seikou shimashita.",
+        "english": "He succeeded.",
+        "french": "Il a réussi."
+      }
+    ]
+  },
+  {
+    "id": "sekai_ryokou",
+    "japanese": "世界旅行",
+    "hiragana": "せかいりょこう",
+    "romaji": "sekai ryokou",
+    "english": "world trip",
+    "french": "voyage autour du monde",
+    "level": "N5",
+    "category": "travel",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "世界旅行をしたいです。",
+        "hiragana": "せかいりょこうをしたいです。",
+        "romaji": "Sekai ryokou o shitai desu.",
+        "english": "I want to travel around the world.",
+        "french": "Je veux faire le tour du monde."
+      }
+    ]
+  },
+  {
+    "id": "senaka_hara",
+    "japanese": "腹",
+    "hiragana": "はら",
+    "romaji": "hara",
+    "english": "stomach, belly",
+    "french": "ventre",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        "japanese": "腹が空きました。",
+        "hiragana": "はらがすきました。",
+        "romaji": "Hara ga sukimashita.",
+        "english": "I am hungry.",
+        "french": "J'ai faim."
       }
     ]
   }
