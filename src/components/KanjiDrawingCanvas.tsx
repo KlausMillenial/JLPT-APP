@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Canvas as FabricCanvas, FabricText } from 'fabric';
+import { Canvas as FabricCanvas, PencilBrush, FabricText } from 'fabric';
 import * as fabric from 'fabric';
 import { Button } from './ui/button';
 import { Eraser, RotateCcw, Palette, Eye, EyeOff } from 'lucide-react';
@@ -30,38 +30,36 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
       width: 400,
       height: 400,
       backgroundColor: '#ffffff',
-      isDrawingMode: false, // Start with false, enable after setup
     });
 
     console.log('Canvas created:', canvas);
 
-    // Setup drawing immediately
+    // Setup drawing with PencilBrush (required for Fabric.js v6)
     const setupDrawing = () => {
-      console.log('Setting up drawing...');
+      console.log('Setting up PencilBrush...');
       
-      // Force drawing mode
+      // Create PencilBrush manually (required in v6)
+      const brush = new PencilBrush(canvas);
+      brush.color = brushColor;
+      brush.width = brushSize;
+      
+      // Assign the brush to canvas
+      canvas.freeDrawingBrush = brush;
+      
+      // Enable drawing mode
       canvas.isDrawingMode = true;
       
-      // Create and configure brush manually
-      if (canvas.freeDrawingBrush) {
-        console.log('Configuring brush...');
-        canvas.freeDrawingBrush.color = brushColor;
-        canvas.freeDrawingBrush.width = brushSize;
-        canvas.freeDrawingBrush.limitedToCanvasSize = true;
-      } else {
-        console.log('No freeDrawingBrush available');
-      }
+      console.log('PencilBrush configured:', brush);
+      console.log('Drawing mode enabled:', canvas.isDrawingMode);
       
       // Add kanji guide as background if provided
       if (targetKanji) {
         addKanjiGuide(canvas, targetKanji);
       }
-      
-      console.log('Drawing setup complete. isDrawingMode:', canvas.isDrawingMode);
     };
 
-    // Setup after a short delay to ensure canvas is ready
-    setTimeout(setupDrawing, 200);
+    // Setup immediately
+    setupDrawing();
 
     // Add event listeners for debugging
     canvas.on('mouse:down', (e) => {
@@ -121,14 +119,18 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
 
   useEffect(() => {
     console.log('Brush settings changed:', { brushColor, brushSize, fabricCanvas });
-    if (!fabricCanvas?.freeDrawingBrush) {
-      console.log('No brush available for update');
+    if (!fabricCanvas) {
+      console.log('No canvas available for brush update');
       return;
     }
 
-    fabricCanvas.freeDrawingBrush.color = brushColor;
-    fabricCanvas.freeDrawingBrush.width = brushSize;
-    console.log('Brush updated:', fabricCanvas.freeDrawingBrush);
+    // Update brush with PencilBrush
+    const brush = new PencilBrush(fabricCanvas);
+    brush.color = brushColor;
+    brush.width = brushSize;
+    fabricCanvas.freeDrawingBrush = brush;
+    
+    console.log('Brush updated with PencilBrush:', brush);
   }, [brushColor, brushSize, fabricCanvas]);
 
   const handleClear = () => {
@@ -152,15 +154,16 @@ export const KanjiDrawingCanvas: React.FC<KanjiDrawingCanvasProps> = ({
     if (!fabricCanvas) return;
     
     console.log('Forcing drawing mode...');
+    
+    // Recreate PencilBrush
+    const brush = new PencilBrush(fabricCanvas);
+    brush.color = brushColor;
+    brush.width = brushSize;
+    fabricCanvas.freeDrawingBrush = brush;
     fabricCanvas.isDrawingMode = true;
     
-    if (fabricCanvas.freeDrawingBrush) {
-      fabricCanvas.freeDrawingBrush.color = brushColor;
-      fabricCanvas.freeDrawingBrush.width = brushSize;
-    }
-    
-    console.log('Drawing mode forced. isDrawingMode:', fabricCanvas.isDrawingMode);
-    toast.info('Mode dessin activé');
+    console.log('Drawing mode forced with new PencilBrush:', brush);
+    toast.info('Mode dessin réactivé');
   };
 
   const toggleGuide = () => {
