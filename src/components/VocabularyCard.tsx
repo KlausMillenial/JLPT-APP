@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
@@ -165,6 +165,13 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
     }
   };
 
+  // Auto-generate image when card is flipped
+  useEffect(() => {
+    if (isFlipped && !generatedImageUrl && !isGeneratingImage) {
+      generateImage();
+    }
+  }, [isFlipped]);
+
   const translation = language === 'english' ? word.english : word.french;
   const exampleTranslation = language === 'english' ? word.examples[0]?.english : word.examples[0]?.french;
 
@@ -187,38 +194,6 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               </Badge>
             </div>
             
-            {/* Image section */}
-            {generatedImageUrl ? (
-              <div className="mb-6 flex justify-center">
-                <img 
-                  src={generatedImageUrl} 
-                  alt={translation}
-                  className="w-40 h-40 object-cover rounded-xl border-2 border-border/50 shadow-md"
-                />
-              </div>
-            ) : (
-              <div className="mb-6 flex justify-center">
-                <Button
-                  variant="outline"
-                  size="lg"
-                  onClick={generateImage}
-                  disabled={isGeneratingImage}
-                  className="w-40 h-40 flex flex-col items-center justify-center gap-3 text-sm border-2 border-dashed border-border/50 hover:border-primary/50 transition-colors"
-                >
-                  {isGeneratingImage ? (
-                    <>
-                      <Loader2 className="w-8 h-8 animate-spin" />
-                      <span>Generating...</span>
-                    </>
-                  ) : (
-                    <>
-                      <Wand2 className="w-8 h-8" />
-                      <span>Generate Image</span>
-                    </>
-                  )}
-                </Button>
-              </div>
-            )}
             
             {/* Japanese content */}
             <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
@@ -268,16 +243,26 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               {word.wordType}
             </Badge>
             
-            {/* Image section on back too */}
-            {generatedImageUrl && (
-              <div className="mb-6 flex justify-center">
+            {/* Image section with auto-generation */}
+            <div className="mb-6 flex justify-center">
+              {isGeneratingImage ? (
+                <div className="w-40 h-40 flex flex-col items-center justify-center border-2 border-dashed border-white/30 rounded-xl bg-white/10">
+                  <Loader2 className="w-8 h-8 animate-spin text-white mb-2" />
+                  <span className="text-xs text-white/80">Generating image...</span>
+                </div>
+              ) : generatedImageUrl ? (
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-40 h-40 object-cover rounded-xl border-2 border-white/30 shadow-md"
+                  className="w-40 h-40 object-cover rounded-xl border-2 border-white/30 shadow-md animate-fade-in"
                 />
-              </div>
-            )}
+              ) : (
+                <div className="w-40 h-40 flex flex-col items-center justify-center border-2 border-dashed border-white/30 rounded-xl bg-white/5">
+                  <Wand2 className="w-6 h-6 text-white/60 mb-2" />
+                  <span className="text-xs text-white/60 text-center">Image will appear<br />automatically</span>
+                </div>
+              )}
+            </div>
             
             <div className="flex flex-col items-center justify-center text-center space-y-4 flex-1">
               <div className="flex items-center justify-center gap-3">
