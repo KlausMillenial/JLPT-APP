@@ -68,6 +68,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "yoru",
     english: "night",
     french: "nuit",
+    german: "Nacht",
+    vietnamese: "buổi tối",
+    chinese: "夜晚",
+    korean: "밤",
+    spanish: "noche",
     level: "N5",
     category: "time",
     wordType: "noun",
@@ -77,7 +82,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "よるはしずかです。",
         romaji: "Yoru wa shizuka desu.",
         english: "The night is quiet.",
-        french: "La nuit est calme."
+        french: "La nuit est calme.",
+        german: "Die Nacht ist ruhig.",
+        vietnamese: "Ban đêm yên tĩnh.",
+        chinese: "夜晚很安静。",
+        korean: "밤은 조용합니다.",
+        spanish: "La noche es tranquila."
       }
     ]
   },
@@ -288,6 +298,11 @@ export const vocabularyData: VocabularyWord[] = [
     romaji: "aki",
     english: "autumn",
     french: "automne",
+    german: "Herbst",
+    vietnamese: "mùa thu",
+    chinese: "秋天",
+    korean: "가을",
+    spanish: "otoño",
     level: "N5",
     category: "season",
     wordType: "noun",
@@ -297,7 +312,12 @@ export const vocabularyData: VocabularyWord[] = [
         hiragana: "あきはすずしいです。",
         romaji: "Aki wa suzushii desu.",
         english: "Autumn is cool.",
-        french: "L'automne est frais."
+        french: "L'automne est frais.",
+        german: "Der Herbst ist kühl.",
+        vietnamese: "Mùa thu thì mát mẻ.",
+        chinese: "秋天很凉快。",
+        korean: "가을은 시원합니다.",
+        spanish: "El otoño es fresco."
       }
     ]
   },
