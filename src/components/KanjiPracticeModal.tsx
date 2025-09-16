@@ -52,7 +52,7 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
         </DialogHeader>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 py-4">
-          {/* Left Side - Word Information */}
+          {/* Left Side - Kanji Display */}
           <div className="space-y-6">
             {/* Kanji Display */}
             <div className="text-center bg-gradient-to-br from-primary/10 to-primary/5 p-6 rounded-xl border">
@@ -63,75 +63,17 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
                 {word.japanese}
               </div>
               <div className="flex items-center justify-center gap-3">
-                <VoiceButton
-                  text={word.japanese}
-                  language="japanese"
-                  variant="outline"
-                  size="sm"
-                />
-                <span className="text-lg text-muted-foreground">
+                <span className="text-2xl text-muted-foreground">
                   {word.hiragana}
                 </span>
                 <VoiceButton
                   text={word.hiragana}
                   language="japanese"
-                  variant="ghost"
+                  variant="outline"
                   size="sm"
                 />
               </div>
-              <p className="text-sm text-muted-foreground italic mt-2">
-                {word.romaji}
-              </p>
             </div>
-
-            {/* Translation */}
-            <div className="bg-muted/50 p-4 rounded-lg">
-              <h4 className="font-medium mb-2">Traduction :</h4>
-              <div className="flex items-center gap-2">
-                <span className="text-lg">{translation}</span>
-                <VoiceButton
-                  text={translation}
-                  language={language}
-                  variant="ghost"
-                  size="sm"
-                />
-              </div>
-              <p className="text-sm text-muted-foreground mt-1">
-                {word.category} • {word.wordType}
-              </p>
-            </div>
-
-            {/* Example */}
-            {word.examples[0] && (
-              <div className="bg-muted/50 p-4 rounded-lg">
-                <h4 className="font-medium mb-2">Exemple :</h4>
-                <div className="space-y-2">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm">{word.examples[0].japanese}</span>
-                    <VoiceButton
-                      text={word.examples[0].japanese}
-                      language="japanese"
-                      variant="ghost"
-                      size="sm"
-                    />
-                  </div>
-                  <p className="text-xs text-muted-foreground italic">
-                    {word.examples[0].romaji}
-                  </p>
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm">
-                      {language === 'english' ? word.examples[0].english : word.examples[0].french}
-                    </span>
-                    <VoiceButton
-                      text={language === 'english' ? word.examples[0].english : word.examples[0].french}
-                      language={language}
-                      variant="ghost"
-                      size="sm"
-                    />
-                  </div>
-                </div>
-              </div>
-            )}
           </div>
 
           {/* Right Side - Drawing Canvas */}
@@ -149,19 +91,6 @@ export const KanjiPracticeModal: React.FC<KanjiPracticeModalProps> = ({
               />
             </div>
           </div>
-        </div>
-
-        {/* Tips */}
-        <div className="mt-6 p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800">
-          <h4 className="font-medium text-blue-900 dark:text-blue-100 mb-2">
-            💡 Conseils pour tracer :
-          </h4>
-          <ul className="text-sm text-blue-800 dark:text-blue-200 space-y-1">
-            <li>• Tracez lentement et avec précision</li>
-            <li>• Respectez l'ordre des traits traditionnels</li>
-            <li>• Utilisez tout l'espace du canvas</li>
-            <li>• Effacez et recommencez si nécessaire</li>
-          </ul>
         </div>
       </DialogContent>
     </Dialog>
