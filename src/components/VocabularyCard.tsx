@@ -217,12 +217,16 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
     });
   };
 
-  // Auto-generate image only when card is flipped (not immediately)
+  // Auto-generate image when card loads
   useEffect(() => {
-    if (isFlipped && !generatedImageUrl && !isGeneratingImage) {
-      generateImage();
+    if (!generatedImageUrl && !isGeneratingImage) {
+      // Small delay to stagger image generation for better performance
+      const delay = Math.random() * 2000; // 0-2 seconds random delay
+      setTimeout(() => {
+        generateImage();
+      }, delay);
     }
-  }, [isFlipped]);
+  }, []);
 
   const translation = word[language] || word.english; // Fallback to English if translation not available
   const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
@@ -258,7 +262,7 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
                   <span className="text-sm text-primary/60 text-center">
                     {imageProvider === 'leonardo' ? 'Leonardo AI image' :
-                     'Visual aid'} will generate<br />when you flip this card
+                     'Visual aid'} will generate<br />automatically
                   </span>
                 </div>
               )}
