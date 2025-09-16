@@ -11500,6 +11500,366 @@ export const vocabularyData: VocabularyWord[] = [
         french: "Je suis allé dans divers pays."
       }
     ]
+  },
+  {
+    id: "ue",
+    japanese: "上",
+    hiragana: "うえ",
+    romaji: "ue",
+    english: "on top, above",
+    french: "au-dessus, sur",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "机の上に本があります。",
+        hiragana: "つくえのうえにほんがあります。",
+        romaji: "Tsukue no ue ni hon ga arimasu.",
+        english: "There is a book on the desk.",
+        french: "Il y a un livre sur le bureau."
+      }
+    ]
+  },
+  {
+    id: "ushiro",
+    japanese: "後ろ",
+    hiragana: "うしろ",
+    romaji: "ushiro",
+    english: "behind",
+    french: "derrière",
+    level: "N5",
+    category: "location",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "犬は家の後ろにいます。",
+        hiragana: "いぬはいえのうしろにいます。",
+        romaji: "Inu wa ie no ushiro ni imasu.",
+        english: "The dog is behind the house.",
+        french: "Le chien est derrière la maison."
+      }
+    ]
+  },
+  {
+    id: "usui",
+    japanese: "薄い",
+    hiragana: "うすい",
+    romaji: "usui",
+    english: "thin, light",
+    french: "mince, léger",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "この本は薄いです。",
+        hiragana: "このほんはうすいです。",
+        romaji: "Kono hon wa usui desu.",
+        english: "This book is thin.",
+        french: "Ce livre est mince."
+      }
+    ]
+  },
+  {
+    id: "uta",
+    japanese: "歌",
+    hiragana: "うた",
+    romaji: "uta",
+    english: "song",
+    french: "chanson",
+    level: "N5",
+    category: "music",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "歌を聞くのが好きです。",
+        hiragana: "うたをきくのがすきです。",
+        romaji: "Uta o kiku no ga suki desu.",
+        english: "I like listening to songs.",
+        french: "J'aime écouter des chansons."
+      }
+    ]
+  },
+  {
+    id: "utau",
+    japanese: "歌う",
+    hiragana: "うたう",
+    romaji: "utau",
+    english: "to sing",
+    french: "chanter",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "彼はよく歌います。",
+        hiragana: "かれはよくうたいます。",
+        romaji: "Kare wa yoku utaimasu.",
+        english: "He often sings.",
+        french: "Il chante souvent."
+      }
+    ]
+  },
+  {
+    id: "umareru",
+    japanese: "生まれる",
+    hiragana: "うまれる",
+    romaji: "umareru",
+    english: "to be born",
+    french: "naître",
+    level: "N5",
+    category: "life",
+    wordType: "ichidan verb",
+    examples: [
+      {
+        japanese: "私は東京で生まれました。",
+        hiragana: "わたしはとうきょうでうまれました。",
+        romaji: "Watashi wa Toukyou de umaremashita.",
+        english: "I was born in Tokyo.",
+        french: "Je suis né à Tokyo."
+      }
+    ]
+  },
+  {
+    id: "umi",
+    japanese: "海",
+    hiragana: "うみ",
+    romaji: "umi",
+    english: "sea",
+    french: "mer",
+    level: "N5",
+    category: "nature",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "夏に海へ行きます。",
+        hiragana: "なつにうみへいきます。",
+        romaji: "Natsu ni umi e ikimasu.",
+        english: "I go to the sea in summer.",
+        french: "Je vais à la mer en été."
+      }
+    ]
+  },
+  {
+    id: "uru",
+    japanese: "売る",
+    hiragana: "うる",
+    romaji: "uru",
+    english: "to sell",
+    french: "vendre",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "古い本を売ります。",
+        hiragana: "ふるいほんをうります。",
+        romaji: "Furui hon o urimasu.",
+        english: "I sell old books.",
+        french: "Je vends de vieux livres."
+      }
+    ]
+  },
+  {
+    id: "urusai",
+    japanese: "うるさい",
+    hiragana: "うるさい",
+    romaji: "urusai",
+    english: "noisy, annoying",
+    french: "bruyant, agaçant",
+    level: "N5",
+    category: "adjective",
+    wordType: "i-adjective",
+    examples: [
+      {
+        japanese: "子供の声がうるさいです。",
+        hiragana: "こどものこえがうるさいです。",
+        romaji: "Kodomo no koe ga urusai desu.",
+        english: "The children's voices are noisy.",
+        french: "Les voix des enfants sont bruyantes."
+      }
+    ]
+  },
+  {
+    id: "uwagi",
+    japanese: "上着",
+    hiragana: "うわぎ",
+    romaji: "uwagi",
+    english: "jacket, coat",
+    french: "veste, manteau",
+    level: "N5",
+    category: "clothing",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "寒いので上着を着てください。",
+        hiragana: "さむいのでうわぎをきてください。",
+        romaji: "Samui node uwagi o kite kudasai.",
+        english: "It's cold, so please wear a jacket.",
+        french: "Il fait froid, mettez une veste."
+      }
+    ]
+  },
+  {
+    id: "e_picture",
+    japanese: "絵",
+    hiragana: "え",
+    romaji: "e",
+    english: "picture, drawing",
+    french: "image, dessin",
+    level: "N5",
+    category: "art",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "絵を描くのが好きです。",
+        hiragana: "えをかくのがすきです。",
+        romaji: "E o kaku no ga suki desu.",
+        english: "I like drawing pictures.",
+        french: "J'aime dessiner des images."
+      }
+    ]
+  },
+  {
+    id: "eiga",
+    japanese: "映画",
+    hiragana: "えいが",
+    romaji: "eiga",
+    english: "movie",
+    french: "film",
+    level: "N5",
+    category: "entertainment",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "映画を見ました。",
+        hiragana: "えいがをみました。",
+        romaji: "Eiga o mimashita.",
+        english: "I watched a movie.",
+        french: "J'ai regardé un film."
+      }
+    ]
+  },
+  {
+    id: "eigakan",
+    japanese: "映画館",
+    hiragana: "えいがかん",
+    romaji: "eigakan",
+    english: "cinema",
+    french: "cinéma",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "映画館は駅の近くです。",
+        hiragana: "えいがかんはえきのちかくです。",
+        romaji: "Eigakan wa eki no chikaku desu.",
+        english: "The cinema is near the station.",
+        french: "Le cinéma est près de la gare."
+      }
+    ]
+  },
+  {
+    id: "eigo",
+    japanese: "英語",
+    hiragana: "えいご",
+    romaji: "eigo",
+    english: "English (language)",
+    french: "anglais (langue)",
+    level: "N5",
+    category: "language",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "英語を勉強しています。",
+        hiragana: "えいごをべんきょうしています。",
+        romaji: "Eigo o benkyou shite imasu.",
+        english: "I am studying English.",
+        french: "J'étudie l'anglais."
+      }
+    ]
+  },
+  {
+    id: "ee",
+    japanese: "ええ",
+    hiragana: "ええ",
+    romaji: "ee",
+    english: "yes",
+    french: "oui",
+    level: "N5",
+    category: "expression",
+    wordType: "interjection",
+    examples: [
+      {
+        japanese: "ええ、分かりました。",
+        hiragana: "ええ、わかりました。",
+        romaji: "Ee, wakarimashita.",
+        english: "Yes, I understand.",
+        french: "Oui, j'ai compris."
+      }
+    ]
+  },
+  {
+    id: "eki",
+    japanese: "駅",
+    hiragana: "えき",
+    romaji: "eki",
+    english: "station",
+    french: "gare",
+    level: "N5",
+    category: "transport",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "駅で友達に会います。",
+        hiragana: "えきでともだちにあいます。",
+        romaji: "Eki de tomodachi ni aimasu.",
+        english: "I meet a friend at the station.",
+        french: "Je rencontre un ami à la gare."
+      }
+    ]
+  },
+  {
+    id: "erebeetaa",
+    japanese: "エレベーター",
+    hiragana: "えれべーたー",
+    romaji: "erebeetaa",
+    english: "elevator",
+    french: "ascenseur",
+    level: "N5",
+    category: "building",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "エレベーターで5階に行きます。",
+        hiragana: "えれべーたーでごかいにいきます。",
+        romaji: "Erebeetaa de gokai ni ikimasu.",
+        english: "I go to the 5th floor by elevator.",
+        french: "Je vais au 5e étage en ascenseur."
+      }
+    ]
+  },
+  {
+    id: "enpitsu",
+    japanese: "鉛筆",
+    hiragana: "えんぴつ",
+    romaji: "enpitsu",
+    english: "pencil",
+    french: "crayon à papier",
+    level: "N5",
+    category: "school",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "鉛筆で書いてください。",
+        hiragana: "えんぴつでかいてください。",
+        romaji: "Enpitsu de kaite kudasai.",
+        english: "Please write in pencil.",
+        french: "Écrivez au crayon s'il vous plaît."
+      }
+    ]
   }
 ];
 
