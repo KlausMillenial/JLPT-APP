@@ -200,8 +200,16 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
 
             {/* Show additional info about the word */}
             <div className="text-center space-y-2">
-              <div className="text-lg">
-                <strong>{question.word.japanese}</strong> ({question.word.hiragana}) - {question.word.english}
+              <div className="text-lg space-y-1">
+                <div>
+                  <strong>{question.word.japanese}</strong> ({question.word.hiragana})
+                </div>
+                <div className="text-muted-foreground italic">
+                  {question.word.romaji}
+                </div>
+                <div>
+                  {question.word.english}
+                </div>
               </div>
               {question.word.examples && question.word.examples[0] && (
                 <div className="space-y-3 p-4 bg-muted/50 rounded-lg">
