@@ -131,6 +131,36 @@ import auntImage from '@/assets/obasan-aunt.png';
 import bathImage from '@/assets/ofuro-bath.png';
 import boxedlunchImage from '@/assets/obentou-boxed-lunch.png';
 import torememberImage from '@/assets/oboeru-to-remember.png';
+import policemanImage from '@/assets/omawarisan-friendly-term-for-policeman.png';
+import heavyImage from '@/assets/omoi-heavy.png';
+import interestingImage from '@/assets/omoshiroi-interesting.png';
+import toswimImage from '@/assets/oyogu-to-swim.png';
+import togetoffImage from '@/assets/oriru-to-get-off.png';
+import tofinishImage from '@/assets/owaru-to-finish.png';
+import musicImage from '@/assets/ongaku-music.png';
+import womanImage from '@/assets/onna-woman.png';
+import girlImage from '@/assets/onnanoko-girl.png';
+import foreigncountryImage from '@/assets/gaikoku-foreign-country.png';
+import householdImage from '@/assets/katei-household.png';
+import cornerImage from '@/assets/kado-corner.png';
+import bagImage from '@/assets/kaban-bag.png';
+import vaseImage from '@/assets/kabin-vase.png';
+import paperImage from '@/assets/kami-paper.png';
+import cameraImage from '@/assets/kamera-camera.png';
+import tuesdayImage from '@/assets/kayoubi-tuesday.png';
+import spicyImage from '@/assets/karai-spicy.png';
+import bodyImage from '@/assets/karada-body.png';
+import toborrowImage from '@/assets/kariru-to-borrow.png';
+import lightImage from '@/assets/karui-light.png';
+import curryImage from '@/assets/karee-curry.png';
+import calendarImage from '@/assets/karendaa-calendar.png';
+import riverImage from '@/assets/kawa-river.png';
+import cuteImage from '@/assets/kawaii-cute.png';
+import kanjiImage from '@/assets/kanji-chinese-character.png';
+import treeImage from '@/assets/ki-tree-wood.png';
+import yellowImage from '@/assets/kiiro-yellow.png';
+import yellowadjImage from '@/assets/kiiroi-yellow-adjective.png';
+import todisappearImage from '@/assets/kieru-to-disappear.png';
 
 
 
