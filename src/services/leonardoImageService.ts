@@ -113,13 +113,23 @@ export class LeonardoImageService {
           // Leonardo AI returns a generation job ID, we need to poll for completion
           const generationId = result.sdGenerationJob.generationId;
           
-          // Poll for completion (simplified version - in production you'd want better polling)
-          await new Promise(resolve => setTimeout(resolve, 10000)); // Wait 10 seconds
+          // Fast polling for better UX - check every 2 seconds up to 30 seconds max
+          let attempts = 0;
+          const maxAttempts = 15; // 30 seconds total
+          let completedResult = null;
           
-          const completedResult = await this.getGenerationResult(generationId);
+          while (attempts < maxAttempts && !completedResult) {
+            await new Promise(resolve => setTimeout(resolve, 2000)); // Wait 2 seconds
+            completedResult = await this.getGenerationResult(generationId);
+            attempts++;
+            
+            if (completedResult && completedResult.url) {
+              break;
+            }
+          }
           
           if (!completedResult || !completedResult.url) {
-            throw new Error('Image generation failed or timed out');
+            throw new Error('Image generation timed out - try again');
           }
 
           resolve({

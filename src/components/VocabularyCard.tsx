@@ -175,9 +175,9 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
                   <span className="text-sm text-muted-foreground">
-                    Generating with Leonardo AI...
+                    Generating AI image...
                   </span>
-                  <span className="text-xs text-muted-foreground mt-1">This may take a moment</span>
+                  <span className="text-xs text-muted-foreground mt-1">Usually takes 15-30 seconds</span>
                 </div>
               ) : generatedImageUrl ? (
                 <img 
@@ -187,15 +187,16 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 />
               ) : LeonardoImageService.getApiKey() ? (
                 <div 
-                  className="w-full h-full flex flex-col items-center justify-center bg-primary/5 cursor-pointer hover:bg-primary/10 transition-colors"
+                  className="w-full h-full flex flex-col items-center justify-center bg-primary/5 cursor-pointer hover:bg-primary/10 transition-colors group"
                   onClick={(e) => {
                     e.stopPropagation();
                     generateImage();
                   }}
                 >
-                  <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
-                  <span className="text-sm text-primary/60 text-center">
-                    Click to generate<br />Leonardo AI image
+                  <Wand2 className="w-8 h-8 text-primary/60 mb-3 group-hover:text-primary transition-colors" />
+                  <span className="text-sm text-primary/60 text-center group-hover:text-primary transition-colors">
+                    Click for AI image<br />
+                    <span className="text-xs opacity-75">(~30 seconds)</span>
                   </span>
                 </div>
               ) : (
