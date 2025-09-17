@@ -3,6 +3,7 @@ import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
 import eatImage from '@/assets/eat-taberu.png';
 import redImage from '@/assets/red-akai.png';
+import schoolImage from '@/assets/school-gakkou.png';
 
 export interface VocabularyWord {
   id: string;
@@ -207,6 +208,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "place",
     wordType: "noun",
+    imageUrl: schoolImage,
     examples: [
       {
         japanese: "学校で日本語を勉強します。",
