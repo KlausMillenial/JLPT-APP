@@ -10809,26 +10809,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "taore_ru",
-    "japanese": "倒れる",
-    "hiragana": "たおれる",
-    "romaji": "taoreru",
-    "english": "to fall down",
-    "french": "tomber",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼は道で倒れました。",
-        "hiragana": "かれはみちでたおれました。",
-        "romaji": "Kare wa michi de taoremashita.",
-        "english": "He collapsed on the street.",
-        "french": "Il est tombé dans la rue."
-      }
-    ]
-  },
-  {
     "id": "tanbo_keiken",
     "japanese": "田んぼ経験",
     "hiragana": "たんぼけいけん",
@@ -10885,26 +10865,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Hashi no kensetsu ga hajimarimashita.",
         "english": "The construction of the bridge has started.",
         "french": "La construction du pont a commencé."
-      }
-    ]
-  },
-  {
-    "id": "tatsu_kouen",
-    "japanese": "立つ",
-    "hiragana": "たつ",
-    "romaji": "tatsu",
-    "english": "to stand",
-    "french": "se lever",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "私は椅子から立ちました。",
-        "hiragana": "わたしはいすからたちました。",
-        "romaji": "Watashi wa isu kara tachimashita.",
-        "english": "I stood up from the chair.",
-        "french": "Je me suis levé de la chaise."
       }
     ]
   },
@@ -10989,26 +10949,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tanjou",
-    "japanese": "誕生",
-    "hiragana": "たんじょう",
-    "romaji": "tanjou",
-    "english": "birth",
-    "french": "naissance",
-    "level": "N5",
-    "category": "life",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "子供の誕生を祝いました。",
-        "hiragana": "こどものたんじょうをいわいました。",
-        "romaji": "Kodomo no tanjou o iwaimashita.",
-        "english": "We celebrated the child's birth.",
-        "french": "Nous avons célébré la naissance de l'enfant."
-      }
-    ]
-  },
-  {
     "id": "tanoshii_omoide",
     "japanese": "楽しい思い出",
     "hiragana": "たのしいおもいで",
@@ -11025,66 +10965,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Ryokou wa tanoshii omoide ni narimashita.",
         "english": "The trip became a happy memory.",
         "french": "Le voyage est devenu un bon souvenir."
-      }
-    ]
-  },
-  {
-    "id": "tanoshimi",
-    "japanese": "楽しみ",
-    "hiragana": "たのしみ",
-    "romaji": "tanoshimi",
-    "english": "pleasure, expectation",
-    "french": "plaisir, attente",
-    "level": "N5",
-    "category": "emotion",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい仕事が楽しみです。",
-        "hiragana": "あたらしいしごとがたのしみです。",
-        "romaji": "Atarashii shigoto ga tanoshimi desu.",
-        "english": "I am looking forward to the new job.",
-        "french": "J'ai hâte pour le nouveau travail."
-      }
-    ]
-  },
-  {
-    "id": "tansu",
-    "japanese": "タンス",
-    "hiragana": "たんす",
-    "romaji": "tansu",
-    "english": "chest of drawers",
-    "french": "commode",
-    "level": "N5",
-    "category": "furniture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "服をタンスにしまいました。",
-        "hiragana": "ふくをたんすにしまいました。",
-        "romaji": "Fuku o tansu ni shimaimashita.",
-        "english": "I put the clothes in the drawer.",
-        "french": "J'ai rangé les vêtements dans la commode."
-      }
-    ]
-  },
-  {
-    "id": "tateru",
-    "japanese": "建てる",
-    "hiragana": "たてる",
-    "romaji": "tateru",
-    "english": "to build",
-    "french": "construire",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "家を建てます。",
-        "hiragana": "いえをたてます。",
-        "romaji": "Ie o tatemasu.",
-        "english": "I build a house.",
-        "french": "Je construis une maison."
       }
     ]
   },
@@ -11249,26 +11129,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tamashii",
-    "japanese": "魂",
-    "hiragana": "たましい",
-    "romaji": "tamashii",
-    "english": "soul",
-    "french": "âme",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "魂を込めて歌います。",
-        "hiragana": "たましいをこめてうたいます。",
-        "romaji": "Tamashii o komete utaimasu.",
-        "english": "I sing with all my soul.",
-        "french": "Je chante avec toute mon âme."
-      }
-    ]
-  },
-  {
     "id": "tamani",
     "japanese": "たまに",
     "hiragana": "たまに",
@@ -11285,26 +11145,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Tamani eiga o mimasu.",
         "english": "I sometimes watch movies.",
         "french": "Je regarde parfois des films."
-      }
-    ]
-  },
-  {
-    "id": "tamashii",
-    "japanese": "魂",
-    "hiragana": "たましい",
-    "romaji": "tamashii",
-    "english": "soul, spirit",
-    "french": "âme, esprit",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "魂を込めて歌います。",
-        "hiragana": "たましいをこめてうたいます。",
-        "romaji": "Tamashii o komete utaimasu.",
-        "english": "I sing with all my soul.",
-        "french": "Je chante avec toute mon âme."
       }
     ]
   },
@@ -11409,26 +11249,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tanoshimi",
-    "japanese": "楽しみ",
-    "hiragana": "たのしみ",
-    "romaji": "tanoshimi",
-    "english": "pleasure, expectation",
-    "french": "plaisir, attente",
-    "level": "N5",
-    "category": "emotion",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "旅行が楽しみです。",
-        "hiragana": "りょこうがたのしみです。",
-        "romaji": "Ryokou ga tanoshimi desu.",
-        "english": "I look forward to the trip.",
-        "french": "J'ai hâte pour le voyage."
-      }
-    ]
-  },
-  {
     "id": "tanjoubi",
     "japanese": "誕生日",
     "hiragana": "たんじょうび",
@@ -11445,26 +11265,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Ashita wa kare no tanjoubi desu.",
         "english": "Tomorrow is his birthday.",
         "french": "Demain c'est son anniversaire."
-      }
-    ]
-  },
-  {
-    "id": "tansu",
-    "japanese": "タンス",
-    "hiragana": "たんす",
-    "romaji": "tansu",
-    "english": "chest of drawers",
-    "french": "commode",
-    "level": "N5",
-    "category": "furniture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "タンスに服をしまいました。",
-        "hiragana": "たんすにふくをしまいました。",
-        "romaji": "Tansu ni fuku o shimaimashita.",
-        "english": "I put clothes in the dresser.",
-        "french": "J'ai rangé les vêtements dans la commode."
       }
     ]
   },
@@ -11505,46 +11305,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Furui tatemono ga arimasu.",
         "english": "There is an old building.",
         "french": "Il y a un vieux bâtiment."
-      }
-    ]
-  },
-  {
-    "id": "tateru",
-    "japanese": "建てる",
-    "hiragana": "たてる",
-    "romaji": "tateru",
-    "english": "to build",
-    "french": "construire",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "家を建てます。",
-        "hiragana": "いえをたてます。",
-        "romaji": "Ie o tatemasu.",
-        "english": "I build a house.",
-        "french": "Je construis une maison."
-      }
-    ]
-  },
-  {
-    "id": "tatsu",
-    "japanese": "立つ",
-    "hiragana": "たつ",
-    "romaji": "tatsu",
-    "english": "to stand",
-    "french": "se lever",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼は急に立ちました。",
-        "hiragana": "かれはきゅうにたちました。",
-        "romaji": "Kare wa kyuu ni tachimashita.",
-        "english": "He suddenly stood up.",
-        "french": "Il s'est levé soudainement."
       }
     ]
   },
