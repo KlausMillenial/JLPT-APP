@@ -10227,26 +10227,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "taoreru2",
-    "japanese": "崩れる",
-    "hiragana": "くずれる",
-    "romaji": "kuzureru",
-    "english": "to collapse",
-    "french": "s'effondrer",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "山が崩れました。",
-        "hiragana": "やまがくずれました。",
-        "romaji": "Yama ga kuzuremashita.",
-        "english": "The mountain collapsed.",
-        "french": "La montagne s'est effondrée."
-      }
-    ]
-  },
-  {
     "id": "taosu",
     "japanese": "倒す",
     "hiragana": "たおす",
@@ -10383,26 +10363,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Tanbo de sakumotsu o sodate masu.",
         "english": "They grow crops in the rice field.",
         "french": "On cultive des récoltes dans la rizière."
-      }
-    ]
-  },
-  {
-    "id": "tanoshimu2",
-    "japanese": "愉しむ",
-    "hiragana": "たのしむ",
-    "romaji": "tanoshimu",
-    "english": "to enjoy",
-    "french": "apprécier, savourer",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "人生を愉しみましょう。",
-        "hiragana": "じんせいをたのしみましょう。",
-        "romaji": "Jinsei o tanoshimimashou.",
-        "english": "Let's enjoy life.",
-        "french": "Profitons de la vie."
       }
     ]
   },
@@ -10743,26 +10703,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Atarashii tatemono ga tachimashita.",
         "english": "A new building was built.",
         "french": "Un nouveau bâtiment a été construit."
-      }
-    ]
-  },
-  {
-    "id": "tateru_kensetsu",
-    "japanese": "建設",
-    "hiragana": "けんせつ",
-    "romaji": "kensetsu",
-    "english": "construction",
-    "french": "construction",
-    "level": "N5",
-    "category": "work",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "橋の建設が始まりました。",
-        "hiragana": "はしのけんせつがはじまりました。",
-        "romaji": "Hashi no kensetsu ga hajimarimashita.",
-        "english": "The construction of the bridge has started.",
-        "french": "La construction du pont a commencé."
       }
     ]
   },
@@ -11123,46 +11063,6 @@ export const vocabularyData: VocabularyWord[] = [
         "romaji": "Kyou wa totemo tanoshii desu.",
         "english": "Today is very fun.",
         "french": "Aujourd'hui est très amusant."
-      }
-    ]
-  },
-  {
-    "id": "tanoshimu",
-    "japanese": "楽しむ",
-    "hiragana": "たのしむ",
-    "romaji": "tanoshimu",
-    "english": "to enjoy",
-    "french": "profiter, s'amuser",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "音楽を楽しみます。",
-        "hiragana": "おんがくをたのしみます。",
-        "romaji": "Ongaku o tanoshimimasu.",
-        "english": "I enjoy music.",
-        "french": "Je profite de la musique."
-      }
-    ]
-  },
-  {
-    "id": "tanjoubi",
-    "japanese": "誕生日",
-    "hiragana": "たんじょうび",
-    "romaji": "tanjoubi",
-    "english": "birthday",
-    "french": "anniversaire",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "明日は彼の誕生日です。",
-        "hiragana": "あしたはかれのたんじょうびです。",
-        "romaji": "Ashita wa kare no tanjoubi desu.",
-        "english": "Tomorrow is his birthday.",
-        "french": "Demain c'est son anniversaire."
       }
     ]
   },
@@ -16773,26 +16673,6 @@ export const vocabularyData: VocabularyWord[] = [
         romaji: "Ano hito wa dare desu ka?",
         english: "Who is that person?",
         french: "Qui est cette personne ?"
-      }
-    ]
-  },
-  {
-    id: "tanjoubi",
-    japanese: "誕生日",
-    hiragana: "たんじょうび",
-    romaji: "tanjoubi",
-    english: "birthday",
-    french: "anniversaire",
-    level: "N5",
-    category: "time",
-    wordType: "noun",
-    examples: [
-      {
-        japanese: "誕生日おめでとう！",
-        hiragana: "たんじょうびおめでとう！",
-        romaji: "Tanjoubi omedetou!",
-        english: "Happy birthday!",
-        french: "Joyeux anniversaire !"
       }
     ]
   },
