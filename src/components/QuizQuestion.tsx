@@ -1,6 +1,5 @@
 import { useState, useMemo } from 'react';
 import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { VoiceButton } from './VoiceButton';
@@ -10,12 +9,11 @@ import { vocabularyData } from '@/data/vocabulary';
 interface QuizQuestionProps {
   question: {
     id: string;
-    type: 'japanese-to-target' | 'target-to-japanese' | 'examples';
+    type: 'japanese-to-target' | 'target-to-japanese';
     question: string;
     questionText?: string;
     correctAnswer: string;
     word: any;
-    example?: any;
     language?: string;
   };
   onAnswer: (userAnswer: string, isCorrect: boolean) => void;
@@ -25,15 +23,13 @@ interface QuizQuestionProps {
 }
 
 export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestions, targetLanguage = 'english' }: QuizQuestionProps) => {
-  const [userAnswer, setUserAnswer] = useState('');
   const [showResult, setShowResult] = useState(false);
   const [isCorrect, setIsCorrect] = useState(false);
   const [selectedChoice, setSelectedChoice] = useState<string | null>(null);
   const [showContinueButton, setShowContinueButton] = useState(false);
 
-  // Generate multiple choice options for some question types
+  // Generate multiple choice options for all question types
   const choices = useMemo(() => {
-    if (question.type === 'examples') return null;
     
     // For multiple choice, generate 3 wrong answers + 1 correct answer
     const correctAnswer = question.correctAnswer;
@@ -82,18 +78,10 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
   };
 
   const handleContinue = () => {
-    onAnswer(selectedChoice || userAnswer, isCorrect);
-    setUserAnswer('');
+    onAnswer(selectedChoice || '', isCorrect);
     setShowResult(false);
     setSelectedChoice(null);
     setShowContinueButton(false);
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (userAnswer.trim()) {
-      checkAnswer(userAnswer);
-    }
   };
 
   const handleChoiceSelect = (choice: string) => {
@@ -107,8 +95,6 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
         return `Translate to ${targetLanguage.charAt(0).toUpperCase() + targetLanguage.slice(1)}`;
       case 'target-to-japanese':
         return 'Translate to Japanese';
-      case 'examples':
-        return 'Translate Example';
       default:
         return 'Question';
     }
@@ -146,14 +132,12 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
                 {question.questionText}
               </div>
             )}
-            {question.type !== 'examples' && (
-              <div className="flex justify-center">
-                <VoiceButton 
-                  text={question.question}
-                  language={getQuestionLanguage()}
-                />
-              </div>
-            )}
+            <div className="flex justify-center">
+              <VoiceButton 
+                text={question.question}
+                language={getQuestionLanguage()}
+              />
+            </div>
           </div>
 
           {question.word && (
@@ -252,42 +236,19 @@ export const QuizQuestion = ({ question, onAnswer, questionNumber, totalQuestion
           </div>
         ) : (
           <div className="space-y-4">
-            {choices ? (
-              // Multiple choice questions
-              <div className="space-y-3">
-                {choices.map((choice, index) => (
-                  <Button
-                    key={index}
-                    variant="outline"
-                    className="w-full p-4 text-left justify-start h-auto"
-                    onClick={() => handleChoiceSelect(choice)}
-                  >
-                    <span className="font-medium mr-3">{String.fromCharCode(65 + index)}.</span>
-                    {choice}
-                  </Button>
-                ))}
-              </div>
-            ) : (
-              // Text input questions (for examples)
-              <form onSubmit={handleSubmit} className="space-y-4">
-                <Input
-                  type="text"
-                  value={userAnswer}
-                  onChange={(e) => setUserAnswer(e.target.value)}
-                  placeholder="Type your answer..."
-                  className="text-center text-lg p-6"
-                  autoFocus
-                />
-                <Button 
-                  type="submit" 
-                  className="w-full py-6 text-lg"
-                  disabled={!userAnswer.trim()}
+            <div className="space-y-3">
+              {choices.map((choice, index) => (
+                <Button
+                  key={index}
+                  variant="outline"
+                  className="w-full p-4 text-left justify-start h-auto"
+                  onClick={() => handleChoiceSelect(choice)}
                 >
-                  Submit Answer
-                  <ArrowRight className="w-5 h-5 ml-2" />
+                  <span className="font-medium mr-3">{String.fromCharCode(65 + index)}.</span>
+                  {choice}
                 </Button>
-              </form>
-            )}
+              ))}
+            </div>
           </div>
         )}
       </Card>

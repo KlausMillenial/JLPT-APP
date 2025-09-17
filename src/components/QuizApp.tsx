@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { Brain, RotateCcw, Settings } from 'lucide-react';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
-export type QuizType = 'japanese-to-target' | 'target-to-japanese' | 'examples' | 'mixed';
+export type QuizType = 'japanese-to-target' | 'target-to-japanese' | 'mixed';
 
 interface QuizSettings {
   type: QuizType;
@@ -54,31 +54,12 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
     
     return selected.map((word, index) => {
       const questionTypes = settings.type === 'mixed' 
-        ? ['japanese-to-target', 'target-to-japanese', 'examples']
+        ? ['japanese-to-target', 'target-to-japanese']
         : [settings.type];
       
       const type = questionTypes[Math.floor(Math.random() * questionTypes.length)];
       
-      if (type === 'examples' && word.examples.length > 0) {
-        const example = word.examples[Math.floor(Math.random() * word.examples.length)];
-        const targetLangExample = settings.language === 'english' ? example.english :
-                                  settings.language === 'french' ? example.french :
-                                  settings.language === 'german' ? example.german :
-                                  settings.language === 'vietnamese' ? example.vietnamese :
-                                  settings.language === 'chinese' ? example.chinese :
-                                  settings.language === 'korean' ? example.korean :
-                                  settings.language === 'spanish' ? example.spanish : example.english;
-        return {
-          id: `${word.id}-example-${index}`,
-          type: 'examples' as const,
-          question: example.japanese,
-          questionText: example.hiragana,
-          correctAnswer: targetLangExample,
-          word: word,
-          example: example,
-          language: settings.language
-        };
-      } else if (type === 'target-to-japanese') {
+      if (type === 'target-to-japanese') {
         const targetLangWord = settings.language === 'english' ? word.english :
                               settings.language === 'french' ? word.french :
                               settings.language === 'german' ? word.german :
@@ -185,7 +166,6 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
                     <option value="mixed">Mixed Questions</option>
                     <option value="japanese-to-target">Japanese to Target Language</option>
                     <option value="target-to-japanese">Target Language to Japanese</option>
-                    <option value="examples">Example Sentences</option>
                   </select>
                 </div>
 
