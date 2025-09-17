@@ -1,7 +1,7 @@
 import morningImage from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
-import bookImage from '@/assets/eat-taberu.png';
+import eatImage from '@/assets/eat-taberu.png';
 
 export interface VocabularyWord {
   id: string;
