@@ -11636,1341 +11636,1675 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     "id": "tegami",
-    "japanese": "手紙",
-    "hiragana": "てがみ",
-    "romaji": "tegami",
-    "english": "letter",
-    "french": "lettre",
-    "level": "N5",
-    "category": "communication",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達に手紙を書きました。",
-        "hiragana": "ともだちにてがみをかきました。",
-        "romaji": "Tomodachi ni tegami o kakimashita.",
-        "english": "I wrote a letter to my friend.",
-        "french": "J'ai écrit une lettre à mon ami."
-      }
-    ]
-  },
-  {
-    "id": "tegami_hakobu",
-    "japanese": "運ぶ",
-    "hiragana": "はこぶ",
-    "romaji": "hakobu",
-    "english": "to carry",
-    "french": "porter, transporter",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "荷物を運びました。",
-        "hiragana": "にもつをはこびました。",
-        "romaji": "Nimotsu o hakobimashita.",
-        "english": "I carried the luggage.",
-        "french": "J'ai transporté les bagages."
-      }
-    ]
-  },
-  {
-    "id": "tegami_tsukau",
-    "japanese": "使う",
-    "hiragana": "つかう",
-    "romaji": "tsukau",
-    "english": "to use",
-    "french": "utiliser",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "この辞書を使ってください。",
-        "hiragana": "このじしょをつかってください。",
-        "romaji": "Kono jisho o tsukatte kudasai.",
-        "english": "Please use this dictionary.",
-        "french": "Utilisez ce dictionnaire, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "teburu",
-    "japanese": "テーブル",
-    "hiragana": "てーぶる",
-    "romaji": "teeburu",
-    "english": "table",
-    "french": "table",
-    "level": "N5",
-    "category": "furniture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "テーブルの上に花があります。",
-        "hiragana": "てーぶるのうえにはながあります。",
-        "romaji": "Teeburu no ue ni hana ga arimasu.",
-        "english": "There is a flower on the table.",
-        "french": "Il y a une fleur sur la table."
-      }
-    ]
-  },
-  {
-    "id": "tegami_yasashii",
-    "japanese": "優しい",
-    "hiragana": "やさしい",
-    "romaji": "yasashii",
-    "english": "kind, gentle",
-    "french": "gentil, doux",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼はとても優しいです。",
-        "hiragana": "かれはとてもやさしいです。",
-        "romaji": "Kare wa totemo yasashii desu.",
-        "english": "He is very kind.",
-        "french": "Il est très gentil."
-      }
-    ]
-  },
-  {
-    "id": "tehon",
-    "japanese": "手本",
-    "hiragana": "てほん",
-    "romaji": "tehon",
-    "english": "model, example",
-    "french": "modèle, exemple",
-    "level": "N5",
-    "category": "school",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "先生が手本を見せました。",
-        "hiragana": "せんせいがてほんをみせました。",
-        "romaji": "Sensei ga tehon o misemashita.",
-        "english": "The teacher showed an example.",
-        "french": "Le professeur a montré un exemple."
-      }
-    ]
-  },
-  {
-    "id": "tegami_denwa",
-    "japanese": "電話",
-    "hiragana": "でんわ",
-    "romaji": "denwa",
-    "english": "telephone",
-    "french": "téléphone",
-    "level": "N5",
-    "category": "communication",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達に電話しました。",
-        "hiragana": "ともだちにでんわしました。",
-        "romaji": "Tomodachi ni denwa shimashita.",
-        "english": "I called my friend.",
-        "french": "J'ai téléphoné à mon ami."
+  "japanese": "手紙",
+  "hiragana": "てがみ",
+  "romaji": "tegami",
+  "english": "letter",
+  "french": "lettre",
+  "german": "Brief",
+  "vietnamese": "bức thư",
+  "chinese": "信",
+  "korean": "편지",
+  "spanish": "carta",
+  "level": "N5",
+  "category": "communication",
+  "wordType": "noun",
+  "imageUrl": "letterImage",
+  "examples": [
+    {
+      "japanese": "友達に手紙を書きました。",
+      "hiragana": "ともだちにてがみをかきました。",
+      "romaji": "Tomodachi ni tegami o kakimashita.",
+      "english": "I wrote a letter to my friend.",
+      "french": "J'ai écrit une lettre à mon ami.",
+      "german": "Ich habe meinem Freund einen Brief geschrieben.",
+      "vietnamese": "Tôi đã viết một bức thư cho bạn tôi.",
+      "chinese": "我给朋友写了一封信。",
+      "korean": "친구에게 편지를 썼습니다.",
+      "spanish": "Escribí una carta a mi amigo."
+    }
+  ]
+},
+{
+  "id": "tegami_hakobu",
+  "japanese": "運ぶ",
+  "hiragana": "はこぶ",
+  "romaji": "hakobu",
+  "english": "to carry",
+  "french": "porter, transporter",
+  "german": "tragen, transportieren",
+  "vietnamese": "mang, vận chuyển",
+  "chinese": "搬运",
+  "korean": "나르다",
+  "spanish": "llevar, transportar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "tocarryImage",
+  "examples": [
+    {
+      "japanese": "荷物を運びました。",
+      "hiragana": "にもつをはこびました。",
+      "romaji": "Nimotsu o hakobimashita.",
+      "english": "I carried the luggage.",
+      "french": "J'ai transporté les bagages.",
+      "german": "Ich habe das Gepäck getragen.",
+      "vietnamese": "Tôi đã mang hành lý.",
+      "chinese": "我搬了行李。",
+      "korean": "짐을 날랐습니다.",
+      "spanish": "Llevé el equipaje."
+    }
+  ]
+},
+{
+  "id": "tegami_tsukau",
+  "japanese": "使う",
+  "hiragana": "つかう",
+  "romaji": "tsukau",
+  "english": "to use",
+  "french": "utiliser",
+  "german": "benutzen",
+  "vietnamese": "sử dụng",
+  "chinese": "使用",
+  "korean": "사용하다",
+  "spanish": "usar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "touseImage",
+  "examples": [
+    {
+      "japanese": "この辞書を使ってください。",
+      "hiragana": "このじしょをつかってください。",
+      "romaji": "Kono jisho o tsukatte kudasai.",
+      "english": "Please use this dictionary.",
+      "french": "Utilisez ce dictionnaire, s'il vous plaît.",
+      "german": "Bitte benutzen Sie dieses Wörterbuch.",
+      "vietnamese": "Xin hãy dùng từ điển này.",
+      "chinese": "请使用这本词典。",
+      "korean": "이 사전을 사용하세요.",
+      "spanish": "Por favor, use este diccionario."
+    }
+  ]
+},
+{
+  "id": "teburu",
+  "japanese": "テーブル",
+  "hiragana": "てーぶる",
+  "romaji": "teeburu",
+  "english": "table",
+  "french": "table",
+  "german": "Tisch",
+  "vietnamese": "cái bàn",
+  "chinese": "桌子",
+  "korean": "테이블",
+  "spanish": "mesa",
+  "level": "N5",
+  "category": "furniture",
+  "wordType": "noun",
+  "imageUrl": "tableImage",
+  "examples": [
+    {
+      "japanese": "テーブルの上に花があります。",
+      "hiragana": "てーぶるのうえにはながあります。",
+      "romaji": "Teeburu no ue ni hana ga arimasu.",
+      "english": "There is a flower on the table.",
+      "french": "Il y a une fleur sur la table.",
+      "german": "Auf dem Tisch steht eine Blume.",
+      "vietnamese": "Có một bông hoa trên bàn.",
+      "chinese": "桌子上有一朵花。",
+      "korean": "테이블 위에 꽃이 있습니다.",
+      "spanish": "Hay una flor sobre la mesa."
+    }
+  ]
+},
+{
+  "id": "tegami_yasashii",
+  "japanese": "優しい",
+  "hiragana": "やさしい",
+  "romaji": "yasashii",
+  "english": "kind, gentle",
+  "french": "gentil, doux",
+  "german": "freundlich, sanft",
+  "vietnamese": "hiền lành, dịu dàng",
+  "chinese": "温柔, 亲切",
+  "korean": "착하다, 상냥하다",
+  "spanish": "amable, gentil",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "imageUrl": "kindImage",
+  "examples": [
+    {
+      "japanese": "彼はとても優しいです。",
+      "hiragana": "かれはとてもやさしいです。",
+      "romaji": "Kare wa totemo yasashii desu.",
+      "english": "He is very kind.",
+      "french": "Il est très gentil.",
+      "german": "Er ist sehr freundlich.",
+      "vietnamese": "Anh ấy rất hiền.",
+      "chinese": "他非常温柔。",
+      "korean": "그는 매우 상냥합니다.",
+      "spanish": "Él es muy amable."
+    }
+  ]
+},
+{
+  "id": "tehon",
+  "japanese": "手本",
+  "hiragana": "てほん",
+  "romaji": "tehon",
+  "english": "model, example",
+  "french": "modèle, exemple",
+  "german": "Vorbild, Beispiel",
+  "vietnamese": "mẫu, ví dụ",
+  "chinese": "范例",
+  "korean": "본보기, 예",
+  "spanish": "modelo, ejemplo",
+  "level": "N5",
+  "category": "school",
+  "wordType": "noun",
+  "imageUrl": "exampleImage",
+  "examples": [
+    {
+      "japanese": "先生が手本を見せました。",
+      "hiragana": "せんせいがてほんをみせました。",
+      "romaji": "Sensei ga tehon o misemashita.",
+      "english": "The teacher showed an example.",
+      "french": "Le professeur a montré un exemple.",
+      "german": "Der Lehrer zeigte ein Beispiel.",
+      "vietnamese": "Thầy giáo đã đưa ra một ví dụ.",
+      "chinese": "老师展示了一个范例。",
+      "korean": "선생님이 본보기를 보여주셨습니다.",
+      "spanish": "El profesor mostró un ejemplo."
+    }
+  ]
+},
+{
+  "id": "tegami_denwa",
+  "japanese": "電話",
+  "hiragana": "でんわ",
+  "romaji": "denwa",
+  "english": "telephone",
+  "french": "téléphone",
+  "german": "Telefon",
+  "vietnamese": "điện thoại",
+  "chinese": "电话",
+  "korean": "전화",
+  "spanish": "teléfono",
+  "level": "N5",
+  "category": "communication",
+  "wordType": "noun",
+  "imageUrl": "phoneImage",
+  "examples": [
+    {
+      "japanese": "友達に電話しました。",
+      "hiragana": "ともだちにでんわしました。",
+      "romaji": "Tomodachi ni denwa shimashita.",
+      "english": "I called my friend.",
+      "french": "J'ai téléphoné à mon ami.",
+      "german": "Ich habe meinen Freund angerufen.",
+      "vietnamese": "Tôi đã gọi điện cho bạn tôi.",
+      "chinese": "我给朋友打了电话。",
+      "korean": "나는 친구에게 전화를 했습니다.",
+      "spanish": "Llamé a mi amigo."
       }
     ]
   },
   {
     "id": "denki",
-    "japanese": "電気",
-    "hiragana": "でんき",
-    "romaji": "denki",
-    "english": "electricity, light",
-    "french": "électricité, lumière",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "電気を消してください。",
-        "hiragana": "でんきをけしてください。",
-        "romaji": "Denki o keshite kudasai.",
-        "english": "Please turn off the light.",
-        "french": "Éteignez la lumière, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "densha",
-    "japanese": "電車",
-    "hiragana": "でんしゃ",
-    "romaji": "densha",
-    "english": "train",
-    "french": "train",
-    "level": "N5",
-    "category": "transport",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "毎日電車で通勤します。",
-        "hiragana": "まいにちでんしゃでつうきんします。",
-        "romaji": "Mainichi densha de tsuukin shimasu.",
-        "english": "I commute by train every day.",
-        "french": "Je vais au travail en train tous les jours."
-      }
-    ]
-  },
-  {
-    "id": "denwa",
-    "japanese": "電話",
-    "hiragana": "でんわ",
-    "romaji": "denwa",
-    "english": "telephone",
-    "french": "téléphone",
-    "level": "N5",
-    "category": "communication",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達に電話しました。",
-        "hiragana": "ともだちにでんわしました。",
-        "romaji": "Tomodachi ni denwa shimashita.",
-        "english": "I called my friend.",
-        "french": "J'ai téléphoné à mon ami."
-      }
-    ]
-  },
-  {
-    "id": "denwa_bangou",
-    "japanese": "電話番号",
-    "hiragana": "でんわばんごう",
-    "romaji": "denwa bangou",
-    "english": "phone number",
-    "french": "numéro de téléphone",
-    "level": "N5",
-    "category": "communication",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "電話番号を教えてください。",
-        "hiragana": "でんわばんごうをおしえてください。",
-        "romaji": "Denwa bangou o oshiete kudasai.",
-        "english": "Please tell me your phone number.",
-        "french": "Donnez-moi votre numéro de téléphone."
-      }
-    ]
-  },
-  {
-    "id": "deru",
-    "japanese": "出る",
-    "hiragana": "でる",
-    "romaji": "deru",
-    "english": "to go out, to leave",
-    "french": "sortir, quitter",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "8時に家を出ます。",
-        "hiragana": "はちじにいえをでます。",
-        "romaji": "Hachiji ni ie o demasu.",
-        "english": "I leave the house at 8 o'clock.",
-        "french": "Je quitte la maison à 8 heures."
-      }
-    ]
-  },
-  {
-    "id": "dezain",
-    "japanese": "デザイン",
-    "hiragana": "でざいん",
-    "romaji": "dezain",
-    "english": "design",
-    "french": "design",
-    "level": "N5",
-    "category": "art",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "この椅子のデザインはモダンです。",
-        "hiragana": "このいすのでざいんはもだんです。",
-        "romaji": "Kono isu no dezain wa modan desu.",
-        "english": "The design of this chair is modern.",
-        "french": "Le design de cette chaise est moderne."
-      }
-    ]
-  },
-  {
-    "id": "dezaato",
-    "japanese": "デザート",
-    "hiragana": "でざーと",
-    "romaji": "dezaato",
-    "english": "dessert",
-    "french": "dessert",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "デザートに果物を食べました。",
-        "hiragana": "でざーとにくだものをたべました。",
-        "romaji": "Dezaato ni kudamono o tabemashita.",
-        "english": "I ate fruit for dessert.",
-        "french": "J'ai mangé des fruits en dessert."
-      }
-    ]
-  },
-  {
-    "id": "dezunii",
-    "japanese": "ディズニー",
-    "hiragana": "でぃずにー",
-    "romaji": "dizunii",
-    "english": "Disney",
-    "french": "Disney",
-    "level": "N5",
-    "category": "culture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼女はディズニーが大好きです。",
-        "hiragana": "かのじょはでぃずにーがだいすきです。",
-        "romaji": "Kanojo wa dizunii ga daisuki desu.",
-        "english": "She loves Disney.",
-        "french": "Elle adore Disney."
-      }
-    ]
-  },
-  {
-    "id": "doa",
-    "japanese": "ドア",
-    "hiragana": "どあ",
-    "romaji": "doa",
-    "english": "door",
-    "french": "porte",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "ドアを閉めてください。",
-        "hiragana": "どあをしめてください。",
-        "romaji": "Doa o shimete kudasai.",
-        "english": "Please close the door.",
-        "french": "Fermez la porte, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "doitsugo",
-    "japanese": "ドイツ語",
-    "hiragana": "どいつご",
-    "romaji": "doitsugo",
-    "english": "German (language)",
-    "french": "allemand (langue)",
-    "level": "N5",
-    "category": "language",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "ドイツ語を習っています。",
-        "hiragana": "どいつごをならっています。",
-        "romaji": "Doitsugo o naratte imasu.",
-        "english": "I am learning German.",
-        "french": "J'apprends l'allemand."
-      }
-    ]
-  },
-  {
-    "id": "dokoro",
-    "japanese": "所",
-    "hiragana": "ところ",
-    "romaji": "tokoro",
-    "english": "place",
-    "french": "endroit, lieu",
-    "level": "N5",
-    "category": "location",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "良い所に住んでいます。",
-        "hiragana": "いいところにすんでいます。",
-        "romaji": "Ii tokoro ni sunde imasu.",
-        "english": "I live in a good place.",
-        "french": "J'habite dans un bon endroit."
-      }
-    ]
-  },
-  {
-    "id": "doko",
-    "japanese": "どこ",
-    "hiragana": "どこ",
-    "romaji": "doko",
-    "english": "where",
-    "french": "où",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "interrogative",
-    "examples": [
-      {
-        "japanese": "駅はどこですか？",
-        "hiragana": "えきはどこですか？",
-        "romaji": "Eki wa doko desu ka?",
-        "english": "Where is the station?",
-        "french": "Où est la gare ?"
-      }
-    ]
-  },
-  {
-    "id": "dokoka",
-    "japanese": "どこか",
-    "hiragana": "どこか",
-    "romaji": "dokoka",
-    "english": "somewhere",
-    "french": "quelque part",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "どこかに財布を忘れました。",
-        "hiragana": "どこかにさいふをわすれました。",
-        "romaji": "Dokoka ni saifu o wasuremashita.",
-        "english": "I forgot my wallet somewhere.",
-        "french": "J'ai oublié mon portefeuille quelque part."
+  "japanese": "電気",
+  "hiragana": "でんき",
+  "romaji": "denki",
+  "english": "electricity, light",
+  "french": "électricité, lumière",
+  "german": "Elektrizität, Licht",
+  "vietnamese": "điện, ánh sáng",
+  "chinese": "电, 灯光",
+  "korean": "전기, 불",
+  "spanish": "electricidad, luz",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "imageUrl": "electricityImage",
+  "examples": [
+    {
+      "japanese": "電気を消してください。",
+      "hiragana": "でんきをけしてください。",
+      "romaji": "Denki o keshite kudasai.",
+      "english": "Please turn off the light.",
+      "french": "Éteignez la lumière, s'il vous plaît.",
+      "german": "Bitte machen Sie das Licht aus.",
+      "vietnamese": "Xin hãy tắt đèn.",
+      "chinese": "请关灯。",
+      "korean": "불을 꺼주세요.",
+      "spanish": "Por favor, apaga la luz."
+    }
+  ]
+},
+{
+  "id": "densha",
+  "japanese": "電車",
+  "hiragana": "でんしゃ",
+  "romaji": "densha",
+  "english": "train",
+  "french": "train",
+  "german": "Zug",
+  "vietnamese": "tàu điện",
+  "chinese": "电车, 火车",
+  "korean": "전철, 기차",
+  "spanish": "tren",
+  "level": "N5",
+  "category": "transport",
+  "wordType": "noun",
+  "imageUrl": "trainImage",
+  "examples": [
+    {
+      "japanese": "毎日電車で通勤します。",
+      "hiragana": "まいにちでんしゃでつうきんします。",
+      "romaji": "Mainichi densha de tsuukin shimasu.",
+      "english": "I commute by train every day.",
+      "french": "Je vais au travail en train tous les jours.",
+      "german": "Ich fahre jeden Tag mit dem Zug zur Arbeit.",
+      "vietnamese": "Tôi đi làm bằng tàu điện mỗi ngày.",
+      "chinese": "我每天坐电车通勤。",
+      "korean": "나는 매일 전철로 출근합니다.",
+      "spanish": "Viajo en tren al trabajo todos los días."
+    }
+  ]
+},
+{
+  "id": "denwa",
+  "japanese": "電話",
+  "hiragana": "でんわ",
+  "romaji": "denwa",
+  "english": "telephone",
+  "french": "téléphone",
+  "german": "Telefon",
+  "vietnamese": "điện thoại",
+  "chinese": "电话",
+  "korean": "전화",
+  "spanish": "teléfono",
+  "level": "N5",
+  "category": "communication",
+  "wordType": "noun",
+  "imageUrl": "phoneImage",
+  "examples": [
+    {
+      "japanese": "友達に電話しました。",
+      "hiragana": "ともだちにでんわしました。",
+      "romaji": "Tomodachi ni denwa shimashita.",
+      "english": "I called my friend.",
+      "french": "J'ai téléphoné à mon ami.",
+      "german": "Ich habe meinen Freund angerufen.",
+      "vietnamese": "Tôi đã gọi điện cho bạn tôi.",
+      "chinese": "我给朋友打了电话。",
+      "korean": "나는 친구에게 전화를 했습니다.",
+      "spanish": "Llamé a mi amigo."
+    }
+  ]
+},
+{
+  "id": "denwa_bangou",
+  "japanese": "電話番号",
+  "hiragana": "でんわばんごう",
+  "romaji": "denwa bangou",
+  "english": "phone number",
+  "french": "numéro de téléphone",
+  "german": "Telefonnummer",
+  "vietnamese": "số điện thoại",
+  "chinese": "电话号码",
+  "korean": "전화번호",
+  "spanish": "número de teléfono",
+  "level": "N5",
+  "category": "communication",
+  "wordType": "noun",
+  "imageUrl": "phonenumberImage",
+  "examples": [
+    {
+      "japanese": "電話番号を教えてください。",
+      "hiragana": "でんわばんごうをおしえてください。",
+      "romaji": "Denwa bangou o oshiete kudasai.",
+      "english": "Please tell me your phone number.",
+      "french": "Donnez-moi votre numéro de téléphone.",
+      "german": "Bitte geben Sie mir Ihre Telefonnummer.",
+      "vietnamese": "Xin cho tôi số điện thoại của bạn.",
+      "chinese": "请告诉我你的电话号码。",
+      "korean": "전화번호를 알려주세요.",
+      "spanish": "Por favor, dime tu número de teléfono."
+    }
+  ]
+},
+{
+  "id": "deru",
+  "japanese": "出る",
+  "hiragana": "でる",
+  "romaji": "deru",
+  "english": "to go out, to leave",
+  "french": "sortir, quitter",
+  "german": "hinausgehen, verlassen",
+  "vietnamese": "ra ngoài, rời đi",
+  "chinese": "出去, 离开",
+  "korean": "나가다, 떠나다",
+  "spanish": "salir, dejar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "toleaveImage",
+  "examples": [
+    {
+      "japanese": "8時に家を出ます。",
+      "hiragana": "はちじにいえをでます。",
+      "romaji": "Hachiji ni ie o demasu.",
+      "english": "I leave the house at 8 o'clock.",
+      "french": "Je quitte la maison à 8 heures.",
+      "german": "Ich verlasse das Haus um 8 Uhr.",
+      "vietnamese": "Tôi rời nhà lúc 8 giờ.",
+      "chinese": "我八点离开家。",
+      "korean": "나는 8시에 집을 나갑니다.",
+      "spanish": "Salgo de casa a las 8 en punto."
+    }
+  ]
+},
+{
+  "id": "dezain",
+  "japanese": "デザイン",
+  "hiragana": "でざいん",
+  "romaji": "dezain",
+  "english": "design",
+  "french": "design",
+  "german": "Design",
+  "vietnamese": "thiết kế",
+  "chinese": "设计",
+  "korean": "디자인",
+  "spanish": "diseño",
+  "level": "N5",
+  "category": "art",
+  "wordType": "noun",
+  "imageUrl": "designImage",
+  "examples": [
+    {
+      "japanese": "この椅子のデザインはモダンです。",
+      "hiragana": "このいすのでざいんはもだんです。",
+      "romaji": "Kono isu no dezain wa modan desu.",
+      "english": "The design of this chair is modern.",
+      "french": "Le design de cette chaise est moderne.",
+      "german": "Das Design dieses Stuhls ist modern.",
+      "vietnamese": "Thiết kế của chiếc ghế này rất hiện đại.",
+      "chinese": "这把椅子的设计很现代。",
+      "korean": "이 의자의 디자인은 현대적입니다.",
+      "spanish": "El diseño de esta silla es moderno."
+    }
+  ]
+},
+{
+  "id": "dezaato",
+  "japanese": "デザート",
+  "hiragana": "でざーと",
+  "romaji": "dezaato",
+  "english": "dessert",
+  "french": "dessert",
+  "german": "Nachtisch",
+  "vietnamese": "món tráng miệng",
+  "chinese": "甜点",
+  "korean": "디저트",
+  "spanish": "postre",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "imageUrl": "dessertImage",
+  "examples": [
+    {
+      "japanese": "デザートに果物を食べました。",
+      "hiragana": "でざーとにくだものをたべました。",
+      "romaji": "Dezaato ni kudamono o tabemashita.",
+      "english": "I ate fruit for dessert.",
+      "french": "J'ai mangé des fruits en dessert.",
+      "german": "Ich habe Obst zum Nachtisch gegessen.",
+      "vietnamese": "Tôi đã ăn trái cây làm món tráng miệng.",
+      "chinese": "我吃了水果当甜点。",
+      "korean": "나는 디저트로 과일을 먹었습니다.",
+      "spanish": "Comí fruta de postre."
+    }
+  ]
+},
+{
+  "id": "dezunii",
+  "japanese": "ディズニー",
+  "hiragana": "でぃずにー",
+  "romaji": "dizunii",
+  "english": "Disney",
+  "french": "Disney",
+  "german": "Disney",
+  "vietnamese": "Disney",
+  "chinese": "迪士尼",
+  "korean": "디즈니",
+  "spanish": "Disney",
+  "level": "N5",
+  "category": "culture",
+  "wordType": "noun",
+  "imageUrl": "disneyImage",
+  "examples": [
+    {
+      "japanese": "彼女はディズニーが大好きです。",
+      "hiragana": "かのじょはでぃずにーがだいすきです。",
+      "romaji": "Kanojo wa dizunii ga daisuki desu.",
+      "english": "She loves Disney.",
+      "french": "Elle adore Disney.",
+      "german": "Sie liebt Disney.",
+      "vietnamese": "Cô ấy rất thích Disney.",
+      "chinese": "她非常喜欢迪士尼。",
+      "korean": "그녀는 디즈니를 매우 좋아합니다.",
+      "spanish": "A ella le encanta Disney."
+    }
+  ]
+},
+{
+  "id": "doa",
+  "japanese": "ドア",
+  "hiragana": "どあ",
+  "romaji": "doa",
+  "english": "door",
+  "french": "porte",
+  "german": "Tür",
+  "vietnamese": "cửa",
+  "chinese": "门",
+  "korean": "문",
+  "spanish": "puerta",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "imageUrl": "doorImage",
+  "examples": [
+    {
+      "japanese": "ドアを閉めてください。",
+      "hiragana": "どあをしめてください。",
+      "romaji": "Doa o shimete kudasai.",
+      "english": "Please close the door.",
+      "french": "Fermez la porte, s'il vous plaît.",
+      "german": "Bitte schließen Sie die Tür.",
+      "vietnamese": "Làm ơn đóng cửa.",
+      "chinese": "请关门。",
+      "korean": "문을 닫아주세요.",
+      "spanish": "Por favor, cierra la puerta."
+    }
+  ]
+},
+{
+  "id": "doitsugo",
+  "japanese": "ドイツ語",
+  "hiragana": "どいつご",
+  "romaji": "doitsugo",
+  "english": "German (language)",
+  "french": "allemand (langue)",
+  "german": "Deutsch",
+  "vietnamese": "tiếng Đức",
+  "chinese": "德语",
+  "korean": "독일어",
+  "spanish": "alemán",
+  "level": "N5",
+  "category": "language",
+  "wordType": "noun",
+  "imageUrl": "germanlanguageImage",
+  "examples": [
+    {
+      "japanese": "ドイツ語を習っています。",
+      "hiragana": "どいつごをならっています。",
+      "romaji": "Doitsugo o naratte imasu.",
+      "english": "I am learning German.",
+      "french": "J'apprends l'allemand.",
+      "german": "Ich lerne Deutsch.",
+      "vietnamese": "Tôi đang học tiếng Đức.",
+      "chinese": "我在学习德语。",
+      "korean": "나는 독일어를 배우고 있습니다.",
+      "spanish": "Estoy aprendiendo alemán."
+    }
+  ]
+},
+{
+  "id": "dokoro",
+  "japanese": "所",
+  "hiragana": "ところ",
+  "romaji": "tokoro",
+  "english": "place",
+  "french": "endroit, lieu",
+  "german": "Ort, Stelle",
+  "vietnamese": "nơi, chỗ",
+  "chinese": "地方",
+  "korean": "곳, 장소",
+  "spanish": "lugar, sitio",
+  "level": "N5",
+  "category": "location",
+  "wordType": "noun",
+  "imageUrl": "placeImage",
+  "examples": [
+    {
+      "japanese": "良い所に住んでいます。",
+      "hiragana": "いいところにすんでいます。",
+      "romaji": "Ii tokoro ni sunde imasu.",
+      "english": "I live in a good place.",
+      "french": "J'habite dans un bon endroit.",
+      "german": "Ich wohne an einem guten Ort.",
+      "vietnamese": "Tôi sống ở một nơi tốt.",
+      "chinese": "我住在一个好地方。",
+      "korean": "나는 좋은 곳에 살고 있습니다.",
+      "spanish": "Vivo en un buen lugar."
+    }
+  ]
+},
+{
+  "id": "doko",
+  "japanese": "どこ",
+  "hiragana": "どこ",
+  "romaji": "doko",
+  "english": "where",
+  "french": "où",
+  "german": "wo",
+  "vietnamese": "ở đâu",
+  "chinese": "哪里",
+  "korean": "어디",
+  "spanish": "dónde",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "interrogative",
+  "imageUrl": "whereImage",
+  "examples": [
+    {
+      "japanese": "駅はどこですか？",
+      "hiragana": "えきはどこですか？",
+      "romaji": "Eki wa doko desu ka?",
+      "english": "Where is the station?",
+      "french": "Où est la gare ?",
+      "german": "Wo ist der Bahnhof?",
+      "vietnamese": "Nhà ga ở đâu?",
+      "chinese": "车站在哪里？",
+      "korean": "역이 어디에 있습니까?",
+      "spanish": "¿Dónde está la estación?"
+    }
+  ]
+},
+{
+  "id": "dokoka",
+  "japanese": "どこか",
+  "hiragana": "どこか",
+  "romaji": "dokoka",
+  "english": "somewhere",
+  "french": "quelque part",
+  "german": "irgendwo",
+  "vietnamese": "ở đâu đó",
+  "chinese": "某处",
+  "korean": "어딘가",
+  "spanish": "en algún lugar",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adverb",
+  "imageUrl": "somewhereImage",
+  "examples": [
+    {
+      "japanese": "どこかに財布を忘れました。",
+      "hiragana": "どこかにさいふをわすれました。",
+      "romaji": "Dokoka ni saifu o wasuremashita.",
+      "english": "I forgot my wallet somewhere.",
+      "french": "J'ai oublié mon portefeuille quelque part.",
+      "german": "Ich habe meine Geldbörse irgendwo vergessen.",
+      "vietnamese": "Tôi đã quên ví ở đâu đó.",
+      "chinese": "我把钱包忘在某个地方了。",
+      "korean": "나는 어딘가에 지갑을 두고 왔습니다.",
+      "spanish": "Olvidé mi cartera en algún lugar."
       }
     ]
   },
   {
     "id": "dokodemo",
-    "japanese": "どこでも",
-    "hiragana": "どこでも",
-    "romaji": "dokodemo",
-    "english": "anywhere",
-    "french": "n'importe où",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "どこでも座ってください。",
-        "hiragana": "どこでもすわってください。",
-        "romaji": "Dokodemo suwatte kudasai.",
-        "english": "Please sit anywhere.",
-        "french": "Asseyez-vous n'importe où."
+  "japanese": "どこでも",
+  "hiragana": "どこでも",
+  "romaji": "dokodemo",
+  "english": "anywhere",
+  "french": "n'importe où",
+  "german": "überall",
+  "vietnamese": "bất cứ đâu",
+  "chinese": "到处, 任何地方",
+  "korean": "어디든지",
+  "spanish": "en cualquier lugar",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adverb",
+  "imageUrl": "anywhereImage",
+  "examples": [
+    {
+      "japanese": "どこでも座ってください。",
+      "hiragana": "どこでもすわってください。",
+      "romaji": "Dokodemo suwatte kudasai.",
+      "english": "Please sit anywhere.",
+      "french": "Asseyez-vous n'importe où.",
+      "german": "Bitte setzen Sie sich irgendwo hin.",
+      "vietnamese": "Xin mời ngồi ở bất cứ đâu.",
+      "chinese": "请随便坐。",
+      "korean": "아무 데나 앉으세요.",
+      "spanish": "Siéntese en cualquier lugar."
+    }
+  ]
+},
+{
+  "id": "dokoka_tabemono",
+  "japanese": "どこか食べ物",
+  "hiragana": "どこかたべもの",
+  "romaji": "dokoka tabemono",
+  "english": "some food somewhere",
+  "french": "quelque nourriture quelque part",
+  "german": "irgendwo etwas Essen",
+  "vietnamese": "một ít đồ ăn ở đâu đó",
+  "chinese": "某处的一些食物",
+  "korean": "어딘가의 음식",
+  "spanish": "algo de comida en algún lugar",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "phrase",
+  "imageUrl": "somefoodImage",
+  "examples": [
+    {
+      "japanese": "どこか食べ物を買いましょう。",
+      "hiragana": "どこかたべものをかいましょう。",
+      "romaji": "Dokoka tabemono o kaimashou.",
+      "english": "Let's buy some food somewhere.",
+      "french": "Achetons de la nourriture quelque part.",
+      "german": "Lass uns irgendwo etwas zu essen kaufen.",
+      "vietnamese": "Chúng ta hãy mua chút đồ ăn ở đâu đó.",
+      "chinese": "我们去买点吃的吧。",
+      "korean": "어딘가에서 음식을 사자.",
+      "spanish": "Compremos algo de comida en algún lugar."
+    }
+  ]
+},
+{
+  "id": "dokubutsu",
+  "japanese": "毒物",
+  "hiragana": "どくぶつ",
+  "romaji": "dokubutsu",
+  "english": "poison",
+  "french": "poison",
+  "german": "Giftstoff",
+  "vietnamese": "chất độc",
+  "chinese": "毒物",
+  "korean": "독물",
+  "spanish": "veneno",
+  "level": "N5",
+  "category": "science",
+  "wordType": "noun",
+  "imageUrl": "poisonImage",
+  "examples": [
+    {
+      "japanese": "毒物を飲んではいけません。",
+      "hiragana": "どくぶつをのんではいけません。",
+      "romaji": "Dokubutsu o nonde wa ikemasen.",
+      "english": "You must not drink poison.",
+      "french": "Il ne faut pas boire du poison.",
+      "german": "Man darf kein Gift trinken.",
+      "vietnamese": "Không được uống chất độc.",
+      "chinese": "不能喝毒物。",
+      "korean": "독물을 마시면 안 됩니다.",
+      "spanish": "No debes beber veneno."
+    }
+  ]
+},
+{
+  "id": "dokuritsu",
+  "japanese": "独立",
+  "hiragana": "どくりつ",
+  "romaji": "dokuritsu",
+  "english": "independence",
+  "french": "indépendance",
+  "german": "Unabhängigkeit",
+  "vietnamese": "độc lập",
+  "chinese": "独立",
+  "korean": "독립",
+  "spanish": "independencia",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "imageUrl": "independenceImage",
+  "examples": [
+    {
+      "japanese": "国の独立を祝います。",
+      "hiragana": "くにのどくりつをいわいます。",
+      "romaji": "Kuni no dokuritsu o iwaimasu.",
+      "english": "We celebrate the country's independence.",
+      "french": "Nous célébrons l'indépendance du pays.",
+      "german": "Wir feiern die Unabhängigkeit des Landes.",
+      "vietnamese": "Chúng tôi kỷ niệm ngày độc lập của đất nước.",
+      "chinese": "我们庆祝国家的独立。",
+      "korean": "우리는 나라의 독립을 축하합니다.",
+      "spanish": "Celebramos la independencia del país."
+    }
+  ]
+},
+{
+  "id": "dokusho",
+  "japanese": "読書",
+  "hiragana": "どくしょ",
+  "romaji": "dokusho",
+  "english": "reading (books)",
+  "french": "lecture (de livres)",
+  "german": "Lesen (von Büchern)",
+  "vietnamese": "đọc sách",
+  "chinese": "读书",
+  "korean": "독서",
+  "spanish": "lectura (de libros)",
+  "level": "N5",
+  "category": "hobby",
+  "wordType": "noun",
+  "imageUrl": "readingImage",
+  "examples": [
+    {
+      "japanese": "私の趣味は読書です。",
+      "hiragana": "わたしのしゅみはどくしょです。",
+      "romaji": "Watashi no shumi wa dokusho desu.",
+      "english": "My hobby is reading.",
+      "french": "Mon passe-temps est la lecture.",
+      "german": "Mein Hobby ist das Lesen.",
+      "vietnamese": "Sở thích của tôi là đọc sách.",
+      "chinese": "我的爱好是读书。",
+      "korean": "내 취미는 독서입니다.",
+      "spanish": "Mi pasatiempo es la lectura."
+    }
+  ]
+},
+{
+  "id": "dokushin",
+  "japanese": "独身",
+  "hiragana": "どくしん",
+  "romaji": "dokushin",
+  "english": "single, unmarried",
+  "french": "célibataire",
+  "german": "ledig, unverheiratet",
+  "vietnamese": "độc thân",
+  "chinese": "单身",
+  "korean": "독신, 미혼",
+  "spanish": "soltero",
+  "level": "N5",
+  "category": "status",
+  "wordType": "adjective",
+  "imageUrl": "singleImage",
+  "examples": [
+    {
+      "japanese": "彼はまだ独身です。",
+      "hiragana": "かれはまだどくしんです。",
+      "romaji": "Kare wa mada dokushin desu.",
+      "english": "He is still single.",
+      "french": "Il est encore célibataire.",
+      "german": "Er ist noch ledig.",
+      "vietnamese": "Anh ấy vẫn còn độc thân.",
+      "chinese": "他还是单身。",
+      "korean": "그는 아직 독신입니다.",
+      "spanish": "Él todavía es soltero."
+    }
+  ]
+},
+{
+  "id": "dokutoku",
+  "japanese": "独特",
+  "hiragana": "どくとく",
+  "romaji": "dokutoku",
+  "english": "unique, peculiar",
+  "french": "unique, particulier",
+  "german": "eigenartig, einzigartig",
+  "vietnamese": "đặc biệt, độc đáo",
+  "chinese": "独特",
+  "korean": "독특하다",
+  "spanish": "único, peculiar",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "imageUrl": "uniqueImage",
+  "examples": [
+    {
+      "japanese": "彼の絵は独特です。",
+      "hiragana": "かれのえはどくとくです。",
+      "romaji": "Kare no e wa dokutoku desu.",
+      "english": "His paintings are unique.",
+      "french": "Ses peintures sont uniques.",
+      "german": "Seine Bilder sind einzigartig.",
+      "vietnamese": "Tranh của anh ấy rất độc đáo.",
+      "chinese": "他的画很独特。",
+      "korean": "그의 그림은 독특합니다.",
+      "spanish": "Sus pinturas son únicas."
+    }
+  ]
+},
+{
+  "id": "dokutoku_na",
+  "japanese": "独特な",
+  "hiragana": "どくとくな",
+  "romaji": "dokutoku na",
+  "english": "unique (na-adjective)",
+  "french": "particulier, original",
+  "german": "eigenartig, originell",
+  "vietnamese": "độc đáo (tính từ na)",
+  "chinese": "独特的",
+  "korean": "독특한",
+  "spanish": "particular, original",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "imageUrl": "uniqueadjImage",
+  "examples": [
+    {
+      "japanese": "日本料理は独特な味があります。",
+      "hiragana": "にほんりょうりはどくとくなあじがあります。",
+      "romaji": "Nihon ryouri wa dokutoku na aji ga arimasu.",
+      "english": "Japanese food has a unique taste.",
+      "french": "La cuisine japonaise a un goût particulier.",
+      "german": "Die japanische Küche hat einen einzigartigen Geschmack.",
+      "vietnamese": "Ẩm thực Nhật Bản có hương vị độc đáo.",
+      "chinese": "日本料理有独特的味道。",
+      "korean": "일본 요리는 독특한 맛이 있습니다.",
+      "spanish": "La comida japonesa tiene un sabor particular."
+    }
+  ]
+},
+{
+  "id": "dore",
+  "japanese": "どれ",
+  "hiragana": "どれ",
+  "romaji": "dore",
+  "english": "which (one)",
+  "french": "lequel",
+  "german": "welcher",
+  "vietnamese": "cái nào",
+  "chinese": "哪个",
+  "korean": "어느 것",
+  "spanish": "cuál",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "interrogative",
+  "imageUrl": "whichoneImage",
+  "examples": [
+    {
+      "japanese": "どれが好きですか？",
+      "hiragana": "どれがすきですか？",
+      "romaji": "Dore ga suki desu ka?",
+      "english": "Which one do you like?",
+      "french": "Lequel aimes-tu ?",
+      "german": "Welchen magst du?",
+      "vietnamese": "Bạn thích cái nào?",
+      "chinese": "你喜欢哪个？",
+      "korean": "어느 것을 좋아합니까?",
+      "spanish": "¿Cuál te gusta?"
+    }
+  ]
+},
+{
+  "id": "doremo",
+  "japanese": "どれも",
+  "hiragana": "どれも",
+  "romaji": "doremo",
+  "english": "all (of them)",
+  "french": "tous",
+  "german": "alle",
+  "vietnamese": "tất cả",
+  "chinese": "都, 所有",
+  "korean": "모두",
+  "spanish": "todos",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adverb",
+  "imageUrl": "allImage",
+  "examples": [
+    {
+      "japanese": "どれも好きです。",
+      "hiragana": "どれもすきです。",
+      "romaji": "Dore mo suki desu.",
+      "english": "I like all of them.",
+      "french": "Je les aime tous.",
+      "german": "Ich mag sie alle.",
+      "vietnamese": "Tôi thích tất cả.",
+      "chinese": "我都喜欢。",
+      "korean": "나는 모두 좋아합니다.",
+      "spanish": "Me gustan todos."
+    }
+  ]
+},
+{
+  "id": "doryoku",
+  "japanese": "努力",
+  "hiragana": "どりょく",
+  "romaji": "doryoku",
+  "english": "effort",
+  "french": "effort",
+  "german": "Anstrengung",
+  "vietnamese": "nỗ lực",
+  "chinese": "努力",
+  "korean": "노력",
+  "spanish": "esfuerzo",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "imageUrl": "effortImage",
+  "examples": [
+    {
+      "japanese": "努力すれば成功します。",
+      "hiragana": "どりょくすればせいこうします。",
+      "romaji": "Doryoku sureba seikou shimasu.",
+      "english": "If you make an effort, you will succeed.",
+      "french": "Si tu fais des efforts, tu réussiras.",
+      "german": "Wenn du dich anstrengst, wirst du Erfolg haben.",
+      "vietnamese": "Nếu bạn nỗ lực, bạn sẽ thành công.",
+      "chinese": "如果你努力，就会成功。",
+      "korean": "노력하면 성공할 것입니다.",
+      "spanish": "Si te esfuerzas, tendrás éxito."
+    }
+  ]
+},
+{
+  "id": "doushite",
+  "japanese": "どうして",
+  "hiragana": "どうして",
+  "romaji": "doushite",
+  "english": "why",
+  "french": "pourquoi",
+  "german": "warum",
+  "vietnamese": "tại sao",
+  "chinese": "为什么",
+  "korean": "왜",
+  "spanish": "por qué",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "interrogative",
+  "imageUrl": "whyImage",
+  "examples": [
+    {
+      "japanese": "どうして遅れたのですか？",
+      "hiragana": "どうしておくれたのですか？",
+      "romaji": "Doushite okureta no desu ka?",
+      "english": "Why were you late?",
+      "french": "Pourquoi es-tu en retard ?",
+      "german": "Warum bist du zu spät?",
+      "vietnamese": "Tại sao bạn đến muộn?",
+      "chinese": "你为什么迟到了？",
+      "korean": "왜 늦었습니까?",
+      "spanish": "¿Por qué llegaste tarde?"
+    }
+  ]
+},
+{
+  "id": "douzo",
+  "japanese": "どうぞ",
+  "hiragana": "どうぞ",
+  "romaji": "douzo",
+  "english": "please, here you go",
+  "french": "s'il vous plaît, je vous en prie",
+  "german": "bitte, hier bitte",
+  "vietnamese": "xin mời",
+  "chinese": "请, 给你",
+  "korean": "부디, 여기 있습니다",
+  "spanish": "por favor, aquí tienes",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "phrase",
+  "imageUrl": "pleaseImage",
+  "examples": [
+    {
+      "japanese": "どうぞお入りください。",
+      "hiragana": "どうぞおはいりください。",
+      "romaji": "Douzo ohairi kudasai.",
+      "english": "Please come in.",
+      "french": "Je vous en prie, entrez.",
+      "german": "Bitte treten Sie ein.",
+      "vietnamese": "Xin mời vào.",
+      "chinese": "请进。",
+      "korean": "들어오세요.",
+      "spanish": "Por favor, pase."
+    }
+  ]
+},
+{
+  "id": "doubutsu",
+  "japanese": "動物",
+  "hiragana": "どうぶつ",
+  "romaji": "doubutsu",
+  "english": "animal",
+  "french": "animal",
+  "german": "Tier",
+  "vietnamese": "động vật",
+  "chinese": "动物",
+  "korean": "동물",
+  "spanish": "animal",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "imageUrl": "animalImage",
+  "examples": [
+    {
+      "japanese": "動物が好きです。",
+      "hiragana": "どうぶつがすきです。",
+      "romaji": "Doubutsu ga suki desu.",
+      "english": "I like animals.",
+      "french": "J'aime les animaux.",
+      "german": "Ich mag Tiere.",
+      "vietnamese": "Tôi thích động vật.",
+      "chinese": "我喜欢动物。",
+      "korean": "나는 동물을 좋아합니다.",
+      "spanish": "Me gustan los animales."
       }
     ]
   },
   {
-    "id": "dokoka_tabemono",
-    "japanese": "どこか食べ物",
-    "hiragana": "どこかたべもの",
-    "romaji": "dokoka tabemono",
-    "english": "some food somewhere",
-    "french": "quelque nourriture quelque part",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "phrase",
-    "examples": [
-      {
-        "japanese": "どこか食べ物を買いましょう。",
-        "hiragana": "どこかたべものをかいましょう。",
-        "romaji": "Dokoka tabemono o kaimashou.",
-        "english": "Let's buy some food somewhere.",
-        "french": "Achetons de la nourriture quelque part."
+     "id": "doubutsuen",
+  "japanese": "動物園",
+  "hiragana": "どうぶつえん",
+  "romaji": "doubutsuen",
+  "english": "zoo",
+  "french": "zoo",
+  "german": "Zoo",
+  "vietnamese": "vườn thú",
+  "chinese": "动物园",
+  "korean": "동물원",
+  "spanish": "zoológico",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "imageUrl": "zooImage",
+  "examples": [
+    {
+      "japanese": "動物園に行きました。",
+      "hiragana": "どうぶつえんにいきました。",
+      "romaji": "Doubutsuen ni ikimashita.",
+      "english": "I went to the zoo.",
+      "french": "Je suis allé au zoo.",
+      "german": "Ich bin in den Zoo gegangen.",
+      "vietnamese": "Tôi đã đi sở thú.",
+      "chinese": "我去了动物园。",
+      "korean": "나는 동물원에 갔습니다.",
+      "spanish": "Fui al zoológico."
+    }
+  ]
+},
+{
+  "id": "dougu",
+  "japanese": "道具",
+  "hiragana": "どうぐ",
+  "romaji": "dougu",
+  "english": "tool",
+  "french": "outil",
+  "german": "Werkzeug",
+  "vietnamese": "dụng cụ",
+  "chinese": "工具",
+  "korean": "도구",
+  "spanish": "herramienta",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "imageUrl": "toolImage",
+  "examples": [
+    {
+      "japanese": "新しい道具を買いました。",
+      "hiragana": "あたらしいどうぐをかいました。",
+      "romaji": "Atarashii dougu o kaimashita.",
+      "english": "I bought new tools.",
+      "french": "J'ai acheté de nouveaux outils.",
+      "german": "Ich habe neue Werkzeuge gekauft.",
+      "vietnamese": "Tôi đã mua dụng cụ mới.",
+      "chinese": "我买了新工具。",
+      "korean": "나는 새 도구를 샀습니다.",
+      "spanish": "Compré nuevas herramientas."
+    }
+  ]
+},
+{
+  "id": "douro",
+  "japanese": "道路",
+  "hiragana": "どうろ",
+  "romaji": "douro",
+  "english": "road",
+  "french": "route",
+  "german": "Straße",
+  "vietnamese": "đường",
+  "chinese": "道路",
+  "korean": "도로",
+  "spanish": "carretera",
+  "level": "N5",
+  "category": "transport",
+  "wordType": "noun",
+  "imageUrl": "roadImage",
+  "examples": [
+    {
+      "japanese": "道路を渡ります。",
+      "hiragana": "どうろをわたります。",
+      "romaji": "Douro o watarimasu.",
+      "english": "I cross the road.",
+      "french": "Je traverse la route.",
+      "german": "Ich überquere die Straße.",
+      "vietnamese": "Tôi băng qua đường.",
+      "chinese": "我过马路。",
+      "korean": "나는 도로를 건넙니다.",
+      "spanish": "Cruzo la carretera."
+    }
+  ]
+},
+{
+  "id": "fuku",
+  "japanese": "服",
+  "hiragana": "ふく",
+  "romaji": "fuku",
+  "english": "clothes",
+  "french": "vêtements",
+  "german": "Kleidung",
+  "vietnamese": "quần áo",
+  "chinese": "衣服",
+  "korean": "옷",
+  "spanish": "ropa",
+  "level": "N5",
+  "category": "clothing",
+  "wordType": "noun",
+  "imageUrl": "clothesImage",
+  "examples": [
+    {
+      "japanese": "新しい服を着ました。",
+      "hiragana": "あたらしいふくをきました。",
+      "romaji": "Atarashii fuku o kimashita.",
+      "english": "I wore new clothes.",
+      "french": "J'ai mis des vêtements neufs.",
+      "german": "Ich habe neue Kleidung getragen.",
+      "vietnamese": "Tôi đã mặc quần áo mới.",
+      "chinese": "我穿了新衣服。",
+      "korean": "나는 새 옷을 입었습니다.",
+      "spanish": "Me puse ropa nueva."
+    }
+  ]
+},
+{
+  "id": "heya",
+  "japanese": "部屋",
+  "hiragana": "へや",
+  "romaji": "heya",
+  "english": "room",
+  "french": "chambre",
+  "german": "Zimmer",
+  "vietnamese": "phòng",
+  "chinese": "房间",
+  "korean": "방",
+  "spanish": "habitación",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "imageUrl": "roomImage",
+  "examples": [
+    {
+      "japanese": "部屋を掃除しました。",
+      "hiragana": "へやをそうじしました。",
+      "romaji": "Heya o souji shimashita.",
+      "english": "I cleaned the room.",
+      "french": "J'ai nettoyé la chambre.",
+      "german": "Ich habe das Zimmer geputzt.",
+      "vietnamese": "Tôi đã dọn dẹp phòng.",
+      "chinese": "我打扫了房间。",
+      "korean": "나는 방을 청소했습니다.",
+      "spanish": "Limpié la habitación."
+    }
+  ]
+},
+{
+  "id": "mizu_new",
+  "japanese": "水",
+  "hiragana": "みず",
+  "romaji": "mizu",
+  "english": "water",
+  "french": "eau",
+  "german": "Wasser",
+  "vietnamese": "nước",
+  "chinese": "水",
+  "korean": "물",
+  "spanish": "agua",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "imageUrl": "waterImage",
+  "examples": [
+    {
+      "japanese": "水を飲みます。",
+      "hiragana": "みずをのみます。",
+      "romaji": "Mizu o nomimasu.",
+      "english": "I drink water.",
+      "french": "Je bois de l'eau.",
+      "german": "Ich trinke Wasser.",
+      "vietnamese": "Tôi uống nước.",
+      "chinese": "我喝水。",
+      "korean": "나는 물을 마십니다.",
+      "spanish": "Bebo agua."
+    }
+  ]
+},
+{
+  "id": "hana",
+  "japanese": "花",
+  "hiragana": "はな",
+  "romaji": "hana",
+  "english": "flower",
+  "french": "fleur",
+  "german": "Blume",
+  "vietnamese": "hoa",
+  "chinese": "花",
+  "korean": "꽃",
+  "spanish": "flor",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "imageUrl": "flowerImage",
+  "examples": [
+    {
+      "japanese": "花がきれいです。",
+      "hiragana": "はながきれいです。",
+      "romaji": "Hana ga kirei desu.",
+      "english": "The flowers are beautiful.",
+      "french": "Les fleurs sont belles.",
+      "german": "Die Blumen sind schön.",
+      "vietnamese": "Hoa rất đẹp.",
+      "chinese": "花很漂亮。",
+      "korean": "꽃이 예쁩니다.",
+      "spanish": "Las flores son bonitas."
+    }
+  ]
+},
+{
+  "id": "toki",
+  "japanese": "時",
+  "hiragana": "とき",
+  "romaji": "toki",
+  "english": "time, moment",
+  "french": "temps, moment",
+  "german": "Zeit, Moment",
+  "vietnamese": "thời gian, lúc",
+  "chinese": "时间, 时刻",
+  "korean": "시간, 때",
+  "spanish": "tiempo, momento",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "imageUrl": "timeImage",
+  "examples": [
+    {
+      "japanese": "学生の時は忙しかったです。",
+      "hiragana": "がくせいのときはいそがしかったです。",
+      "romaji": "Gakusei no toki wa isogashikatta desu.",
+      "english": "I was busy when I was a student.",
+      "french": "J'étais occupé quand j'étais étudiant.",
+      "german": "Als Student war ich beschäftigt.",
+      "vietnamese": "Thời sinh viên tôi rất bận.",
+      "chinese": "我上学的时候很忙。",
+      "korean": "학생 때는 바빴습니다.",
+      "spanish": "Estaba ocupado cuando era estudiante."
+    }
+  ]
+},
+{
+  "id": "tomodachi",
+  "japanese": "友達",
+  "hiragana": "ともだち",
+  "romaji": "tomodachi",
+  "english": "friend",
+  "french": "ami",
+  "german": "Freund",
+  "vietnamese": "bạn",
+  "chinese": "朋友",
+  "korean": "친구",
+  "spanish": "amigo",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "imageUrl": "friendImage",
+  "examples": [
+    {
+      "japanese": "友達と話しました。",
+      "hiragana": "ともだちとはなしました。",
+      "romaji": "Tomodachi to hanashimashita.",
+      "english": "I talked with a friend.",
+      "french": "J'ai parlé avec un ami.",
+      "german": "Ich habe mit einem Freund gesprochen.",
+      "vietnamese": "Tôi đã nói chuyện với bạn.",
+      "chinese": "我和朋友聊了天。",
+      "korean": "나는 친구와 이야기했습니다.",
+      "spanish": "Hablé con un amigo."
+    }
+  ]
+},
+{
+  "id": "tomodachitachi",
+  "japanese": "友達たち",
+  "hiragana": "ともだちたち",
+  "romaji": "tomodachitachi",
+  "english": "friends",
+  "french": "amis",
+  "german": "Freunde",
+  "vietnamese": "những người bạn",
+  "chinese": "朋友们",
+  "korean": "친구들",
+  "spanish": "amigos",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "imageUrl": "friendsImage",
+  "examples": [
+    {
+      "japanese": "友達たちと旅行しました。",
+      "hiragana": "ともだちたちとりょこうしました。",
+      "romaji": "Tomodachitachi to ryokou shimashita.",
+      "english": "I traveled with friends.",
+      "french": "J'ai voyagé avec mes amis.",
+      "german": "Ich bin mit Freunden gereist.",
+      "vietnamese": "Tôi đã đi du lịch với bạn bè.",
+      "chinese": "我和朋友们一起旅行了。",
+      "korean": "나는 친구들과 여행했습니다.",
+      "spanish": "Viajé con mis amigos."
       }
     ]
   },
   {
-    "id": "dokubutsu",
-    "japanese": "毒物",
-    "hiragana": "どくぶつ",
-    "romaji": "dokubutsu",
-    "english": "poison",
-    "french": "poison",
-    "level": "N5",
-    "category": "science",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "毒物を飲んではいけません。",
-        "hiragana": "どくぶつをのんではいけません。",
-        "romaji": "Dokubutsu o nonde wa ikemasen.",
-        "english": "You must not drink poison.",
-        "french": "Il ne faut pas boire du poison."
-      }
-    ]
-  },
-  {
-    "id": "dokuritsu",
-    "japanese": "独立",
-    "hiragana": "どくりつ",
-    "romaji": "dokuritsu",
-    "english": "independence",
-    "french": "indépendance",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "国の独立を祝います。",
-        "hiragana": "くにのどくりつをいわいます。",
-        "romaji": "Kuni no dokuritsu o iwaimasu.",
-        "english": "We celebrate the country's independence.",
-        "french": "Nous célébrons l'indépendance du pays."
-      }
-    ]
-  },
-  {
-    "id": "dokusho",
-    "japanese": "読書",
-    "hiragana": "どくしょ",
-    "romaji": "dokusho",
-    "english": "reading (books)",
-    "french": "lecture (de livres)",
-    "level": "N5",
-    "category": "hobby",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "私の趣味は読書です。",
-        "hiragana": "わたしのしゅみはどくしょです。",
-        "romaji": "Watashi no shumi wa dokusho desu.",
-        "english": "My hobby is reading.",
-        "french": "Mon passe-temps est la lecture."
-      }
-    ]
-  },
-  {
-    "id": "dokushin",
-    "japanese": "独身",
-    "hiragana": "どくしん",
-    "romaji": "dokushin",
-    "english": "single, unmarried",
-    "french": "célibataire",
-    "level": "N5",
-    "category": "status",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼はまだ独身です。",
-        "hiragana": "かれはまだどくしんです。",
-        "romaji": "Kare wa mada dokushin desu.",
-        "english": "He is still single.",
-        "french": "Il est encore célibataire."
-      }
-    ]
-  },
-  {
-    "id": "dokutoku",
-    "japanese": "独特",
-    "hiragana": "どくとく",
-    "romaji": "dokutoku",
-    "english": "unique, peculiar",
-    "french": "unique, particulier",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼の絵は独特です。",
-        "hiragana": "かれのえはどくとくです。",
-        "romaji": "Kare no e wa dokutoku desu.",
-        "english": "His paintings are unique.",
-        "french": "Ses peintures sont uniques."
-      }
-    ]
-  },
-  {
-    "id": "dokutoku_na",
-    "japanese": "独特な",
-    "hiragana": "どくとくな",
-    "romaji": "dokutoku na",
-    "english": "unique (na-adjective)",
-    "french": "particulier, original",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "日本料理は独特な味があります。",
-        "hiragana": "にほんりょうりはどくとくなあじがあります。",
-        "romaji": "Nihon ryouri wa dokutoku na aji ga arimasu.",
-        "english": "Japanese food has a unique taste.",
-        "french": "La cuisine japonaise a un goût particulier."
-      }
-    ]
-  },
-  {
-    "id": "dore",
-    "japanese": "どれ",
-    "hiragana": "どれ",
-    "romaji": "dore",
-    "english": "which (one)",
-    "french": "lequel",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "interrogative",
-    "examples": [
-      {
-        "japanese": "どれが好きですか？",
-        "hiragana": "どれがすきですか？",
-        "romaji": "Dore ga suki desu ka?",
-        "english": "Which one do you like?",
-        "french": "Lequel aimes-tu ?"
-      }
-    ]
-  },
-  {
-    "id": "doremo",
-    "japanese": "どれも",
-    "hiragana": "どれも",
-    "romaji": "doremo",
-    "english": "all (of them)",
-    "french": "tous",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "どれも好きです。",
-        "hiragana": "どれもすきです。",
-        "romaji": "Dore mo suki desu.",
-        "english": "I like all of them.",
-        "french": "Je les aime tous."
-      }
-    ]
-  },
-  {
-    "id": "doryoku",
-    "japanese": "努力",
-    "hiragana": "どりょく",
-    "romaji": "doryoku",
-    "english": "effort",
-    "french": "effort",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "努力すれば成功します。",
-        "hiragana": "どりょくすればせいこうします。",
-        "romaji": "Doryoku sureba seikou shimasu.",
-        "english": "If you make an effort, you will succeed.",
-        "french": "Si tu fais des efforts, tu réussiras."
-      }
-    ]
-  },
-  {
-    "id": "doushite",
-    "japanese": "どうして",
-    "hiragana": "どうして",
-    "romaji": "doushite",
-    "english": "why",
-    "french": "pourquoi",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "interrogative",
-    "examples": [
-      {
-        "japanese": "どうして遅れたのですか？",
-        "hiragana": "どうしておくれたのですか？",
-        "romaji": "Doushite okureta no desu ka?",
-        "english": "Why were you late?",
-        "french": "Pourquoi es-tu en retard ?"
-      }
-    ]
-  },
-  {
-    "id": "douzo",
-    "japanese": "どうぞ",
-    "hiragana": "どうぞ",
-    "romaji": "douzo",
-    "english": "please, here you go",
-    "french": "s'il vous plaît, je vous en prie",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "phrase",
-    "examples": [
-      {
-        "japanese": "どうぞお入りください。",
-        "hiragana": "どうぞおはいりください。",
-        "romaji": "Douzo ohairi kudasai.",
-        "english": "Please come in.",
-        "french": "Je vous en prie, entrez."
-      }
-    ]
-  },
-  {
-    "id": "doubutsu",
-    "japanese": "動物",
-    "hiragana": "どうぶつ",
-    "romaji": "doubutsu",
-    "english": "animal",
-    "french": "animal",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "動物が好きです。",
-        "hiragana": "どうぶつがすきです。",
-        "romaji": "Doubutsu ga suki desu.",
-        "english": "I like animals.",
-        "french": "J'aime les animaux."
-      }
-    ]
-  },
-  {
-    "id": "doubutsuen",
-    "japanese": "動物園",
-    "hiragana": "どうぶつえん",
-    "romaji": "doubutsuen",
-    "english": "zoo",
-    "french": "zoo",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "動物園に行きました。",
-        "hiragana": "どうぶつえんにいきました。",
-        "romaji": "Doubutsuen ni ikimashita.",
-        "english": "I went to the zoo.",
-        "french": "Je suis allé au zoo."
-      }
-    ]
-  },
-  {
-    "id": "dougu",
-    "japanese": "道具",
-    "hiragana": "どうぐ",
-    "romaji": "dougu",
-    "english": "tool",
-    "french": "outil",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい道具を買いました。",
-        "hiragana": "あたらしいどうぐをかいました。",
-        "romaji": "Atarashii dougu o kaimashita.",
-        "english": "I bought new tools.",
-        "french": "J'ai acheté de nouveaux outils."
-      }
-    ]
-  },
-  {
-    "id": "douro",
-    "japanese": "道路",
-    "hiragana": "どうろ",
-    "romaji": "douro",
-    "english": "road",
-    "french": "route",
-    "level": "N5",
-    "category": "transport",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "道路を渡ります。",
-        "hiragana": "どうろをわたります。",
-        "romaji": "Douro o watarimasu.",
-        "english": "I cross the road.",
-        "french": "Je traverse la route."
-      }
-    ]
-  },
-  {
-    "id": "fuku",
-    "japanese": "服",
-    "hiragana": "ふく",
-    "romaji": "fuku",
-    "english": "clothes",
-    "french": "vêtements",
-    "level": "N5",
-    "category": "clothing",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい服を着ました。",
-        "hiragana": "あたらしいふくをきました。",
-        "romaji": "Atarashii fuku o kimashita.",
-        "english": "I wore new clothes.",
-        "french": "J'ai mis des vêtements neufs."
-      }
-    ]
-  },
-  {
-    "id": "heya",
-    "japanese": "部屋",
-    "hiragana": "へや",
-    "romaji": "heya",
-    "english": "room",
-    "french": "chambre",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "部屋を掃除しました。",
-        "hiragana": "へやをそうじしました。",
-        "romaji": "Heya o souji shimashita.",
-        "english": "I cleaned the room.",
-        "french": "J'ai nettoyé la chambre."
-      }
-    ]
-  },
-  {
-    "id": "mizu_new",
-    "japanese": "水",
-    "hiragana": "みず",
-    "romaji": "mizu",
-    "english": "water",
-    "french": "eau",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "水を飲みます。",
-        "hiragana": "みずをのみます。",
-        "romaji": "Mizu o nomimasu.",
-        "english": "I drink water.",
-        "french": "Je bois de l'eau."
-      }
-    ]
-  },
-  {
-    "id": "hana",
-    "japanese": "花",
-    "hiragana": "はな",
-    "romaji": "hana",
-    "english": "flower",
-    "french": "fleur",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "花がきれいです。",
-        "hiragana": "はながきれいです。",
-        "romaji": "Hana ga kirei desu.",
-        "english": "The flowers are beautiful.",
-        "french": "Les fleurs sont belles."
-      }
-    ]
-  },
-  {
-    "id": "toki",
-    "japanese": "時",
-    "hiragana": "とき",
-    "romaji": "toki",
-    "english": "time, moment",
-    "french": "temps, moment",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "学生の時は忙しかったです。",
-        "hiragana": "がくせいのときはいそがしかったです。",
-        "romaji": "Gakusei no toki wa isogashikatta desu.",
-        "english": "I was busy when I was a student.",
-        "french": "J'étais occupé quand j'étais étudiant."
-      }
-    ]
-  },
-  {
-    "id": "tomodachi",
-    "japanese": "友達",
-    "hiragana": "ともだち",
-    "romaji": "tomodachi",
-    "english": "friend",
-    "french": "ami",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達と話しました。",
-        "hiragana": "ともだちとはなしました。",
-        "romaji": "Tomodachi to hanashimashita.",
-        "english": "I talked with a friend.",
-        "french": "J'ai parlé avec un ami."
-      }
-    ]
-  },
-  {
-    "id": "tomodachitachi",
-    "japanese": "友達たち",
-    "hiragana": "ともだちたち",
-    "romaji": "tomodachitachi",
-    "english": "friends",
-    "french": "amis",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達たちと旅行しました。",
-        "hiragana": "ともだちたちとりょこうしました。",
-        "romaji": "Tomodachitachi to ryokou shimashita.",
-        "english": "I traveled with friends.",
-        "french": "J'ai voyagé avec mes amis."
-      }
-    ]
-  },
-  {
-    "id": "tori",
-    "japanese": "鳥",
-    "hiragana": "とり",
-    "romaji": "tori",
-    "english": "bird",
-    "french": "oiseau",
-    "level": "N5",
-    "category": "animal",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "鳥が空を飛んでいます。",
-        "hiragana": "とりがそらをとんでいます。",
-        "romaji": "Tori ga sora o tonde imasu.",
-        "english": "The bird is flying in the sky.",
-        "french": "L'oiseau vole dans le ciel."
-      }
-    ]
-  },
-  {
-    "id": "toriniku",
-    "japanese": "鶏肉",
-    "hiragana": "とりにく",
-    "romaji": "toriniku",
-    "english": "chicken (meat)",
-    "french": "poulet (viande)",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "鶏肉を食べます。",
-        "hiragana": "とりにくをたべます。",
-        "romaji": "Toriniku o tabemasu.",
-        "english": "I eat chicken.",
-        "french": "Je mange du poulet."
-      }
-    ]
-  },
-  {
-    "id": "toru",
-    "japanese": "取る",
-    "hiragana": "とる",
-    "romaji": "toru",
-    "english": "to take",
-    "french": "prendre",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "写真を取ります。",
-        "hiragana": "しゃしんをとります。",
-        "romaji": "Shashin o torimasu.",
-        "english": "I take a photo.",
-        "french": "Je prends une photo."
-      }
-    ]
-  },
-  {
-    "id": "torikesu",
-    "japanese": "取り消す",
-    "hiragana": "とりけす",
-    "romaji": "torikesu",
-    "english": "to cancel",
-    "french": "annuler",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "予約を取り消しました。",
-        "hiragana": "よやくをとりけしました。",
-        "romaji": "Yoyaku o torikeshimashita.",
-        "english": "I canceled the reservation.",
-        "french": "J'ai annulé la réservation."
-      }
-    ]
-  },
-  {
-    "id": "torinokosu",
-    "japanese": "取り残す",
-    "hiragana": "とりのこす",
-    "romaji": "torinokosu",
-    "english": "to leave behind",
-    "french": "laisser derrière",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "かばんを取り残しました。",
-        "hiragana": "かばんをとりのこしました。",
-        "romaji": "Kaban o torinokoshimashita.",
-        "english": "I left my bag behind.",
-        "french": "J'ai laissé mon sac derrière."
-      }
-    ]
-  },
-  {
-    "id": "toru_yasumi",
-    "japanese": "休みを取る",
-    "hiragana": "やすみをとる",
-    "romaji": "yasumi o toru",
-    "english": "to take a break",
-    "french": "prendre un congé",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "夏休みを取ります。",
-        "hiragana": "なつやすみをとります。",
-        "romaji": "Natsu yasumi o torimasu.",
-        "english": "I take summer vacation.",
-        "french": "Je prends des vacances d'été."
-      }
-    ]
-  },
-  {
-    "id": "toru_kopi",
-    "japanese": "コピーを取る",
-    "hiragana": "こぴーをとる",
-    "romaji": "kopii o toru",
-    "english": "to make a copy",
-    "french": "faire une copie",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "資料のコピーを取ってください。",
-        "hiragana": "しりょうのこぴーをとってください。",
-        "romaji": "Shiryou no kopii o totte kudasai.",
-        "english": "Please make a copy of the documents.",
-        "french": "Faites une copie des documents."
-      }
-    ]
-  },
-  {
-    "id": "toshokan",
-    "japanese": "図書館",
-    "hiragana": "としょかん",
-    "romaji": "toshokan",
-    "english": "library",
-    "french": "bibliothèque",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "図書館で勉強します。",
-        "hiragana": "としょかんでべんきょうします。",
-        "romaji": "Toshokan de benkyou shimasu.",
-        "english": "I study at the library.",
-        "french": "J'étudie à la bibliothèque."
-      }
-    ]
-  },
-  {
-    "id": "toshi",
-    "japanese": "年",
-    "hiragana": "とし",
-    "romaji": "toshi",
-    "english": "year, age",
-    "french": "année, âge",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい年が始まりました。",
-        "hiragana": "あたらしいとしがはじまりました。",
-        "romaji": "Atarashii toshi ga hajimarimashita.",
-        "english": "The new year has started.",
-        "french": "La nouvelle année a commencé."
-      }
-    ]
-  },
-  {
-    "id": "toriatsukai",
-    "japanese": "取り扱い",
-    "hiragana": "とりあつかい",
-    "romaji": "toriatsukai",
-    "english": "handling",
-    "french": "manipulation",
-    "level": "N5",
-    "category": "work",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "火の取り扱いに注意してください。",
-        "hiragana": "ひのとりあつかいにちゅういしてください。",
-        "romaji": "Hi no toriatsukai ni chuui shite kudasai.",
-        "english": "Be careful when handling fire.",
-        "french": "Faites attention en manipulant le feu."
-      }
-    ]
-  },
-  {
-    "id": "torihiki",
-    "japanese": "取引",
-    "hiragana": "とりひき",
-    "romaji": "torihiki",
-    "english": "transaction, deal",
-    "french": "transaction, affaire",
-    "level": "N5",
-    "category": "economy",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "会社と取引をしました。",
-        "hiragana": "かいしゃととりひきをしました。",
-        "romaji": "Kaisha to torihiki o shimashita.",
-        "english": "I made a deal with a company.",
-        "french": "J'ai conclu une affaire avec une entreprise."
-      }
-    ]
-  },
-  {
-    "id": "torikeshi",
-    "japanese": "取消し",
-    "hiragana": "とりけし",
-    "romaji": "torikeshi",
-    "english": "cancellation",
-    "french": "annulation",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "試合は取消しになりました。",
-        "hiragana": "しあいはとりけしになりました。",
-        "romaji": "Shiai wa torikeshi ni narimashita.",
-        "english": "The match was canceled.",
-        "french": "Le match a été annulé."
-      }
-    ]
-  },
-  {
-    "id": "toroku",
-    "japanese": "登録",
-    "hiragana": "とうろく",
-    "romaji": "touroku",
-    "english": "registration",
-    "french": "inscription, enregistrement",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "学校に登録しました。",
-        "hiragana": "がっこうにとうろくしました。",
-        "romaji": "Gakkou ni touroku shimashita.",
-        "english": "I registered at the school.",
-        "french": "Je me suis inscrit à l'école."
-      }
-    ]
-  },
-  {
-    "id": "toru_shashin",
-    "japanese": "写真を撮る",
-    "hiragana": "しゃしんをとる",
-    "romaji": "shashin o toru",
-    "english": "to take a photo",
-    "french": "prendre une photo",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "旅行で写真を撮りました。",
-        "hiragana": "りょこうでしゃしんをとりました。",
-        "romaji": "Ryokou de shashin o torimashita.",
-        "english": "I took pictures during the trip.",
-        "french": "J'ai pris des photos pendant le voyage."
-      }
-    ]
-  },
-  {
-    "id": "toru_mondai",
-    "japanese": "問題を取る",
-    "hiragana": "もんだいをとる",
-    "romaji": "mondai o toru",
-    "english": "to take a problem/question",
-    "french": "prendre une question/problème",
-    "level": "N5",
-    "category": "school",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "テストで難しい問題を取りました。",
-        "hiragana": "てすとでむずかしいもんだいをとりました。",
-        "romaji": "Tesuto de muzukashii mondai o torimashita.",
-        "english": "I took the difficult problem in the test.",
-        "french": "J'ai pris la question difficile à l'examen."
-      }
-    ]
-  },
-  {
-    "id": "toru_tokui",
-    "japanese": "得意を取る",
-    "hiragana": "とくいをとる",
-    "romaji": "tokui o toru",
-    "english": "to take advantage",
-    "french": "profiter, tirer avantage",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼は機会を得意に取りました。",
-        "hiragana": "かれはきかいをとくいにとりました。",
-        "romaji": "Kare wa kikai o tokui ni torimashita.",
-        "english": "He took advantage of the opportunity.",
-        "french": "Il a profité de l'occasion."
-      }
-    ]
-  },
-  {
-    "id": "totte",
-    "japanese": "取って",
-    "hiragana": "とって",
-    "romaji": "totte",
-    "english": "take (imperative)",
-    "french": "prends, prenez",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "それを取ってください。",
-        "hiragana": "それをとってください。",
-        "romaji": "Sore o totte kudasai.",
-        "english": "Please take that.",
-        "french": "Prenez ça, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "totteoku",
-    "japanese": "取っておく",
-    "hiragana": "とっておく",
-    "romaji": "totteoku",
-    "english": "to set aside, save",
-    "french": "mettre de côté, garder",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "お金を取っておきます。",
-        "hiragana": "おかねをとっておきます。",
-        "romaji": "Okane o totte okimasu.",
-        "english": "I will set aside money.",
-        "french": "Je vais mettre de l'argent de côté."
-      }
-    ]
-  },
-  {
-    "id": "totsuzen",
-    "japanese": "突然",
-    "hiragana": "とつぜん",
-    "romaji": "totsuzen",
-    "english": "suddenly",
-    "french": "soudainement",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "突然雨が降りました。",
-        "hiragana": "とつぜんあめがふりました。",
-        "romaji": "Totsuzen ame ga furimashita.",
-        "english": "It suddenly rained.",
-        "french": "Il a soudainement plu."
-      }
-    ]
-  },
-  {
-    "id": "tottemo",
-    "japanese": "とっても",
-    "hiragana": "とっても",
-    "romaji": "tottemo",
-    "english": "very, extremely",
-    "french": "très, extrêmement",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "彼はとっても元気です。",
-        "hiragana": "かれはとってもげんきです。",
-        "romaji": "Kare wa tottemo genki desu.",
-        "english": "He is very energetic.",
-        "french": "Il est très en forme."
-      }
-    ]
-  },
-  {
-    "id": "totteoku_koto",
-    "japanese": "取っておくこと",
-    "hiragana": "とっておくこと",
-    "romaji": "totteoku koto",
-    "english": "something kept aside",
-    "french": "chose mise de côté",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "それは取っておくことにします。",
-        "hiragana": "それはとっておくことにします。",
-        "romaji": "Sore wa totteoku koto ni shimasu.",
-        "english": "I will keep that aside.",
-        "french": "Je vais garder ça de côté."
-      }
-    ]
-  },
-  {
-    "id": "tou",
-    "japanese": "十",
-    "hiragana": "とう",
-    "romaji": "tou",
-    "english": "ten (counter)",
-    "french": "dix",
-    "level": "N5",
-    "category": "number",
-    "wordType": "counter",
-    "examples": [
-      {
-        "japanese": "りんごを十個買いました。",
-        "hiragana": "りんごをとうこかいました。",
-        "romaji": "Ringo o tou ko kaimashita.",
-        "english": "I bought ten apples.",
-        "french": "J'ai acheté dix pommes."
-      }
-    ]
-  },
-  {
-    "id": "tounai",
-    "japanese": "島内",
-    "hiragana": "とうない",
-    "romaji": "tounai",
-    "english": "inside the island",
-    "french": "dans l'île",
-    "level": "N5",
-    "category": "location",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "島内を歩きました。",
-        "hiragana": "とうないをあるきました。",
-        "romaji": "Tounai o arukimashita.",
-        "english": "I walked inside the island.",
-        "french": "J'ai marché dans l'île."
+     "id": "tori",
+  "japanese": "鳥",
+  "hiragana": "とり",
+  "romaji": "tori",
+  "english": "bird",
+  "french": "oiseau",
+  "german": "Vogel",
+  "vietnamese": "chim",
+  "chinese": "鸟",
+  "korean": "새",
+  "spanish": "pájaro",
+  "level": "N5",
+  "category": "animal",
+  "wordType": "noun",
+  "imageUrl": "birdImage",
+  "examples": [
+    {
+      "japanese": "鳥が空を飛んでいます。",
+      "hiragana": "とりがそらをとんでいます。",
+      "romaji": "Tori ga sora o tonde imasu.",
+      "english": "The bird is flying in the sky.",
+      "french": "L'oiseau vole dans le ciel.",
+      "german": "Der Vogel fliegt am Himmel.",
+      "vietnamese": "Con chim đang bay trên trời.",
+      "chinese": "鸟在天空中飞。",
+      "korean": "새가 하늘을 날고 있습니다.",
+      "spanish": "El pájaro vuela en el cielo."
+    }
+  ]
+},
+{
+  "id": "toriniku",
+  "japanese": "鶏肉",
+  "hiragana": "とりにく",
+  "romaji": "toriniku",
+  "english": "chicken (meat)",
+  "french": "poulet (viande)",
+  "german": "Hühnerfleisch",
+  "vietnamese": "thịt gà",
+  "chinese": "鸡肉",
+  "korean": "닭고기",
+  "spanish": "carne de pollo",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "imageUrl": "chickenmeatImage",
+  "examples": [
+    {
+      "japanese": "鶏肉を食べます。",
+      "hiragana": "とりにくをたべます。",
+      "romaji": "Toriniku o tabemasu.",
+      "english": "I eat chicken.",
+      "french": "Je mange du poulet.",
+      "german": "Ich esse Hühnerfleisch.",
+      "vietnamese": "Tôi ăn thịt gà.",
+      "chinese": "我吃鸡肉。",
+      "korean": "나는 닭고기를 먹습니다.",
+      "spanish": "Como pollo."
+    }
+  ]
+},
+{
+  "id": "toru",
+  "japanese": "取る",
+  "hiragana": "とる",
+  "romaji": "toru",
+  "english": "to take",
+  "french": "prendre",
+  "german": "nehmen",
+  "vietnamese": "lấy",
+  "chinese": "拿, 取",
+  "korean": "잡다, 취하다",
+  "spanish": "tomar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "totakeImage",
+  "examples": [
+    {
+      "japanese": "写真を取ります。",
+      "hiragana": "しゃしんをとります。",
+      "romaji": "Shashin o torimasu.",
+      "english": "I take a photo.",
+      "french": "Je prends une photo.",
+      "german": "Ich mache ein Foto.",
+      "vietnamese": "Tôi chụp một bức ảnh.",
+      "chinese": "我拍照片。",
+      "korean": "나는 사진을 찍습니다.",
+      "spanish": "Tomo una foto."
+    }
+  ]
+},
+{
+  "id": "torikesu",
+  "japanese": "取り消す",
+  "hiragana": "とりけす",
+  "romaji": "torikesu",
+  "english": "to cancel",
+  "french": "annuler",
+  "german": "stornieren, absagen",
+  "vietnamese": "hủy bỏ",
+  "chinese": "取消",
+  "korean": "취소하다",
+  "spanish": "cancelar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "tocancelImage",
+  "examples": [
+    {
+      "japanese": "予約を取り消しました。",
+      "hiragana": "よやくをとりけしました。",
+      "romaji": "Yoyaku o torikeshimashita.",
+      "english": "I canceled the reservation.",
+      "french": "J'ai annulé la réservation.",
+      "german": "Ich habe die Reservierung storniert.",
+      "vietnamese": "Tôi đã hủy đặt chỗ.",
+      "chinese": "我取消了预订。",
+      "korean": "나는 예약을 취소했습니다.",
+      "spanish": "Cancelé la reserva."
+    }
+  ]
+},
+{
+  "id": "torinokosu",
+  "japanese": "取り残す",
+  "hiragana": "とりのこす",
+  "romaji": "torinokosu",
+  "english": "to leave behind",
+  "french": "laisser derrière",
+  "german": "zurücklassen",
+  "vietnamese": "bỏ lại phía sau",
+  "chinese": "留下",
+  "korean": "뒤에 남기다",
+  "spanish": "dejar atrás",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "imageUrl": "toleavebehindImage",
+  "examples": [
+    {
+      "japanese": "かばんを取り残しました。",
+      "hiragana": "かばんをとりのこしました。",
+      "romaji": "Kaban o torinokoshimashita.",
+      "english": "I left my bag behind.",
+      "french": "J'ai laissé mon sac derrière.",
+      "german": "Ich habe meine Tasche zurückgelassen.",
+      "vietnamese": "Tôi đã bỏ quên túi lại.",
+      "chinese": "我把包落下了。",
+      "korean": "나는 가방을 두고 왔습니다.",
+      "spanish": "Dejé mi bolso atrás."
+    }
+  ]
+},
+{
+  "id": "toru_yasumi",
+  "japanese": "休みを取る",
+  "hiragana": "やすみをとる",
+  "romaji": "yasumi o toru",
+  "english": "to take a break",
+  "french": "prendre un congé",
+  "german": "Urlaub nehmen, sich ausruhen",
+  "vietnamese": "nghỉ ngơi",
+  "chinese": "休息",
+  "korean": "휴식을 취하다",
+  "spanish": "tomar un descanso",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "verb",
+  "imageUrl": "totakeabreakImage",
+  "examples": [
+    {
+      "japanese": "夏休みを取ります。",
+      "hiragana": "なつやすみをとります。",
+      "romaji": "Natsu yasumi o torimasu.",
+      "english": "I take summer vacation.",
+      "french": "Je prends des vacances d'été.",
+      "german": "Ich nehme Sommerurlaub.",
+      "vietnamese": "Tôi nghỉ hè.",
+      "chinese": "我放暑假。",
+      "korean": "나는 여름휴가를 합니다.",
+      "spanish": "Tomo vacaciones de verano."
+    }
+  ]
+},
+{
+  "id": "toru_kopi",
+  "japanese": "コピーを取る",
+  "hiragana": "こぴーをとる",
+  "romaji": "kopii o toru",
+  "english": "to make a copy",
+  "french": "faire une copie",
+  "german": "eine Kopie machen",
+  "vietnamese": "sao chép",
+  "chinese": "复印",
+  "korean": "복사하다",
+  "spanish": "hacer una copia",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "verb",
+  "imageUrl": "tomakeacopyImage",
+  "examples": [
+    {
+      "japanese": "資料のコピーを取ってください。",
+      "hiragana": "しりょうのこぴーをとってください。",
+      "romaji": "Shiryou no kopii o totte kudasai.",
+      "english": "Please make a copy of the documents.",
+      "french": "Faites une copie des documents.",
+      "german": "Bitte machen Sie eine Kopie der Unterlagen.",
+      "vietnamese": "Hãy sao chép tài liệu.",
+      "chinese": "请复印这些资料。",
+      "korean": "자료를 복사해 주세요.",
+      "spanish": "Por favor, haz una copia de los documentos."
+    }
+  ]
+},
+{
+  "id": "toshokan",
+  "japanese": "図書館",
+  "hiragana": "としょかん",
+  "romaji": "toshokan",
+  "english": "library",
+  "french": "bibliothèque",
+  "german": "Bibliothek",
+  "vietnamese": "thư viện",
+  "chinese": "图书馆",
+  "korean": "도서관",
+  "spanish": "biblioteca",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "imageUrl": "libraryImage",
+  "examples": [
+    {
+      "japanese": "図書館で勉強します。",
+      "hiragana": "としょかんでべんきょうします。",
+      "romaji": "Toshokan de benkyou shimasu.",
+      "english": "I study at the library.",
+      "french": "J'étudie à la bibliothèque.",
+      "german": "Ich lerne in der Bibliothek.",
+      "vietnamese": "Tôi học ở thư viện.",
+      "chinese": "我在图书馆学习。",
+      "korean": "나는 도서관에서 공부합니다.",
+      "spanish": "Estudio en la biblioteca."
+    }
+  ]
+},
+{
+  "id": "toshi",
+  "japanese": "年",
+  "hiragana": "とし",
+  "romaji": "toshi",
+  "english": "year, age",
+  "french": "année, âge",
+  "german": "Jahr, Alter",
+  "vietnamese": "năm, tuổi",
+  "chinese": "年, 年龄",
+  "korean": "년, 나이",
+  "spanish": "año, edad",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "imageUrl": "yearImage",
+  "examples": [
+    {
+      "japanese": "新しい年が始まりました。",
+      "hiragana": "あたらしいとしがはじまりました。",
+      "romaji": "Atarashii toshi ga hajimarimashita.",
+      "english": "The new year has started.",
+      "french": "La nouvelle année a commencé.",
+      "german": "Das neue Jahr hat begonnen.",
+      "vietnamese": "Năm mới đã bắt đầu.",
+      "chinese": "新的一年开始了。",
+      "korean": "새해가 시작되었습니다.",
+      "spanish": "El nuevo año ha comenzado."
+    }
+  ]
+},
+{
+  "id": "tounai",
+  "japanese": "島内",
+  "hiragana": "とうない",
+  "romaji": "tounai",
+  "english": "inside the island",
+  "french": "dans l'île",
+  "german": "auf der Insel, innerhalb der Insel",
+  "vietnamese": "trong đảo",
+  "chinese": "岛内",
+  "korean": "섬 안",
+  "spanish": "dentro de la isla",
+  "level": "N5",
+  "category": "location",
+  "wordType": "noun",
+  "imageUrl": "insideislandImage",
+  "examples": [
+    {
+      "japanese": "島内を歩きました。",
+      "hiragana": "とうないをあるきました。",
+      "romaji": "Tounai o arukimashita.",
+      "english": "I walked inside the island.",
+      "french": "J'ai marché dans l'île.",
+      "german": "Ich bin auf der Insel herumgelaufen.",
+      "vietnamese": "Tôi đã đi bộ trong đảo.",
+      "chinese": "我在岛内走了走。",
+      "korean": "나는 섬 안을 걸었습니다.",
+      "spanish": "Caminé dentro de la isla."
       }
     ]
   },
