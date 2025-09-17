@@ -185,6 +185,12 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                   alt={translation}
                   className="w-full h-full object-cover animate-fade-in"
                 />
+              ) : word.imageUrl ? (
+                <img 
+                  src={word.imageUrl} 
+                  alt={translation}
+                  className="w-full h-full object-cover"
+                />
               ) : LeonardoImageService.getApiKey() ? (
                 <div 
                   className="w-full h-full flex flex-col items-center justify-center bg-primary/5 cursor-pointer hover:bg-primary/10 transition-colors group"
