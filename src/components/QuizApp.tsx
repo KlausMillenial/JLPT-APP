@@ -21,16 +21,15 @@ interface QuizSettings {
 interface QuizAppProps {
   selectedLanguage?: LanguageOption;
   vocabularyData?: any[];
-  isInverseMode?: boolean;
 }
 
-export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData, isInverseMode = false }: QuizAppProps) => {
+export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: QuizAppProps) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Array<{ correct: boolean; question: any; userAnswer: string; correctAnswer: string }>>([]);
   const [showResults, setShowResults] = useState(false);
   const [settings, setSettings] = useState<QuizSettings>({
-    type: isInverseMode ? 'target-to-japanese' : 'mixed',
+    type: 'mixed',
     questionCount: 10,
     categories: ['all'],
     levels: ['all'],
@@ -143,15 +142,10 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
           <div className="container mx-auto px-4 text-center">
             <div className="flex justify-center items-center gap-3 mb-4">
               <Brain className="w-10 h-10" />
-              <h1 className="text-4xl md:text-5xl font-bold">
-                JLPT Quiz {isInverseMode ? '(Inverse Mode)' : ''}
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold">JLPT Quiz</h1>
             </div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              {isInverseMode 
-                ? 'Test your Japanese vocabulary knowledge with target language to Japanese quizzes'
-                : 'Test your Japanese vocabulary knowledge with interactive quizzes'
-              }
+              Test your Japanese vocabulary knowledge with interactive quizzes
             </p>
           </div>
         </header>
@@ -250,9 +244,7 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Brain className="w-8 h-8" />
-              <h1 className="text-2xl font-bold">
-                JLPT Quiz {isInverseMode ? '(Inverse)' : ''}
-              </h1>
+              <h1 className="text-2xl font-bold">JLPT Quiz</h1>
             </div>
             <Button 
               variant="outline" 
