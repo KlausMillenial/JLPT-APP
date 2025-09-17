@@ -7674,661 +7674,601 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     "id": "shimeru",
-    "japanese": "閉める",
-    "hiragana": "しめる",
-    "romaji": "shimeru",
-    "english": "to close",
-    "french": "fermer",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "ドアを閉めてください。",
-        "hiragana": "どあをしめてください。",
-        "romaji": "Doa o shimete kudasai.",
-        "english": "Please close the door.",
-        "french": "Fermez la porte, s'il vous plaît."
+  "japanese": "閉める",
+  "hiragana": "しめる",
+  "romaji": "shimeru",
+  "english": "to close",
+  "french": "fermer",
+  "german": "schließen",
+  "vietnamese": "đóng",
+  "chinese": "关",
+  "korean": "닫다",
+  "spanish": "cerrar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "ドアを閉めてください。",
+      "hiragana": "どあをしめてください。",
+      "romaji": "Doa o shimete kudasai.",
+      "english": "Please close the door.",
+      "french": "Fermez la porte, s'il vous plaît.",
+      "german": "Bitte schließen Sie die Tür.",
+      "vietnamese": "Làm ơn đóng cửa.",
+      "chinese": "请关门。",
+      "korean": "문을 닫아 주세요.",
+      "spanish": "Por favor, cierra la puerta."
+    }
+  ]
+},
+{
+  "id": "shinu",
+  "japanese": "死ぬ",
+  "hiragana": "しぬ",
+  "romaji": "shinu",
+  "english": "to die",
+  "french": "mourir",
+  "german": "sterben",
+  "vietnamese": "chết",
+  "chinese": "死",
+  "korean": "죽다",
+  "spanish": "morir",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "魚が死にました。",
+      "hiragana": "さかながしにました。",
+      "romaji": "Sakana ga shinimashita.",
+      "english": "The fish died.",
+      "french": "Le poisson est mort.",
+      "german": "Der Fisch ist gestorben.",
+      "vietnamese": "Con cá đã chết.",
+      "chinese": "鱼死了。",
+      "korean": "물고기가 죽었어요.",
+      "spanish": "El pez murió."
+    }
+  ]
+},
+{
+  "id": "shiraberu",
+  "japanese": "調べる",
+  "hiragana": "しらべる",
+  "romaji": "shiraberu",
+  "english": "to investigate, to check",
+  "french": "vérifier, examiner",
+  "german": "untersuchen, prüfen",
+  "vietnamese": "kiểm tra, điều tra",
+  "chinese": "调查，检查",
+  "korean": "조사하다, 확인하다",
+  "spanish": "investigar, comprobar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "インターネットで調べます。",
+      "hiragana": "いんたーねっとでしらべます。",
+      "romaji": "Intaanetto de shirabemasu.",
+      "english": "I check on the internet.",
+      "french": "Je vérifie sur internet.",
+      "german": "Ich recherchiere im Internet.",
+      "vietnamese": "Tôi kiểm tra trên internet.",
+      "chinese": "我在网上查。",
+      "korean": "인터넷으로 확인해요.",
+      "spanish": "Busco en internet."
+    }
+  ]
+},
+{
+  "id": "shirimasu",
+  "japanese": "知る",
+  "hiragana": "しる",
+  "romaji": "shiru",
+  "english": "to know",
+  "french": "savoir, connaître",
+  "german": "wissen, kennen",
+  "vietnamese": "biết",
+  "chinese": "知道",
+  "korean": "알다",
+  "spanish": "saber, conocer",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "彼の名前を知っています。",
+      "hiragana": "かれのなまえをしっています。",
+      "romaji": "Kare no namae o shitte imasu.",
+      "english": "I know his name.",
+      "french": "Je connais son nom.",
+      "german": "Ich kenne seinen Namen.",
+      "vietnamese": "Tôi biết tên anh ấy.",
+      "chinese": "我知道他的名字。",
+      "korean": "저는 그의 이름을 알아요.",
+      "spanish": "Sé su nombre."
+    }
+  ]
+},
+{
+  "id": "shiro",
+  "japanese": "白",
+  "hiragana": "しろ",
+  "romaji": "shiro",
+  "english": "white",
+  "french": "blanc",
+  "german": "Weiß",
+  "vietnamese": "trắng",
+  "chinese": "白色",
+  "korean": "흰색",
+  "spanish": "blanco",
+  "level": "N5",
+  "category": "color",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "雪は白いです。",
+      "hiragana": "ゆきはしろいです。",
+      "romaji": "Yuki wa shiroi desu.",
+      "english": "Snow is white.",
+      "french": "La neige est blanche.",
+      "german": "Der Schnee ist weiß.",
+      "vietnamese": "Tuyết có màu trắng.",
+      "chinese": "雪是白色的。",
+      "korean": "눈은 흰색이에요.",
+      "spanish": "La nieve es blanca."
+    }
+  ]
+},
+{
+  "id": "shiroi",
+  "japanese": "白い",
+  "hiragana": "しろい",
+  "romaji": "shiroi",
+  "english": "white (adjective)",
+  "french": "blanc (adjectif)",
+  "german": "weiß",
+  "vietnamese": "màu trắng",
+  "chinese": "白的",
+  "korean": "하얗다",
+  "spanish": "blanco (adjetivo)",
+  "level": "N5",
+  "category": "color",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "白いシャツを着ています。",
+      "hiragana": "しろいしゃつをきています。",
+      "romaji": "Shiroi shatsu o kite imasu.",
+      "english": "I am wearing a white shirt.",
+      "french": "Je porte une chemise blanche.",
+      "german": "Ich trage ein weißes Hemd.",
+      "vietnamese": "Tôi mặc áo sơ mi trắng.",
+      "chinese": "我穿着白衬衫。",
+      "korean": "저는 흰 셔츠를 입고 있어요.",
+      "spanish": "Llevo una camisa blanca."
+    }
+  ]
+},
+{
+  "id": "shokudou",
+  "japanese": "食堂",
+  "hiragana": "しょくどう",
+  "romaji": "shokudou",
+  "english": "cafeteria, dining hall",
+  "french": "cantine, salle à manger",
+  "german": "Mensa, Kantine",
+  "vietnamese": "nhà ăn",
+  "chinese": "食堂",
+  "korean": "식당",
+  "spanish": "comedor, cafetería",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "大学の食堂で昼ご飯を食べます。",
+      "hiragana": "だいがくのしょくどうでひるごはんをたべます。",
+      "romaji": "Daigaku no shokudou de hirugohan o tabemasu.",
+      "english": "I eat lunch at the university cafeteria.",
+      "french": "Je déjeune à la cantine de l'université.",
+      "german": "Ich esse in der Mensa der Universität zu Mittag.",
+      "vietnamese": "Tôi ăn trưa ở nhà ăn trường đại học.",
+      "chinese": "我在大学食堂吃午饭。",
+      "korean": "대학교 식당에서 점심을 먹어요.",
+      "spanish": "Almuerzo en la cafetería de la universidad."
+    }
+  ]
+},
+{
+  "id": "shouyu",
+  "japanese": "醤油",
+  "hiragana": "しょうゆ",
+  "romaji": "shouyu",
+  "english": "soy sauce",
+  "french": "sauce soja",
+  "german": "Sojasauce",
+  "vietnamese": "nước tương",
+  "chinese": "酱油",
+  "korean": "간장",
+  "spanish": "salsa de soja",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "寿司に醤油をつけます。",
+      "hiragana": "すしにしょうゆをつけます。",
+      "romaji": "Sushi ni shouyu o tsukemasu.",
+      "english": "I put soy sauce on sushi.",
+      "french": "Je mets de la sauce soja sur les sushis.",
+      "german": "Ich gebe Sojasauce auf Sushi.",
+      "vietnamese": "Tôi chấm sushi với nước tương.",
+      "chinese": "我在寿司上蘸酱油。",
+      "korean": "스시에 간장을 찍어요.",
+      "spanish": "Pongo salsa de soja en el sushi."
+    }
+  ]
+},
+{
+  "id": "shokuin",
+  "japanese": "職員",
+  "hiragana": "しょくいん",
+  "romaji": "shokuin",
+  "english": "staff member",
+  "french": "employé",
+  "german": "Mitarbeiter",
+  "vietnamese": "nhân viên",
+  "chinese": "职员",
+  "korean": "직원",
+  "spanish": "empleado",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "学校の職員です。",
+      "hiragana": "がっこうのしょくいんです。",
+      "romaji": "Gakkou no shokuin desu.",
+      "english": "He is a school staff member.",
+      "french": "C'est un employé de l'école.",
+      "german": "Er ist ein Mitarbeiter der Schule.",
+      "vietnamese": "Anh ấy là nhân viên trường học.",
+      "chinese": "他是学校的职员。",
+      "korean": "그는 학교 직원이에요.",
+      "spanish": "Es un empleado de la escuela."
+    }
+  ]
+},
+{
+  "id": "shinsetsu",
+  "japanese": "親切",
+  "hiragana": "しんせつ",
+  "romaji": "shinsetsu",
+  "english": "kind",
+  "french": "gentil",
+  "german": "freundlich",
+  "vietnamese": "tốt bụng",
+  "chinese": "亲切",
+  "korean": "친절하다",
+  "spanish": "amable",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "彼はとても親切です。",
+      "hiragana": "かれはとてもしんせつです。",
+      "romaji": "Kare wa totemo shinsetsu desu.",
+      "english": "He is very kind.",
+      "french": "Il est très gentil.",
+      "german": "Er ist sehr freundlich.",
+      "vietnamese": "Anh ấy rất tốt bụng.",
+      "chinese": "他非常亲切。",
+      "korean": "그는 매우 친절해요.",
+      "spanish": "Él es muy amable."
       }
     ]
   },
   {
-    "id": "shinu",
-    "japanese": "死ぬ",
-    "hiragana": "しぬ",
-    "romaji": "shinu",
-    "english": "to die",
-    "french": "mourir",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "魚が死にました。",
-        "hiragana": "さかながしにました。",
-        "romaji": "Sakana ga shinimashita.",
-        "english": "The fish died.",
-        "french": "Le poisson est mort."
-      }
-    ]
-  },
-  {
-    "id": "shiraberu",
-    "japanese": "調べる",
-    "hiragana": "しらべる",
-    "romaji": "shiraberu",
-    "english": "to investigate, to check",
-    "french": "vérifier, examiner",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "インターネットで調べます。",
-        "hiragana": "いんたーねっとでしらべます。",
-        "romaji": "Intaanetto de shirabemasu.",
-        "english": "I check on the internet.",
-        "french": "Je vérifie sur internet."
-      }
-    ]
-  },
-  {
-    "id": "shirimasu",
-    "japanese": "知る",
-    "hiragana": "しる",
-    "romaji": "shiru",
-    "english": "to know",
-    "french": "savoir, connaître",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼の名前を知っています。",
-        "hiragana": "かれのなまえをしっています。",
-        "romaji": "Kare no namae o shitte imasu.",
-        "english": "I know his name.",
-        "french": "Je connais son nom."
-      }
-    ]
-  },
-  {
-    "id": "shiro",
-    "japanese": "白",
-    "hiragana": "しろ",
-    "romaji": "shiro",
-    "english": "white",
-    "french": "blanc",
-    "level": "N5",
-    "category": "color",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "雪は白いです。",
-        "hiragana": "ゆきはしろいです。",
-        "romaji": "Yuki wa shiroi desu.",
-        "english": "Snow is white.",
-        "french": "La neige est blanche."
-      }
-    ]
-  },
-  {
-    "id": "shiroi",
-    "japanese": "白い",
-    "hiragana": "しろい",
-    "romaji": "shiroi",
-    "english": "white (adjective)",
-    "french": "blanc (adjectif)",
-    "level": "N5",
-    "category": "color",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "白いシャツを着ています。",
-        "hiragana": "しろいしゃつをきています。",
-        "romaji": "Shiroi shatsu o kite imasu.",
-        "english": "I am wearing a white shirt.",
-        "french": "Je porte une chemise blanche."
-      }
-    ]
-  },
-  {
-    "id": "shokudou",
-    "japanese": "食堂",
-    "hiragana": "しょくどう",
-    "romaji": "shokudou",
-    "english": "cafeteria, dining hall",
-    "french": "cantine, salle à manger",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "大学の食堂で昼ご飯を食べます。",
-        "hiragana": "だいがくのしょくどうでひるごはんをたべます。",
-        "romaji": "Daigaku no shokudou de hirugohan o tabemasu.",
-        "english": "I eat lunch at the university cafeteria.",
-        "french": "Je déjeune à la cantine de l'université."
-      }
-    ]
-  },
-  {
-    "id": "shouyu",
-    "japanese": "醤油",
-    "hiragana": "しょうゆ",
-    "romaji": "shouyu",
-    "english": "soy sauce",
-    "french": "sauce soja",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "寿司に醤油をつけます。",
-        "hiragana": "すしにしょうゆをつけます。",
-        "romaji": "Sushi ni shouyu o tsukemasu.",
-        "english": "I put soy sauce on sushi.",
-        "french": "Je mets de la sauce soja sur les sushis."
-      }
-    ]
-  },
-  {
-    "id": "shokuin",
-    "japanese": "職員",
-    "hiragana": "しょくいん",
-    "romaji": "shokuin",
-    "english": "staff member",
-    "french": "employé",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "学校の職員です。",
-        "hiragana": "がっこうのしょくいんです。",
-        "romaji": "Gakkou no shokuin desu.",
-        "english": "He is a school staff member.",
-        "french": "C'est un employé de l'école."
-      }
-    ]
-  },
-  {
-    "id": "shougakusei",
-    "japanese": "小学生",
-    "hiragana": "しょうがくせい",
-    "romaji": "shougakusei",
-    "english": "elementary school student",
-    "french": "élève d'école primaire",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "弟は小学生です。",
-        "hiragana": "おとうとはしょうがくせいです。",
-        "romaji": "Otouto wa shougakusei desu.",
-        "english": "My younger brother is an elementary school student.",
-        "french": "Mon petit frère est à l'école primaire."
-      }
-    ]
-  },
-  {
-    "id": "shounen",
-    "japanese": "少年",
-    "hiragana": "しょうねん",
-    "romaji": "shounen",
-    "english": "boy, youth",
-    "french": "garçon, jeune garçon",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "その少年は走っています。",
-        "hiragana": "そのしょうねんははしっています。",
-        "romaji": "Sono shounen wa hashitte imasu.",
-        "english": "That boy is running.",
-        "french": "Ce garçon court."
-      }
-    ]
-  },
-  {
-    "id": "shoujo",
-    "japanese": "少女",
-    "hiragana": "しょうじょ",
-    "romaji": "shoujo",
-    "english": "girl, young girl",
-    "french": "fille, jeune fille",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "少女が歌っています。",
-        "hiragana": "しょうじょがうたっています。",
-        "romaji": "Shoujo ga utatte imasu.",
-        "english": "A girl is singing.",
-        "french": "Une fille chante."
-      }
-    ]
-  },
-  {
-    "id": "shoujiki",
-    "japanese": "正直",
-    "hiragana": "しょうじき",
-    "romaji": "shoujiki",
-    "english": "honest",
-    "french": "honnête",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼は正直な人です。",
-        "hiragana": "かれはしょうじきなひとです。",
-        "romaji": "Kare wa shoujiki na hito desu.",
-        "english": "He is an honest person.",
-        "french": "C'est une personne honnête."
-      }
-    ]
-  },
-  {
-    "id": "shuppatsu",
-    "japanese": "出発",
-    "hiragana": "しゅっぱつ",
-    "romaji": "shuppatsu",
-    "english": "departure",
-    "french": "départ",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "明日の出発は8時です。",
-        "hiragana": "あしたのしゅっぱつははちじです。",
-        "romaji": "Ashita no shuppatsu wa hachiji desu.",
-        "english": "The departure is at 8 tomorrow.",
-        "french": "Le départ est à 8 heures demain."
-      }
-    ]
-  },
-  {
-    "id": "shusseki",
-    "japanese": "出席",
-    "hiragana": "しゅっせき",
-    "romaji": "shusseki",
-    "english": "attendance",
-    "french": "présence",
-    "level": "N5",
-    "category": "school",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "出席を取ります。",
-        "hiragana": "しゅっせきをとります。",
-        "romaji": "Shusseki o torimasu.",
-        "english": "I take attendance.",
-        "french": "Je fais l'appel."
-      }
-    ]
-  },
-  {
-    "id": "shuumatsu",
-    "japanese": "週末",
-    "hiragana": "しゅうまつ",
-    "romaji": "shuumatsu",
-    "english": "weekend",
-    "french": "week-end",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "週末に友達と遊びます。",
-        "hiragana": "しゅうまつにともだちとあそびます。",
-        "romaji": "Shuumatsu ni tomodachi to asobimasu.",
-        "english": "I hang out with friends on weekends.",
-        "french": "Je sors avec des amis le week-end."
-      }
-    ]
-  },
-  {
-    "id": "jiyuu",
-    "japanese": "自由",
-    "hiragana": "じゆう",
-    "romaji": "jiyuu",
-    "english": "freedom",
-    "french": "liberté",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "自由に話してください。",
-        "hiragana": "じゆうにはなしてください。",
-        "romaji": "Jiyuu ni hanashite kudasai.",
-        "english": "Please speak freely.",
-        "french": "Parlez librement, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "shouhin",
-    "japanese": "商品",
-    "hiragana": "しょうひん",
-    "romaji": "shouhin",
-    "english": "goods, product",
-    "french": "marchandise, produit",
-    "level": "N5",
-    "category": "economy",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい商品を紹介します。",
-        "hiragana": "あたらしいしょうひんをしょうかいします。",
-        "romaji": "Atarashii shouhin o shoukai shimasu.",
-        "english": "We introduce a new product.",
-        "french": "Nous présentons un nouveau produit."
-      }
-    ]
-  },
-  {
-    "id": "shokki",
-    "japanese": "食器",
-    "hiragana": "しょっき",
-    "romaji": "shokki",
-    "english": "tableware",
-    "french": "vaisselle",
-    "level": "N5",
-    "category": "kitchen",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "食器を洗いました。",
-        "hiragana": "しょっきをあらいました。",
-        "romaji": "Shokki o araimashita.",
-        "english": "I washed the dishes.",
-        "french": "J'ai lavé la vaisselle."
-      }
-    ]
-  },
-  {
-    "id": "shoumei",
-    "japanese": "照明",
-    "hiragana": "しょうめい",
-    "romaji": "shoumei",
-    "english": "lighting",
-    "french": "éclairage",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "照明を消してください。",
-        "hiragana": "しょうめいをけしてください。",
-        "romaji": "Shoumei o keshite kudasai.",
-        "english": "Please turn off the light.",
-        "french": "Éteignez la lumière, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "shoujojo",
-    "japanese": "消防士",
-    "hiragana": "しょうぼうし",
-    "romaji": "shouboushi",
-    "english": "firefighter",
-    "french": "pompier",
-    "level": "N5",
-    "category": "profession",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "消防士が火を消しています。",
-        "hiragana": "しょうぼうしがひをけしています。",
-        "romaji": "Shouboushi ga hi o keshite imasu.",
-        "english": "The firefighter is putting out the fire.",
-        "french": "Le pompier éteint le feu."
-      }
-    ]
-  },
-  {
-    "id": "shinbun",
-    "japanese": "新聞",
-    "hiragana": "しんぶん",
-    "romaji": "shinbun",
-    "english": "newspaper",
-    "french": "journal",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新聞を読みます。",
-        "hiragana": "しんぶんをよみます。",
-        "romaji": "Shinbun o yomimasu.",
-        "english": "I read a newspaper.",
-        "french": "Je lis un journal."
-      }
-    ]
-  },
-  {
-    "id": "shinsetsu",
-    "japanese": "親切",
-    "hiragana": "しんせつ",
-    "romaji": "shinsetsu",
-    "english": "kind",
-    "french": "gentil",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼はとても親切です。",
-        "hiragana": "かれはとてもしんせつです。",
-        "romaji": "Kare wa totemo shinsetsu desu.",
-        "english": "He is very kind.",
-        "french": "Il est très gentil."
-      }
-    ]
-  },
-  {
-    "id": "shinshitsu",
-    "japanese": "寝室",
-    "hiragana": "しんしつ",
-    "romaji": "shinshitsu",
-    "english": "bedroom",
-    "french": "chambre à coucher",
-    "level": "N5",
-    "category": "house",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "寝室で寝ます。",
-        "hiragana": "しんしつでねます。",
-        "romaji": "Shinshitsu de nemasu.",
-        "english": "I sleep in the bedroom.",
-        "french": "Je dors dans la chambre."
-      }
-    ]
-  },
-  {
-    "id": "shinsha",
-    "japanese": "新車",
-    "hiragana": "しんしゃ",
-    "romaji": "shinsha",
-    "english": "new car",
-    "french": "voiture neuve",
-    "level": "N5",
-    "category": "transport",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新車を買いました。",
-        "hiragana": "しんしゃをかいました。",
-        "romaji": "Shinsha o kaimashita.",
-        "english": "I bought a new car.",
-        "french": "J'ai acheté une voiture neuve."
-      }
-    ]
-  },
-  {
-    "id": "shinryou",
-    "japanese": "診療",
-    "hiragana": "しんりょう",
-    "romaji": "shinryou",
-    "english": "medical consultation",
-    "french": "consultation médicale",
-    "level": "N5",
-    "category": "health",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "病院で診療を受けました。",
-        "hiragana": "びょういんでしんりょうをうけました。",
-        "romaji": "Byouin de shinryou o ukemashita.",
-        "english": "I had a consultation at the hospital.",
-        "french": "J'ai eu une consultation à l'hôpital."
-      }
-    ]
-  },
-  {
-    "id": "shinsetsu_na",
-    "japanese": "新設",
-    "hiragana": "しんせつ",
-    "romaji": "shinsetsu",
-    "english": "newly established",
-    "french": "nouvellement établi",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新設の学校です。",
-        "hiragana": "しんせつのがっこうです。",
-        "romaji": "Shinsetsu no gakkou desu.",
-        "english": "It is a newly established school.",
-        "french": "C'est une école nouvellement créée."
-      }
-    ]
-  },
-  {
-    "id": "shinbunsha",
-    "japanese": "新聞社",
-    "hiragana": "しんぶんしゃ",
-    "romaji": "shinbunsha",
-    "english": "newspaper company",
-    "french": "compagnie de journaux",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新聞社で働いています。",
-        "hiragana": "しんぶんしゃではたらいています。",
-        "romaji": "Shinbunsha de hataraite imasu.",
-        "english": "I work at a newspaper company.",
-        "french": "Je travaille dans une société de journaux."
-      }
-    ]
-  },
-  {
-    "id": "shinnyuu",
-    "japanese": "進入",
-    "hiragana": "しんにゅう",
-    "romaji": "shinnyuu",
-    "english": "entry, admission",
-    "french": "entrée, admission",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "進入禁止の場所です。",
-        "hiragana": "しんにゅうきんしのばしょです。",
-        "romaji": "Shinnyuu kinshi no basho desu.",
-        "english": "Entry is prohibited here.",
-        "french": "Entrée interdite ici."
-      }
-    ]
-  },
-  {
-    "id": "shinrai",
-    "japanese": "信頼",
-    "hiragana": "しんらい",
-    "romaji": "shinrai",
-    "english": "trust, confidence",
-    "french": "confiance",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼に信頼しています。",
-        "hiragana": "かれにしんらいしています。",
-        "romaji": "Kare ni shinrai shite imasu.",
-        "english": "I trust him.",
-        "french": "J'ai confiance en lui."
-      }
-    ]
-  },
-  {
-    "id": "shinwa",
-    "japanese": "神話",
-    "hiragana": "しんわ",
-    "romaji": "shinwa",
-    "english": "myth",
-    "french": "mythe",
-    "level": "N5",
-    "category": "culture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "日本の神話を読みました。",
-        "hiragana": "にほんのしんわをよみました。",
-        "romaji": "Nihon no shinwa o yomimashita.",
-        "english": "I read Japanese myths.",
-        "french": "J'ai lu des mythes japonais."
+    ""id": "shinshitsu",
+  "japanese": "寝室",
+  "hiragana": "しんしつ",
+  "romaji": "shinshitsu",
+  "english": "bedroom",
+  "french": "chambre à coucher",
+  "german": "Schlafzimmer",
+  "vietnamese": "phòng ngủ",
+  "chinese": "卧室",
+  "korean": "침실",
+  "spanish": "dormitorio",
+  "level": "N5",
+  "category": "house",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "寝室で寝ます。",
+      "hiragana": "しんしつでねます。",
+      "romaji": "Shinshitsu de nemasu.",
+      "english": "I sleep in the bedroom.",
+      "french": "Je dors dans la chambre.",
+      "german": "Ich schlafe im Schlafzimmer.",
+      "vietnamese": "Tôi ngủ trong phòng ngủ.",
+      "chinese": "我在卧室睡觉。",
+      "korean": "저는 침실에서 자요.",
+      "spanish": "Duermo en el dormitorio."
+    }
+  ]
+},
+{
+  "id": "shinsha",
+  "japanese": "新車",
+  "hiragana": "しんしゃ",
+  "romaji": "shinsha",
+  "english": "new car",
+  "french": "voiture neuve",
+  "german": "Neuwagen",
+  "vietnamese": "xe mới",
+  "chinese": "新车",
+  "korean": "새 차",
+  "spanish": "coche nuevo",
+  "level": "N5",
+  "category": "transport",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新車を買いました。",
+      "hiragana": "しんしゃをかいました。",
+      "romaji": "Shinsha o kaimashita.",
+      "english": "I bought a new car.",
+      "french": "J'ai acheté une voiture neuve.",
+      "german": "Ich habe ein neues Auto gekauft.",
+      "vietnamese": "Tôi đã mua xe mới.",
+      "chinese": "我买了新车。",
+      "korean": "새 차를 샀어요.",
+      "spanish": "Compré un coche nuevo."
+    }
+  ]
+},
+{
+  "id": "shinryou",
+  "japanese": "診療",
+  "hiragana": "しんりょう",
+  "romaji": "shinryou",
+  "english": "medical consultation",
+  "french": "consultation médicale",
+  "german": "ärztliche Untersuchung",
+  "vietnamese": "khám bệnh",
+  "chinese": "诊疗",
+  "korean": "진료",
+  "spanish": "consulta médica",
+  "level": "N5",
+  "category": "health",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "病院で診療を受けました。",
+      "hiragana": "びょういんでしんりょうをうけました。",
+      "romaji": "Byouin de shinryou o ukemashita.",
+      "english": "I had a consultation at the hospital.",
+      "french": "J'ai eu une consultation à l'hôpital.",
+      "german": "Ich hatte eine ärztliche Untersuchung im Krankenhaus.",
+      "vietnamese": "Tôi đã khám bệnh ở bệnh viện.",
+      "chinese": "我在医院接受了诊疗。",
+      "korean": "병원에서 진료를 받았어요.",
+      "spanish": "Tuve una consulta en el hospital."
+    }
+  ]
+},
+{
+  "id": "shinsetsu_na",
+  "japanese": "新設",
+  "hiragana": "しんせつ",
+  "romaji": "shinsetsu",
+  "english": "newly established",
+  "french": "nouvellement établi",
+  "german": "neu gegründet",
+  "vietnamese": "mới thành lập",
+  "chinese": "新设",
+  "korean": "신설",
+  "spanish": "recién establecido",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新設の学校です。",
+      "hiragana": "しんせつのがっこうです。",
+      "romaji": "Shinsetsu no gakkou desu.",
+      "english": "It is a newly established school.",
+      "french": "C'est une école nouvellement créée.",
+      "german": "Es ist eine neu gegründete Schule.",
+      "vietnamese": "Đây là một trường mới thành lập.",
+      "chinese": "这是一所新设立的学校。",
+      "korean": "신설 학교입니다.",
+      "spanish": "Es una escuela recién establecida."
+    }
+  ]
+},
+{
+  "id": "shinbunsha",
+  "japanese": "新聞社",
+  "hiragana": "しんぶんしゃ",
+  "romaji": "shinbunsha",
+  "english": "newspaper company",
+  "french": "compagnie de journaux",
+  "german": "Zeitungsverlag",
+  "vietnamese": "tòa soạn báo",
+  "chinese": "报社",
+  "korean": "신문사",
+  "spanish": "periódico, empresa de prensa",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新聞社で働いています。",
+      "hiragana": "しんぶんしゃではたらいています。",
+      "romaji": "Shinbunsha de hataraite imasu.",
+      "english": "I work at a newspaper company.",
+      "french": "Je travaille dans une société de journaux.",
+      "german": "Ich arbeite bei einem Zeitungsverlag.",
+      "vietnamese": "Tôi làm việc ở tòa soạn báo.",
+      "chinese": "我在报社工作。",
+      "korean": "저는 신문사에서 일해요.",
+      "spanish": "Trabajo en un periódico."
+    }
+  ]
+},
+{
+  "id": "shinnyuu",
+  "japanese": "進入",
+  "hiragana": "しんにゅう",
+  "romaji": "shinnyuu",
+  "english": "entry, admission",
+  "french": "entrée, admission",
+  "german": "Eintritt, Zutritt",
+  "vietnamese": "sự vào, sự nhập cảnh",
+  "chinese": "进入",
+  "korean": "진입",
+  "spanish": "entrada, admisión",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "進入禁止の場所です。",
+      "hiragana": "しんにゅうきんしのばしょです。",
+      "romaji": "Shinnyuu kinshi no basho desu.",
+      "english": "Entry is prohibited here.",
+      "french": "Entrée interdite ici.",
+      "german": "Hier ist der Zutritt verboten.",
+      "vietnamese": "Cấm vào khu vực này.",
+      "chinese": "此处禁止进入。",
+      "korean": "여기는 진입 금지 구역입니다.",
+      "spanish": "Está prohibida la entrada aquí."
+    }
+  ]
+},
+{
+  "id": "shinrai",
+  "japanese": "信頼",
+  "hiragana": "しんらい",
+  "romaji": "shinrai",
+  "english": "trust, confidence",
+  "french": "confiance",
+  "german": "Vertrauen",
+  "vietnamese": "sự tin tưởng",
+  "chinese": "信赖",
+  "korean": "신뢰",
+  "spanish": "confianza",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "彼に信頼しています。",
+      "hiragana": "かれにしんらいしています。",
+      "romaji": "Kare ni shinrai shite imasu.",
+      "english": "I trust him.",
+      "french": "J'ai confiance en lui.",
+      "german": "Ich vertraue ihm.",
+      "vietnamese": "Tôi tin tưởng anh ấy.",
+      "chinese": "我信赖他。",
+      "korean": "저는 그를 신뢰해요.",
+      "spanish": "Confío en él."
+    }
+  ]
+},
+{
+  "id": "shinwa",
+  "japanese": "神話",
+  "hiragana": "しんわ",
+  "romaji": "shinwa",
+  "english": "myth",
+  "french": "mythe",
+  "german": "Mythos",
+  "vietnamese": "thần thoại",
+  "chinese": "神话",
+  "korean": "신화",
+  "spanish": "mito",
+  "level": "N5",
+  "category": "culture",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "日本の神話を読みました。",
+      "hiragana": "にほんのしんわをよみました。",
+      "romaji": "Nihon no shinwa o yomimashita.",
+      "english": "I read Japanese myths.",
+      "french": "J'ai lu des mythes japonais.",
+      "german": "Ich habe japanische Mythen gelesen.",
+      "vietnamese": "Tôi đã đọc thần thoại Nhật Bản.",
+      "chinese": "我读了日本的神话。",
+      "korean": "저는 일본 신화를 읽었어요.",
+      "spanish": "Leí mitos japoneses
       }
     ]
   },
   {
     "id": "shinrai_na",
-    "japanese": "信頼できる",
-    "hiragana": "しんらいできる",
-    "romaji": "shinrai dekiru",
-    "english": "reliable",
-    "french": "fiable",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼は信頼できる人です。",
-        "hiragana": "かれはしんらいできるひとです。",
-        "romaji": "Kare wa shinrai dekiru hito desu.",
-        "english": "He is a reliable person.",
-        "french": "C'est une personne fiable."
-      }
-    ]
-  },
-  {
-    "id": "shinryaku",
-    "japanese": "侵略",
-    "hiragana": "しんりゃく",
-    "romaji": "shinryaku",
-    "english": "invasion",
-    "french": "invasion",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "国の侵略を防ぎます。",
-        "hiragana": "くにのしんりゃくをふせぎます。",
-        "romaji": "Kuni no shinryaku o fusegimasu.",
-        "english": "We prevent the invasion of the country.",
-        "french": "Nous empêchons l'invasion du pays."
+  "japanese": "信頼できる",
+  "hiragana": "しんらいできる",
+  "romaji": "shinrai dekiru",
+  "english": "reliable",
+  "french": "fiable",
+  "german": "zuverlässig",
+  "vietnamese": "đáng tin cậy",
+  "chinese": "可靠的",
+  "korean": "믿을 수 있는",
+  "spanish": "fiable",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "彼は信頼できる人です。",
+      "hiragana": "かれはしんらいできるひとです。",
+      "romaji": "Kare wa shinrai dekiru hito desu.",
+      "english": "He is a reliable person.",
+      "french": "C'est une personne fiable.",
+      "german": "Er ist eine zuverlässige Person.",
+      "vietnamese": "Anh ấy là một người đáng tin cậy.",
+      "chinese": "他是一个可靠的人。",
+      "korean": "그는 믿을 수 있는 사람입니다.",
+      "spanish": "Es una persona fiable."
+    }
+  ]
+},
+{
+  "id": "shinryaku",
+  "japanese": "侵略",
+  "hiragana": "しんりゃく",
+  "romaji": "shinryaku",
+  "english": "invasion",
+  "french": "invasion",
+  "german": "Invasion",
+  "vietnamese": "xâm lược",
+  "chinese": "侵略",
+  "korean": "침략",
+  "spanish": "invasión",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "国の侵略を防ぎます。",
+      "hiragana": "くにのしんりゃくをふせぎます。",
+      "romaji": "Kuni no shinryaku o fusegimasu.",
+      "english": "We prevent the invasion of the country.",
+      "french": "Nous empêchons l'invasion du pays.",
+      "german": "Wir verhindern die Invasion des Landes.",
+      "vietnamese": "Chúng tôi ngăn chặn sự xâm lược đất nước.",
+      "chinese": "我们阻止国家的侵略。",
+      "korean": "우리는 나라의 침략을 막습니다.",
+      "spanish": "Prevenimos la invasión del país."
       }
     ]
   },
