@@ -1,6 +1,7 @@
 import morningImage from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
+import bookImage from '@/assets/eat-taberu.png';
 
 export interface VocabularyWord {
   id: string;
@@ -143,6 +144,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: eatImage,
     examples: [
       {
         japanese: "寿司を食べたいです。",
