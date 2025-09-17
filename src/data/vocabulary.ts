@@ -13549,36 +13549,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "kau",
-    japanese: "買う",
-    hiragana: "かう",
-    romaji: "kau",
-    english: "to buy",
-    french: "acheter",
-    german: "kaufen",
-    vietnamese: "mua",
-    chinese: "买",
-    korean: "사다",
-    spanish: "comprar",
-    level: "N5",
-    category: "verb",
-    wordType: "godan verb",
-    examples: [
-      {
-        japanese: "新しい靴を買いました。",
-        hiragana: "あたらしいくつをかいました。",
-        romaji: "Atarashii kutsu o kaimashita.",
-        english: "I bought new shoes.",
-        french: "J'ai acheté de nouvelles chaussures.",
-        german: "Ich habe neue Schuhe gekauft.",
-        vietnamese: "Tôi đã mua giày mới.",
-        chinese: "我买了新鞋。",
-        korean: "새 신발을 샀습니다.",
-        spanish: "Compré zapatos nuevos."
-      }
-    ]
-  },
-  {
     id: "kaesu",
     japanese: "返す",
     hiragana: "かえす",
