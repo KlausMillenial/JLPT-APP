@@ -1250,6 +1250,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: sweetImage,
     examples: [
       {
         japanese: "このケーキは甘いです。",
@@ -1342,6 +1343,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "food",
   wordType: "noun",
+  imageUrl: candyImage,
   examples: [
     {
       japanese: "飴を食べます。",
@@ -1403,6 +1405,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
+  imageUrl: tobeImage,
   examples: [
     {
       japanese: "机の上に本がある。",
@@ -1433,6 +1436,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: towalkImage,
     examples: [
       {
         japanese: "公園を歩きます。",
@@ -1949,6 +1953,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adverb",
     wordType: "adverb",
+    imageUrl: bestImage,
     examples: [
       {
         japanese: "寿司が一番好きです。",
