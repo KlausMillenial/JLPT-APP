@@ -7403,182 +7403,272 @@ export const vocabularyData: VocabularyWord[] = [
   ]
 },
   {
-    "id": "samuai",
-    "japanese": "寒い",
-    "hiragana": "さむい",
-    "romaji": "samui",
-    "english": "cold (weather)",
-    "french": "froid (temps)",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "今日は寒いです。",
-        "hiragana": "きょうはさむいです。",
-        "romaji": "Kyou wa samui desu.",
-        "english": "It is cold today.",
-        "french": "Il fait froid aujourd'hui."
+   "id": "samui",
+  "japanese": "寒い",
+  "hiragana": "さむい",
+  "romaji": "samui",
+  "english": "cold (weather)",
+  "french": "froid (temps)",
+  "german": "kalt (Wetter)",
+  "vietnamese": "lạnh (thời tiết)",
+  "chinese": "冷 (天气)",
+  "korean": "춥다 (날씨)",
+  "spanish": "frío (tiempo)",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "今日は寒いです。",
+      "hiragana": "きょうはさむいです。",
+      "romaji": "Kyou wa samui desu.",
+      "english": "It is cold today.",
+      "french": "Il fait froid aujourd'hui.",
+      "german": "Heute ist es kalt.",
+      "vietnamese": "Hôm nay trời lạnh.",
+      "chinese": "今天很冷。",
+      "korean": "오늘은 추워요.",
+      "spanish": "Hoy hace frío."
+    }
+  ]
+},
+{
+  "id": "sarada",
+  "japanese": "サラダ",
+  "hiragana": "さらだ",
+  "romaji": "sarada",
+  "english": "salad",
+  "french": "salade",
+  "german": "Salat",
+  "vietnamese": "xà lách, sa lát",
+  "chinese": "沙拉",
+  "korean": "샐러드",
+  "spanish": "ensalada",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "サラダを食べます。",
+      "hiragana": "さらだをたべます。",
+      "romaji": "Sarada o tabemasu.",
+      "english": "I eat salad.",
+      "french": "Je mange de la salade.",
+      "german": "Ich esse Salat.",
+      "vietnamese": "Tôi ăn xà lách.",
+      "chinese": "我吃沙拉。",
+      "korean": "샐러드를 먹어요.",
+      "spanish": "Como ensalada."
+    }
+  ]
+},
+{
+  "id": "san",
+  "japanese": "三",
+  "hiragana": "さん",
+  "romaji": "san",
+  "english": "three",
+  "french": "trois",
+  "german": "drei",
+  "vietnamese": "ba",
+  "chinese": "三",
+  "korean": "셋",
+  "spanish": "tres",
+  "level": "N5",
+  "category": "number",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "三人の友達がいます。",
+      "hiragana": "さんにんのともだちがいます。",
+      "romaji": "San nin no tomodachi ga imasu.",
+      "english": "I have three friends.",
+      "french": "J'ai trois amis.",
+      "german": "Ich habe drei Freunde.",
+      "vietnamese": "Tôi có ba người bạn.",
+      "chinese": "我有三个朋友。",
+      "korean": "저는 친구가 세 명 있어요.",
+      "spanish": "Tengo tres amigos."
+    }
+  ]
+},
+{
+  "id": "sanpo",
+  "japanese": "散歩",
+  "hiragana": "さんぽ",
+  "romaji": "sanpo",
+  "english": "walk, stroll",
+  "french": "promenade",
+  "german": "Spaziergang",
+  "vietnamese": "đi dạo",
+  "chinese": "散步",
+  "korean": "산책",
+  "spanish": "paseo",
+  "level": "N5",
+  "category": "activity",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "犬と散歩します。",
+      "hiragana": "いぬとさんぽします。",
+      "romaji": "Inu to sanpo shimasu.",
+      "english": "I take a walk with my dog.",
+      "french": "Je me promène avec mon chien.",
+      "german": "Ich gehe mit meinem Hund spazieren.",
+      "vietnamese": "Tôi đi dạo với chó.",
+      "chinese": "我和狗一起散步。",
+      "korean": "개와 산책해요.",
+      "spanish": "Paseo con mi perro."
       }
     ]
   },
   {
-    "id": "sarada",
-    "japanese": "サラダ",
-    "hiragana": "さらだ",
-    "romaji": "sarada",
-    "english": "salad",
-    "french": "salade",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "サラダを食べます。",
-        "hiragana": "さらだをたべます。",
-        "romaji": "Sarada o tabemasu.",
-        "english": "I eat salad.",
-        "french": "Je mange de la salade."
-      }
-    ]
-  },
-  {
-    "id": "san",
-    "japanese": "三",
-    "hiragana": "さん",
-    "romaji": "san",
-    "english": "three",
-    "french": "trois",
-    "level": "N5",
-    "category": "number",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "三人の友達がいます。",
-        "hiragana": "さんにんのともだちがいます。",
-        "romaji": "San nin no tomodachi ga imasu.",
-        "english": "I have three friends.",
-        "french": "J'ai trois amis."
-      }
-    ]
-  },
-  {
-    "id": "sanpo",
-    "japanese": "散歩",
-    "hiragana": "さんぽ",
-    "romaji": "sanpo",
-    "english": "walk, stroll",
-    "french": "promenade",
-    "level": "N5",
-    "category": "activity",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "犬と散歩します。",
-        "hiragana": "いぬとさんぽします。",
-        "romaji": "Inu to sanpo shimasu.",
-        "english": "I take a walk with my dog.",
-        "french": "Je me promène avec mon chien."
-      }
-    ]
-  },
-  {
-    "id": "shawa",
-    "japanese": "シャワー",
-    "hiragana": "しゃわー",
-    "romaji": "shawaa",
-    "english": "shower",
-    "french": "douche",
-    "level": "N5",
-    "category": "daily life",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "シャワーを浴びます。",
-        "hiragana": "しゃわーをあびます。",
-        "romaji": "Shawaa o abimasu.",
-        "english": "I take a shower.",
-        "french": "Je prends une douche."
-      }
-    ]
-  },
-  {
-    "id": "shashin",
-    "japanese": "写真",
-    "hiragana": "しゃしん",
-    "romaji": "shashin",
-    "english": "photograph",
-    "french": "photo",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "写真を撮ります。",
-        "hiragana": "しゃしんをとります。",
-        "romaji": "Shashin o torimasu.",
-        "english": "I take a photo.",
-        "french": "Je prends une photo."
+    "id": "shawaa",
+  "japanese": "シャワー",
+  "hiragana": "しゃわー",
+  "romaji": "shawaa",
+  "english": "shower",
+  "french": "douche",
+  "german": "Dusche",
+  "vietnamese": "vòi sen, tắm",
+  "chinese": "淋浴",
+  "korean": "샤워",
+  "spanish": "ducha",
+  "level": "N5",
+  "category": "daily life",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "シャワーを浴びます。",
+      "hiragana": "しゃわーをあびます。",
+      "romaji": "Shawaa o abimasu.",
+      "english": "I take a shower.",
+      "french": "Je prends une douche.",
+      "german": "Ich dusche.",
+      "vietnamese": "Tôi tắm vòi sen.",
+      "chinese": "我洗淋浴。",
+      "korean": "샤워해요.",
+      "spanish": "Me doy una ducha."
+    }
+  ]
+},
+{
+  "id": "shashin",
+  "japanese": "写真",
+  "hiragana": "しゃしん",
+  "romaji": "shashin",
+  "english": "photograph",
+  "french": "photo",
+  "german": "Foto",
+  "vietnamese": "ảnh, bức ảnh",
+  "chinese": "照片",
+  "korean": "사진",
+  "spanish": "foto, fotografía",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "写真を撮ります。",
+      "hiragana": "しゃしんをとります。",
+      "romaji": "Shashin o torimasu.",
+      "english": "I take a photo.",
+      "french": "Je prends une photo.",
+      "german": "Ich mache ein Foto.",
+      "vietnamese": "Tôi chụp ảnh.",
+      "chinese": "我拍照片。",
+      "korean": "사진을 찍어요.",
+      "spanish": "Tomo una foto."
       }
     ]
   },
   {
     "id": "jikan",
-    "japanese": "時間",
-    "hiragana": "じかん",
-    "romaji": "jikan",
-    "english": "time, hour",
-    "french": "temps, heure",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "時間がありますか？",
-        "hiragana": "じかんがありますか？",
-        "romaji": "Jikan ga arimasu ka?",
-        "english": "Do you have time?",
-        "french": "As-tu du temps ?"
-      }
-    ]
-  },
-  {
-    "id": "jisho",
-    "japanese": "辞書",
-    "hiragana": "じしょ",
-    "romaji": "jisho",
-    "english": "dictionary",
-    "french": "dictionnaire",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "辞書で単語を調べます。",
-        "hiragana": "じしょでたんごをしらべます。",
-        "romaji": "Jisho de tango o shirabemasu.",
-        "english": "I look up words in a dictionary.",
-        "french": "Je cherche des mots dans un dictionnaire."
-      }
-    ]
-  },
-  {
-    "id": "shizuka",
-    "japanese": "静か",
-    "hiragana": "しずか",
-    "romaji": "shizuka",
-    "english": "quiet",
-    "french": "calme",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "図書館は静かです。",
-        "hiragana": "としょかんはしずかです。",
-        "romaji": "Toshokan wa shizuka desu.",
-        "english": "The library is quiet.",
-        "french": "La bibliothèque est calme."
+  "japanese": "時間",
+  "hiragana": "じかん",
+  "romaji": "jikan",
+  "english": "time, hour",
+  "french": "temps, heure",
+  "german": "Zeit, Stunde",
+  "vietnamese": "thời gian, giờ",
+  "chinese": "时间",
+  "korean": "시간",
+  "spanish": "tiempo, hora",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "時間がありますか？",
+      "hiragana": "じかんがありますか？",
+      "romaji": "Jikan ga arimasu ka?",
+      "english": "Do you have time?",
+      "french": "As-tu du temps ?",
+      "german": "Hast du Zeit?",
+      "vietnamese": "Bạn có thời gian không?",
+      "chinese": "你有时间吗？",
+      "korean": "시간 있어요?",
+      "spanish": "¿Tienes tiempo?"
+    }
+  ]
+},
+{
+  "id": "jisho",
+  "japanese": "辞書",
+  "hiragana": "じしょ",
+  "romaji": "jisho",
+  "english": "dictionary",
+  "french": "dictionnaire",
+  "german": "Wörterbuch",
+  "vietnamese": "từ điển",
+  "chinese": "词典",
+  "korean": "사전",
+  "spanish": "diccionario",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "辞書で単語を調べます。",
+      "hiragana": "じしょでたんごをしらべます。",
+      "romaji": "Jisho de tango o shirabemasu.",
+      "english": "I look up words in a dictionary.",
+      "french": "Je cherche des mots dans un dictionnaire.",
+      "german": "Ich schlage Wörter im Wörterbuch nach.",
+      "vietnamese": "Tôi tra từ trong từ điển.",
+      "chinese": "我在词典里查单词。",
+      "korean": "사전에서 단어를 찾아봐요.",
+      "spanish": "Busco palabras en el diccionario."
+    }
+  ]
+},
+{
+  "id": "shizuka",
+  "japanese": "静か",
+  "hiragana": "しずか",
+  "romaji": "shizuka",
+  "english": "quiet",
+  "french": "calme",
+  "german": "ruhig",
+  "vietnamese": "yên tĩnh",
+  "chinese": "安静",
+  "korean": "조용하다",
+  "spanish": "tranquilo",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "図書館は静かです。",
+      "hiragana": "としょかんはしずかです。",
+      "romaji": "Toshokan wa shizuka desu.",
+      "english": "The library is quiet.",
+      "french": "La bibliothèque est calme.",
+      "german": "Die Bibliothek ist ruhig.",
+      "vietnamese": "Thư viện yên tĩnh.",
+      "chinese": "图书馆很安静。",
+      "korean": "도서관은 조용해요.",
+      "spanish": "La biblioteca está tranquila."
       }
     ]
   },
