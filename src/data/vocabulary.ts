@@ -6741,7 +6741,7 @@ export const vocabularyData: VocabularyWord[] = [
       "spanish": "Gracias por la comida."
     }
   ]
-}
+},
   {
     "id": "kokoasa",
     "japanese": "今朝",
