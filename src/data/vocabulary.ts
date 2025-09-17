@@ -263,7 +263,7 @@ export interface VocabularyWord {
   imageUrl?: string;
 }
 
-export const categories = ['time', 'objects', 'verbs', 'colors', 'places', 'food'];
+export const categories = ['time', 'objects', 'verbs', 'colors', 'places', 'food', 'adjectives', 'body', 'location'];
 export const levels = ['1', '2', '3', '4', '5'];
 
 export const vocabularyData: VocabularyWord[] = [
@@ -434,5 +434,257 @@ export const vocabularyData: VocabularyWord[] = [
       }
     ],
     imageUrl: waterImage,
+  },
+  {
+    id: "au-to-meet",
+    japanese: "会う",
+    hiragana: "あう",
+    romaji: "au",
+    english: "to meet",
+    category: "verbs",
+    level: "1",
+    examples: [
+      {
+        japanese: "友達に会います。",
+        hiragana: "ともだちにあいます。",
+        romaji: "tomodachi ni aimasu.",
+        english: "I meet my friend."
+      }
+    ],
+    imageUrl: tomeetImage,
+  },
+  {
+    id: "ao-blue",
+    japanese: "青",
+    hiragana: "あお",
+    romaji: "ao",
+    english: "blue",
+    category: "colors",
+    level: "1",
+    examples: [
+      {
+        japanese: "青い空",
+        hiragana: "あおいそら",
+        romaji: "aoi sora",
+        english: "blue sky"
+      }
+    ],
+    imageUrl: blueImage,
+  },
+  {
+    id: "aoi-blue-adj",
+    japanese: "青い",
+    hiragana: "あおい",
+    romaji: "aoi",
+    english: "blue (adjective)",
+    category: "colors",
+    level: "1",
+    examples: [
+      {
+        japanese: "青い海",
+        hiragana: "あおいうみ",
+        romaji: "aoi umi",
+        english: "blue sea"
+      }
+    ],
+    imageUrl: blueadjImage,
+  },
+  {
+    id: "akarui-bright",
+    japanese: "明るい",
+    hiragana: "あかるい",
+    romaji: "akarui",
+    english: "bright",
+    category: "adjectives",
+    level: "2",
+    examples: [
+      {
+        japanese: "明るい部屋",
+        hiragana: "あかるいへや",
+        romaji: "akarui heya",
+        english: "bright room"
+      }
+    ],
+    imageUrl: brightImage,
+  },
+  {
+    id: "aki-autumn",
+    japanese: "秋",
+    hiragana: "あき",
+    romaji: "aki",
+    english: "autumn",
+    category: "time",
+    level: "1",
+    examples: [
+      {
+        japanese: "秋は涼しいです。",
+        hiragana: "あきはすずしいです。",
+        romaji: "aki wa suzushii desu.",
+        english: "Autumn is cool."
+      }
+    ],
+    imageUrl: autumnImage,
+  },
+  {
+    id: "aku-to-open",
+    japanese: "開く",
+    hiragana: "あく",
+    romaji: "aku",
+    english: "to open (intransitive)",
+    category: "verbs",
+    level: "2",
+    examples: [
+      {
+        japanese: "ドアが開きます。",
+        hiragana: "ドアがあきます。",
+        romaji: "doa ga akimasu.",
+        english: "The door opens."
+      }
+    ],
+    imageUrl: toopenImage,
+  },
+  {
+    id: "akeru-to-open",
+    japanese: "開ける",
+    hiragana: "あける",
+    romaji: "akeru",
+    english: "to open (transitive)",
+    category: "verbs",
+    level: "2",
+    examples: [
+      {
+        japanese: "窓を開けます。",
+        hiragana: "まどをあけます。",
+        romaji: "mado wo akemasu.",
+        english: "I open the window."
+      }
+    ],
+    imageUrl: toopen2Image,
+  },
+  {
+    id: "ageru-to-give",
+    japanese: "あげる",
+    hiragana: "あげる",
+    romaji: "ageru",
+    english: "to give",
+    category: "verbs",
+    level: "2",
+    examples: [
+      {
+        japanese: "プレゼントをあげます。",
+        hiragana: "プレゼントをあげます。",
+        romaji: "purezento wo agemasu.",
+        english: "I give a present."
+      }
+    ],
+    imageUrl: togiveImage,
+  },
+  {
+    id: "asagohan-breakfast",
+    japanese: "朝ごはん",
+    hiragana: "あさごはん",
+    romaji: "asagohan",
+    english: "breakfast",
+    category: "food",
+    level: "1",
+    examples: [
+      {
+        japanese: "朝ごはんを食べます。",
+        hiragana: "あさごはんをたべます。",
+        romaji: "asagohan wo tabemasu.",
+        english: "I eat breakfast."
+      }
+    ],
+    imageUrl: breakfastImage,
+  },
+  {
+    id: "asatte-day-after-tomorrow",
+    japanese: "明後日",
+    hiragana: "あさって",
+    romaji: "asatte",
+    english: "day after tomorrow",
+    category: "time",
+    level: "2",
+    examples: [
+      {
+        japanese: "明後日会いましょう。",
+        hiragana: "あさってあいましょう。",
+        romaji: "asatte aimashou.",
+        english: "Let's meet the day after tomorrow."
+      }
+    ],
+    imageUrl: dayaftertomorrowImage,
+  },
+  {
+    id: "ashi-foot-leg",
+    japanese: "足",
+    hiragana: "あし",
+    romaji: "ashi",
+    english: "foot/leg",
+    category: "body",
+    level: "1",
+    examples: [
+      {
+        japanese: "足が痛いです。",
+        hiragana: "あしがいたいです。",
+        romaji: "ashi ga itai desu.",
+        english: "My foot/leg hurts."
+      }
+    ],
+    imageUrl: footlegImage,
+  },
+  {
+    id: "ashita-tomorrow",
+    japanese: "明日",
+    hiragana: "あした",
+    romaji: "ashita",
+    english: "tomorrow",
+    category: "time",
+    level: "1",
+    examples: [
+      {
+        japanese: "明日は雨です。",
+        hiragana: "あしたはあめです。",
+        romaji: "ashita wa ame desu.",
+        english: "Tomorrow it will rain."
+      }
+    ],
+    imageUrl: tomorrowImage,
+  },
+  {
+    id: "asoko-over-there",
+    japanese: "あそこ",
+    hiragana: "あそこ",
+    romaji: "asoko",
+    english: "over there",
+    category: "location",
+    level: "1",
+    examples: [
+      {
+        japanese: "あそこに学校があります。",
+        hiragana: "あそこにがっこうがあります。",
+        romaji: "asoko ni gakkou ga arimasu.",
+        english: "There is a school over there."
+      }
+    ],
+    imageUrl: overthereImage,
+  },
+  {
+    id: "asobu-to-play",
+    japanese: "遊ぶ",
+    hiragana: "あそぶ",
+    romaji: "asobu",
+    english: "to play",
+    category: "verbs",
+    level: "1",
+    examples: [
+      {
+        japanese: "公園で遊びます。",
+        hiragana: "こうえんであそびます。",
+        romaji: "kouen de asobimasu.",
+        english: "I play in the park."
+      }
+    ],
+    imageUrl: toplayImage,
   }
 ];
