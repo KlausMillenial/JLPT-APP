@@ -11455,12 +11455,17 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tatakau",
+"id": "tatakau",
     "japanese": "戦う",
     "hiragana": "たたかう",
     "romaji": "tatakau",
     "english": "to fight",
     "french": "se battre",
+    "german": "kämpfen",
+    "spanish": "luchar",
+    "vietnamese": "chiến đấu",
+    "chinese": "战斗",
+    "korean": "싸우다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -11470,7 +11475,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれらはたたかいました。",
         "romaji": "Karera wa tatakaimashita.",
         "english": "They fought.",
-        "french": "Ils se sont battus."
+        "french": "Ils se sont battus.",
+        "german": "Sie haben gekämpft.",
+        "spanish": "Ellos lucharon.",
+        "vietnamese": "Họ đã chiến đấu.",
+        "chinese": "他们战斗了。",
+        "korean": "그들은 싸웠습니다."
       }
     ]
   },
@@ -11481,6 +11491,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tatemono",
     "english": "building",
     "french": "bâtiment",
+    "german": "Gebäude",
+    "spanish": "edificio",
+    "vietnamese": "tòa nhà",
+    "chinese": "建筑",
+    "korean": "건물",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -11490,7 +11505,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ふるいたてものがあります。",
         "romaji": "Furui tatemono ga arimasu.",
         "english": "There is an old building.",
-        "french": "Il y a un vieux bâtiment."
+        "french": "Il y a un vieux bâtiment.",
+        "german": "Es gibt ein altes Gebäude.",
+        "spanish": "Hay un edificio antiguo.",
+        "vietnamese": "Có một tòa nhà cũ.",
+        "chinese": "有一栋老建筑。",
+        "korean": "오래된 건물이 있습니다."
       }
     ]
   },
@@ -11501,6 +11521,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "takai tatemono",
     "english": "tall building",
     "french": "bâtiment haut",
+    "german": "hohes Gebäude",
+    "spanish": "edificio alto",
+    "vietnamese": "tòa nhà cao",
+    "chinese": "高楼",
+    "korean": "높은 건물",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -11510,7 +11535,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "たかいたてものがならんでいます。",
         "romaji": "Takai tatemono ga narande imasu.",
         "english": "Tall buildings are lined up.",
-        "french": "Des bâtiments hauts sont alignés."
+        "french": "Des bâtiments hauts sont alignés.",
+        "german": "Hohe Gebäude stehen in einer Reihe.",
+        "spanish": "Los edificios altos están alineados.",
+        "vietnamese": "Các tòa nhà cao xếp hàng.",
+        "chinese": "高楼排成一列。",
+        "korean": "높은 건물들이 줄지어 있습니다."
       }
     ]
   },
@@ -11521,6 +11551,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tawaa",
     "english": "tower",
     "french": "tour",
+    "german": "Turm",
+    "spanish": "torre",
+    "vietnamese": "tháp",
+    "chinese": "塔",
+    "korean": "타워",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -11530,7 +11565,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "とうきょうたわーにいきました。",
         "romaji": "Toukyou Tawaa ni ikimashita.",
         "english": "I went to Tokyo Tower.",
-        "french": "Je suis allé à la Tour de Tokyo."
+        "french": "Je suis allé à la Tour de Tokyo.",
+        "german": "Ich bin zum Tokio Tower gegangen.",
+        "spanish": "Fui a la Torre de Tokio.",
+        "vietnamese": "Tôi đã đi đến tháp Tokyo.",
+        "chinese": "我去了东京塔。",
+        "korean": "나는 도쿄 타워에 갔습니다."
       }
     ]
   },
@@ -11541,6 +11581,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tayori",
     "english": "news, letter",
     "french": "nouvelles, lettre",
+    "german": "Nachricht, Brief",
+    "spanish": "noticia, carta",
+    "vietnamese": "tin tức, thư",
+    "chinese": "消息，信",
+    "korean": "소식, 편지",
     "level": "N5",
     "category": "communication",
     "wordType": "noun",
@@ -11550,7 +11595,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ともだちからたよりがきました。",
         "romaji": "Tomodachi kara tayori ga kimashita.",
         "english": "I received a letter from a friend.",
-        "french": "J'ai reçu une lettre d'un ami."
+        "french": "J'ai reçu une lettre d'un ami.",
+        "german": "Ich habe einen Brief von einem Freund bekommen.",
+        "spanish": "Recibí una carta de un amigo.",
+        "vietnamese": "Tôi đã nhận được thư từ một người bạn.",
+        "chinese": "我收到了朋友的来信。",
+        "korean": "친구에게서 편지가 왔습니다."
       }
     ]
   },
@@ -11561,6 +11611,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "te",
     "english": "hand",
     "french": "main",
+    "german": "Hand",
+    "spanish": "mano",
+    "vietnamese": "tay",
+    "chinese": "手",
+    "korean": "손",
     "level": "N5",
     "category": "body parts",
     "wordType": "noun",
@@ -11570,7 +11625,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "てをあらってください。",
         "romaji": "Te o aratte kudasai.",
         "english": "Please wash your hands.",
-        "french": "Lavez-vous les mains, s'il vous plaît."
+        "french": "Lavez-vous les mains, s'il vous plaît.",
+        "german": "Bitte waschen Sie Ihre Hände.",
+        "spanish": "Por favor, lávate las manos.",
+        "vietnamese": "Xin hãy rửa tay.",
+        "chinese": "请洗手。",
+        "korean": "손을 씻으세요."
       }
     ]
   },
