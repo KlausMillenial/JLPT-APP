@@ -279,6 +279,10 @@ export const VocabularyApp = () => {
     return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
+  if (currentView === 'swipe-quiz') {
+    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
+  }
+
   if (currentView === 'batch-images') {
     return (
       <div className="min-h-screen bg-background">
