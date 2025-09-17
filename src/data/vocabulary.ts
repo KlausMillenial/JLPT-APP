@@ -1,3 +1,5 @@
+import morningImage from '@/assets/morning-asa.png';
+
 export interface VocabularyWord {
   id: string;
   japanese: string;
@@ -46,6 +48,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: morningImage,
     examples: [
       {
         japanese: "朝、コーヒーを飲みます。",
