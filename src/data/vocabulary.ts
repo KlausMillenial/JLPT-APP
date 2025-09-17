@@ -751,6 +751,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "nature",
     wordType: "noun",
+    imageUrl: waterImage,
     examples: [
       {
         japanese: "冷たい水を飲みました。",
@@ -781,6 +782,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tomeetImage,
     examples: [
       {
         japanese: "友達に会う。",
@@ -811,6 +813,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
+    imageUrl: blueImage,
     examples: [
       {
         japanese: "空は青です。",
@@ -841,6 +844,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "adjective",
+    imageUrl: blueadjImage,
     examples: [
       {
         japanese: "青いシャツを着ています。",
@@ -902,6 +906,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: brightImage,
     examples: [
       {
         japanese: "部屋は明るいです。",
@@ -932,6 +937,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "season",
     wordType: "noun",
+    imageUrl: autumnImage,
     examples: [
       {
         japanese: "秋は涼しいです。",
@@ -962,6 +968,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toopenImage,
     examples: [
       {
         japanese: "ドアが開く。",
@@ -992,6 +999,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toopen2Image,
     examples: [
       {
         japanese: "窓を開ける。",
@@ -1022,6 +1030,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: togiveImage,
     examples: [
       {
         japanese: "本を上げる。",
@@ -1052,6 +1061,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "food",
     wordType: "noun",
+    imageUrl: breakfastImage,
     examples: [
       {
         japanese: "朝御飯を作る。",
