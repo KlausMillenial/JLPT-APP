@@ -201,15 +201,17 @@ export const VocabularyApp = () => {
     const updatedWords = [...translatedVocabulary];
     let completedCount = 0;
 
-    // Process in batches of 5 for better speed
-    const batchSize = 5;
+    // Process in smaller batches with longer delays for reliability
+    const batchSize = 3;
     const batches = [];
     for (let i = 0; i < wordsNeedingTranslation.length; i += batchSize) {
       batches.push(wordsNeedingTranslation.slice(i, i + batchSize));
     }
 
     try {
-      for (const batch of batches) {
+      for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
+        const batch = batches[batchIndex];
+        
         // Process batch in parallel
         const batchPromises = batch.map(async (word) => {
           try {
@@ -232,13 +234,14 @@ export const VocabularyApp = () => {
           }
         });
         
-        // Update progress
-        toast.info(`Translated ${completedCount}/${wordsNeedingTranslation.length} entries...`);
+        // Update progress and state more frequently
+        const progressPercentage = Math.round((completedCount / wordsNeedingTranslation.length) * 100);
+        toast.info(`Translation progress: ${progressPercentage}% (${completedCount}/${wordsNeedingTranslation.length})`);
         setTranslatedVocabulary([...updatedWords]);
         
-        // Shorter delay between batches (200ms instead of 600ms per word)
-        if (batches.indexOf(batch) < batches.length - 1) {
-          await new Promise(resolve => setTimeout(resolve, 200));
+        // Longer delay between batches for more reliable translation
+        if (batchIndex < batches.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 500));
         }
       }
 

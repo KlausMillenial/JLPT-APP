@@ -138,13 +138,14 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
-        toast.success('Leonardo AI image generated!');
+        toast.success('Image generated successfully!');
       } else {
         throw new Error('No image URL returned');
       }
     } catch (error) {
       console.error('Leonardo AI image generation failed:', error);
-      toast.error('Image generation failed');
+      const errorMessage = error instanceof Error ? error.message : 'Image generation failed';
+      toast.error(errorMessage);
     } finally {
       setIsGeneratingImage(false);
     }
