@@ -6,7 +6,7 @@ import eatImage from '@/assets/eat-taberu.png';
 import redImage from '@/assets/red-akai.png';
 import schoolImage from '@/assets/school-gakkou.png';
 import waterImage from '@/assets/water-mizu.png';
-
+import tomeetImage from '@/assets/to-meet-au.png';
 
 
 
@@ -277,6 +277,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tomeetImage,
     examples: [
       {
         japanese: "友達に会う。",
