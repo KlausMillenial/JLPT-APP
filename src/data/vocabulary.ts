@@ -12,6 +12,25 @@ import blueadjImage from '@/assets/blue-aoi.png';
 import brightImage from '@/assets/bright-akarui.png';
 import autumnImage from '@/assets/autumn-aki.png';
 import toopenImage from '@/assets/to-open-aku.png';
+import togiveImage from '@/assets/to-give-ageru.png';
+import breakfastImage from '@/assets/breakfast-asagohan.png';
+import dayaftertomorrowImage from '@/assets/day-after-tomorrow-asatte.png';
+import footlegImage from '@/assets/foot-leg-ashi.png';
+import tomorrowImage from '@/assets/tomorrow-ashita.png';
+import overthereImage from '@/assets/over-there-acchi.png';
+import toplayImage from '@/assets/to-play-asobu.png';
+import warmImage from '@/assets/warm-atatakai.png';
+import headImage from '@/assets/head-atama.png';
+import newImage from '@/assets/new-atarashii.png';
+import thereImage from '@/assets/there-achira.png';
+import hotweatherImage from '@/assets/hot-weather-atsui.png';
+import hottouchImage from '@/assets/hot-touch-atsui.png';
+import thickImage from '@/assets/thick-atsui.png';
+import overthere2Image from '@/assets/over-there-asoko.png';
+import afterwardsImage from '@/assets/afterwards-ato.png';
+import youImage from '@/assets/you-anata.png';
+import olderbrotherImage from '@/assets/older-brother-ani.png';
+import oldersisterImage from '@/assets/older-sister-ane.png';
 
 
 export interface VocabularyWord {
@@ -495,6 +514,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: togiveImage,
     examples: [
       {
         japanese: "本を上げる。",
@@ -525,6 +545,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "food",
     wordType: "noun",
+    imageUrl: breakfastImage,
     examples: [
       {
         japanese: "朝御飯を作る。",
@@ -555,6 +576,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: dayaftertomorrowImage,
     examples: [
       {
         japanese: "あさって映画に行く。",
@@ -585,6 +607,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "body part",
     wordType: "noun",
+    imageUrl: footlegImage,
     examples: [
       {
         japanese: "足が痛い。",
@@ -615,6 +638,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: tomorrowImage,
     examples: [
       {
         japanese: "明日学校に行く。",
@@ -645,6 +669,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "location",
     wordType: "noun",
+    imageUrl: overthere2Image,
     examples: [
       {
         japanese: "店はあそこです。",
@@ -675,6 +700,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toplayImage,
     examples: [
       {
         japanese: "子どもたちが遊ぶ。",
@@ -705,6 +731,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: warmImage,
     examples: [
       {
         japanese: "今日は暖かいです。",
@@ -735,6 +762,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "body part",
     wordType: "noun",
+    imageUrl: headImage,
     examples: [
       {
         japanese: "頭が痛いです。",
@@ -765,6 +793,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: newImage,
     examples: [
       {
         japanese: "新しい本を買いました。",
@@ -795,6 +824,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "location",
     wordType: "pronoun",
+    imageUrl: thereImage,
     examples: [
       {
         japanese: "先生はあちらです。",
@@ -825,6 +855,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: hotweatherImage,
     examples: [
       {
         japanese: "今日は暑いです。",
@@ -850,6 +881,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: hottouchImage,
     examples: [
       {
         japanese: "このスープは熱いです。",
@@ -870,6 +902,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: thickImage,
     examples: [
       {
         japanese: "厚い本を読みます。",
@@ -895,6 +928,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "location",
     wordType: "pronoun",
+    imageUrl: overthereImage,
     examples: [
       {
         japanese: "学校はあっちです。",
@@ -925,6 +959,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: afterwardsImage,
     examples: [
       {
         japanese: "授業の後で会いましょう。",
@@ -955,6 +990,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "pronoun",
     wordType: "pronoun",
+    imageUrl: youImage,
     examples: [
       {
         japanese: "あなたは学生ですか？",
@@ -985,6 +1021,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "family",
     wordType: "noun",
+    imageUrl: olderbrotherImage,
     examples: [
       {
         japanese: "兄は東京に住んでいます。",
@@ -1015,6 +1052,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "family",
     wordType: "noun",
+    imageUrl: oldersisterImage,
     examples: [
       {
         japanese: "姉は医者です。",
