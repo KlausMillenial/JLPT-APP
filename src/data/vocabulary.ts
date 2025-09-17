@@ -31,6 +31,40 @@ import afterwardsImage from '@/assets/afterwards-ato.png';
 import youImage from '@/assets/you-anata.png';
 import olderbrotherImage from '@/assets/older-brother-ani.png';
 import oldersisterImage from '@/assets/older-sister-ane.png';
+import thatImage from '@/assets/that-ano.png';
+import umImage from '@/assets/um-ano.png';
+import apartmentImage from '@/assets/apartment-apaato.png';
+import tobatheImage from '@/assets/to-bathe-abiru.png';
+import dangerousImage from '@/assets/dangerous-abunai.png';
+import sweetImage from '@/assets/sweet-amai.png';
+import notveryImage from '@/assets/not-very-amari.png';
+import rainImage from '@/assets/rain-ame.png';
+import candyImage from '@/assets/candy-ame.png .jpeg';
+import towashImage from '@/assets/to-wash-arau.png';
+import tobeImage from '@/assets/to-be-aru.png';
+import towalkImage from '@/assets/to-walk-aruku.png';
+import thatpronounImage from '@/assets/that-are.png';
+import goodImage from '@/assets/good-ii.png';
+import noImage from '@/assets/no-iie.png';
+import tosayImage from '@/assets/to-say-iu.png';
+import houseImage from '@/assets/house-ie.png';
+import howImage from '@/assets/how-ikaga.png';
+import togoImage from '@/assets/to-go-iku.png';
+import howmanyImage from '@/assets/how-many-ikutsu.png';
+import howmuchImage from '@/assets/how-much-ikura.png';
+import pondImage from '@/assets/pond-ike.png';
+import doctorImage from '@/assets/doctor-isha.png';
+import chairImage from '@/assets/chair-isu.png';
+import busyImage from '@/assets/busy-isogashii.png';
+import painfulImage from '@/assets/painful-itai.png';
+import oneImage from '@/assets/one-ichi.png';
+import onedayImage from '@/assets/one-day-ichinichi.png';
+import bestImage from '@/assets/best-ichiban.png';
+import whenImage from '@/assets/when-itsu.png';
+import fivedaysImage from '@/assets/five-days-itsuka.png';
+import togetherImage from '@/assets/together-issho.png';
+import fiveImage from '@/assets/five-itsutsu.png';
+import alwaysImage from '@/assets/always-itsumo.png';
 
 
 export interface VocabularyWord {
@@ -1078,6 +1112,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "demonstrative",
     wordType: "adjective",
+    imageUrl: thatImage,
     examples: [
       {
         japanese: "あの山は高いです。",
@@ -1153,6 +1188,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tobatheImage,
     examples: [
       {
         japanese: "毎朝シャワーをあびます。",
@@ -1183,6 +1219,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: dangerousImage,
     examples: [
       {
         japanese: "ここは危ないです。",
@@ -1243,6 +1280,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adverb",
     wordType: "adverb",
+    imageUrl: notveryImage,
     examples: [
       {
         japanese: "日本語はあまり難しくないです。",
@@ -1271,8 +1309,9 @@ export const vocabularyData: VocabularyWord[] = [
     korean: "비",
     spanish: "lluvia",
     level: "N5",
-    category: "nature",
+    category: "weather",
     wordType: "noun",
+    imageUrl: rainImage,
     examples: [
       {
         japanese: "今日は雨です。",
@@ -1333,6 +1372,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: towashImage,
     examples: [
       {
         japanese: "手を洗います。",
@@ -1419,10 +1459,11 @@ export const vocabularyData: VocabularyWord[] = [
     vietnamese: "kia, cái đó",
     chinese: "那",
     korean: "저것",
-    spanish: "aquello",
+    spanish: "eso",
     level: "N5",
-    category: "pronoun",
+    category: "demonstrative",
     wordType: "pronoun",
+    imageUrl: thatpronounImage,
     examples: [
       {
         japanese: "あれは何ですか？",
@@ -1453,6 +1494,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: goodImage,
     examples: [
       {
         japanese: "この本はいいです。",
@@ -1483,6 +1525,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "expression",
     wordType: "interjection",
+    imageUrl: noImage,
     examples: [
       {
         japanese: "いいえ、違います。",
@@ -1513,6 +1556,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tosayImage,
     examples: [
       {
         japanese: "先生が言いました。",
@@ -1541,8 +1585,9 @@ export const vocabularyData: VocabularyWord[] = [
     korean: "집",
     spanish: "casa",
     level: "N5",
-    category: "housing",
+    category: "place",
     wordType: "noun",
+    imageUrl: houseImage,
     examples: [
       {
         japanese: "私の家は大きいです。",
