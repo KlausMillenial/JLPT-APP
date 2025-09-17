@@ -4,7 +4,7 @@ import bookImage from '@/assets/book-hon.png';
 import eatImage from '@/assets/eat-taberu.png';
 import redImage from '@/assets/red-akai.png';
 import schoolImage from '@/assets/school-gakkou.png';
-import waterImage from '@/assets/water-mizu.png';
+import waterImage from '@/assets/water_mizu.png';
 import tomeetImage from '@/assets/to-meet-au.png';
 import blueImage from '@/assets/blue-ao.png';
 import blueadjImage from '@/assets/blue-aoi.png';
