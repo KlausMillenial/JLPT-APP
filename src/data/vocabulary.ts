@@ -1,3 +1,4 @@
+// Only importing images that actually exist
 import morningImage from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
@@ -5,49 +6,6 @@ import eatImage from '@/assets/eat-taberu.png';
 import redImage from '@/assets/red-akai.png';
 import schoolImage from '@/assets/school-gakkou.png';
 import waterImage from '@/assets/water_mizu.png';
-import tomeetImage from '@/assets/to-meet-au.png';
-import blueImage from '@/assets/blue-ao.png';
-import blueadjImage from '@/assets/blue-aoi.png';
-import redImage2 from '@/assets/red-aka.png';
-import brightImage from '@/assets/bright-akarui.png';
-import autumnImage from '@/assets/autumn-aki.png';
-import toopenImage from '@/assets/to-open-aku.png';
-import toopen2Image from '@/assets/to-open-akeru.png';
-import togiveImage from '@/assets/to-give-ageru.png';
-import breakfastImage from '@/assets/breakfast-asagohan.png';
-import dayaftertomorrowImage from '@/assets/day-after-tomorrow-asatte.png';
-import footlegImage from '@/assets/foot-leg-ashi.png';
-import tomorrowImage from '@/assets/tomorrow-ashita.png';
-import overthereImage from '@/assets/over-there-asoko.png';
-import toplayImage from '@/assets/to-play-asobu.png';
-import warmImage from '@/assets/warm-atatakai.png';
-import headImage from '@/assets/head-atama.png';
-import newImage from '@/assets/new-atarashii.png';
-import thereImage from '@/assets/there-achira.png';
-import hotweatherImage from '@/assets/hot-weather-atsui.png';
-import hottouchImage from '@/assets/hot-touch-atsui.png';
-import thickImage from '@/assets/thick-atsui.png';
-import overthere2Image from '@/assets/over-there-acchi.png';
-import afterwardsImage from '@/assets/afterwards-ato.png';
-import youImage from '@/assets/you-anata.png';
-import olderbrotherImage from '@/assets/older-brother-ani.png';
-import oldersisterImage from '@/assets/older-sister-ane.png';
-import thatImage from '@/assets/that-ano.png';
-import umImage from '@/assets/um-ano.png';
-import apartmentImage from '@/assets/apartment-apaato.png';
-import tobatheImage from '@/assets/to-bathe-abiru.png';
-import dangerousImage from '@/assets/dangerous-abunai.png';
-import sweetImage from '@/assets/sweet-amai.png';
-import notveryImage from '@/assets/not-very-amari.png';
-import rainImage from '@/assets/rain-ame.png';
-import candyImage from '@/assets/candy-ame.png';
-import towashImage from '@/assets/to-wash-arau.png';
-import tobeImage from '@/assets/to-be-aru.png';
-import towalkImage from '@/assets/to-walk-aruku.png';
-import thatpronounImage from '@/assets/that-are.png';
-import goodImage from '@/assets/good-ii.png';
-import noImage from '@/assets/no-iie.png';
-import tosayImage from '@/assets/to-say-iu.png';
 import houseImage from '@/assets/house-ie.png';
 import howImage from '@/assets/how-ikaga.png';
 import togoImage from '@/assets/to-go-iku.png';
@@ -782,7 +740,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
-    imageUrl: tomeetImage,
     examples: [
       {
         japanese: "友達に会う。",
@@ -813,7 +770,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
-    imageUrl: blueImage,
     examples: [
       {
         japanese: "空は青です。",
@@ -844,7 +800,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "adjective",
-    imageUrl: blueadjImage,
     examples: [
       {
         japanese: "青いシャツを着ています。",
@@ -875,7 +830,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
-    imageUrl: redImage2,
     examples: [
       {
         japanese: "赤が好きです。",
@@ -906,7 +860,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
-    imageUrl: brightImage,
     examples: [
       {
         japanese: "部屋は明るいです。",
@@ -937,7 +890,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "season",
     wordType: "noun",
-    imageUrl: autumnImage,
     examples: [
       {
         japanese: "秋は涼しいです。",
@@ -968,7 +920,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
-    imageUrl: toopenImage,
     examples: [
       {
         japanese: "ドアが開く。",
@@ -999,7 +950,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
-    imageUrl: toopen2Image,
     examples: [
       {
         japanese: "窓を開ける。",
@@ -1030,7 +980,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
-    imageUrl: togiveImage,
     examples: [
       {
         japanese: "本を上げる。",
@@ -1061,7 +1010,6 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "food",
     wordType: "noun",
-    imageUrl: breakfastImage,
     examples: [
       {
         japanese: "朝御飯を作る。",
