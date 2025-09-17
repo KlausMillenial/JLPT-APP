@@ -7,9 +7,11 @@ import redImage from '@/assets/red-akai.png';
 import schoolImage from '@/assets/school-gakkou.png';
 import waterImage from '@/assets/water-mizu.png';
 import tomeetImage from '@/assets/to-meet-au.png';
-
-
-
+import blueImage from '@/assets/blue-ao.png';
+import blueadjImage from '@/assets/blue-aoi.png';
+import brightImage from '@/assets/bright-akarui.png';
+import autumnImage from '@/assets/autumn-aki.png';
+import toopenImage from '@/assets/to-open-aku.png';
 
 
 export interface VocabularyWord {
@@ -308,6 +310,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
+    imageUrl: blueImage,
     examples: [
       {
         japanese: "空は青です。",
@@ -338,6 +341,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "adjective",
+    imageUrl: blueadjImage,
     examples: [
       {
         japanese: "青いシャツを着ています。",
@@ -350,36 +354,6 @@ export const vocabularyData: VocabularyWord[] = [
         chinese: "我穿着蓝色的衬衫。",
         korean: "나는 파란 셔츠를 입고 있습니다.",
         spanish: "Llevo una camisa azul."
-      }
-    ]
-  },
-  {
-    id: "aka",
-    japanese: "赤",
-    hiragana: "あか",
-    romaji: "aka",
-    english: "red",
-    french: "rouge",
-    german: "Rot",
-    vietnamese: "màu đỏ",
-    chinese: "红色",
-    korean: "빨강",
-    spanish: "rojo",
-    level: "N5",
-    category: "color",
-    wordType: "noun",
-    examples: [
-      {
-        japanese: "赤が好きです。",
-        hiragana: "あかがすきです。",
-        romaji: "Aka ga suki desu.",
-        english: "I like red.",
-        french: "J'aime le rouge.",
-        german: "Ich mag Rot.",
-        vietnamese: "Tôi thích màu đỏ.",
-        chinese: "我喜欢红色。",
-        korean: "나는 빨강을 좋아합니다.",
-        spanish: "Me gusta el rojo."
       }
     ]
   },
@@ -398,6 +372,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: brightImage,
     examples: [
       {
         japanese: "部屋は明るいです。",
@@ -428,6 +403,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "season",
     wordType: "noun",
+    imageUrl: autumnImage,
     examples: [
       {
         japanese: "秋は涼しいです。",
@@ -458,6 +434,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toopenImage,
     examples: [
       {
         japanese: "ドアが開く。",
