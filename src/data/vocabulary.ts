@@ -123,8 +123,8 @@ import yearbeforelastImage from '@/assets/yearbeforelast-ototoshi.png';
 import adultImage from '@/assets/adult-otona.png';
 import stomachImage from '@/assets/stomach-onaka.png';
 import sameImage from '@/assets/same-onaji.png';
-import olderbrotherImage from '@/assets/olderbrother-oniisan.png';
-import oldersisterImage from '@/assets/oldersister-oneesan.png';
+import olderbrotherImage2 from '@/assets/olderbrother-oniisan.png';
+import oldersisterImage2 from '@/assets/oldersister-oneesan.png';
 import grandmotherImage from '@/assets/grandmother-obaasan.png';
 
 
@@ -3998,7 +3998,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "family",
   wordType: "noun",
-  imageUrl: olderbrotherImage,
+  imageUrl: olderbrotherImage2,
   examples: [
     {
       japanese: "お兄さんは大学生です。",
@@ -4029,7 +4029,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "family",
   wordType: "noun",
-  imageUrl: oldersisterImage,
+  imageUrl: oldersisterImage2,
   examples: [
     {
       japanese: "お姉さんは先生です。",
