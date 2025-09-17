@@ -99,33 +99,6 @@ import manyImage from '@/assets/many-ooi.png';
 import bigImage from '@/assets/big-ookii.png';
 import bigprefixImage from '@/assets/bigprefix-ookina.png';
 import greatnumberofpeopleImage from '@/assets/greatnumberofpeople-oozei.png';
-import motherImage from '@/assets/mother-okaasan.png';
-import sweetsImage from '@/assets/sweets-okashi.png';
-import moneyImage from '@/assets/money-okane.png';
-import getupImage from '@/assets/getup-okiru.png';
-import putImage from '@/assets/put-oku.png';
-import wifeImage from '@/assets/wife-okusan.png';
-import alcoholImage from '@/assets/alcohol-osake.png';
-import plateImage from '@/assets/plate-osara.png';
-import grandfatherImage from '@/assets/grandfather-ojiisan.png';
-import teachImage from '@/assets/teach-oshieru.png';
-import uncleImage from '@/assets/uncle-ojisan.png';
-import pushImage from '@/assets/push-osu.png';
-import lateImage from '@/assets/late-osoi.png';
-import greenteaImage from '@/assets/greentea-ocha.png';
-import bathroomImage from '@/assets/bathroom-otearai.png';
-import fatherImage from '@/assets/father-otousan.png';
-import youngerbrotherImage from '@/assets/youngerbrother-otouto.png';
-import manImage from '@/assets/man-otoko.png';
-import boyImage from '@/assets/boy-otokonoko.png';
-import daybeforeyesterdayImage from '@/assets/daybeforeyesterday-ototoi.png';
-import yearbeforelastImage from '@/assets/yearbeforelast-ototoshi.png';
-import adultImage from '@/assets/adult-otona.png';
-import stomachImage from '@/assets/stomach-onaka.png';
-import sameImage from '@/assets/same-onaji.png';
-import olderbrotherOniisanImage from '@/assets/olderbrother-oniisan.png';
-import oldersisterOneesanImage from '@/assets/oldersister-oneesan.png';
-import grandmotherImage from '@/assets/grandmother-obaasan.png';
 
 
 export interface VocabularyWord {
@@ -3241,838 +3214,811 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     id: "okaasan",
-  japanese: "お母さん",
-  hiragana: "おかあさん",
-  romaji: "okaasan",
-  english: "mother (honorific)",
-  french: "mère (honorifique)",
-  german: "Mutter (ehrend)",
-  vietnamese: "mẹ (tôn kính)",
-  chinese: "母亲 (尊称)",
-  korean: "어머니",
-  spanish: "madre",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: motherImage,
-  examples: [
-    {
-      japanese: "お母さんは元気ですか？",
-      hiragana: "おかあさんはげんきですか？",
-      romaji: "Okaasan wa genki desu ka?",
-      english: "How is your mother?",
-      french: "Comment va ta mère ?",
-      german: "Wie geht es deiner Mutter?",
-      vietnamese: "Mẹ bạn khỏe không?",
-      chinese: "你妈妈好吗？",
-      korean: "어머니는 잘 지내세요?",
-      spanish: "¿Cómo está tu madre?"
-    }
-  ]
-},
-{
-  id: "okashi",
-  japanese: "お菓子",
-  hiragana: "おかし",
-  romaji: "okashi",
-  english: "sweets, candy",
-  french: "friandises, bonbons",
-  german: "Süßigkeiten",
-  vietnamese: "bánh kẹo",
-  chinese: "点心, 糖果",
-  korean: "과자",
-  spanish: "dulces, caramelos",
-  level: "N5",
-  category: "food",
-  wordType: "noun",
-  imageUrl: sweetsImage,
-  examples: [
-    {
-      japanese: "子どもはお菓子が好きです。",
-      hiragana: "こどもはおかしがすきです。",
-      romaji: "Kodomo wa okashi ga suki desu.",
-      english: "Children like sweets.",
-      french: "Les enfants aiment les bonbons.",
-      german: "Kinder mögen Süßigkeiten.",
-      vietnamese: "Trẻ em thích bánh kẹo.",
-      chinese: "孩子喜欢点心。",
-      korean: "아이들은 과자를 좋아합니다.",
-      spanish: "A los niños les gustan los dulces."
-    }
-  ]
-},
-{
-  id: "okane",
-  japanese: "お金",
-  hiragana: "おかね",
-  romaji: "okane",
-  english: "money",
-  french: "argent",
-  german: "Geld",
-  vietnamese: "tiền",
-  chinese: "钱",
-  korean: "돈",
-  spanish: "dinero",
-  level: "N5",
-  category: "economy",
-  wordType: "noun",
-  imageUrl: moneyImage,
-  examples: [
-    {
-      japanese: "お金を持っていますか？",
-      hiragana: "おかねをもっていますか？",
-      romaji: "Okane o motte imasu ka?",
-      english: "Do you have money?",
-      french: "As-tu de l'argent ?",
-      german: "Hast du Geld?",
-      vietnamese: "Bạn có tiền không?",
-      chinese: "你有钱吗？",
-      korean: "돈 있어요?",
-      spanish: "¿Tienes dinero?"
-    }
-  ]
-},
-{
-  id: "okiru",
-  japanese: "起きる",
-  hiragana: "おきる",
-  romaji: "okiru",
-  english: "to get up",
-  french: "se lever",
-  german: "aufstehen",
-  vietnamese: "dậy",
-  chinese: "起床",
-  korean: "일어나다",
-  spanish: "levantarse",
-  level: "N5",
-  category: "verb",
-  wordType: "verb",
-  imageUrl: getupImage,
-  examples: [
-    {
-      japanese: "毎朝6時に起きます。",
-      hiragana: "まいあさろくじにおきます。",
-      romaji: "Maiasa rokuji ni okimasu.",
-      english: "I get up at 6 every morning.",
-      french: "Je me lève à 6 heures chaque matin.",
-      german: "Ich stehe jeden Morgen um 6 Uhr auf.",
-      vietnamese: "Mỗi sáng tôi dậy lúc 6 giờ.",
-      chinese: "我每天早上六点起床。",
-      korean: "매일 아침 6시에 일어납니다.",
-      spanish: "Me levanto a las 6 cada mañana."
-    }
-  ]
-},
-{
-  id: "oku",
-  japanese: "置く",
-  hiragana: "おく",
-  romaji: "oku",
-  english: "to put, to place",
-  french: "poser, placer",
-  german: "legen, stellen",
-  vietnamese: "đặt, để",
-  chinese: "放置",
-  korean: "놓다",
-  spanish: "poner, colocar",
-  level: "N5",
-  category: "verb",
-  wordType: "verb",
-  imageUrl: putImage,
-  examples: [
-    {
-      japanese: "本を机の上に置きます。",
-      hiragana: "ほんをつくえのうえにおきます。",
-      romaji: "Hon o tsukue no ue ni okimasu.",
-      english: "I put the book on the desk.",
-      french: "Je pose le livre sur le bureau.",
-      german: "Ich lege das Buch auf den Tisch.",
-      vietnamese: "Tôi đặt cuốn sách lên bàn.",
-      chinese: "我把书放在桌子上。",
-      korean: "책을 책상 위에 놓습니다.",
-      spanish: "Pongo el libro en el escritorio."
-    }
-  ]
-},
-{
-  id: "okusan",
-  japanese: "奥さん",
-  hiragana: "おくさん",
-  romaji: "okusan",
-  english: "(honorific) wife",
-  french: "épouse (honorifique)",
-  german: "Ehefrau (ehrend)",
-  vietnamese: "vợ (tôn kính)",
-  chinese: "夫人",
-  korean: "아내 (존칭)",
-  spanish: "esposa",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: wifeImage,
-  examples: [
-    {
-      japanese: "田中さんの奥さんは先生です。",
-      hiragana: "たなかさんのおくさんはせんせいです。",
-      romaji: "Tanaka-san no okusan wa sensei desu.",
-      english: "Mr. Tanaka's wife is a teacher.",
-      french: "La femme de M. Tanaka est professeur.",
-      german: "Die Frau von Herrn Tanaka ist Lehrerin.",
-      vietnamese: "Vợ của ông Tanaka là giáo viên.",
-      chinese: "田中先生的妻子是老师。",
-      korean: "다나카 씨의 아내는 선생님입니다.",
-      spanish: "La esposa del Sr. Tanaka es profesora."
-    }
-  ]
-},
-{
-  id: "osake",
-  japanese: "お酒",
-  hiragana: "おさけ",
-  romaji: "osake",
-  english: "alcohol, rice wine",
-  french: "alcool, saké",
-  german: "Alkohol, Sake",
-  vietnamese: "rượu, rượu sake",
-  chinese: "酒, 清酒",
-  korean: "술",
-  spanish: "alcohol, sake",
-  level: "N5",
-  category: "drink",
-  wordType: "noun",
-  imageUrl: alcoholImage,
-  examples: [
-    {
-      japanese: "父はお酒を飲みます。",
-      hiragana: "ちはおさけをのみます。",
-      romaji: "Chichi wa osake o nomimasu.",
-      english: "My father drinks alcohol.",
-      french: "Mon père boit de l'alcool.",
-      german: "Mein Vater trinkt Alkohol.",
-      vietnamese: "Bố tôi uống rượu.",
-      chinese: "我父亲喝酒。",
-      korean: "아버지는 술을 마십니다.",
-      spanish: "Mi padre bebe alcohol."
-    }
-  ]
-},
-{
-  id: "osara",
-  japanese: "お皿",
-  hiragana: "おさら",
-  romaji: "osara",
-  english: "plate, dish",
-  french: "assiette, plat",
-  german: "Teller",
-  vietnamese: "đĩa",
-  chinese: "盘子",
-  korean: "접시",
-  spanish: "plato",
-  level: "N5",
-  category: "kitchen",
-  wordType: "noun",
-  imageUrl: plateImage,
-  examples: [
-    {
-      japanese: "お皿を洗います。",
-      hiragana: "おさらをあらいます。",
-      romaji: "Osara o araimasu.",
-      english: "I wash the dishes.",
-      french: "Je lave les assiettes.",
-      german: "Ich wasche die Teller.",
-      vietnamese: "Tôi rửa bát đĩa.",
-      chinese: "我洗盘子。",
-      korean: "접시를 씻습니다.",
-      spanish: "Lavo los platos."
-    }
-  ]
-},
-{
-  id: "ojiisan",
-  japanese: "おじいさん",
-  hiragana: "おじいさん",
-  romaji: "ojiisan",
-  english: "grandfather, elderly man",
-  french: "grand-père, vieil homme",
-  german: "Großvater, alter Mann",
-  vietnamese: "ông, cụ già",
-  chinese: "祖父, 老人",
-  korean: "할아버지",
-  spanish: "abuelo, anciano",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: grandfatherImage,
-  examples: [
-    {
-      japanese: "おじいさんは畑にいます。",
-      hiragana: "おじいさんははたけにいます。",
-      romaji: "Ojiisan wa hatake ni imasu.",
-      english: "Grandfather is in the field.",
-      french: "Mon grand-père est dans le champ.",
-      german: "Der Großvater ist auf dem Feld.",
-      vietnamese: "Ông tôi đang ở ngoài ruộng.",
-      chinese: "爷爷在田里。",
-      korean: "할아버지는 밭에 계십니다.",
-      spanish: "El abuelo está en el campo."
-    }
-  ]
-},
-{
-  id: "oshieru",
-  japanese: "教える",
-  hiragana: "おしえる",
-  romaji: "oshieru",
-  english: "to teach, to tell",
-  french: "enseigner, dire",
-  german: "unterrichten, sagen",
-  vietnamese: "dạy, nói",
-  chinese: "教, 告诉",
-  korean: "가르치다, 말하다",
-  spanish: "enseñar, decir",
-  level: "N5",
-  category: "verb",
-  wordType: "verb",
-  imageUrl: teachImage,
-  examples: [
-    {
-      japanese: "日本語を教えます。",
-      hiragana: "にほんごをおしえます。",
-      romaji: "Nihongo o oshiemasu.",
-      english: "I teach Japanese.",
-      french: "J'enseigne le japonais.",
-      german: "Ich unterrichte Japanisch.",
-      vietnamese: "Tôi dạy tiếng Nhật.",
-      chinese: "我教日语。",
-      korean: "일본어를 가르칩니다.",
-      spanish: "Enseño japonés."
-    }
-  ]
-},
-{
-  id: "ojisan",
-  japanese: "おじさん",
-  hiragana: "おじさん",
-  romaji: "ojisan",
-  english: "uncle, middle-aged man",
-  french: "oncle, homme d'âge moyen",
-  german: "Onkel, älterer Mann",
-  vietnamese: "chú, bác",
-  chinese: "叔叔, 大叔",
-  korean: "아저씨, 삼촌",
-  spanish: "tío, hombre mayor",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: uncleImage,
-  examples: [
-    {
-      japanese: "おじさんが来ました。",
-      hiragana: "おじさんがきました。",
-      romaji: "Ojisan ga kimashita.",
-      english: "My uncle came.",
-      french: "Mon oncle est venu.",
-      german: "Mein Onkel ist gekommen.",
-      vietnamese: "Chú tôi đã đến.",
-      chinese: "我叔叔来了。",
-      korean: "삼촌이 왔습니다.",
-      spanish: "Mi tío vino."
-    }
-  ]
-},
-{
-  id: "osu",
-  japanese: "押す",
-  hiragana: "おす",
-  romaji: "osu",
-  english: "to push, to press",
-  french: "pousser, appuyer",
-  german: "drücken, schieben",
-  vietnamese: "đẩy, bấm",
-  chinese: "按, 推",
-  korean: "밀다, 누르다",
-  spanish: "empujar, presionar",
-  level: "N5",
-  category: "verb",
-  wordType: "verb",
-  imageUrl: pushImage,
-  examples: [
-    {
-      japanese: "ボタンを押してください。",
-      hiragana: "ぼたんをおしてください。",
-      romaji: "Botan o oshite kudasai.",
-      english: "Please press the button.",
-      french: "Appuie sur le bouton, s'il te plaît.",
-      german: "Bitte drücken Sie den Knopf.",
-      vietnamese: "Hãy bấm nút.",
-      chinese: "请按按钮。",
-      korean: "버튼을 눌러주세요.",
-      spanish: "Por favor, pulsa el botón."
-    }
-  ]
-},
-{
-  id: "osoi",
-  japanese: "遅い",
-  hiragana: "おそい",
-  romaji: "osoi",
-  english: "late, slow",
-  french: "tard, lent",
-  german: "spät, langsam",
-  vietnamese: "muộn, chậm",
-  chinese: "晚, 慢",
-  korean: "늦다, 느리다",
-  spanish: "tarde, lento",
-  level: "N5",
-  category: "adjective",
-  wordType: "adjective",
-  imageUrl: lateImage,
-  examples: [
-    {
-      japanese: "今日は学校に遅れました。",
-      hiragana: "きょうはがっこうにおくれました。",
-      romaji: "Kyou wa gakkou ni okuremashita.",
-      english: "I was late for school today.",
-      french: "Aujourd'hui je suis arrivé en retard à l'école.",
-      german: "Ich bin heute zu spät zur Schule gekommen.",
-      vietnamese: "Hôm nay tôi đến trường muộn.",
-      chinese: "今天我上学迟到了。",
-      korean: "오늘은 학교에 늦었습니다.",
-      spanish: "Hoy llegué tarde a la escuela."
-    }
-  ]
-},
-{
-  id: "ocha",
-  japanese: "お茶",
-  hiragana: "おちゃ",
-  romaji: "ocha",
-  english: "green tea",
-  french: "thé vert",
-  german: "grüner Tee",
-  vietnamese: "trà xanh",
-  chinese: "绿茶",
-  korean: "녹차",
-  spanish: "té verde",
-  level: "N5",
-  category: "drink",
-  wordType: "noun",
-  imageUrl: greenteaImage,
-  examples: [
-    {
-      japanese: "お茶を飲みます。",
-      hiragana: "おちゃをのみます。",
-      romaji: "Ocha o nomimasu.",
-      english: "I drink green tea.",
-      french: "Je bois du thé vert.",
-      german: "Ich trinke grünen Tee.",
-      vietnamese: "Tôi uống trà xanh.",
-      chinese: "我喝绿茶。",
-      korean: "녹차를 마십니다.",
-      spanish: "Bebo té verde."
-    }
-  ]
-},
-{
-  id: "otearai",
-  japanese: "お手洗い",
-  hiragana: "おてあらい",
-  romaji: "otearai",
-  english: "bathroom",
-  french: "toilettes",
-  german: "Toilette",
-  vietnamese: "nhà vệ sinh",
-  chinese: "洗手间",
-  korean: "화장실",
-  spanish: "baño",
-  level: "N5",
-  category: "place",
-  wordType: "noun",
-  imageUrl: bathroomImage,
-  examples: [
-    {
-      japanese: "お手洗いはどこですか？",
-      hiragana: "おてあらいはどこですか？",
-      romaji: "Otearai wa doko desu ka?",
-      english: "Where is the bathroom?",
-      french: "Où sont les toilettes ?",
-      german: "Wo ist die Toilette?",
-      vietnamese: "Nhà vệ sinh ở đâu?",
-      chinese: "洗手间在哪里？",
-      korean: "화장실이 어디에 있습니까?",
-      spanish: "¿Dónde está el baño?"
-    }
-  ]
-},
-{
-  id: "otousan",
-  japanese: "お父さん",
-  hiragana: "おとうさん",
-  romaji: "otousan",
-  english: "father (honorific)",
-  french: "père (honorifique)",
-  german: "Vater (ehrend)",
-  vietnamese: "cha (tôn kính)",
-  chinese: "父亲 (尊称)",
-  korean: "아버지",
-  spanish: "padre",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: fatherImage,
-  examples: [
-    {
-      japanese: "お父さんは仕事に行きました。",
-      hiragana: "おとうさんはしごとにいきました。",
-      romaji: "Otousan wa shigoto ni ikimashita.",
-      english: "My father went to work.",
-      french: "Mon père est allé au travail.",
-      german: "Mein Vater ist zur Arbeit gegangen.",
-      vietnamese: "Cha tôi đã đi làm.",
-      chinese: "我父亲去上班了。",
-      korean: "아버지는 일하러 가셨습니다.",
-      spanish: "Mi padre fue a trabajar."
-    }
-  ]
-},
-{
-  id: "otouto",
-  japanese: "弟",
-  hiragana: "おとうと",
-  romaji: "otouto",
-  english: "younger brother",
-  french: "petit frère",
-  german: "jüngerer Bruder",
-  vietnamese: "em trai",
-  chinese: "弟弟",
-  korean: "남동생",
-  spanish: "hermano menor",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: youngerbrotherImage,
-  examples: [
-    {
-      japanese: "弟はサッカーが好きです。",
-      hiragana: "おとうとはさっかーがすきです。",
-      romaji: "Otouto wa sakkaa ga suki desu.",
-      english: "My younger brother likes soccer.",
-      french: "Mon petit frère aime le football.",
-      german: "Mein jüngerer Bruder mag Fußball.",
-      vietnamese: "Em trai tôi thích bóng đá.",
-      chinese: "我弟弟喜欢足球。",
-      korean: "남동생은 축구를 좋아합니다.",
-      spanish: "A mi hermano menor le gusta el fútbol."
-    }
-  ]
-},
-{
-  id: "otoko",
-  japanese: "男",
-  hiragana: "おとこ",
-  romaji: "otoko",
-  english: "man",
-  french: "homme",
-  german: "Mann",
-  vietnamese: "đàn ông",
-  chinese: "男人",
-  korean: "남자",
-  spanish: "hombre",
-  level: "N5",
-  category: "people",
-  wordType: "noun",
-  imageUrl: manImage,
-  examples: [
-    {
-      japanese: "あの男は先生です。",
-      hiragana: "あのおとこはせんせいです。",
-      romaji: "Ano otoko wa sensei desu.",
-      english: "That man is a teacher.",
-      french: "Cet homme est professeur.",
-      german: "Jener Mann ist Lehrer.",
-      vietnamese: "Người đàn ông đó là thầy giáo.",
-      chinese: "那个人是老师。",
-      korean: "저 남자는 선생님입니다.",
-      spanish: "Ese hombre es profesor."
-    }
-  ]
-},
-{
-  id: "otokonoko",
-  japanese: "男の子",
-  hiragana: "おとこのこ",
-  romaji: "otokonoko",
-  english: "boy",
-  french: "garçon",
-  german: "Junge",
-  vietnamese: "cậu bé",
-  chinese: "男孩",
-  korean: "남자아이",
-  spanish: "niño",
-  level: "N5",
-  category: "people",
-  wordType: "noun",
-  imageUrl: boyImage,
-  examples: [
-    {
-      japanese: "男の子が走っています。",
-      hiragana: "おとこのこがはしっています。",
-      romaji: "Otokonoko ga hashitte imasu.",
-      english: "The boy is running.",
-      french: "Le garçon court.",
-      german: "Der Junge rennt.",
-      vietnamese: "Cậu bé đang chạy.",
-      chinese: "男孩在跑。",
-      korean: "남자아이가 달리고 있습니다.",
-      spanish: "El niño está corriendo."
-    }
-  ]
-},
-{
-  id: "ototoi",
-  japanese: "一昨日",
-  hiragana: "おととい",
-  romaji: "ototoi",
-  english: "day before yesterday",
-  french: "avant-hier",
-  german: "vorgestern",
-  vietnamese: "hôm kia",
-  chinese: "前天",
-  korean: "그저께",
-  spanish: "anteayer",
-  level: "N5",
-  category: "time",
-  wordType: "noun",
-  imageUrl: daybeforeyesterdayImage,
-  examples: [
-    {
-      japanese: "一昨日映画を見ました。",
-      hiragana: "おとといえいがをみました。",
-      romaji: "Ototoi eiga o mimashita.",
-      english: "I watched a movie the day before yesterday.",
-      french: "J'ai vu un film avant-hier.",
-      german: "Ich habe vorgestern einen Film gesehen.",
-      vietnamese: "Hôm kia tôi đã xem phim.",
-      chinese: "我前天看了电影。",
-      korean: "그저께 영화를 봤습니다.",
-      spanish: "Anteayer vi una película."
-    }
-  ]
-},
-{
-  id: "ototoshi",
-  japanese: "一昨年",
-  hiragana: "おととし",
-  romaji: "ototoshi",
-  english: "year before last",
-  french: "l'année avant la dernière",
-  german: "vorletztes Jahr",
-  vietnamese: "năm kia",
-  chinese: "前年",
-  korean: "재작년",
-  spanish: "hace dos años",
-  level: "N5",
-  category: "time",
-  wordType: "noun",
-  imageUrl: yearbeforelastImage,
-  examples: [
-    {
-      japanese: "一昨年日本に行きました。",
-      hiragana: "おととしにほんにいきました。",
-      romaji: "Ototoshi Nihon ni ikimashita.",
-      english: "I went to Japan the year before last.",
-      french: "Je suis allé au Japon l'avant-dernière année.",
-      german: "Ich bin vorletztes Jahr nach Japan gefahren.",
-      vietnamese: "Năm kia tôi đã đi Nhật.",
-      chinese: "前年我去了日本。",
-      korean: "재작년에 일본에 갔습니다.",
-      spanish: "Fui a Japón hace dos años."
-    }
-  ]
-},
-{
-  id: "otona",
-  japanese: "大人",
-  hiragana: "おとな",
-  romaji: "otona",
-  english: "adult",
-  french: "adulte",
-  german: "Erwachsener",
-  vietnamese: "người lớn",
-  chinese: "大人",
-  korean: "어른",
-  spanish: "adulto",
-  level: "N5",
-  category: "people",
-  wordType: "noun",
-  imageUrl: adultImage,
-  examples: [
-    {
-      japanese: "彼は大人です。",
-      hiragana: "かれはおとなです。",
-      romaji: "Kare wa otona desu.",
-      english: "He is an adult.",
-      french: "C'est un adulte.",
-      german: "Er ist ein Erwachsener.",
-      vietnamese: "Anh ấy là người lớn.",
-      chinese: "他是大人。",
-      korean: "그는 어른입니다.",
-      spanish: "Él es un adulto."
-    }
-  ]
-},
-{
-  id: "onaka",
-  japanese: "おなか",
-  hiragana: "おなか",
-  romaji: "onaka",
-  english: "stomach",
-  french: "ventre",
-  german: "Bauch",
-  vietnamese: "bụng",
-  chinese: "肚子",
-  korean: "배",
-  spanish: "estómago",
-  level: "N5",
-  category: "body parts",
-  wordType: "noun",
-  imageUrl: stomachImage,
-  examples: [
-    {
-      japanese: "おなかが痛いです。",
-      hiragana: "おなかがいたいです。",
-      romaji: "Onaka ga itai desu.",
-      english: "My stomach hurts.",
-      french: "J'ai mal au ventre.",
-      german: "Mein Bauch tut weh.",
-      vietnamese: "Tôi đau bụng.",
-      chinese: "我肚子疼。",
-      korean: "배가 아파요.",
-      spanish: "Me duele el estómago."
-    }
-  ]
-},
-{
-  id: "onaji",
-  japanese: "同じ",
-  hiragana: "おなじ",
-  romaji: "onaji",
-  english: "same",
-  french: "même, identique",
-  german: "gleich",
-  vietnamese: "giống nhau",
-  chinese: "相同",
-  korean: "같은",
-  spanish: "mismo",
-  level: "N5",
-  category: "adjective",
-  wordType: "adjective",
-  imageUrl: sameImage,
-  examples: [
-    {
-      japanese: "私たちは同じ学校に通っています。",
-      hiragana: "わたしたちはおなじがっこうにかよっています。",
-      romaji: "Watashitachi wa onaji gakkou ni kayotte imasu.",
-      english: "We go to the same school.",
-      french: "Nous allons à la même école.",
-      german: "Wir gehen auf die gleiche Schule.",
-      vietnamese: "Chúng tôi học cùng một trường.",
-      chinese: "我们上同一所学校。",
-      korean: "우리는 같은 학교에 다녀요.",
-      spanish: "Vamos a la misma escuela."
-    }
-  ]
-},
-{
-  id: "oniisan",
-  japanese: "お兄さん",
-  hiragana: "おにいさん",
-  romaji: "oniisan",
-  english: "older brother (honorific)",
-  french: "frère aîné (honorifique)",
-  german: "älterer Bruder",
-  vietnamese: "anh trai",
-  chinese: "哥哥",
-  korean: "형 / 오빠",
-  spanish: "hermano mayor",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: olderbrotherOniisanImage,
-  examples: [
-    {
-      japanese: "お兄さんは大学生です。",
-      hiragana: "おにいさんはだいがくせいです。",
-      romaji: "Oniisan wa daigakusei desu.",
-      english: "My older brother is a university student.",
-      french: "Mon grand frère est étudiant à l'université.",
-      german: "Mein älterer Bruder ist Student.",
-      vietnamese: "Anh trai tôi là sinh viên.",
-      chinese: "我的哥哥是大学生。",
-      korean: "형은 대학생입니다.",
-      spanish: "Mi hermano mayor es estudiante universitario."
-    }
-  ]
-},
-{
-  id: "oneesan",
-  japanese: "お姉さん",
-  hiragana: "おねえさん",
-  romaji: "oneesan",
-  english: "older sister (honorific)",
-  french: "sœur aînée (honorifique)",
-  german: "ältere Schwester",
-  vietnamese: "chị gái",
-  chinese: "姐姐",
-  korean: "누나 / 언니",
-  spanish: "hermana mayor",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: oldersisterOneesanImage,
-  examples: [
-    {
-      japanese: "お姉さんは先生です。",
-      hiragana: "おねえさんはせんせいです。",
-      romaji: "Oneesan wa sensei desu.",
-      english: "My older sister is a teacher.",
-      french: "Ma grande sœur est professeur.",
-      german: "Meine ältere Schwester ist Lehrerin.",
-      vietnamese: "Chị gái tôi là giáo viên.",
-      chinese: "我的姐姐是老师。",
-      korean: "언니는 선생님입니다.",
-      spanish: "Mi hermana mayor es profesora."
-    }
-  ]
-},
-{
-  id: "obaasan",
-  japanese: "おばあさん",
-  hiragana: "おばあさん",
-  romaji: "obaasan",
-  english: "grandmother, elderly woman",
-  french: "grand-mère, vieille femme",
-  german: "Großmutter",
-  vietnamese: "bà",
-  chinese: "奶奶",
-  korean: "할머니",
-  spanish: "abuela",
-  level: "N5",
-  category: "family",
-  wordType: "noun",
-  imageUrl: grandmotherImage,
-  examples: [
-    {
-      japanese: "おばあさんは元気です。",
-      hiragana: "おばあさんはげんきです。",
-      romaji: "Obaasan wa genki desu.",
-      english: "Grandmother is healthy.",
-      french: "Ma grand-mère est en bonne santé.",
-      german: "Meine Großmutter ist gesund.",
-      vietnamese: "Bà tôi khỏe mạnh.",
-      chinese: "我的奶奶很健康。",
-      korean: "할머니는 건강하세요.",
-      spanish: "Mi abuela está sana."
+    japanese: "お母さん",
+    hiragana: "おかあさん",
+    romaji: "okaasan",
+    english: "mother (honorific)",
+    french: "mère (honorifique)",
+    german: "Mutter (ehrend)",
+    vietnamese: "mẹ (tôn kính)",
+    chinese: "母亲 (尊称)",
+    korean: "어머니",
+    spanish: "madre",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お母さんは元気ですか？",
+        hiragana: "おかあさんはげんきですか？",
+        romaji: "Okaasan wa genki desu ka?",
+        english: "How is your mother?",
+        french: "Comment va ta mère ?",
+        german: "Wie geht es deiner Mutter?",
+        vietnamese: "Mẹ bạn khỏe không?",
+        chinese: "你妈妈好吗？",
+        korean: "어머니는 잘 지내세요?",
+        spanish: "¿Cómo está tu madre?"
+      }
+    ]
+  },
+  {
+    id: "okashi",
+    japanese: "お菓子",
+    hiragana: "おかし",
+    romaji: "okashi",
+    english: "sweets, candy",
+    french: "friandises, bonbons",
+    german: "Süßigkeiten",
+    vietnamese: "bánh kẹo",
+    chinese: "点心, 糖果",
+    korean: "과자",
+    spanish: "dulces, caramelos",
+    level: "N5",
+    category: "food",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "子どもはお菓子が好きです。",
+        hiragana: "こどもはおかしがすきです。",
+        romaji: "Kodomo wa okashi ga suki desu.",
+        english: "Children like sweets.",
+        french: "Les enfants aiment les bonbons.",
+        german: "Kinder mögen Süßigkeiten.",
+        vietnamese: "Trẻ em thích bánh kẹo.",
+        chinese: "孩子喜欢点心。",
+        korean: "아이들은 과자를 좋아합니다.",
+        spanish: "A los niños les gustan los dulces."
+      }
+    ]
+  },
+  {
+    id: "okane",
+    japanese: "お金",
+    hiragana: "おかね",
+    romaji: "okane",
+    english: "money",
+    french: "argent",
+    german: "Geld",
+    vietnamese: "tiền",
+    chinese: "钱",
+    korean: "돈",
+    spanish: "dinero",
+    level: "N5",
+    category: "economy",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お金を持っていますか？",
+        hiragana: "おかねをもっていますか？",
+        romaji: "Okane o motte imasu ka?",
+        english: "Do you have money?",
+        french: "As-tu de l'argent ?",
+        german: "Hast du Geld?",
+        vietnamese: "Bạn có tiền không?",
+        chinese: "你有钱吗？",
+        korean: "돈 있어요?",
+        spanish: "¿Tienes dinero?"
+      }
+    ]
+  },
+  {
+    id: "okiru",
+    japanese: "起きる",
+    hiragana: "おきる",
+    romaji: "okiru",
+    english: "to get up",
+    french: "se lever",
+    german: "aufstehen",
+    vietnamese: "dậy",
+    chinese: "起床",
+    korean: "일어나다",
+    spanish: "levantarse",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    "examples": [
+      {
+        japanese: "毎朝6時に起きます。",
+        hiragana: "まいあさろくじにおきます。",
+        romaji: "Maiasa rokuji ni okimasu.",
+        english: "I get up at 6 every morning.",
+        french: "Je me lève à 6 heures chaque matin.",
+        german: "Ich stehe jeden Morgen um 6 Uhr auf.",
+        vietnamese: "Mỗi sáng tôi dậy lúc 6 giờ.",
+        chinese: "我每天早上六点起床。",
+        korean: "매일 아침 6시에 일어납니다.",
+        spanish: "Me levanto a las 6 cada mañana."
+      }
+    ]
+  },
+  {
+    id: "oku",
+    japanese: "置く",
+    hiragana: "おく",
+    romaji: "oku",
+    english: "to put, to place",
+    french: "poser, placer",
+    german: "legen, stellen",
+    vietnamese: "đặt, để",
+    chinese: "放置",
+    korean: "놓다",
+    spanish: "poner, colocar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "本を机の上に置きます。",
+        hiragana: "ほんをつくえのうえにおきます。",
+        romaji: "Hon o tsukue no ue ni okimasu.",
+        english: "I put the book on the desk.",
+        french: "Je pose le livre sur le bureau.",
+        german: "Ich lege das Buch auf den Tisch.",
+        vietnamese: "Tôi đặt cuốn sách lên bàn.",
+        chinese: "我把书放在桌子上。",
+        korean: "책을 책상 위에 놓습니다.",
+        spanish: "Pongo el libro en el escritorio."
+      }
+    ]
+  },
+  {
+    id: "okusan",
+    japanese: "奥さん",
+    hiragana: "おくさん",
+    romaji: "okusan",
+    english: "(honorific) wife",
+    french: "épouse (honorifique)",
+    german: "Ehefrau (ehrend)",
+    vietnamese: "vợ (tôn kính)",
+    chinese: "夫人",
+    korean: "아내 (존칭)",
+    spanish: "esposa",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "田中さんの奥さんは先生です。",
+        hiragana: "たなかさんのおくさんはせんせいです。",
+        romaji: "Tanaka-san no okusan wa sensei desu.",
+        english: "Mr. Tanaka's wife is a teacher.",
+        french: "La femme de M. Tanaka est professeur.",
+        german: "Die Frau von Herrn Tanaka ist Lehrerin.",
+        vietnamese: "Vợ của ông Tanaka là giáo viên.",
+        chinese: "田中先生的妻子是老师。",
+        korean: "다나카 씨의 아내는 선생님입니다.",
+        spanish: "La esposa del Sr. Tanaka es profesora."
+      }
+    ]
+  },
+  {
+    id: "osake",
+    japanese: "お酒",
+    hiragana: "おさけ",
+    romaji: "osake",
+    english: "alcohol, rice wine",
+    french: "alcool, saké",
+    german: "Alkohol, Sake",
+    vietnamese: "rượu, rượu sake",
+    chinese: "酒, 清酒",
+    korean: "술",
+    spanish: "alcohol, sake",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "父はお酒を飲みます。",
+        hiragana: "ちはおさけをのみます。",
+        romaji: "Chichi wa osake o nomimasu.",
+        english: "My father drinks alcohol.",
+        french: "Mon père boit de l'alcool.",
+        german: "Mein Vater trinkt Alkohol.",
+        vietnamese: "Bố tôi uống rượu.",
+        chinese: "我父亲喝酒。",
+        korean: "아버지는 술을 마십니다.",
+        spanish: "Mi padre bebe alcohol."
+      }
+    ]
+  },
+  {
+    id: "osara",
+    japanese: "お皿",
+    hiragana: "おさら",
+    romaji: "osara",
+    english: "plate, dish",
+    french: "assiette, plat",
+    german: "Teller",
+    vietnamese: "đĩa",
+    chinese: "盘子",
+    korean: "접시",
+    spanish: "plato",
+    level: "N5",
+    category: "kitchen",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お皿を洗います。",
+        hiragana: "おさらをあらいます。",
+        romaji: "Osara o araimasu.",
+        english: "I wash the dishes.",
+        french: "Je lave les assiettes.",
+        german: "Ich wasche die Teller.",
+        vietnamese: "Tôi rửa bát đĩa.",
+        chinese: "我洗盘子。",
+        korean: "접시를 씻습니다.",
+        spanish: "Lavo los platos."
+      }
+    ]
+  },
+  {
+    id: "ojiisan",
+    japanese: "おじいさん",
+    hiragana: "おじいさん",
+    romaji: "ojiisan",
+    english: "grandfather, elderly man",
+    french: "grand-père, vieil homme",
+    german: "Großvater, alter Mann",
+    vietnamese: "ông, cụ già",
+    chinese: "祖父, 老人",
+    korean: "할아버지",
+    spanish: "abuelo, anciano",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おじいさんは畑にいます。",
+        hiragana: "おじいさんははたけにいます。",
+        romaji: "Ojiisan wa hatake ni imasu.",
+        english: "Grandfather is in the field.",
+        french: "Mon grand-père est dans le champ.",
+        german: "Der Großvater ist auf dem Feld.",
+        vietnamese: "Ông tôi đang ở ngoài ruộng.",
+        chinese: "爷爷在田里。",
+        korean: "할아버지는 밭에 계십니다.",
+        spanish: "El abuelo está en el campo."
+      }
+    ]
+  },
+  {
+    id: "oshieru",
+    japanese: "教える",
+    hiragana: "おしえる",
+    romaji: "oshieru",
+    english: "to teach, to tell",
+    french: "enseigner, dire",
+    german: "unterrichten, sagen",
+    vietnamese: "dạy, nói",
+    chinese: "教, 告诉",
+    korean: "가르치다, 말하다",
+    spanish: "enseñar, decir",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "日本語を教えます。",
+        hiragana: "にほんごをおしえます。",
+        romaji: "Nihongo o oshiemasu.",
+        english: "I teach Japanese.",
+        french: "J'enseigne le japonais.",
+        german: "Ich unterrichte Japanisch.",
+        vietnamese: "Tôi dạy tiếng Nhật.",
+        chinese: "我教日语。",
+        korean: "일본어를 가르칩니다.",
+        spanish: "Enseño japonés."
+      }
+    ]
+  },
+  {
+    id: "ojisan",
+    japanese: "おじさん",
+    hiragana: "おじさん",
+    romaji: "ojisan",
+    english: "uncle, middle-aged man",
+    french: "oncle, homme d'âge moyen",
+    german: "Onkel, älterer Mann",
+    vietnamese: "chú, bác",
+    chinese: "叔叔, 大叔",
+    korean: "아저씨, 삼촌",
+    spanish: "tío, hombre mayor",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "おじさんが来ました。",
+        hiragana: "おじさんがきました。",
+        romaji: "Ojisan ga kimashita.",
+        english: "My uncle came.",
+        french: "Mon oncle est venu.",
+        german: "Mein Onkel ist gekommen.",
+        vietnamese: "Chú tôi đã đến.",
+        chinese: "我叔叔来了。",
+        korean: "삼촌이 왔습니다.",
+        spanish: "Mi tío vino."
+      }
+    ]
+  },
+  {
+    id: "osu",
+    japanese: "押す",
+    hiragana: "おす",
+    romaji: "osu",
+    english: "to push, to press",
+    french: "pousser, appuyer",
+    german: "drücken, schieben",
+    vietnamese: "đẩy, bấm",
+    chinese: "按, 推",
+    korean: "밀다, 누르다",
+    spanish: "empujar, presionar",
+    level: "N5",
+    category: "verb",
+    wordType: "verb",
+    examples: [
+      {
+        japanese: "ボタンを押してください。",
+        hiragana: "ぼたんをおしてください。",
+        romaji: "Botan o oshite kudasai.",
+        english: "Please press the button.",
+        french: "Appuie sur le bouton, s'il te plaît.",
+        german: "Bitte drücken Sie den Knopf.",
+        vietnamese: "Hãy bấm nút.",
+        chinese: "请按按钮。",
+        korean: "버튼을 눌러주세요.",
+        spanish: "Por favor, pulsa el botón."
+      }
+    ]
+  },
+  {
+    id: "osoi",
+    japanese: "遅い",
+    hiragana: "おそい",
+    romaji: "osoi",
+    english: "late, slow",
+    french: "tard, lent",
+    german: "spät, langsam",
+    vietnamese: "muộn, chậm",
+    chinese: "晚, 慢",
+    korean: "늦다, 느리다",
+    spanish: "tarde, lento",
+    level: "N5",
+    category: "adjective",
+    wordType: "adjective",
+    examples: [
+      {
+        japanese: "今日は学校に遅れました。",
+        hiragana: "きょうはがっこうにおくれました。",
+        romaji: "Kyou wa gakkou ni okuremashita.",
+        english: "I was late for school today.",
+        french: "Aujourd'hui je suis arrivé en retard à l'école.",
+        german: "Ich bin heute zu spät zur Schule gekommen.",
+        vietnamese: "Hôm nay tôi đến trường muộn.",
+        chinese: "今天我上学迟到了。",
+        korean: "오늘은 학교에 늦었습니다.",
+        spanish: "Hoy llegué tarde a la escuela."
+      }
+    ]
+  },
+  {
+    id: "ocha",
+    japanese: "お茶",
+    hiragana: "おちゃ",
+    romaji: "ocha",
+    english: "green tea",
+    french: "thé vert",
+    german: "grüner Tee",
+    vietnamese: "trà xanh",
+    chinese: "绿茶",
+    korean: "녹차",
+    spanish: "té verde",
+    level: "N5",
+    category: "drink",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お茶を飲みます。",
+        hiragana: "おちゃをのみます。",
+        romaji: "Ocha o nomimasu.",
+        english: "I drink green tea.",
+        french: "Je bois du thé vert.",
+        german: "Ich trinke grünen Tee.",
+        vietnamese: "Tôi uống trà xanh.",
+        chinese: "我喝绿茶。",
+        korean: "녹차를 마십니다.",
+        spanish: "Bebo té verde."
+      }
+    ]
+  },
+  {
+    id: "otearai",
+    japanese: "お手洗い",
+    hiragana: "おてあらい",
+    romaji: "otearai",
+    english: "bathroom",
+    french: "toilettes",
+    german: "Toilette",
+    vietnamese: "nhà vệ sinh",
+    chinese: "洗手间",
+    korean: "화장실",
+    spanish: "baño",
+    level: "N5",
+    category: "place",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お手洗いはどこですか？",
+        hiragana: "おてあらいはどこですか？",
+        romaji: "Otearai wa doko desu ka?",
+        english: "Where is the bathroom?",
+        french: "Où sont les toilettes ?",
+        german: "Wo ist die Toilette?",
+        vietnamese: "Nhà vệ sinh ở đâu?",
+        chinese: "洗手间在哪里？",
+        korean: "화장실이 어디에 있습니까?",
+        spanish: "¿Dónde está el baño?"
+      }
+    ]
+  },
+  {
+    id: "otousan",
+    japanese: "お父さん",
+    hiragana: "おとうさん",
+    romaji: "otousan",
+    english: "father (honorific)",
+    french: "père (honorifique)",
+    german: "Vater (ehrend)",
+    vietnamese: "cha (tôn kính)",
+    chinese: "父亲 (尊称)",
+    korean: "아버지",
+    spanish: "padre",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "お父さんは仕事に行きました。",
+        hiragana: "おとうさんはしごとにいきました。",
+        romaji: "Otousan wa shigoto ni ikimashita.",
+        english: "My father went to work.",
+        french: "Mon père est allé au travail.",
+        german: "Mein Vater ist zur Arbeit gegangen.",
+        vietnamese: "Cha tôi đã đi làm.",
+        chinese: "我父亲去上班了。",
+        korean: "아버지는 일하러 가셨습니다.",
+        spanish: "Mi padre fue a trabajar."
+      }
+    ]
+  },
+  {
+    id: "otouto",
+    japanese: "弟",
+    hiragana: "おとうと",
+    romaji: "otouto",
+    english: "younger brother",
+    french: "petit frère",
+    german: "jüngerer Bruder",
+    vietnamese: "em trai",
+    chinese: "弟弟",
+    korean: "남동생",
+    spanish: "hermano menor",
+    level: "N5",
+    category: "family",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "弟はサッカーが好きです。",
+        hiragana: "おとうとはさっかーがすきです。",
+        romaji: "Otouto wa sakkaa ga suki desu.",
+        english: "My younger brother likes soccer.",
+        french: "Mon petit frère aime le football.",
+        german: "Mein jüngerer Bruder mag Fußball.",
+        vietnamese: "Em trai tôi thích bóng đá.",
+        chinese: "我弟弟喜欢足球。",
+        korean: "남동생은 축구를 좋아합니다.",
+        spanish: "A mi hermano menor le gusta el fútbol."
+      }
+    ]
+  },
+  {
+    id: "otoko",
+    japanese: "男",
+    hiragana: "おとこ",
+    romaji: "otoko",
+    english: "man",
+    french: "homme",
+    german: "Mann",
+    vietnamese: "đàn ông",
+    chinese: "男人",
+    korean: "남자",
+    spanish: "hombre",
+    level: "N5",
+    category: "people",
+    wordType: "noun",
+    examples: [
+      {
+        japanese: "あの男は先生です。",
+        hiragana: "あのおとこはせんせいです。",
+        romaji: "Ano otoko wa sensei desu.",
+        english: "That man is a teacher.",
+        french: "Cet homme est professeur.",
+        german: "Jener Mann ist Lehrer.",
+        vietnamese: "Người đàn ông đó là thầy giáo.",
+        chinese: "那个人是老师。",
+        korean: "저 남자는 선생님입니다.",
+        spanish: "Ese hombre es profesor."
+      }
+    ]
+  },
+  {
+    id: "otokonoko",
+    japanese: "男の子",
+    hiragana: "おとこのこ",
+    romaji: "otokonoko",
+    english: "boy",
+    french: "garçon",
+    german: "Junge",
+    vietnamese: "cậu bé",
+    chinese: "男孩",
+    korean: "남자아이",
+    spanish: "niño",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "男の子が走っています。",
+        hiragana: "おとこのこがはしっています。",
+        romaji: "Otokonoko ga hashitte imasu.",
+        english: "The boy is running.",
+        french: "Le garçon court.",
+        german: "Der Junge rennt.",
+        vietnamese: "Cậu bé đang chạy.",
+        chinese: "男孩在跑。",
+        korean: "남자아이가 달리고 있습니다.",
+        spanish: "El niño está corriendo."
+      }
+    ]
+  },
+  {
+    id: "ototoi",
+    japanese: "一昨日",
+    hiragana: "おととい",
+    romaji: "ototoi",
+    english: "day before yesterday",
+    french: "avant-hier",
+    german: "vorgestern",
+    vietnamese: "hôm kia",
+    chinese: "前天",
+    korean: "그저께",
+    spanish: "anteayer",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "一昨日映画を見ました。",
+        hiragana: "おとといえいがをみました。",
+        romaji: "Ototoi eiga o mimashita.",
+        english: "I watched a movie the day before yesterday.",
+        french: "J'ai vu un film avant-hier.",
+        german: "Ich habe vorgestern einen Film gesehen.",
+        vietnamese: "Hôm kia tôi đã xem phim.",
+        chinese: "我前天看了电影。",
+        korean: "그저께 영화를 봤습니다.",
+        spanish: "Anteayer vi una película."
+      }
+    ]
+  },
+  {
+    id: "ototoshi",
+    japanese: "一昨年",
+    hiragana: "おととし",
+    romaji: "ototoshi",
+    english: "year before last",
+    french: "l'année avant la dernière",
+    german: "vorletztes Jahr",
+    vietnamese: "năm kia",
+    chinese: "前年",
+    korean: "재작년",
+    spanish: "hace dos años",
+    "level": "N5",
+    "category": "time",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "一昨年日本に行きました。",
+        hiragana: "おととしにほんにいきました。",
+        romaji: "Ototoshi Nihon ni ikimashita.",
+        english: "I went to Japan the year before last.",
+        french: "Je suis allé au Japon l'avant-dernière année.",
+        german: "Ich bin vorletztes Jahr nach Japan gefahren.",
+        vietnamese: "Năm kia tôi đã đi Nhật.",
+        chinese: "前年我去了日本。",
+        korean: "재작년에 일본에 갔습니다.",
+        spanish: "Fui a Japón hace dos años."
+      }
+    ]
+  },
+  {
+    id: "otona",
+    japanese: "大人",
+    hiragana: "おとな",
+    romaji: "otona",
+    english: "adult",
+    french: "adulte",
+    german: "Erwachsener",
+    vietnamese: "người lớn",
+    chinese: "大人",
+    korean: "어른",
+    spanish: "adulto",
+    "level": "N5",
+    "category": "people",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "彼は大人です。",
+        hiragana: "かれはおとなです。",
+        romaji: "Kare wa otona desu.",
+        english: "He is an adult.",
+        french: "C'est un adulte.",
+        german: "Er ist ein Erwachsener.",
+        vietnamese: "Anh ấy là người lớn.",
+        chinese: "他是大人。",
+        korean: "그는 어른입니다.",
+        spanish: "Él es un adulto."
+      }
+    ]
+  },
+  {
+    id: "onaka",
+    japanese: "おなか",
+    hiragana: "おなか",
+    romaji: "onaka",
+    english: "stomach",
+    french: "ventre",
+    german: "Bauch",
+    vietnamese: "bụng",
+    chinese: "肚子",
+    korean: "배",
+    spanish: "estómago",
+    "level": "N5",
+    "category": "body parts",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "おなかが痛いです。",
+        hiragana: "おなかがいたいです。",
+        romaji: "Onaka ga itai desu.",
+        english: "My stomach hurts.",
+        french: "J'ai mal au ventre.",
+        german: "Mein Bauch tut weh.",
+        vietnamese: "Tôi đau bụng.",
+        chinese: "我肚子疼。",
+        korean: "배가 아파요.",
+        spanish: "Me duele el estómago."
+      }
+    ]
+  },
+  {
+    id: "onaji",
+    japanese: "同じ",
+    hiragana: "おなじ",
+    romaji: "onaji",
+    english: "same",
+    french: "même, identique",
+    german: "gleich",
+    vietnamese: "giống nhau",
+    chinese: "相同",
+    korean: "같은",
+    spanish: "mismo",
+    "level": "N5",
+    "category": "adjective",
+    "wordType": "adjective",
+    "examples": [
+      {
+        japanese: "私たちは同じ学校に通っています。",
+        hiragana: "わたしたちはおなじがっこうにかよっています。",
+        romaji: "Watashitachi wa onaji gakkou ni kayotte imasu.",
+        english: "We go to the same school.",
+        french: "Nous allons à la même école.",
+        german: "Wir gehen auf die gleiche Schule.",
+        vietnamese: "Chúng tôi học cùng một trường.",
+        chinese: "我们上同一所学校。",
+        korean: "우리는 같은 학교에 다녀요.",
+        spanish: "Vamos a la misma escuela."
+      }
+    ]
+  },
+  {
+    id: "oniisan",
+    japanese: "お兄さん",
+    hiragana: "おにいさん",
+    romaji: "oniisan",
+    english: "older brother (honorific)",
+    french: "frère aîné (honorifique)",
+    german: "älterer Bruder",
+    vietnamese: "anh trai",
+    chinese: "哥哥",
+    korean: "형 / 오빠",
+    spanish: "hermano mayor",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "お兄さんは大学生です。",
+        hiragana: "おにいさんはだいがくせいです。",
+        romaji: "Oniisan wa daigakusei desu.",
+        english: "My older brother is a university student.",
+        french: "Mon grand frère est étudiant à l'université.",
+        german: "Mein älterer Bruder ist Student.",
+        vietnamese: "Anh trai tôi là sinh viên.",
+        chinese: "我的哥哥是大学生。",
+        korean: "형은 대학생입니다.",
+        spanish: "Mi hermano mayor es estudiante universitario."
+      }
+    ]
+  },
+  {
+    id: "oneesan",
+    japanese: "お姉さん",
+    hiragana: "おねえさん",
+    romaji: "oneesan",
+    english: "older sister (honorific)",
+    french: "sœur aînée (honorifique)",
+    german: "ältere Schwester",
+    vietnamese: "chị gái",
+    chinese: "姐姐",
+    korean: "누나 / 언니",
+    spanish: "hermana mayor",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "お姉さんは先生です。",
+        hiragana: "おねえさんはせんせいです。",
+        romaji: "Oneesan wa sensei desu.",
+        english: "My older sister is a teacher.",
+        french: "Ma grande sœur est professeur.",
+        german: "Meine ältere Schwester ist Lehrerin.",
+        vietnamese: "Chị gái tôi là giáo viên.",
+        chinese: "我的姐姐是老师。",
+        korean: "언니는 선생님입니다.",
+        spanish: "Mi hermana mayor es profesora."
+      }
+    ]
+  },
+  {
+    id: "obaasan",
+    japanese: "おばあさん",
+    hiragana: "おばあさん",
+    romaji: "obaasan",
+    english: "grandmother, elderly woman",
+    french: "grand-mère, vieille femme",
+    german: "Großmutter",
+    vietnamese: "bà",
+    chinese: "奶奶",
+    korean: "할머니",
+    spanish: "abuela",
+    "level": "N5",
+    "category": "family",
+    "wordType": "noun",
+    "examples": [
+      {
+        japanese: "おばあさんは元気です。",
+        hiragana: "おばあさんはげんきです。",
+        romaji: "Obaasan wa genki desu.",
+        english: "Grandmother is healthy.",
+        french: "Ma grand-mère est en bonne santé.",
+        german: "Meine Großmutter ist gesund.",
+        vietnamese: "Bà tôi khỏe mạnh.",
+        chinese: "我的奶奶很健康。",
+        korean: "할머니는 건강하세요.",
+        spanish: "Mi abuela está sana."
       }
     ]
   },
@@ -13599,6 +13545,36 @@ export const vocabularyData: VocabularyWord[] = [
         chinese: "我和妈妈一起去购物。",
         korean: "어머니와 함께 쇼핑을 갑니다.",
         spanish: "Voy de compras con mi madre."
+      }
+    ]
+  },
+  {
+    id: "kau",
+    japanese: "買う",
+    hiragana: "かう",
+    romaji: "kau",
+    english: "to buy",
+    french: "acheter",
+    german: "kaufen",
+    vietnamese: "mua",
+    chinese: "买",
+    korean: "사다",
+    spanish: "comprar",
+    level: "N5",
+    category: "verb",
+    wordType: "godan verb",
+    examples: [
+      {
+        japanese: "新しい靴を買いました。",
+        hiragana: "あたらしいくつをかいました。",
+        romaji: "Atarashii kutsu o kaimashita.",
+        english: "I bought new shoes.",
+        french: "J'ai acheté de nouvelles chaussures.",
+        german: "Ich habe neue Schuhe gekauft.",
+        vietnamese: "Tôi đã mua giày mới.",
+        chinese: "我买了新鞋。",
+        korean: "새 신발을 샀습니다.",
+        spanish: "Compré zapatos nuevos."
       }
     ]
   },

@@ -15,7 +15,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import { toast } from 'sonner';
-import { cleanVocabularyData } from '@/utils/cleanVocabulary';
+import { removeDuplicatesFromVocabulary, logVocabularyStats } from '@/utils/removeDuplicates';
 import { logAllWords, getWordsByCategory, getWordsByLevel } from '@/utils/listAllWords';
 import { useDebounce } from '@/hooks/useDebounce';
 
@@ -36,14 +36,17 @@ export const VocabularyApp = () => {
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
   const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
-    // Use clean deduplicated vocabulary data
-    return cleanVocabularyData;
+    // Use deduplicated vocabulary data - memoized to run only once
+    return removeDuplicatesFromVocabulary();
   });
 
   // Log stats only once on component mount
   useEffect(() => {
     const uniqueData = translatedVocabulary;
     console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
+    if (process.env.NODE_ENV === 'development') {
+      logVocabularyStats();
+    }
     // Set loading to false after data is ready
     setTimeout(() => setIsLoading(false), 100);
   }, []); // Empty dependency array - runs only once
