@@ -6742,446 +6742,666 @@ export const vocabularyData: VocabularyWord[] = [
     }
   ]
 },
+{
+  "id": "kokoasa",
+  "japanese": "今朝",
+  "hiragana": "けさ",
+  "romaji": "kesa",
+  "english": "this morning",
+  "french": "ce matin",
+  "german": "heute Morgen",
+  "vietnamese": "sáng nay",
+  "chinese": "今天早上",
+  "korean": "오늘 아침",
+  "spanish": "esta mañana",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今朝は早く起きました。",
+      "hiragana": "けさははやくおきました。",
+      "romaji": "Kesa wa hayaku okimashita.",
+      "english": "I woke up early this morning.",
+      "french": "Je me suis levé tôt ce matin.",
+      "german": "Ich bin heute Morgen früh aufgestanden.",
+      "vietnamese": "Sáng nay tôi dậy sớm.",
+      "chinese": "今天早上我起得很早。",
+      "korean": "오늘 아침 일찍 일어났어요.",
+      "spanish": "Me levanté temprano esta mañana."
+    }
+  ]
+},
+{
+  "id": "kokoasaasa",
+  "japanese": "午後",
+  "hiragana": "ごご",
+  "romaji": "gogo",
+  "english": "afternoon, p.m.",
+  "french": "après-midi",
+  "german": "Nachmittag",
+  "vietnamese": "buổi chiều",
+  "chinese": "下午",
+  "korean": "오후",
+  "spanish": "tarde (p.m.)",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "午後3時に会いましょう。",
+      "hiragana": "ごごさんじにあいましょう。",
+      "romaji": "Gogo sanji ni aimashou.",
+      "english": "Let's meet at 3 p.m.",
+      "french": "Rendez-vous à 15h.",
+      "german": "Treffen wir uns um 15 Uhr.",
+      "vietnamese": "Hẹn gặp lúc 3 giờ chiều.",
+      "chinese": "下午三点见吧。",
+      "korean": "오후 3시에 만나요.",
+      "spanish": "Quedemos a las 3 de la tarde."
+    }
+  ]
+},
+{
+  "id": "gozen",
+  "japanese": "午前",
+  "hiragana": "ごぜん",
+  "romaji": "gozen",
+  "english": "morning, a.m.",
+  "french": "matin (a.m.)",
+  "german": "Vormittag",
+  "vietnamese": "buổi sáng",
+  "chinese": "上午",
+  "korean": "오전",
+  "spanish": "mañana (a.m.)",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "午前9時に授業が始まります。",
+      "hiragana": "ごぜんくじにじゅぎょうがはじまります。",
+      "romaji": "Gozen kuji ni jugyou ga hajimarimasu.",
+      "english": "Class starts at 9 a.m.",
+      "french": "Le cours commence à 9h du matin.",
+      "german": "Der Unterricht beginnt um 9 Uhr morgens.",
+      "vietnamese": "Lớp học bắt đầu lúc 9 giờ sáng.",
+      "chinese": "上午九点上课开始。",
+      "korean": "수업은 오전 9시에 시작합니다.",
+      "spanish": "La clase empieza a las 9 de la mañana."
+    }
+  ]
+},
+{
+  "id": "kotoba",
+  "japanese": "言葉",
+  "hiragana": "ことば",
+  "romaji": "kotoba",
+  "english": "word, language",
+  "french": "mot, langue",
+  "german": "Wort, Sprache",
+  "vietnamese": "từ, ngôn ngữ",
+  "chinese": "词，语言",
+  "korean": "말, 언어",
+  "spanish": "palabra, idioma",
+  "level": "N5",
+  "category": "language",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新しい言葉を覚えました。",
+      "hiragana": "あたらしいことばをおぼえました。",
+      "romaji": "Atarashii kotoba o oboemashita.",
+      "english": "I learned a new word.",
+      "french": "J'ai appris un nouveau mot.",
+      "german": "Ich habe ein neues Wort gelernt.",
+      "vietnamese": "Tôi đã học một từ mới.",
+      "chinese": "我学了一个新词。",
+      "korean": "새로운 단어를 배웠어요.",
+      "spanish": "Aprendí una palabra nueva."
+    }
+  ]
+},
+{
+  "id": "kotoshi",
+  "japanese": "今年",
+  "hiragana": "ことし",
+  "romaji": "kotoshi",
+  "english": "this year",
+  "french": "cette année",
+  "german": "dieses Jahr",
+  "vietnamese": "năm nay",
+  "chinese": "今年",
+  "korean": "올해",
+  "spanish": "este año",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今年日本へ行きます。",
+      "hiragana": "ことしにほんへいきます。",
+      "romaji": "Kotoshi Nihon e ikimasu.",
+      "english": "I will go to Japan this year.",
+      "french": "Je vais au Japon cette année.",
+      "german": "Ich werde dieses Jahr nach Japan fahren.",
+      "vietnamese": "Năm nay tôi sẽ đi Nhật.",
+      "chinese": "今年我会去日本。",
+      "korean": "올해 일본에 갈 거예요.",
+      "spanish": "Este año iré a Japón."
+    }
+  ]
+},
   {
-    "id": "kokoasa",
-    "japanese": "今朝",
-    "hiragana": "けさ",
-    "romaji": "kesa",
-    "english": "this morning",
-    "french": "ce matin",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今朝は早く起きました。",
-        "hiragana": "けさははやくおきました。",
-        "romaji": "Kesa wa hayaku okimashita.",
-        "english": "I woke up early this morning.",
-        "french": "Je me suis levé tôt ce matin."
-      }
-    ]
-  },
+  "id": "kodomo",
+  "japanese": "子供",
+  "hiragana": "こども",
+  "romaji": "kodomo",
+  "english": "child",
+  "french": "enfant",
+  "german": "Kind",
+  "vietnamese": "trẻ em",
+  "chinese": "孩子",
+  "korean": "아이",
+  "spanish": "niño",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "子供が遊んでいます。",
+      "hiragana": "こどもがあそんでいます。",
+      "romaji": "Kodomo ga asonde imasu.",
+      "english": "The child is playing.",
+      "french": "L'enfant joue.",
+      "german": "Das Kind spielt.",
+      "vietnamese": "Đứa trẻ đang chơi.",
+      "chinese": "孩子在玩。",
+      "korean": "아이들이 놀고 있어요.",
+      "spanish": "El niño está jugando."
+    }
+  ]
+},
+{
+  "id": "gochisou",
+  "japanese": "ご馳走",
+  "hiragana": "ごちそう",
+  "romaji": "gochisou",
+  "english": "feast, treat",
+  "french": "festin, régal",
+  "german": "Festmahl, Leckerbissen",
+  "vietnamese": "tiệc, chiêu đãi",
+  "chinese": "盛宴，请客",
+  "korean": "진수성찬, 대접",
+  "spanish": "banquete, convite",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "友達にご馳走しました。",
+      "hiragana": "ともだちにごちそうしました。",
+      "romaji": "Tomodachi ni gochisou shimashita.",
+      "english": "I treated my friend to a meal.",
+      "french": "J'ai offert un repas à mon ami.",
+      "german": "Ich habe meinen Freund zum Essen eingeladen.",
+      "vietnamese": "Tôi đãi bạn một bữa.",
+      "chinese": "我请朋友吃饭。",
+      "korean": "친구에게 밥을 대접했어요.",
+      "spanish": "Invité a mi amigo a comer."
+    }
+  ]
+},
+{
+  "id": "kondo",
+  "japanese": "今度",
+  "hiragana": "こんど",
+  "romaji": "kondo",
+  "english": "next time",
+  "french": "la prochaine fois",
+  "german": "das nächste Mal",
+  "vietnamese": "lần tới",
+  "chinese": "下次",
+  "korean": "다음번",
+  "spanish": "la próxima vez",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今度一緒に行きましょう。",
+      "hiragana": "こんどいっしょにいきましょう。",
+      "romaji": "Kondo issho ni ikimashou.",
+      "english": "Let's go together next time.",
+      "french": "Allons-y ensemble la prochaine fois.",
+      "german": "Lass uns das nächste Mal zusammen gehen.",
+      "vietnamese": "Lần tới hãy đi cùng nhau.",
+      "chinese": "下次一起去吧。",
+      "korean": "다음번에 같이 가요.",
+      "spanish": "La próxima vez vamos juntos."
+    }
+  ]
+},
+{
+  "id": "konban",
+  "japanese": "今晩",
+  "hiragana": "こんばん",
+  "romaji": "konban",
+  "english": "this evening, tonight",
+  "french": "ce soir",
+  "german": "heute Abend",
+  "vietnamese": "tối nay",
+  "chinese": "今晚",
+  "korean": "오늘 밤",
+  "spanish": "esta noche",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今晩は星が見えます。",
+      "hiragana": "こんばんほしがみえます。",
+      "romaji": "Konban hoshi ga miemasu.",
+      "english": "We can see stars tonight.",
+      "french": "On peut voir les étoiles ce soir.",
+      "german": "Heute Abend kann man Sterne sehen.",
+      "vietnamese": "Tối nay có thể nhìn thấy sao.",
+      "chinese": "今晚能看到星星。",
+      "korean": "오늘 밤 별을 볼 수 있어요.",
+      "spanish": "Esta noche se pueden ver estrellas."
+    }
+  ]
+},
+{
+  "id": "kongetsu",
+  "japanese": "今月",
+  "hiragana": "こんげつ",
+  "romaji": "kongetsu",
+  "english": "this month",
+  "french": "ce mois-ci",
+  "german": "diesen Monat",
+  "vietnamese": "tháng này",
+  "chinese": "这个月",
+  "korean": "이번 달",
+  "spanish": "este mes",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今月から新しい仕事を始めました。",
+      "hiragana": "こんげつからあたらしいしごとをはじめました。",
+      "romaji": "Kongetsu kara atarashii shigoto o hajimemashita.",
+      "english": "I started a new job this month.",
+      "french": "J'ai commencé un nouveau travail ce mois-ci.",
+      "german": "Ich habe diesen Monat einen neuen Job angefangen.",
+      "vietnamese": "Tháng này tôi đã bắt đầu công việc mới.",
+      "chinese": "我这个月开始了新工作。",
+      "korean": "이번 달부터 새 일을 시작했어요.",
+      "spanish": "Este mes empecé un nuevo trabajo."
+    }
+  ]
+},
+{
+  "id": "konshuu",
+  "japanese": "今週",
+  "hiragana": "こんしゅう",
+  "romaji": "konshuu",
+  "english": "this week",
+  "french": "cette semaine",
+  "german": "diese Woche",
+  "vietnamese": "tuần này",
+  "chinese": "这周",
+  "korean": "이번 주",
+  "spanish": "esta semana",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今週は忙しいです。",
+      "hiragana": "こんしゅうはいそがしいです。",
+      "romaji": "Konshuu wa isogashii desu.",
+      "english": "I am busy this week.",
+      "french": "Je suis occupé cette semaine.",
+      "german": "Ich bin diese Woche beschäftigt.",
+      "vietnamese": "Tuần này tôi bận.",
+      "chinese": "这周我很忙。",
+      "korean": "이번 주는 바빠요.",
+      "spanish": "Estoy ocupado esta semana."
+    }
+  ]
+},
+{
+  "id": "konna",
+  "japanese": "こんな",
+  "hiragana": "こんな",
+  "romaji": "konna",
+  "english": "such, like this",
+  "french": "tel, comme ça",
+  "german": "solch, so ein",
+  "vietnamese": "như thế này",
+  "chinese": "这样的",
+  "korean": "이런",
+  "spanish": "así, como este",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "こんなに大きいケーキは初めてです。",
+      "hiragana": "こんなにおおきいけーきははじめてです。",
+      "romaji": "Konna ni ookii keeki wa hajimete desu.",
+      "english": "It's the first time I see such a big cake.",
+      "french": "C'est la première fois que je vois un gâteau aussi grand.",
+      "german": "So einen großen Kuchen sehe ich zum ersten Mal.",
+      "vietnamese": "Đây là lần đầu tiên tôi thấy bánh to như vậy.",
+      "chinese": "这是我第一次看到这么大的蛋糕。",
+      "korean": "이렇게 큰 케이크는 처음 봐요.",
+      "spanish": "Es la primera vez que veo un pastel tan grande."
+    }
+  ]
+},
+{
+  "id": "konya",
+  "japanese": "今夜",
+  "hiragana": "こんや",
+  "romaji": "konya",
+  "english": "tonight",
+  "french": "ce soir",
+  "german": "heute Nacht",
+  "vietnamese": "tối nay",
+  "chinese": "今晚",
+  "korean": "오늘 밤",
+  "spanish": "esta noche",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今夜は月がきれいです。",
+      "hiragana": "こんやはつきがきれいです。",
+      "romaji": "Konya wa tsuki ga kirei desu.",
+      "english": "The moon is beautiful tonight.",
+      "french": "La lune est belle ce soir.",
+      "german": "Der Mond ist heute Nacht schön.",
+      "vietnamese": "Trăng đẹp tối nay.",
+      "chinese": "今晚的月亮很美。",
+      "korean": "오늘 밤 달이 예뻐요.",
+      "spanish": "La luna está hermosa esta noche."
+    }
+  ]
+},
+{
+  "id": "konpyuutaa",
+  "japanese": "コンピュータ",
+  "hiragana": "こんぴゅーた",
+  "romaji": "konpyuutaa",
+  "english": "computer",
+  "french": "ordinateur",
+  "german": "Computer",
+  "vietnamese": "máy tính",
+  "chinese": "电脑",
+  "korean": "컴퓨터",
+  "spanish": "computadora, ordenador",
+  "level": "N5",
+  "category": "technology",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "コンピュータを使います。",
+      "hiragana": "こんぴゅーたをつかいます。",
+      "romaji": "Konpyuutaa o tsukaimasu.",
+      "english": "I use a computer.",
+      "french": "J'utilise un ordinateur.",
+      "german": "Ich benutze einen Computer.",
+      "vietnamese": "Tôi sử dụng máy tính.",
+      "chinese": "我用电脑。",
+      "korean": "컴퓨터를 사용해요.",
+      "spanish": "Uso una computadora."
+    }
+  ]
+},
+{
+  "id": "saifu",
+  "japanese": "財布",
+  "hiragana": "さいふ",
+  "romaji": "saifu",
+  "english": "wallet",
+  "french": "portefeuille",
+  "german": "Geldbörse",
+  "vietnamese": "ví tiền",
+  "chinese": "钱包",
+  "korean": "지갑",
+  "spanish": "cartera",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "財布を忘れました。",
+      "hiragana": "さいふをわすれました。",
+      "romaji": "Saifu o wasuremashita.",
+      "english": "I forgot my wallet.",
+      "french": "J'ai oublié mon portefeuille.",
+      "german": "Ich habe mein Portemonnaie vergessen.",
+      "vietnamese": "Tôi quên ví tiền.",
+      "chinese": "我忘记带钱包了。",
+      "korean": "지갑을 잊어버렸어요.",
+      "spanish": "Olvidé mi cartera."
+    }
+  ]
+},
+{
+  "id": "sakura",
+  "japanese": "桜",
+  "hiragana": "さくら",
+  "romaji": "sakura",
+  "english": "cherry blossom",
+  "french": "fleur de cerisier",
+  "german": "Kirschblüte",
+  "vietnamese": "hoa anh đào",
+  "chinese": "樱花",
+  "korean": "벚꽃",
+  "spanish": "flor de cerezo",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "春に桜が咲きます。",
+      "hiragana": "はるにさくらがさきます。",
+      "romaji": "Haru ni sakura ga sakimasu.",
+      "english": "Cherry blossoms bloom in spring.",
+      "french": "Les cerisiers fleurissent au printemps.",
+      "german": "Im Frühling blühen die Kirschbäume.",
+      "vietnamese": "Hoa anh đào nở vào mùa xuân.",
+      "chinese": "春天樱花开放。",
+      "korean": "봄에 벚꽃이 핍니다.",
+      "spanish": "Los cerezos florecen en primavera."
+    }
+  ]
+},
   {
-    "id": "kokoasaasa",
-    "japanese": "午後",
-    "hiragana": "ごご",
-    "romaji": "gogo",
-    "english": "afternoon, p.m.",
-    "french": "après-midi",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "午後3時に会いましょう。",
-        "hiragana": "ごごさんじにあいましょう。",
-        "romaji": "Gogo sanji ni aimashou.",
-        "english": "Let's meet at 3 p.m.",
-        "french": "Rendez-vous à 15h."
-      }
-    ]
-  },
-  {
-    "id": "gozen",
-    "japanese": "午前",
-    "hiragana": "ごぜん",
-    "romaji": "gozen",
-    "english": "morning, a.m.",
-    "french": "matin (a.m.)",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "午前9時に授業が始まります。",
-        "hiragana": "ごぜんくじにじゅぎょうがはじまります。",
-        "romaji": "Gozen kuji ni jugyou ga hajimarimasu.",
-        "english": "Class starts at 9 a.m.",
-        "french": "Le cours commence à 9h du matin."
-      }
-    ]
-  },
-  {
-    "id": "kotoba",
-    "japanese": "言葉",
-    "hiragana": "ことば",
-    "romaji": "kotoba",
-    "english": "word, language",
-    "french": "mot, langue",
-    "level": "N5",
-    "category": "language",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい言葉を覚えました。",
-        "hiragana": "あたらしいことばをおぼえました。",
-        "romaji": "Atarashii kotoba o oboemashita.",
-        "english": "I learned a new word.",
-        "french": "J'ai appris un nouveau mot."
-      }
-    ]
-  },
-  {
-    "id": "kotoshi",
-    "japanese": "今年",
-    "hiragana": "ことし",
-    "romaji": "kotoshi",
-    "english": "this year",
-    "french": "cette année",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今年日本へ行きます。",
-        "hiragana": "ことしにほんへいきます。",
-        "romaji": "Kotoshi Nihon e ikimasu.",
-        "english": "I will go to Japan this year.",
-        "french": "Je vais au Japon cette année."
-      }
-    ]
-  },
-  {
-    "id": "kodomo",
-    "japanese": "子供",
-    "hiragana": "こども",
-    "romaji": "kodomo",
-    "english": "child",
-    "french": "enfant",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "子供が遊んでいます。",
-        "hiragana": "こどもがあそんでいます。",
-        "romaji": "Kodomo ga asonde imasu.",
-        "english": "The child is playing.",
-        "french": "L'enfant joue."
-      }
-    ]
-  },
-  {
-    "id": "gochisou",
-    "japanese": "ご馳走",
-    "hiragana": "ごちそう",
-    "romaji": "gochisou",
-    "english": "feast, treat",
-    "french": "festin, régal",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達にご馳走しました。",
-        "hiragana": "ともだちにごちそうしました。",
-        "romaji": "Tomodachi ni gochisou shimashita.",
-        "english": "I treated my friend to a meal.",
-        "french": "J'ai offert un repas à mon ami."
-      }
-    ]
-  },
-  {
-    "id": "kondo",
-    "japanese": "今度",
-    "hiragana": "こんど",
-    "romaji": "kondo",
-    "english": "next time",
-    "french": "la prochaine fois",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今度一緒に行きましょう。",
-        "hiragana": "こんどいっしょにいきましょう。",
-        "romaji": "Kondo issho ni ikimashou.",
-        "english": "Let's go together next time.",
-        "french": "Allons-y ensemble la prochaine fois."
-      }
-    ]
-  },
-  {
-    "id": "konban",
-    "japanese": "今晩",
-    "hiragana": "こんばん",
-    "romaji": "konban",
-    "english": "this evening, tonight",
-    "french": "ce soir",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今晩は星が見えます。",
-        "hiragana": "こんばんほしがみえます。",
-        "romaji": "Konban hoshi ga miemasu.",
-        "english": "We can see stars tonight.",
-        "french": "On peut voir les étoiles ce soir."
-      }
-    ]
-  },
-  {
-    "id": "kongetsu",
-    "japanese": "今月",
-    "hiragana": "こんげつ",
-    "romaji": "kongetsu",
-    "english": "this month",
-    "french": "ce mois-ci",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今月から新しい仕事を始めました。",
-        "hiragana": "こんげつからあたらしいしごとをはじめました。",
-        "romaji": "Kongetsu kara atarashii shigoto o hajimemashita.",
-        "english": "I started a new job this month.",
-        "french": "J'ai commencé un nouveau travail ce mois-ci."
-      }
-    ]
-  },
-  {
-    "id": "konshuu",
-    "japanese": "今週",
-    "hiragana": "こんしゅう",
-    "romaji": "konshuu",
-    "english": "this week",
-    "french": "cette semaine",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今週は忙しいです。",
-        "hiragana": "こんしゅうはいそがしいです。",
-        "romaji": "Konshuu wa isogashii desu.",
-        "english": "I am busy this week.",
-        "french": "Je suis occupé cette semaine."
-      }
-    ]
-  },
-  {
-    "id": "konna",
-    "japanese": "こんな",
-    "hiragana": "こんな",
-    "romaji": "konna",
-    "english": "such, like this",
-    "french": "tel, comme ça",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "こんなに大きいケーキは初めてです。",
-        "hiragana": "こんなにおおきいけーきははじめてです。",
-        "romaji": "Konna ni ookii keeki wa hajimete desu.",
-        "english": "It's the first time I see such a big cake.",
-        "french": "C'est la première fois que je vois un gâteau aussi grand."
-      }
-    ]
-  },
-  {
-    "id": "konya",
-    "japanese": "今夜",
-    "hiragana": "こんや",
-    "romaji": "konya",
-    "english": "tonight",
-    "french": "ce soir",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今夜は月がきれいです。",
-        "hiragana": "こんやはつきがきれいです。",
-        "romaji": "Konya wa tsuki ga kirei desu.",
-        "english": "The moon is beautiful tonight.",
-        "french": "La lune est belle ce soir."
-      }
-    ]
-  },
-  {
-    "id": "konpyuutaa",
-    "japanese": "コンピュータ",
-    "hiragana": "こんぴゅーた",
-    "romaji": "konpyuutaa",
-    "english": "computer",
-    "french": "ordinateur",
-    "level": "N5",
-    "category": "technology",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "コンピュータを使います。",
-        "hiragana": "こんぴゅーたをつかいます。",
-        "romaji": "Konpyuutaa o tsukaimasu.",
-        "english": "I use a computer.",
-        "french": "J'utilise un ordinateur."
-      }
-    ]
-  },
-  {
-    "id": "saifu",
-    "japanese": "財布",
-    "hiragana": "さいふ",
-    "romaji": "saifu",
-    "english": "wallet",
-    "french": "portefeuille",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "財布を忘れました。",
-        "hiragana": "さいふをわすれました。",
-        "romaji": "Saifu o wasuremashita.",
-        "english": "I forgot my wallet.",
-        "french": "J'ai oublié mon portefeuille."
-      }
-    ]
-  },
-  {
-    "id": "sakura",
-    "japanese": "桜",
-    "hiragana": "さくら",
-    "romaji": "sakura",
-    "english": "cherry blossom",
-    "french": "fleur de cerisier",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "春に桜が咲きます。",
-        "hiragana": "はるにさくらがさきます。",
-        "romaji": "Haru ni sakura ga sakimasu.",
-        "english": "Cherry blossoms bloom in spring.",
-        "french": "Les cerisiers fleurissent au printemps."
-      }
-    ]
-  },
-  {
-    "id": "sai",
-    "japanese": "歳",
-    "hiragana": "さい",
-    "romaji": "sai",
-    "english": "years old (age)",
-    "french": "ans (âge)",
-    "level": "N5",
-    "category": "measurement",
-    "wordType": "counter",
-    "examples": [
-      {
-        "japanese": "私は二十歳です。",
-        "hiragana": "わたしははたちです。",
-        "romaji": "Watashi wa hatachi desu.",
-        "english": "I am twenty years old.",
-        "french": "J'ai vingt ans."
-      }
-    ]
-  },
-  {
-    "id": "sakanaya",
-    "japanese": "魚屋",
-    "hiragana": "さかなや",
-    "romaji": "sakanaya",
-    "english": "fish shop",
-    "french": "poissonnerie",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "魚屋で魚を買います。",
-        "hiragana": "さかなやでさかなをかいます。",
-        "romaji": "Sakanaya de sakana o kaimasu.",
-        "english": "I buy fish at the fish shop.",
-        "french": "J'achète du poisson à la poissonnerie."
-      }
-    ]
-  },
-  {
-    "id": "sakana",
-    "japanese": "魚",
-    "hiragana": "さかな",
-    "romaji": "sakana",
-    "english": "fish",
-    "french": "poisson",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "魚を食べます。",
-        "hiragana": "さかなをたべます。",
-        "romaji": "Sakana o tabemasu.",
-        "english": "I eat fish.",
-        "french": "Je mange du poisson."
-      }
-    ]
-  },
-  {
-    "id": "sashimi",
-    "japanese": "刺身",
-    "hiragana": "さしみ",
-    "romaji": "sashimi",
-    "english": "sliced raw fish",
-    "french": "poisson cru (sashimi)",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "寿司と刺身が好きです。",
-        "hiragana": "すしとさしみがすきです。",
-        "romaji": "Sushi to sashimi ga suki desu.",
-        "english": "I like sushi and sashimi.",
-        "french": "J'aime les sushis et les sashimis."
-      }
-    ]
-  },
-  {
-    "id": "sasu",
-    "japanese": "指す",
-    "hiragana": "さす",
-    "romaji": "sasu",
-    "english": "to point",
-    "french": "indiquer, pointer",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "時計を指しました。",
-        "hiragana": "とけいをさしました。",
-        "romaji": "Tokei o sashimashita.",
-        "english": "He pointed at the clock.",
-        "french": "Il a montré l'horloge du doigt."
-      }
-    ]
-  },
-  {
-    "id": "zatshi",
-    "japanese": "雑誌",
-    "hiragana": "ざっし",
-    "romaji": "zasshi",
-    "english": "magazine",
-    "french": "magazine, revue",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "雑誌を読みます。",
-        "hiragana": "ざっしをよみます。",
-        "romaji": "Zasshi o yomimasu.",
-        "english": "I read a magazine.",
-        "french": "Je lis un magazine."
-      }
-    ]
-  },
+  "id": "sai",
+  "japanese": "歳",
+  "hiragana": "さい",
+  "romaji": "sai",
+  "english": "years old (age)",
+  "french": "ans (âge)",
+  "german": "Jahre alt (Alter)",
+  "vietnamese": "tuổi",
+  "chinese": "岁",
+  "korean": "살 (나이)",
+  "spanish": "años (edad)",
+  "level": "N5",
+  "category": "measurement",
+  "wordType": "counter",
+  "examples": [
+    {
+      "japanese": "私は二十歳です。",
+      "hiragana": "わたしははたちです。",
+      "romaji": "Watashi wa hatachi desu.",
+      "english": "I am twenty years old.",
+      "french": "J'ai vingt ans.",
+      "german": "Ich bin zwanzig Jahre alt.",
+      "vietnamese": "Tôi 20 tuổi.",
+      "chinese": "我二十岁。",
+      "korean": "저는 스무 살이에요.",
+      "spanish": "Tengo veinte años."
+    }
+  ]
+},
+{
+  "id": "sakanaya",
+  "japanese": "魚屋",
+  "hiragana": "さかなや",
+  "romaji": "sakanaya",
+  "english": "fish shop",
+  "french": "poissonnerie",
+  "german": "Fischladen",
+  "vietnamese": "cửa hàng cá",
+  "chinese": "鱼店",
+  "korean": "생선 가게",
+  "spanish": "pescadería",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "魚屋で魚を買います。",
+      "hiragana": "さかなやでさかなをかいます。",
+      "romaji": "Sakanaya de sakana o kaimasu.",
+      "english": "I buy fish at the fish shop.",
+      "french": "J'achète du poisson à la poissonnerie.",
+      "german": "Ich kaufe Fisch im Fischladen.",
+      "vietnamese": "Tôi mua cá ở cửa hàng cá.",
+      "chinese": "我在鱼店买鱼。",
+      "korean": "생선 가게에서 생선을 사요.",
+      "spanish": "Compro pescado en la pescadería."
+    }
+  ]
+},
+{
+  "id": "sakana",
+  "japanese": "魚",
+  "hiragana": "さかな",
+  "romaji": "sakana",
+  "english": "fish",
+  "french": "poisson",
+  "german": "Fisch",
+  "vietnamese": "cá",
+  "chinese": "鱼",
+  "korean": "물고기",
+  "spanish": "pescado, pez",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "魚を食べます。",
+      "hiragana": "さかなをたべます。",
+      "romaji": "Sakana o tabemasu.",
+      "english": "I eat fish.",
+      "french": "Je mange du poisson.",
+      "german": "Ich esse Fisch.",
+      "vietnamese": "Tôi ăn cá.",
+      "chinese": "我吃鱼。",
+      "korean": "생선을 먹어요.",
+      "spanish": "Como pescado."
+    }
+  ]
+},
+{
+  "id": "sashimi",
+  "japanese": "刺身",
+  "hiragana": "さしみ",
+  "romaji": "sashimi",
+  "english": "sliced raw fish",
+  "french": "poisson cru (sashimi)",
+  "german": "roher Fisch (Sashimi)",
+  "vietnamese": "cá sống (sashimi)",
+  "chinese": "生鱼片 (刺身)",
+  "korean": "회 (사시미)",
+  "spanish": "pescado crudo (sashimi)",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "寿司と刺身が好きです。",
+      "hiragana": "すしとさしみがすきです。",
+      "romaji": "Sushi to sashimi ga suki desu.",
+      "english": "I like sushi and sashimi.",
+      "french": "J'aime les sushis et les sashimis.",
+      "german": "Ich mag Sushi und Sashimi.",
+      "vietnamese": "Tôi thích sushi và sashimi.",
+      "chinese": "我喜欢寿司和刺身。",
+      "korean": "저는 스시와 사시미를 좋아해요.",
+      "spanish": "Me gustan el sushi y el sashimi."
+    }
+  ]
+},
+{
+  "id": "sasu",
+  "japanese": "指す",
+  "hiragana": "さす",
+  "romaji": "sasu",
+  "english": "to point",
+  "french": "indiquer, pointer",
+  "german": "zeigen, deuten",
+  "vietnamese": "chỉ",
+  "chinese": "指，指向",
+  "korean": "가리키다",
+  "spanish": "señalar",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "時計を指しました。",
+      "hiragana": "とけいをさしました。",
+      "romaji": "Tokei o sashimashita.",
+      "english": "He pointed at the clock.",
+      "french": "Il a montré l'horloge du doigt.",
+      "german": "Er zeigte auf die Uhr.",
+      "vietnamese": "Anh ấy chỉ vào đồng hồ.",
+      "chinese": "他指了指钟。",
+      "korean": "그는 시계를 가리켰어요.",
+      "spanish": "Él señaló el reloj."
+    }
+  ]
+},
+{
+  "id": "zatshi",
+  "japanese": "雑誌",
+  "hiragana": "ざっし",
+  "romaji": "zasshi",
+  "english": "magazine",
+  "french": "magazine, revue",
+  "german": "Zeitschrift",
+  "vietnamese": "tạp chí",
+  "chinese": "杂志",
+  "korean": "잡지",
+  "spanish": "revista",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "雑誌を読みます。",
+      "hiragana": "ざっしをよみます。",
+      "romaji": "Zasshi o yomimasu.",
+      "english": "I read a magazine.",
+      "french": "Je lis un magazine.",
+      "german": "Ich lese eine Zeitschrift.",
+      "vietnamese": "Tôi đọc tạp chí.",
+      "chinese": "我看杂志。",
+      "korean": "잡지를 읽어요.",
+      "spanish": "Leo una revista."
+    }
+  ]
+},
   {
     "id": "samuai",
     "japanese": "寒い",
