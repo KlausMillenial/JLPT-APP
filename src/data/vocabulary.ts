@@ -126,6 +126,19 @@ import sameImage from '@/assets/same-onaji.png';
 import olderbrotherImage2 from '@/assets/olderbrother-oniisan.png';
 import oldersisterImage2 from '@/assets/oldersister-oneesan.png';
 import grandmotherImage from '@/assets/grandmother-obaasan.png';
+import auntImage from '@/assets/aunt-obasan.png';
+import bathImage from '@/assets/bath-ofuro.png';
+import boxedlunchImage from '@/assets/boxedlunch-obentou.png';
+import rememberImage from '@/assets/remember-oboeru.png';
+import policemanImage from '@/assets/policeman-omawarisan.png';
+import heavyImage from '@/assets/heavy-omoi.png';
+import interestingImage from '@/assets/interesting-omoshiroi.png';
+import swimImage from '@/assets/swim-oyogu.png';
+import getoffImage from '@/assets/getoff-oriru.png';
+import finishImage from '@/assets/finish-owaru.png';
+import musicImage from '@/assets/music-ongaku.png';
+import womanImage from '@/assets/woman-onna.png';
+import girlImage from '@/assets/girl-onnanoko.png';
 
 
 export interface VocabularyWord {
@@ -4077,392 +4090,405 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "obasan",
-    japanese: "伯母さん/叔母さん",
-    hiragana: "おばさん",
-    romaji: "obasan",
-    english: "aunt",
-    french: "tante",
-    german: "Tante",
-    vietnamese: "cô, dì",
-    chinese: "阿姨",
-    korean: "이모 / 고모",
-    spanish: "tía",
-    "level": "N5",
-    "category": "family",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "おばさんが遊びに来ました。",
-        hiragana: "おばさんがあそびにきました。",
-        romaji: "Obasan ga asobi ni kimashita.",
-        english: "My aunt came to visit.",
-        french: "Ma tante est venue rendre visite.",
-        german: "Meine Tante ist zu Besuch gekommen.",
-        vietnamese: "Cô/dì tôi đã đến chơi.",
-        chinese: "我的阿姨来玩了。",
-        korean: "이모가 놀러 오셨어요.",
-        spanish: "Mi tía vino de visita."
-      }
-    ]
-  },
-  {
-    id: "ofuro",
-    japanese: "お風呂",
-    hiragana: "おふろ",
-    romaji: "ofuro",
-    english: "bath",
-    french: "bain",
-    german: "Bad",
-    vietnamese: "bồn tắm",
-    chinese: "浴室",
-    korean: "목욕",
-    spanish: "baño",
-    "level": "N5",
-    "category": "daily life",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "毎日お風呂に入ります。",
-        hiragana: "まいにちおふろにはいります。",
-        romaji: "Mainichi ofuro ni hairimasu.",
-        english: "I take a bath every day.",
-        french: "Je prends un bain tous les jours.",
-        german: "Ich nehme jeden Tag ein Bad.",
-        vietnamese: "Tôi tắm mỗi ngày.",
-        chinese: "我每天洗澡。",
-        korean: "저는 매일 목욕합니다.",
-        spanish: "Me baño todos los días."
-      }
-    ]
-  },
-  {
-    id: "obentou",
-    japanese: "お弁当",
-    hiragana: "おべんとう",
-    romaji: "obentou",
-    english: "boxed lunch",
-    french: "boîte repas, bento",
-    german: "Lunchbox",
-    vietnamese: "cơm hộp",
-    chinese: "便当",
-    korean: "도시락",
-    spanish: "fiambrera, bento",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "お弁当を作りました。",
-        hiragana: "おべんとうをつくりました。",
-        romaji: "Obentou o tsukurimashita.",
-        english: "I made a boxed lunch.",
-        french: "J'ai préparé un bento.",
-        german: "Ich habe eine Lunchbox gemacht.",
-        vietnamese: "Tôi đã chuẩn bị cơm hộp.",
-        chinese: "我做了便当。",
-        korean: "도시락을 만들었어요.",
-        spanish: "Preparé un bento."
-      }
-    ]
-  },
-  {
-    id: "oboeru",
-    japanese: "覚える",
-    hiragana: "おぼえる",
-    romaji: "oboeru",
-    english: "to remember",
-    french: "se souvenir, mémoriser",
-    german: "sich erinnern",
-    vietnamese: "nhớ, ghi nhớ",
-    chinese: "记住",
-    korean: "기억하다",
-    spanish: "recordar, memorizar",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        japanese: "新しい単語を覚えます。",
-        hiragana: "あたらしいたんごをおぼえます。",
-        romaji: "Atarashii tango o oboemasu.",
-        english: "I remember new words.",
-        french: "Je mémorise de nouveaux mots.",
-        german: "Ich merke mir neue Wörter.",
-        vietnamese: "Tôi nhớ từ mới.",
-        chinese: "我记住了新单词。",
-        korean: "새 단어를 기억합니다.",
-        spanish: "Memorizo nuevas palabras."
-      }
-    ]
-  },
-  {
-    id: "omawarisan",
-    japanese: "おまわりさん",
-    hiragana: "おまわりさん",
-    romaji: "omawarisan",
-    english: "friendly term for policeman",
-    french: "agent de police (familier)",
-    german: "Polizist (umgangssprachlich)",
-    vietnamese: "chú cảnh sát",
-    chinese: "警察叔叔",
-    korean: "경찰 아저씨",
-    spanish: "policía (coloquial)",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "おまわりさんに道を聞きました。",
-        hiragana: "おまわりさんにみちをききました。",
-        romaji: "Omawarisan ni michi o kikimashita.",
-        english: "I asked the policeman for directions.",
-        french: "J'ai demandé le chemin à un policier.",
-        german: "Ich habe den Polizisten nach dem Weg gefragt.",
-        vietnamese: "Tôi hỏi đường chú cảnh sát.",
-        chinese: "我问了警察叔叔路怎么走。",
-        korean: "경찰 아저씨에게 길을 물었습니다.",
-        spanish: "Le pregunté el camino al policía."
-      }
-    ]
-  },
-  {
-    id: "omoi",
-    japanese: "重い",
-    hiragana: "おもい",
-    romaji: "omoi",
-    english: "heavy",
-    french: "lourd",
-    german: "schwer",
-    vietnamese: "nặng",
-    chinese: "重的",
-    korean: "무겁다",
-    spanish: "pesado",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        japanese: "このかばんは重いです。",
-        hiragana: "このかばんはおもいです。",
-        romaji: "Kono kaban wa omoi desu.",
-        english: "This bag is heavy.",
-        french: "Ce sac est lourd.",
-        german: "Diese Tasche ist schwer.",
-        vietnamese: "Cái cặp này nặng.",
-        chinese: "这个包很重。",
-        korean: "이 가방은 무거워요.",
-        spanish: "Este bolso es pesado."
-      }
-    ]
-  },
-  {
-    id: "omoshiroi",
-    japanese: "おもしろい",
-    hiragana: "おもしろい",
-    romaji: "omoshiroi",
-    english: "interesting",
-    french: "intéressant",
-    german: "interessant",
-    vietnamese: "thú vị",
-    chinese: "有趣",
-    korean: "재미있다",
-    spanish: "interesante",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        japanese: "この映画はおもしろいです。",
-        hiragana: "このえいがはおもしろいです。",
-        romaji: "Kono eiga wa omoshiroi desu.",
-        english: "This movie is interesting.",
-        french: "Ce film est intéressant.",
-        german: "Dieser Film ist interessant.",
-        vietnamese: "Bộ phim này rất thú vị.",
-        chinese: "这部电影很有趣。",
-        korean: "이 영화는 재미있어요.",
-        spanish: "Esta película es interesante."
-      }
-    ]
-  },
-  {
-    id: "oyogu",
-    japanese: "泳ぐ",
-    hiragana: "およぐ",
-    romaji: "oyogu",
-    english: "to swim",
-    french: "nager",
-    german: "schwimmen",
-    vietnamese: "bơi",
-    chinese: "游泳",
-    korean: "수영하다",
-    spanish: "nadar",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        japanese: "プールで泳ぎます。",
-        hiragana: "ぷーるでおよぎます。",
-        romaji: "Pūru de oyogimasu.",
-        english: "I swim in the pool.",
-        french: "Je nage dans la piscine.",
-        german: "Ich schwimme im Pool.",
-        vietnamese: "Tôi bơi trong hồ bơi.",
-        chinese: "我在游泳池里游泳。",
-        korean: "수영장에서 수영합니다.",
-        spanish: "Nado en la piscina."
-      }
-    ]
-  },
-  {
-    id: "oriru",
-    japanese: "降りる",
-    hiragana: "おりる",
-    romaji: "oriru",
-    english: "to get off, to descend",
-    french: "descendre",
-    german: "aussteigen",
-    vietnamese: "xuống",
-    chinese: "下车",
-    korean: "내리다",
-    spanish: "bajarse",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        japanese: "電車を降ります。",
-        hiragana: "でんしゃをおります。",
-        romaji: "Densha o orimasu.",
-        english: "I get off the train.",
-        french: "Je descends du train.",
-        german: "Ich steige aus dem Zug aus.",
-        vietnamese: "Tôi xuống tàu.",
-        chinese: "我下火车。",
-        korean: "기차에서 내립니다.",
-        spanish: "Me bajo del tren."
-      }
-    ]
-  },
-  {
-    id: "owaru",
-    japanese: "終る",
-    hiragana: "おわる",
-    romaji: "owaru",
-    english: "to finish",
-    french: "finir, terminer",
-    german: "enden",
-    vietnamese: "kết thúc",
-    chinese: "结束",
-    korean: "끝나다",
-    spanish: "terminar",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        japanese: "授業は3時に終わります。",
-        hiragana: "じゅぎょうはさんじにおわります。",
-        romaji: "Jugyou wa sanji ni owarimasu.",
-        english: "The class ends at 3.",
-        french: "Le cours se termine à 3 heures.",
-        german: "Der Unterricht endet um 3 Uhr.",
-        vietnamese: "Buổi học kết thúc lúc 3 giờ.",
-        chinese: "课程在三点结束。",
-        korean: "수업은 3시에 끝납니다.",
-        spanish: "La clase termina a las 3."
-      }
-    ]
-  },
-  {
-    id: "ongaku",
-    japanese: "音楽",
-    hiragana: "おんがく",
-    romaji: "ongaku",
-    english: "music",
-    french: "musique",
-    german: "Musik",
-    vietnamese: "âm nhạc",
-    chinese: "音乐",
-    korean: "음악",
-    spanish: "música",
-    "level": "N5",
-    "category": "art",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "音楽を聞きます。",
-        hiragana: "おんがくをききます。",
-        romaji: "Ongaku o kikimasu.",
-        english: "I listen to music.",
-        french: "J'écoute de la musique.",
-        german: "Ich höre Musik.",
-        vietnamese: "Tôi nghe nhạc.",
-        chinese: "我听音乐。",
-        korean: "음악을 듣습니다.",
-        spanish: "Escucho música."
-      }
-    ]
-  },
-  {
-    id: "onna",
-    japanese: "女",
-    hiragana: "おんな",
-    romaji: "onna",
-    english: "woman",
-    french: "femme",
-    german: "Frau",
-    vietnamese: "phụ nữ",
-    chinese: "女人",
-    korean: "여자",
-    spanish: "mujer",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "その女は医者です。",
-        hiragana: "そのおんなはいしゃです。",
-        romaji: "Sono onna wa isha desu.",
-        english: "That woman is a doctor.",
-        french: "Cette femme est médecin.",
-        german: "Diese Frau ist Ärztin.",
-        vietnamese: "Người phụ nữ đó là bác sĩ.",
-        chinese: "那个女人是医生。",
-        korean: "그 여자는 의사입니다.",
-        spanish: "Esa mujer es doctora."
-      }
-    ]
-  },
-  {
-    id: "onnanoko",
-    japanese: "女の子",
-    hiragana: "おんなのこ",
-    romaji: "onnanoko",
-    english: "girl",
-    french: "fille",
-    german: "Mädchen",
-    vietnamese: "bé gái",
-    chinese: "女孩",
-    korean: "여자아이",
-    spanish: "niña",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        japanese: "女の子が笑っています。",
-        hiragana: "おんなのこがわらっています。",
-        romaji: "Onnanoko ga waratte imasu.",
-        english: "The girl is smiling.",
-        french: "La fille sourit.",
-        german: "Das Mädchen lächelt.",
-        vietnamese: "Cô bé đang cười.",
-        chinese: "女孩在笑。",
-        korean: "여자아이가 웃고 있습니다.",
-        spanish: "La niña está sonriendo."
+     id: "obasan",
+  japanese: "伯母さん/叔母さん",
+  hiragana: "おばさん",
+  romaji: "obasan",
+  english: "aunt",
+  french: "tante",
+  german: "Tante",
+  vietnamese: "cô, dì",
+  chinese: "阿姨",
+  korean: "이모 / 고모",
+  spanish: "tía",
+  level: "N5",
+  category: "family",
+  wordType: "noun",
+  imageUrl: auntImage,
+  examples: [
+    {
+      japanese: "おばさんが遊びに来ました。",
+      hiragana: "おばさんがあそびにきました。",
+      romaji: "Obasan ga asobi ni kimashita.",
+      english: "My aunt came to visit.",
+      french: "Ma tante est venue rendre visite.",
+      german: "Meine Tante ist zu Besuch gekommen.",
+      vietnamese: "Cô/dì tôi đã đến chơi.",
+      chinese: "我的阿姨来玩了。",
+      korean: "이모가 놀러 오셨어요.",
+      spanish: "Mi tía vino de visita."
+    }
+  ]
+},
+{
+  id: "ofuro",
+  japanese: "お風呂",
+  hiragana: "おふろ",
+  romaji: "ofuro",
+  english: "bath",
+  french: "bain",
+  german: "Bad",
+  vietnamese: "bồn tắm",
+  chinese: "浴室",
+  korean: "목욕",
+  spanish: "baño",
+  level: "N5",
+  category: "daily life",
+  wordType: "noun",
+  imageUrl: bathImage,
+  examples: [
+    {
+      japanese: "毎日お風呂に入ります。",
+      hiragana: "まいにちおふろにはいります。",
+      romaji: "Mainichi ofuro ni hairimasu.",
+      english: "I take a bath every day.",
+      french: "Je prends un bain tous les jours.",
+      german: "Ich nehme jeden Tag ein Bad.",
+      vietnamese: "Tôi tắm mỗi ngày.",
+      chinese: "我每天洗澡。",
+      korean: "저는 매일 목욕합니다.",
+      spanish: "Me baño todos los días."
+    }
+  ]
+},
+{
+  id: "obentou",
+  japanese: "お弁当",
+  hiragana: "おべんとう",
+  romaji: "obentou",
+  english: "boxed lunch",
+  french: "boîte repas, bento",
+  german: "Lunchbox",
+  vietnamese: "cơm hộp",
+  chinese: "便当",
+  korean: "도시락",
+  spanish: "fiambrera, bento",
+  level: "N5",
+  category: "food",
+  wordType: "noun",
+  imageUrl: boxedlunchImage,
+  examples: [
+    {
+      japanese: "お弁当を作りました。",
+      hiragana: "おべんとうをつくりました。",
+      romaji: "Obentou o tsukurimashita.",
+      english: "I made a boxed lunch.",
+      french: "J'ai préparé un bento.",
+      german: "Ich habe eine Lunchbox gemacht.",
+      vietnamese: "Tôi đã chuẩn bị cơm hộp.",
+      chinese: "我做了便当。",
+      korean: "도시락을 만들었어요.",
+      spanish: "Preparé un bento."
+    }
+  ]
+},
+{
+  id: "oboeru",
+  japanese: "覚える",
+  hiragana: "おぼえる",
+  romaji: "oboeru",
+  english: "to remember",
+  french: "se souvenir, mémoriser",
+  german: "sich erinnern",
+  vietnamese: "nhớ, ghi nhớ",
+  chinese: "记住",
+  korean: "기억하다",
+  spanish: "recordar, memorizar",
+  level: "N5",
+  category: "verb",
+  wordType: "verb",
+  imageUrl: rememberImage,
+  examples: [
+    {
+      japanese: "新しい単語を覚えます。",
+      hiragana: "あたらしいたんごをおぼえます。",
+      romaji: "Atarashii tango o oboemasu.",
+      english: "I remember new words.",
+      french: "Je mémorise de nouveaux mots.",
+      german: "Ich merke mir neue Wörter.",
+      vietnamese: "Tôi nhớ từ mới.",
+      chinese: "我记住了新单词。",
+      korean: "새 단어를 기억합니다.",
+      spanish: "Memorizo nuevas palabras."
+    }
+  ]
+},
+{
+  id: "omawarisan",
+  japanese: "おまわりさん",
+  hiragana: "おまわりさん",
+  romaji: "omawarisan",
+  english: "friendly term for policeman",
+  french: "agent de police (familier)",
+  german: "Polizist (umgangssprachlich)",
+  vietnamese: "chú cảnh sát",
+  chinese: "警察叔叔",
+  korean: "경찰 아저씨",
+  spanish: "policía (coloquial)",
+  level: "N5",
+  category: "people",
+  wordType: "noun",
+  imageUrl: policemanImage,
+  examples: [
+    {
+      japanese: "おまわりさんに道を聞きました。",
+      hiragana: "おまわりさんにみちをききました。",
+      romaji: "Omawarisan ni michi o kikimashita.",
+      english: "I asked the policeman for directions.",
+      french: "J'ai demandé le chemin à un policier.",
+      german: "Ich habe den Polizisten nach dem Weg gefragt.",
+      vietnamese: "Tôi hỏi đường chú cảnh sát.",
+      chinese: "我问了警察叔叔路怎么走。",
+      korean: "경찰 아저씨에게 길을 물었습니다.",
+      spanish: "Le pregunté el camino al policía."
+    }
+  ]
+},
+{
+  id: "omoi",
+  japanese: "重い",
+  hiragana: "おもい",
+  romaji: "omoi",
+  english: "heavy",
+  french: "lourd",
+  german: "schwer",
+  vietnamese: "nặng",
+  chinese: "重的",
+  korean: "무겁다",
+  spanish: "pesado",
+  level: "N5",
+  category: "adjective",
+  wordType: "adjective",
+  imageUrl: heavyImage,
+  examples: [
+    {
+      japanese: "このかばんは重いです。",
+      hiragana: "このかばんはおもいです。",
+      romaji: "Kono kaban wa omoi desu.",
+      english: "This bag is heavy.",
+      french: "Ce sac est lourd.",
+      german: "Diese Tasche ist schwer.",
+      vietnamese: "Cái cặp này nặng.",
+      chinese: "这个包很重。",
+      korean: "이 가방은 무거워요.",
+      spanish: "Este bolso es pesado."
+    }
+  ]
+},
+{
+  id: "omoshiroi",
+  japanese: "おもしろい",
+  hiragana: "おもしろい",
+  romaji: "omoshiroi",
+  english: "interesting",
+  french: "intéressant",
+  german: "interessant",
+  vietnamese: "thú vị",
+  chinese: "有趣",
+  korean: "재미있다",
+  spanish: "interesante",
+  level: "N5",
+  category: "adjective",
+  wordType: "adjective",
+  imageUrl: interestingImage,
+  examples: [
+    {
+      japanese: "この映画はおもしろいです。",
+      hiragana: "このえいがはおもしろいです。",
+      romaji: "Kono eiga wa omoshiroi desu.",
+      english: "This movie is interesting.",
+      french: "Ce film est intéressant.",
+      german: "Dieser Film ist interessant.",
+      vietnamese: "Bộ phim này rất thú vị.",
+      chinese: "这部电影很有趣。",
+      korean: "이 영화는 재미있어요.",
+      spanish: "Esta película es interesante."
+    }
+  ]
+},
+{
+  id: "oyogu",
+  japanese: "泳ぐ",
+  hiragana: "およぐ",
+  romaji: "oyogu",
+  english: "to swim",
+  french: "nager",
+  german: "schwimmen",
+  vietnamese: "bơi",
+  chinese: "游泳",
+  korean: "수영하다",
+  spanish: "nadar",
+  level: "N5",
+  category: "verb",
+  wordType: "verb",
+  imageUrl: swimImage,
+  examples: [
+    {
+      japanese: "プールで泳ぎます。",
+      hiragana: "ぷーるでおよぎます。",
+      romaji: "Pūru de oyogimasu.",
+      english: "I swim in the pool.",
+      french: "Je nage dans la piscine.",
+      german: "Ich schwimme im Pool.",
+      vietnamese: "Tôi bơi trong hồ bơi.",
+      chinese: "我在游泳池里游泳。",
+      korean: "수영장에서 수영합니다.",
+      spanish: "Nado en la piscina."
+    }
+  ]
+},
+{
+  id: "oriru",
+  japanese: "降りる",
+  hiragana: "おりる",
+  romaji: "oriru",
+  english: "to get off, to descend",
+  french: "descendre",
+  german: "aussteigen",
+  vietnamese: "xuống",
+  chinese: "下车",
+  korean: "내리다",
+  spanish: "bajarse",
+  level: "N5",
+  category: "verb",
+  wordType: "verb",
+  imageUrl: getoffImage,
+  examples: [
+    {
+      japanese: "電車を降ります。",
+      hiragana: "でんしゃをおります。",
+      romaji: "Densha o orimasu.",
+      english: "I get off the train.",
+      french: "Je descends du train.",
+      german: "Ich steige aus dem Zug aus.",
+      vietnamese: "Tôi xuống tàu.",
+      chinese: "我下火车。",
+      korean: "기차에서 내립니다.",
+      spanish: "Me bajo del tren."
+    }
+  ]
+},
+{
+  id: "owaru",
+  japanese: "終る",
+  hiragana: "おわる",
+  romaji: "owaru",
+  english: "to finish",
+  french: "finir, terminer",
+  german: "enden",
+  vietnamese: "kết thúc",
+  chinese: "结束",
+  korean: "끝나다",
+  spanish: "terminar",
+  level: "N5",
+  category: "verb",
+  wordType: "verb",
+  imageUrl: finishImage,
+  examples: [
+    {
+      japanese: "授業は3時に終わります。",
+      hiragana: "じゅぎょうはさんじにおわります。",
+      romaji: "Jugyou wa sanji ni owarimasu.",
+      english: "The class ends at 3.",
+      french: "Le cours se termine à 3 heures.",
+      german: "Der Unterricht endet um 3 Uhr.",
+      vietnamese: "Buổi học kết thúc lúc 3 giờ.",
+      chinese: "课程在三点结束。",
+      korean: "수업은 3시에 끝납니다.",
+      spanish: "La clase termina a las 3."
+    }
+  ]
+},
+{
+  id: "ongaku",
+  japanese: "音楽",
+  hiragana: "おんがく",
+  romaji: "ongaku",
+  english: "music",
+  french: "musique",
+  german: "Musik",
+  vietnamese: "âm nhạc",
+  chinese: "音乐",
+  korean: "음악",
+  spanish: "música",
+  level: "N5",
+  category: "art",
+  wordType: "noun",
+  imageUrl: musicImage,
+  examples: [
+    {
+      japanese: "音楽を聞きます。",
+      hiragana: "おんがくをききます。",
+      romaji: "Ongaku o kikimasu.",
+      english: "I listen to music.",
+      french: "J'écoute de la musique.",
+      german: "Ich höre Musik.",
+      vietnamese: "Tôi nghe nhạc.",
+      chinese: "我听音乐。",
+      korean: "음악을 듣습니다.",
+      spanish: "Escucho música."
+    }
+  ]
+},
+{
+  id: "onna",
+  japanese: "女",
+  hiragana: "おんな",
+  romaji: "onna",
+  english: "woman",
+  french: "femme",
+  german: "Frau",
+  vietnamese: "phụ nữ",
+  chinese: "女人",
+  korean: "여자",
+  spanish: "mujer",
+  level: "N5",
+  category: "people",
+  wordType: "noun",
+  imageUrl: womanImage,
+  examples: [
+    {
+      japanese: "その女は医者です。",
+      hiragana: "そのおんなはいしゃです。",
+      romaji: "Sono onna wa isha desu.",
+      english: "That woman is a doctor.",
+      french: "Cette femme est médecin.",
+      german: "Diese Frau ist Ärztin.",
+      vietnamese: "Người phụ nữ đó là bác sĩ.",
+      chinese: "那个女人是医生。",
+      korean: "그 여자는 의사입니다.",
+      spanish: "Esa mujer es doctora."
+    }
+  ]
+},
+{
+  id: "onnanoko",
+  japanese: "女の子",
+  hiragana: "おんなのこ",
+  romaji: "onnanoko",
+  english: "girl",
+  french: "fille",
+  german: "Mädchen",
+  vietnamese: "bé gái",
+  chinese: "女孩",
+  korean: "여자아이",
+  spanish: "niña",
+  level: "N5",
+  category: "people",
+  wordType: "noun",
+  imageUrl: girlImage,
+  examples: [
+    {
+      japanese: "女の子が笑っています。",
+      hiragana: "おんなのこがわらっています。",
+      romaji: "Onnanoko ga waratte imasu.",
+      english: "The girl is smiling.",
+      french: "La fille sourit.",
+      german: "Das Mädchen lächelt.",
+      vietnamese: "Cô bé đang cười.",
+      chinese: "女孩在笑。",
+      korean: "여자아이가 웃고 있습니다.",
+      spanish: "La niña está sonriendo."
       }
     ]
   },
