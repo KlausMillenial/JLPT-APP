@@ -89,56 +89,6 @@ export const VocabularyApp = () => {
     toast.success(`Complete vocabulary list (${justJapaneseWords.length} words) logged to console!`);
   };
 
-  const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
-    if (targetLanguage === 'english' || targetLanguage === 'french') return;
-    
-    const apiKey = TranslationService.getApiKey();
-    if (!apiKey) {
-      toast.info('Set up OpenAI API key to get automatic translations');
-      return;
-    }
-
-    const wordsNeedingTranslation = translatedVocabulary.filter(word => !word[targetLanguage]);
-    
-    if (wordsNeedingTranslation.length === 0) return;
-
-    setIsTranslating(true);
-    toast.info(`Auto-translating ${wordsNeedingTranslation.length} words to ${targetLanguage}...`);
-
-    const translationService = new TranslationService(apiKey);
-    const updatedWords = [...translatedVocabulary];
-
-    try {
-      for (const word of wordsNeedingTranslation.slice(0, 5)) { // Limit to 5 words for quick response
-        try {
-          const translatedWord = await translationService.translateVocabularyEntry(word);
-          const wordIndex = updatedWords.findIndex(w => w.id === word.id);
-          if (wordIndex !== -1) {
-            updatedWords[wordIndex] = translatedWord;
-          }
-        } catch (error) {
-          console.error(`Failed to translate ${word.id}:`, error);
-        }
-        
-        // Small delay to avoid rate limiting
-        await new Promise(resolve => setTimeout(resolve, 500));
-      }
-
-      setTranslatedVocabulary(updatedWords);
-      toast.success('Auto-translation complete!');
-    } catch (error) {
-      console.error('Translation error:', error);
-      toast.error('Translation failed');
-    } finally {
-      setIsTranslating(false);
-    }
-  }, [translatedVocabulary]);
-
-  const handleLanguageChange = useCallback((newLanguage: LanguageOption) => {
-    setLanguage(newLanguage);
-    autoTranslateForLanguage(newLanguage);
-  }, [autoTranslateForLanguage]);
-
   const filteredWords = useMemo(() => {
     if (!debouncedSearchTerm && selectedLevel === 'all' && selectedCategory === 'all') {
       // No filters applied, return all words
@@ -174,6 +124,60 @@ export const VocabularyApp = () => {
     
     return allFiltered;
   }, [debouncedSearchTerm, selectedLevel, selectedCategory, language, translatedVocabulary]);
+
+  const autoTranslateForLanguage = useCallback(async (targetLanguage: LanguageOption) => {
+    if (targetLanguage === 'english' || targetLanguage === 'french') return;
+    
+    const apiKey = TranslationService.getApiKey();
+    if (!apiKey) {
+      toast.info('Set up OpenAI API key to get automatic translations');
+      return;
+    }
+
+    // Get currently visible words that need translation
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    const currentPageWords = filteredWords.slice(startIndex, endIndex);
+    const wordsNeedingTranslation = currentPageWords.filter(word => !word[targetLanguage]);
+    
+    if (wordsNeedingTranslation.length === 0) return;
+
+    setIsTranslating(true);
+    toast.info(`Auto-translating ${wordsNeedingTranslation.length} words on this page to ${targetLanguage}...`);
+
+    const translationService = new TranslationService(apiKey);
+    const updatedWords = [...translatedVocabulary];
+
+    try {
+      for (const word of wordsNeedingTranslation) { // Translate all visible words
+        try {
+          const translatedWord = await translationService.translateVocabularyEntry(word);
+          const wordIndex = updatedWords.findIndex(w => w.id === word.id);
+          if (wordIndex !== -1) {
+            updatedWords[wordIndex] = translatedWord;
+          }
+        } catch (error) {
+          console.error(`Failed to translate ${word.id}:`, error);
+        }
+        
+        // Small delay to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 500));
+      }
+
+      setTranslatedVocabulary(updatedWords);
+      toast.success('Auto-translation complete!');
+    } catch (error) {
+      console.error('Translation error:', error);
+      toast.error('Translation failed');
+    } finally {
+      setIsTranslating(false);
+    }
+  }, [translatedVocabulary, filteredWords, currentPage, itemsPerPage]);
+
+  const handleLanguageChange = useCallback((newLanguage: LanguageOption) => {
+    setLanguage(newLanguage);
+    autoTranslateForLanguage(newLanguage);
+  }, [autoTranslateForLanguage]);
 
   // Paginated words for display
   const paginatedWords = useMemo(() => {
