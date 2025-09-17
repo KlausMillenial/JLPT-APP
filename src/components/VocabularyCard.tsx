@@ -151,15 +151,9 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   };
 
 
-  // Auto-generate image when card loads (only if API key is available)
+  // Only generate images on user interaction to avoid rate limits
   useEffect(() => {
-    if (!generatedImageUrl && !isGeneratingImage && LeonardoImageService.getApiKey()) {
-      // Small delay to stagger image generation for better performance
-      const delay = Math.random() * 2000; // 0-2 seconds random delay
-      setTimeout(() => {
-        generateImage();
-      }, delay);
-    }
+    // Don't auto-generate images to avoid hitting Leonardo AI rate limits
   }, []);
 
   const translation = word[language] || word.english; // Fallback to English if translation not available
@@ -191,10 +185,16 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                   className="w-full h-full object-cover animate-fade-in"
                 />
               ) : LeonardoImageService.getApiKey() ? (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
+                <div 
+                  className="w-full h-full flex flex-col items-center justify-center bg-primary/5 cursor-pointer hover:bg-primary/10 transition-colors"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    generateImage();
+                  }}
+                >
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
                   <span className="text-sm text-primary/60 text-center">
-                    Leonardo AI image will generate<br />automatically
+                    Click to generate<br />Leonardo AI image
                   </span>
                 </div>
               ) : (

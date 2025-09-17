@@ -68,6 +68,11 @@ export class LeonardoImageService {
       if (!response.ok) {
         const errorText = await response.text();
         console.error("Leonardo AI API error:", errorText);
+        
+        if (response.status === 429) {
+          throw new Error('Rate limit exceeded. Please wait a moment before generating more images.');
+        }
+        
         throw new Error(`Leonardo AI API error: ${response.status}`);
       }
 
