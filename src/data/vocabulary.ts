@@ -11096,281 +11096,361 @@ export const vocabularyData: VocabularyWord[] = [
   },
   {
     "id": "tanoshii_omoide",
-    "japanese": "楽しい思い出",
-    "hiragana": "たのしいおもいで",
-    "romaji": "tanoshii omoide",
-    "english": "happy memory",
-    "french": "souvenir heureux",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "旅行は楽しい思い出になりました。",
-        "hiragana": "りょこうはたのしいおもいでになりました。",
-        "romaji": "Ryokou wa tanoshii omoide ni narimashita.",
-        "english": "The trip became a happy memory.",
-        "french": "Le voyage est devenu un bon souvenir."
-      }
-    ]
-  },
-  {
-    "id": "tabi",
-    "japanese": "旅",
-    "hiragana": "たび",
-    "romaji": "tabi",
-    "english": "trip, travel",
-    "french": "voyage",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "旅に出ます。",
-        "hiragana": "たびにでます。",
-        "romaji": "Tabi ni demasu.",
-        "english": "I go on a trip.",
-        "french": "Je pars en voyage."
-      }
-    ]
-  },
-  {
-    "id": "tabidachi",
-    "japanese": "旅立ち",
-    "hiragana": "たびだち",
-    "romaji": "tabidachi",
-    "english": "departure",
-    "french": "départ",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼の旅立ちを見送りました。",
-        "hiragana": "かれのたびだちをみおくりました。",
-        "romaji": "Kare no tabidachi o miokurimashita.",
-        "english": "I saw him off on his departure.",
-        "french": "J'ai assisté à son départ."
-      }
-    ]
-  },
-  {
-    "id": "tadashii",
-    "japanese": "正しい",
-    "hiragana": "ただしい",
-    "romaji": "tadashii",
-    "english": "correct",
-    "french": "correct",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "答えは正しいです。",
-        "hiragana": "こたえはただしいです。",
-        "romaji": "Kotae wa tadashii desu.",
-        "english": "The answer is correct.",
-        "french": "La réponse est correcte."
-      }
-    ]
-  },
-  {
-    "id": "tashika",
-    "japanese": "確か",
-    "hiragana": "たしか",
-    "romaji": "tashika",
-    "english": "certain, sure",
-    "french": "sûr, certain",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "それは確かです。",
-        "hiragana": "それはたしかです。",
-        "romaji": "Sore wa tashika desu.",
-        "english": "That is certain.",
-        "french": "C'est certain."
-      }
-    ]
-  },
-  {
-    "id": "tashou",
-    "japanese": "多少",
-    "hiragana": "たしょう",
-    "romaji": "tashou",
-    "english": "a little, somewhat",
-    "french": "un peu, quelque peu",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "多少疲れました。",
-        "hiragana": "たしょうつかれました。",
-        "romaji": "Tashou tsukaremashita.",
-        "english": "I am somewhat tired.",
-        "french": "Je suis un peu fatigué."
-      }
-    ]
-  },
-  {
-    "id": "tashika_ni",
-    "japanese": "確かに",
-    "hiragana": "たしかに",
-    "romaji": "tashika ni",
-    "english": "surely, indeed",
-    "french": "sûrement, en effet",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "彼は確かに来ます。",
-        "hiragana": "かれはたしかにきます。",
-        "romaji": "Kare wa tashika ni kimasu.",
-        "english": "He will surely come.",
-        "french": "Il viendra sûrement."
-      }
-    ]
-  },
-  {
-    "id": "tameru_chokin",
-    "japanese": "貯金",
-    "hiragana": "ちょきん",
-    "romaji": "chokin",
-    "english": "savings",
-    "french": "économies",
-    "level": "N5",
-    "category": "economy",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "毎月貯金をします。",
-        "hiragana": "まいつきちょきんをします。",
-        "romaji": "Maitsuki chokin o shimasu.",
-        "english": "I save money every month.",
-        "french": "J'économise de l'argent chaque mois."
-      }
-    ]
-  },
-  {
-    "id": "tama",
-    "japanese": "玉",
-    "hiragana": "たま",
-    "romaji": "tama",
-    "english": "ball, jewel",
-    "french": "balle, bijou",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "ガラスの玉を見つけました。",
-        "hiragana": "がらすのたまをみつけました。",
-        "romaji": "Garasu no tama o mitsukemashita.",
-        "english": "I found a glass ball.",
-        "french": "J'ai trouvé une boule de verre."
-      }
-    ]
-  },
-  {
-    "id": "tamani",
-    "japanese": "たまに",
-    "hiragana": "たまに",
-    "romaji": "tamani",
-    "english": "occasionally",
-    "french": "de temps en temps",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "たまに映画を見ます。",
-        "hiragana": "たまにえいがをみます。",
-        "romaji": "Tamani eiga o mimasu.",
-        "english": "I sometimes watch movies.",
-        "french": "Je regarde parfois des films."
-      }
-    ]
-  },
-  {
-    "id": "tameru",
-    "japanese": "貯める",
-    "hiragana": "ためる",
-    "romaji": "tameru",
-    "english": "to save, accumulate",
-    "french": "épargner, accumuler",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "お金を貯めています。",
-        "hiragana": "おかねをためています。",
-        "romaji": "Okane o tamete imasu.",
-        "english": "I am saving money.",
-        "french": "J'épargne de l'argent."
-      }
-    ]
-  },
-  {
-    "id": "tanbo",
-    "japanese": "田んぼ",
-    "hiragana": "たんぼ",
-    "romaji": "tanbo",
-    "english": "rice field",
-    "french": "rizière",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田んぼで米を作ります。",
-        "hiragana": "たんぼでこめをつくります。",
-        "romaji": "Tanbo de kome o tsukurimasu.",
-        "english": "They grow rice in the fields.",
-        "french": "On cultive du riz dans les rizières."
-      }
-    ]
-  },
-  {
-    "id": "tanin",
-    "japanese": "他人",
-    "hiragana": "たにん",
-    "romaji": "tanin",
-    "english": "stranger, other people",
-    "french": "autrui, étranger",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "他人に頼らないでください。",
-        "hiragana": "たにんにたよらないでください。",
-        "romaji": "Tanin ni tayoranaide kudasai.",
-        "english": "Please don't rely on others.",
-        "french": "Ne dépendez pas des autres."
-      }
-    ]
-  },
-  {
-    "id": "tanoshii",
-    "japanese": "楽しい",
-    "hiragana": "たのしい",
-    "romaji": "tanoshii",
-    "english": "fun, enjoyable",
-    "french": "amusant, agréable",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "今日はとても楽しいです。",
-        "hiragana": "きょうはとてもたのしいです。",
-        "romaji": "Kyou wa totemo tanoshii desu.",
-        "english": "Today is very fun.",
-        "french": "Aujourd'hui est très amusant."
+  "japanese": "楽しい思い出",
+  "hiragana": "たのしいおもいで",
+  "romaji": "tanoshii omoide",
+  "english": "happy memory",
+  "french": "souvenir heureux",
+  "german": "schöne Erinnerung",
+  "spanish": "recuerdo feliz",
+  "vietnamese": "kỷ niệm vui",
+  "chinese": "快乐的回忆",
+  "korean": "즐거운 추억",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "旅行は楽しい思い出になりました。",
+      "hiragana": "りょこうはたのしいおもいでになりました。",
+      "romaji": "Ryokou wa tanoshii omoide ni narimashita.",
+      "english": "The trip became a happy memory.",
+      "french": "Le voyage est devenu un bon souvenir.",
+      "german": "Die Reise wurde zu einer schönen Erinnerung.",
+      "spanish": "El viaje se convirtió en un recuerdo feliz.",
+      "vietnamese": "Chuyến đi đã trở thành một kỷ niệm vui.",
+      "chinese": "这次旅行成为了快乐的回忆。",
+      "korean": "여행은 즐거운 추억이 되었습니다."
+    }
+  ]
+},
+{
+  "id": "tabi",
+  "japanese": "旅",
+  "hiragana": "たび",
+  "romaji": "tabi",
+  "english": "trip, travel",
+  "french": "voyage",
+  "german": "Reise",
+  "spanish": "viaje",
+  "vietnamese": "chuyến đi",
+  "chinese": "旅行",
+  "korean": "여행",
+  "level": "N5",
+  "category": "travel",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "旅に出ます。",
+      "hiragana": "たびにでます。",
+      "romaji": "Tabi ni demasu.",
+      "english": "I go on a trip.",
+      "french": "Je pars en voyage.",
+      "german": "Ich gehe auf eine Reise.",
+      "spanish": "Me voy de viaje.",
+      "vietnamese": "Tôi đi du lịch.",
+      "chinese": "我去旅行。",
+      "korean": "저는 여행을 떠납니다."
+    }
+  ]
+},
+{
+  "id": "tabidachi",
+  "japanese": "旅立ち",
+  "hiragana": "たびだち",
+  "romaji": "tabidachi",
+  "english": "departure",
+  "french": "départ",
+  "german": "Aufbruch, Abreise",
+  "spanish": "partida",
+  "vietnamese": "khởi hành",
+  "chinese": "出发",
+  "korean": "여행 출발",
+  "level": "N5",
+  "category": "travel",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "彼の旅立ちを見送りました。",
+      "hiragana": "かれのたびだちをみおくりました。",
+      "romaji": "Kare no tabidachi o miokurimashita.",
+      "english": "I saw him off on his departure.",
+      "french": "J'ai assisté à son départ.",
+      "german": "Ich habe ihn bei seiner Abreise verabschiedet.",
+      "spanish": "Lo despedí en su partida.",
+      "vietnamese": "Tôi đã tiễn anh ấy lên đường.",
+      "chinese": "我送他出发。",
+      "korean": "그의 출발을 배웅했습니다."
+    }
+  ]
+},
+{
+  "id": "tadashii",
+  "japanese": "正しい",
+  "hiragana": "ただしい",
+  "romaji": "tadashii",
+  "english": "correct",
+  "french": "correct",
+  "german": "richtig",
+  "spanish": "correcto",
+  "vietnamese": "đúng",
+  "chinese": "正确",
+  "korean": "옳다",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "答えは正しいです。",
+      "hiragana": "こたえはただしいです。",
+      "romaji": "Kotae wa tadashii desu.",
+      "english": "The answer is correct.",
+      "french": "La réponse est correcte.",
+      "german": "Die Antwort ist richtig.",
+      "spanish": "La respuesta es correcta.",
+      "vietnamese": "Câu trả lời là đúng.",
+      "chinese": "答案是正确的。",
+      "korean": "정답입니다."
+    }
+  ]
+},
+{
+  "id": "tashika",
+  "japanese": "確か",
+  "hiragana": "たしか",
+  "romaji": "tashika",
+  "english": "certain, sure",
+  "french": "sûr, certain",
+  "german": "sicher, gewiss",
+  "spanish": "seguro",
+  "vietnamese": "chắc chắn",
+  "chinese": "确实",
+  "korean": "확실하다",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "それは確かです。",
+      "hiragana": "それはたしかです。",
+      "romaji": "Sore wa tashika desu.",
+      "english": "That is certain.",
+      "french": "C'est certain.",
+      "german": "Das ist sicher.",
+      "spanish": "Eso es seguro.",
+      "vietnamese": "Điều đó chắc chắn.",
+      "chinese": "那是确实的。",
+      "korean": "그것은 확실합니다."
+    }
+  ]
+},
+{
+  "id": "tashou",
+  "japanese": "多少",
+  "hiragana": "たしょう",
+  "romaji": "tashou",
+  "english": "a little, somewhat",
+  "french": "un peu, quelque peu",
+  "german": "etwas, ein wenig",
+  "spanish": "un poco",
+  "vietnamese": "một chút",
+  "chinese": "多少",
+  "korean": "약간",
+  "level": "N5",
+  "category": "adverb",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "多少疲れました。",
+      "hiragana": "たしょうつかれました。",
+      "romaji": "Tashou tsukaremashita.",
+      "english": "I am somewhat tired.",
+      "french": "Je suis un peu fatigué.",
+      "german": "Ich bin etwas müde.",
+      "spanish": "Estoy un poco cansado.",
+      "vietnamese": "Tôi hơi mệt.",
+      "chinese": "我有点累了。",
+      "korean": "조금 피곤합니다."
+    }
+  ]
+},
+{
+  "id": "tashika_ni",
+  "japanese": "確かに",
+  "hiragana": "たしかに",
+  "romaji": "tashika ni",
+  "english": "surely, indeed",
+  "french": "sûrement, en effet",
+  "german": "sicherlich, tatsächlich",
+  "spanish": "seguramente, de hecho",
+  "vietnamese": "chắc chắn, thật vậy",
+  "chinese": "确实",
+  "korean": "확실히",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "彼は確かに来ます。",
+      "hiragana": "かれはたしかにきます。",
+      "romaji": "Kare wa tashika ni kimasu.",
+      "english": "He will surely come.",
+      "french": "Il viendra sûrement.",
+      "german": "Er wird sicher kommen.",
+      "spanish": "Él vendrá seguramente.",
+      "vietnamese": "Anh ấy chắc chắn sẽ đến.",
+      "chinese": "他一定会来。",
+      "korean": "그는 확실히 올 것입니다."
+    }
+  ]
+},
+{
+  "id": "tameru_chokin",
+  "japanese": "貯金",
+  "hiragana": "ちょきん",
+  "romaji": "chokin",
+  "english": "savings",
+  "french": "économies",
+  "german": "Ersparnisse",
+  "spanish": "ahorros",
+  "vietnamese": "tiền tiết kiệm",
+  "chinese": "存款",
+  "korean": "저금",
+  "level": "N5",
+  "category": "economy",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "毎月貯金をします。",
+      "hiragana": "まいつきちょきんをします。",
+      "romaji": "Maitsuki chokin o shimasu.",
+      "english": "I save money every month.",
+      "french": "J'économise de l'argent chaque mois.",
+      "german": "Ich spare jeden Monat Geld.",
+      "spanish": "Ahorro dinero cada mes.",
+      "vietnamese": "Tôi tiết kiệm tiền mỗi tháng.",
+      "chinese": "我每个月都存钱。",
+      "korean": "저는 매달 저축합니다."
+    }
+  ]
+},
+{
+  "id": "tama",
+  "japanese": "玉",
+  "hiragana": "たま",
+  "romaji": "tama",
+  "english": "ball, jewel",
+  "french": "balle, bijou",
+  "german": "Kugel, Edelstein",
+  "spanish": "bola, joya",
+  "vietnamese": "viên ngọc, quả bóng",
+  "chinese": "球，宝石",
+  "korean": "구슬, 보석",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "ガラスの玉を見つけました。",
+      "hiragana": "がらすのたまをみつけました。",
+      "romaji": "Garasu no tama o mitsukemashita.",
+      "english": "I found a glass ball.",
+      "french": "J'ai trouvé une boule de verre.",
+      "german": "Ich habe eine Glaskugel gefunden.",
+      "spanish": "Encontré una bola de vidrio.",
+      "vietnamese": "Tôi đã tìm thấy một viên bi thủy tinh.",
+      "chinese": "我找到了一颗玻璃球。",
+      "korean": "나는 유리 구슬을 찾았습니다."
+    }
+  ]
+},
+{
+  "id": "tamani",
+  "japanese": "たまに",
+  "hiragana": "たまに",
+  "romaji": "tamani",
+  "english": "occasionally",
+  "french": "de temps en temps",
+  "german": "gelegentlich",
+  "spanish": "de vez en cuando",
+  "vietnamese": "thỉnh thoảng",
+  "chinese": "偶尔",
+  "korean": "가끔",
+  "level": "N5",
+  "category": "adverb",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "たまに映画を見ます。",
+      "hiragana": "たまにえいがをみます。",
+      "romaji": "Tamani eiga o mimasu.",
+      "english": "I sometimes watch movies.",
+      "french": "Je regarde parfois des films.",
+      "german": "Ich sehe mir gelegentlich Filme an.",
+      "spanish": "A veces veo películas.",
+      "vietnamese": "Tôi thỉnh thoảng xem phim.",
+      "chinese": "我偶尔看电影。",
+      "korean": "저는 가끔 영화를 봅니다."
+    }
+  ]
+},
+{
+  "id": "tanin",
+  "japanese": "他人",
+  "hiragana": "たにん",
+  "romaji": "tanin",
+  "english": "stranger, other people",
+  "french": "autrui, étranger",
+  "german": "Fremder, andere Leute",
+  "spanish": "extraño, otra gente",
+  "vietnamese": "người lạ, người khác",
+  "chinese": "他人",
+  "korean": "타인",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "他人に頼らないでください。",
+      "hiragana": "たにんにたよらないでください。",
+      "romaji": "Tanin ni tayoranaide kudasai.",
+      "english": "Please don't rely on others.",
+      "french": "Ne dépendez pas des autres.",
+      "german": "Verlassen Sie sich bitte nicht auf andere.",
+      "spanish": "Por favor, no dependas de los demás.",
+      "vietnamese": "Xin đừng dựa dẫm vào người khác.",
+      "chinese": "请不要依赖别人。",
+      "korean": "타인에게 의존하지 마세요."
+    }
+  ]
+},
+{
+  "id": "tanoshii",
+  "japanese": "楽しい",
+  "hiragana": "たのしい",
+  "romaji": "tanoshii",
+  "english": "fun, enjoyable",
+  "french": "amusant, agréable",
+  "german": "lustig, angenehm",
+  "spanish": "divertido, agradable",
+  "vietnamese": "vui, thú vị",
+  "chinese": "有趣的，愉快的",
+  "korean": "즐겁다",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "今日はとても楽しいです。",
+      "hiragana": "きょうはとてもたのしいです。",
+      "romaji": "Kyou wa totemo tanoshii desu.",
+      "english": "Today is very fun.",
+      "french": "Aujourd'hui est très amusant.",
+      "german": "Heute macht es sehr viel Spaß.",
+      "spanish": "Hoy es muy divertido.",
+      "vietnamese": "Hôm nay rất vui.",
+      "chinese": "今天很开心。",
+      "korean": "오늘은 아주 즐겁습니다."
       }
     ]
   },
