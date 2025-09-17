@@ -6382,246 +6382,366 @@ export const vocabularyData: VocabularyWord[] = [
       }
     ]
   },
-  {
-    "id": "genki",
-    "japanese": "元気",
-    "hiragana": "げんき",
-    "romaji": "genki",
-    "english": "health, energy",
-    "french": "santé, énergie",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "お元気ですか？",
-        "hiragana": "おげんきですか？",
-        "romaji": "Ogenki desu ka?",
-        "english": "How are you?",
-        "french": "Comment allez-vous ?"
-      }
-    ]
-  },
-  {
-    "id": "go",
-    "japanese": "五",
-    "hiragana": "ご",
-    "romaji": "go",
-    "english": "five",
-    "french": "cinq",
-    "level": "N5",
-    "category": "number",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "りんごを五つください。",
-        "hiragana": "りんごをいつつください。",
-        "romaji": "Ringo o itsutsu kudasai.",
-        "english": "Please give me five apples.",
-        "french": "Donnez-moi cinq pommes, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "kouen",
-    "japanese": "公園",
-    "hiragana": "こうえん",
-    "romaji": "kouen",
-    "english": "park",
-    "french": "parc",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "公園で遊びます。",
-        "hiragana": "こうえんであそびます。",
-        "romaji": "Kouen de asobimasu.",
-        "english": "I play in the park.",
-        "french": "Je joue dans le parc."
-      }
-    ]
-  },
-  {
-    "id": "kousaten",
-    "japanese": "交差点",
-    "hiragana": "こうさてん",
-    "romaji": "kousaten",
-    "english": "intersection",
-    "french": "carrefour",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "交差点で信号を待ちます。",
-        "hiragana": "こうさてんでしんごうをまちます。",
-        "romaji": "Kousaten de shingou o machimasu.",
-        "english": "I wait at the traffic light at the intersection.",
-        "french": "J'attends au feu rouge au carrefour."
-      }
-    ]
-  },
-  {
-    "id": "koucha",
-    "japanese": "紅茶",
-    "hiragana": "こうちゃ",
-    "romaji": "koucha",
-    "english": "black tea",
-    "french": "thé noir",
-    "level": "N5",
-    "category": "drink",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "紅茶に砂糖を入れます。",
-        "hiragana": "こうちゃにさとうをいれます。",
-        "romaji": "Koucha ni satou o iremasu.",
-        "english": "I put sugar in my tea.",
-        "french": "Je mets du sucre dans mon thé."
-      }
-    ]
-  },
-  {
-    "id": "kouban",
-    "japanese": "交番",
-    "hiragana": "こうばん",
-    "romaji": "kouban",
-    "english": "police box",
-    "french": "poste de police",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "交番で道を聞きました。",
-        "hiragana": "こうばんでみちをききました。",
-        "romaji": "Kouban de michi o kikimashita.",
-        "english": "I asked for directions at the police box.",
-        "french": "J'ai demandé mon chemin au poste de police."
-      }
-    ]
-  },
-  {
-    "id": "koe",
-    "japanese": "声",
-    "hiragana": "こえ",
-    "romaji": "koe",
-    "english": "voice",
-    "french": "voix",
-    "level": "N5",
-    "category": "body",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "大きな声で話してください。",
-        "hiragana": "おおきなこえではなしてください。",
-        "romaji": "Ookina koe de hanashite kudasai.",
-        "english": "Please speak in a loud voice.",
-        "french": "Parlez à voix haute, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "kooto",
-    "japanese": "コート",
-    "hiragana": "こーと",
-    "romaji": "kooto",
-    "english": "coat",
-    "french": "manteau",
-    "level": "N5",
-    "category": "clothing",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "冬にコートを着ます。",
-        "hiragana": "ふゆにこーとをきます。",
-        "romaji": "Fuyu ni kooto o kimasu.",
-        "english": "I wear a coat in winter.",
-        "french": "Je porte un manteau en hiver."
-      }
-    ]
-  },
-  {
-    "id": "koohii",
-    "japanese": "コーヒー",
-    "hiragana": "こーひー",
-    "romaji": "koohii",
-    "english": "coffee",
-    "french": "café",
-    "level": "N5",
-    "category": "drink",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "毎朝コーヒーを飲みます。",
-        "hiragana": "まいあさこーひーをのみます。",
-        "romaji": "Maiasa koohii o nomimasu.",
-        "english": "I drink coffee every morning.",
-        "french": "Je bois du café tous les matins."
-      }
-    ]
-  },
-  {
-    "id": "koko",
-    "japanese": "ここ",
-    "hiragana": "ここ",
-    "romaji": "koko",
-    "english": "here",
-    "french": "ici",
-    "level": "N5",
-    "category": "location",
-    "wordType": "pronoun",
-    "examples": [
-      {
-        "japanese": "ここに座ってください。",
-        "hiragana": "ここにすわってください。",
-        "romaji": "Koko ni suwatte kudasai.",
-        "english": "Please sit here.",
-        "french": "Asseyez-vous ici, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "koko",
-    "japanese": "此処",
-    "hiragana": "ここ",
-    "romaji": "koko",
-    "english": "here",
-    "french": "ici",
-    "level": "N5",
-    "category": "location",
-    "wordType": "pronoun",
-    "examples": [
-      {
-        "japanese": "ここに置いてください。",
-        "hiragana": "ここにおいてください。",
-        "romaji": "Koko ni oite kudasai.",
-        "english": "Please put it here.",
-        "french": "Mettez-le ici, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "gochisousama",
-    "japanese": "ご馳走様",
-    "hiragana": "ごちそうさま",
-    "romaji": "gochisousama",
-    "english": "thank you for the meal",
-    "french": "merci pour le repas",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "phrase",
-    "examples": [
-      {
-        "japanese": "ご馳走様でした。",
-        "hiragana": "ごちそうさまでした。",
-        "romaji": "Gochisousama deshita.",
-        "english": "Thank you for the meal.",
-        "french": "Merci pour le repas."
-      }
-    ]
-  },
+{
+  "id": "genki",
+  "japanese": "元気",
+  "hiragana": "げんき",
+  "romaji": "genki",
+  "english": "health, energy",
+  "french": "santé, énergie",
+  "german": "Gesundheit, Energie",
+  "vietnamese": "sức khỏe, năng lượng",
+  "chinese": "健康，精力",
+  "korean": "건강, 활기",
+  "spanish": "salud, energía",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "お元気ですか？",
+      "hiragana": "おげんきですか？",
+      "romaji": "Ogenki desu ka?",
+      "english": "How are you?",
+      "french": "Comment allez-vous ?",
+      "german": "Wie geht es Ihnen?",
+      "vietnamese": "Bạn khỏe không?",
+      "chinese": "你好吗？",
+      "korean": "잘 지내세요?",
+      "spanish": "¿Cómo está?"
+    }
+  ]
+},
+{
+  "id": "go",
+  "japanese": "五",
+  "hiragana": "ご",
+  "romaji": "go",
+  "english": "five",
+  "french": "cinq",
+  "german": "fünf",
+  "vietnamese": "năm",
+  "chinese": "五",
+  "korean": "다섯",
+  "spanish": "cinco",
+  "level": "N5",
+  "category": "number",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "りんごを五つください。",
+      "hiragana": "りんごをいつつください。",
+      "romaji": "Ringo o itsutsu kudasai.",
+      "english": "Please give me five apples.",
+      "french": "Donnez-moi cinq pommes, s'il vous plaît.",
+      "german": "Bitte geben Sie mir fünf Äpfel.",
+      "vietnamese": "Làm ơn đưa cho tôi năm quả táo.",
+      "chinese": "请给我五个苹果。",
+      "korean": "사과 다섯 개 주세요.",
+      "spanish": "Por favor, deme cinco manzanas."
+    }
+  ]
+},
+{
+  "id": "kouen",
+  "japanese": "公園",
+  "hiragana": "こうえん",
+  "romaji": "kouen",
+  "english": "park",
+  "french": "parc",
+  "german": "Park",
+  "vietnamese": "công viên",
+  "chinese": "公园",
+  "korean": "공원",
+  "spanish": "parque",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "公園で遊びます。",
+      "hiragana": "こうえんであそびます。",
+      "romaji": "Kouen de asobimasu.",
+      "english": "I play in the park.",
+      "french": "Je joue dans le parc.",
+      "german": "Ich spiele im Park.",
+      "vietnamese": "Tôi chơi ở công viên.",
+      "chinese": "我在公园里玩。",
+      "korean": "공원에서 놀아요.",
+      "spanish": "Juego en el parque."
+    }
+  ]
+},
+{
+  "id": "kousaten",
+  "japanese": "交差点",
+  "hiragana": "こうさてん",
+  "romaji": "kousaten",
+  "english": "intersection",
+  "french": "carrefour",
+  "german": "Kreuzung",
+  "vietnamese": "ngã tư",
+  "chinese": "十字路口",
+  "korean": "교차로",
+  "spanish": "cruce, intersección",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "交差点で信号を待ちます。",
+      "hiragana": "こうさてんでしんごうをまちます。",
+      "romaji": "Kousaten de shingou o machimasu.",
+      "english": "I wait at the traffic light at the intersection.",
+      "french": "J'attends au feu rouge au carrefour.",
+      "german": "Ich warte an der Ampel an der Kreuzung.",
+      "vietnamese": "Tôi đợi đèn giao thông ở ngã tư.",
+      "chinese": "我在十字路口等红绿灯。",
+      "korean": "교차로에서 신호를 기다려요.",
+      "spanish": "Espero en el semáforo en la intersección."
+    }
+  ]
+},
+{
+  "id": "koucha",
+  "japanese": "紅茶",
+  "hiragana": "こうちゃ",
+  "romaji": "koucha",
+  "english": "black tea",
+  "french": "thé noir",
+  "german": "Schwarztee",
+  "vietnamese": "trà đen",
+  "chinese": "红茶",
+  "korean": "홍차",
+  "spanish": "té negro",
+  "level": "N5",
+  "category": "drink",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "紅茶に砂糖を入れます。",
+      "hiragana": "こうちゃにさとうをいれます。",
+      "romaji": "Koucha ni satou o iremasu.",
+      "english": "I put sugar in my tea.",
+      "french": "Je mets du sucre dans mon thé.",
+      "german": "Ich gebe Zucker in meinen Tee.",
+      "vietnamese": "Tôi cho đường vào trà.",
+      "chinese": "我在红茶里加糖。",
+      "korean": "홍차에 설탕을 넣어요.",
+      "spanish": "Le pongo azúcar al té."
+    }
+  ]
+},
+{
+  "id": "kouban",
+  "japanese": "交番",
+  "hiragana": "こうばん",
+  "romaji": "kouban",
+  "english": "police box",
+  "french": "poste de police",
+  "german": "Polizeiwache (klein)",
+  "vietnamese": "đồn cảnh sát nhỏ",
+  "chinese": "派出所",
+  "korean": "파출소",
+  "spanish": "caseta de policía",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "交番で道を聞きました。",
+      "hiragana": "こうばんでみちをききました。",
+      "romaji": "Kouban de michi o kikimashita.",
+      "english": "I asked for directions at the police box.",
+      "french": "J'ai demandé mon chemin au poste de police.",
+      "german": "Ich habe im Polizeiposten nach dem Weg gefragt.",
+      "vietnamese": "Tôi đã hỏi đường ở đồn cảnh sát.",
+      "chinese": "我在派出所问了路。",
+      "korean": "파출소에서 길을 물어봤어요.",
+      "spanish": "Pregunté el camino en la caseta de policía."
+    }
+  ]
+},
+{
+  "id": "koe",
+  "japanese": "声",
+  "hiragana": "こえ",
+  "romaji": "koe",
+  "english": "voice",
+  "french": "voix",
+  "german": "Stimme",
+  "vietnamese": "giọng nói",
+  "chinese": "声音",
+  "korean": "목소리",
+  "spanish": "voz",
+  "level": "N5",
+  "category": "body",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "大きな声で話してください。",
+      "hiragana": "おおきなこえではなしてください。",
+      "romaji": "Ookina koe de hanashite kudasai.",
+      "english": "Please speak in a loud voice.",
+      "french": "Parlez à voix haute, s'il vous plaît.",
+      "german": "Bitte sprechen Sie mit lauter Stimme.",
+      "vietnamese": "Xin hãy nói to lên.",
+      "chinese": "请大声说话。",
+      "korean": "큰 소리로 말해주세요.",
+      "spanish": "Por favor, hable en voz alta."
+    }
+  ]
+},
+{
+  "id": "kooto",
+  "japanese": "コート",
+  "hiragana": "こーと",
+  "romaji": "kooto",
+  "english": "coat",
+  "french": "manteau",
+  "german": "Mantel",
+  "vietnamese": "áo khoác",
+  "chinese": "外套",
+  "korean": "코트",
+  "spanish": "abrigo",
+  "level": "N5",
+  "category": "clothing",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "冬にコートを着ます。",
+      "hiragana": "ふゆにこーとをきます。",
+      "romaji": "Fuyu ni kooto o kimasu.",
+      "english": "I wear a coat in winter.",
+      "french": "Je porte un manteau en hiver.",
+      "german": "Ich trage im Winter einen Mantel.",
+      "vietnamese": "Tôi mặc áo khoác vào mùa đông.",
+      "chinese": "冬天我穿外套。",
+      "korean": "겨울에 코트를 입어요.",
+      "spanish": "Uso un abrigo en invierno."
+    }
+  ]
+},
+{
+  "id": "koohii",
+  "japanese": "コーヒー",
+  "hiragana": "こーひー",
+  "romaji": "koohii",
+  "english": "coffee",
+  "french": "café",
+  "german": "Kaffee",
+  "vietnamese": "cà phê",
+  "chinese": "咖啡",
+  "korean": "커피",
+  "spanish": "café",
+  "level": "N5",
+  "category": "drink",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "毎朝コーヒーを飲みます。",
+      "hiragana": "まいあさこーひーをのみます。",
+      "romaji": "Maiasa koohii o nomimasu.",
+      "english": "I drink coffee every morning.",
+      "french": "Je bois du café tous les matins.",
+      "german": "Ich trinke jeden Morgen Kaffee.",
+      "vietnamese": "Tôi uống cà phê mỗi sáng.",
+      "chinese": "我每天早上喝咖啡。",
+      "korean": "저는 매일 아침 커피를 마셔요.",
+      "spanish": "Tomo café todas las mañanas."
+    }
+  ]
+},
+{
+  "id": "koko",
+  "japanese": "ここ",
+  "hiragana": "ここ",
+  "romaji": "koko",
+  "english": "here",
+  "french": "ici",
+  "german": "hier",
+  "vietnamese": "ở đây",
+  "chinese": "这里",
+  "korean": "여기",
+  "spanish": "aquí",
+  "level": "N5",
+  "category": "location",
+  "wordType": "pronoun",
+  "examples": [
+    {
+      "japanese": "ここに座ってください。",
+      "hiragana": "ここにすわってください。",
+      "romaji": "Koko ni suwatte kudasai.",
+      "english": "Please sit here.",
+      "french": "Asseyez-vous ici, s'il vous plaît.",
+      "german": "Bitte setzen Sie sich hier hin.",
+      "vietnamese": "Xin mời ngồi ở đây.",
+      "chinese": "请坐在这里。",
+      "korean": "여기 앉으세요.",
+      "spanish": "Siéntese aquí, por favor."
+    }
+  ]
+},
+{
+  "id": "koko",
+  "japanese": "此処",
+  "hiragana": "ここ",
+  "romaji": "koko",
+  "english": "here",
+  "french": "ici",
+  "german": "hier",
+  "vietnamese": "ở đây",
+  "chinese": "这里",
+  "korean": "여기",
+  "spanish": "aquí",
+  "level": "N5",
+  "category": "location",
+  "wordType": "pronoun",
+  "examples": [
+    {
+      "japanese": "ここに置いてください。",
+      "hiragana": "ここにおいてください。",
+      "romaji": "Koko ni oite kudasai.",
+      "english": "Please put it here.",
+      "french": "Mettez-le ici, s'il vous plaît.",
+      "german": "Bitte legen Sie es hier hin.",
+      "vietnamese": "Xin đặt nó ở đây.",
+      "chinese": "请放在这里。",
+      "korean": "여기에 놓으세요.",
+      "spanish": "Póngalo aquí, por favor."
+    }
+  ]
+},
+{
+  "id": "gochisousama",
+  "japanese": "ご馳走様",
+  "hiragana": "ごちそうさま",
+  "romaji": "gochisousama",
+  "english": "thank you for the meal",
+  "french": "merci pour le repas",
+  "german": "Danke für das Essen",
+  "vietnamese": "cảm ơn vì bữa ăn",
+  "chinese": "谢谢款待",
+  "korean": "잘 먹었습니다",
+  "spanish": "gracias por la comida",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "phrase",
+  "examples": [
+    {
+      "japanese": "ご馳走様でした。",
+      "hiragana": "ごちそうさまでした。",
+      "romaji": "Gochisousama deshita.",
+      "english": "Thank you for the meal.",
+      "french": "Merci pour le repas.",
+      "german": "Danke für das Essen.",
+      "vietnamese": "Cảm ơn vì bữa ăn.",
+      "chinese": "谢谢款待。",
+      "korean": "잘 먹었습니다.",
+      "spanish": "Gracias por la comida."
+    }
+  ]
+}
   {
     "id": "kokoasa",
     "japanese": "今朝",
