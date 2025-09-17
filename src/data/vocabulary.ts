@@ -1616,8 +1616,9 @@ export const vocabularyData: VocabularyWord[] = [
     korean: "어떻게",
     spanish: "cómo",
     level: "N5",
-    category: "expression",
+    category: "question",
     wordType: "adverb",
+    imageUrl: howImage,
     examples: [
       {
         japanese: "コーヒーはいかがですか？",
@@ -1648,6 +1649,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: togoImage,
     examples: [
       {
         japanese: "学校に行きます。",
@@ -1674,10 +1676,11 @@ export const vocabularyData: VocabularyWord[] = [
     vietnamese: "bao nhiêu?, bao nhiêu tuổi?",
     chinese: "多少？几岁？",
     korean: "몇 개?, 몇 살?",
-    spanish: "¿cuántos?, ¿qué edad?",
+    spanish: "cuántos?, cuántos años?",
     level: "N5",
     category: "question",
-    wordType: "noun",
+    wordType: "adverb",
+    imageUrl: howmanyImage,
     examples: [
       {
         japanese: "りんごはいくつありますか？",
@@ -1704,10 +1707,11 @@ export const vocabularyData: VocabularyWord[] = [
     vietnamese: "bao nhiêu?",
     chinese: "多少钱？",
     korean: "얼마?",
-    spanish: "¿cuánto?",
+    spanish: "cuánto?",
     level: "N5",
     category: "question",
-    wordType: "noun",
+    wordType: "adverb",
+    imageUrl: howmuchImage,
     examples: [
       {
         japanese: "この本はいくらですか？",
@@ -1738,6 +1742,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "nature",
     wordType: "noun",
+    imageUrl: pondImage,
     examples: [
       {
         japanese: "池に魚がいます。",
@@ -1768,6 +1773,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "profession",
     wordType: "noun",
+    imageUrl: doctorImage,
     examples: [
       {
         japanese: "父は医者です。",
@@ -1798,6 +1804,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "furniture",
     wordType: "noun",
+    imageUrl: chairImage,
     examples: [
       {
         japanese: "椅子に座ります。",
@@ -1828,6 +1835,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: busyImage,
     examples: [
       {
         japanese: "今日は忙しいです。",
@@ -1858,6 +1866,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: painfulImage,
     examples: [
       {
         japanese: "歯が痛いです。",
@@ -1888,6 +1897,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "number",
     wordType: "noun",
+    imageUrl: oneImage,
     examples: [
       {
         japanese: "一つください。",
@@ -1913,6 +1923,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: onedayImage,
     examples: [
       {
         japanese: "一日中勉強しました。",
@@ -1968,6 +1979,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "question",
     wordType: "adverb",
+    imageUrl: whenImage,
     examples: [
       {
         japanese: "いつ来ますか？",
@@ -1994,10 +2006,11 @@ export const vocabularyData: VocabularyWord[] = [
     vietnamese: "năm ngày, ngày mùng 5",
     chinese: "五天, 五日",
     korean: "닷새, 5일",
-    spanish: "cinco días, el día cinco",
+    spanish: "cinco días, el quinto día",
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: fivedaysImage,
     examples: [
       {
         japanese: "五日は休みです。",
@@ -2028,6 +2041,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adverb",
     wordType: "adverb",
+    imageUrl: togetherImage,
     examples: [
       {
         japanese: "友達と一緒に行きます。",
@@ -2058,6 +2072,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "number",
     wordType: "noun",
+    imageUrl: fiveImage,
     examples: [
       {
         japanese: "リンゴを五つ食べました。",
@@ -2088,6 +2103,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adverb",
     wordType: "adverb",
+    imageUrl: alwaysImage,
     examples: [
       {
         japanese: "彼はいつも元気です。",
