@@ -8,7 +8,7 @@ import waterImage from '@/assets/water-mizu.png';
 import tomeetImage from '@/assets/to-meet-au.png';
 import blueImage from '@/assets/blue-ao.png';
 import blueadjImage from '@/assets/blue-aoi.png';
-import redImage from '@/assets/red-aka.png';
+import redImage2 from '@/assets/red-aka.png';
 import brightImage from '@/assets/bright-akarui.png';
 import autumnImage from '@/assets/autumn-aki.png';
 import toopenImage from '@/assets/to-open-aku.png';
@@ -875,7 +875,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
-    imageUrl: redImage,
+    imageUrl: redImage2,
     examples: [
       {
         japanese: "赤が好きです。",
