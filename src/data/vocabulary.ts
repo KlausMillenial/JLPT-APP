@@ -8,11 +8,9 @@ import waterImage from '@/assets/mizu-water.png';
 import tomeetImage from '@/assets/au-to-meet.png';
 import blueImage from '@/assets/ao-blue.png';
 import blueadjImage from '@/assets/aoi-blue.png';
-import redImage2 from '@/assets/aka-red.png';
 import brightImage from '@/assets/akarui-bright.png';
 import autumnImage from '@/assets/aki-autumn.png';
 import toopenImage from '@/assets/aku-to-open.png';
-import toopen2Image from '@/assets/akeru-to-open.png';
 import togiveImage from '@/assets/ageru-to-give.png';
 import breakfastImage from '@/assets/asagohan-breakfast.png';
 import dayaftertomorrowImage from '@/assets/asatte-day-after-tomorrow.png';
@@ -27,7 +25,6 @@ import thereImage from '@/assets/achira-there.png';
 import hotweatherImage from '@/assets/atsui-hot-weather.png';
 import hottouchImage from '@/assets/atsui-hot-touch.png';
 import thickImage from '@/assets/atsui-thick.png';
-import overthere2Image from '@/assets/acchi-over-there.png';
 import afterwardsImage from '@/assets/ato-afterwards.png';
 import youImage from '@/assets/anata-you.png';
 import olderbrotherImage from '@/assets/ani-older-brother.png';
@@ -1139,37 +1136,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "aka",
-    japanese: "赤",
-    hiragana: "あか",
-    romaji: "aka",
-    english: "red",
-    french: "rouge",
-    german: "Rot",
-    vietnamese: "màu đỏ",
-    chinese: "红色",
-    korean: "빨강",
-    spanish: "rojo",
-    level: "N5",
-    category: "color",
-    wordType: "noun",
-    imageUrl: redImage,
-    examples: [
-      {
-        japanese: "赤が好きです。",
-        hiragana: "あかがすきです。",
-        romaji: "Aka ga suki desu.",
-        english: "I like red.",
-        french: "J'aime le rouge.",
-        german: "Ich mag Rot.",
-        vietnamese: "Tôi thích màu đỏ.",
-        chinese: "我喜欢红色。",
-        korean: "나는 빨강을 좋아합니다.",
-        spanish: "Me gusta el rojo."
-      }
-    ]
-  },
-  {
     id: "akarui",
     japanese: "明るい",
     hiragana: "あかるい",
@@ -1256,36 +1222,6 @@ export const vocabularyData: VocabularyWord[] = [
         chinese: "门开了。",
         korean: "문이 열립니다.",
         spanish: "La puerta se abre."
-      }
-    ]
-  },
-  {
-    id: "akeru",
-    japanese: "開ける",
-    hiragana: "あける",
-    romaji: "akeru",
-    english: "to open",
-    french: "ouvrir",
-    german: "öffnen",
-    vietnamese: "mở",
-    chinese: "打开",
-    korean: "열다",
-    spanish: "abrir",
-    level: "N5",
-    category: "verb",
-    wordType: "verb",
-    examples: [
-      {
-        japanese: "窓を開ける。",
-        hiragana: "まどをあける。",
-        romaji: "Mado o akeru.",
-        english: "I open the window.",
-        french: "J'ouvre la fenêtre.",
-        german: "Ich öffne das Fenster.",
-        vietnamese: "Tôi mở cửa sổ.",
-        chinese: "我打开窗户。",
-        korean: "창문을 엽니다.",
-        spanish: "Abro la ventana."
       }
     ]
   },
@@ -1686,36 +1622,6 @@ export const vocabularyData: VocabularyWord[] = [
         romaji: "Atsui hon o yomimasu.",
         english: "I read a thick book.",
         french: "Je lis un livre épais."
-      }
-    ]
-  },
-  {
-    id: "acchi",
-    japanese: "あっち",
-    hiragana: "あっち",
-    romaji: "acchi",
-    english: "over there",
-    french: "là-bas",
-    german: "dort drüben",
-    vietnamese: "đằng kia",
-    chinese: "那边",
-    korean: "저쪽",
-    spanish: "allí",
-    level: "N5",
-    category: "location",
-    wordType: "pronoun",
-    examples: [
-      {
-        japanese: "学校はあっちです。",
-        hiragana: "がっこうはあっちです。",
-        romaji: "Gakkou wa acchi desu.",
-        english: "The school is over there.",
-        french: "L'école est là-bas.",
-        german: "Die Schule ist dort drüben.",
-        vietnamese: "Trường học ở đằng kia.",
-        chinese: "学校在那边。",
-        korean: "학교는 저쪽입니다.",
-        spanish: "La escuela está allí."
       }
     ]
   },
