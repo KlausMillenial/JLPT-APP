@@ -162,7 +162,7 @@ export const VocabularyCard = ({ word, language, isInverseMode = false }: Vocabu
   const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
 
   return (
-    <div className="perspective-1000 w-full h-[500px]">
+    <div className="perspective-1000 w-full h-[500px] relative">
       <div 
         className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
