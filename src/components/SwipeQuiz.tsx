@@ -5,9 +5,8 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { PlaceholderImageService } from '@/services/placeholderImageService';
 import { VoiceButton } from './VoiceButton';
-import { Brain, RotateCcw, X, Check, Loader2, Wand2, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Brain, RotateCcw, X, Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import { toast } from 'sonner';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
@@ -20,8 +19,6 @@ interface SwipeQuizProps {
 interface QuizCard {
   word: VocabularyWord;
   translation: string;
-  imageUrl?: string;
-  isGeneratingImage?: boolean;
 }
 
 export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: SwipeQuizProps) => {
@@ -35,29 +32,8 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
   const currentVocabularyData = propVocabularyData || vocabularyData;
 
-  // Create image prompt for vocabulary words
-  const createImagePrompt = (word: VocabularyWord, translation: string): string => {
-    return `Clear, simple cartoon illustration of ${translation}, educational style for language learning, bright colors, easy to recognize, isolated on white background, detailed but not cluttered`;
-  };
-
-  // Generate image for a word
-  const generateImage = async (word: VocabularyWord, translation: string): Promise<string | null> => {
-    try {
-      const prompt = createImagePrompt(word, translation);
-      const result = await PlaceholderImageService.generateImage({
-        positivePrompt: prompt,
-        width: 512,
-        height: 512,
-      });
-      return result.imageURL;
-    } catch (error) {
-      console.error('Image generation error:', error);
-      return null;
-    }
-  };
-
   // Initialize quiz cards
-  const initializeQuiz = useCallback(async () => {
+  const initializeQuiz = useCallback(() => {
     const shuffled = [...currentVocabularyData].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, 20); // 20 cards for the quiz
 
@@ -66,7 +42,6 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
       return {
         word,
         translation,
-        isGeneratingImage: true,
       };
     });
 
@@ -74,19 +49,10 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     setCurrentCardIndex(0);
     setScore({ correct: 0, total: 0 });
     setShowResults(false);
-
-    // Generate images for first few cards
-    for (let i = 0; i < Math.min(3, cards.length); i++) {
-      const card = cards[i];
-      const imageUrl = await generateImage(card.word, card.translation);
-      setQuizCards(prev => prev.map((c, idx) => 
-        idx === i ? { ...c, imageUrl, isGeneratingImage: false } : c
-      ));
-    }
   }, [currentVocabularyData, selectedLanguage]);
 
   // Handle answer selection
-  const handleAnswer = useCallback(async (isCorrect: boolean) => {
+  const handleAnswer = useCallback((isCorrect: boolean) => {
     if (isAnimating) return;
 
     setIsAnimating(true);
@@ -106,22 +72,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
       if (currentCardIndex + 1 >= quizCards.length) {
         setShowResults(true);
       } else {
-        const nextIndex = currentCardIndex + 1;
-        setCurrentCardIndex(nextIndex);
-
-        // Pre-generate image for next card if needed
-        const nextCard = quizCards[nextIndex + 1];
-        if (nextCard && !nextCard.imageUrl && !nextCard.isGeneratingImage) {
-          setQuizCards(prev => prev.map((c, idx) => 
-            idx === nextIndex + 1 ? { ...c, isGeneratingImage: true } : c
-          ));
-          
-          generateImage(nextCard.word, nextCard.translation).then(imageUrl => {
-            setQuizCards(prev => prev.map((c, idx) => 
-              idx === nextIndex + 1 ? { ...c, imageUrl, isGeneratingImage: false } : c
-            ));
-          });
-        }
+        setCurrentCardIndex(currentCardIndex + 1);
       }
     }, 1500);
   }, [currentCardIndex, quizCards, isAnimating]);
@@ -249,7 +200,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
   if (!currentCard) {
     return <div className="min-h-screen bg-background flex items-center justify-center">
-      <Loader2 className="w-8 h-8 animate-spin" />
+      <div>Loading quiz...</div>
     </div>;
   }
 
@@ -311,35 +262,14 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
             )}
 
             <div className="h-80">
-              {/* Image Section */}
-              <div className="h-48 relative overflow-hidden bg-gray-50 flex items-center justify-center">
-                {currentCard.isGeneratingImage ? (
-                  <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
-                    <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
-                    <span className="text-sm text-muted-foreground">Generating image...</span>
-                  </div>
-                ) : currentCard.imageUrl ? (
-                  <img 
-                    src={currentCard.imageUrl} 
-                    alt={currentCard.translation}
-                    className="max-w-full max-h-full object-contain"
-                  />
-                ) : (
-                  <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
-                    <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
-                    <span className="text-sm text-primary/60 text-center">Image loading...</span>
-                  </div>
-                )}
-              </div>
-
               {/* Content Section */}
               <div className="p-6 space-y-4">
                 <div className="text-center">
-                  <h3 className="text-2xl font-bold text-primary mb-1">
+                  <h3 className="text-4xl font-bold text-primary mb-4">
                     {currentCard.word.japanese}
                   </h3>
                   <div className="flex items-center justify-center gap-2">
-                    <p className="text-lg text-muted-foreground">
+                    <p className="text-xl text-muted-foreground">
                       {currentCard.word.hiragana}
                     </p>
                     <VoiceButton 
@@ -352,7 +282,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
                   </div>
                 </div>
 
-                <div className="flex gap-2">
+                <div className="flex justify-center gap-2 mt-6">
                   <Badge variant="secondary" className="text-xs">
                     {currentCard.word.level}
                   </Badge>

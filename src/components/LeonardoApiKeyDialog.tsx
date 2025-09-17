@@ -1,15 +1,31 @@
-import { useState } from 'react';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from '@/components/ui/dialog';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { LeonardoImageService } from '@/services/leonardoImageService';
-import { Settings, Key, ExternalLink } from 'lucide-react';
 import { toast } from 'sonner';
+import { Key, Check, ExternalLink } from 'lucide-react';
 
 export const LeonardoApiKeyDialog = () => {
-  const [apiKey, setApiKey] = useState(LeonardoImageService.getApiKey() || '');
-  const [isOpen, setIsOpen] = useState(false);
+  const [apiKey, setApiKey] = useState('');
+  const [open, setOpen] = useState(false);
+  const [hasKey, setHasKey] = useState(false);
+
+  useEffect(() => {
+    const existingKey = LeonardoImageService.getApiKey();
+    setHasKey(!!existingKey);
+    if (existingKey) {
+      setApiKey(existingKey);
+    }
+  }, [open]);
 
   const handleSave = () => {
     if (!apiKey.trim()) {
@@ -18,80 +34,73 @@ export const LeonardoApiKeyDialog = () => {
     }
     
     LeonardoImageService.setApiKey(apiKey.trim());
-    toast.success('Leonardo AI API key saved successfully!');
-    setIsOpen(false);
+    setHasKey(true);
+    setOpen(false);
+    toast.success('Leonardo AI API key saved successfully');
   };
 
   const handleClear = () => {
     LeonardoImageService.clearApiKey();
     setApiKey('');
-    toast.success('API key cleared');
+    setHasKey(false);
+    toast.info('Leonardo AI API key cleared');
   };
 
-  const hasApiKey = LeonardoImageService.getApiKey();
-
   return (
-    <Dialog open={isOpen} onOpenChange={setIsOpen}>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
-        <Button 
-          variant="outline" 
-          size="sm"
-          className={hasApiKey ? "bg-green-50 border-green-200 text-green-700 hover:bg-green-100" : ""}
-        >
+        <Button variant="outline" size="sm" className="bg-white/10 border-white/20 text-white hover:bg-white/20">
           <Key className="w-4 h-4 mr-2" />
-          {hasApiKey ? 'Leonardo AI ✓' : 'Setup Leonardo AI'}
+          Leonardo AI
+          {hasKey && <Check className="w-4 h-4 ml-2" />}
         </Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="flex items-center gap-2">
-            <Settings className="w-5 h-5" />
-            Leonardo AI Configuration
-          </DialogTitle>
+          <DialogTitle>Leonardo AI API Key</DialogTitle>
+          <DialogDescription>
+            Enter your Leonardo AI API key to generate high-quality images for vocabulary learning.
+          </DialogDescription>
         </DialogHeader>
+        
         <div className="space-y-4">
-          <div className="space-y-2">
-            <p className="text-sm text-muted-foreground">
-              Leonardo AI provides high-quality AI image generation. Get your API key to generate beautiful images for vocabulary learning.
-            </p>
-            <div className="flex items-center gap-2 text-sm">
-              <span>Get your API key at:</span>
-              <Button 
-                variant="link" 
-                size="sm" 
-                className="h-auto p-0 text-blue-600 hover:text-blue-800"
-                onClick={() => window.open('https://app.leonardo.ai/', '_blank')}
-              >
-                app.leonardo.ai <ExternalLink className="w-3 h-3 ml-1" />
-              </Button>
-            </div>
+          <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <span>Get your API key from</span>
+            <a 
+              href="https://app.leonardo.ai/settings/api" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-primary hover:underline"
+            >
+              Leonardo AI Settings
+              <ExternalLink className="w-3 h-3" />
+            </a>
           </div>
           
           <div className="space-y-2">
-            <Label htmlFor="leonardo-api-key">API Key</Label>
+            <Label htmlFor="apiKey">API Key</Label>
             <Input
-              id="leonardo-api-key"
+              id="apiKey"
               type="password"
-              placeholder="Enter your Leonardo AI API key..."
+              placeholder="Enter your Leonardo AI API key"
               value={apiKey}
               onChange={(e) => setApiKey(e.target.value)}
-              className="font-mono text-sm"
             />
           </div>
           
           <div className="flex gap-2">
             <Button onClick={handleSave} className="flex-1">
-              Save API Key
+              Save Key
             </Button>
-            {hasApiKey && (
+            {hasKey && (
               <Button onClick={handleClear} variant="outline">
                 Clear
               </Button>
             )}
           </div>
           
-          <div className="text-xs text-muted-foreground bg-muted/50 p-3 rounded-lg">
-            <strong>Privacy:</strong> Your API key is stored locally in your browser and never sent to our servers.
+          <div className="text-xs text-muted-foreground">
+            Your API key is stored locally in your browser for security.
           </div>
         </div>
       </DialogContent>

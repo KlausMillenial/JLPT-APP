@@ -1,14 +1,10 @@
 import { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
 import { VocabularyWord } from '@/data/vocabulary';
 import { VoiceButton } from './VoiceButton';
-import { FuriganaText } from './FuriganaText';
-import { KanjiPracticeModal } from './KanjiPracticeModal';
 import { LeonardoImageService } from '@/services/leonardoImageService';
-import { PlaceholderImageService } from '@/services/placeholderImageService';
-import { Image, Loader2, Wand2, PenTool } from 'lucide-react';
+import { Loader2, Wand2 } from 'lucide-react';
 import { toast } from 'sonner';
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
@@ -16,7 +12,6 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface VocabularyCardProps {
   word: VocabularyWord;
   language: LanguageOption;
-  imageProvider?: 'leonardo' | 'placeholder';
 }
 
 // Create specific visual representations for each vocabulary word
@@ -102,7 +97,7 @@ const createImagePrompt = (word: VocabularyWord, translation: string): string =>
   return `Professional photograph of ${translation}, high quality, detailed, educational purpose, clean white background, well-lit, realistic`;
 };
 
-export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }: VocabularyCardProps) => {
+export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(word.imageUrl || '');
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
@@ -116,110 +111,49 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
   };
 
   const generateImage = async () => {
+    const apiKey = LeonardoImageService.getApiKey();
+    if (!apiKey) {
+      toast.error('Leonardo AI API key required for image generation');
+      return;
+    }
+
     console.log('Generate image button clicked for word:', word.japanese);
     
     setIsGeneratingImage(true);
     
     try {
-      // Create a context-aware prompt that describes the word visually
       const translation = word[language] || word.english;
       const prompt = createImagePrompt(word, translation);
       
       console.log('Generated prompt:', prompt);
-      console.log('Using image provider:', imageProvider);
+      console.log('Using Leonardo AI...');
       
-      let result;
-      
-      // Try the selected provider first
-      if (imageProvider === 'leonardo' && LeonardoImageService.getApiKey()) {
-        console.log('Using Leonardo AI...');
-        result = await LeonardoImageService.generateImage({
-          positivePrompt: prompt,
-          width: 512,
-          height: 512,
-        });
-        toast.success('Leonardo AI image generated!');
-      } else {
-        // Fallback to placeholder service
-        console.log('Using visual learning aid...');
-        result = await PlaceholderImageService.generateImage({
-          positivePrompt: prompt,
-          width: 512,
-          height: 512,
-        });
-        toast.success('Visual learning aid generated!');
-      }
+      const result = await LeonardoImageService.generateImage({
+        positivePrompt: prompt,
+        width: 512,
+        height: 512,
+      });
       
       console.log('Image generation result:', result);
       
       if (result.imageURL) {
         setGeneratedImageUrl(result.imageURL);
+        toast.success('Leonardo AI image generated!');
       } else {
         throw new Error('No image URL returned');
       }
     } catch (error) {
-      console.error('Image generation failed:', error);
-      
-      // Fall back to visual aid if everything else fails
-      try {
-        console.log('Fallback to visual learning aid...');
-        const translation = word[language] || word.english;
-        const fallbackResult = await createFallbackImage(word, translation);
-        setGeneratedImageUrl(fallbackResult.imageURL);
-        toast.info('Generated simple visual aid');
-      } catch (fallbackError) {
-        console.error('Fallback image generation failed:', fallbackError);
-        toast.error('Unable to generate any visual aid');
-      }
+      console.error('Leonardo AI image generation failed:', error);
+      toast.error('Image generation failed');
     } finally {
       setIsGeneratingImage(false);
     }
   };
 
-  // Simple fallback image generator
-  const createFallbackImage = (word: VocabularyWord, translation: string): Promise<{ imageURL: string }> => {
-    return new Promise((resolve) => {
-      const canvas = document.createElement('canvas');
-      const ctx = canvas.getContext('2d')!;
-      
-      canvas.width = 512;
-      canvas.height = 512;
-      
-      // Simple gradient background
-      const gradient = ctx.createLinearGradient(0, 0, 512, 512);
-      gradient.addColorStop(0, '#f0f9ff');
-      gradient.addColorStop(1, '#e0e7ff');
-      
-      ctx.fillStyle = gradient;
-      ctx.fillRect(0, 0, 512, 512);
-      
-      // Add border
-      ctx.strokeStyle = '#cbd5e1';
-      ctx.lineWidth = 2;
-      ctx.strokeRect(1, 1, 510, 510);
-      
-      // Add text
-      ctx.fillStyle = '#1e293b';
-      ctx.font = 'bold 48px system-ui, -apple-system, sans-serif';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText('📚', 256, 200);
-      
-      ctx.font = 'bold 24px system-ui, -apple-system, sans-serif';
-      ctx.fillText(translation, 256, 280);
-      
-      ctx.font = '16px system-ui, -apple-system, sans-serif';
-      ctx.fillStyle = '#64748b';
-      ctx.fillText('Visual Learning Aid', 256, 320);
-      
-      const imageURL = canvas.toDataURL('image/png');
-      resolve({ imageURL });
-    });
-  };
 
-  // Auto-generate image when card loads
+  // Auto-generate image when card loads (only if API key is available)
   useEffect(() => {
-    if (!generatedImageUrl && !isGeneratingImage) {
+    if (!generatedImageUrl && !isGeneratingImage && LeonardoImageService.getApiKey()) {
       // Small delay to stagger image generation for better performance
       const delay = Math.random() * 2000; // 0-2 seconds random delay
       setTimeout(() => {
@@ -246,8 +180,7 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
                   <span className="text-sm text-muted-foreground">
-                    {imageProvider === 'leonardo' ? 'Generating with Leonardo AI...' :
-                     'Generating visual aid...'}
+                    Generating with Leonardo AI...
                   </span>
                   <span className="text-xs text-muted-foreground mt-1">This may take a moment</span>
                 </div>
@@ -257,12 +190,18 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                   alt={translation}
                   className="w-full h-full object-cover animate-fade-in"
                 />
+              ) : LeonardoImageService.getApiKey() ? (
+                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
+                  <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
+                  <span className="text-sm text-primary/60 text-center">
+                    Leonardo AI image will generate<br />automatically
+                  </span>
+                </div>
               ) : (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Wand2 className="w-8 h-8 text-primary/60 mb-3" />
                   <span className="text-sm text-primary/60 text-center">
-                    {imageProvider === 'leonardo' ? 'Leonardo AI image' :
-                     'Visual aid'} will generate<br />automatically
+                    Set up Leonardo AI<br />for image generation
                   </span>
                 </div>
               )}
@@ -355,11 +294,7 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                 <div className="space-y-2 pt-4 border-t border-white/20 w-full">
                   <p className="text-sm font-medium">Example:</p>
                   <div className="flex items-center justify-center gap-2">
-                    <FuriganaText 
-                      japanese={word.examples[0].japanese}
-                      hiragana={word.examples[0].hiragana}
-                      className="text-sm opacity-90"
-                    />
+                    <p className="text-sm opacity-90">{word.examples[0].japanese}</p>
                     <VoiceButton 
                       text={word.examples[0].hiragana}
                       language="japanese"
@@ -373,11 +308,6 @@ export const VocabularyCard = ({ word, language, imageProvider = 'placeholder' }
                   </p>
                 </div>
               )}
-            </div>
-
-            {/* Kanji Practice Button */}
-            <div className="mt-4 flex justify-center">
-              <KanjiPracticeModal word={word} language={language} />
             </div>
 
             <div className="mt-4 text-xs opacity-75 text-center">
