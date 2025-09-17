@@ -8,7 +8,7 @@ import { SwipeQuiz } from './SwipeQuiz';
 import { ImageProviderSelector } from './ImageProviderSelector';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon, Globe } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -174,6 +174,65 @@ export const VocabularyApp = () => {
     }
   }, [translatedVocabulary, filteredWords, currentPage, itemsPerPage]);
 
+  const bulkTranslateAll = useCallback(async () => {
+    const apiKey = TranslationService.getApiKey();
+    if (!apiKey) {
+      toast.error('Please set up your OpenAI API key first');
+      return;
+    }
+
+    const targetLanguages = ['german', 'vietnamese', 'chinese', 'korean', 'spanish'] as const;
+    
+    // Find all words that need translation in any language
+    const wordsNeedingTranslation = translatedVocabulary.filter(word => 
+      targetLanguages.some(lang => !word[lang])
+    );
+
+    if (wordsNeedingTranslation.length === 0) {
+      toast.success('All vocabulary entries already translated!');
+      return;
+    }
+
+    setIsTranslating(true);
+    toast.info(`Starting bulk translation of ${wordsNeedingTranslation.length} entries...`);
+
+    const translationService = new TranslationService(apiKey);
+    const updatedWords = [...translatedVocabulary];
+    let completedCount = 0;
+
+    try {
+      for (const word of wordsNeedingTranslation) {
+        try {
+          const translatedWord = await translationService.translateVocabularyEntry(word);
+          const wordIndex = updatedWords.findIndex(w => w.id === word.id);
+          if (wordIndex !== -1) {
+            updatedWords[wordIndex] = translatedWord;
+          }
+          completedCount++;
+          
+          // Update progress
+          if (completedCount % 10 === 0 || completedCount === wordsNeedingTranslation.length) {
+            toast.info(`Translated ${completedCount}/${wordsNeedingTranslation.length} entries...`);
+            setTranslatedVocabulary([...updatedWords]); // Update state periodically
+          }
+        } catch (error) {
+          console.error(`Failed to translate ${word.id}:`, error);
+        }
+        
+        // Delay to avoid rate limiting
+        await new Promise(resolve => setTimeout(resolve, 600));
+      }
+
+      setTranslatedVocabulary(updatedWords);
+      toast.success(`Bulk translation complete! Translated ${completedCount} entries.`);
+    } catch (error) {
+      console.error('Bulk translation error:', error);
+      toast.error('Bulk translation failed');
+    } finally {
+      setIsTranslating(false);
+    }
+  }, [translatedVocabulary]);
+
   const handleLanguageChange = useCallback((newLanguage: LanguageOption) => {
     setLanguage(newLanguage);
     autoTranslateForLanguage(newLanguage);
@@ -237,8 +296,27 @@ export const VocabularyApp = () => {
       {/* Header */}
       <header className="gradient-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4">
-          {/* API Key Setup in top right */}
+          {/* API Key Setup and Bulk Translation in top right */}
           <div className="flex justify-end gap-2 mb-4">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              onClick={bulkTranslateAll}
+              disabled={isTranslating}
+              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+            >
+              {isTranslating ? (
+                <>
+                  <Loader2 className="w-4 h-4 mr-2 animate-spin" />
+                  Translating...
+                </>
+              ) : (
+                <>
+                  <Globe className="w-4 h-4 mr-2" />
+                  Bulk Translate All
+                </>
+              )}
+            </Button>
             <ApiKeyDialog />
           </div>
           
