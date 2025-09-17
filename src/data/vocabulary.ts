@@ -11090,7 +11090,7 @@ export const vocabularyData: VocabularyWord[] = [
       "spanish": "Le pedí a un amigo.",
       "vietnamese": "Tôi đã nhờ một người bạn.",
       "chinese": "我请求了一位朋友。",
-      "korean": "친구에게 부탁했습니다.""
+      "korean": "친구에게 부탁했습니다."
       }
     ]
   },
