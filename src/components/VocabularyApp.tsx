@@ -200,31 +200,48 @@ export const VocabularyApp = () => {
     const updatedWords = [...translatedVocabulary];
     let completedCount = 0;
 
+    // Process in batches of 5 for better speed
+    const batchSize = 5;
+    const batches = [];
+    for (let i = 0; i < wordsNeedingTranslation.length; i += batchSize) {
+      batches.push(wordsNeedingTranslation.slice(i, i + batchSize));
+    }
+
     try {
-      for (const word of wordsNeedingTranslation) {
-        try {
-          const translatedWord = await translationService.translateVocabularyEntry(word);
-          const wordIndex = updatedWords.findIndex(w => w.id === word.id);
-          if (wordIndex !== -1) {
-            updatedWords[wordIndex] = translatedWord;
+      for (const batch of batches) {
+        // Process batch in parallel
+        const batchPromises = batch.map(async (word) => {
+          try {
+            const translatedWord = await translationService.translateVocabularyEntry(word);
+            return { success: true, word: translatedWord };
+          } catch (error) {
+            console.error(`Failed to translate ${word.id}:`, error);
+            return { success: false, word };
           }
-          completedCount++;
-          
-          // Update progress
-          if (completedCount % 10 === 0 || completedCount === wordsNeedingTranslation.length) {
-            toast.info(`Translated ${completedCount}/${wordsNeedingTranslation.length} entries...`);
-            setTranslatedVocabulary([...updatedWords]); // Update state periodically
-          }
-        } catch (error) {
-          console.error(`Failed to translate ${word.id}:`, error);
-        }
+        });
+
+        const batchResults = await Promise.all(batchPromises);
         
-        // Delay to avoid rate limiting
-        await new Promise(resolve => setTimeout(resolve, 600));
+        // Update the words array
+        batchResults.forEach(result => {
+          const wordIndex = updatedWords.findIndex(w => w.id === result.word.id);
+          if (wordIndex !== -1) {
+            updatedWords[wordIndex] = result.word;
+            if (result.success) completedCount++;
+          }
+        });
+        
+        // Update progress
+        toast.info(`Translated ${completedCount}/${wordsNeedingTranslation.length} entries...`);
+        setTranslatedVocabulary([...updatedWords]);
+        
+        // Shorter delay between batches (200ms instead of 600ms per word)
+        if (batches.indexOf(batch) < batches.length - 1) {
+          await new Promise(resolve => setTimeout(resolve, 200));
+        }
       }
 
-      setTranslatedVocabulary(updatedWords);
-      toast.success(`Bulk translation complete! Translated ${completedCount} entries.`);
+      toast.success(`Bulk translation complete! Successfully translated ${completedCount} entries.`);
     } catch (error) {
       console.error('Bulk translation error:', error);
       toast.error('Bulk translation failed');
