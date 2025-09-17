@@ -98,6 +98,7 @@ import deliciousImage from '@/assets/delicious-oishii.png';
 import manyImage from '@/assets/many-ooi.png';
 import bigImage from '@/assets/big-ookii.png';
 import bigprefixImage from '@/assets/bigprefix-ookina.png';
+import greatnumberofpeopleImage from '@/assets/greatnumberofpeople-oozei.png';
 
 
 export interface VocabularyWord {
@@ -3195,6 +3196,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "noun",
     wordType: "noun",
+    imageUrl: greatnumberofpeopleImage,
     examples: [
       {
         japanese: "駅に大勢の人がいました。",
