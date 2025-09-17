@@ -12,6 +12,7 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface VocabularyCardProps {
   word: VocabularyWord;
   language: LanguageOption;
+  isInverseMode?: boolean;
 }
 
 // Create specific visual representations for each vocabulary word
@@ -97,7 +98,7 @@ const createImagePrompt = (word: VocabularyWord, translation: string): string =>
   return `Professional photograph of ${translation}, high quality, detailed, educational purpose, clean white background, well-lit, realistic`;
 };
 
-export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
+export const VocabularyCard = ({ word, language, isInverseMode = false }: VocabularyCardProps) => {
   const [isFlipped, setIsFlipped] = useState(false);
   const [generatedImageUrl, setGeneratedImageUrl] = useState(word.imageUrl || '');
   const [isGeneratingImage, setIsGeneratingImage] = useState(false);
@@ -166,7 +167,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
       >
-        {/* Front of card - Translation */}
+        {/* Front of card - Shows based on inverse mode */}
         <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
           <div className="flex flex-col h-full">
             {/* Image section - Larger portion of the card */}
@@ -215,7 +216,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               )}
             </div>
             
-            {/* Content section - Other half of the card */}
+            {/* Content section - Shows Japanese or Translation based on mode */}
             <div className="flex-1 p-6 flex flex-col">
               {/* Header with badges */}
               <div className="flex gap-2 mb-4">
@@ -230,31 +231,58 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 </Badge>
               </div>
               
-              {/* Translation content */}
+              {/* Main content - changes based on inverse mode */}
               <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-                <div className="flex items-center justify-center gap-3">
-                  <h2 className="text-2xl font-bold text-primary">
-                    {translation}
-                  </h2>
-                  <VoiceButton 
-                    text={translation}
-                    language={language}
-                    variant="outline"
-                    size="icon"
-                    className="hover:bg-primary/10"
-                  />
-                </div>
+                {isInverseMode ? (
+                  // Show Japanese first in inverse mode
+                  <>
+                    <div className="flex items-center justify-center">
+                      <h2 className="text-3xl font-bold text-primary mb-2">
+                        {word.japanese}
+                      </h2>
+                    </div>
+                    <div className="flex items-center justify-center gap-3">
+                      <p className="text-lg text-muted-foreground">
+                        {word.hiragana}
+                      </p>
+                      <VoiceButton 
+                        text={word.hiragana}
+                        language="japanese"
+                        variant="ghost"
+                        size="icon"
+                        className="hover:bg-primary/10"
+                      />
+                    </div>
+                    <p className="text-md text-muted-foreground italic">
+                      {word.romaji}
+                    </p>
+                  </>
+                ) : (
+                  // Show translation first in normal mode
+                  <div className="flex items-center justify-center gap-3">
+                    <h2 className="text-2xl font-bold text-primary">
+                      {translation}
+                    </h2>
+                    <VoiceButton 
+                      text={translation}
+                      language={language}
+                      variant="outline"
+                      size="icon"
+                      className="hover:bg-primary/10"
+                    />
+                  </div>
+                )}
                 
                 {word.examples[0] && (
                   <div className="space-y-2 pt-2 border-t border-primary/20 w-full">
                     <p className="text-xs font-medium text-muted-foreground">Example:</p>
                     <div className="flex items-center justify-center gap-2">
                       <p className="text-sm text-muted-foreground">
-                        {exampleTranslation}
+                        {isInverseMode ? word.examples[0].japanese : exampleTranslation}
                       </p>
                       <VoiceButton 
-                        text={exampleTranslation}
-                        language={language}
+                        text={isInverseMode ? word.examples[0].hiragana : exampleTranslation}
+                        language={isInverseMode ? "japanese" : language}
                         variant="ghost"
                         size="icon"
                         className="hover:bg-primary/10 opacity-70"
@@ -265,61 +293,97 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               </div>
 
               <div className="mt-2 text-xs text-muted-foreground text-center">
-                Click to reveal Japanese
+                {isInverseMode ? 'Click to see translation' : 'Click to reveal Japanese'}
               </div>
             </div>
           </div>
         </Card>
 
-        {/* Back of card - Japanese */}
+        {/* Back of card - Shows opposite of front based on mode */}
         <Card className="card-back gradient-primary text-primary-foreground shadow-card p-6 border-0">
           <div className="flex flex-col h-full">
             
-            {/* Japanese content */}
+            {/* Content - Shows Translation or Japanese based on inverse mode */}
             <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-              <div className="flex items-center justify-center">
-                <h2 className="text-4xl font-bold mb-2">
-                  {word.japanese}
-                </h2>
-              </div>
-              <div className="flex items-center justify-center gap-3">
-                <p className="text-xl text-white/90">
-                  {word.hiragana}
-                </p>
-                <VoiceButton 
-                  text={word.hiragana}
-                  language="japanese"
-                  variant="ghost"
-                  size="icon"
-                  className="text-white hover:bg-white/20"
-                />
-              </div>
-              <p className="text-lg text-white/75 italic">
-                {word.romaji}
-              </p>
-              
-              {word.examples[0] && (
-                <div className="space-y-2 pt-4 border-t border-white/20 w-full">
-                  <p className="text-sm font-medium">Example:</p>
-                  <div className="flex items-center justify-center gap-2">
-                    <p className="text-sm opacity-90">{word.examples[0].japanese}</p>
+              {isInverseMode ? (
+                // Show translation in inverse mode
+                <>
+                  <div className="flex items-center justify-center gap-3">
+                    <h2 className="text-3xl font-bold mb-2 text-white">
+                      {translation}
+                    </h2>
                     <VoiceButton 
-                      text={word.examples[0].hiragana}
+                      text={translation}
+                      language={language}
+                      variant="ghost"
+                      size="icon"
+                      className="text-white hover:bg-white/20"
+                    />
+                  </div>
+                  {word.examples[0] && (
+                    <div className="space-y-2 pt-4 border-t border-white/20 w-full">
+                      <p className="text-sm font-medium">Example:</p>
+                      <div className="flex items-center justify-center gap-2">
+                        <p className="text-sm opacity-90">{exampleTranslation}</p>
+                        <VoiceButton 
+                          text={exampleTranslation}
+                          language={language}
+                          variant="ghost"
+                          size="icon"
+                          className="text-white hover:bg-white/20 opacity-70"
+                        />
+                      </div>
+                    </div>
+                  )}
+                </>
+              ) : (
+                // Show Japanese in normal mode
+                <>
+                  <div className="flex items-center justify-center">
+                    <h2 className="text-4xl font-bold mb-2">
+                      {word.japanese}
+                    </h2>
+                  </div>
+                  <div className="flex items-center justify-center gap-3">
+                    <p className="text-xl text-white/90">
+                      {word.hiragana}
+                    </p>
+                    <VoiceButton 
+                      text={word.hiragana}
                       language="japanese"
                       variant="ghost"
                       size="icon"
-                      className="text-white hover:bg-white/20 opacity-70"
+                      className="text-white hover:bg-white/20"
                     />
                   </div>
-                  <p className="text-xs opacity-75 italic">
-                    {word.examples[0].romaji}
+                  <p className="text-lg text-white/75 italic">
+                    {word.romaji}
                   </p>
-                </div>
+                  
+                  {word.examples[0] && (
+                    <div className="space-y-2 pt-4 border-t border-white/20 w-full">
+                      <p className="text-sm font-medium">Example:</p>
+                      <div className="flex items-center justify-center gap-2">
+                        <p className="text-sm opacity-90">{word.examples[0].japanese}</p>
+                        <VoiceButton 
+                          text={word.examples[0].hiragana}
+                          language="japanese"
+                          variant="ghost"
+                          size="icon"
+                          className="text-white hover:bg-white/20 opacity-70"
+                        />
+                      </div>
+                      <p className="text-xs opacity-75 italic">
+                        {word.examples[0].romaji}
+                      </p>
+                    </div>
+                  )}
+                </>
               )}
             </div>
 
             <div className="mt-4 text-xs opacity-75 text-center">
-              Click to see translation again
+              {isInverseMode ? 'Click to see Japanese again' : 'Click to see translation again'}
             </div>
           </div>
         </Card>

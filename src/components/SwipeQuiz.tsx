@@ -14,6 +14,7 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface SwipeQuizProps {
   selectedLanguage?: LanguageOption;
   vocabularyData?: VocabularyWord[];
+  isInverseMode?: boolean;
 }
 
 interface QuizCard {
@@ -25,7 +26,7 @@ interface QuizCard {
   incorrectImageWord: VocabularyWord;
 }
 
-export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: SwipeQuizProps) => {
+export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData, isInverseMode = false }: SwipeQuizProps) => {
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [score, setScore] = useState({ correct: 0, total: 0 });
@@ -121,10 +122,15 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
           <div className="container mx-auto px-4 text-center">
             <div className="flex justify-center items-center gap-3 mb-4">
               <Brain className="w-10 h-10" />
-              <h1 className="text-4xl md:text-5xl font-bold">Swipe Quiz</h1>
+              <h1 className="text-4xl md:text-5xl font-bold">
+                Swipe Quiz {isInverseMode ? '(Inverse Mode)' : ''}
+              </h1>
             </div>
             <p className="text-xl opacity-90 max-w-2xl mx-auto">
-              Swipe right if you know the word, left if you don't!
+              {isInverseMode 
+                ? 'Swipe right if you know the target language word, left if you don\'t!' 
+                : 'Swipe right if you know the Japanese word, left if you don\'t!'
+              }
             </p>
           </div>
         </header>
@@ -138,7 +144,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
                   <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
                     <ChevronRight className="w-5 h-5 text-white" />
                   </div>
-                  <span>Swipe right if you know the Japanese word</span>
+                  <span>Swipe right if you know the {isInverseMode ? 'target language' : 'Japanese'} word</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
@@ -233,7 +239,9 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <Brain className="w-8 h-8" />
-              <h1 className="text-2xl font-bold">Swipe Quiz</h1>
+              <h1 className="text-2xl font-bold">
+                Swipe Quiz {isInverseMode ? '(Inverse)' : ''}
+              </h1>
             </div>
             <Button 
               variant="outline" 
@@ -277,30 +285,54 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
                     {showFeedback === 'correct' ? 'Correct!' : 'Keep Learning!'}
                   </div>
                   <div className="text-lg mt-2">
-                    {currentCard.word.japanese} = {currentCard.translation}
+                    {isInverseMode 
+                      ? `${currentCard.translation} = ${currentCard.word.japanese}`
+                      : `${currentCard.word.japanese} = ${currentCard.translation}`
+                    }
                   </div>
                 </div>
               </div>
             )}
 
             <div className="h-96">
-              {/* Word Section */}
+              {/* Word Section - shows based on inverse mode */}
               <div className="p-6 text-center border-b">
-                <h3 className="text-3xl font-bold text-primary mb-2">
-                  {currentCard.word.japanese}
-                </h3>
-                <div className="flex items-center justify-center gap-2">
-                  <p className="text-lg text-muted-foreground">
-                    {currentCard.word.hiragana}
-                  </p>
-                  <VoiceButton 
-                    text={currentCard.word.hiragana}
-                    language="japanese"
-                    variant="ghost"
-                    size="icon"
-                    className="hover:bg-primary/10"
-                  />
-                </div>
+                {isInverseMode ? (
+                  // Show target language in inverse mode
+                  <>
+                    <h3 className="text-3xl font-bold text-primary mb-2">
+                      {currentCard.translation}
+                    </h3>
+                    <div className="flex items-center justify-center gap-2">
+                      <VoiceButton 
+                        text={currentCard.translation}
+                        language={selectedLanguage}
+                        variant="ghost"
+                        size="icon"
+                        className="hover:bg-primary/10"
+                      />
+                    </div>
+                  </>
+                ) : (
+                  // Show Japanese in normal mode
+                  <>
+                    <h3 className="text-3xl font-bold text-primary mb-2">
+                      {currentCard.word.japanese}
+                    </h3>
+                    <div className="flex items-center justify-center gap-2">
+                      <p className="text-lg text-muted-foreground">
+                        {currentCard.word.hiragana}
+                      </p>
+                      <VoiceButton 
+                        text={currentCard.word.hiragana}
+                        language="japanese"
+                        variant="ghost"
+                        size="icon"
+                        className="hover:bg-primary/10"
+                      />
+                    </div>
+                  </>
+                )}
                 <div className="flex justify-center gap-2 mt-3">
                   <Badge variant="secondary" className="text-xs">
                     {currentCard.word.level}
@@ -348,7 +380,10 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
           {/* Swipe Instructions */}
           <div className="text-center mt-6 text-sm text-muted-foreground">
-            Which image matches "{currentCard.word.japanese}"?
+            {isInverseMode 
+              ? `Which image matches "${currentCard.translation}"?`
+              : `Which image matches "${currentCard.word.japanese}"?`
+            }
           </div>
 
           {/* Action Buttons */}

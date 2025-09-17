@@ -10,7 +10,7 @@ import { BatchImageGenerator } from './BatchImageGenerator';
 
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon, Globe } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon, Globe, ArrowLeftRight } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -31,7 +31,7 @@ export const VocabularyApp = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
   const [isLoading, setIsLoading] = useState(true);
-  
+  const [isInverseMode, setIsInverseMode] = useState(false);
   
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
@@ -273,11 +273,11 @@ export const VocabularyApp = () => {
   };
 
   if (currentView === 'quiz') {
-    return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
+    return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} isInverseMode={isInverseMode} />;
   }
 
   if (currentView === 'swipe-quiz') {
-    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
+    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} isInverseMode={isInverseMode} />;
   }
 
   if (currentView === 'batch-images') {
@@ -346,6 +346,36 @@ export const VocabularyApp = () => {
               </h1>
             </div>
             
+            {/* Inverse Mode Toggle */}
+            <div className="flex justify-center mb-4">
+              <Button
+                variant="outline"
+                onClick={() => setIsInverseMode(!isInverseMode)}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  isInverseMode ? "bg-white/20" : ""
+                )}
+              >
+                <ArrowLeftRight className="w-4 h-4 mr-2" />
+                {isInverseMode ? 'Japanese → Target' : 'Target → Japanese'}
+              </Button>
+            </div>
+
+            {/* Inverse Mode Toggle */}
+            <div className="flex justify-center mb-4">
+              <Button
+                variant="outline"
+                onClick={() => setIsInverseMode(!isInverseMode)}
+                className={cn(
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  isInverseMode ? "bg-white/20" : ""
+                )}
+              >
+                <ArrowLeftRight className="w-4 h-4 mr-2" />
+                {isInverseMode ? 'Japanese → Target' : 'Target → Japanese'}
+              </Button>
+            </div>
+
             {/* Navigation Tabs */}
             <div className="flex justify-center gap-4 mb-6">
               <Button
@@ -461,13 +491,17 @@ export const VocabularyApp = () => {
         ) : paginatedWords.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {paginatedWords.map((word) => (
-                <VocabularyCard 
-                  key={word.id} 
-                  word={word} 
-                  language={language}
-                />
-              ))}
+        {/* Vocabulary Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {paginatedWords.map((word) => (
+            <VocabularyCard 
+              key={word.id} 
+              word={word} 
+              language={language}
+              isInverseMode={isInverseMode}
+            />
+          ))}
+        </div>
             </div>
             
             {/* Pagination Controls */}
