@@ -2,6 +2,7 @@ import morningImage from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
 import eatImage from '@/assets/eat-taberu.png';
+import redImage from '@/assets/red-akai.png';
 
 export interface VocabularyWord {
   id: string;
@@ -175,6 +176,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "adjective",
+    imageUrl: redImage,
     examples: [
       {
         japanese: "赤い花が美しいです。",
