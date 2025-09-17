@@ -9581,6 +9581,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tamago",
     "english": "egg",
     "french": "œuf",
+    "german": "Ei",
+    "spanish": "huevo",
+    "vietnamese": "trứng",
+    "chinese": "鸡蛋",
+    "korean": "계란",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -9590,7 +9595,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "たまごをたべます。",
         "romaji": "Tamago o tabemasu.",
         "english": "I eat eggs.",
-        "french": "Je mange des œufs."
+        "french": "Je mange des œufs.",
+        "german": "Ich esse Eier.",
+        "spanish": "Como huevos.",
+        "vietnamese": "Tôi ăn trứng.",
+        "chinese": "我吃鸡蛋。",
+        "korean": "나는 계란을 먹습니다."
       }
     ]
   },
@@ -9601,6 +9611,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tameru",
     "english": "to save (money)",
     "french": "épargner",
+    "german": "sparen",
+    "spanish": "ahorrar",
+    "vietnamese": "tiết kiệm",
+    "chinese": "存钱",
+    "korean": "저축하다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -9610,7 +9625,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "おかねをためています。",
         "romaji": "Okane o tamete imasu.",
         "english": "I am saving money.",
-        "french": "J'épargne de l'argent."
+        "french": "J'épargne de l'argent.",
+        "german": "Ich spare Geld.",
+        "spanish": "Estoy ahorrando dinero.",
+        "vietnamese": "Tôi đang tiết kiệm tiền.",
+        "chinese": "我在存钱。",
+        "korean": "나는 돈을 저축하고 있습니다."
       }
     ]
   },
@@ -9621,6 +9641,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tanbo",
     "english": "rice field",
     "french": "rizière",
+    "german": "Reisfeld",
+    "spanish": "campo de arroz",
+    "vietnamese": "ruộng lúa",
+    "chinese": "稻田",
+    "korean": "논",
     "level": "N5",
     "category": "nature",
     "wordType": "noun",
@@ -9630,7 +9655,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "たんぼでこめをつくります。",
         "romaji": "Tanbo de kome o tsukurimasu.",
         "english": "They grow rice in the fields.",
-        "french": "On cultive du riz dans les rizières."
+        "french": "On cultive du riz dans les rizières.",
+        "german": "Sie bauen Reis auf den Feldern an.",
+        "spanish": "Cultivan arroz en los campos.",
+        "vietnamese": "Họ trồng lúa trên đồng.",
+        "chinese": "他们在稻田里种稻子。",
+        "korean": "그들은 논에서 쌀을 재배합니다."
       }
     ]
   },
@@ -9641,6 +9671,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tanoshimi",
     "english": "pleasure, enjoyment",
     "french": "plaisir",
+    "german": "Vergnügen",
+    "spanish": "placer",
+    "vietnamese": "niềm vui",
+    "chinese": "乐趣",
+    "korean": "즐거움",
     "level": "N5",
     "category": "emotion",
     "wordType": "noun",
@@ -9650,27 +9685,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "りょこうがたのしみです。",
         "romaji": "Ryokou ga tanoshimi desu.",
         "english": "I am looking forward to the trip.",
-        "french": "J'ai hâte du voyage."
-      }
-    ]
-  },
-  {
-    "id": "tanoshi_geki",
-    "japanese": "楽劇",
-    "hiragana": "がくげき",
-    "romaji": "gakugeki",
-    "english": "musical drama",
-    "french": "drame musical",
-    "level": "N5",
-    "category": "culture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "楽劇を見ました。",
-        "hiragana": "がくげきをみました。",
-        "romaji": "Gakugeki o mimashita.",
-        "english": "I watched a musical drama.",
-        "french": "J'ai vu un drame musical."
+        "french": "J'ai hâte du voyage.",
+        "german": "Ich freue mich auf die Reise.",
+        "spanish": "Espero con ilusión el viaje.",
+        "vietnamese": "Tôi mong chờ chuyến đi.",
+        "chinese": "我很期待这次旅行。",
+        "korean": "나는 여행이 기대돼요."
       }
     ]
   },
@@ -9681,6 +9701,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tanjun",
     "english": "simple",
     "french": "simple",
+    "german": "einfach",
+    "spanish": "simple",
+    "vietnamese": "đơn giản",
+    "chinese": "简单",
+    "korean": "단순하다",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -9690,7 +9715,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "こたえはたんじゅんです。",
         "romaji": "Kotae wa tanjun desu.",
         "english": "The answer is simple.",
-        "french": "La réponse est simple."
+        "french": "La réponse est simple.",
+        "german": "Die Antwort ist einfach.",
+        "spanish": "La respuesta es simple.",
+        "vietnamese": "Câu trả lời rất đơn giản.",
+        "chinese": "答案很简单。",
+        "korean": "답은 단순합니다."
       }
     ]
   },
@@ -9701,6 +9731,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tanken",
     "english": "exploration",
     "french": "exploration",
+    "german": "Erkundung",
+    "spanish": "exploración",
+    "vietnamese": "khám phá",
+    "chinese": "探险",
+    "korean": "탐험",
     "level": "N5",
     "category": "activity",
     "wordType": "noun",
@@ -9710,27 +9745,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "もりをたんけんしました。",
         "romaji": "Mori o tanken shimashita.",
         "english": "I explored the forest.",
-        "french": "J'ai exploré la forêt."
-      }
-    ]
-  },
-  {
-    "id": "tanrei",
-    "japanese": "端麗",
-    "hiragana": "たんれい",
-    "romaji": "tanrei",
-    "english": "graceful, beautiful",
-    "french": "élégant, beau",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼女は端麗な女性です。",
-        "hiragana": "かのじょはたんれいなじょせいです。",
-        "romaji": "Kanojo wa tanrei na josei desu.",
-        "english": "She is a graceful woman.",
-        "french": "C'est une femme élégante."
+        "french": "J'ai exploré la forêt.",
+        "german": "Ich habe den Wald erkundet.",
+        "spanish": "Exploré el bosque.",
+        "vietnamese": "Tôi đã khám phá khu rừng.",
+        "chinese": "我探险了森林。",
+        "korean": "나는 숲을 탐험했습니다."
       }
     ]
   },
@@ -9741,6 +9761,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tate",
     "english": "vertical",
     "french": "vertical",
+    "german": "vertikal",
+    "spanish": "vertical",
+    "vietnamese": "dọc",
+    "chinese": "纵向",
+    "korean": "세로",
     "level": "N5",
     "category": "direction",
     "wordType": "noun",
@@ -9750,507 +9775,732 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "たてにならんでください。",
         "romaji": "Tate ni narande kudasai.",
         "english": "Please line up vertically.",
-        "french": "Alignez-vous verticalement."
+        "french": "Alignez-vous verticalement.",
+        "german": "Bitte stellen Sie sich vertikal auf.",
+        "spanish": "Por favor, pónganse en fila verticalmente.",
+        "vietnamese": "Xin hãy xếp hàng theo chiều dọc.",
+        "chinese": "请纵向排队。",
+        "korean": "세로로 줄 서 주세요."
       }
     ]
   },
   {
     "id": "tateru",
-    "japanese": "建てる",
-    "hiragana": "たてる",
-    "romaji": "tateru",
-    "english": "to build",
-    "french": "construire",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "家を建てます。",
-        "hiragana": "いえをたてます。",
-        "romaji": "Ie o tatemasu.",
-        "english": "I build a house.",
-        "french": "Je construis une maison."
+  "japanese": "建てる",
+  "hiragana": "たてる",
+  "romaji": "tateru",
+  "english": "to build",
+  "french": "construire",
+  "german": "bauen",
+  "spanish": "construir",
+  "vietnamese": "xây dựng",
+  "chinese": "建造",
+  "korean": "짓다",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "家を建てます。",
+      "hiragana": "いえをたてます。",
+      "romaji": "Ie o tatemasu.",
+      "english": "I build a house.",
+      "french": "Je construis une maison.",
+      "german": "Ich baue ein Haus.",
+      "spanish": "Construyo una casa.",
+      "vietnamese": "Tôi xây một ngôi nhà.",
+      "chinese": "我建一所房子。",
+      "korean": "집을 짓습니다."
+    }
+  ]
+},
+{
+  "id": "tatsu",
+  "japanese": "立つ",
+  "hiragana": "たつ",
+  "romaji": "tatsu",
+  "english": "to stand",
+  "french": "se lever, être debout",
+  "german": "aufstehen",
+  "spanish": "levantarse, estar de pie",
+  "vietnamese": "đứng lên",
+  "chinese": "站立",
+  "korean": "서다",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "椅子から立ちます。",
+      "hiragana": "いすからたちます。",
+      "romaji": "Isu kara tachimasu.",
+      "english": "I stand up from the chair.",
+      "french": "Je me lève de la chaise.",
+      "german": "Ich stehe vom Stuhl auf.",
+      "spanish": "Me levanto de la silla.",
+      "vietnamese": "Tôi đứng dậy khỏi ghế.",
+      "chinese": "我从椅子上站起来。",
+      "korean": "의자에서 일어납니다."
+    }
+  ]
+},
+{
+  "id": "tabidatsu",
+  "japanese": "旅立つ",
+  "hiragana": "たびだつ",
+  "romaji": "tabidatsu",
+  "english": "to depart on a journey",
+  "french": "partir en voyage",
+  "german": "aufbrechen",
+  "spanish": "partir de viaje",
+  "vietnamese": "lên đường",
+  "chinese": "启程",
+  "korean": "여행을 떠나다",
+  "level": "N5",
+  "category": "travel",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "彼は一人で旅立ちました。",
+      "hiragana": "かれはひとりでたびだちました。",
+      "romaji": "Kare wa hitori de tabidachimashita.",
+      "english": "He departed alone on a journey.",
+      "french": "Il est parti seul en voyage.",
+      "german": "Er ist allein aufgebrochen.",
+      "spanish": "Él partió solo de viaje.",
+      "vietnamese": "Anh ấy đã lên đường một mình.",
+      "chinese": "他独自启程了。",
+      "korean": "그는 혼자 여행을 떠났습니다."
+    }
+  ]
+},
+{
+  "id": "tabiji",
+  "japanese": "旅路",
+  "hiragana": "たびじ",
+  "romaji": "tabiji",
+  "english": "journey, trip",
+  "french": "trajet, voyage",
+  "german": "Reiseweg",
+  "spanish": "trayecto, viaje",
+  "vietnamese": "hành trình",
+  "chinese": "旅途",
+  "korean": "여정",
+  "level": "N5",
+  "category": "travel",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "旅路は長かったです。",
+      "hiragana": "たびじはながかったです。",
+      "romaji": "Tabiji wa nagakatta desu.",
+      "english": "The journey was long.",
+      "french": "Le voyage était long.",
+      "german": "Die Reise war lang.",
+      "spanish": "El viaje fue largo.",
+      "vietnamese": "Hành trình rất dài.",
+      "chinese": "旅途很长。",
+      "korean": "여정이 길었습니다."
       }
     ]
   },
   {
-    "id": "tatsu",
-    "japanese": "立つ",
-    "hiragana": "たつ",
-    "romaji": "tatsu",
-    "english": "to stand",
-    "french": "se lever, être debout",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "椅子から立ちます。",
-        "hiragana": "いすからたちます。",
-        "romaji": "Isu kara tachimasu.",
-        "english": "I stand up from the chair.",
-        "french": "Je me lève de la chaise."
-      }
-    ]
-  },
-  {
-    "id": "tabidatsu",
-    "japanese": "旅立つ",
-    "hiragana": "たびだつ",
-    "romaji": "tabidatsu",
-    "english": "to depart on a journey",
-    "french": "partir en voyage",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼は一人で旅立ちました。",
-        "hiragana": "かれはひとりでたびだちました。",
-        "romaji": "Kare wa hitori de tabidachimashita.",
-        "english": "He departed alone on a journey.",
-        "french": "Il est parti seul en voyage."
-      }
-    ]
-  },
-  {
-    "id": "tabiji",
-    "japanese": "旅路",
-    "hiragana": "たびじ",
-    "romaji": "tabiji",
-    "english": "journey, trip",
-    "french": "trajet, voyage",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "旅路は長かったです。",
-        "hiragana": "たびじはながかったです。",
-        "romaji": "Tabiji wa nagakatta desu.",
-        "english": "The journey was long.",
-        "french": "Le voyage était long."
-      }
-    ]
-  },
-  {
-    "id": "tabun2",
-    "japanese": "多文",
-    "hiragana": "たぶん",
-    "romaji": "tabun",
-    "english": "many sentences",
-    "french": "beaucoup de phrases",
-    "level": "N5",
-    "category": "language",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "多文を勉強します。",
-        "hiragana": "たぶんをべんきょうします。",
-        "romaji": "Tabun o benkyou shimasu.",
-        "english": "I study many sentences.",
-        "french": "J'étudie beaucoup de phrases."
-      }
-    ]
-  },
-  {
-    "id": "tabun_kamoshirenai",
-    "japanese": "かもしれない",
-    "hiragana": "かもしれない",
-    "romaji": "kamoshirenai",
-    "english": "might, maybe",
-    "french": "peut-être",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "明日は雨かもしれない。",
-        "hiragana": "あしたはあめかもしれない。",
-        "romaji": "Ashita wa ame kamoshirenai.",
-        "english": "It might rain tomorrow.",
-        "french": "Il pourrait pleuvoir demain."
-      }
-    ]
-  },
-  {
-    "id": "takkyuubin",
-    "japanese": "宅急便",
-    "hiragana": "たっきゅうびん",
-    "romaji": "takkyuubin",
-    "english": "courier service",
-    "french": "service de messagerie",
-    "level": "N5",
-    "category": "service",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "宅急便で荷物を送りました。",
-        "hiragana": "たっきゅうびんでにもつをおくりました。",
-        "romaji": "Takkyuubin de nimotsu o okurimashita.",
-        "english": "I sent the package by courier.",
-        "french": "J'ai envoyé le colis par messagerie."
-      }
-    ]
-  },
-  {
-    "id": "tadashiku",
-    "japanese": "正しく",
-    "hiragana": "ただしく",
-    "romaji": "tadashiku",
-    "english": "correctly",
-    "french": "correctement",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "名前を正しく書いてください。",
-        "hiragana": "なまえをただしくかいてください。",
-        "romaji": "Namae o tadashiku kaite kudasai.",
-        "english": "Please write your name correctly.",
-        "french": "Écrivez correctement votre nom."
-      }
-    ]
-  },
-  {
-    "id": "taiiku_kan",
-    "japanese": "体育館",
-    "hiragana": "たいいくかん",
-    "romaji": "taiikukan",
-    "english": "gymnasium",
-    "french": "gymnase",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "体育館でバスケットをしました。",
-        "hiragana": "たいいくかんでばすけっとをしました。",
-        "romaji": "Taiikukan de basuketto o shimashita.",
-        "english": "I played basketball in the gymnasium.",
-        "french": "J'ai joué au basket dans le gymnase."
+     "id": "tabun_kamoshirenai",
+  "japanese": "かもしれない",
+  "hiragana": "かもしれない",
+  "romaji": "kamoshirenai",
+  "english": "might, maybe",
+  "french": "peut-être",
+  "german": "vielleicht",
+  "spanish": "quizás",
+  "vietnamese": "có thể",
+  "chinese": "可能",
+  "korean": "아마도",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "明日は雨かもしれない。",
+      "hiragana": "あしたはあめかもしれない。",
+      "romaji": "Ashita wa ame kamoshirenai.",
+      "english": "It might rain tomorrow.",
+      "french": "Il pourrait pleuvoir demain.",
+      "german": "Morgen könnte es regnen.",
+      "spanish": "Quizás llueva mañana.",
+      "vietnamese": "Ngày mai có thể mưa.",
+      "chinese": "明天可能会下雨。",
+      "korean": "내일 비가 올지도 몰라요."
+    }
+  ]
+},
+{
+  "id": "takkyuubin",
+  "japanese": "宅急便",
+  "hiragana": "たっきゅうびん",
+  "romaji": "takkyuubin",
+  "english": "courier service",
+  "french": "service de messagerie",
+  "german": "Kurierdienst",
+  "spanish": "servicio de mensajería",
+  "vietnamese": "dịch vụ chuyển phát",
+  "chinese": "快递服务",
+  "korean": "택배 서비스",
+  "level": "N5",
+  "category": "service",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "宅急便で荷物を送りました。",
+      "hiragana": "たっきゅうびんでにもつをおくりました。",
+      "romaji": "Takkyuubin de nimotsu o okurimashita.",
+      "english": "I sent the package by courier.",
+      "french": "J'ai envoyé le colis par messagerie.",
+      "german": "Ich habe das Paket per Kurier geschickt.",
+      "spanish": "Envié el paquete por mensajería.",
+      "vietnamese": "Tôi đã gửi bưu kiện bằng dịch vụ chuyển phát.",
+      "chinese": "我用快递寄了包裹。",
+      "korean": "택배로 소포를 보냈습니다."
+    }
+  ]
+},
+{
+  "id": "tadashiku",
+  "japanese": "正しく",
+  "hiragana": "ただしく",
+  "romaji": "tadashiku",
+  "english": "correctly",
+  "french": "correctement",
+  "german": "korrekt",
+  "spanish": "correctamente",
+  "vietnamese": "đúng cách",
+  "chinese": "正确地",
+  "korean": "바르게",
+  "level": "N5",
+  "category": "adverb",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "名前を正しく書いてください。",
+      "hiragana": "なまえをただしくかいてください。",
+      "romaji": "Namae o tadashiku kaite kudasai.",
+      "english": "Please write your name correctly.",
+      "french": "Écrivez correctement votre nom.",
+      "german": "Bitte schreiben Sie Ihren Namen korrekt.",
+      "spanish": "Por favor, escriba su nombre correctamente.",
+      "vietnamese": "Xin hãy viết tên của bạn đúng cách.",
+      "chinese": "请正确地写下你的名字。",
+      "korean": "이름을 바르게 써 주세요."
+    }
+  ]
+},
+{
+  "id": "taiiku_kan",
+  "japanese": "体育館",
+  "hiragana": "たいいくかん",
+  "romaji": "taiikukan",
+  "english": "gymnasium",
+  "french": "gymnase",
+  "german": "Turnhalle",
+  "spanish": "gimnasio",
+  "vietnamese": "nhà thể chất",
+  "chinese": "体育馆",
+  "korean": "체육관",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "体育館でバスケットをしました。",
+      "hiragana": "たいいくかんでばすけっとをしました。",
+      "romaji": "Taiikukan de basuketto o shimashita.",
+      "english": "I played basketball in the gymnasium.",
+      "french": "J'ai joué au basket dans le gymnase.",
+      "german": "Ich habe in der Turnhalle Basketball gespielt.",
+      "spanish": "Jugué baloncesto en el gimnasio.",
+      "vietnamese": "Tôi đã chơi bóng rổ trong nhà thể chất.",
+      "chinese": "我在体育馆打了篮球。",
+      "korean": "체육관에서 농구를 했습니다."
       }
     ]
   },
   {
     "id": "taimu",
-    "japanese": "タイム",
-    "hiragana": "たいむ",
-    "romaji": "taimu",
-    "english": "time (loanword)",
-    "french": "temps",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "タイムを計ります。",
-        "hiragana": "たいむをはかります。",
-        "romaji": "Taimu o hakarimasu.",
-        "english": "I measure the time.",
-        "french": "Je mesure le temps."
-      }
-    ]
-  },
-  {
-    "id": "taiko",
-    "japanese": "太鼓",
-    "hiragana": "たいこ",
-    "romaji": "taiko",
-    "english": "drum",
-    "french": "tambour",
-    "level": "N5",
-    "category": "music",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "太鼓を叩きます。",
-        "hiragana": "たいこをたたきます。",
-        "romaji": "Taiko o tatakimasu.",
-        "english": "I play the drum.",
-        "french": "Je joue du tambour."
-      }
-    ]
-  },
-  {
-    "id": "taishikan",
-    "japanese": "大使館",
-    "hiragana": "たいしかん",
-    "romaji": "taishikan",
-    "english": "embassy",
-    "french": "ambassade",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "大使館でビザを申請しました。",
-        "hiragana": "たいしかんでびざをしんせいしました。",
-        "romaji": "Taishikan de biza o shinsei shimashita.",
-        "english": "I applied for a visa at the embassy.",
-        "french": "J'ai demandé un visa à l'ambassade."
-      }
-    ]
-  },
-  {
-    "id": "taishou",
-    "japanese": "対象",
-    "hiragana": "たいしょう",
-    "romaji": "taishou",
-    "english": "target, object",
-    "french": "cible, objet",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "子供が対象です。",
-        "hiragana": "こどもがたいしょうです。",
-        "romaji": "Kodomo ga taishou desu.",
-        "english": "Children are the target.",
-        "french": "Les enfants sont la cible."
+  "japanese": "タイム",
+  "hiragana": "たいむ",
+  "romaji": "taimu",
+  "english": "time (loanword)",
+  "french": "temps",
+  "german": "Zeit",
+  "spanish": "tiempo",
+  "vietnamese": "thời gian",
+  "chinese": "时间",
+  "korean": "타임, 시간",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "タイムを計ります。",
+      "hiragana": "たいむをはかります。",
+      "romaji": "Taimu o hakarimasu.",
+      "english": "I measure the time.",
+      "french": "Je mesure le temps.",
+      "german": "Ich messe die Zeit.",
+      "spanish": "Mido el tiempo.",
+      "vietnamese": "Tôi đo thời gian.",
+      "chinese": "我测量时间。",
+      "korean": "시간을 잽니다."
+    }
+  ]
+},
+{
+  "id": "taiko",
+  "japanese": "太鼓",
+  "hiragana": "たいこ",
+  "romaji": "taiko",
+  "english": "drum",
+  "french": "tambour",
+  "german": "Trommel",
+  "spanish": "tambor",
+  "vietnamese": "trống",
+  "chinese": "鼓",
+  "korean": "북",
+  "level": "N5",
+  "category": "music",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "太鼓を叩きます。",
+      "hiragana": "たいこをたたきます。",
+      "romaji": "Taiko o tatakimasu.",
+      "english": "I play the drum.",
+      "french": "Je joue du tambour.",
+      "german": "Ich spiele die Trommel.",
+      "spanish": "Toco el tambor.",
+      "vietnamese": "Tôi đánh trống.",
+      "chinese": "我打鼓。",
+      "korean": "북을 칩니다."
+    }
+  ]
+},
+{
+  "id": "taishikan",
+  "japanese": "大使館",
+  "hiragana": "たいしかん",
+  "romaji": "taishikan",
+  "english": "embassy",
+  "french": "ambassade",
+  "german": "Botschaft",
+  "spanish": "embajada",
+  "vietnamese": "đại sứ quán",
+  "chinese": "大使馆",
+  "korean": "대사관",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "大使館でビザを申請しました。",
+      "hiragana": "たいしかんでびざをしんせいしました。",
+      "romaji": "Taishikan de biza o shinsei shimashita.",
+      "english": "I applied for a visa at the embassy.",
+      "french": "J'ai demandé un visa à l'ambassade.",
+      "german": "Ich habe bei der Botschaft ein Visum beantragt.",
+      "spanish": "Solicité una visa en la embajada.",
+      "vietnamese": "Tôi đã xin thị thực tại đại sứ quán.",
+      "chinese": "我在大使馆申请了签证。",
+      "korean": "대사관에서 비자를 신청했습니다."
+    }
+  ]
+},
+{
+  "id": "taishou",
+  "japanese": "対象",
+  "hiragana": "たいしょう",
+  "romaji": "taishou",
+  "english": "target, object",
+  "french": "cible, objet",
+  "german": "Ziel, Objekt",
+  "spanish": "objetivo",
+  "vietnamese": "đối tượng",
+  "chinese": "对象",
+  "korean": "대상",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "子供が対象です。",
+      "hiragana": "こどもがたいしょうです。",
+      "romaji": "Kodomo ga taishou desu.",
+      "english": "Children are the target.",
+      "french": "Les enfants sont la cible.",
+      "german": "Kinder sind das Ziel.",
+      "spanish": "Los niños son el objetivo.",
+      "vietnamese": "Đối tượng là trẻ em.",
+      "chinese": "对象是孩子。",
+      "korean": "대상은 아이들입니다."
       }
     ]
   },
   {
     "id": "taitei",
-    "japanese": "大抵",
-    "hiragana": "たいてい",
-    "romaji": "taitei",
-    "english": "usually",
-    "french": "d'habitude",
-    "level": "N5",
-    "category": "adverb",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "私は大抵家にいます。",
-        "hiragana": "わたしはたいていいえにいます。",
-        "romaji": "Watashi wa taitei ie ni imasu.",
-        "english": "I am usually at home.",
-        "french": "Je suis d'habitude à la maison."
-      }
-    ]
-  },
-  {
-    "id": "taikutsu",
-    "japanese": "退屈",
-    "hiragana": "たいくつ",
-    "romaji": "taikutsu",
-    "english": "boredom",
-    "french": "ennui",
-    "level": "N5",
-    "category": "emotion",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今日は退屈です。",
-        "hiragana": "きょうはたいくつです。",
-        "romaji": "Kyou wa taikutsu desu.",
-        "english": "I am bored today.",
-        "french": "Je m'ennuie aujourd'hui."
-      }
-    ]
-  },
-  {
-    "id": "taiyou",
-    "japanese": "太陽",
-    "hiragana": "たいよう",
-    "romaji": "taiyou",
-    "english": "sun",
-    "french": "soleil",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "太陽が昇ります。",
-        "hiragana": "たいようがのぼります。",
-        "romaji": "Taiyou ga noborimasu.",
-        "english": "The sun rises.",
-        "french": "Le soleil se lève."
-      }
-    ]
-  },
-  {
-    "id": "taosu",
-    "japanese": "倒す",
-    "hiragana": "たおす",
-    "romaji": "taosu",
-    "english": "to knock down, defeat",
-    "french": "abattre, vaincre",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "敵を倒しました。",
-        "hiragana": "てきをたおしました。",
-        "romaji": "Teki o taoshimashita.",
-        "english": "I defeated the enemy.",
-        "french": "J'ai vaincu l'ennemi."
+  "japanese": "大抵",
+  "hiragana": "たいてい",
+  "romaji": "taitei",
+  "english": "usually",
+  "french": "d'habitude",
+  "german": "gewöhnlich",
+  "spanish": "usualmente",
+  "vietnamese": "thường",
+  "chinese": "通常",
+  "korean": "대체로",
+  "level": "N5",
+  "category": "adverb",
+  "wordType": "adverb",
+  "examples": [
+    {
+      "japanese": "私は大抵家にいます。",
+      "hiragana": "わたしはたいていいえにいます。",
+      "romaji": "Watashi wa taitei ie ni imasu.",
+      "english": "I am usually at home.",
+      "french": "Je suis d'habitude à la maison.",
+      "german": "Ich bin gewöhnlich zu Hause.",
+      "spanish": "Usualmente estoy en casa.",
+      "vietnamese": "Tôi thường ở nhà.",
+      "chinese": "我通常在家。",
+      "korean": "저는 대체로 집에 있습니다."
+    }
+  ]
+},
+{
+  "id": "taikutsu",
+  "japanese": "退屈",
+  "hiragana": "たいくつ",
+  "romaji": "taikutsu",
+  "english": "boredom",
+  "french": "ennui",
+  "german": "Langeweile",
+  "spanish": "aburrimiento",
+  "vietnamese": "sự buồn chán",
+  "chinese": "无聊",
+  "korean": "지루함",
+  "level": "N5",
+  "category": "emotion",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "今日は退屈です。",
+      "hiragana": "きょうはたいくつです。",
+      "romaji": "Kyou wa taikutsu desu.",
+      "english": "I am bored today.",
+      "french": "Je m'ennuie aujourd'hui.",
+      "german": "Mir ist heute langweilig.",
+      "spanish": "Estoy aburrido hoy.",
+      "vietnamese": "Hôm nay tôi thấy buồn chán.",
+      "chinese": "今天我很无聊。",
+      "korean": "오늘은 지루해요."
+    }
+  ]
+},
+{
+  "id": "taiyou",
+  "japanese": "太陽",
+  "hiragana": "たいよう",
+  "romaji": "taiyou",
+  "english": "sun",
+  "french": "soleil",
+  "german": "Sonne",
+  "spanish": "sol",
+  "vietnamese": "mặt trời",
+  "chinese": "太阳",
+  "korean": "태양",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "太陽が昇ります。",
+      "hiragana": "たいようがのぼります。",
+      "romaji": "Taiyou ga noborimasu.",
+      "english": "The sun rises.",
+      "french": "Le soleil se lève.",
+      "german": "Die Sonne geht auf.",
+      "spanish": "El sol sale.",
+      "vietnamese": "Mặt trời mọc.",
+      "chinese": "太阳升起。",
+      "korean": "태양이 떠오릅니다."
+    }
+  ]
+},
+{
+  "id": "taosu",
+  "japanese": "倒す",
+  "hiragana": "たおす",
+  "romaji": "taosu",
+  "english": "to knock down, defeat",
+  "french": "abattre, vaincre",
+  "german": "besiegen, umwerfen",
+  "spanish": "derrotar, derribar",
+  "vietnamese": "đánh bại, làm ngã",
+  "chinese": "打倒，击败",
+  "korean": "쓰러뜨리다, 이기다",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "敵を倒しました。",
+      "hiragana": "てきをたおしました。",
+      "romaji": "Teki o taoshimashita.",
+      "english": "I defeated the enemy.",
+      "french": "J'ai vaincu l'ennemi.",
+      "german": "Ich habe den Feind besiegt.",
+      "spanish": "Derroté al enemigo.",
+      "vietnamese": "Tôi đã đánh bại kẻ thù.",
+      "chinese": "我打败了敌人。",
+      "korean": "적을 물리쳤습니다."
       }
     ]
   },
   {
     "id": "takara",
-    "japanese": "宝",
-    "hiragana": "たから",
-    "romaji": "takara",
-    "english": "treasure",
-    "french": "trésor",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "友達は私の宝です。",
-        "hiragana": "ともだちはわたしのたからです。",
-        "romaji": "Tomodachi wa watashi no takara desu.",
-        "english": "Friends are my treasure.",
-        "french": "Les amis sont mon trésor."
-      }
-    ]
-  },
-  {
-    "id": "takarakuji",
-    "japanese": "宝くじ",
-    "hiragana": "たからくじ",
-    "romaji": "takarakuji",
-    "english": "lottery",
-    "french": "loterie",
-    "level": "N5",
-    "category": "economy",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "宝くじに当たりました。",
-        "hiragana": "たからくじにあたりました。",
-        "romaji": "Takarakuji ni atarimashita.",
-        "english": "I won the lottery.",
-        "french": "J'ai gagné à la loterie."
-      }
-    ]
-  },
-  {
-    "id": "takkyuu",
-    "japanese": "卓球",
-    "hiragana": "たっきゅう",
-    "romaji": "takkyuu",
-    "english": "table tennis",
-    "french": "tennis de table",
-    "level": "N5",
-    "category": "sport",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "卓球をします。",
-        "hiragana": "たっきゅうをします。",
-        "romaji": "Takkyuu o shimasu.",
-        "english": "I play table tennis.",
-        "french": "Je joue au tennis de table."
-      }
-    ]
-  },
-  {
-    "id": "takusan_hito",
-    "japanese": "大勢",
-    "hiragana": "おおぜい",
-    "romaji": "oozei",
-    "english": "many people, crowd",
-    "french": "foule, beaucoup de gens",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "大勢の人が集まりました。",
-        "hiragana": "おおぜいのひとがあつまりました。",
-        "romaji": "Oozei no hito ga atsumarimashita.",
-        "english": "A crowd of people gathered.",
-        "french": "Une foule de gens s'est rassemblée."
+  "japanese": "宝",
+  "hiragana": "たから",
+  "romaji": "takara",
+  "english": "treasure",
+  "french": "trésor",
+  "german": "Schatz",
+  "spanish": "tesoro",
+  "vietnamese": "kho báu",
+  "chinese": "宝物",
+  "korean": "보물",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "友達は私の宝です。",
+      "hiragana": "ともだちはわたしのたからです。",
+      "romaji": "Tomodachi wa watashi no takara desu.",
+      "english": "Friends are my treasure.",
+      "french": "Les amis sont mon trésor.",
+      "german": "Freunde sind mein Schatz.",
+      "spanish": "Los amigos son mi tesoro.",
+      "vietnamese": "Bạn bè là kho báu của tôi.",
+      "chinese": "朋友是我的宝物。",
+      "korean": "친구는 나의 보물입니다."
+    }
+  ]
+},
+{
+  "id": "takarakuji",
+  "japanese": "宝くじ",
+  "hiragana": "たからくじ",
+  "romaji": "takarakuji",
+  "english": "lottery",
+  "french": "loterie",
+  "german": "Lotterie",
+  "spanish": "lotería",
+  "vietnamese": "xổ số",
+  "chinese": "彩票",
+  "korean": "복권",
+  "level": "N5",
+  "category": "economy",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "宝くじに当たりました。",
+      "hiragana": "たからくじにあたりました。",
+      "romaji": "Takarakuji ni atarimashita.",
+      "english": "I won the lottery.",
+      "french": "J'ai gagné à la loterie.",
+      "german": "Ich habe in der Lotterie gewonnen.",
+      "spanish": "Me gané la lotería.",
+      "vietnamese": "Tôi đã trúng số.",
+      "chinese": "我中了彩票。",
+      "korean": "복권에 당첨되었습니다."
+    }
+  ]
+},
+{
+  "id": "takkyuu",
+  "japanese": "卓球",
+  "hiragana": "たっきゅう",
+  "romaji": "takkyuu",
+  "english": "table tennis",
+  "french": "tennis de table",
+  "german": "Tischtennis",
+  "spanish": "tenis de mesa",
+  "vietnamese": "bóng bàn",
+  "chinese": "乒乓球",
+  "korean": "탁구",
+  "level": "N5",
+  "category": "sport",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "卓球をします。",
+      "hiragana": "たっきゅうをします。",
+      "romaji": "Takkyuu o shimasu.",
+      "english": "I play table tennis.",
+      "french": "Je joue au tennis de table.",
+      "german": "Ich spiele Tischtennis.",
+      "spanish": "Juego al tenis de mesa.",
+      "vietnamese": "Tôi chơi bóng bàn.",
+      "chinese": "我打乒乓球。",
+      "korean": "저는 탁구를 합니다."
+    }
+  ]
+},
+{
+  "id": "takusan_hito",
+  "japanese": "大勢",
+  "hiragana": "おおぜい",
+  "romaji": "oozei",
+  "english": "many people, crowd",
+  "french": "foule, beaucoup de gens",
+  "german": "Menschenmenge",
+  "spanish": "multitud, mucha gente",
+  "vietnamese": "đám đông",
+  "chinese": "人群",
+  "korean": "많은 사람들",
+  "level": "N5",
+  "category": "people",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "大勢の人が集まりました。",
+      "hiragana": "おおぜいのひとがあつまりました。",
+      "romaji": "Oozei no hito ga atsumarimashita.",
+      "english": "A crowd of people gathered.",
+      "french": "Une foule de gens s'est rassemblée.",
+      "german": "Eine Menschenmenge versammelte sich.",
+      "spanish": "Se reunió una multitud de personas.",
+      "vietnamese": "Một đám đông đã tụ tập.",
+      "chinese": "人群聚集了。",
+      "korean": "많은 사람들이 모였습니다."
       }
     ]
   },
   {
     "id": "tamashii",
-    "japanese": "魂",
-    "hiragana": "たましい",
-    "romaji": "tamashii",
-    "english": "soul, spirit",
-    "french": "âme, esprit",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "音楽は魂を動かします。",
-        "hiragana": "おんがくはたましいをうごかします。",
-        "romaji": "Ongaku wa tamashii o ugokashimasu.",
-        "english": "Music moves the soul.",
-        "french": "La musique touche l'âme."
-      }
-    ]
-  },
-  {
-    "id": "tanbo_saku",
-    "japanese": "作物",
-    "hiragana": "さくもつ",
-    "romaji": "sakumotsu",
-    "english": "crops",
-    "french": "récoltes",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田んぼで作物を育てます。",
-        "hiragana": "たんぼでさくもつをそだてます。",
-        "romaji": "Tanbo de sakumotsu o sodate masu.",
-        "english": "They grow crops in the rice field.",
-        "french": "On cultive des récoltes dans la rizière."
-      }
-    ]
-  },
-  {
-    "id": "tanjun_na",
-    "japanese": "単純な",
-    "hiragana": "たんじゅんな",
-    "romaji": "tanjun na",
-    "english": "simple, naive",
-    "french": "simple, naïf",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼は単純な性格です。",
-        "hiragana": "かれはたんじゅんなせいかくです。",
-        "romaji": "Kare wa tanjun na seikaku desu.",
-        "english": "He has a simple personality.",
-        "french": "Il a une personnalité simple."
-      }
-    ]
-  },
-  {
-    "id": "tanoshimi_ni",
-    "japanese": "楽しみに",
-    "hiragana": "たのしみに",
-    "romaji": "tanoshimi ni",
-    "english": "looking forward to",
-    "french": "avoir hâte de",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "phrase",
-    "examples": [
-      {
-        "japanese": "旅行を楽しみにしています。",
-        "hiragana": "りょこうをたのしみにしています。",
-        "romaji": "Ryokou o tanoshimi ni shite imasu.",
-        "english": "I am looking forward to the trip.",
-        "french": "J'ai hâte pour le voyage."
+  "japanese": "魂",
+  "hiragana": "たましい",
+  "romaji": "tamashii",
+  "english": "soul, spirit",
+  "french": "âme, esprit",
+  "german": "Seele, Geist",
+  "spanish": "alma, espíritu",
+  "vietnamese": "linh hồn, tinh thần",
+  "chinese": "灵魂",
+  "korean": "영혼, 정신",
+  "level": "N5",
+  "category": "concept",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "音楽は魂を動かします。",
+      "hiragana": "おんがくはたましいをうごかします。",
+      "romaji": "Ongaku wa tamashii o ugokashimasu.",
+      "english": "Music moves the soul.",
+      "french": "La musique touche l'âme.",
+      "german": "Musik bewegt die Seele.",
+      "spanish": "La música conmueve el alma.",
+      "vietnamese": "Âm nhạc lay động linh hồn.",
+      "chinese": "音乐打动灵魂。",
+      "korean": "음악은 영혼을 움직입니다."
+    }
+  ]
+},
+{
+  "id": "tanbo_saku",
+  "japanese": "作物",
+  "hiragana": "さくもつ",
+  "romaji": "sakumotsu",
+  "english": "crops",
+  "french": "récoltes",
+  "german": "Feldfrüchte",
+  "spanish": "cultivos",
+  "vietnamese": "mùa màng",
+  "chinese": "作物",
+  "korean": "농작물",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "田んぼで作物を育てます。",
+      "hiragana": "たんぼでさくもつをそだてます。",
+      "romaji": "Tanbo de sakumotsu o sodate masu.",
+      "english": "They grow crops in the rice field.",
+      "french": "On cultive des récoltes dans la rizière.",
+      "german": "Auf dem Reisfeld werden Feldfrüchte angebaut.",
+      "spanish": "Cultivan cosechas en el arrozal.",
+      "vietnamese": "Người ta trồng mùa màng ở ruộng lúa.",
+      "chinese": "他们在稻田里种作物。",
+      "korean": "논에서 농작물을 기릅니다."
+    }
+  ]
+},
+{
+  "id": "tanjun_na",
+  "japanese": "単純な",
+  "hiragana": "たんじゅんな",
+  "romaji": "tanjun na",
+  "english": "simple, naive",
+  "french": "simple, naïf",
+  "german": "einfach, naiv",
+  "spanish": "simple, ingenuo",
+  "vietnamese": "đơn giản, ngây thơ",
+  "chinese": "单纯的",
+  "korean": "단순한, 순진한",
+  "level": "N5",
+  "category": "adjective",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "彼は単純な性格です。",
+      "hiragana": "かれはたんじゅんなせいかくです。",
+      "romaji": "Kare wa tanjun na seikaku desu.",
+      "english": "He has a simple personality.",
+      "french": "Il a une personnalité simple.",
+      "german": "Er hat eine einfache Persönlichkeit.",
+      "spanish": "Él tiene una personalidad simple.",
+      "vietnamese": "Anh ấy có tính cách đơn giản.",
+      "chinese": "他性格很单纯。",
+      "korean": "그는 단순한 성격입니다."
+    }
+  ]
+},
+{
+  "id": "tanoshimi_ni",
+  "japanese": "楽しみに",
+  "hiragana": "たのしみに",
+  "romaji": "tanoshimi ni",
+  "english": "looking forward to",
+  "french": "avoir hâte de",
+  "german": "sich freuen auf",
+  "spanish": "tener ganas de",
+  "vietnamese": "mong chờ",
+  "chinese": "期待",
+  "korean": "기대하다",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "phrase",
+  "examples": [
+    {
+      "japanese": "旅行を楽しみにしています。",
+      "hiragana": "りょこうをたのしみにしています。",
+      "romaji": "Ryokou o tanoshimi ni shite imasu.",
+      "english": "I am looking forward to the trip.",
+      "french": "J'ai hâte pour le voyage.",
+      "german": "Ich freue mich auf die Reise.",
+      "spanish": "Estoy deseando el viaje.",
+      "vietnamese": "Tôi đang mong chờ chuyến đi.",
+      "chinese": "我很期待这次旅行。",
+      "korean": "여행을 기대하고 있습니다."
       }
     ]
   },
@@ -10275,362 +10525,572 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "tanjou",
-    "japanese": "誕生",
-    "hiragana": "たんじょう",
-    "romaji": "tanjou",
-    "english": "birth",
-    "french": "naissance",
-    "level": "N5",
-    "category": "life",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "赤ちゃんの誕生を祝います。",
-        "hiragana": "あかちゃんのたんじょうをいわいます。",
-        "romaji": "Akachan no tanjou o iwaimasu.",
-        "english": "We celebrate the baby's birth.",
-        "french": "Nous célébrons la naissance du bébé."
+    "id": "tansan",
+  "japanese": "炭酸",
+  "hiragana": "たんさん",
+  "romaji": "tansan",
+  "english": "carbonated (drink)",
+  "french": "gazeux",
+  "german": "kohlensäurehaltig",
+  "spanish": "con gas",
+  "vietnamese": "có ga",
+  "chinese": "碳酸的",
+  "korean": "탄산",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "炭酸水を飲みます。",
+      "hiragana": "たんさんすいをのみます。",
+      "romaji": "Tansan-sui o nomimasu.",
+      "english": "I drink carbonated water.",
+      "french": "Je bois de l'eau gazeuse.",
+      "german": "Ich trinke Mineralwasser mit Kohlensäure.",
+      "spanish": "Bebo agua con gas.",
+      "vietnamese": "Tôi uống nước có ga.",
+      "chinese": "我喝碳酸水。",
+      "korean": "저는 탄산수를 마십니다."
+    }
+  ]
+},
+{
+  "id": "tanjou",
+  "japanese": "誕生",
+  "hiragana": "たんじょう",
+  "romaji": "tanjou",
+  "english": "birth",
+  "french": "naissance",
+  "german": "Geburt",
+  "spanish": "nacimiento",
+  "vietnamese": "sự ra đời",
+  "chinese": "诞生",
+  "korean": "탄생",
+  "level": "N5",
+  "category": "life",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "赤ちゃんの誕生を祝います。",
+      "hiragana": "あかちゃんのたんじょうをいわいます。",
+      "romaji": "Akachan no tanjou o iwaimasu.",
+      "english": "We celebrate the baby's birth.",
+      "french": "Nous célébrons la naissance du bébé.",
+      "german": "Wir feiern die Geburt des Babys.",
+      "spanish": "Celebramos el nacimiento del bebé.",
+      "vietnamese": "Chúng tôi chúc mừng sự ra đời của em bé.",
+      "chinese": "我们庆祝婴儿的诞生。",
+      "korean": "우리는 아기의 탄생을 축하합니다."
+    }
+  ]
+},
+{
+  "id": "tanshin",
+  "japanese": "単身",
+  "hiragana": "たんしん",
+  "romaji": "tanshin",
+  "english": "single, alone",
+  "french": "seul",
+  "german": "alleinstehend",
+  "spanish": "solo",
+  "vietnamese": "độc thân, một mình",
+  "chinese": "单身",
+  "korean": "단신, 혼자",
+  "level": "N5",
+  "category": "status",
+  "wordType": "adjective",
+  "examples": [
+    {
+      "japanese": "彼は単身で東京に住んでいます。",
+      "hiragana": "かれはたんしんでとうきょうにすんでいます。",
+      "romaji": "Kare wa tanshin de Toukyou ni sunde imasu.",
+      "english": "He lives alone in Tokyo.",
+      "french": "Il vit seul à Tokyo.",
+      "german": "Er lebt allein in Tokio.",
+      "spanish": "Vive solo en Tokio.",
+      "vietnamese": "Anh ấy sống một mình ở Tokyo.",
+      "chinese": "他独自住在东京。",
+      "korean": "그는 도쿄에서 혼자 삽니다."
+    }
+  ]
+},
+{
+  "id": "tanuki",
+  "japanese": "たぬき",
+  "hiragana": "たぬき",
+  "romaji": "tanuki",
+  "english": "raccoon dog",
+  "french": "tanuki (chien viverrin)",
+  "german": "Marderhund",
+  "spanish": "tanuki, perro mapache",
+  "vietnamese": "con chồn chó (tanuki)",
+  "chinese": "狸猫",
+  "korean": "너구리",
+  "level": "N5",
+  "category": "animal",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "たぬきは日本の動物です。",
+      "hiragana": "たぬきはにほんのどうぶつです。",
+      "romaji": "Tanuki wa Nihon no doubutsu desu.",
+      "english": "The tanuki is a Japanese animal.",
+      "french": "Le tanuki est un animal du Japon.",
+      "german": "Der Tanuki ist ein Tier aus Japan.",
+      "spanish": "El tanuki es un animal de Japón.",
+      "vietnamese": "Tanuki là loài động vật của Nhật Bản.",
+      "chinese": "狸猫是日本的动物。",
+      "korean": "너구리는 일본의 동물입니다."
+    }
+  ]
+},
+{
+  "id": "tango",
+  "japanese": "単語",
+  "hiragana": "たんご",
+  "romaji": "tango",
+  "english": "word, vocabulary",
+  "french": "mot, vocabulaire",
+  "german": "Wort, Vokabel",
+  "spanish": "palabra, vocabulario",
+  "vietnamese": "từ vựng",
+  "chinese": "单词",
+  "korean": "단어",
+  "level": "N5",
+  "category": "language",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新しい単語を覚えました。",
+      "hiragana": "あたらしいたんごをおぼえました。",
+      "romaji": "Atarashii tango o oboemashita.",
+      "english": "I learned a new word.",
+      "french": "J'ai appris un nouveau mot.",
+      "german": "Ich habe ein neues Wort gelernt.",
+      "spanish": "Aprendí una palabra nueva.",
+      "vietnamese": "Tôi đã học một từ mới.",
+      "chinese": "我学了一个新单词。",
+      "korean": "나는 새로운 단어를 배웠습니다."
+    }
+  ]
+},
+{
+  "id": "tanbo_sagyou",
+  "japanese": "田んぼ作業",
+  "hiragana": "たんぼさぎょう",
+  "romaji": "tanbo sagyou",
+  "english": "rice field work",
+  "french": "travail dans les rizières",
+  "german": "Reisfeldarbeit",
+  "spanish": "trabajo en el arrozal",
+  "vietnamese": "công việc đồng ruộng",
+  "chinese": "稻田作业",
+  "korean": "논일",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "田んぼ作業を手伝いました。",
+      "hiragana": "たんぼさぎょうをてつだいました。",
+      "romaji": "Tanbo sagyou o tetsudaimashita.",
+      "english": "I helped with rice field work.",
+      "french": "J'ai aidé aux travaux de la rizière.",
+      "german": "Ich habe bei der Reisfeldarbeit geholfen.",
+      "spanish": "Ayudé en el trabajo del arrozal.",
+      "vietnamese": "Tôi đã giúp làm việc trên ruộng lúa.",
+      "chinese": "我帮忙做了稻田的工作。",
+      "korean": "논일을 도왔습니다."
+    }
+  ]
+},
+{
+  "id": "tanjo_kinenbi",
+  "japanese": "誕生記念日",
+  "hiragana": "たんじょうきねんび",
+  "romaji": "tanjou kinenbi",
+  "english": "birthday anniversary",
+  "french": "jour commémoratif de naissance",
+  "german": "Geburtstagserinnerung",
+  "spanish": "aniversario de nacimiento",
+  "vietnamese": "kỷ niệm ngày sinh",
+  "chinese": "诞辰纪念日",
+  "korean": "탄생 기념일",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "誕生記念日を祝います。",
+      "hiragana": "たんじょうきねんびをいわいます。",
+      "romaji": "Tanjou kinenbi o iwaimasu.",
+      "english": "We celebrate the birth anniversary.",
+      "french": "Nous célébrons l'anniversaire de naissance.",
+      "german": "Wir feiern den Geburtstagsgedenktag.",
+      "spanish": "Celebramos el aniversario de nacimiento.",
+      "vietnamese": "Chúng tôi kỷ niệm ngày sinh.",
+      "chinese": "我们庆祝诞辰纪念日。",
+      "korean": "우리는 탄생 기념일을 축하합니다."
       }
     ]
   },
   {
-    "id": "tanshin",
-    "japanese": "単身",
-    "hiragana": "たんしん",
-    "romaji": "tanshin",
-    "english": "single, alone",
-    "french": "seul",
-    "level": "N5",
-    "category": "status",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "彼は単身で東京に住んでいます。",
-        "hiragana": "かれはたんしんでとうきょうにすんでいます。",
-        "romaji": "Kare wa tanshin de Toukyou ni sunde imasu.",
-        "english": "He lives alone in Tokyo.",
-        "french": "Il vit seul à Tokyo."
-      }
-    ]
-  },
-  {
-    "id": "tanuki",
-    "japanese": "たぬき",
-    "hiragana": "たぬき",
-    "romaji": "tanuki",
-    "english": "raccoon dog",
-    "french": "tanuki (chien viverrin)",
-    "level": "N5",
-    "category": "animal",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "たぬきは日本の動物です。",
-        "hiragana": "たぬきはにほんのどうぶつです。",
-        "romaji": "Tanuki wa Nihon no doubutsu desu.",
-        "english": "The tanuki is a Japanese animal.",
-        "french": "Le tanuki est un animal du Japon."
-      }
-    ]
-  },
-  {
-    "id": "tango",
-    "japanese": "単語",
-    "hiragana": "たんご",
-    "romaji": "tango",
-    "english": "word, vocabulary",
-    "french": "mot, vocabulaire",
-    "level": "N5",
-    "category": "language",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい単語を覚えました。",
-        "hiragana": "あたらしいたんごをおぼえました。",
-        "romaji": "Atarashii tango o oboemashita.",
-        "english": "I learned a new word.",
-        "french": "J'ai appris un nouveau mot."
-      }
-    ]
-  },
-  {
-    "id": "tanbo_sagyou",
-    "japanese": "田んぼ作業",
-    "hiragana": "たんぼさぎょう",
-    "romaji": "tanbo sagyou",
-    "english": "rice field work",
-    "french": "travail dans les rizières",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田んぼ作業を手伝いました。",
-        "hiragana": "たんぼさぎょうをてつだいました。",
-        "romaji": "Tanbo sagyou o tetsudaimashita.",
-        "english": "I helped with rice field work.",
-        "french": "J'ai aidé aux travaux de la rizière."
-      }
-    ]
-  },
-  {
-    "id": "tanjo_kinenbi",
-    "japanese": "誕生記念日",
-    "hiragana": "たんじょうきねんび",
-    "romaji": "tanjou kinenbi",
-    "english": "birthday anniversary",
-    "french": "jour commémoratif de naissance",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "誕生記念日を祝います。",
-        "hiragana": "たんじょうきねんびをいわいます。",
-        "romaji": "Tanjou kinenbi o iwaimasu.",
-        "english": "We celebrate the birth anniversary.",
-        "french": "Nous célébrons l'anniversaire de naissance."
-      }
-    ]
-  },
-  {
-    "id": "tansaku",
-    "japanese": "探索",
-    "hiragana": "たんさく",
-    "romaji": "tansaku",
-    "english": "search, exploration",
-    "french": "recherche, exploration",
-    "level": "N5",
-    "category": "activity",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "インターネットで情報を探索します。",
-        "hiragana": "いんたーねっとでじょうほうをたんさくします。",
-        "romaji": "Intaanetto de jouhou o tansaku shimasu.",
-        "english": "I search for information on the internet.",
-        "french": "Je recherche des informations sur internet."
-      }
-    ]
-  },
-  {
-    "id": "tanjikan",
-    "japanese": "短時間",
-    "hiragana": "たんじかん",
-    "romaji": "tanjikan",
-    "english": "short time",
-    "french": "court laps de temps",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "短時間で終わりました。",
-        "hiragana": "たんじかんでおわりました。",
-        "romaji": "Tanjikan de owarimashita.",
-        "english": "It finished in a short time.",
-        "french": "C'est fini en peu de temps."
-      }
-    ]
-  },
-  {
-    "id": "tansu",
-    "japanese": "タンス",
-    "hiragana": "たんす",
-    "romaji": "tansu",
-    "english": "chest of drawers",
-    "french": "commode",
-    "level": "N5",
-    "category": "furniture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "服をタンスに入れます。",
-        "hiragana": "ふくをたんすにいれます。",
-        "romaji": "Fuku o tansu ni iremasu.",
-        "english": "I put clothes in the chest of drawers.",
-        "french": "Je mets les vêtements dans la commode."
-      }
-    ]
-  },
-  {
-    "id": "tanbo_mizu",
-    "japanese": "田んぼの水",
-    "hiragana": "たんぼのみず",
-    "romaji": "tanbo no mizu",
-    "english": "rice field water",
-    "french": "eau de la rizière",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田んぼの水が冷たいです。",
-        "hiragana": "たんぼのみずがつめたいです。",
-        "romaji": "Tanbo no mizu ga tsumetai desu.",
-        "english": "The rice field water is cold.",
-        "french": "L'eau de la rizière est froide."
-      }
-    ]
-  },
-  {
-    "id": "taraa",
-    "japanese": "タラ",
-    "hiragana": "たら",
-    "romaji": "tara",
-    "english": "cod (fish)",
-    "french": "morue",
-    "level": "N5",
-    "category": "food",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "タラの料理を食べました。",
-        "hiragana": "たらのりょうりをたべました。",
-        "romaji": "Tara no ryouri o tabemashita.",
-        "english": "I ate a cod dish.",
-        "french": "J'ai mangé un plat de morue."
-      }
-    ]
-  },
-  {
-    "id": "tariru",
-    "japanese": "足りる",
-    "hiragana": "たりる",
-    "romaji": "tariru",
-    "english": "to be enough",
-    "french": "suffire",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "お金が足りますか？",
-        "hiragana": "おかねがたりますか？",
-        "romaji": "Okane ga tarimasu ka?",
-        "english": "Is the money enough?",
-        "french": "L'argent suffit-il ?"
-      }
-    ]
-  },
-  {
-    "id": "tanbo_keiken",
-    "japanese": "田んぼ経験",
-    "hiragana": "たんぼけいけん",
-    "romaji": "tanbo keiken",
-    "english": "rice field experience",
-    "french": "expérience dans les rizières",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田んぼ経験をしました。",
-        "hiragana": "たんぼけいけんをしました。",
-        "romaji": "Tanbo keiken o shimashita.",
-        "english": "I had experience in a rice field.",
-        "french": "J'ai eu une expérience dans une rizière."
-      }
-    ]
-  },
-  {
-    "id": "tate_mono",
-    "japanese": "建物",
-    "hiragana": "たてもの",
-    "romaji": "tatemono",
-    "english": "building",
-    "french": "bâtiment",
-    "level": "N5",
-    "category": "place",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "新しい建物が建ちました。",
-        "hiragana": "あたらしいたてものがたちました。",
-        "romaji": "Atarashii tatemono ga tachimashita.",
-        "english": "A new building was built.",
-        "french": "Un nouveau bâtiment a été construit."
-      }
-    ]
-  },
-  {
-    "id": "tabako",
-    "japanese": "煙草",
-    "hiragana": "たばこ",
-    "romaji": "tabako",
-    "english": "cigarette, tobacco",
-    "french": "cigarette, tabac",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "煙草を吸いますか？",
-        "hiragana": "たばこをすいますか？",
-        "romaji": "Tabako o suimasu ka?",
-        "english": "Do you smoke?",
-        "french": "Fumez-vous ?"
-      }
-    ]
-  },
-  {
-    "id": "tanaka",
-    "japanese": "田中",
-    "hiragana": "たなか",
-    "romaji": "Tanaka",
-    "english": "Tanaka (surname)",
-    "french": "Tanaka (nom de famille)",
-    "level": "N5",
-    "category": "name",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "田中さんは先生です。",
-        "hiragana": "たなかさんはせんせいです。",
-        "romaji": "Tanaka-san wa sensei desu.",
-        "english": "Mr. Tanaka is a teacher.",
-        "french": "M. Tanaka est professeur."
-      }
-    ]
-  },
-  {
-    "id": "tanoshi_koto",
-    "japanese": "楽しいこと",
-    "hiragana": "たのしいこと",
-    "romaji": "tanoshii koto",
-    "english": "fun thing",
-    "french": "chose amusante",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "楽しいことが好きです。",
-        "hiragana": "たのしいことがすきです。",
-        "romaji": "Tanoshii koto ga suki desu.",
-        "english": "I like fun things.",
-        "french": "J'aime les choses amusantes."
-      }
-    ]
-  },
-  {
-    "id": "tanomu_onegai",
-    "japanese": "頼む",
-    "hiragana": "たのむ",
-    "romaji": "tanomu",
-    "english": "to request",
-    "french": "demander",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "友達に頼みました。",
-        "hiragana": "ともだちにたのみました。",
-        "romaji": "Tomodachi ni tanomimashita.",
-        "english": "I asked a friend.",
-        "french": "J'ai demandé à un ami."
+   "id": "tansaku",
+  "japanese": "探索",
+  "hiragana": "たんさく",
+  "romaji": "tansaku",
+  "english": "search, exploration",
+  "french": "recherche, exploration",
+  "german": "Suche, Erkundung",
+  "spanish": "búsqueda, exploración",
+  "vietnamese": "tìm kiếm, khám phá",
+  "chinese": "探索",
+  "korean": "탐색",
+  "level": "N5",
+  "category": "activity",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "インターネットで情報を探索します。",
+      "hiragana": "いんたーねっとでじょうほうをたんさくします。",
+      "romaji": "Intaanetto de jouhou o tansaku shimasu.",
+      "english": "I search for information on the internet.",
+      "french": "Je recherche des informations sur internet.",
+      "german": "Ich suche Informationen im Internet.",
+      "spanish": "Busco información en internet.",
+      "vietnamese": "Tôi tìm kiếm thông tin trên internet.",
+      "chinese": "我在互联网上搜索信息。",
+      "korean": "인터넷에서 정보를 찾습니다."
+    }
+  ]
+},
+{
+  "id": "tanjikan",
+  "japanese": "短時間",
+  "hiragana": "たんじかん",
+  "romaji": "tanjikan",
+  "english": "short time",
+  "french": "court laps de temps",
+  "german": "kurze Zeit",
+  "spanish": "poco tiempo",
+  "vietnamese": "thời gian ngắn",
+  "chinese": "短时间",
+  "korean": "짧은 시간",
+  "level": "N5",
+  "category": "time",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "短時間で終わりました。",
+      "hiragana": "たんじかんでおわりました。",
+      "romaji": "Tanjikan de owarimashita.",
+      "english": "It finished in a short time.",
+      "french": "C'est fini en peu de temps.",
+      "german": "Es war in kurzer Zeit vorbei.",
+      "spanish": "Terminó en poco tiempo.",
+      "vietnamese": "Nó đã kết thúc trong thời gian ngắn.",
+      "chinese": "很快就结束了。",
+      "korean": "짧은 시간에 끝났습니다."
+    }
+  ]
+},
+{
+  "id": "tansu",
+  "japanese": "タンス",
+  "hiragana": "たんす",
+  "romaji": "tansu",
+  "english": "chest of drawers",
+  "french": "commode",
+  "german": "Kommode",
+  "spanish": "cómoda",
+  "vietnamese": "tủ ngăn kéo",
+  "chinese": "衣柜",
+  "korean": "서랍장",
+  "level": "N5",
+  "category": "furniture",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "服をタンスに入れます。",
+      "hiragana": "ふくをたんすにいれます。",
+      "romaji": "Fuku o tansu ni iremasu.",
+      "english": "I put clothes in the chest of drawers.",
+      "french": "Je mets les vêtements dans la commode.",
+      "german": "Ich lege die Kleidung in die Kommode.",
+      "spanish": "Pongo la ropa en la cómoda.",
+      "vietnamese": "Tôi bỏ quần áo vào tủ ngăn kéo.",
+      "chinese": "我把衣服放进衣柜。",
+      "korean": "옷을 서랍장에 넣습니다."
+    }
+  ]
+},
+{
+  "id": "tanbo_mizu",
+  "japanese": "田んぼの水",
+  "hiragana": "たんぼのみず",
+  "romaji": "tanbo no mizu",
+  "english": "rice field water",
+  "french": "eau de la rizière",
+  "german": "Reisfeldwasser",
+  "spanish": "agua del arrozal",
+  "vietnamese": "nước ruộng lúa",
+  "chinese": "稻田水",
+  "korean": "논물",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "田んぼの水が冷たいです。",
+      "hiragana": "たんぼのみずがつめたいです。",
+      "romaji": "Tanbo no mizu ga tsumetai desu.",
+      "english": "The rice field water is cold.",
+      "french": "L'eau de la rizière est froide.",
+      "german": "Das Reisfeldwasser ist kalt.",
+      "spanish": "El agua del arrozal está fría.",
+      "vietnamese": "Nước ruộng lúa lạnh.",
+      "chinese": "稻田的水很冷。",
+      "korean": "논물이 차갑습니다."
+    }
+  ]
+},
+{
+  "id": "taraa",
+  "japanese": "タラ",
+  "hiragana": "たら",
+  "romaji": "tara",
+  "english": "cod (fish)",
+  "french": "morue",
+  "german": "Kabeljau",
+  "spanish": "bacalao",
+  "vietnamese": "cá tuyết",
+  "chinese": "鳕鱼",
+  "korean": "대구",
+  "level": "N5",
+  "category": "food",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "タラの料理を食べました。",
+      "hiragana": "たらのりょうりをたべました。",
+      "romaji": "Tara no ryouri o tabemashita.",
+      "english": "I ate a cod dish.",
+      "french": "J'ai mangé un plat de morue.",
+      "german": "Ich habe ein Kabeljaugericht gegessen.",
+      "spanish": "Comí un plato de bacalao.",
+      "vietnamese": "Tôi đã ăn món cá tuyết.",
+      "chinese": "我吃了鳕鱼菜。",
+      "korean": "대구 요리를 먹었습니다."
+    }
+  ]
+},
+{
+  "id": "tariru",
+  "japanese": "足りる",
+  "hiragana": "たりる",
+  "romaji": "tariru",
+  "english": "to be enough",
+  "french": "suffire",
+  "german": "genügen",
+  "spanish": "ser suficiente",
+  "vietnamese": "đủ",
+  "chinese": "足够",
+  "korean": "충분하다",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "お金が足りますか？",
+      "hiragana": "おかねがたりますか？",
+      "romaji": "Okane ga tarimasu ka?",
+      "english": "Is the money enough?",
+      "french": "L'argent suffit-il ?",
+      "german": "Reicht das Geld?",
+      "spanish": "¿Es suficiente el dinero?",
+      "vietnamese": "Tiền có đủ không?",
+      "chinese": "钱够吗？",
+      "korean": "돈이 충분합니까?"
+    }
+  ]
+},
+{
+  "id": "tanbo_keiken",
+  "japanese": "田んぼ経験",
+  "hiragana": "たんぼけいけん",
+  "romaji": "tanbo keiken",
+  "english": "rice field experience",
+  "french": "expérience dans les rizières",
+  "german": "Reisfelderfahrung",
+  "spanish": "experiencia en arrozales",
+  "vietnamese": "kinh nghiệm làm ruộng",
+  "chinese": "稻田经验",
+  "korean": "논 경험",
+  "level": "N5",
+  "category": "nature",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "田んぼ経験をしました。",
+      "hiragana": "たんぼけいけんをしました。",
+      "romaji": "Tanbo keiken o shimashita.",
+      "english": "I had experience in a rice field.",
+      "french": "J'ai eu une expérience dans une rizière.",
+      "german": "Ich habe Erfahrung im Reisfeld gesammelt.",
+      "spanish": "Tuve experiencia en un arrozal.",
+      "vietnamese": "Tôi đã có kinh nghiệm làm ruộng.",
+      "chinese": "我有过稻田的经验。",
+      "korean": "논에서 경험을 했습니다."
+    }
+  ]
+},
+{
+  "id": "tate_mono",
+  "japanese": "建物",
+  "hiragana": "たてもの",
+  "romaji": "tatemono",
+  "english": "building",
+  "french": "bâtiment",
+  "german": "Gebäude",
+  "spanish": "edificio",
+  "vietnamese": "tòa nhà",
+  "chinese": "建筑物",
+  "korean": "건물",
+  "level": "N5",
+  "category": "place",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "新しい建物が建ちました。",
+      "hiragana": "あたらしいたてものがたちました。",
+      "romaji": "Atarashii tatemono ga tachimashita.",
+      "english": "A new building was built.",
+      "french": "Un nouveau bâtiment a été construit.",
+      "german": "Ein neues Gebäude wurde gebaut.",
+      "spanish": "Se construyó un edificio nuevo.",
+      "vietnamese": "Một tòa nhà mới đã được xây dựng.",
+      "chinese": "新建筑建成了。",
+      "korean": "새 건물이 지어졌습니다."
+    }
+  ]
+},
+{
+  "id": "tabako",
+  "japanese": "煙草",
+  "hiragana": "たばこ",
+  "romaji": "tabako",
+  "english": "cigarette, tobacco",
+  "french": "cigarette, tabac",
+  "german": "Zigarette, Tabak",
+  "spanish": "cigarrillo, tabaco",
+  "vietnamese": "thuốc lá",
+  "chinese": "香烟，烟草",
+  "korean": "담배",
+  "level": "N5",
+  "category": "object",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "煙草を吸いますか？",
+      "hiragana": "たばこをすいますか？",
+      "romaji": "Tabako o suimasu ka?",
+      "english": "Do you smoke?",
+      "french": "Fumez-vous ?",
+      "german": "Rauchst du?",
+      "spanish": "¿Fumas?",
+      "vietnamese": "Bạn có hút thuốc không?",
+      "chinese": "你抽烟吗？",
+      "korean": "담배 피우세요?"
+    }
+  ]
+},
+{
+  "id": "tanaka",
+  "japanese": "田中",
+  "hiragana": "たなか",
+  "romaji": "Tanaka",
+  "english": "Tanaka (surname)",
+  "french": "Tanaka (nom de famille)",
+  "german": "Tanaka (Nachname)",
+  "spanish": "Tanaka (apellido)",
+  "vietnamese": "Tanaka (họ Nhật)",
+  "chinese": "田中（姓氏）",
+  "korean": "다나카 (성씨)",
+  "level": "N5",
+  "category": "name",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "田中さんは先生です。",
+      "hiragana": "たなかさんはせんせいです。",
+      "romaji": "Tanaka-san wa sensei desu.",
+      "english": "Mr. Tanaka is a teacher.",
+      "french": "M. Tanaka est professeur.",
+      "german": "Herr Tanaka ist Lehrer.",
+      "spanish": "El señor Tanaka es profesor.",
+      "vietnamese": "Ông Tanaka là giáo viên.",
+      "chinese": "田中先生是老师。",
+      "korean": "다나카 씨는 선생님입니다."
+    }
+  ]
+},
+{
+  "id": "tanoshi_koto",
+  "japanese": "楽しいこと",
+  "hiragana": "たのしいこと",
+  "romaji": "tanoshii koto",
+  "english": "fun thing",
+  "french": "chose amusante",
+  "german": "lustige Sache",
+  "spanish": "cosa divertida",
+  "vietnamese": "điều vui vẻ",
+  "chinese": "有趣的事",
+  "korean": "즐거운 일",
+  "level": "N5",
+  "category": "expression",
+  "wordType": "noun",
+  "examples": [
+    {
+      "japanese": "楽しいことが好きです。",
+      "hiragana": "たのしいことがすきです。",
+      "romaji": "Tanoshii koto ga suki desu.",
+      "english": "I like fun things.",
+      "french": "J'aime les choses amusantes.",
+      "german": "Ich mag lustige Dinge.",
+      "spanish": "Me gustan las cosas divertidas.",
+      "vietnamese": "Tôi thích những điều vui vẻ.",
+      "chinese": "我喜欢有趣的事情。",
+      "korean": "저는 즐거운 일을 좋아합니다."
+    }
+  ]
+},
+{
+  "id": "tanomu_onegai",
+  "japanese": "頼む",
+  "hiragana": "たのむ",
+  "romaji": "tanomu",
+  "english": "to request",
+  "french": "demander",
+  "german": "bitten, anfordern",
+  "spanish": "pedir, solicitar",
+  "vietnamese": "nhờ, yêu cầu",
+  "chinese": "请求",
+  "korean": "부탁하다",
+  "level": "N5",
+  "category": "verb",
+  "wordType": "verb",
+  "examples": [
+    {
+      "japanese": "友達に頼みました。",
+      "hiragana": "ともだちにたのみました。",
+      "romaji": "Tomodachi ni tanomimashita.",
+      "english": "I asked a friend.",
+      "french": "J'ai demandé à un ami.",
+      "german": "Ich habe einen Freund gebeten.",
+      "spanish": "Le pedí a un amigo.",
+      "vietnamese": "Tôi đã nhờ một người bạn.",
+      "chinese": "我请求了一位朋友。",
+      "korean": "친구에게 부탁했습니다.""
       }
     ]
   },
