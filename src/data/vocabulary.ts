@@ -1,5 +1,6 @@
 import morningImage from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
+import bookImage from '@/assets/book-hon.png';
 
 export interface VocabularyWord {
   id: string;
@@ -111,6 +112,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "object",
     wordType: "noun",
+    imageUrl: bookImage,
     examples: [
       {
         japanese: "面白い本を読んでいます。",
