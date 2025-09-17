@@ -8888,7 +8888,7 @@ export const vocabularyData: VocabularyWord[] = [
         "spanish": "Me lavo las manos con jabón.",
         "vietnamese": "Tôi rửa tay bằng xà phòng.",
         "chinese": "我用肥皂洗手。",
-        "korean": "비누로 손을 씻습니다.""
+        "korean": "비누로 손을 씻습니다."
       }
     ]
   },
