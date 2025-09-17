@@ -8293,12 +8293,17 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "shinzo",
+    "id": "shinzou",
     "japanese": "心臓",
     "hiragana": "しんぞう",
     "romaji": "shinzou",
     "english": "heart (organ)",
     "french": "cœur (organe)",
+    "german": "Herz (Organ)",
+    "spanish": "corazón (órgano)",
+    "vietnamese": "trái tim (cơ quan)",
+    "chinese": "心脏",
+    "korean": "심장",
     "level": "N5",
     "category": "body",
     "wordType": "noun",
@@ -8308,27 +8313,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しんぞうがはやくうごいています。",
         "romaji": "Shinzou ga hayaku ugoite imasu.",
         "english": "The heart is beating fast.",
-        "french": "Le cœur bat vite."
-      }
-    ]
-  },
-  {
-    "id": "shinpi",
-    "japanese": "神秘",
-    "hiragana": "しんぴ",
-    "romaji": "shinpi",
-    "english": "mystery",
-    "french": "mystère",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "海は神秘的です。",
-        "hiragana": "うみはしんぴてきです。",
-        "romaji": "Umi wa shinpiteki desu.",
-        "english": "The sea is mysterious.",
-        "french": "La mer est mystérieuse."
+        "french": "Le cœur bat vite.",
+        "german": "Das Herz schlägt schnell.",
+        "spanish": "El corazón late rápido.",
+        "vietnamese": "Tim đang đập nhanh.",
+        "chinese": "心脏跳得很快。",
+        "korean": "심장이 빨리 뛰고 있습니다."
       }
     ]
   },
@@ -8339,6 +8329,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "shinpai",
     "english": "worry",
     "french": "inquiétude",
+    "german": "Sorge",
+    "spanish": "preocupación",
+    "vietnamese": "lo lắng",
+    "chinese": "担心",
+    "korean": "걱정",
     "level": "N5",
     "category": "emotion",
     "wordType": "noun",
@@ -8348,7 +8343,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しんぱいしないでください。",
         "romaji": "Shinpai shinaide kudasai.",
         "english": "Please don't worry.",
-        "french": "Ne vous inquiétez pas."
+        "french": "Ne vous inquiétez pas.",
+        "german": "Bitte machen Sie sich keine Sorgen.",
+        "spanish": "Por favor, no se preocupe.",
+        "vietnamese": "Xin đừng lo lắng.",
+        "chinese": "请不要担心。",
+        "korean": "걱정하지 마세요."
       }
     ]
   },
@@ -8359,6 +8359,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suiei",
     "english": "swimming",
     "french": "natation",
+    "german": "Schwimmen",
+    "spanish": "natación",
+    "vietnamese": "bơi lội",
+    "chinese": "游泳",
+    "korean": "수영",
     "level": "N5",
     "category": "sport",
     "wordType": "noun",
@@ -8368,7 +8373,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "わたしはすいえいがとくいです。",
         "romaji": "Watashi wa suiei ga tokui desu.",
         "english": "I am good at swimming.",
-        "french": "Je suis bon en natation."
+        "french": "Je suis bon en natation.",
+        "german": "Ich bin gut im Schwimmen.",
+        "spanish": "Soy bueno en natación.",
+        "vietnamese": "Tôi bơi giỏi.",
+        "chinese": "我擅长游泳。",
+        "korean": "저는 수영을 잘합니다."
       }
     ]
   },
@@ -8379,6 +8389,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suizokukan",
     "english": "aquarium",
     "french": "aquarium",
+    "german": "Aquarium",
+    "spanish": "acuario",
+    "vietnamese": "thủy cung",
+    "chinese": "水族馆",
+    "korean": "수족관",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -8388,7 +8403,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すいぞくかんでさかなをみました。",
         "romaji": "Suizokukan de sakana o mimashita.",
         "english": "I saw fish at the aquarium.",
-        "french": "J'ai vu des poissons à l'aquarium."
+        "french": "J'ai vu des poissons à l'aquarium.",
+        "german": "Ich habe Fische im Aquarium gesehen.",
+        "spanish": "Vi peces en el acuario.",
+        "vietnamese": "Tôi đã nhìn thấy cá ở thủy cung.",
+        "chinese": "我在水族馆看到了鱼。",
+        "korean": "저는 수족관에서 물고기를 봤습니다."
       }
     ]
   },
@@ -8399,6 +8419,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suupaa",
     "english": "supermarket",
     "french": "supermarché",
+    "german": "Supermarkt",
+    "spanish": "supermercado",
+    "vietnamese": "siêu thị",
+    "chinese": "超市",
+    "korean": "슈퍼마켓",
     "level": "N5",
     "category": "place",
     "wordType": "noun",
@@ -8408,7 +8433,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すーぱーでやさいをかいます。",
         "romaji": "Suupaa de yasai o kaimasu.",
         "english": "I buy vegetables at the supermarket.",
-        "french": "J'achète des légumes au supermarché."
+        "french": "J'achète des légumes au supermarché.",
+        "german": "Ich kaufe Gemüse im Supermarkt.",
+        "spanish": "Compro verduras en el supermercado.",
+        "vietnamese": "Tôi mua rau ở siêu thị.",
+        "chinese": "我在超市买蔬菜。",
+        "korean": "저는 슈퍼마켓에서 야채를 삽니다."
       }
     ]
   },
@@ -8419,6 +8449,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suiyoubi",
     "english": "Wednesday",
     "french": "mercredi",
+    "german": "Mittwoch",
+    "spanish": "miércoles",
+    "vietnamese": "thứ Tư",
+    "chinese": "星期三",
+    "korean": "수요일",
     "level": "N5",
     "category": "time",
     "wordType": "noun",
@@ -8428,7 +8463,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すいようびにあいましょう。",
         "romaji": "Suiyoubi ni aimashou.",
         "english": "Let's meet on Wednesday.",
-        "french": "Rencontrons-nous mercredi."
+        "french": "Rencontrons-nous mercredi.",
+        "german": "Lass uns am Mittwoch treffen.",
+        "spanish": "Vamos a reunirnos el miércoles.",
+        "vietnamese": "Chúng ta hãy gặp nhau vào thứ Tư.",
+        "chinese": "我们星期三见面吧。",
+        "korean": "수요일에 만납시다."
       }
     ]
   },
@@ -8439,6 +8479,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suutsu",
     "english": "suit",
     "french": "costume",
+    "german": "Anzug",
+    "spanish": "traje",
+    "vietnamese": "bộ com lê",
+    "chinese": "西装",
+    "korean": "정장",
     "level": "N5",
     "category": "clothing",
     "wordType": "noun",
@@ -8448,7 +8493,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれはすーつをきています。",
         "romaji": "Kare wa suutsu o kite imasu.",
         "english": "He is wearing a suit.",
-        "french": "Il porte un costume."
+        "french": "Il porte un costume.",
+        "german": "Er trägt einen Anzug.",
+        "spanish": "Él lleva un traje.",
+        "vietnamese": "Anh ấy đang mặc bộ com lê.",
+        "chinese": "他穿着西装。",
+        "korean": "그는 정장을 입고 있습니다."
       }
     ]
   },
@@ -8459,6 +8509,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sugoi",
     "english": "amazing, great",
     "french": "formidable, génial",
+    "german": "toll, großartig",
+    "spanish": "increíble, genial",
+    "vietnamese": "tuyệt vời",
+    "chinese": "厉害, 棒",
+    "korean": "대단하다, 멋지다",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -8468,7 +8523,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "かれのうたはすごいです。",
         "romaji": "Kare no uta wa sugoi desu.",
         "english": "His singing is amazing.",
-        "french": "Son chant est génial."
+        "french": "Son chant est génial.",
+        "german": "Sein Gesang ist großartig.",
+        "spanish": "Su canto es increíble.",
+        "vietnamese": "Giọng hát của anh ấy thật tuyệt vời.",
+        "chinese": "他的歌声很棒。",
+        "korean": "그의 노래는 대단합니다."
       }
     ]
   },
@@ -8479,6 +8539,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sugu",
     "english": "immediately, right away",
     "french": "tout de suite, immédiatement",
+    "german": "sofort",
+    "spanish": "inmediatamente, enseguida",
+    "vietnamese": "ngay lập tức",
+    "chinese": "马上, 立刻",
+    "korean": "곧, 바로",
     "level": "N5",
     "category": "expression",
     "wordType": "adverb",
@@ -8488,7 +8553,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すぐにいきます。",
         "romaji": "Sugu ni ikimasu.",
         "english": "I'll go right away.",
-        "french": "J'y vais tout de suite."
+        "french": "J'y vais tout de suite.",
+        "german": "Ich gehe sofort.",
+        "spanish": "Voy enseguida.",
+        "vietnamese": "Tôi sẽ đi ngay.",
+        "chinese": "我马上就去。",
+        "korean": "바로 갈게요."
       }
     ]
   },
@@ -8499,6 +8569,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sukii",
     "english": "skiing",
     "french": "ski",
+    "german": "Skifahren",
+    "spanish": "esquí",
+    "vietnamese": "trượt tuyết",
+    "chinese": "滑雪",
+    "korean": "스키",
     "level": "N5",
     "category": "sport",
     "wordType": "noun",
@@ -8508,7 +8583,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ふゆにすきーをします。",
         "romaji": "Fuyu ni sukii o shimasu.",
         "english": "I ski in winter.",
-        "french": "Je fais du ski en hiver."
+        "french": "Je fais du ski en hiver.",
+        "german": "Ich fahre im Winter Ski.",
+        "spanish": "Esquío en invierno.",
+        "vietnamese": "Tôi trượt tuyết vào mùa đông.",
+        "chinese": "我冬天去滑雪。",
+        "korean": "겨울에 스키를 탑니다."
       }
     ]
   },
@@ -8519,6 +8599,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sukoshi",
     "english": "a little",
     "french": "un peu",
+    "german": "ein wenig",
+    "spanish": "un poco",
+    "vietnamese": "một chút",
+    "chinese": "一点",
+    "korean": "조금",
     "level": "N5",
     "category": "adverb",
     "wordType": "adverb",
@@ -8528,7 +8613,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すこしつかれました。",
         "romaji": "Sukoshi tsukaremashita.",
         "english": "I'm a little tired.",
-        "french": "Je suis un peu fatigué."
+        "french": "Je suis un peu fatigué.",
+        "german": "Ich bin ein wenig müde.",
+        "spanish": "Estoy un poco cansado.",
+        "vietnamese": "Tôi hơi mệt.",
+        "chinese": "我有点累了。",
+        "korean": "조금 피곤해요."
       }
     ]
   },
@@ -8539,6 +8629,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sugite",
     "english": "too much, after",
     "french": "trop, après",
+    "german": "zu viel, nach",
+    "spanish": "demasiado, después",
+    "vietnamese": "quá, sau khi",
+    "chinese": "太过, 之后",
+    "korean": "너무, 지난 후",
     "level": "N5",
     "category": "expression",
     "wordType": "verb",
@@ -8548,27 +8643,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "じかんがすぎています。",
         "romaji": "Jikan ga sugite imasu.",
         "english": "Time is passing.",
-        "french": "Le temps passe."
-      }
-    ]
-  },
-  {
-    "id": "sugoi_na",
-    "japanese": "凄い",
-    "hiragana": "すごい",
-    "romaji": "sugoi",
-    "english": "terrific",
-    "french": "extraordinaire",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "凄い景色ですね。",
-        "hiragana": "すごいけしきですね。",
-        "romaji": "Sugoi keshiki desu ne.",
-        "english": "That's an amazing view.",
-        "french": "C'est une vue extraordinaire."
+        "french": "Le temps passe.",
+        "german": "Die Zeit vergeht.",
+        "spanish": "El tiempo pasa.",
+        "vietnamese": "Thời gian đang trôi qua.",
+        "chinese": "时间在流逝。",
+        "korean": "시간이 지나가고 있습니다."
       }
     ]
   },
@@ -8579,6 +8659,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sukina",
     "english": "favorite, liked",
     "french": "préféré, aimé",
+    "german": "Lieblings-, gemocht",
+    "spanish": "favorito, querido",
+    "vietnamese": "yêu thích",
+    "chinese": "喜欢的",
+    "korean": "좋아하는",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -8588,47 +8673,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すきなたべものはなんですか？",
         "romaji": "Sukina tabemono wa nan desu ka?",
         "english": "What is your favorite food?",
-        "french": "Quel est ton plat préféré ?"
-      }
-    ]
-  },
-  {
-    "id": "sumairu",
-    "japanese": "スマイル",
-    "hiragana": "すまいる",
-    "romaji": "sumairu",
-    "english": "smile",
-    "french": "sourire",
-    "level": "N5",
-    "category": "emotion",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼女のスマイルが好きです。",
-        "hiragana": "かのじょのすまいるがすきです。",
-        "romaji": "Kanojo no sumairu ga suki desu.",
-        "english": "I like her smile.",
-        "french": "J'aime son sourire."
-      }
-    ]
-  },
-  {
-    "id": "sumairu_suru",
-    "japanese": "スマイルする",
-    "hiragana": "すまいるする",
-    "romaji": "sumairu suru",
-    "english": "to smile",
-    "french": "sourire (verbe)",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "彼はいつもスマイルしています。",
-        "hiragana": "かれはいつもすまいるしています。",
-        "romaji": "Kare wa itsumo sumairu shite imasu.",
-        "english": "He is always smiling.",
-        "french": "Il sourit toujours."
+        "french": "Quel est ton plat préféré ?",
+        "german": "Was ist dein Lieblingsessen?",
+        "spanish": "¿Cuál es tu comida favorita?",
+        "vietnamese": "Món ăn yêu thích của bạn là gì?",
+        "chinese": "你最喜欢的食物是什么？",
+        "korean": "좋아하는 음식이 뭐예요?"
       }
     ]
   },
@@ -8639,6 +8689,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sumu",
     "english": "to live (reside)",
     "french": "habiter, résider",
+    "german": "wohnen, leben",
+    "spanish": "vivir, residir",
+    "vietnamese": "sống, cư trú",
+    "chinese": "居住",
+    "korean": "살다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -8648,7 +8703,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "とうきょうにすんでいます。",
         "romaji": "Toukyou ni sunde imasu.",
         "english": "I live in Tokyo.",
-        "french": "J'habite à Tokyo."
+        "french": "J'habite à Tokyo.",
+        "german": "Ich wohne in Tokio.",
+        "spanish": "Vivo en Tokio.",
+        "vietnamese": "Tôi sống ở Tokyo.",
+        "chinese": "我住在东京。",
+        "korean": "저는 도쿄에 살고 있습니다."
       }
     ]
   },
@@ -8659,6 +8719,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sumimasen",
     "english": "excuse me, sorry",
     "french": "excusez-moi, désolé",
+    "german": "Entschuldigung, tut mir leid",
+    "spanish": "disculpe, lo siento",
+    "vietnamese": "xin lỗi",
+    "chinese": "对不起, 劳驾",
+    "korean": "실례합니다, 죄송합니다",
     "level": "N5",
     "category": "expression",
     "wordType": "phrase",
@@ -8668,7 +8733,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すみません、みちをおしえてください。",
         "romaji": "Sumimasen, michi o oshiete kudasai.",
         "english": "Excuse me, please tell me the way.",
-        "french": "Excusez-moi, indiquez-moi le chemin s'il vous plaît."
+        "french": "Excusez-moi, indiquez-moi le chemin s'il vous plaît.",
+        "german": "Entschuldigung, bitte sagen Sie mir den Weg.",
+        "spanish": "Disculpe, por favor dígame el camino.",
+        "vietnamese": "Xin lỗi, hãy chỉ đường cho tôi.",
+        "chinese": "对不起，请告诉我怎么走。",
+        "korean": "실례합니다, 길을 알려주세요."
       }
     ]
   },
@@ -8679,6 +8749,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sumou",
     "english": "sumo wrestling",
     "french": "sumo",
+    "german": "Sumo",
+    "spanish": "sumo",
+    "vietnamese": "vật sumo",
+    "chinese": "相扑",
+    "korean": "스모",
     "level": "N5",
     "category": "sport",
     "wordType": "noun",
@@ -8688,7 +8763,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "すもうをみたことがあります。",
         "romaji": "Sumou o mita koto ga arimasu.",
         "english": "I have watched sumo.",
-        "french": "J'ai déjà vu du sumo."
+        "french": "J'ai déjà vu du sumo.",
+        "german": "Ich habe schon Sumo gesehen.",
+        "spanish": "He visto sumo.",
+        "vietnamese": "Tôi đã từng xem sumo.",
+        "chinese": "我看过相扑。",
+        "korean": "저는 스모를 본 적이 있습니다."
       }
     ]
   },
@@ -8699,6 +8779,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "suru",
     "english": "to do",
     "french": "faire",
+    "german": "tun, machen",
+    "spanish": "hacer",
+    "vietnamese": "làm",
+    "chinese": "做",
+    "korean": "하다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -8708,7 +8793,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しゅくだいをします。",
         "romaji": "Shukudai o shimasu.",
         "english": "I do homework.",
-        "french": "Je fais mes devoirs."
+        "french": "Je fais mes devoirs.",
+        "german": "Ich mache meine Hausaufgaben.",
+        "spanish": "Hago mis deberes.",
+        "vietnamese": "Tôi làm bài tập về nhà.",
+        "chinese": "我做作业。",
+        "korean": "저는 숙제를 합니다."
       }
     ]
   },
@@ -8719,6 +8809,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "seito",
     "english": "student",
     "french": "élève",
+    "german": "Schüler",
+    "spanish": "estudiante",
+    "vietnamese": "học sinh",
+    "chinese": "学生",
+    "korean": "학생",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
@@ -8728,7 +8823,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "きょうしつにせいとがいます。",
         "romaji": "Kyoushitsu ni seito ga imasu.",
         "english": "There are students in the classroom.",
-        "french": "Il y a des élèves dans la salle de classe."
+        "french": "Il y a des élèves dans la salle de classe.",
+        "german": "Es gibt Schüler im Klassenzimmer.",
+        "spanish": "Hay estudiantes en el aula.",
+        "vietnamese": "Có học sinh trong lớp học.",
+        "chinese": "教室里有学生。",
+        "korean": "교실에 학생이 있습니다."
       }
     ]
   },
@@ -8739,6 +8839,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sekai",
     "english": "world",
     "french": "monde",
+    "german": "Welt",
+    "spanish": "mundo",
+    "vietnamese": "thế giới",
+    "chinese": "世界",
+    "korean": "세계",
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
@@ -8748,7 +8853,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せかいはひろいです。",
         "romaji": "Sekai wa hiroi desu.",
         "english": "The world is big.",
-        "french": "Le monde est vaste."
+        "french": "Le monde est vaste.",
+        "german": "Die Welt ist groß.",
+        "spanish": "El mundo es grande.",
+        "vietnamese": "Thế giới rất rộng lớn.",
+        "chinese": "世界很大。",
+        "korean": "세상은 넓습니다."
       }
     ]
   },
@@ -8759,6 +8869,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sekken",
     "english": "soap",
     "french": "savon",
+    "german": "Seife",
+    "spanish": "jabón",
+    "vietnamese": "xà phòng",
+    "chinese": "肥皂",
+    "korean": "비누",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -8768,7 +8883,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せっけんでてをあらいます。",
         "romaji": "Sekken de te o araimasu.",
         "english": "I wash my hands with soap.",
-        "french": "Je me lave les mains avec du savon."
+        "french": "Je me lave les mains avec du savon.",
+        "german": "Ich wasche mir die Hände mit Seife.",
+        "spanish": "Me lavo las manos con jabón.",
+        "vietnamese": "Tôi rửa tay bằng xà phòng.",
+        "chinese": "我用肥皂洗手。",
+        "korean": "비누로 손을 씻습니다.""
       }
     ]
   },
@@ -8793,12 +8913,17 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    "id": "sekou",
+     "id": "sekou",
     "japanese": "成功",
     "hiragana": "せいこう",
     "romaji": "seikou",
     "english": "success",
     "french": "succès",
+    "german": "Erfolg",
+    "spanish": "éxito",
+    "vietnamese": "thành công",
+    "chinese": "成功",
+    "korean": "성공",
     "level": "N5",
     "category": "concept",
     "wordType": "noun",
@@ -8808,67 +8933,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しけんにせいこうしました。",
         "romaji": "Shiken ni seikou shimashita.",
         "english": "I succeeded in the exam.",
-        "french": "J'ai réussi l'examen."
-      }
-    ]
-  },
-  {
-    "id": "seibutsu",
-    "japanese": "生物",
-    "hiragana": "せいぶつ",
-    "romaji": "seibutsu",
-    "english": "living thing",
-    "french": "être vivant",
-    "level": "N5",
-    "category": "science",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "森には多くの生物がいます。",
-        "hiragana": "もりにはおおくのせいぶつがいます。",
-        "romaji": "Mori ni wa ooku no seibutsu ga imasu.",
-        "english": "There are many living things in the forest.",
-        "french": "Il y a beaucoup d'êtres vivants dans la forêt."
-      }
-    ]
-  },
-  {
-    "id": "seito_tachi",
-    "japanese": "生徒たち",
-    "hiragana": "せいとたち",
-    "romaji": "seito-tachi",
-    "english": "students",
-    "french": "élèves",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "生徒たちが外で遊んでいます。",
-        "hiragana": "せいとたちがそとであそんでいます。",
-        "romaji": "Seito-tachi ga soto de asonde imasu.",
-        "english": "The students are playing outside.",
-        "french": "Les élèves jouent dehors."
-      }
-    ]
-  },
-  {
-    "id": "seibun",
-    "japanese": "成分",
-    "hiragana": "せいぶん",
-    "romaji": "seibun",
-    "english": "ingredient, component",
-    "french": "ingrédient, composant",
-    "level": "N5",
-    "category": "science",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "この薬の成分を確認しました。",
-        "hiragana": "このくすりのせいぶんをかくにんしました。",
-        "romaji": "Kono kusuri no seibun o kakunin shimashita.",
-        "english": "I checked the ingredients of this medicine.",
-        "french": "J'ai vérifié les ingrédients de ce médicament."
+        "french": "J'ai réussi l'examen.",
+        "german": "Ich habe die Prüfung bestanden.",
+        "spanish": "Aprobé el examen.",
+        "vietnamese": "Tôi đã thi đỗ.",
+        "chinese": "我考试成功了。",
+        "korean": "시험에 합격했습니다."
       }
     ]
   },
@@ -8879,6 +8949,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "seinen",
     "english": "young man",
     "french": "jeune homme",
+    "german": "junger Mann",
+    "spanish": "joven",
+    "vietnamese": "thanh niên",
+    "chinese": "青年",
+    "korean": "청년",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
@@ -8888,7 +8963,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "そのせいねんはがくせいです。",
         "romaji": "Sono seinen wa gakusei desu.",
         "english": "That young man is a student.",
-        "french": "Ce jeune homme est étudiant."
+        "french": "Ce jeune homme est étudiant.",
+        "german": "Dieser junge Mann ist Student.",
+        "spanish": "Ese joven es estudiante.",
+        "vietnamese": "Thanh niên đó là sinh viên.",
+        "chinese": "那个青年是学生。",
+        "korean": "그 청년은 학생입니다."
       }
     ]
   },
@@ -8899,6 +8979,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "seikatsu",
     "english": "life, livelihood",
     "french": "vie quotidienne",
+    "german": "Alltag, Leben",
+    "spanish": "vida cotidiana",
+    "vietnamese": "cuộc sống",
+    "chinese": "生活",
+    "korean": "생활",
     "level": "N5",
     "category": "daily life",
     "wordType": "noun",
@@ -8908,87 +8993,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "にほんでのせいかつはたのしいです。",
         "romaji": "Nihon de no seikatsu wa tanoshii desu.",
         "english": "Life in Japan is enjoyable.",
-        "french": "La vie au Japon est agréable."
-      }
-    ]
-  },
-  {
-    "id": "seiyou",
-    "japanese": "西洋",
-    "hiragana": "せいよう",
-    "romaji": "seiyou",
-    "english": "the West",
-    "french": "Occident",
-    "level": "N5",
-    "category": "geography",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "西洋の文化を勉強します。",
-        "hiragana": "せいようのぶんかをべんきょうします。",
-        "romaji": "Seiyou no bunka o benkyou shimasu.",
-        "english": "I study Western culture.",
-        "french": "J'étudie la culture occidentale."
-      }
-    ]
-  },
-  {
-    "id": "sekken_soap",
-    "japanese": "石けん",
-    "hiragana": "せっけん",
-    "romaji": "sekken",
-    "english": "soap",
-    "french": "savon",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "石けんで手を洗います。",
-        "hiragana": "せっけんでてをあらいます。",
-        "romaji": "Sekken de te o araimasu.",
-        "english": "I wash my hands with soap.",
-        "french": "Je me lave les mains avec du savon."
-      }
-    ]
-  },
-  {
-    "id": "setsumei",
-    "japanese": "説明",
-    "hiragana": "せつめい",
-    "romaji": "setsumei",
-    "english": "explanation",
-    "french": "explication",
-    "level": "N5",
-    "category": "school",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "先生が説明をしました。",
-        "hiragana": "せんせいがせつめいをしました。",
-        "romaji": "Sensei ga setsumei o shimashita.",
-        "english": "The teacher gave an explanation.",
-        "french": "Le professeur a donné une explication."
-      }
-    ]
-  },
-  {
-    "id": "senaka",
-    "japanese": "背中",
-    "hiragana": "せなか",
-    "romaji": "senaka",
-    "english": "back (body part)",
-    "french": "dos",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "背中が痛いです。",
-        "hiragana": "せなかがいたいです。",
-        "romaji": "Senaka ga itai desu.",
-        "english": "My back hurts.",
-        "french": "J'ai mal au dos."
+        "french": "La vie au Japon est agréable.",
+        "german": "Das Leben in Japan ist angenehm.",
+        "spanish": "La vida en Japón es agradable.",
+        "vietnamese": "Cuộc sống ở Nhật Bản rất vui.",
+        "chinese": "在日本的生活很愉快。",
+        "korean": "일본에서의 생활은 즐겁습니다."
       }
     ]
   },
@@ -8999,6 +9009,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sensei",
     "english": "teacher",
     "french": "professeur",
+    "german": "Lehrer",
+    "spanish": "profesor",
+    "vietnamese": "giáo viên",
+    "chinese": "老师",
+    "korean": "선생님",
     "level": "N5",
     "category": "people",
     "wordType": "noun",
@@ -9008,27 +9023,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せんせいにしつもんします。",
         "romaji": "Sensei ni shitsumon shimasu.",
         "english": "I ask the teacher a question.",
-        "french": "Je pose une question au professeur."
-      }
-    ]
-  },
-  {
-    "id": "senaka_ushiro",
-    "japanese": "後ろ",
-    "hiragana": "うしろ",
-    "romaji": "ushiro",
-    "english": "behind, back",
-    "french": "derrière",
-    "level": "N5",
-    "category": "location",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "犬が家の後ろにいます。",
-        "hiragana": "いぬがいえのうしろにいます。",
-        "romaji": "Inu ga ie no ushiro ni imasu.",
-        "english": "The dog is behind the house.",
-        "french": "Le chien est derrière la maison."
+        "french": "Je pose une question au professeur.",
+        "german": "Ich stelle dem Lehrer eine Frage.",
+        "spanish": "Le hago una pregunta al profesor.",
+        "vietnamese": "Tôi hỏi giáo viên một câu hỏi.",
+        "chinese": "我向老师提问。",
+        "korean": "선생님께 질문합니다."
       }
     ]
   },
@@ -9039,6 +9039,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "senmon",
     "english": "specialty, major",
     "french": "spécialité",
+    "german": "Fachgebiet",
+    "spanish": "especialidad",
+    "vietnamese": "chuyên ngành",
+    "chinese": "专业",
+    "korean": "전공",
     "level": "N5",
     "category": "school",
     "wordType": "noun",
@@ -9048,7 +9053,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "わたしのせんもんはけいざいです。",
         "romaji": "Watashi no senmon wa keizai desu.",
         "english": "My major is economics.",
-        "french": "Ma spécialité est l'économie."
+        "french": "Ma spécialité est l'économie.",
+        "german": "Mein Fachgebiet ist Wirtschaft.",
+        "spanish": "Mi especialidad es economía.",
+        "vietnamese": "Chuyên ngành của tôi là kinh tế.",
+        "chinese": "我的专业是经济学。",
+        "korean": "제 전공은 경제학입니다."
       }
     ]
   },
@@ -9059,6 +9069,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sentaku",
     "english": "laundry",
     "french": "lessive",
+    "german": "Wäsche",
+    "spanish": "lavandería",
+    "vietnamese": "giặt giũ",
+    "chinese": "洗衣",
+    "korean": "세탁",
     "level": "N5",
     "category": "daily life",
     "wordType": "noun",
@@ -9068,7 +9083,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せんたくをします。",
         "romaji": "Sentaku o shimasu.",
         "english": "I do the laundry.",
-        "french": "Je fais la lessive."
+        "french": "Je fais la lessive.",
+        "german": "Ich mache die Wäsche.",
+        "spanish": "Hago la colada.",
+        "vietnamese": "Tôi giặt đồ.",
+        "chinese": "我洗衣服。",
+        "korean": "저는 세탁을 합니다."
       }
     ]
   },
@@ -9079,6 +9099,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "senro",
     "english": "railway track",
     "french": "voie ferrée",
+    "german": "Gleise",
+    "spanish": "vía de tren",
+    "vietnamese": "đường sắt",
+    "chinese": "铁轨",
+    "korean": "선로",
     "level": "N5",
     "category": "transport",
     "wordType": "noun",
@@ -9088,67 +9113,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せんろをわたってはいけません。",
         "romaji": "Senro o watatte wa ikemasen.",
         "english": "Do not cross the railway tracks.",
-        "french": "Il ne faut pas traverser la voie ferrée."
-      }
-    ]
-  },
-  {
-    "id": "senaka_shisen",
-    "japanese": "視線",
-    "hiragana": "しせん",
-    "romaji": "shisen",
-    "english": "gaze, line of sight",
-    "french": "regard",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼の視線を感じました。",
-        "hiragana": "かれのしせんをかんじました。",
-        "romaji": "Kare no shisen o kanjimashita.",
-        "english": "I felt his gaze.",
-        "french": "J'ai senti son regard."
-      }
-    ]
-  },
-  {
-    "id": "seru",
-    "japanese": "セル",
-    "hiragana": "せる",
-    "romaji": "seru",
-    "english": "cell",
-    "french": "cellule",
-    "level": "N5",
-    "category": "science",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "体は多くのセルでできています。",
-        "hiragana": "からだはおおくのせるでできています。",
-        "romaji": "Karada wa ooku no seru de dekite imasu.",
-        "english": "The body is made up of many cells.",
-        "french": "Le corps est constitué de nombreuses cellules."
-      }
-    ]
-  },
-  {
-    "id": "serifu",
-    "japanese": "台詞",
-    "hiragana": "せりふ",
-    "romaji": "serifu",
-    "english": "line (dialogue)",
-    "french": "réplique",
-    "level": "N5",
-    "category": "culture",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼の台詞を覚えました。",
-        "hiragana": "かれのせりふをおぼえました。",
-        "romaji": "Kare no serifu o oboemashita.",
-        "english": "I memorized his lines.",
-        "french": "J'ai mémorisé ses répliques."
+        "french": "Il ne faut pas traverser la voie ferrée.",
+        "german": "Man darf die Gleise nicht überqueren.",
+        "spanish": "No debes cruzar las vías.",
+        "vietnamese": "Không được băng qua đường sắt.",
+        "chinese": "不要穿越铁轨。",
+        "korean": "선로를 건너면 안 됩니다."
       }
     ]
   },
@@ -9159,6 +9129,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sewa",
     "english": "care, help",
     "french": "soin, aide",
+    "german": "Pflege, Hilfe",
+    "spanish": "cuidado, ayuda",
+    "vietnamese": "chăm sóc, giúp đỡ",
+    "chinese": "照顾，帮助",
+    "korean": "돌봄, 도움",
     "level": "N5",
     "category": "daily life",
     "wordType": "noun",
@@ -9168,297 +9143,27 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "いぬのせわをします。",
         "romaji": "Inu no sewa o shimasu.",
         "english": "I take care of the dog.",
-        "french": "Je m'occupe du chien."
+        "french": "Je m'occupe du chien.",
+        "german": "Ich kümmere mich um den Hund.",
+        "spanish": "Cuido al perro.",
+        "vietnamese": "Tôi chăm sóc con chó.",
+        "chinese": "我照顾狗。",
+        "korean": "저는 개를 돌봅니다."
       }
     ]
   },
   {
-    "id": "seiza",
-    "japanese": "星座",
-    "hiragana": "せいざ",
-    "romaji": "seiza",
-    "english": "constellation",
-    "french": "constellation",
-    "level": "N5",
-    "category": "astronomy",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "オリオン座は有名な星座です。",
-        "hiragana": "おりおんざはゆうめいなせいざです。",
-        "romaji": "Orion-za wa yuumei na seiza desu.",
-        "english": "Orion is a famous constellation.",
-        "french": "Orion est une constellation célèbre."
-      }
-    ]
-  },
-  {
-    "id": "seikou",
-    "japanese": "成功",
-    "hiragana": "せいこう",
-    "romaji": "seikou",
-    "english": "success",
-    "french": "succès",
-    "level": "N5",
-    "category": "concept",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "彼は成功しました。",
-        "hiragana": "かれはせいこうしました。",
-        "romaji": "Kare wa seikou shimashita.",
-        "english": "He succeeded.",
-        "french": "Il a réussi."
-      }
-    ]
-  },
-  {
-    "id": "sekai_ryokou",
-    "japanese": "世界旅行",
-    "hiragana": "せかいりょこう",
-    "romaji": "sekai ryokou",
-    "english": "world trip",
-    "french": "voyage autour du monde",
-    "level": "N5",
-    "category": "travel",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "世界旅行をしたいです。",
-        "hiragana": "せかいりょこうをしたいです。",
-        "romaji": "Sekai ryokou o shitai desu.",
-        "english": "I want to travel around the world.",
-        "french": "Je veux faire le tour du monde."
-      }
-    ]
-  },
-  {
-    "id": "senaka_hara",
-    "japanese": "腹",
-    "hiragana": "はら",
-    "romaji": "hara",
-    "english": "stomach, belly",
-    "french": "ventre",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "腹が空きました。",
-        "hiragana": "はらがすきました。",
-        "romaji": "Hara ga sukimashita.",
-        "english": "I am hungry.",
-        "french": "J'ai faim."
-      }
-    ]
-  },
-  {
-    "id": "senaka_te",
-    "japanese": "手",
-    "hiragana": "て",
-    "romaji": "te",
-    "english": "hand",
-    "french": "main",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "手を洗ってください。",
-        "hiragana": "てをあらってください。",
-        "romaji": "Te o aratte kudasai.",
-        "english": "Please wash your hands.",
-        "french": "Lavez-vous les mains, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "senaka_ashi",
-    "japanese": "足",
-    "hiragana": "あし",
-    "romaji": "ashi",
-    "english": "leg, foot",
-    "french": "jambe, pied",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "足が痛いです。",
-        "hiragana": "あしがいたいです。",
-        "romaji": "Ashi ga itai desu.",
-        "english": "My leg hurts.",
-        "french": "J'ai mal à la jambe."
-      }
-    ]
-  },
-  {
-    "id": "senaka_me",
-    "japanese": "目",
-    "hiragana": "め",
-    "romaji": "me",
-    "english": "eye",
-    "french": "œil",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "目を閉じてください。",
-        "hiragana": "めをとじてください。",
-        "romaji": "Me o tojite kudasai.",
-        "english": "Please close your eyes.",
-        "french": "Fermez les yeux, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "senaka_mimi",
-    "japanese": "耳",
-    "hiragana": "みみ",
-    "romaji": "mimi",
-    "english": "ear",
-    "french": "oreille",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "音楽を耳で聞きます。",
-        "hiragana": "おんがくをみみでききます。",
-        "romaji": "Ongaku o mimi de kikimasu.",
-        "english": "I listen to music with my ears.",
-        "french": "J'écoute de la musique avec mes oreilles."
-      }
-    ]
-  },
-  {
-    "id": "senaka_kuchi",
-    "japanese": "口",
-    "hiragana": "くち",
-    "romaji": "kuchi",
-    "english": "mouth",
-    "french": "bouche",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "口を大きく開けてください。",
-        "hiragana": "くちをおおきくあけてください。",
-        "romaji": "Kuchi o ookiku akete kudasai.",
-        "english": "Please open your mouth wide.",
-        "french": "Ouvrez grand la bouche, s'il vous plaît."
-      }
-    ]
-  },
-  {
-    "id": "senaka_hana",
-    "japanese": "鼻",
-    "hiragana": "はな",
-    "romaji": "hana",
-    "english": "nose",
-    "french": "nez",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "鼻が詰まっています。",
-        "hiragana": "はながつまっています。",
-        "romaji": "Hana ga tsumatte imasu.",
-        "english": "My nose is blocked.",
-        "french": "Mon nez est bouché."
-      }
-    ]
-  },
-  {
-    "id": "senaka_hair",
-    "japanese": "髪",
-    "hiragana": "かみ",
-    "romaji": "kami",
-    "english": "hair",
-    "french": "cheveux",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "髪を切りました。",
-        "hiragana": "かみをきりました。",
-        "romaji": "Kami o kirimashita.",
-        "english": "I cut my hair.",
-        "french": "J'ai coupé mes cheveux."
-      }
-    ]
-  },
-  {
-    "id": "senaka_hara2",
-    "japanese": "腹",
-    "hiragana": "はら",
-    "romaji": "hara",
-    "english": "belly",
-    "french": "ventre",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "腹が立ちました。",
-        "hiragana": "はらがたちました。",
-        "romaji": "Hara ga tachimashita.",
-        "english": "I got angry.",
-        "french": "Je me suis fâché."
-      }
-    ]
-  },
-  {
-    "id": "senaka_kao",
-    "japanese": "顔",
-    "hiragana": "かお",
-    "romaji": "kao",
-    "english": "face",
-    "french": "visage",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "顔を洗います。",
-        "hiragana": "かおをあらいます。",
-        "romaji": "Kao o araimasu.",
-        "english": "I wash my face.",
-        "french": "Je me lave le visage."
-      }
-    ]
-  },
-  {
-    "id": "senaka_hoppe",
-    "japanese": "ほっぺ",
-    "hiragana": "ほっぺ",
-    "romaji": "hoppe",
-    "english": "cheek",
-    "french": "joue",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "ほっぺが赤いです。",
-        "hiragana": "ほっぺがあかいです。",
-        "romaji": "Hoppe ga akai desu.",
-        "english": "His cheeks are red.",
-        "french": "Ses joues sont rouges."
-      }
-    ]
-  },
-  {
-    "id": "seki_seki",
+    "id": "seki",
     "japanese": "咳",
     "hiragana": "せき",
     "romaji": "seki",
     "english": "cough",
     "french": "toux",
+    "german": "Husten",
+    "spanish": "tos",
+    "vietnamese": "ho",
+    "chinese": "咳嗽",
+    "korean": "기침",
     "level": "N5",
     "category": "health",
     "wordType": "noun",
@@ -9468,17 +9173,27 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せきがでます。",
         "romaji": "Seki ga demasu.",
         "english": "I am coughing.",
-        "french": "Je tousse."
+        "french": "Je tousse.",
+        "german": "Ich huste.",
+        "spanish": "Estoy tosiendo.",
+        "vietnamese": "Tôi bị ho.",
+        "chinese": "我在咳嗽。",
+        "korean": "저는 기침을 합니다."
       }
     ]
   },
   {
-    "id": "seikou_shippai",
+    "id": "shippai",
     "japanese": "失敗",
     "hiragana": "しっぱい",
     "romaji": "shippai",
     "english": "failure",
     "french": "échec",
+    "german": "Misserfolg",
+    "spanish": "fracaso",
+    "vietnamese": "thất bại",
+    "chinese": "失败",
+    "korean": "실패",
     "level": "N5",
     "category": "concept",
     "wordType": "noun",
@@ -9488,17 +9203,27 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "しけんにしっぱいしました。",
         "romaji": "Shiken ni shippai shimashita.",
         "english": "I failed the exam.",
-        "french": "J'ai échoué à l'examen."
+        "french": "J'ai échoué à l'examen.",
+        "german": "Ich bin bei der Prüfung durchgefallen.",
+        "spanish": "Fallé el examen.",
+        "vietnamese": "Tôi đã trượt kỳ thi.",
+        "chinese": "我考试失败了。",
+        "korean": "시험에 떨어졌습니다."
       }
     ]
   },
   {
-    "id": "seikou_juubun",
+    "id": "juubun",
     "japanese": "十分",
     "hiragana": "じゅうぶん",
     "romaji": "juubun",
     "english": "enough",
     "french": "suffisant",
+    "german": "genug",
+    "spanish": "suficiente",
+    "vietnamese": "đủ",
+    "chinese": "足够",
+    "korean": "충분하다",
     "level": "N5",
     "category": "expression",
     "wordType": "adjective",
@@ -9508,7 +9233,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "じゅうぶんにやすんでください。",
         "romaji": "Juubun ni yasunde kudasai.",
         "english": "Please rest enough.",
-        "french": "Reposez-vous suffisamment."
+        "french": "Reposez-vous suffisamment.",
+        "german": "Bitte ruhen Sie sich genug aus.",
+        "spanish": "Por favor, descanse lo suficiente.",
+        "vietnamese": "Hãy nghỉ ngơi đầy đủ.",
+        "chinese": "请充分休息。",
+        "korean": "충분히 쉬세요."
       }
     ]
   },
@@ -9519,6 +9249,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "sekinin",
     "english": "responsibility",
     "french": "responsabilité",
+    "german": "Verantwortung",
+    "spanish": "responsabilidad",
+    "vietnamese": "trách nhiệm",
+    "chinese": "责任",
+    "korean": "책임",
     "level": "N5",
     "category": "concept",
     "wordType": "noun",
@@ -9528,37 +9263,27 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "せきにんをもちます。",
         "romaji": "Sekinin o mochimasu.",
         "english": "I take responsibility.",
-        "french": "J'assume la responsabilité."
+        "french": "J'assume la responsabilité.",
+        "german": "Ich übernehme die Verantwortung.",
+        "spanish": "Asumo la responsabilidad.",
+        "vietnamese": "Tôi chịu trách nhiệm.",
+        "chinese": "我承担责任。",
+        "korean": "제가 책임을 집니다."
       }
     ]
   },
   {
-    "id": "sekken_omocha",
-    "japanese": "おもちゃ",
-    "hiragana": "おもちゃ",
-    "romaji": "omocha",
-    "english": "toy",
-    "french": "jouet",
-    "level": "N5",
-    "category": "object",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "子供がおもちゃで遊んでいます。",
-        "hiragana": "こどもがおもちゃであそんでいます。",
-        "romaji": "Kodomo ga omocha de asonde imasu.",
-        "english": "The child is playing with a toy.",
-        "french": "L'enfant joue avec un jouet."
-      }
-    ]
-  },
-  {
-    "id": "sekou_mondai",
+    "id": "mondai",
     "japanese": "問題",
     "hiragana": "もんだい",
     "romaji": "mondai",
     "english": "problem, question",
     "french": "problème, question",
+    "german": "Problem, Frage",
+    "spanish": "problema, pregunta",
+    "vietnamese": "vấn đề, câu hỏi",
+    "chinese": "问题",
+    "korean": "문제",
     "level": "N5",
     "category": "school",
     "wordType": "noun",
@@ -9568,37 +9293,27 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "このもんだいはむずかしいです。",
         "romaji": "Kono mondai wa muzukashii desu.",
         "english": "This problem is difficult.",
-        "french": "Ce problème est difficile."
+        "french": "Ce problème est difficile.",
+        "german": "Dieses Problem ist schwierig.",
+        "spanish": "Este problema es difícil.",
+        "vietnamese": "Bài toán này khó.",
+        "chinese": "这个问题很难。",
+        "korean": "이 문제는 어렵습니다."
       }
     ]
   },
   {
-    "id": "senaka_yubi",
-    "japanese": "指",
-    "hiragana": "ゆび",
-    "romaji": "yubi",
-    "english": "finger",
-    "french": "doigt",
-    "level": "N5",
-    "category": "body parts",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "指にけがをしました。",
-        "hiragana": "ゆびにけがをしました。",
-        "romaji": "Yubi ni kega o shimashita.",
-        "english": "I hurt my finger.",
-        "french": "Je me suis blessé au doigt."
-      }
-    ]
-  },
-  {
-    "id": "seki_tabako",
+    "id": "tabako",
     "japanese": "たばこ",
     "hiragana": "たばこ",
     "romaji": "tabako",
     "english": "tobacco, cigarette",
     "french": "tabac, cigarette",
+    "german": "Tabak, Zigarette",
+    "spanish": "tabaco, cigarrillo",
+    "vietnamese": "thuốc lá",
+    "chinese": "香烟",
+    "korean": "담배",
     "level": "N5",
     "category": "object",
     "wordType": "noun",
@@ -9608,7 +9323,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ちちはたばこをすいます。",
         "romaji": "Chichi wa tabako o suimasu.",
         "english": "My father smokes cigarettes.",
-        "french": "Mon père fume des cigarettes."
+        "french": "Mon père fume des cigarettes.",
+        "german": "Mein Vater raucht Zigaretten.",
+        "spanish": "Mi padre fuma cigarrillos.",
+        "vietnamese": "Bố tôi hút thuốc lá.",
+        "chinese": "我父亲抽烟。",
+        "korean": "아버지는 담배를 피웁니다."
       }
     ]
   },
@@ -9619,6 +9339,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "takai",
     "english": "tall, expensive",
     "french": "grand, cher",
+    "german": "hoch, teuer",
+    "spanish": "alto, caro",
+    "vietnamese": "cao, đắt",
+    "chinese": "高，贵",
+    "korean": "높다, 비싸다",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
@@ -9628,7 +9353,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "このほんはたかいです。",
         "romaji": "Kono hon wa takai desu.",
         "english": "This book is expensive.",
-        "french": "Ce livre est cher."
+        "french": "Ce livre est cher.",
+        "german": "Dieses Buch ist teuer.",
+        "spanish": "Este libro es caro.",
+        "vietnamese": "Cuốn sách này đắt.",
+        "chinese": "这本书很贵。",
+        "korean": "이 책은 비쌉니다."
       }
     ]
   },
@@ -9639,6 +9369,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "takusan",
     "english": "many, a lot",
     "french": "beaucoup",
+    "german": "viel, viele",
+    "spanish": "muchos, mucho",
+    "vietnamese": "nhiều",
+    "chinese": "很多",
+    "korean": "많이, 많은",
     "level": "N5",
     "category": "adverb",
     "wordType": "adverb",
@@ -9648,7 +9383,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "たくさんのひとがきました。",
         "romaji": "Takusan no hito ga kimashita.",
         "english": "Many people came.",
-        "french": "Beaucoup de gens sont venus."
+        "french": "Beaucoup de gens sont venus.",
+        "german": "Viele Leute sind gekommen.",
+        "spanish": "Vinieron muchas personas.",
+        "vietnamese": "Nhiều người đã đến.",
+        "chinese": "来了很多人。",
+        "korean": "많은 사람들이 왔습니다."
       }
     ]
   },
@@ -9659,6 +9399,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tabemono",
     "english": "food",
     "french": "nourriture",
+    "german": "Essen",
+    "spanish": "comida",
+    "vietnamese": "thức ăn",
+    "chinese": "食物",
+    "korean": "음식",
     "level": "N5",
     "category": "food",
     "wordType": "noun",
@@ -9668,7 +9413,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "にほんのたべものはおいしいです。",
         "romaji": "Nihon no tabemono wa oishii desu.",
         "english": "Japanese food is delicious.",
-        "french": "La nourriture japonaise est délicieuse."
+        "french": "La nourriture japonaise est délicieuse.",
+        "german": "Japanisches Essen ist lecker.",
+        "spanish": "La comida japonesa es deliciosa.",
+        "vietnamese": "Đồ ăn Nhật Bản rất ngon.",
+        "chinese": "日本的食物很好吃。",
+        "korean": "일본 음식은 맛있습니다."
       }
     ]
   },
@@ -9679,6 +9429,11 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "taberu",
     "english": "to eat",
     "french": "manger",
+    "german": "essen",
+    "spanish": "comer",
+    "vietnamese": "ăn",
+    "chinese": "吃",
+    "korean": "먹다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
@@ -9688,7 +9443,12 @@ export const vocabularyData: VocabularyWord[] = [
         "hiragana": "ぱんをたべます。",
         "romaji": "Pan o tabemasu.",
         "english": "I eat bread.",
-        "french": "Je mange du pain."
+        "french": "Je mange du pain.",
+        "german": "Ich esse Brot.",
+        "spanish": "Como pan.",
+        "vietnamese": "Tôi ăn bánh mì.",
+        "chinese": "我吃面包。",
+        "korean": "저는 빵을 먹습니다."
       }
     ]
   },
@@ -9699,296 +9459,86 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "taihen",
     "english": "serious, very",
     "french": "grave, très",
+    "german": "schwierig, sehr",
+    "spanish": "grave, muy",
+    "vietnamese": "nghiêm trọng, rất",
+    "chinese": "严重，非常",
+    "korean": "심각하다, 매우",
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
     "examples": [
       {
-        "japanese": "今日は大変忙しいです。",
-        "hiragana": "きょうはたいへんいそがしいです。",
-        "romaji": "Kyou wa taihen isogashii desu.",
-        "english": "I am very busy today.",
-        "french": "Je suis très occupé aujourd'hui."
+        "japanese": "宿題が大変です。",
+        "hiragana": "しゅくだいがたいへんです。",
+        "romaji": "Shukudai ga taihen desu.",
+        "english": "Homework is tough.",
+        "french": "Les devoirs sont durs.",
+        "german": "Die Hausaufgaben sind schwierig.",
+        "spanish": "La tarea es dura.",
+        "vietnamese": "Bài tập về nhà rất vất vả.",
+        "chinese": "作业很难。",
+        "korean": "숙제가 힘듭니다."
       }
     ]
   },
   {
-    "id": "taisetsu",
-    "japanese": "大切",
-    "hiragana": "たいせつ",
-    "romaji": "taisetsu",
-    "english": "important, precious",
-    "french": "important, précieux",
+    "id": "tairu",
+    "japanese": "体",
+    "hiragana": "からだ",
+    "romaji": "karada",
+    "english": "body",
+    "french": "corps",
+    "german": "Körper",
+    "spanish": "cuerpo",
+    "vietnamese": "cơ thể",
+    "chinese": "身体",
+    "korean": "몸",
     "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "家族はとても大切です。",
-        "hiragana": "かぞくはとてもたいせつです。",
-        "romaji": "Kazoku wa totemo taisetsu desu.",
-        "english": "Family is very important.",
-        "french": "La famille est très importante."
-      }
-    ]
-  },
-  {
-    "id": "taiiku",
-    "japanese": "体育",
-    "hiragana": "たいいく",
-    "romaji": "taiiku",
-    "english": "physical education",
-    "french": "éducation physique",
-    "level": "N5",
-    "category": "school",
+    "category": "body",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "体育の授業があります。",
-        "hiragana": "たいいくのじゅぎょうがあります。",
-        "romaji": "Taiiku no jugyou ga arimasu.",
-        "english": "There is a physical education class.",
-        "french": "Il y a un cours d'éducation physique."
+        "japanese": "体に気をつけてください。",
+        "hiragana": "からだにきをつけてください。",
+        "romaji": "Karada ni ki o tsukete kudasai.",
+        "english": "Please take care of your body.",
+        "french": "Prenez soin de votre corps.",
+        "german": "Bitte achten Sie auf Ihren Körper.",
+        "spanish": "Por favor, cuida tu cuerpo.",
+        "vietnamese": "Hãy chú ý giữ gìn cơ thể.",
+        "chinese": "请注意身体。",
+        "korean": "몸을 잘 챙기세요."
       }
     ]
   },
   {
-    "id": "taoreru",
-    "japanese": "倒れる",
-    "hiragana": "たおれる",
-    "romaji": "taoreru",
-    "english": "to fall down",
-    "french": "tomber",
+    "id": "tamago",
+    "japanese": "卵",
+    "hiragana": "たまご",
+    "romaji": "tamago",
+    "english": "egg",
+    "french": "œuf",
+    "german": "Ei",
+    "spanish": "huevo",
+    "vietnamese": "trứng",
+    "chinese": "鸡蛋",
+    "korean": "계란",
     "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "木が倒れました。",
-        "hiragana": "きがたおれました。",
-        "romaji": "Ki ga taoremashita.",
-        "english": "The tree fell down.",
-        "french": "L'arbre est tombé."
-      }
-    ]
-  },
-  {
-    "id": "taisou",
-    "japanese": "体操",
-    "hiragana": "たいそう",
-    "romaji": "taisou",
-    "english": "gymnastics, exercise",
-    "french": "gymnastique, exercice",
-    "level": "N5",
-    "category": "sport",
+    "category": "food",
     "wordType": "noun",
     "examples": [
       {
-        "japanese": "朝に体操をします。",
-        "hiragana": "あさにたいそうをします。",
-        "romaji": "Asa ni taisou o shimasu.",
-        "english": "I do exercises in the morning.",
-        "french": "Je fais de la gymnastique le matin."
-      }
-    ]
-  },
-  {
-    "id": "takusan_arigatou",
-    "japanese": "たくさんありがとう",
-    "hiragana": "たくさんありがとう",
-    "romaji": "takusan arigatou",
-    "english": "thanks a lot",
-    "french": "merci beaucoup",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "phrase",
-    "examples": [
-      {
-        "japanese": "たくさんありがとう！",
-        "hiragana": "たくさんありがとう！",
-        "romaji": "Takusan arigatou!",
-        "english": "Thank you so much!",
-        "french": "Merci beaucoup !"
-      }
-    ]
-  },
-  {
-    "id": "tada",
-    "japanese": "ただ",
-    "hiragana": "ただ",
-    "romaji": "tada",
-    "english": "free of charge, just",
-    "french": "gratuit, seulement",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "これはただです。",
-        "hiragana": "これはただです。",
-        "romaji": "Kore wa tada desu.",
-        "english": "This is free.",
-        "french": "C'est gratuit."
-      }
-    ]
-  },
-  {
-    "id": "tadashii",
-    "japanese": "正しい",
-    "hiragana": "ただしい",
-    "romaji": "tadashii",
-    "english": "correct, right",
-    "french": "correct, juste",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "答えは正しいです。",
-        "hiragana": "こたえはただしいです。",
-        "romaji": "Kotae wa tadashii desu.",
-        "english": "The answer is correct.",
-        "french": "La réponse est correcte."
-      }
-    ]
-  },
-  {
-    "id": "tanoshii",
-    "japanese": "楽しい",
-    "hiragana": "たのしい",
-    "romaji": "tanoshii",
-    "english": "fun, enjoyable",
-    "french": "amusant, agréable",
-    "level": "N5",
-    "category": "adjective",
-    "wordType": "adjective",
-    "examples": [
-      {
-        "japanese": "パーティーは楽しかったです。",
-        "hiragana": "ぱーてぃーはたのしかったです。",
-        "romaji": "Paatii wa tanoshikatta desu.",
-        "english": "The party was fun.",
-        "french": "La fête était amusante."
-      }
-    ]
-  },
-  {
-    "id": "tanomu",
-    "japanese": "頼む",
-    "hiragana": "たのむ",
-    "romaji": "tanomu",
-    "english": "to request, to ask",
-    "french": "demander, prier",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "先生に頼みました。",
-        "hiragana": "せんせいにたのみました。",
-        "romaji": "Sensei ni tanomimashita.",
-        "english": "I asked the teacher.",
-        "french": "J'ai demandé au professeur."
-      }
-    ]
-  },
-  {
-    "id": "tanoshi_mu",
-    "japanese": "楽しむ",
-    "hiragana": "たのしむ",
-    "romaji": "tanoshimu",
-    "english": "to enjoy",
-    "french": "profiter, s'amuser",
-    "level": "N5",
-    "category": "verb",
-    "wordType": "verb",
-    "examples": [
-      {
-        "japanese": "旅行を楽しみます。",
-        "hiragana": "りょこうをたのしみます。",
-        "romaji": "Ryokou o tanoshimimasu.",
-        "english": "I enjoy traveling.",
-        "french": "Je profite du voyage."
-      }
-    ]
-  },
-  {
-    "id": "tanjoubi",
-    "japanese": "誕生日",
-    "hiragana": "たんじょうび",
-    "romaji": "tanjoubi",
-    "english": "birthday",
-    "french": "anniversaire",
-    "level": "N5",
-    "category": "time",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "今日は私の誕生日です。",
-        "hiragana": "きょうはわたしのたんじょうびです。",
-        "romaji": "Kyou wa watashi no tanjoubi desu.",
-        "english": "Today is my birthday.",
-        "french": "Aujourd'hui, c'est mon anniversaire."
-      }
-    ]
-  },
-  {
-    "id": "tanin",
-    "japanese": "他人",
-    "hiragana": "たにん",
-    "romaji": "tanin",
-    "english": "stranger, other people",
-    "french": "étranger, autrui",
-    "level": "N5",
-    "category": "people",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "他人を信じますか？",
-        "hiragana": "たにんをしんじますか？",
-        "romaji": "Tanin o shinjimasu ka?",
-        "english": "Do you trust other people?",
-        "french": "Fais-tu confiance aux autres ?"
-      }
-    ]
-  },
-  {
-    "id": "tane",
-    "japanese": "種",
-    "hiragana": "たね",
-    "romaji": "tane",
-    "english": "seed",
-    "french": "graine",
-    "level": "N5",
-    "category": "nature",
-    "wordType": "noun",
-    "examples": [
-      {
-        "japanese": "花の種を植えました。",
-        "hiragana": "はなのたねをうえました。",
-        "romaji": "Hana no tane o uemashita.",
-        "english": "I planted flower seeds.",
-        "french": "J'ai planté des graines de fleurs."
-      }
-    ]
-  },
-  {
-    "id": "tabun",
-    "japanese": "多分",
-    "hiragana": "たぶん",
-    "romaji": "tabun",
-    "english": "probably",
-    "french": "probablement",
-    "level": "N5",
-    "category": "expression",
-    "wordType": "adverb",
-    "examples": [
-      {
-        "japanese": "明日は多分雨です。",
-        "hiragana": "あしたはたぶんあめです。",
-        "romaji": "Ashita wa tabun ame desu.",
-        "english": "It will probably rain tomorrow.",
-        "french": "Il pleuvra probablement demain."
+        "japanese": "卵を食べます。",
+        "hiragana": "たまごをたべます。",
+        "romaji": "Tamago o tabemasu.",
+        "english": "I eat eggs.",
+        "french": "Je mange des œufs.",
+        "german": "Ich esse Eier.",
+        "spanish": "Como huevos.",
+        "vietnamese": "Tôi ăn trứng.",
+        "chinese": "我吃鸡蛋。",
+        "korean": "저는 계란을 먹습니다."
       }
     ]
   },
@@ -9999,16 +9549,26 @@ export const vocabularyData: VocabularyWord[] = [
     "romaji": "tamaru",
     "english": "to accumulate",
     "french": "s'accumuler",
+    "german": "sich ansammeln",
+    "spanish": "acumularse",
+    "vietnamese": "tích tụ",
+    "chinese": "积累",
+    "korean": "쌓이다",
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
     "examples": [
       {
-        "japanese": "仕事が溜まっています。",
-        "hiragana": "しごとがたまっています。",
-        "romaji": "Shigoto ga tamatte imasu.",
-        "english": "Work is piling up.",
-        "french": "Le travail s'accumule."
+        "japanese": "疲れが溜まります。",
+        "hiragana": "つかれがたまります。",
+        "romaji": "Tsukare ga tamarimasu.",
+        "english": "Fatigue accumulates.",
+        "french": "La fatigue s'accumule.",
+        "german": "Die Müdigkeit sammelt sich an.",
+        "spanish": "Se acumula el cansancio.",
+        "vietnamese": "Sự mệt mỏi tích tụ.",
+        "chinese": "疲劳在积累。",
+        "korean": "피로가 쌓입니다."
       }
     ]
   },
