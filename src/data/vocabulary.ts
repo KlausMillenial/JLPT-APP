@@ -7397,13 +7397,13 @@ export const vocabularyData: VocabularyWord[] = [
       "german": "Ich lese eine Zeitschrift.",
       "vietnamese": "Tôi đọc tạp chí.",
       "chinese": "我看杂志。",
-      "korean": "잡지를 읽어요.",
+      "korean": "저는 잡지를 읽어요.",
       "spanish": "Leo una revista."
     }
   ]
 },
-  {
-   "id": "samui",
+{
+  "id": "samui",
   "japanese": "寒い",
   "hiragana": "さむい",
   "romaji": "samui",
@@ -7411,8 +7411,8 @@ export const vocabularyData: VocabularyWord[] = [
   "french": "froid (temps)",
   "german": "kalt (Wetter)",
   "vietnamese": "lạnh (thời tiết)",
-  "chinese": "冷 (天气)",
-  "korean": "춥다 (날씨)",
+  "chinese": "冷",
+  "korean": "춥다",
   "spanish": "frío (tiempo)",
   "level": "N5",
   "category": "adjective",
@@ -7440,7 +7440,7 @@ export const vocabularyData: VocabularyWord[] = [
   "english": "salad",
   "french": "salade",
   "german": "Salat",
-  "vietnamese": "xà lách, sa lát",
+  "vietnamese": "xà lách, rau trộn",
   "chinese": "沙拉",
   "korean": "샐러드",
   "spanish": "ensalada",
@@ -7457,7 +7457,7 @@ export const vocabularyData: VocabularyWord[] = [
       "german": "Ich esse Salat.",
       "vietnamese": "Tôi ăn xà lách.",
       "chinese": "我吃沙拉。",
-      "korean": "샐러드를 먹어요.",
+      "korean": "저는 샐러드를 먹어요.",
       "spanish": "Como ensalada."
     }
   ]
@@ -7472,7 +7472,7 @@ export const vocabularyData: VocabularyWord[] = [
   "german": "drei",
   "vietnamese": "ba",
   "chinese": "三",
-  "korean": "셋",
+  "korean": "삼",
   "spanish": "tres",
   "level": "N5",
   "category": "number",
@@ -7515,15 +7515,15 @@ export const vocabularyData: VocabularyWord[] = [
       "english": "I take a walk with my dog.",
       "french": "Je me promène avec mon chien.",
       "german": "Ich gehe mit meinem Hund spazieren.",
-      "vietnamese": "Tôi đi dạo với chó.",
+      "vietnamese": "Tôi đi dạo với chó của mình.",
       "chinese": "我和狗一起散步。",
-      "korean": "개와 산책해요.",
+      "korean": "저는 강아지와 산책해요.",
       "spanish": "Paseo con mi perro."
-      }
-    ]
-  },
-  {
-    "id": "shawaa",
+    }
+  ]
+},
+{
+  "id": "shawaa",
   "japanese": "シャワー",
   "hiragana": "しゃわー",
   "romaji": "shawaa",
