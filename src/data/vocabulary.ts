@@ -71,7 +71,7 @@ import meaningImage from '@/assets/meaning-imi.png';
 import youngersisterImage from '@/assets/youngersister-imouto.png';
 import unpleasantImage from '@/assets/unpleasant-iya.png';
 import entranceImage from '@/assets/entrance-iriguchi.png';
-import tobePeopleImage from '@/assets/tobe-iru-people.png';
+import tobePeopleImage from '@/assets/tobepeople-iru.png';
 import toneedImage from '@/assets/toneed-iru.png';
 import toputinImage from '@/assets/toputin-ireru.png';
 import colorImage from '@/assets/color-iro.png';
