@@ -65,6 +65,39 @@ import fivedaysImage from '@/assets/five-days-itsuka.png';
 import togetherImage from '@/assets/together-issho.png';
 import fiveImage from '@/assets/five-itsutsu.png';
 import alwaysImage from '@/assets/always-itsumo.png';
+import dogImage from '@/assets/dog-inu.png';
+import nowImage from '@/assets/now-ima.png';
+import meaningImage from '@/assets/meaning-imi.png';
+import youngersisterImage from '@/assets/youngersister-imouto.png';
+import unpleasantImage from '@/assets/unpleasant-iya.png';
+import entranceImage from '@/assets/entrance-iriguchi.png';
+import tobePeopleImage from '@/assets/tobe-iru-people.png';
+import toneedImage from '@/assets/toneed-iru.png';
+import toputinImage from '@/assets/toputin-ireru.png';
+import colorImage from '@/assets/color-iro.png';
+import variousImage from '@/assets/various-iroiro.png';
+import ontopofImage from '@/assets/ontopof-ue.png';
+import behindImage from '@/assets/behind-ushiro.png';
+import thinImage from '@/assets/thin-usui.png';
+import songImage from '@/assets/song-uta.png';
+import tosingImage from '@/assets/tosing-utau.png';
+import tobebornImage from '@/assets/tobeborn-umareru.png';
+import seaImage from '@/assets/sea-umi.png';
+import tosellImage from '@/assets/tosell-uru.png';
+import noisyImage from '@/assets/noisy-urusai.png';
+import jacketImage from '@/assets/jacket-uwagi.png';
+import pictureImage from '@/assets/picture-e.png';
+import movieImage from '@/assets/movie-eiga.png';
+import cinemaImage from '@/assets/cinema-eigakan.png';
+import englishImage from '@/assets/english-eigo.png';
+import yesImage from '@/assets/yes-ee.png';
+import stationImage from '@/assets/station-eki.png';
+import elevatorImage from '@/assets/elevator-erebeetaa.png';
+import pencilImage from '@/assets/pencil-enpitsu.png';
+import deliciousImage from '@/assets/delicious-oishii.png';
+import manyImage from '@/assets/many-ooi.png';
+import bigImage from '@/assets/big-ookii.png';
+import bigprefixImage from '@/assets/bigprefix-ookina.png';
 
 
 export interface VocabularyWord {
@@ -2139,6 +2172,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "animal",
     wordType: "noun",
+    imageUrl: dogImage,
     examples: [
       {
         japanese: "犬が走っています。",
@@ -2169,6 +2203,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "time",
     wordType: "noun",
+    imageUrl: nowImage,
     examples: [
       {
         japanese: "今行きます。",
@@ -2199,6 +2234,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "noun",
     wordType: "noun",
+    imageUrl: meaningImage,
     examples: [
       {
         japanese: "この言葉の意味は何ですか？",
@@ -2229,6 +2265,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "family",
     wordType: "noun",
+    imageUrl: youngersisterImage,
     examples: [
       {
         japanese: "妹は学生です。",
@@ -2259,6 +2296,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: unpleasantImage,
     examples: [
       {
         japanese: "それは嫌です。",
@@ -2289,6 +2327,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "place",
     wordType: "noun",
+    imageUrl: entranceImage,
     examples: [
       {
         japanese: "入口はこちらです。",
@@ -2319,6 +2358,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tobePeopleImage,
     examples: [
       {
         japanese: "猫が居ます。",
@@ -2349,6 +2389,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toneedImage,
     examples: [
       {
         japanese: "お金が要ります。",
@@ -2379,6 +2420,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: toputinImage,
     examples: [
       {
         japanese: "コーヒーに砂糖を入れる。",
@@ -2409,6 +2451,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "noun",
     wordType: "noun",
+    imageUrl: colorImage,
     examples: [
       {
         japanese: "好きな色は青です。",
@@ -2439,6 +2482,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: variousImage,
     examples: [
       {
         japanese: "いろいろな本があります。",
@@ -2469,6 +2513,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "location",
     wordType: "noun",
+    imageUrl: ontopofImage,
     examples: [
       {
         japanese: "机の上に猫がいる。",
@@ -2499,6 +2544,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "location",
     wordType: "noun",
+    imageUrl: behindImage,
     examples: [
       {
         japanese: "学校の後ろに公園があります。",
@@ -2529,6 +2575,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: thinImage,
     examples: [
       {
         japanese: "この本は薄いです。",
@@ -2559,6 +2606,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "music",
     wordType: "noun",
+    imageUrl: songImage,
     examples: [
       {
         japanese: "日本の歌を聞きます。",
@@ -2589,6 +2637,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tosingImage,
     examples: [
       {
         japanese: "カラオケで歌います。",
@@ -2619,6 +2668,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tobebornImage,
     examples: [
       {
         japanese: "子どもが生まれました。",
@@ -2649,6 +2699,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "nature",
     wordType: "noun",
+    imageUrl: seaImage,
     examples: [
       {
         japanese: "夏に海へ行きます。",
@@ -2679,6 +2730,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "verb",
     wordType: "verb",
+    imageUrl: tosellImage,
     examples: [
       {
         japanese: "本を売ります。",
@@ -2709,6 +2761,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: noisyImage,
     examples: [
       {
         japanese: "子どもの声がうるさい。",
@@ -2739,6 +2792,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "clothing",
     wordType: "noun",
+    imageUrl: jacketImage,
     examples: [
       {
         japanese: "上着を着てください。",
@@ -2769,6 +2823,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "art",
     wordType: "noun",
+    imageUrl: pictureImage,
     examples: [
       {
         japanese: "きれいな絵を見ました。",
@@ -2799,6 +2854,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "entertainment",
     wordType: "noun",
+    imageUrl: movieImage,
     examples: [
       {
         japanese: "映画を見に行きます。",
@@ -2829,6 +2885,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "place",
     wordType: "noun",
+    imageUrl: cinemaImage,
     examples: [
       {
         japanese: "映画館は駅の近くです。",
@@ -2859,6 +2916,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "language",
     wordType: "noun",
+    imageUrl: englishImage,
     examples: [
       {
         japanese: "英語を勉強しています。",
@@ -2889,6 +2947,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "expression",
     wordType: "interjection",
+     imageUrl: yesImage,
     examples: [
       {
         japanese: "ええ、そうです。",
@@ -2919,6 +2978,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "place",
     wordType: "noun",
+    imageUrl: stationImage,
     examples: [
       {
         japanese: "駅で友達に会います。",
@@ -2949,6 +3009,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "building",
     wordType: "noun",
+    imageUrl: elevatorImage,
     examples: [
       {
         japanese: "エレベーターで5階へ行きます。",
@@ -2979,6 +3040,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "stationery",
     wordType: "noun",
+    imageUrl: pencilImage,
     examples: [
       {
         japanese: "鉛筆で書きます。",
@@ -3009,6 +3071,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: deliciousImage,
     examples: [
       {
         japanese: "このケーキはおいしいです。",
@@ -3039,6 +3102,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: manyImage,
     examples: [
       {
         japanese: "公園に人が多いです。",
@@ -3069,6 +3133,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: bigImage,
     examples: [
       {
         japanese: "大きい犬がいます。",
@@ -3099,6 +3164,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "adjective",
     wordType: "adjective",
+    imageUrl: bigprefixImage,
     examples: [
       {
         japanese: "大きな家を建てました。",
