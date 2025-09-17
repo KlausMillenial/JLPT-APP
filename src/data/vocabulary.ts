@@ -193,7 +193,6 @@ import socksImage from '@/assets/socks-kutsushita.png';
 import countryImage from '@/assets/country-kuni.png';
 import cloudyWeatherImage from '@/assets/cloudyWeather-kumori.png';
 import becomeCloudyImage from '@/assets/becomeCloudy-kumoru.png';
-import policemanImage from '@/assets/policeman-keikan.png';
 import thisMorningImage from '@/assets/thisMorning-kesa.png';
 import eraseTurnOffImage from '@/assets/eraseTurnOff-kesu.png';
 import splendidEnoughImage from '@/assets/splendidEnough-kekkou.png';
@@ -201,7 +200,6 @@ import marriageImage from '@/assets/marriage-kekkon.png';
 import mondayImage from '@/assets/monday-getsuyoubi.png';
 import entryHallImage from '@/assets/entryHall-genkan.png';
 import healthEnergyImage from '@/assets/healthEnergy-genki.png';
-import fiveImage from '@/assets/five-go.png';
 import parkImage from '@/assets/park-kouen.png';
 import intersectionImage from '@/assets/intersection-kousaten.png';
 import blackTeaImage from '@/assets/blackTea-koucha.png';
@@ -14721,26 +14719,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "keikan",
-    japanese: "警官",
-    hiragana: "けいかん",
-    romaji: "keikan",
-    english: "policeman",
-    french: "policier",
-    level: "N5",
-    category: "people",
-    wordType: "noun",
-    examples: [
-      {
-        japanese: "警官に道を聞きました。",
-        hiragana: "けいかんにみちをききました。",
-        romaji: "Keikan ni michi o kikimashita.",
-        english: "I asked the policeman for directions.",
-        french: "J'ai demandé mon chemin au policier."
-      }
-    ]
-  },
-  {
     id: "kesa",
     japanese: "今朝",
     hiragana: "けさ",
@@ -14877,26 +14855,6 @@ export const vocabularyData: VocabularyWord[] = [
         romaji: "Ogenki desu ka?",
         english: "How are you?",
         french: "Comment allez-vous ?"
-      }
-    ]
-  },
-  {
-    id: "go_number",
-    japanese: "五",
-    hiragana: "ご",
-    romaji: "go",
-    english: "five",
-    french: "cinq",
-    level: "N5",
-    category: "number",
-    wordType: "number",
-    examples: [
-      {
-        japanese: "五人の友達がいます。",
-        hiragana: "ごにんのともだちがいます。",
-        romaji: "Go-nin no tomodachi ga imasu.",
-        english: "I have five friends.",
-        french: "J'ai cinq amis."
       }
     ]
   },
