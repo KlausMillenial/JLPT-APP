@@ -357,6 +357,7 @@ export const vocabularyData: VocabularyWord[] = [
     level: "N5",
     category: "color",
     wordType: "noun",
+    imageUrl: redImage,
     examples: [
       {
         japanese: "赤が好きです。",
