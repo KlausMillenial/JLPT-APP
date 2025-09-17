@@ -6,6 +6,7 @@ import { ApiKeyDialog } from './ApiKeyDialog';
 import { QuizApp } from './QuizApp';
 import { SwipeQuiz } from './SwipeQuiz';
 import { LeonardoApiKeyDialog } from './LeonardoApiKeyDialog';
+import { BatchImageGenerator } from './BatchImageGenerator';
 
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
@@ -278,8 +279,31 @@ export const VocabularyApp = () => {
     return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
-  if (currentView === 'swipe-quiz') {
-    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
+  if (currentView === 'batch-images') {
+    return (
+      <div className="min-h-screen bg-background">
+        <header className="gradient-primary text-primary-foreground py-8">
+          <div className="container mx-auto px-4">
+            <div className="text-center">
+              <Button
+                variant="outline"
+                onClick={() => setCurrentView('vocabulary')}
+                className="mb-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
+              >
+                ← Back to Vocabulary
+              </Button>
+              <h1 className="text-3xl font-bold">Batch Image Generation</h1>
+              <p className="text-lg opacity-90 mt-2">
+                Pre-generate images for faster loading
+              </p>
+            </div>
+          </div>
+        </header>
+        <main className="container mx-auto px-4 py-12">
+          <BatchImageGenerator />
+        </main>
+      </div>
+    );
   }
 
 
