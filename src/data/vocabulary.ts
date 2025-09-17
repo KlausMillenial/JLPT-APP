@@ -7973,7 +7973,7 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    ""id": "shinshitsu",
+    "id": "shinshitsu",
   "japanese": "寝室",
   "hiragana": "しんしつ",
   "romaji": "shinshitsu",
@@ -8208,7 +8208,7 @@ export const vocabularyData: VocabularyWord[] = [
       "vietnamese": "Tôi đã đọc thần thoại Nhật Bản.",
       "chinese": "我读了日本的神话。",
       "korean": "저는 일본 신화를 읽었어요.",
-      "spanish": "Leí mitos japoneses
+      "spanish": "Leí mitos japoneses."
       }
     ]
   },
