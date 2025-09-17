@@ -162,13 +162,30 @@ export const VocabularyCard = ({ word, language, isInverseMode = false }: Vocabu
   const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
 
   return (
-    <div className="w-full h-[500px] min-h-[500px]" style={{ perspective: '1000px' }}>
+    <div className="w-full" style={{ height: '500px', perspective: '1000px' }}>
       <div 
-        className={`card-flip cursor-pointer w-full h-[500px] min-h-[500px] transition-smooth ${isFlipped ? 'flipped' : ''}`}
+        className={`card-flip cursor-pointer w-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
+        style={{ 
+          transformStyle: 'preserve-3d',
+          transition: 'transform 0.6s',
+          height: '500px',
+          minHeight: '500px'
+        }}
       >
         {/* Front of card - Shows based on inverse mode */}
-        <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
+        <Card 
+          className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden"
+          style={{ 
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '500px',
+            minHeight: '500px',
+            backfaceVisibility: 'hidden'
+          }}
+        >
           <div className="flex flex-col h-full">
             {/* Image section - Larger portion of the card */}
             <div className="h-64 relative overflow-hidden">
@@ -300,7 +317,19 @@ export const VocabularyCard = ({ word, language, isInverseMode = false }: Vocabu
         </Card>
 
         {/* Back of card - Shows opposite of front based on mode */}
-        <Card className="card-back gradient-primary text-primary-foreground shadow-card p-6 border-0">
+        <Card 
+          className="card-back gradient-primary text-primary-foreground shadow-card p-6 border-0"
+          style={{ 
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '500px',
+            minHeight: '500px',
+            backfaceVisibility: 'hidden',
+            transform: 'rotateY(180deg)'
+          }}
+        >
           <div className="flex flex-col h-full">
             
             {/* Content - Shows Translation or Japanese based on inverse mode */}

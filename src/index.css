@@ -176,6 +176,8 @@
     min-height: 500px;
     backface-visibility: hidden;
     border-radius: var(--radius);
+    display: flex;
+    flex-direction: column;
   }
 
   .card-back {
