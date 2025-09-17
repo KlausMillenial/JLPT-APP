@@ -169,8 +169,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         {/* Front of card - Translation */}
         <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
           <div className="flex flex-col h-full">
-            {/* Image section - Half of the card */}
-            <div className="h-48 relative overflow-hidden">
+            {/* Image section - Larger portion of the card */}
+            <div className="h-64 relative overflow-hidden">
               {isGeneratingImage ? (
                 <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
                   <Loader2 className="w-12 h-12 animate-spin text-primary mb-3" />
@@ -183,13 +183,13 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                 <img 
                   src={generatedImageUrl} 
                   alt={translation}
-                  className="w-full h-full object-cover animate-fade-in"
+                  className="w-full h-full object-cover animate-fade-in min-h-full"
                 />
               ) : word.imageUrl ? (
                 <img 
                   src={word.imageUrl} 
                   alt={translation}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover min-h-full"
                 />
               ) : LeonardoImageService.getApiKey() ? (
                 <div 
