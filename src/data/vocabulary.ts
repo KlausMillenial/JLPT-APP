@@ -4545,7 +4545,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
-    imageUrl: foreigncountryImage
+    imageUrl: foreigncountryImage,
     "examples": [
       {
         "japanese": "外国へ旅行します。",
@@ -4731,7 +4731,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun"
-      imageUrl: cameraImage,,
+      imageUrl: cameraImage,
     "examples": [
       {
         "japanese": "カメラで写真を撮ります。",
