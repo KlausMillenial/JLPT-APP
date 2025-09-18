@@ -22,6 +22,8 @@ import { useDebounce } from '@/hooks/useDebounce';
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
 export const VocabularyApp = () => {
+  console.log('VocabularyApp: Component initializing...');
+  
   const [currentView, setCurrentView] = useState('vocabulary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('all');
@@ -32,23 +34,40 @@ export const VocabularyApp = () => {
   const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
   const [isLoading, setIsLoading] = useState(true);
   
+  console.log('VocabularyApp: State initialized, about to process vocabulary data...');
   
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
   const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
     // Use deduplicated vocabulary data - memoized to run only once
-    return removeDuplicatesFromVocabulary();
+    console.log('VocabularyApp: Processing vocabulary data...');
+    try {
+      const result = removeDuplicatesFromVocabulary();
+      console.log('VocabularyApp: Successfully processed', result.length, 'vocabulary entries');
+      return result;
+    } catch (error) {
+      console.error('VocabularyApp: Error processing vocabulary data:', error);
+      return [];
+    }
   });
 
   // Log stats only once on component mount
   useEffect(() => {
+    console.log('VocabularyApp: useEffect running...');
     const uniqueData = translatedVocabulary;
     console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
     if (process.env.NODE_ENV === 'development') {
-      logVocabularyStats();
+      try {
+        logVocabularyStats();
+      } catch (error) {
+        console.error('Error logging vocabulary stats:', error);
+      }
     }
     // Set loading to false after data is ready
-    setTimeout(() => setIsLoading(false), 100);
+    setTimeout(() => {
+      console.log('VocabularyApp: Setting loading to false');
+      setIsLoading(false);
+    }, 100);
   }, []); // Empty dependency array - runs only once
 
   // Function to log all words to console
