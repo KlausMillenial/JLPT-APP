@@ -4730,8 +4730,8 @@ export const vocabularyData: VocabularyWord[] = [
     "spanish": "cámara",
     "level": "N5",
     "category": "object",
-    "wordType": "noun"
-      imageUrl: cameraImage,
+    "wordType": "noun",
+    "imageUrl": cameraImage,
     "examples": [
       {
         "japanese": "カメラで写真を撮ります。",
