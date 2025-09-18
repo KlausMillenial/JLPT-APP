@@ -70,9 +70,9 @@ export const VocabularyFilters = ({
   return (
     <div className="space-y-4 mb-8">
       {/* Language Selector */}
-      <div className="flex justify-center">
+      <div className="flex justify-center px-4">
         <Select value={language} onValueChange={(value: LanguageOption) => onLanguageChange(value)}>
-          <SelectTrigger className="w-48 bg-background border-border">
+          <SelectTrigger className="w-full max-w-48 bg-background border-border">
             <div className="flex items-center">
               <Languages className="w-4 h-4 mr-2" />
               <SelectValue />
@@ -89,7 +89,7 @@ export const VocabularyFilters = ({
       </div>
 
       {/* Search and Filters */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
         {/* Search */}
         <div className="relative">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />

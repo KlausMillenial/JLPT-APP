@@ -27,7 +27,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
   const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
 
   return (
-    <div className="perspective-1000 w-full h-[500px]">
+    <div className="perspective-1000 w-full h-[400px] md:h-[500px]">
       <div 
         className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
         onClick={handleCardClick}
@@ -36,7 +36,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
           <div className="flex flex-col h-full">
             {/* Image section - Larger portion of the card */}
-            <div className="h-64 relative overflow-hidden">
+            <div className="h-48 md:h-64 relative overflow-hidden">
               {word.imageUrl ? (
                 <img 
                   src={word.imageUrl} 
@@ -53,9 +53,9 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
             </div>
             
             {/* Content section - Other half of the card */}
-            <div className="flex-1 p-6 flex flex-col">
+            <div className="flex-1 p-4 md:p-6 flex flex-col">
               {/* Header with badges */}
-              <div className="flex gap-2 mb-4">
+              <div className="flex flex-wrap gap-1 md:gap-2 mb-3 md:mb-4">
                 <Badge variant="secondary" className="text-xs">
                   {word.level}
                 </Badge>
@@ -69,8 +69,8 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
               
               {/* Translation content */}
               <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-                <div className="flex items-center justify-center gap-3">
-                  <h2 className="text-2xl font-bold text-primary">
+                <div className="flex items-center justify-center gap-2 md:gap-3">
+                  <h2 className="text-lg md:text-2xl font-bold text-primary text-center">
                     {translation}
                   </h2>
                   <VoiceButton 
@@ -109,18 +109,18 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
         </Card>
 
         {/* Back of card - Japanese */}
-        <Card className="card-back gradient-primary text-primary-foreground shadow-card p-6 border-0">
+        <Card className="card-back gradient-primary text-primary-foreground shadow-card p-4 md:p-6 border-0">
           <div className="flex flex-col h-full">
             
             {/* Japanese content */}
             <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
               <div className="flex items-center justify-center">
-                <h2 className="text-4xl font-bold mb-2">
+                <h2 className="text-2xl md:text-4xl font-bold mb-2 text-center">
                   {word.japanese}
                 </h2>
               </div>
-              <div className="flex items-center justify-center gap-3">
-                <p className="text-xl text-white/90">
+              <div className="flex items-center justify-center gap-2 md:gap-3">
+                <p className="text-lg md:text-xl text-white/90 text-center">
                   {word.hiragana}
                 </p>
                 <VoiceButton 
@@ -131,7 +131,7 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
                   className="text-white hover:bg-white/20"
                 />
               </div>
-              <p className="text-lg text-white/75 italic">
+              <p className="text-sm md:text-lg text-white/75 italic text-center">
                 {word.romaji}
               </p>
               

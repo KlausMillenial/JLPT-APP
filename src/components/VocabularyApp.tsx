@@ -214,58 +214,58 @@ export const VocabularyApp = () => {
           
           <div className="text-center space-y-4">
             <div className="flex justify-center items-center gap-3 mb-4">
-              <BookOpen className="w-10 h-10" />
-              <h1 className="text-4xl md:text-5xl font-bold">
+              <BookOpen className="w-8 h-8 md:w-10 md:h-10" />
+              <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold">
                 JLPT Vocabulary
               </h1>
             </div>
             
             {/* Navigation Tabs */}
-            <div className="flex justify-center gap-4 mb-6">
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 px-2">
               <Button
                 variant="outline"
                 onClick={() => setCurrentView('vocabulary')}
                 className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
                   currentView === 'vocabulary' ? "bg-white/20" : ""
                 )}
               >
-                <BookOpen className="w-4 h-4 mr-2" />
-                Study Cards
+                <BookOpen className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+                <span className="hidden sm:inline">Study </span>Cards
               </Button>
               <Button
                 variant="outline"
                 onClick={() => setCurrentView('quiz')}
                 className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
                   currentView === 'quiz' ? "bg-white/20" : ""
                 )}
               >
-                <Brain className="w-4 h-4 mr-2" />
-                Take Quiz
+                <Brain className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+                <span className="hidden sm:inline">Take </span>Quiz
               </Button>
               <Button
                 variant="outline"
                 onClick={() => setCurrentView('swipe-quiz')}
                 className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20",
+                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
                   currentView === 'swipe-quiz' ? "bg-white/20" : ""
                 )}
               >
-                <Move className="w-4 h-4 mr-2" />
-                Swipe Quiz
+                <Move className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+                Swipe
               </Button>
               <Button
                 variant="outline"
                 onClick={handleShowAllWords}
-                className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+                className="bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm"
                 title="View complete word list in console"
               >
-                <List className="w-4 h-4 mr-2" />
-                View All Words
+                <List className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+                <span className="hidden md:inline">View All </span>Words
               </Button>
             </div>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto">
+            <p className="text-sm md:text-xl opacity-90 max-w-2xl mx-auto px-4">
               {language === 'english' 
                 ? 'Master Japanese vocabulary for JLPT exams with interactive flashcards and voice pronunciation'
                 : 'Maîtrisez le vocabulaire japonais pour les examens JLPT avec des cartes interactives et prononciation vocale'
@@ -273,23 +273,23 @@ export const VocabularyApp = () => {
             </p>
             
             {/* Stats */}
-            <div className="flex flex-wrap justify-center gap-4 mt-8">
-              <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
-                <BookOpen className="w-5 h-5" />
+            <div className="flex flex-wrap justify-center gap-2 md:gap-4 mt-6 md:mt-8 px-4">
+              <div className="flex items-center gap-1 md:gap-2 bg-white/10 rounded-lg px-2 md:px-4 py-2 text-sm">
+                <BookOpen className="w-4 h-4 md:w-5 md:h-5" />
                 <span className="font-semibold">{stats.total}</span>
                 <span className="opacity-75">
                   {language === 'english' ? 'words' : 'mots'}
                 </span>
               </div>
-              <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
-                <Users className="w-5 h-5" />
+              <div className="flex items-center gap-1 md:gap-2 bg-white/10 rounded-lg px-2 md:px-4 py-2 text-sm">
+                <Users className="w-4 h-4 md:w-5 md:h-5" />
                 <span className="font-semibold">{stats.categories}</span>
-                <span className="opacity-75">
+                <span className="opacity-75 hidden sm:inline">
                   {language === 'english' ? 'categories' : 'catégories'}
                 </span>
               </div>
-              <div className="flex items-center gap-2 bg-white/10 rounded-lg px-4 py-2">
-                <Star className="w-5 h-5" />
+              <div className="flex items-center gap-1 md:gap-2 bg-white/10 rounded-lg px-2 md:px-4 py-2 text-sm">
+                <Star className="w-4 h-4 md:w-5 md:h-5" />
                 <span className="opacity-75">N5 - N1</span>
               </div>
             </div>
@@ -334,7 +334,7 @@ export const VocabularyApp = () => {
           </div>
         ) : paginatedWords.length > 0 ? (
           <>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
               {paginatedWords.map((word) => (
                 <VocabularyCard 
                   key={word.id} 
@@ -346,16 +346,17 @@ export const VocabularyApp = () => {
             
             {/* Pagination Controls */}
             {totalPages > 1 && (
-              <div className="flex justify-center items-center gap-4 mt-12">
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mt-8 md:mt-12 px-4">
                 <Button
                   variant="outline"
                   onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
                   disabled={currentPage === 1}
+                  className="w-full sm:w-auto"
                 >
                   Previous
                 </Button>
                 
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 order-first sm:order-none">
                   <span className="text-sm text-muted-foreground">
                     Page {currentPage} of {totalPages}
                   </span>
@@ -365,6 +366,7 @@ export const VocabularyApp = () => {
                   variant="outline"
                   onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
                   disabled={currentPage === totalPages}
+                  className="w-full sm:w-auto"
                 >
                   Next
                 </Button>
