@@ -2,15 +2,12 @@ import { useState, useMemo, useCallback, useEffect } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
-
 import { QuizApp } from './QuizApp';
 import { SwipeQuiz } from './SwipeQuiz';
-import { LeonardoApiKeyDialog } from './LeonardoApiKeyDialog';
-import { BatchImageGenerator } from './BatchImageGenerator';
 
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
-import { BookOpen, Users, Star, Brain, Loader2, List, Move, ImageIcon, Globe } from 'lucide-react';
+import { BookOpen, Users, Star, Brain, Loader2, List, Move } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
@@ -22,8 +19,6 @@ import { useDebounce } from '@/hooks/useDebounce';
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
 export const VocabularyApp = () => {
-  console.log('VocabularyApp: Component initializing...');
-  
   const [currentView, setCurrentView] = useState('vocabulary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('all');
@@ -31,44 +26,25 @@ export const VocabularyApp = () => {
   const [language, setLanguage] = useState<LanguageOption>('english');
   const [isTranslating, setIsTranslating] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(12); // Reduced to 12 for better performance
+  const [itemsPerPage] = useState(12);
   const [isLoading, setIsLoading] = useState(true);
-  
-  console.log('VocabularyApp: State initialized, about to process vocabulary data...');
   
   // Debounce search input for better performance
   const debouncedSearchTerm = useDebounce(searchTerm, 300);
   const [translatedVocabulary, setTranslatedVocabulary] = useState(() => {
-    // Use deduplicated vocabulary data - memoized to run only once
-    console.log('VocabularyApp: Processing vocabulary data...');
-    try {
-      const result = removeDuplicatesFromVocabulary();
-      console.log('VocabularyApp: Successfully processed', result.length, 'vocabulary entries');
-      return result;
-    } catch (error) {
-      console.error('VocabularyApp: Error processing vocabulary data:', error);
-      return [];
-    }
+    return removeDuplicatesFromVocabulary();
   });
 
   // Log stats only once on component mount
   useEffect(() => {
-    console.log('VocabularyApp: useEffect running...');
     const uniqueData = translatedVocabulary;
     console.log('Loaded deduplicated vocabulary with', uniqueData.length, 'entries');
     if (process.env.NODE_ENV === 'development') {
-      try {
-        logVocabularyStats();
-      } catch (error) {
-        console.error('Error logging vocabulary stats:', error);
-      }
+      logVocabularyStats();
     }
     // Set loading to false after data is ready
-    setTimeout(() => {
-      console.log('VocabularyApp: Setting loading to false');
-      setIsLoading(false);
-    }, 100);
-  }, []); // Empty dependency array - runs only once
+    setTimeout(() => setIsLoading(false), 100);
+  }, []);
 
   // Function to log all words to console
   const handleShowAllWords = () => {
@@ -195,84 +171,6 @@ export const VocabularyApp = () => {
     }
   }, [translatedVocabulary, filteredWords, currentPage, itemsPerPage]);
 
-  const bulkTranslateAll = useCallback(async () => {
-    const apiKey = TranslationService.getApiKey();
-    if (!apiKey) {
-      toast.error('Please set up your OpenAI API key first');
-      return;
-    }
-
-    const targetLanguages = ['german', 'vietnamese', 'chinese', 'korean', 'spanish'] as const;
-    
-    // Find all words that need translation in any language
-    const wordsNeedingTranslation = translatedVocabulary.filter(word => 
-      targetLanguages.some(lang => !word[lang])
-    );
-
-    if (wordsNeedingTranslation.length === 0) {
-      toast.success('All vocabulary entries already translated!');
-      return;
-    }
-
-    setIsTranslating(true);
-    toast.info(`Starting bulk translation of ${wordsNeedingTranslation.length} entries...`);
-
-    const translationService = new TranslationService(apiKey);
-    const updatedWords = [...translatedVocabulary];
-    let completedCount = 0;
-
-    // Process in smaller batches with longer delays for reliability
-    const batchSize = 3;
-    const batches = [];
-    for (let i = 0; i < wordsNeedingTranslation.length; i += batchSize) {
-      batches.push(wordsNeedingTranslation.slice(i, i + batchSize));
-    }
-
-    try {
-      for (let batchIndex = 0; batchIndex < batches.length; batchIndex++) {
-        const batch = batches[batchIndex];
-        
-        // Process batch in parallel
-        const batchPromises = batch.map(async (word) => {
-          try {
-            const translatedWord = await translationService.translateVocabularyEntry(word);
-            return { success: true, word: translatedWord };
-          } catch (error) {
-            console.error(`Failed to translate ${word.id}:`, error);
-            return { success: false, word };
-          }
-        });
-
-        const batchResults = await Promise.all(batchPromises);
-        
-        // Update the words array
-        batchResults.forEach(result => {
-          const wordIndex = updatedWords.findIndex(w => w.id === result.word.id);
-          if (wordIndex !== -1) {
-            updatedWords[wordIndex] = result.word;
-            if (result.success) completedCount++;
-          }
-        });
-        
-        // Update progress and state more frequently
-        const progressPercentage = Math.round((completedCount / wordsNeedingTranslation.length) * 100);
-        toast.info(`Translation progress: ${progressPercentage}% (${completedCount}/${wordsNeedingTranslation.length})`);
-        setTranslatedVocabulary([...updatedWords]);
-        
-        // Longer delay between batches for more reliable translation
-        if (batchIndex < batches.length - 1) {
-          await new Promise(resolve => setTimeout(resolve, 500));
-        }
-      }
-
-      toast.success(`Bulk translation complete! Successfully translated ${completedCount} entries.`);
-    } catch (error) {
-      console.error('Bulk translation error:', error);
-      toast.error('Bulk translation failed');
-    } finally {
-      setIsTranslating(false);
-    }
-  }, [translatedVocabulary]);
 
   const handleLanguageChange = useCallback((newLanguage: LanguageOption) => {
     setLanguage(newLanguage);
@@ -302,32 +200,6 @@ export const VocabularyApp = () => {
     return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
   }
 
-  if (currentView === 'batch-images') {
-    return (
-      <div className="min-h-screen bg-background">
-        <header className="gradient-primary text-primary-foreground py-8">
-          <div className="container mx-auto px-4">
-            <div className="text-center">
-              <Button
-                variant="outline"
-                onClick={() => setCurrentView('vocabulary')}
-                className="mb-4 bg-white/10 border-white/20 text-white hover:bg-white/20"
-              >
-                ← Back to Vocabulary
-              </Button>
-              <h1 className="text-3xl font-bold">Batch Image Generation</h1>
-              <p className="text-lg opacity-90 mt-2">
-                Pre-generate images for faster loading
-              </p>
-            </div>
-          </div>
-        </header>
-        <main className="container mx-auto px-4 py-12">
-          <BatchImageGenerator />
-        </main>
-      </div>
-    );
-  }
 
 
   return (
@@ -335,29 +207,9 @@ export const VocabularyApp = () => {
       {/* Header */}
       <header className="gradient-primary text-primary-foreground py-12">
         <div className="container mx-auto px-4">
-          {/* API Key Setup and Bulk Translation in top right */}
+          {/* API Key Setup in top right */}
           <div className="flex justify-end gap-2 mb-4">
-            <Button 
-              variant="outline" 
-              size="sm" 
-              onClick={bulkTranslateAll}
-              disabled={isTranslating}
-              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
-            >
-              {isTranslating ? (
-                <>
-                  <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-                  Translating...
-                </>
-              ) : (
-                <>
-                  <Globe className="w-4 h-4 mr-2" />
-                  Bulk Translate All
-                </>
-              )}
-            </Button>
             <ApiKeyDialog />
-            <LeonardoApiKeyDialog />
           </div>
           
           <div className="text-center space-y-4">
@@ -541,8 +393,8 @@ export const VocabularyApp = () => {
         <div className="container mx-auto px-4 text-center text-muted-foreground">
           <p>
             {language === 'english' 
-              ? 'Click cards to reveal translations • Click 🔊 buttons for pronunciation • Generate images for visual learning • Setup API keys in settings'
-              : 'Cliquez sur les cartes pour les traductions • Cliquez sur 🔊 pour la prononciation • Générez des images pour l\'apprentissage visuel • Configurez vos clés API'
+              ? 'Click cards to reveal translations • Click 🔊 buttons for pronunciation'
+              : 'Cliquez sur les cartes pour les traductions • Cliquez sur 🔊 pour la prononciation'
             }
           </p>
         </div>
