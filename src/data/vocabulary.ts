@@ -4545,6 +4545,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
+    imageUrl: foreigncountryImage
     "examples": [
       {
         "japanese": "外国へ旅行します。",
@@ -4575,6 +4576,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "life",
     "wordType": "noun",
+      imageUrl: householdImage,
     "examples": [
       {
         "japanese": "家庭を大切にします。",
@@ -4605,6 +4607,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "place",
     "wordType": "noun",
+      imageUrl: cornerImage,
     "examples": [
       {
         "japanese": "角で待ちます。",
@@ -4635,6 +4638,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+      imageUrl: bagImage,
     "examples": [
       {
         "japanese": "新しいかばんを買いました。",
@@ -4665,6 +4669,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+      imageUrl: vaseImage,
     "examples": [
       {
         "japanese": "花瓶に花を入れました。",
@@ -4695,6 +4700,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+      imageUrl: paperImage,
     "examples": [
       {
         "japanese": "紙に名前を書きます。",
@@ -4724,7 +4730,8 @@ export const vocabularyData: VocabularyWord[] = [
     "spanish": "cámara",
     "level": "N5",
     "category": "object",
-    "wordType": "noun",
+    "wordType": "noun"
+      imageUrl: cameraImage,,
     "examples": [
       {
         "japanese": "カメラで写真を撮ります。",
@@ -4755,6 +4762,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "time",
     "wordType": "noun",
+      imageUrl: tuesdayImage,
     "examples": [
       {
         "japanese": "火曜日に会いましょう。",
@@ -4785,6 +4793,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "taste",
     "wordType": "adjective",
+      imageUrl: spicyImage,
     "examples": [
       {
         "japanese": "カレーは辛いです。",
@@ -4815,6 +4824,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "body parts",
     "wordType": "noun",
+      imageUrl: spicyImage,
     "examples": [
       {
         "japanese": "体が疲れています。",
@@ -4845,6 +4855,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
+      imageUrl: borrowImage,
     "examples": [
       {
         "japanese": "友達に本を借りました。",
@@ -4875,6 +4886,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
+      imageUrl: lightImage,
     "examples": [
       {
         "japanese": "この箱は軽いです。",
@@ -4905,6 +4917,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "food",
     "wordType": "noun",
+      imageUrl: curryImage,
     "examples": [
       {
         "japanese": "カレーを食べます。",
@@ -4935,6 +4948,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+      imageUrl: calendarImage,
     "examples": [
       {
         "japanese": "カレンダーを見ます。",
@@ -4965,6 +4979,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "nature",
     "wordType": "noun",
+      imageUrl: riverImage,
     "examples": [
       {
         "japanese": "川で泳ぎます。",
@@ -4995,6 +5010,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
+      imageUrl: cuteImage,
     "examples": [
       {
         "japanese": "その猫はかわいいです。",
@@ -5025,6 +5041,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "language",
     "wordType": "noun",
+      imageUrl: chinesecharacterImage,
     "examples": [
       {
         "japanese": "漢字を勉強します。",
@@ -5055,6 +5072,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "nature",
     "wordType": "noun",
+      imageUrl: treeImage,
     "examples": [
       {
         "japanese": "庭に木があります。",
@@ -5085,6 +5103,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "color",
     "wordType": "noun",
+      imageUrl: yellowImage,
     "examples": [
       {
         "japanese": "黄色が好きです。",
@@ -5115,6 +5134,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "color",
     "wordType": "adjective",
+      imageUrl: yellowadjectiveImage,
     "examples": [
       {
         "japanese": "黄色い花があります。",
@@ -5145,6 +5165,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
+      imageUrl: disappearImage,
     "examples": [
       {
         "japanese": "電気が消えました。",
@@ -5175,6 +5196,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
+      imageUrl: listenImage,
     "examples": [
       {
         "japanese": "音楽を聞きます。",
@@ -5205,6 +5227,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "geography",
     "wordType": "noun",
+      imageUrl: northImage,
     "examples": [
       {
         "japanese": "北海道は日本の北にあります。",
@@ -5235,6 +5258,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "music",
     "wordType": "noun",
+      imageUrl: guitarImage,
     "examples": [
       {
         "japanese": "ギターを弾きます。",
@@ -5265,6 +5289,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
+      imageUrl: dirtyImage,
     "examples": [
       {
         "japanese": "部屋が汚いです。",
@@ -5295,6 +5320,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "place",
     "wordType": "noun",
+      imageUrl: coffeeshopImage,
     "examples": [
       {
         "japanese": "友達と喫茶店に行きます。",
@@ -5325,6 +5351,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+       imageUrl: postagestampImage,
     "examples": [
       {
         "japanese": "切手を買います。",
@@ -5355,6 +5382,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "object",
     "wordType": "noun",
+      imageUrl: ticketImage,
     "examples": [
       {
         "japanese": "電車の切符を買いました。",
@@ -5385,6 +5413,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "time",
     "wordType": "noun",
+      imageUrl: yesterdayImage,
     "examples": [
       {
         "japanese": "昨日は雨でした。",
@@ -5415,6 +5444,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "number",
     "wordType": "noun",
+      imageUrl: nineImage,
     "examples": [
       {
         "japanese": "九人の学生がいます。",
@@ -5445,6 +5475,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "food",
     "wordType": "noun",
+      imageUrl: beefImage,
     "examples": [
       {
         "japanese": "牛肉を食べます。",
@@ -5475,6 +5506,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "food",
     "wordType": "noun",
+      imageUrl: milkImage,
     "examples": [
       {
         "japanese": "毎朝牛乳を飲みます。",
@@ -5505,6 +5537,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "time",
     "wordType": "noun",
+      imageUrl: todayImage,
     "examples": [
       {
         "japanese": "今日は暑いです。",
@@ -5535,6 +5568,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "place",
     "wordType": "noun",
+      imageUrl: classroomImage,
     "examples": [
       {
         "japanese": "教室に学生がいます。",
@@ -5565,6 +5599,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "family",
     "wordType": "noun",
+      imageUrl: siblingsImage,
     "examples": [
       {
         "japanese": "兄弟が三人います。",
@@ -5595,6 +5630,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "time",
     "wordType": "noun",
+      imageUrl: lastyearImage,
     "examples": [
       {
         "japanese": "去年日本に行きました。",
@@ -5625,6 +5661,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "adjective",
     "wordType": "adjective",
+      imageUrl: dislikeImage,
     "examples": [
       {
         "japanese": "私は納豆が嫌いです。",
@@ -5655,6 +5692,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "verb",
     "wordType": "verb",
+      imageUrl: cutImage,
     "examples": [
       {
         "japanese": "紙を切ります。",
