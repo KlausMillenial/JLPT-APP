@@ -1,5 +1,5 @@
 // Only importing images that actually exist
-import morningImage from '@/assets/morning-asa.png';
+import "morningImage" from '@/assets/morning-asa.png';
 import nightImage from '@/assets/night-yoru.jpg';
 import bookImage from '@/assets/book-hon.png';
 import eatImage from '@/assets/eat-taberu.png';
