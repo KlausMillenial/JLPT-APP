@@ -16742,7 +16742,7 @@ export const vocabularyData: VocabularyWord[] = [
     english: "to be troubled; to have difficulty",
     french: "être en difficulté; être embarrassé",
     german: "schwierig",
-    spanish: "困る en español se traduce como "estar en apuros" o "tener problemas".",
+    spanish: "困る en español se traduce como \"estar en apuros\" o \"tener problemas\".",
     chinese: "困扰",
     korean: "곤란하다",
     vietnamese: "Khó xử",
