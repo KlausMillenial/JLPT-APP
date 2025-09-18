@@ -14135,26 +14135,6 @@ export const vocabularyData: VocabularyWord[] = [
     ]
   },
   {
-    id: "kamera",
-    japanese: "カメラ",
-    hiragana: "かめら",
-    romaji: "kamera",
-    english: "camera",
-    french: "appareil photo",
-    level: "N5",
-    category: "object",
-    wordType: "noun",
-    examples: [
-      {
-        japanese: "カメラで写真を撮ります。",
-        hiragana: "かめらでしゃしんをとります。",
-        romaji: "Kamera de shashin o torimasu.",
-        english: "I take pictures with a camera.",
-        french: "Je prends des photos avec un appareil photo."
-      }
-    ]
-  },
-  {
     id: "kayoubi",
     japanese: "火曜日",
     hiragana: "かようび",
