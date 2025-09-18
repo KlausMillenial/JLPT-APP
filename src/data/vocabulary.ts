@@ -227,7 +227,7 @@ export const vocabularyData: VocabularyWord[] = [
     "level": "N5",
     "category": "time",
     "wordType": "noun",
-    "imageUrl": "morningImage",
+    "imageUrl": morningImage,
     "examples": [
       {
         "japanese": "朝、コーヒーを飲みます。",
