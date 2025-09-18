@@ -11343,7 +11343,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "communication",
   wordType: "noun",
-  imageUrl: letterImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "友達に手紙を書きました。",
@@ -11374,7 +11374,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: tocarryImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "荷物を運びました。",
@@ -11405,7 +11405,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: touseImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "この辞書を使ってください。",
@@ -11436,7 +11436,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "furniture",
   wordType: "noun",
-  imageUrl: tableImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "テーブルの上に花があります。",
@@ -11467,7 +11467,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "adjective",
   wordType: "adjective",
-  imageUrl: kindImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "彼はとても優しいです。",
@@ -11498,7 +11498,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "school",
   wordType: "noun",
-  imageUrl: exampleImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "先生が手本を見せました。",
@@ -11529,7 +11529,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "communication",
   wordType: "noun",
-  imageUrl: phoneImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "友達に電話しました。",
@@ -11560,7 +11560,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "object",
   wordType: "noun",
-  imageUrl: electricityImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "電気を消してください。",
@@ -11591,7 +11591,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "transport",
   wordType: "noun",
-  imageUrl: trainImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "毎日電車で通勤します。",
@@ -11622,7 +11622,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "communication",
   wordType: "noun",
-  imageUrl: phonenumberImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "電話番号を教えてください。",
@@ -11653,7 +11653,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: toleaveImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "8時に家を出ます。",
@@ -11684,7 +11684,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "art",
   wordType: "noun",
-  imageUrl: designImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "この椅子のデザインはモダンです。",
@@ -11715,7 +11715,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "food",
   wordType: "noun",
-  imageUrl: dessertImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "デザートに果物を食べました。",
@@ -11746,7 +11746,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "culture",
   wordType: "noun",
-  imageUrl: disneyImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "彼女はディズニーが大好きです。",
@@ -11777,7 +11777,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "object",
   wordType: "noun",
-  imageUrl: doorImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "ドアを閉めてください。",
@@ -11808,7 +11808,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "language",
   wordType: "noun",
-  imageUrl: germanlanguageImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "ドイツ語を習っています。",
@@ -11839,7 +11839,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "location",
   wordType: "noun",
-  imageUrl: placeImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "良い所に住んでいます。",
@@ -11870,7 +11870,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "interrogative",
-  imageUrl: whereImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "駅はどこですか？",
@@ -11901,7 +11901,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "adverb",
-  imageUrl: somewhereImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どこかに財布を忘れました。",
@@ -11932,7 +11932,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "adverb",
-  imageUrl: anywhereImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どこでも座ってください。",
@@ -11963,7 +11963,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "phrase",
-  imageUrl: somefoodImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どこか食べ物を買いましょう。",
@@ -11994,7 +11994,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "science",
   wordType: "noun",
-  imageUrl: poisonImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "毒物を飲んではいけません。",
@@ -12025,7 +12025,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "concept",
   wordType: "noun",
-  imageUrl: independenceImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "国の独立を祝います。",
@@ -12056,7 +12056,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "hobby",
   wordType: "noun",
-  imageUrl: readingImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "私の趣味は読書です。",
@@ -12087,7 +12087,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "status",
   wordType: "adjective",
-  imageUrl: singleImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "彼はまだ独身です。",
@@ -12118,7 +12118,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "adjective",
   wordType: "adjective",
-  imageUrl: uniqueImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "彼の絵は独特です。",
@@ -12149,7 +12149,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "adjective",
   wordType: "adjective",
-  imageUrl: uniqueadjImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "日本料理は独特な味があります。",
@@ -12180,7 +12180,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "interrogative",
-  imageUrl: whichoneImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どれが好きですか？",
@@ -12211,7 +12211,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "adverb",
-  imageUrl: allImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どれも好きです。",
@@ -12242,7 +12242,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "concept",
   wordType: "noun",
-  imageUrl: effortImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "努力すれば成功します。",
@@ -12273,7 +12273,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "interrogative",
-  imageUrl: whyImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どうして遅れたのですか？",
@@ -12304,7 +12304,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "phrase",
-  imageUrl: pleaseImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "どうぞお入りください。",
@@ -12335,7 +12335,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "nature",
   wordType: "noun",
-  imageUrl: animalImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "動物が好きです。",
@@ -12366,7 +12366,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "place",
   wordType: "noun",
-  imageUrl: zooImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "動物園に行きました。",
@@ -12397,7 +12397,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "object",
   wordType: "noun",
-  imageUrl: toolImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "新しい道具を買いました。",
@@ -12428,7 +12428,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "transport",
   wordType: "noun",
-  imageUrl: roadImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "道路を渡ります。",
@@ -12459,7 +12459,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "clothing",
   wordType: "noun",
-  imageUrl: clothesImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "新しい服を着ました。",
@@ -12490,7 +12490,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "place",
   wordType: "noun",
-  imageUrl: roomImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "部屋を掃除しました。",
@@ -12521,7 +12521,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "nature",
   wordType: "noun",
-  imageUrl: flowerImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "花がきれいです。",
@@ -12552,7 +12552,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "time",
   wordType: "noun",
-  imageUrl: timeImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "学生の時は忙しかったです。",
@@ -12583,7 +12583,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "people",
   wordType: "noun",
-  imageUrl: friendImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "友達と話しました。",
@@ -12614,7 +12614,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "people",
   wordType: "noun",
-  imageUrl: friendsImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "友達たちと旅行しました。",
@@ -12645,7 +12645,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "animal",
   wordType: "noun",
-  imageUrl: birdImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "鳥が空を飛んでいます。",
@@ -12676,7 +12676,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "food",
   wordType: "noun",
-  imageUrl: chickenmeatImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "鶏肉を食べます。",
@@ -12707,7 +12707,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: totakeImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "写真を取ります。",
@@ -12738,7 +12738,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: tocancelImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "予約を取り消しました。",
@@ -12769,7 +12769,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "verb",
   wordType: "verb",
-  imageUrl: toleavebehindImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "かばんを取り残しました。",
@@ -12800,7 +12800,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "verb",
-  imageUrl: totakeabreakImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "夏休みを取ります。",
@@ -12831,7 +12831,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "expression",
   wordType: "verb",
-  imageUrl: tomakeacopyImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "資料のコピーを取ってください。",
@@ -12862,7 +12862,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "place",
   wordType: "noun",
-  imageUrl: libraryImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "図書館で勉強します。",
@@ -12893,7 +12893,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "time",
   wordType: "noun",
-  imageUrl: yearImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "新しい年が始まりました。",
@@ -12924,7 +12924,7 @@ export const vocabularyData: VocabularyWord[] = [
   level: "N5",
   category: "location",
   wordType: "noun",
-  imageUrl: insideislandImage,
+  imageUrl: undefined,
   examples: [
 {
     japanese: "島内を歩きました。",
