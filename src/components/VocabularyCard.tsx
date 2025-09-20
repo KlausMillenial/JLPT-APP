@@ -37,11 +37,19 @@ export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
           <div className="flex flex-col h-full">
             {/* Image section - Larger portion of the card */}
             <div className="h-48 md:h-64 relative overflow-hidden">
-              <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
-                <span className="text-sm text-primary/60 text-center">
-                  Visual learning coming soon
-                </span>
-              </div>
+              {word.imageUrl ? (
+                <img 
+                  src={word.imageUrl} 
+                  alt={translation}
+                  className="w-full h-full object-cover min-h-full"
+                />
+              ) : (
+                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
+                  <span className="text-sm text-primary/60 text-center">
+                    No image available
+                  </span>
+                </div>
+              )}
             </div>
             
             {/* Content section - Other half of the card */}

@@ -38,40 +38,40 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
   // Initialize quiz cards
   const initializeQuiz = useCallback(() => {
-    // Use all words since images are not currently available
-    const wordsForQuiz = currentVocabularyData;
+    // Filter words that have images
+    const wordsWithImages = currentVocabularyData.filter(word => word.imageUrl);
     
-    if (wordsForQuiz.length < 2) {
-      toast.error('Need at least 2 words for the quiz');
+    if (wordsWithImages.length < 2) {
+      toast.error('Need at least 2 words with images for the quiz');
       return;
     }
 
-    const shuffled = [...wordsForQuiz].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, Math.min(15, wordsForQuiz.length)); // Up to 15 cards
+    const shuffled = [...wordsWithImages].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, Math.min(15, wordsWithImages.length)); // Up to 15 cards
 
     const cards: QuizCard[] = [];
     
-    // Create cards for correct translation matching (text-based quiz for now)
+    // Create cards for correct images
     selected.forEach(word => {
       const translation = word[selectedLanguage] || word.english;
       cards.push({
         word,
         translation,
-        displayImage: "/placeholder.svg", // Placeholder for now
+        displayImage: word.imageUrl!,
         isCorrectImage: true,
       });
     });
     
-    // Create cards for incorrect translations (using other words' translations)
+    // Create cards for incorrect images (using other words' images)
     selected.forEach(word => {
-      const otherWords = wordsForQuiz.filter(w => w.id !== word.id);
+      const otherWords = wordsWithImages.filter(w => w.id !== word.id);
       const incorrectWord = otherWords[Math.floor(Math.random() * otherWords.length)];
       const translation = word[selectedLanguage] || word.english;
       
       cards.push({
         word,
         translation,
-        displayImage: "/placeholder.svg", // Placeholder for now
+        displayImage: incorrectWord.imageUrl!,
         isCorrectImage: false,
       });
     });
