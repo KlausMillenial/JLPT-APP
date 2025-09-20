@@ -19,11 +19,8 @@ interface SwipeQuizProps {
 interface QuizCard {
   word: VocabularyWord;
   translation: string;
-  correctImage: string;
-  incorrectImage: string;
-  correctImageWord: VocabularyWord;
-  incorrectImageWord: VocabularyWord;
-  correctPosition: 'left' | 'right';
+  displayImage: string;
+  isCorrectImage: boolean;
 }
 
 export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: SwipeQuizProps) => {
@@ -34,6 +31,8 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
   const [isAnimating, setIsAnimating] = useState(false);
   const [quizCards, setQuizCards] = useState<QuizCard[]>([]);
   const [showResults, setShowResults] = useState(false);
+  const [cardPosition, setCardPosition] = useState({ x: 0, y: 0 });
+  const [isDragging, setIsDragging] = useState(false);
 
   const currentVocabularyData = propVocabularyData || vocabularyData;
 
@@ -50,39 +49,51 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     const shuffled = [...wordsWithImages].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, Math.min(15, wordsWithImages.length)); // Up to 15 cards
 
-    const cards: QuizCard[] = selected.map(word => {
+    const cards: QuizCard[] = [];
+    
+    // Create cards for correct images
+    selected.forEach(word => {
       const translation = word[selectedLanguage] || word.english;
-      
-      // Get a random incorrect image from other words
-      const otherWords = wordsWithImages.filter(w => w.id !== word.id);
-      const incorrectWord = otherWords[Math.floor(Math.random() * otherWords.length)];
-      
-      // Randomly decide if correct answer is on left or right
-      const correctPosition: 'left' | 'right' = Math.random() < 0.5 ? 'left' : 'right';
-      
-      return {
+      cards.push({
         word,
         translation,
-        correctImage: word.imageUrl!,
-        incorrectImage: incorrectWord.imageUrl!,
-        correctImageWord: word,
-        incorrectImageWord: incorrectWord,
-        correctPosition,
-      };
+        displayImage: word.imageUrl!,
+        isCorrectImage: true,
+      });
     });
+    
+    // Create cards for incorrect images (using other words' images)
+    selected.forEach(word => {
+      const otherWords = wordsWithImages.filter(w => w.id !== word.id);
+      const incorrectWord = otherWords[Math.floor(Math.random() * otherWords.length)];
+      const translation = word[selectedLanguage] || word.english;
+      
+      cards.push({
+        word,
+        translation,
+        displayImage: incorrectWord.imageUrl!,
+        isCorrectImage: false,
+      });
+    });
+    
+    // Shuffle all cards
+    const shuffledCards = cards.sort(() => Math.random() - 0.5);
 
-    setQuizCards(cards);
+    setQuizCards(shuffledCards);
     setCurrentCardIndex(0);
     setScore({ correct: 0, total: 0 });
     setShowResults(false);
+    setCardPosition({ x: 0, y: 0 });
   }, [currentVocabularyData, selectedLanguage]);
 
-  // Handle swipe selection
-  const handleSwipe = useCallback((direction: 'left' | 'right') => {
+  // Handle swipe selection (up = correct, down = incorrect)
+  const handleSwipe = useCallback((direction: 'up' | 'down') => {
     if (isAnimating) return;
 
     const currentCard = quizCards[currentCardIndex];
-    const isCorrect = direction === currentCard?.correctPosition;
+    const userSaysCorrect = direction === 'up';
+    const isCorrect = userSaysCorrect === currentCard?.isCorrectImage;
+    
     setIsAnimating(true);
     setShowFeedback(isCorrect ? 'correct' : 'wrong');
 
@@ -96,6 +107,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     setTimeout(() => {
       setShowFeedback(null);
       setIsAnimating(false);
+      setCardPosition({ x: 0, y: 0 });
 
       if (currentCardIndex + 1 >= quizCards.length) {
         setShowResults(true);
@@ -104,6 +116,35 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
       }
     }, 1500);
   }, [currentCardIndex, quizCards, isAnimating]);
+
+  // Touch/Mouse handlers for swipe gestures
+  const handleStart = useCallback((clientY: number) => {
+    if (isAnimating) return;
+    setIsDragging(true);
+    setCardPosition(prev => ({ ...prev, startY: clientY }));
+  }, [isAnimating]);
+
+  const handleMove = useCallback((clientY: number) => {
+    if (!isDragging || isAnimating) return;
+    const deltaY = clientY - (cardPosition as any).startY;
+    setCardPosition(prev => ({ ...prev, y: deltaY }));
+  }, [isDragging, isAnimating, cardPosition]);
+
+  const handleEnd = useCallback(() => {
+    if (!isDragging || isAnimating) return;
+    setIsDragging(false);
+    
+    const threshold = 100;
+    if (Math.abs(cardPosition.y) > threshold) {
+      if (cardPosition.y < -threshold) {
+        handleSwipe('up');
+      } else if (cardPosition.y > threshold) {
+        handleSwipe('down');
+      }
+    } else {
+      setCardPosition({ x: 0, y: 0 });
+    }
+  }, [isDragging, isAnimating, cardPosition.y, handleSwipe]);
 
   const startQuiz = () => {
     setQuizStarted(true);
@@ -118,6 +159,8 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     setIsAnimating(false);
     setQuizCards([]);
     setShowResults(false);
+    setCardPosition({ x: 0, y: 0 });
+    setIsDragging(false);
   };
 
   if (!quizStarted) {
@@ -142,15 +185,15 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
               <div className="space-y-4 text-left">
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-green-500 flex items-center justify-center">
-                    <ChevronRight className="w-5 h-5 text-white" />
+                    <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-b-[8px] border-l-transparent border-r-transparent border-b-white"></div>
                   </div>
-                  <span>Swipe right if you know the Japanese word</span>
+                  <span>Swipe up if the image matches the Japanese word</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-8 h-8 rounded-full bg-red-500 flex items-center justify-center">
-                    <ChevronLeft className="w-5 h-5 text-white" />
+                    <div className="w-0 h-0 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-white"></div>
                   </div>
-                  <span>Swipe left if you don't know it</span>
+                  <span>Swipe down if the image doesn't match</span>
                 </div>
               </div>
               
@@ -264,119 +307,143 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
       <main className="container mx-auto px-4 py-12 flex items-center justify-center min-h-[calc(100vh-200px)]">
         <div className="max-w-sm mx-auto relative">
           {/* Quiz Card */}
-          <Card className={`relative card-elegant p-0 overflow-hidden transition-all duration-300 ${
-            showFeedback === 'correct' ? 'ring-4 ring-green-500 scale-105' : 
-            showFeedback === 'wrong' ? 'ring-4 ring-red-500 scale-105' : ''
-          }`}>
-            {/* Feedback Overlay */}
-            {showFeedback && (
-              <div className={`absolute inset-0 z-20 flex items-center justify-center ${
-                showFeedback === 'correct' ? 'bg-green-500/90' : 'bg-red-500/90'
+          <div 
+            className={`relative select-none touch-none transition-transform duration-200 ${
+              isDragging ? 'cursor-grabbing' : 'cursor-grab'
+            }`}
+            style={{
+              transform: `translate(${cardPosition.x}px, ${cardPosition.y}px) rotate(${cardPosition.y * 0.1}deg)`,
+            }}
+            onMouseDown={(e) => handleStart(e.clientY)}
+            onMouseMove={(e) => handleMove(e.clientY)}
+            onMouseUp={handleEnd}
+            onMouseLeave={handleEnd}
+            onTouchStart={(e) => handleStart(e.touches[0].clientY)}
+            onTouchMove={(e) => handleMove(e.touches[0].clientY)}
+            onTouchEnd={handleEnd}
+          >
+            <Card className={`relative card-elegant p-0 overflow-hidden transition-all duration-300 ${
+              showFeedback === 'correct' ? 'ring-4 ring-green-500 scale-105' : 
+              showFeedback === 'wrong' ? 'ring-4 ring-red-500 scale-105' : ''
+            }`}>
+              {/* Swipe Indicators */}
+              <div className={`absolute top-4 left-4 z-10 transition-opacity duration-200 ${
+                cardPosition.y < -50 ? 'opacity-100' : 'opacity-0'
               }`}>
-                <div className="text-white text-center">
-                  {showFeedback === 'correct' ? (
-                    <Check className="w-16 h-16 mx-auto mb-2" />
-                  ) : (
-                    <X className="w-16 h-16 mx-auto mb-2" />
-                  )}
-                  <div className="text-2xl font-bold">
-                    {showFeedback === 'correct' ? 'Correct!' : 'Keep Learning!'}
-                  </div>
-                  <div className="text-lg mt-2">
-                    {currentCard.word.japanese} = {currentCard.translation}
-                  </div>
+                <div className="bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold transform rotate-12">
+                  MATCH ✓
                 </div>
               </div>
-            )}
-
-            <div className="h-96">
-              {/* Word Section */}
-              <div className="p-6 text-center border-b">
-                <h3 className="text-3xl font-bold text-primary mb-2">
-                  {currentCard.word.japanese}
-                </h3>
-                <div className="flex items-center justify-center gap-2">
-                  <p className="text-lg text-muted-foreground">
-                    {currentCard.word.hiragana}
-                  </p>
-                  <VoiceButton 
-                    text={currentCard.word.hiragana}
-                    language="japanese"
-                    variant="ghost"
-                    size="icon"
-                    className="hover:bg-primary/10"
-                  />
-                </div>
-                <div className="flex justify-center gap-2 mt-3">
-                  <Badge variant="secondary" className="text-xs">
-                    {currentCard.word.level}
-                  </Badge>
-                  <Badge variant="outline" className="text-xs">
-                    {currentCard.word.category}
-                  </Badge>
+              <div className={`absolute top-4 right-4 z-10 transition-opacity duration-200 ${
+                cardPosition.y > 50 ? 'opacity-100' : 'opacity-0'
+              }`}>
+                <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold transform -rotate-12">
+                  NO MATCH ✗
                 </div>
               </div>
 
-              {/* Images Section */}
-              <div className="flex h-56">
-                {/* Left Image */}
-                <div 
-                  className="flex-1 relative cursor-pointer hover:opacity-80 transition-opacity group"
-                  onClick={() => handleSwipe('left')}
-                >
-                  <img 
-                    src={currentCard.correctPosition === 'left' ? currentCard.correctImage : currentCard.incorrectImage} 
-                    alt={currentCard.correctPosition === 'left' ? currentCard.correctImageWord.english : currentCard.incorrectImageWord.english}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className={`absolute inset-0 ${currentCard.correctPosition === 'left' ? 'bg-green-500/20' : 'bg-red-500/20'} opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
-                    <ChevronLeft className="w-8 h-8 text-white" />
+              {/* Feedback Overlay */}
+              {showFeedback && (
+                <div className={`absolute inset-0 z-20 flex items-center justify-center ${
+                  showFeedback === 'correct' ? 'bg-green-500/90' : 'bg-red-500/90'
+                }`}>
+                  <div className="text-white text-center">
+                    {showFeedback === 'correct' ? (
+                      <Check className="w-16 h-16 mx-auto mb-2" />
+                    ) : (
+                      <X className="w-16 h-16 mx-auto mb-2" />
+                    )}
+                    <div className="text-2xl font-bold">
+                      {showFeedback === 'correct' ? 'Correct!' : 'Keep Learning!'}
+                    </div>
+                    <div className="text-lg mt-2">
+                      {currentCard.word.japanese} = {currentCard.translation}
+                    </div>
+                    <div className="text-sm mt-1 opacity-75">
+                      {currentCard.isCorrectImage ? 'This image was correct' : 'This image was incorrect'}
+                    </div>
                   </div>
                 </div>
-                
-                {/* Right Image */}
-                <div 
-                  className="flex-1 relative cursor-pointer hover:opacity-80 transition-opacity group border-l"
-                  onClick={() => handleSwipe('right')}
-                >
-                  <img 
-                    src={currentCard.correctPosition === 'right' ? currentCard.correctImage : currentCard.incorrectImage} 
-                    alt={currentCard.correctPosition === 'right' ? currentCard.correctImageWord.english : currentCard.incorrectImageWord.english}
-                    className="w-full h-full object-cover"
-                  />
-                  <div className={`absolute inset-0 ${currentCard.correctPosition === 'right' ? 'bg-green-500/20' : 'bg-red-500/20'} opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
-                    <ChevronRight className="w-8 h-8 text-white" />
+              )}
+
+              <div className="h-[500px]">
+                {/* Word Section */}
+                <div className="p-6 text-center border-b bg-background/95">
+                  <h3 className="text-3xl font-bold text-primary mb-2">
+                    {currentCard.word.japanese}
+                  </h3>
+                  <div className="flex items-center justify-center gap-2">
+                    <p className="text-lg text-muted-foreground">
+                      {currentCard.word.hiragana}
+                    </p>
+                    <VoiceButton 
+                      text={currentCard.word.hiragana}
+                      language="japanese"
+                      variant="ghost"
+                      size="icon"
+                      className="hover:bg-primary/10"
+                    />
                   </div>
+                  <div className="flex justify-center gap-2 mt-3">
+                    <Badge variant="secondary" className="text-xs">
+                      {currentCard.word.level}
+                    </Badge>
+                    <Badge variant="outline" className="text-xs">
+                      {currentCard.word.category}
+                    </Badge>
+                  </div>
+                </div>
+
+                {/* Image Section */}
+                <div className="h-80 relative">
+                  <img 
+                    src={currentCard.displayImage} 
+                    alt="Vocabulary word"
+                    className="w-full h-full object-cover"
+                    draggable={false}
+                  />
                 </div>
               </div>
-            </div>
-          </Card>
+            </Card>
+          </div>
 
           {/* Swipe Instructions */}
-          <div className="text-center mt-6 text-sm text-muted-foreground">
-            Which image matches "{currentCard.word.japanese}"?
+          <div className="text-center mt-6 space-y-2">
+            <div className="text-sm text-muted-foreground">
+              Does this image match "{currentCard.word.japanese}"?
+            </div>
+            <div className="flex justify-center gap-6 text-xs text-muted-foreground">
+              <div className="flex items-center gap-1">
+                <div className="w-0 h-0 border-l-[4px] border-r-[4px] border-b-[5px] border-l-transparent border-r-transparent border-b-green-500"></div>
+                <span>Swipe up for YES</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <div className="w-0 h-0 border-l-[4px] border-r-[4px] border-t-[5px] border-l-transparent border-r-transparent border-t-red-500"></div>
+                <span>Swipe down for NO</span>
+              </div>
+            </div>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex gap-4 mt-4">
+          <div className="flex gap-4 mt-6">
             <Button
-              onClick={() => handleSwipe('left')}
+              onClick={() => handleSwipe('down')}
               disabled={isAnimating}
               variant="outline"
               size="lg"
-              className={`flex-1 py-4 ${currentCard.correctPosition === 'left' ? 'bg-green-600 hover:bg-green-700 text-white' : 'border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300'}`}
+              className="flex-1 py-4 border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300"
             >
-              <ChevronLeft className="w-6 h-6 mr-2" />
-              Left Image
+              <X className="w-6 h-6 mr-2" />
+              No Match
             </Button>
             <Button
-              onClick={() => handleSwipe('right')}
+              onClick={() => handleSwipe('up')}
               disabled={isAnimating}
               size="lg"
-              className={`flex-1 py-4 ${currentCard.correctPosition === 'right' ? 'bg-green-600 hover:bg-green-700 text-white' : 'border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300'}`}
+              className="flex-1 py-4 bg-green-600 hover:bg-green-700"
             >
-              <ChevronRight className="w-6 h-6 mr-2" />
-              Right Image
+              <Check className="w-6 h-6 mr-2" />
+              Match
             </Button>
           </div>
         </div>
