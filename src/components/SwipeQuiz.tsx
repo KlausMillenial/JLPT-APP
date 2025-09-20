@@ -23,6 +23,7 @@ interface QuizCard {
   incorrectImage: string;
   correctImageWord: VocabularyWord;
   incorrectImageWord: VocabularyWord;
+  correctPosition: 'left' | 'right';
 }
 
 export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: SwipeQuizProps) => {
@@ -56,6 +57,9 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
       const otherWords = wordsWithImages.filter(w => w.id !== word.id);
       const incorrectWord = otherWords[Math.floor(Math.random() * otherWords.length)];
       
+      // Randomly decide if correct answer is on left or right
+      const correctPosition: 'left' | 'right' = Math.random() < 0.5 ? 'left' : 'right';
+      
       return {
         word,
         translation,
@@ -63,6 +67,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
         incorrectImage: incorrectWord.imageUrl!,
         correctImageWord: word,
         incorrectImageWord: incorrectWord,
+        correctPosition,
       };
     });
 
@@ -72,11 +77,12 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     setShowResults(false);
   }, [currentVocabularyData, selectedLanguage]);
 
-  // Handle swipe selection (left = incorrect, right = correct)
+  // Handle swipe selection
   const handleSwipe = useCallback((direction: 'left' | 'right') => {
     if (isAnimating) return;
 
-    const isCorrect = direction === 'right';
+    const currentCard = quizCards[currentCardIndex];
+    const isCorrect = direction === currentCard?.correctPosition;
     setIsAnimating(true);
     setShowFeedback(isCorrect ? 'correct' : 'wrong');
 
@@ -313,32 +319,32 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
 
               {/* Images Section */}
               <div className="flex h-56">
-                {/* Left Image (Incorrect) */}
+                {/* Left Image */}
                 <div 
                   className="flex-1 relative cursor-pointer hover:opacity-80 transition-opacity group"
                   onClick={() => handleSwipe('left')}
                 >
                   <img 
-                    src={currentCard.incorrectImage} 
-                    alt={currentCard.incorrectImageWord.english}
+                    src={currentCard.correctPosition === 'left' ? currentCard.correctImage : currentCard.incorrectImage} 
+                    alt={currentCard.correctPosition === 'left' ? currentCard.correctImageWord.english : currentCard.incorrectImageWord.english}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-red-500/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <div className={`absolute inset-0 ${currentCard.correctPosition === 'left' ? 'bg-green-500/20' : 'bg-red-500/20'} opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                     <ChevronLeft className="w-8 h-8 text-white" />
                   </div>
                 </div>
                 
-                {/* Right Image (Correct) */}
+                {/* Right Image */}
                 <div 
                   className="flex-1 relative cursor-pointer hover:opacity-80 transition-opacity group border-l"
                   onClick={() => handleSwipe('right')}
                 >
                   <img 
-                    src={currentCard.correctImage} 
-                    alt={currentCard.correctImageWord.english}
+                    src={currentCard.correctPosition === 'right' ? currentCard.correctImage : currentCard.incorrectImage} 
+                    alt={currentCard.correctPosition === 'right' ? currentCard.correctImageWord.english : currentCard.incorrectImageWord.english}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-green-500/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <div className={`absolute inset-0 ${currentCard.correctPosition === 'right' ? 'bg-green-500/20' : 'bg-red-500/20'} opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center`}>
                     <ChevronRight className="w-8 h-8 text-white" />
                   </div>
                 </div>
@@ -358,7 +364,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
               disabled={isAnimating}
               variant="outline"
               size="lg"
-              className="flex-1 py-4 border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300"
+              className={`flex-1 py-4 ${currentCard.correctPosition === 'left' ? 'bg-green-600 hover:bg-green-700 text-white' : 'border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300'}`}
             >
               <ChevronLeft className="w-6 h-6 mr-2" />
               Left Image
@@ -367,7 +373,7 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
               onClick={() => handleSwipe('right')}
               disabled={isAnimating}
               size="lg"
-              className="flex-1 py-4 bg-green-600 hover:bg-green-700"
+              className={`flex-1 py-4 ${currentCard.correctPosition === 'right' ? 'bg-green-600 hover:bg-green-700 text-white' : 'border-red-200 text-red-600 hover:bg-red-50 hover:text-red-700 hover:border-red-300'}`}
             >
               <ChevronRight className="w-6 h-6 mr-2" />
               Right Image
