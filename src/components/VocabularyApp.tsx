@@ -1,10 +1,13 @@
+
+
 import { useState, useMemo, useCallback, useEffect } from 'react';
 import { VocabularyCard } from './VocabularyCard';
 import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
 import { QuizApp } from './QuizApp';
 import { SwipeQuiz } from './SwipeQuiz';
-
+import { StoryGenerator } from './StoryGenerator';
+import WritingCard from './WritingCard';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
 import { BookOpen, Users, Star, Brain, Loader2, List, Move } from 'lucide-react';
@@ -19,6 +22,8 @@ import { useDebounce } from '@/hooks/useDebounce';
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
 export const VocabularyApp = () => {
+  const [showWriting, setShowWriting] = useState(false);
+const [selectedWord, setSelectedWord] = useState<VocabularyWord | null>(null);
   const [currentView, setCurrentView] = useState('vocabulary');
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLevel, setSelectedLevel] = useState('all');
@@ -27,6 +32,7 @@ export const VocabularyApp = () => {
   const [isTranslating, setIsTranslating] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(12);
+  const [showJapaneseFirst, setShowJapaneseFirst] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   
   // Debounce search input for better performance
@@ -192,14 +198,36 @@ export const VocabularyApp = () => {
     categories: new Set(translatedVocabulary.map(w => w.category)).size
   };
 
-  if (currentView === 'quiz') {
-    return <QuizApp selectedLanguage={language} vocabularyData={translatedVocabulary} />;
-  }
+ if (currentView === 'quiz') {
+  return (
+    <QuizApp 
+      selectedLanguage={language} 
+      vocabularyData={translatedVocabulary} 
+      onGoBack={() => setCurrentView('vocabulary')} 
+    />
+  );
+}
 
-  if (currentView === 'swipe-quiz') {
-    return <SwipeQuiz selectedLanguage={language} vocabularyData={translatedVocabulary} />;
-  }
+if (currentView === 'swipe-quiz') {
+  return (
+    <SwipeQuiz 
+      selectedLanguage={language} 
+      vocabularyData={translatedVocabulary} 
+      onGoBack={() => setCurrentView('vocabulary')} 
+    />
+  );
+}
 
+if (currentView === 'story') {
+  return (
+    <StoryGenerator
+      level={selectedLevel}
+      vocabulary={translatedVocabulary.filter(
+        (w) => selectedLevel === 'all' || w.level === selectedLevel
+      )}
+    />
+  );
+}
 
 
   return (
@@ -220,51 +248,64 @@ export const VocabularyApp = () => {
               </h1>
             </div>
             
-            {/* Navigation Tabs */}
-            <div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 px-2">
-              <Button
-                variant="outline"
-                onClick={() => setCurrentView('vocabulary')}
-                className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
-                  currentView === 'vocabulary' ? "bg-white/20" : ""
-                )}
-              >
-                <BookOpen className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
-                <span className="hidden sm:inline">Study </span>Cards
-              </Button>
-              <Button
-                variant="outline"
-                onClick={() => setCurrentView('quiz')}
-                className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
-                  currentView === 'quiz' ? "bg-white/20" : ""
-                )}
-              >
-                <Brain className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
-                <span className="hidden sm:inline">Take </span>Quiz
-              </Button>
-              <Button
-                variant="outline"
-                onClick={() => setCurrentView('swipe-quiz')}
-                className={cn(
-                  "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
-                  currentView === 'swipe-quiz' ? "bg-white/20" : ""
-                )}
-              >
-                <Move className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
-                Swipe
-              </Button>
-              <Button
-                variant="outline"
-                onClick={handleShowAllWords}
-                className="bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm"
-                title="View complete word list in console"
-              >
-                <List className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
-                <span className="hidden md:inline">View All </span>Words
-              </Button>
-            </div>
+  {/* Navigation Tabs */}
+<div className="flex flex-wrap justify-center gap-2 md:gap-4 mb-6 px-2">
+  <Button
+    variant="outline"
+    onClick={() => setCurrentView('swipe-quiz')}
+    className={cn(
+      "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
+      currentView === 'swipe-quiz' ? "bg-white/20" : ""
+    )}
+  >
+    <Move className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+    Swipe
+  </Button>
+
+  <Button
+    variant="outline"
+    onClick={() => setCurrentView('quiz')}
+    className={cn(
+      "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
+      currentView === 'quiz' ? "bg-white/20" : ""
+    )}
+  >
+    <Brain className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+    Quiz
+  </Button>
+
+    <Button
+    variant="outline"
+    onClick={() => setCurrentView('story')}
+    className={cn(
+      "bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm",
+      currentView === 'story' ? "bg-white/20" : ""
+    )}
+  >
+    📖 Story
+  </Button>
+
+
+  {/* 🔹 NEW TOGGLE BUTTON */}
+  <Button
+    variant="outline"
+    onClick={() => setShowJapaneseFirst(prev => !prev)}
+    className="bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm"
+  >
+    {showJapaneseFirst ? "Show Target First" : "Show Japanese First"}
+  </Button>
+
+  <Button
+    variant="outline"
+    onClick={handleShowAllWords}
+    className="bg-white/10 border-white/20 text-white hover:bg-white/20 text-xs md:text-sm"
+    title="View complete word list in console"
+  >
+    <List className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2" />
+    <span className="hidden md:inline">View All </span>Words
+  </Button>
+</div>
+
             <p className="text-sm md:text-xl opacity-90 max-w-2xl mx-auto px-4">
               {language === 'english' 
                 ? 'Master Japanese vocabulary for JLPT exams with interactive flashcards and voice pronunciation'
@@ -310,7 +351,7 @@ export const VocabularyApp = () => {
           onLanguageChange={handleLanguageChange}
         />
 
-        {/* Results Count */}
+            {/* Results Count */}
         <div className="mb-8 text-center space-y-2">
           <Badge variant="secondary" className="text-lg px-4 py-2">
             {language === 'english' 
@@ -326,24 +367,32 @@ export const VocabularyApp = () => {
           )}
         </div>
 
-        {/* Vocabulary Cards Grid */}
-        {isLoading ? (
-          <div className="flex justify-center items-center py-12">
-            <Loader2 className="w-8 h-8 animate-spin text-primary mr-3" />
-            <span className="text-lg">Loading vocabulary...</span>
-          </div>
-        ) : paginatedWords.length > 0 ? (
+        {stats.filtered > 0 ? (
           <>
+            {/* Vocabulary Cards Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-              {paginatedWords.map((word) => (
-                <VocabularyCard 
-                  key={word.id} 
-                  word={word} 
-                  language={language}
-                />
-              ))}
+              {paginatedWords.map((word) =>
+                showWriting && selectedWord?.id === word.id ? (
+                  <WritingCard
+                    key={word.id}
+                    word={word}
+                    onGoBack={() => setShowWriting(false)}
+                  />
+                ) : (
+                  <VocabularyCard
+                    key={word.id}
+                    word={word}
+                    language={language}
+                    showJapaneseFirst={showJapaneseFirst}
+                    onPractice={() => {
+                      setSelectedWord(word);
+                      setShowWriting(true);
+                    }}
+                  />
+                )
+              )}
             </div>
-            
+
             {/* Pagination Controls */}
             {totalPages > 1 && (
               <div className="flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 mt-8 md:mt-12 px-4">
@@ -390,6 +439,7 @@ export const VocabularyApp = () => {
           </div>
         )}
       </main>
+
 
       <footer className="bg-secondary/50 py-8 mt-16">
         <div className="container mx-auto px-4 text-center text-muted-foreground">

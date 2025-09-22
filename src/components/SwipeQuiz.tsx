@@ -14,7 +14,9 @@ type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese'
 interface SwipeQuizProps {
   selectedLanguage?: LanguageOption;
   vocabularyData?: VocabularyWord[];
+  onGoBack?: () => void;  // 🔹 NEW
 }
+
 
 interface QuizCard {
   word: VocabularyWord;
@@ -23,7 +25,8 @@ interface QuizCard {
   isCorrectImage: boolean;
 }
 
-export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: SwipeQuizProps) => {
+export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData, onGoBack }: SwipeQuizProps) => {
+
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
   const [score, setScore] = useState({ correct: 0, total: 0 });
@@ -279,20 +282,30 @@ export const SwipeQuiz = ({ selectedLanguage = 'english', vocabularyData: propVo
     <div className="min-h-screen bg-background">
       <header className="gradient-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Brain className="w-8 h-8" />
-              <h1 className="text-2xl font-bold">Swipe Quiz</h1>
-            </div>
-            <Button 
-              variant="outline" 
-              onClick={resetQuiz}
-              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
-            >
-              <RotateCcw className="w-4 h-4 mr-2" />
-              Reset
-            </Button>
-          </div>
+        <div className="flex items-center justify-between">
+  <div className="flex items-center gap-3">
+    {onGoBack && (
+      <Button 
+        variant="ghost"
+        onClick={onGoBack}
+        className="text-white hover:bg-white/20"
+      >
+        <ChevronLeft className="w-5 h-5 mr-1" /> Back
+      </Button>
+    )}
+    <Brain className="w-8 h-8" />
+    <h1 className="text-2xl font-bold">Swipe Quiz</h1>
+  </div>
+  <Button 
+    variant="outline" 
+    onClick={resetQuiz}
+    className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+  >
+    <RotateCcw className="w-4 h-4 mr-2" />
+    Reset
+  </Button>
+</div>
+
           
           <div className="mt-6 space-y-2">
             <div className="flex justify-between text-sm">

@@ -1,166 +1,179 @@
-import { useState } from 'react';
-import { Card } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { VocabularyWord } from '@/data/vocabulary';
-import { VoiceButton } from './VoiceButton';
+import { useState, useEffect } from "react";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import { VocabularyWord } from "@/data/vocabulary";
+import { VoiceButton } from "./VoiceButton";
+import { ElevenLabsService } from "@/services/elevenLabsService";
+import DrawingCanvas from "./DrawingCanvas/DrawingCanvas";
 
-type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
+
+
+type LanguageOption =
+  | "english"
+  | "french"
+  | "german"
+  | "vietnamese"
+  | "chinese"
+  | "korean"
+  | "spanish";
 
 interface VocabularyCardProps {
   word: VocabularyWord;
   language: LanguageOption;
+  showJapaneseFirst?: boolean;
+  onPractice?: () => void;  // ✅ add this line
 }
 
 
-export const VocabularyCard = ({ word, language }: VocabularyCardProps) => {
-  const [isFlipped, setIsFlipped] = useState(false);
+
+export const VocabularyCard = ({ word, language, showJapaneseFirst = false, onPractice }: VocabularyCardProps) => {
+  const [isFlipped, setIsFlipped] = useState(showJapaneseFirst);
+
+useEffect(() => {
+  setIsFlipped(showJapaneseFirst);
+}, [showJapaneseFirst]);
+
 
   const handleCardClick = (e: React.MouseEvent) => {
-    // Don't flip if clicking on buttons
-    if ((e.target as HTMLElement).closest('button')) {
-      return;
-    }
+    if ((e.target as HTMLElement).closest("button")) return;
     setIsFlipped(!isFlipped);
   };
 
-  const translation = word[language] || word.english; // Fallback to English if translation not available
-  const exampleTranslation = word.examples[0]?.[language] || word.examples[0]?.english; // Fallback to English if translation not available
+  const translation = word[language] || word.english;
+  const exampleTranslation =
+    word.examples[0]?.[language] || word.examples[0]?.english;
+
+  // 🔊 joue la voix automatiquement au flip
+  useEffect(() => {
+    if (isFlipped && word.japanese) {
+      ElevenLabsService.speak(word.japanese, "japanese");
+    } else if (!isFlipped && translation) {
+      ElevenLabsService.speak(translation, language);
+    }
+  }, [isFlipped, word, translation, language]);
 
   return (
-    <div className="perspective-1000 w-full h-[400px] md:h-[500px]">
-      <div 
-        className={`card-flip cursor-pointer relative w-full h-full transition-smooth ${isFlipped ? 'flipped' : ''}`}
-        onClick={handleCardClick}
-      >
-        {/* Front of card - Translation */}
-        <Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 overflow-hidden">
-          <div className="flex flex-col h-full">
-            {/* Image section - Larger portion of the card */}
-            <div className="h-48 md:h-64 relative overflow-hidden">
-              {word.imageUrl ? (
-                <img 
-                  src={word.imageUrl} 
-                  alt={translation}
-                  className="w-full h-full object-cover min-h-full"
-                />
-              ) : (
-                <div className="w-full h-full flex flex-col items-center justify-center bg-primary/5">
-                  <span className="text-sm text-primary/60 text-center">
-                    No image available
-                  </span>
-                </div>
-              )}
-            </div>
-            
-            {/* Content section - Other half of the card */}
-            <div className="flex-1 p-4 md:p-6 flex flex-col">
-              {/* Header with badges */}
-              <div className="flex flex-wrap gap-1 md:gap-2 mb-3 md:mb-4">
-                <Badge variant="secondary" className="text-xs">
-                  {word.level}
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  {word.category}
-                </Badge>
-                <Badge variant="outline" className="text-xs">
-                  {word.wordType}
-                </Badge>
-              </div>
-              
-              {/* Translation content */}
-              <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-                <div className="flex items-center justify-center gap-2 md:gap-3">
-                  <h2 className="text-lg md:text-2xl font-bold text-primary text-center">
-                    {translation}
-                  </h2>
-                  <VoiceButton 
-                    text={translation}
-                    language={language}
-                    variant="outline"
-                    size="icon"
-                    className="hover:bg-primary/10"
-                  />
-                </div>
-                
-                {word.examples[0] && (
-                  <div className="space-y-2 pt-2 border-t border-primary/20 w-full">
-                    <p className="text-xs font-medium text-muted-foreground">Example:</p>
-                    <div className="flex items-center justify-center gap-2">
-                      <p className="text-sm text-muted-foreground">
-                        {exampleTranslation}
-                      </p>
-                      <VoiceButton 
-                        text={exampleTranslation}
-                        language={language}
-                        variant="ghost"
-                        size="icon"
-                        className="hover:bg-primary/10 opacity-70"
-                      />
-                    </div>
-                  </div>
-                )}
-              </div>
+    <div className="perspective-1000 w-full h-[400px] md:h-[500px] rounded-[1.2rem] overflow-hidden shadow-card bg-white">
 
-              <div className="mt-2 text-xs text-muted-foreground text-center">
-                Click to reveal Japanese
-              </div>
-            </div>
-          </div>
-        </Card>
+     {/* Image toujours fixe */}
+<div className="h-48 md:h-64 relative overflow-hidden">
 
-        {/* Back of card - Japanese */}
-        <Card className="card-back gradient-primary text-primary-foreground shadow-card p-4 md:p-6 border-0">
-          <div className="flex flex-col h-full">
-            
-            {/* Japanese content */}
-            <div className="flex flex-col items-center justify-center text-center space-y-3 flex-1">
-              <div className="flex items-center justify-center">
-                <h2 className="text-2xl md:text-4xl font-bold mb-2 text-center">
-                  {word.japanese}
-                </h2>
-              </div>
-              <div className="flex items-center justify-center gap-2 md:gap-3">
-                <p className="text-lg md:text-xl text-white/90 text-center">
-                  {word.hiragana}
-                </p>
-                <VoiceButton 
-                  text={word.hiragana}
-                  language="japanese"
-                  variant="ghost"
-                  size="icon"
-                  className="text-white hover:bg-white/20"
-                />
-              </div>
-              <p className="text-sm md:text-lg text-white/75 italic text-center">
-                {word.romaji}
-              </p>
-              
-              {word.examples[0] && (
-                <div className="space-y-2 pt-4 border-t border-white/20 w-full">
-                  <p className="text-sm font-medium">Example:</p>
-                  <div className="flex items-center justify-center gap-2">
-                    <p className="text-sm opacity-90">{word.examples[0].japanese}</p>
-                    <VoiceButton 
-                      text={word.examples[0].hiragana}
-                      language="japanese"
-                      variant="ghost"
-                      size="icon"
-                      className="text-white hover:bg-white/20 opacity-70"
-                    />
-                  </div>
-                  <p className="text-xs opacity-75 italic">
-                    {word.examples[0].romaji}
-                  </p>
-                </div>
-              )}
-            </div>
+  {word.imageUrl ? (
+  <img
+  src={word.imageUrl}
+  alt={word.english}
+  className="w-full h-full object-cover object-center"
+/>
 
-            <div className="mt-4 text-xs opacity-75 text-center">
-              Click to see translation again
-            </div>
-          </div>
-        </Card>
-      </div>
+
+
+  ) : (
+    <div className="w-full h-full flex items-center justify-center bg-primary/5">
+      <span className="text-sm text-primary/60">No image</span>
     </div>
-  );
+  )}
+</div>
+
+{/* Zone flip uniquement pour le texte */}
+<div
+  className={`card-flip-half cursor-pointer relative h-[240px] md:h-[280px] ${
+    isFlipped ? "flipped" : ""
+  }`}
+  onClick={handleCardClick}
+>
+
+
+
+
+  {/* Recto (Traduction) */}
+<Card className="card-front gradient-card shadow-card hover:shadow-card-hover transition-smooth p-0 border-0 h-full">
+  <div className="p-4 flex flex-col items-center justify-start space-y-3 h-full">
+
+
+
+
+      <div className="flex items-center gap-2">
+       <h2 className="text-lg md:text-2xl font-bold text-primary break-words">
+  {translation}
+</h2>
+
+
+        <VoiceButton text={translation} language={language} />
+      </div>
+
+      {word.examples[0] && (
+        <div className="space-y-1 pt-2 border-t border-primary/20 w-full">
+
+          <p className="text-xs text-muted-foreground">Example:</p>
+          <div className="flex items-center gap-2">
+            <p className="text-sm text-muted-foreground">
+              {exampleTranslation}
+            </p>
+            <VoiceButton
+              text={exampleTranslation}
+              language={language}
+              variant="ghost"
+              size="icon"
+            />
+          </div>
+        </div>
+      )}
+      <div className="mt-2 text-xs text-muted-foreground text-center">
+        Click to reveal Japanese
+      
+      </div>
+      </div>
+    
+  </Card>
+
+
+         
+
+  {/* --- Verso (Japonais) --- */}
+ <Card className="card-back gradient-primary text-primary-foreground shadow-card p-3 md:p-4 border-0 h-full">
+  <div className="flex flex-col items-center justify-start mt-2 space-y-1 h-full">
+
+      <h2 className="text-base md:text-2xl font-bold leading-tight break-words">
+        {word.japanese}
+      </h2>
+
+      <div className="flex items-center gap-1">
+        <p className="text-sm text-white/90">{word.hiragana}</p>
+        <VoiceButton text={word.hiragana} language="japanese" />
+      </div>
+
+      <p className="text-xs italic text-white/70 break-words">{word.romaji}</p>
+
+      {word.examples[0] && (
+        <div className="pt-1 border-t border-white/20 w-full text-center space-y-0.5">
+          <p className="text-xs font-medium">Example:</p>
+          <div className="flex items-center justify-center gap-1">
+            <p className="text-base break-words">{word.examples[0].japanese}</p>
+            <VoiceButton
+              text={word.examples[0].hiragana}
+              language="japanese"
+              variant="ghost"
+              size="icon"
+              className="text-white hover:bg-white/20 opacity-70"
+            />
+          </div>
+          <p className="text-xs italic opacity-70">{word.examples[0].romaji}</p>
+        </div>
+      )}
+
+      {/* ✍️ Writing practice button */}
+      <button
+        onClick={(e) => {
+          e.stopPropagation();
+          if (onPractice) onPractice();
+        }}
+        className="w-full mt-1 px-2 py-1 bg-purple-600/70 hover:bg-purple-600 text-white text-xs rounded-md shadow transition"
+      >
+        ✍️ Practice on Canvas
+      </button>
+    </div>
+  </Card>
+</div>
+</div>
+);
 };

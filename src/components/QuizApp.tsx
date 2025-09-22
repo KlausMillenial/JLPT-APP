@@ -5,7 +5,8 @@ import { QuizResults } from './QuizResults';
 import { Button } from '@/components/ui/button';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { Brain, RotateCcw, Settings } from 'lucide-react';
+import { Brain, RotateCcw, Settings, ChevronLeft } from 'lucide-react';
+
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 export type QuizType = 'japanese-to-target' | 'target-to-japanese' | 'mixed';
@@ -21,9 +22,12 @@ interface QuizSettings {
 interface QuizAppProps {
   selectedLanguage?: LanguageOption;
   vocabularyData?: any[];
+  onGoBack?: () => void;  // 🔹 NEW
 }
 
-export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData }: QuizAppProps) => {
+
+export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVocabularyData, onGoBack }: QuizAppProps) => {
+
   const [quizStarted, setQuizStarted] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [answers, setAnswers] = useState<Array<{ correct: boolean; question: any; userAnswer: string; correctAnswer: string }>>([]);
@@ -241,20 +245,30 @@ export const QuizApp = ({ selectedLanguage = 'english', vocabularyData: propVoca
     <div className="min-h-screen bg-background">
       <header className="gradient-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <Brain className="w-8 h-8" />
-              <h1 className="text-2xl font-bold">JLPT Quiz</h1>
-            </div>
-            <Button 
-              variant="outline" 
-              onClick={resetQuiz}
-              className="bg-white/10 border-white/20 text-white hover:bg-white/20"
-            >
-              <RotateCcw className="w-4 h-4 mr-2" />
-              Reset
-            </Button>
-          </div>
+        <div className="flex items-center justify-between">
+  <div className="flex items-center gap-3">
+    {onGoBack && (
+      <Button 
+        variant="ghost"
+        onClick={onGoBack}
+        className="text-white hover:bg-white/20"
+      >
+        <ChevronLeft className="w-5 h-5 mr-1" /> Back
+      </Button>
+    )}
+    <Brain className="w-8 h-8" />
+    <h1 className="text-2xl font-bold">JLPT Quiz</h1>
+  </div>
+  <Button 
+    variant="outline" 
+    onClick={resetQuiz}
+    className="bg-white/10 border-white/20 text-white hover:bg-white/20"
+  >
+    <RotateCcw className="w-4 h-4 mr-2" />
+    Reset
+  </Button>
+</div>
+
           
           <div className="mt-6 space-y-2">
             <div className="flex justify-between text-sm">
