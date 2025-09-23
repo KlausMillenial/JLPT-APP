@@ -6,7 +6,7 @@ import { VocabularyFilters } from './VocabularyFilters';
 import { ApiKeyDialog } from './ApiKeyDialog';
 import { QuizApp } from './QuizApp';
 import { SwipeQuiz } from './SwipeQuiz';
-import { StoryGenerator } from './StoryGenerator';
+import { StoryGenerator } from "./StoryGenerator";
 import WritingCard from './WritingCard';
 import { vocabularyData } from '@/data/vocabulary';
 import { TranslationService } from '@/services/translationService';
@@ -18,6 +18,9 @@ import { toast } from 'sonner';
 import { removeDuplicatesFromVocabulary, logVocabularyStats } from '@/utils/removeDuplicates';
 import { logAllWords, getWordsByCategory, getWordsByLevel } from '@/utils/listAllWords';
 import { useDebounce } from '@/hooks/useDebounce';
+
+
+
 
 type LanguageOption = 'english' | 'french' | 'german' | 'vietnamese' | 'chinese' | 'korean' | 'spanish';
 
@@ -225,9 +228,14 @@ if (currentView === 'story') {
       vocabulary={translatedVocabulary.filter(
         (w) => selectedLevel === 'all' || w.level === selectedLevel
       )}
+      allVocabulary={translatedVocabulary}      // 👈 NEW: full list for level buttons
+      onBack={() => setCurrentView('vocabulary')}
+      onLevelChange={setSelectedLevel}
     />
   );
 }
+
+
 
 
   return (
