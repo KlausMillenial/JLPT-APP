@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function StoryGenerator({ level, vocabulary, allVocabulary, onBack, onLevelChange }) {
   const [storyLines, setStoryLines] = useState<{ jp: string; romaji: string; translation?: string }[]>([]);
@@ -11,6 +11,32 @@ export function StoryGenerator({ level, vocabulary, allVocabulary, onBack, onLev
   const SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY";
 
   const limits = { N5: 3, N4: 5, N3: 8, N2: 12, N1: 15 };
+
+  // 🔊 Ensure voices load (Chrome/Safari issue)
+  useEffect(() => {
+    window.speechSynthesis.onvoiceschanged = () => {};
+  }, []);
+
+  // ✅ Speak function
+  function speakJapanese(text: string) {
+    if (!window.speechSynthesis) {
+      alert("Speech synthesis not supported in this browser.");
+      return;
+    }
+
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "ja-JP";
+    utterance.rate = 1;
+    utterance.pitch = 1;
+
+    const voices = window.speechSynthesis.getVoices();
+    const jpVoice = voices.find((v) => v.lang === "ja-JP");
+    if (jpVoice) {
+      utterance.voice = jpVoice;
+    }
+
+    window.speechSynthesis.speak(utterance);
+  }
 
   // ✅ Generate Japanese story (with romaji)
   async function generateStory() {
@@ -40,10 +66,8 @@ export function StoryGenerator({ level, vocabulary, allVocabulary, onBack, onLev
 
       let lines: { jp: string; romaji: string }[] = [];
       if (Array.isArray(data.story)) {
-        // already structured
         lines = data.story;
       } else if (typeof data.story === "string") {
-        // fallback: split string into lines
         lines = data.story.split("\n").map((line: string) => ({
           jp: line.trim(),
           romaji: "",
@@ -168,14 +192,25 @@ export function StoryGenerator({ level, vocabulary, allVocabulary, onBack, onLev
         <>
           <div className="mt-6 p-4 border rounded-md bg-gray-50 space-y-3">
   {storyLines.map((line, idx) => (
-    <div key={idx}>
-      {/* Always show Japanese */}
-      <p className="text-lg">{line.jp}</p>
+    <div key={idx} className="mb-4">
+      <div className="flex items-center gap-2">
+        {/* Japanese text */}
+        <p className="text-lg">{line.jp}</p>
+
+        {/* Speaker icon button */}
+        <button
+          onClick={() => speakJapanese(line.jp)}
+          className="text-purple-600 hover:text-purple-800"
+          title="Play audio"
+        >
+          🔊
+        </button>
+      </div>
 
       {/* Always show Romaji */}
       {line.romaji && <p className="text-gray-500 italic">{line.romaji}</p>}
 
-      {/* Only show translation if in translation mode */}
+      {/* Show translation only when in translation mode */}
       {displayMode === "translation" && line.translation && (
         <p className="text-blue-600">{line.translation}</p>
       )}

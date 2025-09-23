@@ -64,24 +64,29 @@ Output format example:
       prompt = `
 You are a Japanese tutor.
 
-Generate a short story in JSON format. 
+Generate a short, simple **connected story** in JSON format.
 
 Rules:
 - JLPT level: ${level}
-- Allowed vocabulary: ${words.join("、")}
-- You must ONLY use these words. Do not add or invent other vocabulary.
+- You MUST use ONLY these words for nouns/verbs/adjectives: ${words.join("、")}
+- Do NOT add vocabulary outside this list.
+- If needed, reuse the same words multiple times to make the story flow.
+- The story must have a beginning, middle, and end. Sentences must connect logically, not be random.
+- Keep sentences short and simple (N5 level grammar).
 - Length: EXACTLY ${maxPhrases} sentences. No more, no less.
-- Each sentence must be short and simple.
 - Each sentence must end with 。 and be separated logically.
 - Do NOT add explanations, translations, or extra text.
-- If ${level} is N5, ensure it is limited to 3 sentences maximum.
+- If ${level} is N5, limit it to 3 sentences maximum.
 
 Return format (JSON array, no extra text):
 [
-  { "jp": "私は車を買いました。", "romaji": "watashi wa kuruma o kaimashita." },
-  { "jp": "公園で遊びました。", "romaji": "kouen de asobimashita." }
+  { "jp": "私は友達と公園に行きました。", "romaji": "watashi wa tomodachi to kouen ni ikimashita." },
+  { "jp": "そこでお弁当を食べました。", "romaji": "soko de obentou o tabemashita." },
+  { "jp": "犬も一緒に遊びました。", "romaji": "inu mo issho ni asobimashita." }
 ]
 `;
+
+
     }
 
     const anthropicKey = Deno.env.get("ANTHROPIC_API_KEY");
